@@ -518,20 +518,39 @@ ul
 	box-shadow: 0px 1px 4px 0px #99A3AD, inset 0px 0px 40px #EEEEEE; 
 	border: 1px groove #ddd; 
 }
+
 /* front pane */
-#flip_back {
-	background-image:url('../images/hearthhelper_back.jpg');
+.eses.flip_back {
+	width:654px;
+	height:726px;
+	background-image:url('../images/eses/hearthhelper_back.jpg');
+}
+.enus.flip_back {
+	width:654px;
+	height:726px;
+	background-image:url('../images/enus/hearthhelper_back.jpg');
 }
 
 /* middle */
-#flip_middle {
-	background-image:url('../images/hearthhelper.jpg');
+.eses.flip_middle {
+	width:654px;
+	height:726px;
+	background-image:url('../images/eses/hearthhelper.jpg');
+}
+.enus.flip_middle {
+	width:654px;
+	height:726px;
+	background-image:url('../images/enus/hearthhelper.jpg');
 }
 
 /* back */
-#flip_front {
-	background-image:url('../images/hearthhelper_front.jpg');
+.eses.flip_front {
+	width:654px;
+	height:726px;
+	background-image:url('../images/eses/hearthhelper_front.jpg');
 }
-
-
-
+.enus.flip_front {
+	width:654px;
+	height:726px;
+	background-image:url('../images/enus/hearthhelper_front.jpg');
+}

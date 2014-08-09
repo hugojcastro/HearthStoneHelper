@@ -656,7 +656,11 @@ function refreshLocale(loc)
     });
 	
 	$('#internname').val(texts[locale].deckname);
-
+	
+	// Help card locale swap
+	var oldClass = (locale == "eses") ? "enus" : "eses";
+	$("#flip_card").removeClass(oldClass);
+	$("#flip_card").addClass(locale);
 }
 // ///////////////
 // Show / Toggle Export to Internal Data controls
@@ -782,7 +786,7 @@ function flipFront(e)
 	$(".flipbox").flippy({
     	duration: "400",
 		depth: "7.5",
-    	verso: "<div id=\"flip_middle\" onclick=\"flipMiddle(event);\"></div>"
+    	verso: "<div id=\"flip_card\" class=\"flip_middle " + locale + "\" onclick=\"flipMiddle(event);\"></div>"
  	});
 	event.stopPropagation();
 }
@@ -793,7 +797,7 @@ function flipMiddle(e)
 	$(".flipbox").flippy({
     	duration: "400",
 		depth: "7.5",
-    	verso: "<div id=\"flip_back\" onclick=\"flipBack(event);\"></div>"
+    	verso: "<div id=\"flip_card\" class=\"flip_back " + locale + "\" onclick=\"flipBack(event);\"></div>"
  	});
 	event.stopPropagation();
 }
@@ -804,7 +808,7 @@ function flipBack(e)
 	$(".flipbox").flippy({
     	duration: "400",
 		depth: "7.5",
-    	verso: "<div id=\"flip_front\" onclick=\"flipFront(event);\"></div>"
+    	verso: "<div id=\"flip_card\" class=\"flip_front " + locale + "\" onclick=\"flipFront(event);\"></div>"
  	});
 	event.stopPropagation();
 }
