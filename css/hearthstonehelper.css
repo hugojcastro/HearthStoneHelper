@@ -149,12 +149,16 @@ ul
 .name /* Card Name: Position and text properties */
 {
 	height: 24px;
-	left: 18px;
+	left: 16px;
+	padding-left: 16px;
 	line-height: 24px;
 	position: absolute;
 	top: 0;
 	z-index: 5;
 	display: block;
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	background-position: 0px 4px;
 }
 .bg /* Card Background: Common properties and position (url is defined as tag on the element) */
 {

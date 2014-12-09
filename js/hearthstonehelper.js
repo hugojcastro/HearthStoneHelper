@@ -24,13 +24,15 @@ g_hearthstone_qualities = { // Actualmente no se usan para nada más que el colo
 	4: "epic",
 	5: "legendary"
 };
-var preurl				= "http://wow.zamimg.com/images/hearthstone/cards/";
-var locale				= "eses";
-var card_size			= "/mediumj/";
-var card_extension		= ".jpg";
-var my_deck_cards		= new Array();
+var preurl			= "http://wow.zamimg.com/images/hearthstone/cards/";
+var locale			= "eses";
+var card_size		= "/mediumj/";
+var card_extension	= ".jpg";
+var cardSetUrl		= "images/sets/";
+var my_deck_cards	= new Array();
 var my_deck_hero		= 0;
-var hayCookies			= ((typeof($.cookie()) != "undefined") && ($.cookie('numDecks') !== undefined));
+var hayCookies		= ((typeof($.cookie()) != "undefined") && ($.cookie('numDecks') !== undefined));
+var cardSet			= ["", "", "", "classic", "", "", "", "", "", "", "", "", "naxx", "gvg"];
 // ///////////////
 
 // ///////////////
@@ -61,9 +63,10 @@ function cardPair(cardId, cardCount)
 function anItem()
 {
 	var sub_elem = document.createElement(arguments[0]);
-	if (typeof(arguments[1] != "undefined") && (arguments[1] != '')) $(sub_elem).attr('class', arguments[1]);
-	if (typeof(arguments[2] != "undefined") && ((arguments[2] != '') || (arguments[2] == 0))) $(sub_elem).html(arguments[2]);
-	if (typeof(arguments[3] != "undefined") && (arguments[3] != '')) $(sub_elem).css('backgroundImage', arguments[3]);
+	if ((typeof(arguments[1]) != "undefined") && (arguments[1] != '')) $(sub_elem).attr('class', arguments[1]);
+	if ((typeof(arguments[2]) != "undefined") && ((arguments[2] != '') || (arguments[2] == 0))) $(sub_elem).html(arguments[2]);
+	if ((typeof(arguments[3]) != "undefined") && (arguments[3] != '')) $(sub_elem).css('backgroundImage', arguments[3]);
+
 	return sub_elem;
 }
 // ///////////////
@@ -71,8 +74,13 @@ function anItem()
 // Use: createCard(g_hearthstone_cards card)
 function createCard(card)
 {
-		// Get card background
+	// Get card background
 	var card_url = preurl + locale + card_size + card.image + /* ((ispremium(card)) ? "_premium" : "") + */ card_extension;
+	// Get card set
+	var cardset = cardSet[card.set];
+	if (typeof(cardset) == "undefined") cardset = "";
+	if (cardset != "")
+		cardset = 'url("' + cardSetUrl + cardset + '.png")';
 	// Create card holder
 	var elem = document.createElement('li');
 	$(elem).attr('id', 'card_' + card.id);
@@ -81,6 +89,7 @@ function createCard(card)
 	$(elem).attr('card_cost', card.cost);
 	$(elem).attr('card_name', card.name);
 	$(elem).attr('card_quality', card.quality);
+	$(elem).attr('card_set', card.set);
 	$(elem).attr('class', 'card');
 	$(elem).bind('mousedown', function(e) { pickCard(e, this); });
 	$(elem).swipe( {
@@ -97,7 +106,7 @@ function createCard(card)
 	});
 	$(elem).bind('contextmenu', function(e) { return false; }); 
 	// Create card elements: card name
-	$(elem).append(anItem('span', 'name ' + g_hearthstone_qualities[card.quality], card.name));
+	$(elem).append(anItem('span', 'name ' + g_hearthstone_qualities[card.quality], card.name, cardset));
 	// card background
 	$(elem).append(anItem('span', 'bg', '<div></div>', 'url(' + card_url + ')'));
 	// card count
