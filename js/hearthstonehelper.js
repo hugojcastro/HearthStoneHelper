@@ -499,9 +499,12 @@ function updateDeckList()
 	var message;
 	if (decksFound == 0)
 	{
+		// Cookie expiration time: 1 year (365*24*60*60*1000 = 31536000000)
+		var date = new Date();
+		date.setTime(date.getTime() + 31536000000);
 		message = texts[locale].emptydecklist;
 		$('#deckliststatus').attr('title', 'emptydecklist');
-		$.cookie('numDecks', 0);
+		$.cookie('numDecks', 0, { expires: date });
 	} else {
 		message = texts[locale].loaddeckmsg;
 		$('#deckliststatus').attr('title', 'loaddeckmsg');
@@ -514,11 +517,14 @@ function addDeck2List(deckName)
 	// Take deck number
 	var storedDecks = (!hayCookies) ? 1 : parseInt($.cookie('numDecks')) + 1;
 	// Inc and save
-	$.cookie('numDecks', storedDecks);
+	// Cookie expiration time: 1 year (365*24*60*60*1000 = 31536000000)
+	var date = new Date();
+	date.setTime(date.getTime() + 31536000000);
+	$.cookie('numDecks', storedDecks, { expires: date });
 	// Save new deck
-	$.cookie('deck_' + storedDecks + '_name', deckName);
-	$.cookie('deck_' + storedDecks + '_hero', my_deck_hero);
-	$.cookie('deck_' + storedDecks + '_deck', getStringFromDeck());
+	$.cookie('deck_' + storedDecks + '_name', deckName, { expires: date });
+	$.cookie('deck_' + storedDecks + '_hero', my_deck_hero, { expires: date });
+	$.cookie('deck_' + storedDecks + '_deck', getStringFromDeck(), { expires: date });
 	// Update cookies!
 	hayCookies	= true;
 }
@@ -546,7 +552,11 @@ function deleteDeckFromList(idx)
 	// If no decks found, we need to reset the counter to zero
 	if (!found)
 	{
-		$.cookie('numDecks', 0);
+		// Cookie expiration time: 1 year (365*24*60*60*1000 = 31536000000)
+		var date = new Date();
+		date.setTime(date.getTime() + 31536000000);
+
+		$.cookie('numDecks', 0, { expires: date});
 	}
 	// Ok. All right and finish
 	return true;
@@ -599,7 +609,7 @@ function localSaveDeck()
 	saveDeck();
 	// Hide save button
 	$('.save.store').hide(400, 'swing');
-	// Check if load button should be saved
+	// Check if load button should be visible
 	if (hayCookies && (parseInt($.cookie('numDecks')) > 0))
 		$('.load.store').show(400, 'swing');
 	else
@@ -861,7 +871,7 @@ $(document).ready(function(e)
 	$('#internname').val(texts[locale].deckname);
 	
 	// No saved decks? Don't show the load button
-	if (!hayCookies) $('.load.store').hide();
+	if ((!hayCookies) || (parseInt($.cookie('numDecks')) == 0)) $('.load.store').hide();
 	$('.save.store').hide();
 	
 	updateDeckList();
