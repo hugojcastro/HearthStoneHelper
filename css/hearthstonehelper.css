@@ -122,6 +122,65 @@ ul
 	color: #ff8000!important;
 }
 
+/* STYLES FOR HERO DECKS */
+/* Colors for names based on World of Warcraft hero color */
+.neutral
+{
+	color: #CCCCCC !important;
+}
+.deathknight
+{
+	color: #C41F3B !important;
+}
+.druid
+{
+	color: #FF7D0A !important;
+}
+.hunter
+{
+	color: #ABD473 !important;
+}
+.mage
+{
+	color: #69CCF0 !important;
+}
+.monk
+{
+	color: #00FF96 !important;
+}
+.paladin
+{
+	color: #F58CBA !important;
+}
+.priest
+{
+	color: #FFFFFF !important;
+}
+.rogue
+{
+	color: #FFF569 !important;
+}
+.shaman
+{
+	color: #0070DE !important;
+}
+.warlock
+{
+	color: #9482C9 !important;
+}
+.warrior
+{
+	color: #C79C6E !important;
+}
+
+.deckline.neutral, .deckline.deathknight, .deckline.druid, .deckline.hunter, .deckline.mage, .deckline.monk,
+.deckline.paladin, .deckline.priest, .deckline.rogue, .deckline.shaman, .deckline.warlock, .deckline.warrior
+{
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	background-position: 0px 4px;
+}
+
 /* Common properties for all fields: Mainly, text and pointer */
 .card, .cost, .count, .bg, .name, .shadow-overlay, .cover
 {
@@ -290,8 +349,6 @@ ul
 {
 	background-position: 0 -288px;
 }
-
-
 
 /* FLAGS */
 .flag /* For buttons or controls based on icons */
@@ -464,7 +521,9 @@ ul
 .decklinename
 {
 	min-width:200px;
+	padding-left: 18px !important;
 }
+
 .lineoff { background-color:transparent; }
 .lineon { background-color:rgba(255,255,255,0.25); }
 

@@ -24,11 +24,28 @@ g_hearthstone_qualities = { // Actualmente no se usan para nada más que el colo
 	4: "epic",
 	5: "legendary"
 };
+
+g_hearthstone_heroes = { // Actualmente no se usan para nada más que el color del nombre del mazo, así que se indican aquí
+	0: "neutral",
+	1: "warrior",
+	2: "paladin",
+	3: "hunter",
+	4: "rogue",
+	5: "priest",
+	6: "deathknight",
+	7: "shaman",
+	8: "mage",
+	9: "warlock",
+	10: "monk",
+	11: "druid"
+};
+
 var preurl			= "http://wow.zamimg.com/images/hearthstone/cards/";
 var locale			= "eses";
 var card_size		= "/mediumj/";
 var card_extension	= ".jpg";
 var cardSetUrl		= "images/sets/";
+var heroesUrl		= "images/heroes/";
 var my_deck_cards	= new Array();
 var my_deck_hero		= 0;
 var hayCookies		= ((typeof($.cookie()) != "undefined") && ($.cookie('numDecks') !== undefined));
@@ -426,21 +443,29 @@ function getDeckFromString(str)
 }
 // ///////////////
 // Auxiliary: Create a html item for a deck
-// Use: createDeckLine(deck name, cookie idx)
-function createDeckLine(name, idx)
+// Use: createDeckLine(cookie index)
+function createDeckLine(idx)
 {
+	// Take deck name
+	var name = $.cookie('deck_' + idx + '_name');
+	var heroname = g_hearthstone_heroes[parseInt($.cookie('deck_' + idx + '_hero'))];
+
 	// Create line holder
 	var elem = document.createElement('li');
 	$(elem).attr('id', 'deck_' + idx);
-	$(elem).attr('class', 'deckline');
+	$(elem).attr('class', 'deckline ' + heroname);
+	$(elem).css('backgroundImage', 'url("' + heroesUrl + heroname + '.png")');
 	$(elem).bind('mousemove', function() { $(this).removeClass('lineoff').addClass('lineon'); });
 	$(elem).bind('mouseout', function() { $(this).removeClass('lineon').addClass('lineoff'); });
 	$(elem).bind('click', function() { localLoadDeck(idx); });
+
 	// Deck name text
 	var aSpan = document.createElement('span');
-	$(aSpan).attr('class', 'decklinename');
+	$(aSpan).attr('class', 'decklinename ' + heroname);
+	// $(aSpan).css('backgroundImage', 'url("' + heroesUrl + heroname + '.png")');
 	$(aSpan).html(name);
 	$(elem).append(aSpan);
+
 	// Delete button
 	aSpan = document.createElement('span');
 	$(aSpan).attr('class', 'store delete');
@@ -489,8 +514,7 @@ function updateDeckList()
 			// Found one more
 			decksFound++;
 			// Show it
-			var deckName = $.cookie('deck_' + idx + '_name');
-			$(container).append(createDeckLine(deckName, idx));
+			$(container).append(createDeckLine(idx));
 		}
 	}
 
