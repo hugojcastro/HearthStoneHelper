@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
  */
- texts["eses"]				= {
+ texts["eses"] = {
 	"test" : "prueba",
 	"cardnotfound" : "Carta no encontrada!",
 	"onlytwo" : "No puedes tener más de dos '",
@@ -29,7 +29,12 @@
 	"decksaved" : "Mazo guardado correctamente",
 	"loaddeckmsg" : "Pulsa el nombre seleccionado para cargar el mazo, o pulsa el botón para eliminarlo de la lista",
 	"emptydecklist" : "No hay mazos guardados",
-	"cookieerrornoname" : "No se encontró el nombre del mazo !?",
-	"cookieerrornohero" : "Mazo encontrado, sin héroe !?",
-	"cookieerrornodeck" : "Mazo encontrado, sin cartas !?",
+	"errornodeck" : "Maxo no encontrado !?",
+	"errornoname" : "No se encontró el nombre del mazo !?",
+	"errornohero" : "Mazo encontrado, sin héroe !?",
+	"errornocards" : "Mazo encontrado, sin cartas !?",
+	"unnamed" : "Sin nombre",
+	"urlimporterror" : "Error al importar desde url",
+	"parseerror" : "Error al leer desde HTML (¿seguro que es de la página correcta?)",
+	"cardcounter" : "Quedan",
 };

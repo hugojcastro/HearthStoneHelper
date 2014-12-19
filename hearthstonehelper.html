@@ -17,22 +17,23 @@
 <html>
 <head>
 <title>HearthStoneHelper Tool</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-<meta name="description" content="HearthStone helper tool, Herramienta de ayuda para HearthStone">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="description" content="HearthStone helper tool, Herramienta de ayuda para HearthStone" />
 <link type="text/css" rel="stylesheet" href="css/hearthstonehelper.css" />
 <script language="javascript">
 // ///////////////
 // COMMON VARS
-var g_hearthstone_qualities	= new Array();
-var g_hearthstone_cards 		= new Array();
-var g_hearthstone_qualities	= new Array();
-var g_hearthstone_classes		= new Array();
-var g_hearthstone_mechanics	= new Array();
-var texts						= new Array();
+var g_hearthstone_qualities	= [];
+var g_hearthstone_cards		= [];
+var g_hearthstone_qualities	= [];
+var g_hearthstone_classes	= [];
+var g_hearthstone_mechanics	= [];
+var texts					= [];
 </script>
+<script language="javascript" src="js/json2.js"></script>
 <script language="javascript" src="js/jquery-1.11.0.min.js"></script>
 <script language="javascript" src="js/jquery.cookie.js"></script>
 <script language="javascript" src="js/jquery.touchSwipe.min.js"></script>
@@ -41,9 +42,11 @@ var texts						= new Array();
 <script language="javascript" src="js/locale_enus.js"></script>
 <script language="javascript" src="js/cards_db_eses.js"></script>
 <script language="javascript" src="js/cards_db_enus.js"></script>
+<script language="javascript" src="js/jdecks.js"></script>
 <script language="javascript" src="js/hearthstonehelper.js"></script>
 <script language="javascript" src="js/Calc.js"></script>
 <script language="javascript" src="js/DeckBuilder.js"></script>
+<script language="javascript" src="js/jhelp.js"></script>
 <script>
 $WH.calc.deckbuilder.init();
 // document.ontouchmove = function(event) { event.preventDefault(); }
@@ -53,21 +56,21 @@ $WH.calc.deckbuilder.init();
 <div id="maincontainer">
 	<div id="wrapper">
 		<div class="toolbox">
-			<div class="icon arcanepowder withcontent" onclick="restoreDeck();" title="Restaurar Mazo" title_eses="Restaurar Mazo" title_enus="Restore Deck" /></div>
-			<div class="icon durability withcontent" onclick="deleteDeck();" title="Borrar Mazo" title_eses="Borrar Mazo" title_enus="Delete Deck" /></div>	
+			<div class="icon arcanepowder withcontent" onclick="restoreDeck();" title="Restaurar Mazo" title_eses="Restaurar Mazo" title_enus="Restore Deck"></div>
+			<div class="icon durability withcontent" onclick="deleteDeck();" title="Borrar Mazo" title_eses="Borrar Mazo" title_enus="Delete Deck"></div>	
 
-			<div class="import fromhtml" onclick="importFromHtml();" title="Importar de HTML" title_eses="Importar de HTML" title_enus="Import from HTML" /></div>
-			<div class="import fromurl" onclick="importFromUrl();" title="Importar de URL" title_eses="Importar de URL" title_enus="Import from URL" /></div>
+			<div class="import fromhtml" onclick="importFromHtml();" title="Importar de HTML" title_eses="Importar de HTML" title_enus="Import from HTML"></div>
+			<div class="import fromurl" onclick="importFromUrl();" title="Importar de URL" title_eses="Importar de URL" title_enus="Import from URL"></div>
 
-			<div class="store load" onclick="loadDeck();" title="Cargar Mazo" title_eses="Cargar Mazo" title_enus="Load Deck" /></div>
-			<div class="store save" onclick="saveDeck();" title="Guardar Mazo" title_eses="Guardar Mazo" title_enus="Save Deck" /></div>
+			<div class="store load" onclick="loadDeck();" title="Cargar Mazo" title_eses="Cargar Mazo" title_enus="Load Deck"></div>
+			<div class="store save" onclick="localSaveDeck();" title="Guardar Mazo" title_eses="Guardar Mazo" title_enus="Save Deck"></div>
     	</div>
 
  	   <div class="divider"></div>
 
 		<div id="holder">
 			<div id="deck_holder" class="deck_holder">
-				<div id="deck_class" class="c0"></div>
+				<div id="deck_class" class=""><span id="deck_name"></span></div>
 				<ul id="deck" class="deck"></ul>
 			</div>
 		</div>
@@ -75,35 +78,33 @@ $WH.calc.deckbuilder.init();
 		<div class="divider"></div>
 
 		<div class="toolbox">
-			<div class="icon question" onclick="showHelp();" title="Mostrar Ayuda" title_eses="Mostrar Ayuda" title_enus="Show Help" /></div>
-			<div class="flag spain" onclick="refreshLocale('eses');" title="Español" title_eses="Español" title_enus="Spanish" /></div>
-			<div class="flag usauk" onclick="refreshLocale('enus');" title="Inglés" title_eses="Inglés" title_enus="English" /></div>
+			<div class="icon question" onclick="showHelp();" title="Mostrar Ayuda" title_eses="Mostrar Ayuda" title_enus="Show Help"></div>
+            <div id="card_counter" title="Cartas" title_eses="Cartas" title_enus="Cards">
+            	<span id="counter_text">-</span>:&nbsp;<span id="cards_remain" class="many"></span>&nbsp;/&nbsp;<span id="cards_total"></span>
+            </div>
+			<div class="flag spain" onclick="refreshLocale('eses');" title="Español" title_eses="Español" title_enus="Spanish"></div>
+			<div class="flag usauk" onclick="refreshLocale('enus');" title="Inglés" title_eses="Inglés" title_enus="English"></div>
 	    </div>
 	</div>
 
 	<div id="controlscontainer">
 		<div id="importhtml">
 			<textarea id="deck_content" class="inputbox" rows="10"></textarea><br />
-			<div class="icon foil" onclick="loadFromHTML();" title="Importar Mazo" title_eses="Importar Mazo" title_enus="Import Deck" /></div>
+			<div class="icon foil" onclick="loadFromHTML();" title="Importar Mazo" title_eses="Importar Mazo" title_enus="Import Deck"></div>
 			<span class="localized content" title="importhtmlmsg"><script>document.write(texts[locale].importhtmlmsg); </script></span>
 		</div>
 
 		<div id="importurl">
+			<input type="text" id="internnameurl" value=""
+				onClick="if (this.value == texts[locale].deckname) this.value='';"
+				onBlur="if (this.value == '') this.value = texts[locale].deckname;"
+				class="input" /><br />
 			<input type="text" id="theurl" value="http://hearthhead.com/deckbuilder#...."
 				onClick="if (this.value == 'http://hearthhead.com/deckbuilder#....') this.value='';"
-				onBlur="if (this.value=='') this.value = 'http://hearthhead.com/deckbuilder#....';"
+				onBlur="if (this.value == '') this.value = 'http://hearthhead.com/deckbuilder#....';"
 				class="input" /><br />
-			<div class="icon stone" onclick="loadFromUrl();" title="Cargar mazo" title_eses="Cargar Mazo" title_enus="Load Deck" /></div>
+			<div class="icon stone" onclick="loadFromUrl();" title="Cargar mazo" title_eses="Cargar Mazo" title_enus="Load Deck"></div>
 			<span class="localized content" title="importurlmsg"><script>document.write(texts[locale].importurlmsg); </script></span>
-		</div>
-
-		<div id="exportintern">
-			<input type="text" id="internname" value=""
-				onClick="if (this.value == texts[locale].deckname) this.value='';"
-				onBlur="if (this.value=='') this.value = texts[locale].deckname;"
-				class="input" /><br />
-			<div class="store intern" onclick="localSaveDeck();" title="Guardar Mazo" title_eses="Guardar Mazo" title_enus="Save Deck" /></div>
-			<span class="localized content" title="savedeckmsg"><script>document.write(texts[locale].savedeckmsg); </script></span>
 		</div>
 
 		<div id="importintern">

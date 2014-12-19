@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
  */
- texts["enus"]				= {
+ texts["enus"] = {
 	"test" : "test",
 	"cardnotfound" : "Card not found!",
 	"onlytwo" : "You can't have more than two '",
@@ -29,7 +29,12 @@
 	"decksaved" : "Deck successfully stored",
 	"loaddeckmsg" : "Click the selected deck name to load it, or click the button to delete it",
 	"emptydecklist" : "Deck list is empty",
-	"cookieerrornoname" : "Deck name not found !?",
-	"cookieerrornohero" : "Deck found without hero !?",
-	"cookieerrornodeck" : "Deck found without cards !?",
+	"errornodeck" : "Deck not found !?",
+	"errornoname" : "Deck name not found !?",
+	"errornohero" : "Deck found without hero !?",
+	"errornocards" : "Deck found without cards !?",
+	"unnamed" : "Unnamed",
+	"urlimporterror" : "Error when importing from url",
+	"parseerror" : "Error when reading from HTML (are you using the right website?)",
+	"cardcounter" : "To Draw",
 };

@@ -41,38 +41,15 @@ g_hearthstone_heroes = { // Actualmente no se usan para nada más que el color d
 };
 
 var preurl			= "http://wow.zamimg.com/images/hearthstone/cards/";
-var locale			= "eses";
-var card_size		= "/mediumj/";
-var card_extension	= ".jpg";
+var card_size		= "/medium/";
+var card_extension	= ".png";
 var cardSetUrl		= "images/sets/";
 var heroesUrl		= "images/heroes/";
-var my_deck_cards	= new Array();
+var my_deck_cards	= [];
 var my_deck_hero		= 0;
-var hayCookies		= ((typeof($.cookie()) != "undefined") && ($.cookie('numDecks') !== undefined));
-var cardSet			= ["", "", "", "classic", "", "", "", "", "", "", "", "", "naxx", "gvg"];
+var my_deck_name		= texts[locale].unnamed;
 // ///////////////
 
-// ///////////////
-// Debug function
-// ///////////////
-function debugAlert(obj)
-{
-	var txt = "";
-	for (var it in obj)
-		txt += it + "=" + obj[it] + "; ";
-	alert(txt);
-}
-// ///////////////
-
-
-// ///////////////// ///////////////// ///////////////// ///////////////
-// Card stuff
-// ///////////////
-function cardPair(cardId, cardCount)
-{
-	this.card = cardId;
-	this.count = cardCount;
-}
 // ///////////////
 // Auxiliary: Create a html item for append to card
 // Use: anItem('tag'[[[, 'class'], 'html'], 'bg'])
@@ -92,12 +69,12 @@ function anItem()
 function createCard(card)
 {
 	// Get card background
-	var card_url = preurl + locale + card_size + card.image + /* ((ispremium(card)) ? "_premium" : "") + */ card_extension;
+	var card_url = preurl + locale + card_size + card.image /* + ((ispremium(card)) ? "_premium" : "") */ + card_extension;
 	// Get card set
 	var cardset = cardSet[card.set];
 	if (typeof(cardset) == "undefined") cardset = "";
 	if (cardset != "")
-		cardset = 'url("' + cardSetUrl + cardset + '.png")';
+		cardset = 'url("' + cardSetUrl + cardset + card_extension + '")';
 	// Create card holder
 	var elem = document.createElement('li');
 	$(elem).attr('id', 'card_' + card.id);
@@ -108,7 +85,36 @@ function createCard(card)
 	$(elem).attr('card_quality', card.quality);
 	$(elem).attr('card_set', card.set);
 	$(elem).attr('class', 'card');
+	// Bind mousemove to show card as tooltip
+	$(elem).bind('mouseleave', function(e) {
+		if (typeof($('#tooltip_card')) != "undefined")
+			$('#tooltip_card').remove();
+	});
+	// Bind mousemove to show card as tooltip
+	$(elem).bind('mouseenter', function(e) {
+		var tooltipX = $(this).width() + $(this).position().left + 4; // = e.pageX + 10; // <-- to move next to the pointer
+		var tooltipY = e.pageY - 150;
+
+		if (typeof($('#tooltip_card')) != "undefined")
+			$('#tooltip_card').remove();
+
+		var tooltip = document.createElement('img');
+		$(tooltip).attr('id', 'tooltip_card');
+		$(tooltip).attr('src', card_url);
+		$(tooltip).appendTo('body');
+		$(tooltip).css({ top: tooltipY, left: tooltipX });
+		$(tooltip).delay(500).fadeIn();
+	});
+	// Bind mousemove to show card as tooltip
+	$(elem).bind('mousemove', function(e) {
+		var tooltipX = $(this).width() + $(this).position().left + 4; // = e.pageX + 10; // <-- to move next to the pointer
+		var tooltipY = e.pageY - 150;
+
+		$('#tooltip_card').css({ top: tooltipY, left: tooltipX });
+	});
+	// Bind mousedown to pick card
 	$(elem).bind('mousedown', function(e) { pickCard(e, this); });
+	// Bind swipe for touch devices
 	$(elem).swipe( {
 		//Generic swipe handler for all directions
 		swipeLeft:function(event, direction, distance, duration, fingerCount) {
@@ -121,11 +127,12 @@ function createCard(card)
 		},
 		threshold:10
 	});
+	// Disable right click menu
 	$(elem).bind('contextmenu', function(e) { return false; }); 
 	// Create card elements: card name
 	$(elem).append(anItem('span', 'name ' + g_hearthstone_qualities[card.quality], card.name, cardset));
 	// card background
-	$(elem).append(anItem('span', 'bg', '<div></div>', 'url(' + card_url + ')'));
+	$(elem).append(anItem('span', 'bg', '', 'url(' + card_url + ')'));
 	// card count
 	$(elem).append(anItem('span', 'count', $(elem).attr('card_count')));
 	// card cost
@@ -211,14 +218,15 @@ function pickCard(event, card)
 // ///////////////
 function pickRightCard(card)
 {
-	var card_id		= $(card).attr('card_id');
-	var card_count		= parseInt($(card).attr('card_count'));
-	var card_quality	= parseInt($(card).attr('card_quality'));
-	var card_cost		= parseInt($(card).attr('card_cost'));
-	var card_name		= $(card).attr('card_name');
+	var card_id		 = $(card).attr('card_id');
+	var card_count	 = parseInt($(card).attr('card_count'));
+	var card_quality	 = parseInt($(card).attr('card_quality'));
+	var card_cost	 = parseInt($(card).attr('card_cost'));
+	var card_name	 = $(card).attr('card_name');
 
 	if (card_count == 0) return;
 	card_count--;
+	cardCounterDraw();
 	$(card).attr('card_count', card_count);
 	if (card_count == 0)
 	{
@@ -231,14 +239,15 @@ function pickRightCard(card)
 // ///////////////
 function pickWrongCard(card)
 {
-	var card_id		= $(card).attr('card_id');
-	var card_count		= parseInt($(card).attr('card_count'));
-	var card_quality	= parseInt($(card).attr('card_quality'));
-	var card_cost		= parseInt($(card).attr('card_cost'));
-	var card_name		= $(card).attr('card_name');
+	var card_id		 = $(card).attr('card_id');
+	var card_count	 = parseInt($(card).attr('card_count'));
+	var card_quality	 = parseInt($(card).attr('card_quality'));
+	var card_cost	 = parseInt($(card).attr('card_cost'));
+	var card_name	 = $(card).attr('card_name');
 
 	if ((card_count == 2) || ((card_count == 1) && (card_quality == 5))) return;
 	card_count++;
+	cardCounterRestore();
 	for (var idx = 0; idx < my_deck_cards.length; idx++)
 	{
 		if (my_deck_cards[idx].card == card_id)
@@ -256,11 +265,11 @@ function pickWrongCard(card)
 // ///////////////
 function restoreCard(card_id)
 {
-	var card			= $('#card_' + card_id);
-	var card_count		= parseInt($(card).attr('card_count'));
-	var card_quality	= parseInt($(card).attr('card_quality'));
-	var card_cost		= parseInt($(card).attr('card_cost'));
-	var card_name		= g_hearthstone_cards[locale][card_id].name;
+	var card			 = $('#card_' + card_id);
+	var card_count	 = parseInt($(card).attr('card_count'));
+	var card_quality = parseInt($(card).attr('card_quality'));
+	var card_cost	 = parseInt($(card).attr('card_cost'));
+	var card_name	 = g_hearthstone_cards[locale][card_id].name;
 
 	if ((card_count == 2) || ((card_count == 1) && (card_quality == 5))) return;
 
@@ -279,6 +288,55 @@ function restoreCard(card_id)
 }
 // ///////////////
 
+// ///////////////// ///////////////// ///////////////// ///////////////
+// Card counter stuff
+// ///////////////
+function cardCounterShow() { $('#card_counter').show(250); }
+function cardCounterHide() { $('#card_counter').hide(); }
+function cardCounterSet(cards) { $('#cards_total').text(cards); }
+function cardCounterRemain(cards)
+{
+	// Assign color according to quantity
+	var theClass = "zero";
+	var total = parseInt($('#cards_total').text());
+	if (cards > 0) theClass = "few";
+	if (cards > 0.3333*total) theClass = "middle";
+	if (cards > 0.6666*total) theClass = "many";
+	$('#cards_remain').removeClass().addClass(theClass);
+	// Set card number
+	$('#cards_remain').text(cards);
+}
+function cardCounterReset()
+{
+	var total = 0;
+	var remain = 0;
+	if (my_deck_cards.length != 0)
+	{
+		for (var idx in my_deck_cards)
+			total = total + parseInt(my_deck_cards[idx].count);
+		remain = total;
+	}
+	cardCounterSet(total);
+	cardCounterRemain(remain);
+
+	if (my_deck_cards.length != 0)
+		cardCounterShow();
+	else
+		cardCounterHide();
+}
+function cardCounterDraw()
+{
+	var remain = parseInt($('#cards_remain').text());
+	if (remain > 0)
+		cardCounterRemain(remain - 1);
+}
+function cardCounterRestore()
+{
+	var remain = parseInt($('#cards_remain').text());
+	var total = parseInt($('#cards_total').text());
+	if (remain < total)
+		cardCounterRemain(remain + 1);
+}
 
 // ///////////////// ///////////////// ///////////////// ///////////////
 // Deck Stuff
@@ -287,16 +345,21 @@ function restoreCard(card_id)
 // ///////////////
 function showDeckCore()
 {
+	// If no deck, finish here
 	if (my_deck_cards.length == 0) return;
 	// Delete previous deck
-	deleteDeck();
+	visibleControls(false);
+	$("#deck > li").remove();
 	// Add hero
 	var hero_id = g_hearthstone_classes[locale][my_deck_hero].card_id;
 	var hero_image = g_hearthstone_cards[locale][hero_id].image;
 
 	var card_url = preurl + locale + card_size + hero_image + /* ((ispremium(card)) ? "_premium" : "") + */ card_extension;
 	$('#deck_class').css('background-image', 'url(' + card_url+ ')');
-
+	// Put deck name, fit to area
+	$('#deck_name').attr('class', g_hearthstone_heroes[my_deck_hero]);
+	$('#deck_name').html(my_deck_name);
+	$('#deck_name').fitname();
 	// Add one by one
 	for (var idx = 0; idx < my_deck_cards.length; idx++)
 	{
@@ -304,8 +367,11 @@ function showDeckCore()
 		if (my_deck_cards[idx].count == 2)
 			addCard(my_deck_cards[idx].card);
 	}
-
+	// Show controls
 	visibleControls(true);
+	// Reset card counter
+	cardCounterReset();
+
 }
 // ///////////////
 function restoreDeck()
@@ -314,156 +380,95 @@ function restoreDeck()
 	{
 		restoreCard(my_deck_cards[idx].card);
 	}
+	cardCounterReset();
 }
 // ///////////////
 function deleteDeck()
 {
 	visibleControls(false);
 	$("#deck > li").remove();
-}
-// ///////////////
-
-
-// ///////////////// ///////////////// ///////////////// ///////////////
-// Import/Export stuff
-// ///////////////
-// Import deck from HearthHead HTML export
-function loadHTML()
-{
-	// Get card list
-	var deck_cards = $('#deck_content').val();
-	if (deck_cards.trim().length == 0) return;
+	// Remove internal data
 	if (my_deck_cards.length > 0)
 		my_deck_cards.splice(0, my_deck_cards.length);
-	var LENGTH 		= 0;
-	var cardUrl	= 'http://www.hearthhead.com/card=';
-	var innerText	= '';
-	var quantity	= 1;
-	var idx			= 0;
-	
-	my_deck_hero = parseInt($(deck_cards).find('p > b > a, [class^=c]').attr('class').replace('c', ''));
-
-	$(deck_cards).find('li').each(function(index, element)
-	{
-		var innerText = $(this).html();
-		var quantity = (innerText.indexOf('x2') > 0) ? 2 : 1;
-		$(this).find('a').each(function(index, element)
-		{
-			var href = $(this).attr('href');
-			if (href.indexOf(cardUrl) >= 0)
-			{
-				var cardId = parseInt(href.substr(cardUrl.length));
-				my_deck_cards[LENGTH++] = new cardPair(cardId, quantity);
-			}
-        });
-    });
+	cardCounterReset();
 }
+// ///////////////
+
 // ///////////////
 // Import deck from HearthHead URL
 function loadFromUrl()
 {
-	var url = $('#theurl').val().trim();
-	if (url.length == 0) return;
-	if (url.indexOf('http') < 0) return;
-	if (url.indexOf('#...') >= 0) return;
-	if ((url.indexOf('hearthhead') >= 0) && (url.indexOf('#') >= 0))
+	// If using default name, error
+	if (($('#internnameurl').val() == texts[locale].deckname) || ($('#internnameurl').val() == ""))
 	{
-		var hash = url.substring(url.indexOf('#'));
-		var deck = $WH.calc.hash.getCardsFrom(hash, true);
-
-		if (!deck)
-		{
-			alert(texts[locale].urlerror);
-			return;
-		}
-
-		// Delete previous deck
-		if (my_deck_cards.length > 0)
-			my_deck_cards.splice(0, my_deck_cards.length);
-
-		// Load hero
-		my_deck_hero = deck.classs;
-
-		// Load deck
-		var LENGTH = 0;
-		for (var card in deck.cards)
-			my_deck_cards[LENGTH++] = new cardPair(deck.cards[card].id, deck.cards[card].count);
-
-		// Show new deck
-		showDeckCore();
-
-		// Hide subview
-		importFromUrl();
-
-		// Show save button
-		$('.save.store').show(400, 'swing');
-	} else {
-		alert(texts[locale].wrongurl);
+		alert(texts[locale].givedeckname);
+		return;
 	}
-}
-// ///////////////
-// Functions to internally store decks using cookies
-// Get string representation for a car pair
-function getStringFromCard(card)
-{
-	return ('[' + card.card + ' ' + card.count + ']');
-}
-// ///////////////
-// Get the card pair array from a string representation
-function getCardFromString(str)
-{
-	var values = str.split(' ');
-	var card = new Array();
-	card.card = parseInt(values[0].replace('[', ''));
-	card.count = parseInt(values[1].replace(']', ''));
-	return card;
-}
-// ///////////////
-// Auxiliary: Get the string representation for a deck, to store it on cookie
-function getStringFromDeck()
-{
-	var result = '';
-	for (var idx = 0; idx < my_deck_cards.length; idx++)
+
+	var url = $('#theurl').val();
+
+	var result = loadFromHearthHeadUrl(url);
+	if (result == null)
 	{
-		if (idx != 0) result += ',';
-		result += getStringFromCard(my_deck_cards[idx]);
+		alert(texts[locale].urlimporterror);
+		return null;
 	}
-	return result;
-}
-// ///////////////
-// Auxiliary: Get the deck array from the string representation, to retrieve it from cookie
-function getDeckFromString(str)
-{
-	var result = str.split(',');
-	for (var idx = 0; idx < result.length; idx++)
-	{
-		result[idx] = getCardFromString(result[idx]);
-	}
-	return result;
+
+	// Delete previous deck
+	if (my_deck_cards.length > 0)
+		my_deck_cards.splice(0, my_deck_cards.length);
+
+	// Get name from textbox
+	my_deck_name = $('#internnameurl').val();
+
+	// And deck data (hero and cards) from url
+	my_deck_hero = result.hero;
+	my_deck_cards = fullCopy(result.cards);
+
+	// Show new deck
+	showDeckCore();
+
+	// Hide subview
+	importFromUrl();
+
+	// Show save button
+	$('.save.store').show(400, 'swing');
 }
 // ///////////////
 // Auxiliary: Create a html item for a deck
-// Use: createDeckLine(cookie index)
+// Use: createDeckLine(deck index)
 function createDeckLine(idx)
 {
+	// Check if valid value
+	if (idx >= jDecks.length)
+		return;
 	// Take deck name
-	var name = $.cookie('deck_' + idx + '_name');
-	var heroname = g_hearthstone_heroes[parseInt($.cookie('deck_' + idx + '_hero'))];
+	var name = jDecks[idx].name;
+	var heroname = g_hearthstone_heroes[jDecks[idx].hero];
 
 	// Create line holder
 	var elem = document.createElement('li');
 	$(elem).attr('id', 'deck_' + idx);
 	$(elem).attr('class', 'deckline ' + heroname);
-	$(elem).css('backgroundImage', 'url("' + heroesUrl + heroname + '.png")');
+	// Get Deck max. expansion for line background
+	var deckMaxSet = getDeckSet(idx);	
+	$(elem).css('backgroundImage', 'url("' + cardSetUrl + 'bg_' + deckMaxSet + card_extension + '")');
+
 	$(elem).bind('mousemove', function() { $(this).removeClass('lineoff').addClass('lineon'); });
 	$(elem).bind('mouseout', function() { $(this).removeClass('lineon').addClass('lineoff'); });
 	$(elem).bind('click', function() { localLoadDeck(idx); });
 
+	// Deck class icon
+	var aSpan = document.createElement('span');
+	$(aSpan).attr('class', 'classicon');
+	$(aSpan).css('backgroundImage', 'url("' + heroesUrl + heroname + card_extension + '")');
+	$(elem).append(aSpan);
+
 	// Deck name text
 	var aSpan = document.createElement('span');
 	$(aSpan).attr('class', 'decklinename ' + heroname);
-	// $(aSpan).css('backgroundImage', 'url("' + heroesUrl + heroname + '.png")');
 	$(aSpan).html(name);
+	$(aSpan).fitname();
 	$(elem).append(aSpan);
 
 	// Delete button
@@ -502,155 +507,113 @@ function updateDeckList()
 	// Take it
 	var container = $('#importinterncontent');
 	// Take number of stored decks
-	var deckCount = (!hayCookies) ? 0 : parseInt($.cookie('numDecks'));
-	// How many decks we found
-	var decksFound = 0;
+	var deckCount = (jDecks == null) ? 0 : jDecks.length;
+	
+	// Sort decks
+	if (deckCount > 0)
+		sortDecks();
+
 	// For each one, add to deck list container
-	for (var idx = 1; idx <= deckCount; idx++)
-	{
-		// If deck found...
-		if ($.cookie('deck_' + idx + '_name') !== undefined)
-		{
-			// Found one more
-			decksFound++;
-			// Show it
-			$(container).append(createDeckLine(idx));
-		}
-	}
+	for (var idx = 0; idx < deckCount; idx++)
+		$(container).append(createDeckLine(idx));
 
 	// For each one, add to deck list container
 	// Finally, show status message
-	var message;
-	if (decksFound == 0)
+	if (deckCount == 0)
 	{
-		// Cookie expiration time: 1 year (365*24*60*60*1000 = 31536000000)
-		var date = new Date();
-		date.setTime(date.getTime() + 31536000000);
-		message = texts[locale].emptydecklist;
 		$('#deckliststatus').attr('title', 'emptydecklist');
-		$.cookie('numDecks', 0, { expires: date });
+		$('#deckliststatus').html(texts[locale].emptydecklist);
 	} else {
-		message = texts[locale].loaddeckmsg;
 		$('#deckliststatus').attr('title', 'loaddeckmsg');
+		$('#deckliststatus').html(texts[locale].loaddeckmsg);
 	}
-	$('#deckliststatus').html(message);
 }
 // ///////////////
 function addDeck2List(deckName)
 {
-	// Take deck number
-	var storedDecks = (!hayCookies) ? 1 : parseInt($.cookie('numDecks')) + 1;
-	// Inc and save
-	// Cookie expiration time: 1 year (365*24*60*60*1000 = 31536000000)
-	var date = new Date();
-	date.setTime(date.getTime() + 31536000000);
-	$.cookie('numDecks', storedDecks, { expires: date });
-	// Save new deck
-	$.cookie('deck_' + storedDecks + '_name', deckName, { expires: date });
-	$.cookie('deck_' + storedDecks + '_hero', my_deck_hero, { expires: date });
-	$.cookie('deck_' + storedDecks + '_deck', getStringFromDeck(), { expires: date });
-	// Update cookies!
-	hayCookies	= true;
+	my_deck_name = deckName;
+
+	$('#deck_name').html(my_deck_name);
+	$('#deck_name').fitname();
+	
+	addADeck(deckName, my_deck_hero, my_deck_cards);
+	updateDeckList();
 }
 // ///////////////
 function deleteDeckFromList(idx)
 {
-	// Get deck counter
-	if ( $.cookie('deck_' + idx + '_name') === undefined) return false;
-	$.removeCookie('deck_' + idx + '_name');
-	$.removeCookie('deck_' + idx + '_hero');
-	$.removeCookie('deck_' + idx + '_deck');
-	// Let's do a little cleanup here
-	var storedDecks = parseInt($.cookie('numDecks'));
-	var found = false;
-	// Check the stored decks counter; Try to read, at least, one
-	for (var idx = 1; idx <= storedDecks; idx++)
-	{
-		// If one, nothing will be done
-		if ($.cookie('deck_' + idx + '_name') !== undefined)
-		{
-			found = true;
-			break;
-		}
-	}
-	// If no decks found, we need to reset the counter to zero
-	if (!found)
-	{
-		// Cookie expiration time: 1 year (365*24*60*60*1000 = 31536000000)
-		var date = new Date();
-		date.setTime(date.getTime() + 31536000000);
-
-		$.cookie('numDecks', 0, { expires: date});
-	}
-	// Ok. All right and finish
-	return true;
+	var result = deleteADeck(idx);
+	if (result)
+		updateDeckList();
+	return result;
 }
 // ///////////////
-// retrieves a deck from cookies
+// retrieves a deck from list
 function loadDeckFromList(idx)
 {
-	// Check if all cookies are ok
-	var cookiesok = true;
-	if ($.cookie('deck_' + idx + '_name') === undefined)
+	var result = true;
+	// Check if idx and values are ok
+	if ((idx < 0) || (idx > jDecks.length))
 	{
-		alert(texts[locale].cookieerrornoname);
-		cookiesok = false;
-	} else if ($.cookie('deck_' + idx + '_hero') === undefined) {
-		alert(texts[locale].cookieerrornohero);
-		cookiesok = false;
-	} else if ($.cookie('deck_' + idx + '_deck') === undefined) {
-		alert(texts[locale].cookieerrornodeck);
-		cookiesok = false;
+		alert(texts[locale].errornodeck);
+		result = false;
+	} else if (typeof(jDecks[idx].name) == "undefined") {
+		alert(texts[locale].errornoname);
+		result = false;
+	} else if (typeof(jDecks[idx].hero) == "undefined") {
+		alert(texts[locale].errornohero);
+		result = false;
+	} else if (typeof(jDecks[idx].cards) == "undefined") {
+		alert(texts[locale].errornocards);
+		result = false;
 	}
-	if (!cookiesok) return false;
-	// Delete previous deck
-	if (my_deck_cards.length > 0)
-		my_deck_cards.splice(0, my_deck_cards.length);
-	// Load hero and deck from cookies
-	my_deck_cards = getDeckFromString($.cookie('deck_' + idx + '_deck'));
-	my_deck_hero = parseInt($.cookie('deck_' + idx + '_hero'));
-	return true;
+
+	if (result)
+	{
+		// Delete previous deck
+		if (my_deck_cards.length > 0)
+			my_deck_cards.splice(0, my_deck_cards.length);
+		// Load hero and deck from list
+		my_deck_cards = fullCopy(jDecks[idx].cards);
+		my_deck_hero = parseInt(jDecks[idx].hero);
+		my_deck_name = jDecks[idx].name;
+	}
+	return result;
 }
 // ///////////////
-// Store deck on cookies with given name
+// Store deck on list with given name
 function localSaveDeck()
 {
-	// Take deck name
-	var deckName = $('#internname').val();
-	// If it's the default, error
-	if (deckName == texts[locale].deckname)
-	{
-		alert(texts[locale].givedeckname);
-		return;
-	}
 	// Oke. Take new name and store deck with it
-	addDeck2List(deckName);
-	// Finally, update list
-	updateDeckList();
+	addDeck2List(my_deck_name);
 	// Warn about success
 	alert(texts[locale].decksaved);
-	// Toggle Window
-	saveDeck();
 	// Hide save button
 	$('.save.store').hide(400, 'swing');
 	// Check if load button should be visible
-	if (hayCookies && (parseInt($.cookie('numDecks')) > 0))
+	if (jDecks.length > 0)
 		$('.load.store').show(400, 'swing');
 	else
 		$('.load.store').hide(400, 'swing');
+	// Hide list window if necessary
+	// subviewStatus(0);
 }
 // ///////////////
-// Deletes a deck from cookie and list
+// Deletes a deck from lists
 function localDeleteDeck(idx)
 {
+	// If delete actual one, show again button
+	var name = jDecks[idx].name;
 	// Delete it
 	if (deleteDeckFromList(idx))
 	{
+		// Show store button if necessary
+		if (name == my_deck_name)
+			$('.save.store').show(400, 'swing');
 		// Finally, update list: Hide window, update and show it again
 		subviewStatus(0);
-		updateDeckList();
 		// Check if load button should be saved
-		if (hayCookies && (parseInt($.cookie('numDecks')) > 0))
+		if (jDecks.length > 0)
 		{
 			$('.load.store').show(400, 'swing');
 			subviewStatus(3);
@@ -697,21 +660,17 @@ function refreshLocale(loc)
 	$('.localized').each(function(index, element) {
 		$(element).html(texts[locale][$(element).attr('title')]);
     });
-	
-	$('#internname').val(texts[locale].deckname);
+
+	$('#internnameurl').val(texts[locale].deckname);
+	$('#internnamehtml').val(texts[locale].deckname);
 	
 	// Help card locale swap
 	var oldClass = (locale == "eses") ? "enus" : "eses";
 	$("#flip_card").removeClass(oldClass);
 	$("#flip_card").addClass(locale);
-}
-// ///////////////
-// Show / Toggle Export to Internal Data controls
-function saveDeck()
-{
-	// Toggle?
-	var toggle = ($('#exportintern').css('display') != 'none') ? 0 : 4;
-	subviewStatus(toggle);
+	
+	// Card counter
+	$('#counter_text').text(texts[locale].cardcounter);
 }
 // ///////////////
 // Show / Toggle Import from Internal Data controls
@@ -746,35 +705,26 @@ function subviewStatus(status)
 		case 0: // hide all and reset text values
 			$('#importhtml').hide(400, 'swing');
 			$('#importurl').hide(400, 'swing');
-			$('#exportintern').hide(400, 'swing');
 			$('#importintern').hide(400, 'swing');
-			$('#internname').val(texts[locale].deckname);
+			$('#internnameurl').val(texts[locale].deckname);
+			$('#internnamehtml').val(texts[locale].deckname);
 			$('#deck_content').val('');
 			$('#theurl').val('http://hearthhead.com/deckbuilder#....');
 		break;
 		case 1: // show import url
 			$('#importhtml').hide(400, 'swing');
 			$('#importurl').show(400, 'swing');
-			$('#exportintern').hide(400, 'swing');
 			$('#importintern').hide(400, 'swing');
 		break;
 		case 2: // show import html
 			$('#importhtml').show(400, 'swing');
 			$('#importurl').hide(400, 'swing');
-			$('#exportintern').hide(400, 'swing');
 			$('#importintern').hide(400, 'swing');
 		break;
 		case 3: // show load window
 			$('#importhtml').hide(400, 'swing');
 			$('#importurl').hide(400, 'swing');
-			$('#exportintern').hide(400, 'swing');
 			$('#importintern').show(400, 'swing');
-		break;
-		case 4: // show save window
-			$('#importhtml').hide(400, 'swing');
-			$('#importurl').hide(400, 'swing');
-			$('#exportintern').show(400, 'swing');
-			$('#importintern').hide(400, 'swing');
 		break;
 	}
 }
@@ -791,17 +741,45 @@ function visibleControls(active)
 		$('#toolbox').hide(400, 'swing');
 		$('.withcontent').hide(400, 'swing');
 		$('#holder').hide(400, 'swing');
+		$('.save.store').hide();
 	}
 }
+
+// ///////////////// ///////////////// ///////////////// ///////////////
+// Import/Export stuff
 // ///////////////
 function loadFromHTML()
 {
-	// Take HTML and create deck
-	loadHTML();
+	// If using default name, error
+	if (($('#internnamehtml').val() == texts[locale].deckname) ||  ($('#internnamehtml').val() == ""))
+	{
+		alert(texts[locale].givedeckname);
+		return;
+	}
+
+	// Take HTML and create deck	
+	var result = loadHearthHeadHTML($('#deck_content').val());
+	if (result == null)
+	{
+		alert(texts[locale].urlimporterror);
+		return null;
+	}
+
+	// Delete previous deck if necessary
+	if (my_deck_cards.length > 0)
+		my_deck_cards.splice(0, my_deck_cards.length);
+
+	// Get deck name, hero and cards from html result
+	my_deck_name  = result.name;
+	my_deck_hero  = result.hero;
+	my_deck_cards = fullCopy(result.cards);
+
 	// Show it
 	showDeckCore();
+
 	// Toggle visibility of the subwindow
 	importFromHtml();
+
 	// Show store button
 	$('.save.store').show(400, 'swing');
 }
@@ -821,41 +799,6 @@ function hideHelp()
 }
 // ///////////////
 
-// ///////////////
-// Flipper functions
-function flipFront(e)
-{
-	var event = e || window.event;
-	$(".flipbox").flippy({
-    	duration: "400",
-		depth: "7.5",
-    	verso: "<div id=\"flip_card\" class=\"flip_middle " + locale + "\" onclick=\"flipMiddle(event);\"></div>"
- 	});
-	event.stopPropagation();
-}
-// ///////////////
-function flipMiddle(e)
-{
-	var event = e || window.event;
-	$(".flipbox").flippy({
-    	duration: "400",
-		depth: "7.5",
-    	verso: "<div id=\"flip_card\" class=\"flip_back " + locale + "\" onclick=\"flipBack(event);\"></div>"
- 	});
-	event.stopPropagation();
-}
-// ///////////////
-function flipBack(e)
-{
-	var event = e || window.event;
-	$(".flipbox").flippy({
-    	duration: "400",
-		depth: "7.5",
-    	verso: "<div id=\"flip_card\" class=\"flip_front " + locale + "\" onclick=\"flipFront(event);\"></div>"
- 	});
-	event.stopPropagation();
-}
-// ///////////////
 
 // ///////////////// ///////////////// ///////////////// ///////////////
 // Actions when page has been loaded
@@ -892,12 +835,23 @@ $(document).ready(function(e)
 	});
 	
 	// Init subview contents
-	$('#internname').val(texts[locale].deckname);
+	$('#internnameurl').val(texts[locale].deckname);
+	$('#internnamehtml').val(texts[locale].deckname);
 	
+	// Get decks from storage
+	retrieveDecksFromStore();
+
 	// No saved decks? Don't show the load button
-	if ((!hayCookies) || (parseInt($.cookie('numDecks')) == 0)) $('.load.store').hide();
-	$('.save.store').hide();
-	
+	if ((jDecks == null) || (jDecks.length == 0))
+		$('.load.store').hide();
+
+	// Update list from retrieved decks
 	updateDeckList();
+	
+	// Reset counter
+	cardCounterReset()
+	
+	// Assign current locale
+	refreshLocale(locale);
 });
 // ///////////////

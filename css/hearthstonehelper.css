@@ -173,14 +173,6 @@ ul
 	color: #C79C6E !important;
 }
 
-.deckline.neutral, .deckline.deathknight, .deckline.druid, .deckline.hunter, .deckline.mage, .deckline.monk,
-.deckline.paladin, .deckline.priest, .deckline.rogue, .deckline.shaman, .deckline.warlock, .deckline.warrior
-{
-	background-repeat: no-repeat;
-	background-size: 18px 18px;
-	background-position: 0px 4px;
-}
-
 /* Common properties for all fields: Mainly, text and pointer */
 .card, .cost, .count, .bg, .name, .shadow-overlay, .cover
 {
@@ -222,18 +214,18 @@ ul
 .bg /* Card Background: Common properties and position (url is defined as tag on the element) */
 {
 	box-shadow: inset -1px 0 0 rgba(255,255,255,.2),1px 0 0 rgba(0,0,0,.5);
-	background-position: -65px -100px;
-	background-size: 235px auto;
+	background-position: -25px -100px;
+	background-size: 228px auto;
 	border-radius: 0 6px 6px 0;
 	opacity: .8;
 	position: absolute;
-	right: 0px;
+	left: 65px;
 	top: 0;
 	transition: background 150ms linear !important;
 	-webkit-transition: background 150ms linear !important;
 	-moz-transition: background 150ms linear !important;
 	-o-transition: background 150ms linear !important;
-	width: 108px;
+	width: 144px;
 	z-index: 1;
 	display: block;
 	height: 24px;
@@ -253,6 +245,31 @@ ul
 	z-index: 5;
 }
 
+#card_counter,
+#counter_text        { color: #ffffff !important; }
+#cards_total         { color: #00ff00 !important; }
+#cards_remain.zero   { color: #ff0000 !important; }
+#cards_remain.few    { color: #ff8800 !important; }
+#cards_remain.middle { color: #ffff00 !important; }
+#cards_remain.many   { color: #008800 !important; }
+
+#card_counter
+{
+	width: 50%;
+	display: inline-block;
+	float: left;
+	clear: none;
+	font-size: 14px;
+	font-family: "Belwe Bd BT Bold", "Bliz Quadrata", "Palatino Linotype", Times New Roman, Serif;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 
+		 0   1px 0 #000000,    0 -1px 0 #000000,
+		 1px 1px 0 #000000, -1px -1px 0 #000000,
+		-1px 1px 0 #000000,  1px -1px 0 #000000;
+}
+
 /* COMMON FOR BUTTONS */
 .icon, .flag, .import, .store
 {
@@ -263,7 +280,7 @@ ul
 	display: inline-block;
 	float: right;
 	clear: none;
-	background-color: rgba(0,0,0,0);
+	background-color: none; /* rgba(0,0,0,0); */
 	-webkit-transition: -webkit-transform 250ms linear;
 	-moz-transition: -moz-transform 250ms linear;
 	-o-transition: -o-transform 250ms linear;
@@ -298,6 +315,24 @@ ul
 	position: relative;
 	width: 100%;
 	outline: none;
+}
+#deck_name
+{
+	font-size: 14px;
+	font-family: "Belwe Bd BT Bold", "Bliz Quadrata", "Palatino Linotype", Times New Roman, Serif;
+	font-weight: bold;
+	color: #444;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
 }
 
 /* ICONS */
@@ -428,12 +463,12 @@ ul
 	top: 0;
 	width: 100%;
 	z-index: 3;
-	background: -moz-linear-gradient(left,  rgba(0,0,0,1.0) 45%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0) 75%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(45%,rgba(0,0,0,1.0)), color-stop(50%,rgba(0,0,0,0.9)), color-stop(75%,rgba(0,0,0,0)));
-	background: -webkit-linear-gradient(left,  rgba(0,0,0,1.0) 45%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0) 75%); 
-	background: -o-linear-gradient(left,  rgba(0,0,0,1.0) 45%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0) 75%); 
-	background: -ms-linear-gradient(left,  rgba(0,0,0,1.0) 45%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0) 75%);
-	background: linear-gradient(to right,  rgba(0,0,0,1.0) 45%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0) 75%); 
+	background: -moz-linear-gradient(left,  rgba(0,0,0,1.0) 25%, rgba(0,0,0,0.9) 45%, rgba(0,0,0,0) 75%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(25%,rgba(0,0,0,1.0)), color-stop(45%,rgba(0,0,0,0.9)), color-stop(75%,rgba(0,0,0,0)));
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%); 
+	background: -o-linear-gradient(left,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%); 
+	background: -ms-linear-gradient(left,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%);
+	background: linear-gradient(to right,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff000000', endColorstr='#00000000',GradientType=1 );
 }
 .cover /* Card cover (to dark it when all used) */
@@ -508,6 +543,9 @@ ul
 	clear:right;
 	width: 100% !important;
 	cursor:pointer;
+	background-repeat: no-repeat;
+	/* background-size: 18px 18px; */
+	background-position: 0px 0px;
 }
 .deckline, .decklinename
 {
@@ -521,7 +559,24 @@ ul
 .decklinename
 {
 	min-width:200px;
-	padding-left: 18px !important;
+	position: relative;
+	top: 4px;
+	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+.classicon
+{
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	background-position: 0px 0px;
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	float: left;
+	position: relative;
+	top: 6px;
 }
 
 .lineoff { background-color:transparent; }
@@ -616,4 +671,14 @@ ul
 	width:654px;
 	height:726px;
 	background-image:url('../images/enus/hearthhelper_front.jpg');
+}
+#tooltip_card
+{
+	border: 0px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	z-index: 200 !important;
+	background: none !important;
+	display: none;
 }
