@@ -15,11 +15,30 @@
  * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
  */
 @charset "UTF-8";
+/* Fonts */
+@font-face
+{
+	font-family: belwe;
+	font-weight: bold;
+	font-style: normal;
+	src: url("../fonts/belwebd-webfont.eot");
+	src: url("../fonts/belwebd-webfont.eot?#iefix") format('embedded-opentype'),
+	url("../fonts/belwebd-webfont.woff") format('woff'),
+	url("../fonts/belwebd-webfont.ttf") format('truetype')
+}
 /* CSS Document */
 body
 {
 	margin: 6px;
 	padding: 0px;
+}
+.open
+{
+	cursor: url("../images/ceopen.png"), auto;
+}
+.closed
+{
+	cursor: url("../images/ceclosed.png"), auto;
 }
 #controlscontainer
 {
@@ -176,10 +195,14 @@ ul
 /* Common properties for all fields: Mainly, text and pointer */
 .card, .cost, .count, .bg, .name, .shadow-overlay, .cover
 {
-	font-family: Arial,sans-serif;
-	font-size: 13px;
+	cursor: url("../images/cpointer.png"), pointer;
+	font-weight: bold;
+	font-family: belwe;
+	font-size: 11px;
 	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
-	cursor: pointer;
+	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 }
 .card /* Card holder: Common properties for each card */
 {
@@ -214,8 +237,8 @@ ul
 .bg /* Card Background: Common properties and position (url is defined as tag on the element) */
 {
 	box-shadow: inset -1px 0 0 rgba(255,255,255,.2),1px 0 0 rgba(0,0,0,.5);
-	background-position: -25px -100px;
-	background-size: 228px auto;
+	background-position: 30px -60px;
+	background-size: 150px auto;
 	border-radius: 0 6px 6px 0;
 	opacity: .8;
 	position: absolute;
@@ -260,33 +283,34 @@ ul
 	float: left;
 	clear: none;
 	font-size: 14px;
-	font-family: "Belwe Bd BT Bold", "Bliz Quadrata", "Palatino Linotype", Times New Roman, Serif;
 	font-weight: bold;
+	font-family: belwe;
+	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 	text-align: center;
 	line-height: 30px;
-	text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 
-		 0   1px 0 #000000,    0 -1px 0 #000000,
-		 1px 1px 0 #000000, -1px -1px 0 #000000,
-		-1px 1px 0 #000000,  1px -1px 0 #000000;
 }
 
 /* COMMON FOR BUTTONS */
-.icon, .flag, .import, .store
+.icon, .flag, .import, .store, .folder, #flagbutton
 {
 	background-repeat: no-repeat;
 	height: 32px;
 	width: 32px;
-	cursor: pointer;
+	cursor: url("../images/cpointer.png"), pointer;
 	display: inline-block;
 	float: right;
 	clear: none;
-	background-color: none; /* rgba(0,0,0,0); */
+	background-color: none;
 	-webkit-transition: -webkit-transform 250ms linear;
 	-moz-transition: -moz-transform 250ms linear;
 	-o-transition: -o-transform 250ms linear;
 	transition: transform 250ms linear;
 }
-.icon:hover, .flag:hover, .import:hover, .store:hover
+.icon:hover, .flag:hover, .import:hover, .store:hover, .folder:hover, #flagbutton:hover
 {
   -webkit-transform: rotate(-15deg);
      -moz-transform: rotate(-15deg);
@@ -303,8 +327,6 @@ ul
 /* Box for Hero frame */
 #deck_class
 {
-	background-position: -40px -100px;
-	background-size: 320px auto;
 	transition: background 250ms linear !important;
 	-webkit-transition: background 250ms linear !important;
 	-moz-transition: background 250ms linear !important;
@@ -319,20 +341,25 @@ ul
 #deck_name
 {
 	font-size: 14px;
-	font-family: "Belwe Bd BT Bold", "Bliz Quadrata", "Palatino Linotype", Times New Roman, Serif;
 	font-weight: bold;
+	font-family: belwe;
+	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 	color: #444;
 	position: absolute;
 	bottom: 0px;
 	text-align: center;
 	width: 100%;
-	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
-
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
+	background: none;
+	border: none;
 }
 
 /* ICONS */
@@ -341,7 +368,6 @@ ul
 	background-image: url(../images/sprite32.png);
 	float:left;
 }
-
 .attack /* Attack icon: Yellow sphere indicator */
 {
 	background-position: 0 0px;
@@ -390,13 +416,61 @@ ul
 {
 	background-image: url(../images/flags.png);
 }
-.spain /* Attack icon: Yellow sphere indicator */
+.dede /* german flag */
+{
+	background-position: 0 0px;
+}
+.engb /* english gb flag */
 {
 	background-position: 0 -32px;
 }
-.usauk /* Health icon: Red drop indicator */
+.enus /* english us flag */
 {
-	background-position: 0 0px;
+	background-position: 0 -64px;
+}
+.eses /* spanish es flag */
+{
+	background-position: 0 -96px;
+}
+.esmx /* epanish la flag */
+{
+	background-position: 0 -128px;
+}
+.frfr /* french flag */
+{
+	background-position: 0 -160px;
+}
+.itit /* italian flag */
+{
+	background-position: 0 -192px;
+}
+.kokr /* korean flag */
+{
+	background-position: 0 -224px;
+}
+.plpl /* polish flag */
+{
+	background-position: 0 -256px;
+}
+.ptbr /* portuguese br flag */
+{
+	background-position: 0 -288px;
+}
+.ptpt /* portuguese pt flag */
+{
+	background-position: 0 -320px;
+}
+.ruru /* russian flag */
+{
+	background-position: 0 -352px;
+}
+.zhcn /* chinese cn flag */
+{
+	background-position: 0 -384px;
+}
+.zhtw /* chinese tw flag */
+{
+	background-position: 0 -416px;
 }
 
 /* IMPORT */
@@ -404,20 +478,45 @@ ul
 {
 	background-image: url(../images/import.png);
 }
-.fromurl /* from text in url */
+.fromurl
 {
 	background-position: 0 -32px;
-}
-.fromhtml /* from paste from hearthhead */
+	display: block;
+	clear:both;
+	float:left;}
+.fromhtml
 {
 	background-position: 0 0px;
-}
+	display: block;
+	clear:both;
+	float:left;}
 
 /* LOAD/SAVE ICONS */
-.store
+.store, .folder
 {
 	background-image: url(../images/loadsave.png);
 }
+.fimport
+{
+	background-position: 0 -256px;
+}
+.fstore
+{
+	background-position: 0 -224px;
+}
+.get
+{
+	background-position: 0 -192px;
+	display: block;
+	clear:both;
+	float:left;
+}
+.put
+{
+	background-position: 0 -160px;
+	display: block;
+	clear:both;
+	float:left;}
 .retrieve
 {
 	background-position: 0 -128px;
@@ -439,6 +538,44 @@ ul
 	background-position: 0 0px;
 }
 
+#importfolder, #storefolder, #flagsfolder
+{
+	z-index:1000;
+	padding: 2px;
+	border:2px groove #666;
+	background-color:#444;
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px; 
+	border-radius: 2px; 
+	color:#fff !important;
+	display: none;
+	position:absolute;
+}
+#importfolder, #storefolder
+{
+	width:32px;
+	float: left;
+	clear:both;
+}
+#flagsfolder, #flagbutton
+{
+	float:right;
+}
+#flagbutton
+{
+	width:32px;
+}
+#flagsfolder
+{
+	width:auto;
+}
+
+.inlined
+{
+	clear:none !important;
+	float:left !important;
+	display:list-item !important;
+}
 /* MISC */
 .cost /* Cost area: Diamond on background plus cost value text and position */
 {
@@ -463,13 +600,13 @@ ul
 	top: 0;
 	width: 100%;
 	z-index: 3;
-	background: -moz-linear-gradient(left,  rgba(0,0,0,1.0) 25%, rgba(0,0,0,0.9) 45%, rgba(0,0,0,0) 75%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(25%,rgba(0,0,0,1.0)), color-stop(45%,rgba(0,0,0,0.9)), color-stop(75%,rgba(0,0,0,0)));
-	background: -webkit-linear-gradient(left,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%); 
-	background: -o-linear-gradient(left,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%); 
-	background: -ms-linear-gradient(left,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%);
-	background: linear-gradient(to right,  rgba(0,0,0,1.0) 25%,rgba(0,0,0,0.9) 45%,rgba(0,0,0,0) 75%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff000000', endColorstr='#00000000',GradientType=1 );
+	background: -moz-linear-gradient(left,  rgba(40,40,40,1.0) 60%, rgba(40,40,40,0.8) 70%, rgba(40,40,40,0) 80%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(60%,rgba(40,40,40,1.0)), color-stop(70%,rgba(40,40,40,0.8)), color-stop(80%,rgba(40,40,40,0)));
+	background: -webkit-linear-gradient(left,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 70%,rgba(40,40,40,0) 80%); 
+	background: -o-linear-gradient(left,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 70%,rgba(40,40,40,0) 80%); 
+	background: -ms-linear-gradient(left,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 70%,rgba(40,40,40,0) 80%);
+	background: linear-gradient(to right,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 70%,rgba(40,40,40,0) 80%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff303030', endColorstr='#00000000',GradientType=1 );
 }
 .cover /* Card cover (to dark it when all used) */
 {
@@ -481,7 +618,7 @@ ul
 	right: 0;
 	top: 0px;
 	background-color:rgba(0, 0, 0, 0);
-	z-index: 12; /* 4 */
+	z-index: 12;
 	width:223px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -495,7 +632,7 @@ ul
 /* STYLES FOR CONTROLS */
 /* Controls for import/reset decks */
 /* Main container */
-#importhtml, #importurl , #exportintern, #importintern
+#importhtml, #importurl , #exportintern, #importintern, #importbasic, #exportdecks, #importdecks
 {
 	width: 224px;
 	padding: 6px;
@@ -512,6 +649,11 @@ ul
 {
 	width:300px !important;
 }
+#importbasic
+{
+	width:230px !important;
+	height:220px !important;
+}
 .inputbox, .input
 {
 	border: 1px solid #444;
@@ -525,8 +667,12 @@ ul
 
 .content
 {
-	/* color: #444; */
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+	font-family: belwe;
+	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 	font-size: 10px;
 	text-decoration: none;
 	padding: 0px !important;
@@ -542,17 +688,17 @@ ul
 	display:inline-block;
 	clear:right;
 	width: 100% !important;
-	cursor:pointer;
+	cursor: url("../images/cpointer.png"), pointer;
 	background-repeat: no-repeat;
-	/* background-size: 18px 18px; */
 	background-position: 0px 0px;
 }
 .deckline, .decklinename
 {
 	float:left;
 	color: #fff;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: 14px;
+	font-weight: bold;
+	font-family: belwe;
+	font-size: 12px !important;
 	text-decoration: none;
 	padding: 2px !important;
 }
@@ -561,7 +707,10 @@ ul
 	min-width:200px;
 	position: relative;
 	top: 4px;
-	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 }
 
 .classicon
@@ -589,7 +738,12 @@ ul
 	position:fixed;
 	padding: 4px;
 	color: #fff;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+	font-family: belwe;
+	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 	font-size: 10px;
 	text-decoration: none;
 	background-color: #444;
@@ -613,7 +767,7 @@ ul
 	display:none;
 	background-color: rgba(196,196,196,0.75);
 	z-index:100;
-	cursor: pointer;
+	cursor: url("../images/cpointer.png"), pointer;
 }
 
 .flipbox-container
@@ -625,10 +779,11 @@ ul
 	margin: -181px 0 0 -327px;
 	position:absolute;
 }
-#flip_front, #flip_back, #flip_middle {
+#flip_front, #flip_back, #flip_middle
+{
 	width: 654px;
 	height: 726px;
-	cursor: pointer;
+	cursor: url("../images/cpointer.png"), pointer;
 	position: relative;
 	z-index: 110;
 	-webkit-box-shadow: 0px 1px 4px 0px #99A3AD, inset 0px 0px 40px #EEEEEE; 
@@ -636,49 +791,66 @@ ul
 	box-shadow: 0px 1px 4px 0px #99A3AD, inset 0px 0px 40px #EEEEEE; 
 	border: 1px groove #ddd; 
 }
-
-/* front pane */
-.eses.flip_back {
+.flip_back, .flip_middle, .flip_front
+{
+	background-position: 0px 0px;
 	width:654px;
 	height:726px;
-	background-image:url('../images/eses/hearthhelper_back.jpg');
-}
-.enus.flip_back {
-	width:654px;
-	height:726px;
-	background-image:url('../images/enus/hearthhelper_back.jpg');
 }
 
-/* middle */
-.eses.flip_middle {
-	width:654px;
-	height:726px;
-	background-image:url('../images/eses/hearthhelper.jpg');
-}
-.enus.flip_middle {
-	width:654px;
-	height:726px;
-	background-image:url('../images/enus/hearthhelper.jpg');
-}
-
-/* back */
-.eses.flip_front {
-	width:654px;
-	height:726px;
-	background-image:url('../images/eses/hearthhelper_front.jpg');
-}
-.enus.flip_front {
-	width:654px;
-	height:726px;
-	background-image:url('../images/enus/hearthhelper_front.jpg');
-}
 #tooltip_card
 {
 	border: 0px;
-	width: auto;
-	height: auto;
+	width: auto; /* 125px; */
+	height: auto; /* 175px; */
 	position: absolute;
 	z-index: 200 !important;
 	background: none !important;
 	display: none;
+}
+
+.simply-toast
+{
+	font-size: 11px;
+	font-weight: lighter;
+	font-family: 'Titillium Web', sans-serif;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	-o-text-shadow: none;
+}
+
+#spinner
+{
+	background-image: url(../images/dust.png);
+	background-position: 0 0px;
+	float:right;
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 24px;
+	cursor: url("../images/cpointer.png"), pointer;
+	display: inline-block;
+	clear: none;
+	background-color: none;
+	top:0px !important;
+	margin:0px !important;
+	padding:0px !important;
+
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-mask-image: url(../images/dust.png);
+	-webkit-animation-name: spinnerRotate;
+	-webkit-animation-duration: 750ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spinnerRotate
+{
+	from {
+		-webkit-transform:rotate(0deg);
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
 }

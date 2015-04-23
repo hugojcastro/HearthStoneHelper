@@ -110,7 +110,7 @@
 	};
 
 	this.init = function () {
-		deckConfig.data.raw = g_hearthstone_cards;
+		deckConfig.data.raw = hs_cards;
 		deckConfig.data.usable = usableCards(deckConfig.data.raw);
 		$WH.calc.init({
 			calculator: this,

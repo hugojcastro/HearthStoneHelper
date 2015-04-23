@@ -15,6 +15,16 @@
  * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
  */
 // ///////////////// ///////////////// ///////////////// ///////////////
+// ///////////////
+// Conversion table for non translated help files yet
+var flipTranslations = {
+	'enus':'enus', 'engb':'enus', 'eses':'eses', 'esmx':'eses', // done
+	'itit':'enus', 'frfr':'enus', 'dede':'enus', 'plpl':'enus',
+	'ptpt':'enus', 'ptbr':'enus', 'ruru':'enus', 'kokr':'enus',
+	'zhcn':'enus', 'zhtw':'enus'
+	};
+
+// ///////////////
 // Flipper functions
 // ///////////////
 function flipFront(e)
@@ -22,8 +32,8 @@ function flipFront(e)
 	var event = e || window.event;
 	$(".flipbox").flippy({
     	duration: "400",
-		depth: "7.5",
-    	verso: "<div id=\"flip_card\" class=\"flip_middle " + locale + "\" onclick=\"flipMiddle(event);\"></div>"
+		depth: "7.5", 
+    	verso: "<div id=\"flip_card\" class=\"flip_middle\" style=\"background-image:url('" + helpUrl + flipTranslations[locale] + "/hearthhelper.jpg');\" onclick=\"flipMiddle(event);\"></div>"
  	});
 	event.stopPropagation();
 }
@@ -34,7 +44,7 @@ function flipMiddle(e)
 	$(".flipbox").flippy({
     	duration: "400",
 		depth: "7.5",
-    	verso: "<div id=\"flip_card\" class=\"flip_back " + locale + "\" onclick=\"flipBack(event);\"></div>"
+    	verso: "<div id=\"flip_card\" class=\"flip_back\" style=\"background-image:url('" + helpUrl + flipTranslations[locale] + "/hearthhelper_back.jpg');\" onclick=\"flipBack(event);\"></div>"
  	});
 	event.stopPropagation();
 }
@@ -45,8 +55,17 @@ function flipBack(e)
 	$(".flipbox").flippy({
     	duration: "400",
 		depth: "7.5",
-    	verso: "<div id=\"flip_card\" class=\"flip_front " + locale + "\" onclick=\"flipFront(event);\"></div>"
+    	verso: "<div id=\"flip_card\" class=\"flip_front\" style=\"background-image:url('" + helpUrl + flipTranslations[locale] + "/hearthhelper_front.jpg');\" onclick=\"flipFront(event);\"></div>"
  	});
 	event.stopPropagation();
 }
 // ///////////////
+function updateFlipLocale(locale)
+{
+	if ($('#flip_card').hasClass('flip_middle'))
+    	$('#flip_card').css("background-image", "url('" + helpUrl + flipTranslations[locale] + "/hearthhelper.jpg')");
+	else if ($('#flip_card').hasClass('flip_back'))
+    	$('#flip_card').css("background-image", "url('" + helpUrl + flipTranslations[locale] + "/hearthhelper_back.jpg')");
+	else if ($('#flip_card').hasClass('flip_front'))
+    	$('#flip_card').css("background-image", "url('" + helpUrl + flipTranslations[locale] + "/hearthhelper_front.jpg')");
+}
