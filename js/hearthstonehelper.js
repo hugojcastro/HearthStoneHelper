@@ -18,14 +18,14 @@
 var locale          = 'eses';
 var storageDecks    = 'HSHelperDecks'; // name for deck storage (cookie or localStorage)
 var storageLocale   = 'HSHelperLocale'; // name for locale storage (cookie or localStorage)
-var hearthheadurl	= 'http://wow.zamimg.com/images/hearthstone/cards/'; // Old, to get cards from hearthhead
+// var hearthheadurl	= 'http://wow.zamimg.com/images/hearthstone/cards/'; // Old, to get cards from hearthhead
 var preurl			= 'images/cards/';
 var card_extension	= '.png';
 var helpUrl         = 'images/help/';
 var cardSetUrl		= 'images/sets/';
 var heroesUrl		= 'images/heroes/';
 var hs_quality      = [ 'soulbound', 'common', 'common', 'rare', 'epic', 'legendary' ]; // Only used for css text colors, so no translation needed
-var cardSet         = { 3: 'classic', 12: 'naxx', 13: 'gvg', 14: 'brm' }; // Array of expansion names
+var cardSet         = { 3: 'classic', 12: 'naxx', 13: 'gvg', 14: 'brm', 15: 'tgt' }; // Array of expansion names
 var jDecks          = []; // Array of custom decks
 var my_deck_cards	= [];
 var my_deck_hero	    = 0;

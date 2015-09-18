@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
  */
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /* Fonts */
 @font-face
 {
@@ -278,7 +278,7 @@ ul
 
 #card_counter
 {
-	width: 50%;
+	width: auto; /* 50%; */
 	display: inline-block;
 	float: left;
 	clear: none;
@@ -432,7 +432,7 @@ ul
 {
 	background-position: 0 -96px;
 }
-.esmx /* epanish la flag */
+.esla /* spanish la flag */
 {
 	background-position: 0 -128px;
 }
