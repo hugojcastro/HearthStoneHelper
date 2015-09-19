@@ -71,12 +71,11 @@ function importFromHearthPwn(html)
 	try
 	{
 		var page = $.parseHTML(html);
-		// Name
-		var name = $($(page).find('.t-deck-title').first()).html();
-		// Hero (get it from deckbuilder link url)
-		var deckbuilderUrl = $(page).find('div.t-deckbuilder-view-container a').first();
-		deckbuilderUrl = $(deckbuilderUrl).attr('href');
-		var hero = getHeroClassFromName(deckbuilderUrl.substr(0, deckbuilderUrl.indexOf('#')).substr(deckbuilderUrl.indexOf('deckbuilder/') + 12).toLowerCase());
+		// Deck name
+		var name = $($(page).find('h2.deck-title').first()).html();
+		// Hero
+		var hero = $(page).find('.t-deck-details-card-list > h4').first().html();
+		hero = getHeroClassFromName(hero.substr(0, hero.indexOf(' ', 0)).toLowerCase());
 		// Cards
 		$(page).find('td.col-name > b > a').each(function(index, element)
 		{
