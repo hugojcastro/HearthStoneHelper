@@ -1046,3 +1046,40 @@ function importFromPlayHSCards(html)
 	return result;
 }
 // ///////////////
+function importFromIcyVeins(html)
+{
+	var result = { name: "", hero: 0, cards: [], errcode: "", errvalue: 0, isarena: false };
+
+	try
+	{
+		var page = $.parseHTML(html);
+		// Name
+		var name = $(page).find('h2#sec-2').first();
+		$(name).find('span').remove();
+		name = $(name).text().replace('2. ', '');
+		// Hero
+		var hero = getHeroClassFromName('enus', $(page).find('table.deck_card_list tr th > span').first().attr('class'));
+		// Cards
+		$(page).find('table.deck_card_list tr td ul li').each(function(index, element)
+		{
+			var cname  = $(element).find('a').first().text();
+			var count  = parseInt($(element).text().charAt(0));
+			var cardId = getCardIdFromName('enus', cname);
+			// Arena
+			if ((count > 2) || ( (getQualityFromCard(cardId) == 5) && (count > 1))) result.isarena = true;
+
+			result.cards[result.cards.length] = { card: cardId, count: count };
+		});
+
+		result.name = name;
+		result.hero = hero;
+	}
+	catch(e)
+	{
+		result.errcode  = texts[locale].exceptionthrown + e;
+		result.errvalue = 1;
+	}
+	
+	return result;
+}
+// ///////////////

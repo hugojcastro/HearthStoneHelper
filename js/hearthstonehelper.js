@@ -32,14 +32,14 @@ var my_deck_hero	    = 0;
 var my_deck_name	    = texts[locale].unnamed;
 var my_deck_isarena = false;
 var allLocales      = [ 'dede', 'engb', 'enus', 'eses', 'esla', 'frfr', 'itit', 'kokr', 'plpl', 'ptbr', 'ptpt', 'ruru', 'zhcn', 'zhtw' ];
-// I'll use this trick to save space for same cards pictures
-// As I'll use google translator for locale_xxxx.js files, 'similarLocale' will be used when loading pictures only, to avoid non existent folders for them
+// I'll use this trick to save resources for translations.
 var similarLocale  = { 'esla': 'eses', 'ptpt': 'ptbr', 'zhtw': 'zhcn', 'engb':'enus' };
 // ///////////////// ///////////////// ///////////////// ///////////////
 // Aux to get card url (from local or hearthhead)
 function getCardUrl(locale, card_image)
 {
-	var loc = (typeof(similarLocale[locale]) != "undefined") ? similarLocale[locale] : locale;
+	// It's weird but portuguese from Portugal is not included in client... wtf...
+	var loc = (locale == 'ptpt') ? 'ptbr' : locale;
 	return ( preurl + loc + '/' + card_image + card_extension);
 }
 // ///////////////
@@ -1381,8 +1381,8 @@ $(document).ready(function(e)
 	// First of all, we'll create all duplicated locales
 	for (var idx in similarLocale)
 	{
-		factions[idx] = fullCopy(texts[similarLocale[idx]]);
-		races[idx]    = fullCopy(texts[similarLocale[idx]]);
+		factions[idx] = fullCopy(factions[similarLocale[idx]]);
+		races[idx]    = fullCopy(races[similarLocale[idx]]);
 		texts[idx]    = fullCopy(texts[similarLocale[idx]]);
 	}
 

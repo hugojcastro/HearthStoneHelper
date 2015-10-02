@@ -129,7 +129,8 @@ function processContent(url, html)
 		result = importFromHSDeck(html);
 	else if (url.indexOf("playhscards.ru") != -1)
 		result = importFromPlayHSCards(html);
-
+	else if (url.indexOf("icy-veins.com") != -1)
+		result = importFromIcyVeins(html);
 /* TODO
 	else if (url.indexOf("arenavalue") != -1)
 		result = importFromArenaValue(html);
