@@ -359,15 +359,15 @@ function createCard( card )
 	// Create card elements: card name
 	$(elem).append(anItem('span', 'name ' + hs_quality[card.quality], card.name, cardset));
 	// card background
-	$(elem).append(anItem('span', 'bg', '', 'url(' + card_url + ')'));
+	$(elem).append(anItem('span', 'bg withcounter', '', 'url(' + card_url + ')'));
 	// card count
 	$(elem).append(anItem('span', 'count', $(elem).attr('card_count')));
+	// and card cover
+	$(elem).append(anItem('span', 'cover'));
 	// card cost
 	$(elem).append(anItem('span', 'icon cost', card.cost));
 	// card shadow overlay
-	$(elem).append(anItem('span', 'shadow-overlay'));
-	// and card cover
-	$(elem).append(anItem('span', 'cover'));
+	$(elem).append(anItem('span', 'shadow-overlay withcounter'));
 	// return new card
 	return elem;
 }
@@ -469,8 +469,14 @@ function pickRightCard(card)
 	{
 		$(card).find('span.count').html('');
 		$(card).find('span.cover').css('background-color', 'rgba(0, 0, 0, 0.75)');
+		$(card).find('span.bg').removeClass('withcounter');
+		$(card).find('span.shadow.overlay').removeClass('withcounter');
 	} else {
 		$(card).find('span.count').html(card_count);
+		if (!$(card).find('span.bg').hasClass('withcounter'))
+			$(card).find('span.bg').addClass('withcounter');
+		if (!$(card).find('span.shadow.overlay').hasClass('withcounter'))
+			$(card).find('span.shadow.overlay').addClass('withcounter');
 	}
 }
 // ///////////////
@@ -495,6 +501,10 @@ function pickWrongCard(card)
 				$(card).find('span.cover').css('background-color', 'rgba(0, 0, 0, 0)');
 				$(card).attr('card_count', card_count);
 				$(card).find('span.count').html(card_count);
+				if (!$(card).find('span.bg').hasClass('withcounter'))
+					$(card).find('span.bg').addClass('withcounter');
+				if (!$(card).find('span.shadow.overlay').hasClass('withcounter'))
+					$(card).find('span.shadow.overlay').addClass('withcounter');
 			}
 			break;
 		}

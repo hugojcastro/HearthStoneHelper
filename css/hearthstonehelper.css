@@ -59,13 +59,16 @@ body
 	display: block;
 	float: left;
 	border:6px groove #666;
-	padding:0px;
-	background-color:#444;
 	margin: auto auto;
+	background-color: #252525;
+	border-color: #ede1bf #a29565 #ad9959 #d5bd83;
+	border-width: 2px;
+	border-style: solid;
 	-webkit-border-radius: 8px; 
 	-moz-border-radius: 8px; 
 	border-radius: 8px; 
-
+	margin-top: 2px;
+	padding: 4px;
 }
 .divider
 {
@@ -87,12 +90,16 @@ body
 	min-height: 24px;
 	width:224px;
 	border:6px groove #666;
-	padding:0px;
-	background-color:#4d3252;
 	margin: auto auto;
+	background-color: #252525;
+	border-color: #ede1bf #a29565 #ad9959 #d5bd83;
+	border-width: 2px;
+	border-style: solid;
 	-webkit-border-radius: 8px; 
 	-moz-border-radius: 8px; 
 	border-radius: 8px; 
+	margin-top: 2px;
+	padding: 4px 4px 0px 4px;
 }
 .deck
 {
@@ -198,7 +205,7 @@ ul
 	cursor: url("../images/cpointer.png"), pointer;
 	font-weight: bold;
 	font-family: belwe;
-	font-size: 11px;
+	font-size: 13px;
 	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
 	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
@@ -211,9 +218,9 @@ ul
 	box-shadow: 0px 0px 20px #000;
 	display: block;
 	height: 24px;
-	margin: 0 0 3px 12px;
+	margin: 0 0 3px 2px;
 	position: relative;
-	width: 210px;
+	width: 222px;
 	outline: none;
 }
 .card:hover
@@ -225,7 +232,7 @@ ul
 	height: 24px;
 	left: 16px;
 	padding-left: 16px;
-	line-height: 24px;
+	line-height: 22px;
 	position: absolute;
 	top: 0;
 	z-index: 5;
@@ -237,12 +244,12 @@ ul
 .bg /* Card Background: Common properties and position (url is defined as tag on the element) */
 {
 	box-shadow: inset -1px 0 0 rgba(255,255,255,.2),1px 0 0 rgba(0,0,0,.5);
-	background-position: 30px -60px;
+	background-position: 30px -40px;
 	background-size: 150px auto;
 	border-radius: 0 6px 6px 0;
 	opacity: .8;
 	position: absolute;
-	left: 65px;
+	left: 75px;
 	top: 0;
 	transition: background 150ms linear !important;
 	-webkit-transition: background 150ms linear !important;
@@ -256,10 +263,10 @@ ul
 .count /* Card count area: Just text and position */
 {
 	color: #ffe600;
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: bold;
 	height: 24px;
-	line-height: 26px;
+	line-height: 22px;
 	position: absolute;
 	right: 0;
 	text-align: center;
@@ -483,13 +490,15 @@ ul
 	background-position: 0 -32px;
 	display: block;
 	clear:both;
-	float:left;}
+	float:left;
+}
 .fromhtml
 {
 	background-position: 0 0px;
 	display: block;
 	clear:both;
-	float:left;}
+	float:left;
+}
 
 /* LOAD/SAVE ICONS */
 .store, .folder
@@ -541,12 +550,16 @@ ul
 #importfolder, #storefolder, #flagsfolder
 {
 	z-index:1000;
-	padding: 2px;
 	border:2px groove #666;
-	background-color:#444;
-	-webkit-border-radius: 2px; 
-	-moz-border-radius: 2px; 
-	border-radius: 2px; 
+	background-color: #252525;
+	border-color: #ede1bf #a29565 #ad9959 #d5bd83;
+	border-width: 2px;
+	border-style: solid;
+	-webkit-border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	border-radius: 8px; 
+	margin-top: 2px;
+	padding: 4px;
 	color:#fff !important;
 	display: none;
 	position:absolute;
@@ -579,14 +592,14 @@ ul
 /* MISC */
 .cost /* Cost area: Diamond on background plus cost value text and position */
 {
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: bold;
 	left: -16px;
-	line-height: 36px;
+	line-height: 32px;
 	position: absolute;
 	text-align: center;
 	top: -4px;
-	z-index: 10;
+	z-index: 30; /* 20 */
 	display: block;
 }
 .shadow-overlay /* Shadow overlay on each card tag */
@@ -613,13 +626,13 @@ ul
 	bottom: 0px;
 	display: block;
 	height: auto;
-	left: -12px;
+	left: 0px;
 	position: absolute;
 	right: 0;
 	top: 0px;
 	background-color:rgba(0, 0, 0, 0);
 	z-index: 12;
-	width:223px;
+	width:222px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
@@ -635,14 +648,18 @@ ul
 #importhtml, #importurl , #exportintern, #importintern, #importbasic, #exportdecks, #importdecks
 {
 	width: 224px;
-	padding: 6px;
 	z-index:1;
 	display: none;
 	border:6px groove #666;
-	background-color:#444;
+	background-color: #252525;
+	border-color: #ede1bf #a29565 #ad9959 #d5bd83;
+	border-width: 2px;
+	border-style: solid;
 	-webkit-border-radius: 8px; 
 	-moz-border-radius: 8px; 
 	border-radius: 8px; 
+	margin-top: 2px;
+	padding: 4px;
 	color:#fff !important;
 }
 #importintern
@@ -818,6 +835,22 @@ ul
 	-webkit-text-shadow: none;
 	-moz-text-shadow: none;
 	-o-text-shadow: none;
+}
+
+.bg.withcounter
+{
+	width: 126px !important;
+	background-position: 14px -40px !important;
+}
+
+.shadow-overlay.withcounter
+{
+	background: -moz-linear-gradient(left,  rgba(40,40,40,1.0) 60%, rgba(40,40,40,0.8) 65%, rgba(40,40,40,0) 75%) !important;
+	background: -webkit-gradient(linear, left top, right top, color-stop(60%,rgba(40,40,40,1.0)), color-stop(75%,rgba(40,40,40,0.8)), color-stop(70%,rgba(40,40,40,0))) !important;
+	background: -webkit-linear-gradient(left,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 65%,rgba(40,40,40,0) 75%) !important;
+	background: -o-linear-gradient(left,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 65%,rgba(40,40,40,0) 75%) !important;
+	background: -ms-linear-gradient(left,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 65%,rgba(40,40,40,0) 75%) !important;
+	background: linear-gradient(to right,  rgba(40,40,40,1.0) 60%,rgba(40,40,40,0.8) 65%,rgba(40,40,40,0) 75%) !important;
 }
 
 #spinner
