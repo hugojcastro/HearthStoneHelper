@@ -18,7 +18,6 @@
 var locale          = 'eses';
 var storageDecks    = 'HSHelperDecks'; // name for deck storage (cookie or localStorage)
 var storageLocale   = 'HSHelperLocale'; // name for locale storage (cookie or localStorage)
-// var hearthheadurl	= 'http://wow.zamimg.com/images/hearthstone/cards/'; // Old, to get cards from hearthhead
 var preurl			= 'images/cards/';
 var card_extension	= '.png';
 var helpUrl         = 'images/help/';
@@ -49,6 +48,51 @@ function getQualityFromCard( cardid )
 	if ( typeof( hs_cards['enus'][cardid].quality != 'undefined' ) )
 		return hs_cards['enus'][cardid].quality;
 	return 0;
+}
+// ///////////////
+// Aux to get cost from card (mainly for charts)
+function getCostFromCard( cardid )
+{
+	if ( typeof( hs_cards['enus'][cardid].cost != 'undefined' ) )
+		return hs_cards['enus'][cardid].cost;
+	return -1;
+}
+// ///////////////
+// Aux to get attack from card (mainly for charts)
+function getAttackFromCard( cardid )
+{
+	if ( typeof( hs_cards['enus'][cardid].attack != 'undefined' ) )
+	{
+		if ( hs_cards['enus'][cardid].type == 4 )
+			return hs_cards['enus'][cardid].attack;
+	}
+	return -1;
+}
+// ///////////////
+// Aux to get health from card (mainly for charts)
+function getHealthFromCard( cardid )
+{
+	if ( typeof( hs_cards['enus'][cardid].health != 'undefined' ) )
+	{
+		if (hs_cards['enus'][cardid].type == 4 )
+			return hs_cards['enus'][cardid].health;
+	}
+	return -1;
+}
+// ///////////////
+// Aux to get attack from card (mainly for charts)
+function getTypeFromCard( cardid )
+{
+	if ( typeof( hs_cards['enus'][cardid].type != 'undefined' ) )
+	{
+		switch (hs_cards['enus'][cardid].type)
+		{
+			case 4 : return 'minion'; break;
+			case 5 : return 'spell';  break;
+			case 7 : return 'weapon'; break;
+		}
+	}
+	return '';
 }
 // ///////////////
 // Aux to get hero from card (if linked to class, 0 otherwise)
@@ -855,8 +899,61 @@ function loadDeckFromList( deck, idx )
 		my_deck_hero = parseInt( deck[idx].hero );
 		my_deck_name = deck[idx].name;
 		my_deck_isarena = ( typeof( deck[idx].isarena ) == "undefined" ) ? false : deck[idx].isarena;
+		// Update charts with card list
+		updateChart(my_deck_cards);
 	}
 	return result;
+}
+// ///////////////
+function updateChart(cards)
+{
+	var card;
+	var count;
+	var value;
+	var mana   = [0, 0, 0, 0, 0, 0, 0, 0];
+	var attack = [0, 0, 0, 0, 0, 0, 0, 0];
+	var health = [0, 0, 0, 0, 0, 0, 0, 0];
+	var pie    = [
+		{ name: texts[locale]['minion'], value:0 }, 
+		{ name: texts[locale]['spell'],  value:0 },
+		{ name: texts[locale]['weapon'], value:0 }
+		];
+	for (var idx in cards)
+	{
+		card = cards[idx];
+		// Update mana chart
+		value = Math.max(Math.min(getCostFromCard(card.card), 7), -1);
+		if (value != -1)
+		{
+			mana[value] += card.count;
+		}
+		// Update attack chart
+		value = Math.max(Math.min(getAttackFromCard(card.card), 7), -1);
+		if (value != -1)
+		{
+			attack[value] += card.count;
+		}
+		// Update health chart
+		value = Math.max(Math.min(getHealthFromCard(card.card), 7), -1);
+		if (value != -1)
+		{
+			health[value] += card.count;
+		}
+		// Update pie chart
+		value = getTypeFromCard(card.card);
+		if (value == 'minion')
+			pie[0].value += card.count;
+		else if (value == 'spell')
+			pie[1].value += card.count;
+		else if (value == 'weapon')
+			pie[2].value += card.count;
+	}
+	// Assign new chart values
+	ajHSChart.setMana(mana);
+	ajHSChart.setAttack(attack);
+	ajHSChart.setHealth(health);
+	ajHSChart.setPie(pie);
+	ajHSChart.setType('mana');
 }
 // ///////////////
 // Store deck on list with given name
@@ -1042,6 +1139,9 @@ function refreshLocale(loc)
 
 	// Card counter
 	$('#counter_text').text(texts[locale].cardcounter);
+
+	// Labels for pie charts
+	ajHSChart.updatePieLabels(texts[locale]['minion'], texts[locale]['spell'], texts[locale]['weapon']);
 
 	// store new locale
 	storeOnStorage(locale, storageLocale);
@@ -1547,6 +1647,16 @@ $(document).ready(function(e)
 
 	// Add event to load file control
 	$('#deck_file').bind('change', importAllDecks);
+
+	// Add event to show charts
+	$('#deck_class').bind('click', function(e)
+	{
+		ajHSChart.Show();
+	});
+
+	// Reset charts and move it over deck portrait
+	ajHSChart.setType('mana');
+	ajHSChart.MoveTo(6, 55);
 
 	// Hide spinner
 	$('#spinner').hide();

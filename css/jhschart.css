@@ -1,0 +1,164 @@
+/*
+ * This file is part of HearthStoneHelper.
+ *
+ * HearthStoneHelper is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * HearthStoneHelper is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
+ */
+@charset "UTF-8";
+/* jHSChart */
+div#jhschartcontainer
+{
+	width:230px;
+	height:145px;
+	margin:0px;
+	padding:0px;
+	border:none;
+	position:absolute;
+}
+div.jhschartmana,div.jhscharthealth,div.jhschartattack,div.jhschartpie
+{
+	width:230px;
+	height:145px;
+	top:0px;
+	left:0px;
+	position:absolute;
+	z-index:100;
+}
+canvas.jhschartpiechart
+{
+	width:164px;
+	height:102px;
+	top:28px;
+	left:24px;
+	position:absolute;
+	z-index:150;
+}
+.jhschartbutton
+{
+	height: 24px;
+	width: 24px;
+	cursor: url("../images/cpointer.png"), pointer;
+	display: inline-block;
+	float: right;
+	clear: none;
+	background-color: none;
+	background-repeat: no-repeat;
+	background-size:24px auto;
+	-webkit-transition: -webkit-transform 250ms linear;
+	-moz-transition: -moz-transform 250ms linear;
+	-o-transition: -o-transform 250ms linear;
+	transition: transform 250ms linear;
+	background-image: url('../images/sprite32.png');
+	float:left;
+	position:absolute;
+	z-index:140;
+}
+.jhschartbutton:hover
+{
+  -webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  -webkit-transform-origin: center center;
+     -moz-transform-origin: center center;
+      -ms-transform-origin: center center;
+       -o-transform-origin: center center;
+          transform-origin: center center;
+}
+.jhschartbtattack
+{
+	background-position: 0 0px;
+	top:24px;
+	right:0px;
+}
+.jhschartbthealth
+{
+	background-position: 0 -24px;
+	top:48px;
+	right:0px;
+}
+.jhschartbtcost
+{
+	background-position: 0 -48px;
+	top:72px;
+	right:0px;
+}
+.jhschartbtclose
+{
+	background-position: 0 -144px;
+	top:0px;
+	right:0px;
+}
+.jhschartbtpie
+{
+	background-position: 0 -168px;
+	top:96px;
+	right:0px;
+}
+div.jhschartmana
+{
+	background:url('jhschart/bar_mana.png');
+}
+div.jhscharthealth
+{
+	background:url('jhschart/bar_health.png');
+}
+div.jhschartattack
+{
+	background:url('jhschart/bar_attack.png');
+}
+div.jhschartpie
+{
+	background:url('jhschart/bar_pie.png');
+}
+div.jhschartbackground
+{
+	width:230px;
+	height:145px;
+	background:url('jhschart/bar_background.png');
+	top:0px;
+	left:0px;
+	position:absolute;
+	z-index:80;
+}
+span.jhschartbar
+{
+	width:14px !important;
+	background:url('jhschart/bar_bar.png');
+	z-index:90;
+	bottom:30px;
+	position:absolute;
+	display:inline-block;
+	float:left;
+}
+span.jhschartcounter
+{
+	width:14px !important;
+	height:14px !important;
+	z-index:120;
+	top:7px;
+	position:absolute;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	vertical-align:central;
+	font-family:belwe;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
+}

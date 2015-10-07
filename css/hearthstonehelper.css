@@ -344,6 +344,7 @@ ul
 	position: relative;
 	width: 100%;
 	outline: none;
+	cursor: url("../images/cpointer.png"), pointer;
 }
 #deck_name
 {

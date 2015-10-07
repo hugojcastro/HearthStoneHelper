@@ -69,14 +69,17 @@ texts["zhcn"] = {
 	"localeeses" : "Español (ES)",
 	"localeengb" : "English (GB)",
 	"localeenus" : "English (US)",
-	"localeesmx" : "Español (LA)",
+	"localeesla" : "Español (LA)",
 	"localeitit" : "Italiano",
 	"localefrfr" : "Français",
 	"localedede" : "Deutsch",
-	"localeptpt" : "Português",
+	"localeptbr" : "Português",
 	"localeruru" : "русский",
 	"localeplpl" : "Polski",
 	"localekokr" : "한국의",
 	"localezhcn" : "普通話", // traditional
 	"localezhtw" : "国语", // simplifyed
+	"minion"     : "随从",
+	"spell"      : "法术",
+	"weapon"     : "武器",
 };

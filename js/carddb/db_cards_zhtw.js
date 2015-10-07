@@ -1,19 +1,19 @@
-/*
- * This file is part of HearthStoneHelper.
- *
- * HearthStoneHelper is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * HearthStoneHelper is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
- */
+/* 
+* This file is part of HearthStoneHelper. 
+* 
+* HearthStoneHelper is free software: you can redistribute it and/or modify 
+* it under the terms of the GNU General Public License as published by 
+* the Free Software Foundation, either version 3 of the License, or 
+* (at your option) any later version. 
+* 
+* HearthStoneHelper is distributed in the hope that it will be useful, 
+* but WITHOUT ANY WARRANTY; without even the implied warranty of 
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+* GNU General Public License for more details. 
+* 
+* You should have received a copy of the GNU General Public License 
+* along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>. 
+*/
 hs_cards['zhtw'] = {
   7: {
     "id": 7,
@@ -1360,6 +1360,7 @@ hs_cards['zhtw'] = {
     "name": "奧金收割斧",
     "cost": 5,
     "attack": 5,
+    "durability": 2,
     "classs": 1,
     "faction": 0,
     "collectible": 1,
@@ -1400,6 +1401,7 @@ hs_cards['zhtw'] = {
     "name": "鬥士長弓",
     "cost": 7,
     "attack": 5,
+    "durability": 2,
     "classs": 3,
     "faction": 0,
     "collectible": 1,
@@ -1602,6 +1604,7 @@ hs_cards['zhtw'] = {
     "name": "末日錘",
     "cost": 5,
     "attack": 2,
+    "durability": 8,
     "classs": 7,
     "faction": 0,
     "collectible": 1,
@@ -1724,6 +1727,7 @@ hs_cards['zhtw'] = {
     "name": "聖光正義之錘",
     "cost": 1,
     "attack": 1,
+    "durability": 4,
     "classs": 2,
     "faction": 0,
     "collectible": 1,
@@ -1750,6 +1754,7 @@ hs_cards['zhtw'] = {
     "name": "墮滅之刃",
     "cost": 3,
     "attack": 2,
+    "durability": 2,
     "classs": 4,
     "faction": 0,
     "collectible": 1,
@@ -1814,6 +1819,7 @@ hs_cards['zhtw'] = {
     "name": "熾炎戰斧",
     "cost": 2,
     "attack": 3,
+    "durability": 2,
     "classs": 1,
     "faction": 0,
     "collectible": 1,
@@ -1905,6 +1911,7 @@ hs_cards['zhtw'] = {
     "name": "刺客之刃",
     "cost": 5,
     "attack": 3,
+    "durability": 4,
     "classs": 4,
     "faction": 0,
     "collectible": 1,
@@ -2288,6 +2295,7 @@ hs_cards['zhtw'] = {
     "name": "惡毒之匕",
     "cost": 1,
     "attack": 1,
+    "durability": 2,
     "classs": 4,
     "faction": 0,
     "set": 2,
@@ -3113,6 +3121,7 @@ hs_cards['zhtw'] = {
     "name": "正義之劍",
     "cost": 3,
     "attack": 1,
+    "durability": 5,
     "classs": 2,
     "faction": 0,
     "collectible": 1,
@@ -3863,6 +3872,7 @@ hs_cards['zhtw'] = {
     "name": "血吼之斧",
     "cost": 7,
     "attack": 7,
+    "durability": 1,
     "classs": 1,
     "faction": 0,
     "collectible": 1,
@@ -4035,6 +4045,7 @@ hs_cards['zhtw'] = {
     "name": "真銀勇士劍",
     "cost": 4,
     "attack": 4,
+    "durability": 2,
     "classs": 2,
     "faction": 0,
     "collectible": 1,
@@ -4474,6 +4485,7 @@ hs_cards['zhtw'] = {
     "name": "風暴冶煉之斧",
     "cost": 2,
     "attack": 2,
+    "durability": 3,
     "classs": 7,
     "faction": 0,
     "collectible": 1,
@@ -5931,6 +5943,7 @@ hs_cards['zhtw'] = {
     "name": "埃辛諾斯戰刃",
     "cost": 2,
     "attack": 2,
+    "durability": 2,
     "set": 5,
     "type": 7,
     "quality": 1
@@ -5950,6 +5963,7 @@ hs_cards['zhtw'] = {
     "name": "雙戰刃",
     "cost": 6,
     "attack": 4,
+    "durability": 2,
     "set": 5,
     "type": 7,
     "quality": 1
@@ -6081,6 +6095,7 @@ hs_cards['zhtw'] = {
     "name": "血之烈怒",
     "cost": 3,
     "attack": 3,
+    "durability": 8,
     "classs": 9,
     "set": 3,
     "type": 7,
@@ -6092,6 +6107,7 @@ hs_cards['zhtw'] = {
     "name": "重斧",
     "cost": 1,
     "attack": 1,
+    "durability": 3,
     "classs": 1,
     "set": 3,
     "type": 7,
@@ -6103,6 +6119,7 @@ hs_cards['zhtw'] = {
     "name": "鷹角弓",
     "cost": 3,
     "attack": 3,
+    "durability": 2,
     "classs": 3,
     "collectible": 1,
     "set": 3,
@@ -6282,6 +6299,7 @@ hs_cards['zhtw'] = {
     "name": "戰鬥斧",
     "cost": 1,
     "attack": 2,
+    "durability": 2,
     "classs": 1,
     "set": 3,
     "type": 7,
@@ -6353,6 +6371,7 @@ hs_cards['zhtw'] = {
     "name": "灰燼使者",
     "cost": 5,
     "attack": 5,
+    "durability": 3,
     "classs": 2,
     "set": 3,
     "type": 7,
@@ -6907,6 +6926,7 @@ hs_cards['zhtw'] = {
     "name": "死亡之噬",
     "cost": 4,
     "attack": 4,
+    "durability": 2,
     "classs": 1,
     "collectible": 1,
     "set": 12,
@@ -7341,6 +7361,7 @@ hs_cards['zhtw'] = {
     "name": "巨大的符文刃",
     "cost": 3,
     "attack": 5,
+    "durability": 2,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -7459,6 +7480,7 @@ hs_cards['zhtw'] = {
     "name": "符文刃",
     "cost": 3,
     "attack": 1,
+    "durability": 3,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -7487,6 +7509,7 @@ hs_cards['zhtw'] = {
     "name": "肉鉤",
     "cost": 3,
     "attack": 5,
+    "durability": 8,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -7535,6 +7558,7 @@ hs_cards['zhtw'] = {
     "name": "噬咬",
     "cost": 1,
     "attack": 1,
+    "durability": 5,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -7949,6 +7973,7 @@ hs_cards['zhtw'] = {
     "name": "齒輪大師的扳手",
     "cost": 3,
     "attack": 1,
+    "durability": 3,
     "classs": 4,
     "collectible": 1,
     "set": 13,
@@ -8088,6 +8113,7 @@ hs_cards['zhtw'] = {
     "name": "動力戰錘",
     "cost": 3,
     "attack": 3,
+    "durability": 2,
     "classs": 7,
     "collectible": 1,
     "set": 13,
@@ -8177,6 +8203,7 @@ hs_cards['zhtw'] = {
     "name": "旋刃火箭筒",
     "cost": 2,
     "attack": 2,
+    "durability": 2,
     "classs": 3,
     "collectible": 1,
     "set": 13,
@@ -8315,6 +8342,7 @@ hs_cards['zhtw'] = {
     "name": "巨魔戰槌",
     "cost": 3,
     "attack": 4,
+    "durability": 2,
     "classs": 1,
     "collectible": 1,
     "set": 13,
@@ -8380,6 +8408,7 @@ hs_cards['zhtw'] = {
     "name": "齒輪巨錘",
     "cost": 3,
     "attack": 2,
+    "durability": 3,
     "classs": 2,
     "collectible": 1,
     "set": 13,
@@ -9412,6 +9441,7 @@ hs_cards['zhtw'] = {
     "name": "符文刃",
     "cost": 3,
     "attack": 2,
+    "durability": 3,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -9440,6 +9470,7 @@ hs_cards['zhtw'] = {
     "name": "巨大的符文刃",
     "cost": 3,
     "attack": 10,
+    "durability": 2,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -9459,6 +9490,7 @@ hs_cards['zhtw'] = {
     "name": "肉鉤",
     "cost": 3,
     "attack": 4,
+    "durability": 8,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -9514,6 +9546,7 @@ hs_cards['zhtw'] = {
     "name": "噬咬",
     "cost": 1,
     "attack": 3,
+    "durability": 5,
     "set": 12,
     "type": 7,
     "quality": 2
@@ -11104,6 +11137,7 @@ hs_cards['zhtw'] = {
     "name": "拉佐格爾之爪",
     "cost": 1,
     "attack": 1,
+    "durability": 5,
     "set": 14,
     "type": 7,
     "quality": 2
@@ -11154,6 +11188,7 @@ hs_cards['zhtw'] = {
     "name": "龍牙",
     "cost": 1,
     "attack": 0,
+    "durability": 6,
     "set": 14,
     "type": 7,
     "quality": 2
@@ -12759,6 +12794,7 @@ hs_cards['zhtw'] = {
     "name": "充能戰錘",
     "cost": 4,
     "attack": 2,
+    "durability": 4,
     "classs": 7,
     "collectible": 1,
     "set": 15,
@@ -13166,6 +13202,7 @@ hs_cards['zhtw'] = {
     "name": "薩弗拉斯",
     "cost": 2,
     "attack": 2,
+    "durability": 6,
     "set": 18,
     "type": 7,
     "quality": 2
@@ -13228,6 +13265,7 @@ hs_cards['zhtw'] = {
     "name": "奧妮克希亞之爪",
     "cost": 2,
     "attack": 2,
+    "durability": 6,
     "set": 14,
     "type": 7,
     "quality": 2
@@ -13306,6 +13344,7 @@ hs_cards['zhtw'] = {
     "name": "銀白長槍",
     "cost": 2,
     "attack": 2,
+    "durability": 2,
     "classs": 2,
     "collectible": 1,
     "set": 15,
@@ -13507,6 +13546,7 @@ hs_cards['zhtw'] = {
     "name": "塗毒匕首",
     "cost": 1,
     "attack": 2,
+    "durability": 2,
     "classs": 4,
     "set": 15,
     "type": 7,
@@ -13566,6 +13606,7 @@ hs_cards['zhtw'] = {
     "name": "王家防衛者",
     "cost": 3,
     "attack": 3,
+    "durability": 2,
     "classs": 1,
     "collectible": 1,
     "set": 15,
@@ -13626,6 +13667,7 @@ hs_cards['zhtw'] = {
     "name": "毒刃",
     "cost": 4,
     "attack": 1,
+    "durability": 3,
     "classs": 4,
     "collectible": 1,
     "set": 15,
