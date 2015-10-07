@@ -24,6 +24,7 @@
 <meta name="description" content="HearthStone helper tool, Herramienta de ayuda para HearthStone" />
 <link type="text/css" rel="stylesheet" href="css/hearthstonehelper.css" />
 <link type="text/css" rel="stylesheet" href="css/simply-toast.min.css" />
+<link type="text/css" rel="stylesheet" href="css/jhschart.css" />
 <script language="javascript">
 // ///////////////
 // COMMON VARS
@@ -57,7 +58,6 @@ var texts    = {};
 <script language="javascript" src="js/carddb/db_cards_kokr.js"></script>
 <script language="javascript" src="js/carddb/db_cards_plpl.js"></script>
 <script language="javascript" src="js/carddb/db_cards_ptbr.js"></script>
-<script language="javascript" src="js/carddb/db_cards_ptpt.js"></script>
 <script language="javascript" src="js/carddb/db_cards_ruru.js"></script>
 <script language="javascript" src="js/carddb/db_cards_zhcn.js"></script>
 <script language="javascript" src="js/carddb/db_cards_zhtw.js"></script>
@@ -70,12 +70,14 @@ var texts    = {};
 <script language="javascript" src="js/import/import_main.js"></script>
 <script language="javascript" src="js/import/import_default.js"></script>
 <script language="javascript" src="js/import/jstorage.js"></script>
+<script language="javascript" src="js/jhschart.js"></script>
 <script language="javascript" src="js/hearthstonehelper.js"></script>
 <script language="javascript" src="js/Calc.js"></script>
 <script language="javascript" src="js/DeckBuilder.js"></script>
 <script language="javascript" src="js/jhelp.js"></script>
 <script language="javascript" src="js/jeyecursor.js"></script>
 <script language="javascript" src="js/simply-toast.min.js"></script>
+<script language="javascript" src="js/Chart.js"></script>
 <script>
 $WH.calc.deckbuilder.init();
 // document.ontouchmove = function(event) { event.preventDefault(); }
@@ -129,7 +131,6 @@ $WH.calc.deckbuilder.init();
 				<div class="flag kokr inlined" onclick="refreshLocale('kokr');" data-localized="localekokr" title="한국의" style="clear:left !important;"></div>
 				<div class="flag plpl inlined" onclick="refreshLocale('plpl');" data-localized="localeplpl" title="Polski"></div>
 				<div class="flag ptbr inlined" onclick="refreshLocale('ptbr');" data-localized="localeptbr" title="Português (BR)"></div>
-				<div class="flag ptpt inlined" onclick="refreshLocale('ptpt');" data-localized="localeptpt" title="Português (PT)"></div>
 				<div class="flag ruru inlined" onclick="refreshLocale('ruru');" data-localized="localeruru" title="русский"></div>
 				<div class="flag zhcn inlined" onclick="refreshLocale('zhcn');" data-localized="localezhcn" title="普通話"></div>
 				<div class="flag zhtw inlined" onclick="refreshLocale('zhtw');" data-localized="localezhtw" title="国语"></div>
