@@ -134,8 +134,10 @@ div.jhschartbackground
 }
 span.jhschartbar
 {
-	width:14px !important;
-	background:url('jhschart/bar_bar.png');
+	width:12px !important;
+	background-image:url('jhschart/bar_bar.png');
+	background-size:12px auto;
+	background-repeat:no-repeat;
 	z-index:90;
 	bottom:30px;
 	position:absolute;
@@ -162,3 +164,61 @@ span.jhschartcounter
 	-moz-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 }
+
+.barhealth
+{
+	box-shadow: 0 0 1px rgba(0, 0, 0, .5), inset 1px 1px 1px rgba(255, 255, 255, .2);
+	background-color: #f53a2e;
+	background-color: -moz-linear-gradient(top, #f74436 0, #da2b22 100%);
+	background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f74436), color-stop(100%, #da2b22));
+	background-color: -webkit-linear-gradient(top, #f74436 0, #da2b22 100%);
+	background: -o-linear-gradient(top, #f74436 0, #da2b22 100%);
+	background-color-color: -ms-linear-gradient(top, #f74436 0, #da2b22 100%);
+	background-color: linear-gradient(to bottom, #f74436 0, #da2b22 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f74436', endColorstr='#da2b22', GradientType=0);
+}
+.barattack
+{
+	box-shadow: 0 0 1px rgba(0, 0, 0, .5), inset 1px 1px 1px rgba(255, 255, 255, .5);
+	background-color: #edb517;
+	background-color: -moz-linear-gradient(top, #f0c21b 0, #d29711 100%);
+	background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0c21b), color-stop(100%, #d29711));
+	background-color: -webkit-linear-gradient(top, #f0c21b 0, #d29711 100%);
+	background-color: -o-linear-gradient(top, #f0c21b 0, #d29711 100%);
+	background-color: -ms-linear-gradient(top, #f0c21b 0, #d29711 100%);
+	background-color: linear-gradient(to bottom, #f0c21b 0, #d29711 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f0c21b', endColorstr='#d29711', GradientType=0);
+}
+.barmana
+{
+	box-shadow: 0 0 1px rgba(0, 0, 0, .5), inset 1px 1px 1px rgba(255, 255, 255, .2);
+	background-color: #376bb8;
+	background-color: -moz-linear-gradient(top, #417ec5 0, #2d58ab 100%);
+	background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0, #417ec5), color-stop(100%, #2d58ab));
+	background-color: -webkit-linear-gradient(top, #417ec5 0, #2d58ab 100%);
+	background-color: -o-linear-gradient(top, #417ec5 0, #2d58ab 100%);
+	background-color: -ms-linear-gradient(top, #417ec5 0, #2d58ab 100%);
+	background-color: linear-gradient(to bottom, #417ec5 0, #2d58ab 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#417ec5', endColorstr='#2d58ab', GradientType=0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

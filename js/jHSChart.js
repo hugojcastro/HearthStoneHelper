@@ -17,7 +17,7 @@
 // ///////////////
 var defaultContainer = 'jhschartcontainer'; // Default ID to use for chart container
 var BARHEIGHT        = 84; // Height for bars in the chart
-var barLeft          = [24, 46, 68, 91, 113, 135, 157, 180]; // X coord. for texts and bars
+var barLeft          = [25, 47, 69, 92, 114, 136, 158, 181]; // X coord. for texts and bars
 // ///////////////
 // I'll use this object to show my bar
 var ajHSChart = null;
@@ -103,7 +103,7 @@ function jHSChart(x, y, type, container, valuesMana, valuesAttack, valuesHealth,
 jHSChart.prototype.addABar = function(parent, idx, counter, height)
 {
 	var column = document.createElement('span');
-	$(column).attr('class', 'jhschartbar');
+	$(column).addClass('jhschartbar').addClass('bar' + this.type);
 	$(column).css('height', height + 'px');
 	$(column).css('left', barLeft[idx] + 'px');
 	$(parent).append(column);
@@ -138,20 +138,20 @@ jHSChart.prototype.Populate = function()
 		var data = [
     	{
         	value: this.piedata[0].value, // minion
-        	color: "#FDB45C",
-        	highlight: "#FFC870",
+        	color: "#FF991E",
+        	highlight: "#FFB745",
         	label: this.piedata[0].name
     	},
     	{
         	value: this.piedata[1].value, // spell
-        	color: "#46BFBD",
-        	highlight: "#5AD3D1",
+        	color: "#0099FF",
+        	highlight: "#5BBDFF",
         	label: this.piedata[1].name
     	},
     	{
         	value: this.piedata[2].value, // weapon
-        	color:"#F7464A",
-        	highlight: "#FF5A5E",
+        	color:"#039400",
+        	highlight: "#53E050",
         	label: this.piedata[2].name
     	}];
 
