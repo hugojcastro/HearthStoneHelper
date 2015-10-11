@@ -1083,3 +1083,33 @@ function importFromIcyVeins(html)
 	return result;
 }
 // ///////////////
+function importFromTempoStorm(data)
+{
+	var result = { name: "", hero: 0, cards: [], errcode: "", errvalue: 0, isarena: false };
+
+	try
+	{
+		var deckInfo = JSON.parse(data);
+		// Name
+		result.name = deckInfo.deck.name;
+		// Hero
+		result.hero = getHeroClassFromName('enus', deckInfo.deck.playerClass.toLowerCase());
+		// Cards
+		for (var i in deckInfo.deck.cards)
+		{
+			var cardId = getCardIdFromName('enus', deckInfo.deck.cards[i].card.name);
+			var count  = deckInfo.deck.cards[i].qty;
+			// Arena
+			if ((count > 2) || ( (getQualityFromCard(cardId) == 5) && (count > 1))) result.isarena = true;
+			result.cards[result.cards.length] = { card: cardId, count: count };
+		}
+	}
+	catch(e)
+	{
+		result.errcode  = texts[locale].exceptionthrown + e;
+		result.errvalue = 1;
+	}
+
+	return result;
+}
+// ///////////////

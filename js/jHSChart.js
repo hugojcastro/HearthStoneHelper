@@ -264,9 +264,7 @@ jHSChart.prototype.setPie = function(pie)
 }
 jHSChart.prototype.updatePieLabels = function(minion, spell, weapon)
 {
-	console.log('updating to ' + minion + ', ' + spell + ', ' + weapon);
 	if (this.piedata == null) return;
-	console.log('updated');
 	this.piedata[0].name = minion;
 	this.piedata[1].name = spell;
 	this.piedata[2].name = weapon;

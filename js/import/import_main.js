@@ -134,9 +134,9 @@ function processContent(url, html)
 /* TODO
 	else if (url.indexOf("arenavalue") != -1)
 		result = importFromArenaValue(html);
+*/
 	else if (url.indexOf("tempostorm") != -1)
 		result = importFromTempoStorm(html);
-*/
 	if (result == null)
 		result = { name: "", hero: 0, cards: [], errcode: texts[locale].unknownurl, errvalue: 1 };
 
@@ -243,6 +243,25 @@ function processUrl(url, callback)
 			while (deckId.indexOf('/') != -1)
 				deckId = deckId.substr(deckId.indexOf('/') + 1);
 			url = 'http://hearthstonebuilder.com/api/deck/' + deckId;
+		}
+
+		// We use a custom method for tempostorm (nice egotistic site, that doesn't like to share stuf
+		if (url.indexOf('tempostorm.com') != -1)
+		{
+			var slug = url.substr(url.indexOf('decks/') + 6);
+			$.post('http://hugojcastro.esy.es/hs_helper/import_deck.php',
+				{
+					url: 'https://tempostorm.com/deck',
+					params: '{"slug":"' + slug + '"}'
+				}).done( function(data) {
+					var result = processContent(url, data); 
+					// Call original callback
+					callback(result);
+					// Hide waiting animation
+					hideSpinner();
+				} );
+			// Custom stuff. No need to continue.
+			return;
 		}
 
 		// 1 use corsproxy (sometimes fails), 2 use whateverorigin (don't process GET request in url), 3 use anyorigin (not recommended)
