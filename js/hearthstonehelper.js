@@ -1419,6 +1419,9 @@ function importSuccessful(result)
 	my_deck_cards = fullCopy(result.cards);
 	my_deck_isarena = (typeof(result.isarena) == "undefined") ? false : result.isarena;
 
+	// Update charts with card list
+	updateChart(my_deck_cards);
+
 	// Show new deck
 	showDeckCore();
 
