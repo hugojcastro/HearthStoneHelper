@@ -71,7 +71,6 @@ function importFromHearthPwn(html)
 	try
 	{
 		var page = $.parseHTML(html);
-		alert(html);
 		// Deck name
 		var name = $($(page).find('h2.deck-title').first()).html();
 		// Hero
