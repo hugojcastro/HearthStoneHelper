@@ -71,6 +71,7 @@ function importFromHearthPwn(html)
 	try
 	{
 		var page = $.parseHTML(html);
+		alert(html);
 		// Deck name
 		var name = $($(page).find('h2.deck-title').first()).html();
 		// Hero
@@ -1097,7 +1098,7 @@ function importFromTempoStorm(data)
 		// Cards
 		for (var i in deckInfo.deck.cards)
 		{
-			var cardId = getCardIdFromName('enus', deckInfo.deck.cards[i].card.name);
+			var cardId = getCardIdFromNameCost('enus', deckInfo.deck.cards[i].card.name, deckInfo.deck.cards[i].card.cost);
 			var count  = deckInfo.deck.cards[i].qty;
 			// Arena
 			if ((count > 2) || ( (getQualityFromCard(cardId) == 5) && (count > 1))) result.isarena = true;
