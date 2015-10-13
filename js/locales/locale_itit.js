@@ -40,7 +40,6 @@ texts["itit"] = {
 	"urlimporterror" : "Errore durante l'importazione da url",
 	"parseerror" : "Errore durante la lettura di HTML (sei sicuro che sia la pagina corretta?)",
 	"cardcounter" : "Rimanendo",
-	"errorAJAX" : "Errore durante la lettura di contenuti originali con AJAX",
 	"exceptionthrown" : "Eccezione causata: ",
 	"unknownurl" : "Url sconosciuta",
 	"emptyorinvalidhtml" : "Non ha indicato contenuto HTML valido o di origine non è stata riconosciuta",

@@ -40,7 +40,6 @@ texts["zhcn"] = {
 	"urlimporterror" : "從URL導入時出錯",
 	"parseerror" : "從HTML讀取時（您使用的是正確的網站？）錯誤",
 	"cardcounter" : "剩下",
-	"errorAJAX" : "閱讀原創內容與AJAX時出錯",
 	"exceptionthrown" : "拋出的異常：",
 	"unknownurl" : "未知網址",
 	"emptyorinvalidhtml" : "沒有HTML內容被賦予或其來源不明",

@@ -40,7 +40,6 @@ texts["eses"] = {
 	"urlimporterror" : "Error al importar desde url",
 	"parseerror" : "Error al leer desde HTML (¿seguro que es de la página correcta?)",
 	"cardcounter" : "Quedan",
-	"errorAJAX" : "Error al leer contenido original con AJAX",
 	"exceptionthrown" : "Excepción provocada: ",
 	"unknownurl" : "Url desconocida",
 	"emptyorinvalidhtml" : "No ha indicado contenido HTML o no se ha reconocido el origen",

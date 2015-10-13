@@ -40,7 +40,6 @@ texts["kokr"] = {
 	"urlimporterror" : "URL에서 가져올 때 오류",
 	"parseerror" : "HTML에서 읽을 때 오류 (당신은 바로 웹 사이트를 사용하고 있습니까?)",
 	"cardcounter" : "남은",
-	"errorAJAX" : "AJAX와 원본 콘텐츠를 읽고 오류",
 	"exceptionthrown" : "예외가 발생합니다 :",
 	"unknownurl" : "알 수없는 URL",
 	"emptyorinvalidhtml" : "어떤 HTML 콘텐츠는 주어지지 또는 소스를 알 수 있었다",

@@ -40,7 +40,6 @@ texts["plpl"] = {
 	"urlimporterror" : "Błąd podczas importowania z url",
 	"parseerror" : "Błąd podczas odczytu z HTML (używasz właściwej stronie?)",
 	"cardcounter" : "pozostały",
-	"errorAJAX" : "Błąd podczas odczytu oryginalnej treści AJAX",
 	"exceptionthrown" : "Wyjątek rzucone: ",
 	"unknownurl" : "Nieznany Url",
 	"emptyorinvalidhtml" : "Nie podano zawartość HTML lub jego źródło jest nieznane",

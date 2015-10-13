@@ -40,7 +40,6 @@ texts["ptbr"] = {
 	"urlimporterror" : "Erro ao importar a partir de url",
 	"parseerror" : "Erro ao ler o HTML (você tem certeza que é a página correta?)",
 	"cardcounter" : "são",
-	"errorAJAX" : "Erro ao ler o conteúdo original com AJAX",
 	"exceptionthrown" : "Exceção causados: ",
 	"unknownurl" : "Url desconhecido",
 	"emptyorinvalidhtml" : "Você não especificou o conteúdo HTML ou não tiver sido reconhecida fonte",

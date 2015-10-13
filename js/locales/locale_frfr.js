@@ -40,7 +40,6 @@ texts["frfr"] = {
 	"urlimporterror" : "Erreur lors de l'importation d'URL",
 	"parseerror" : "Erreur de lecture du HTML (êtes-vous sûr que ce est la bonne page?)",
 	"cardcounter" : "Etes",
-	"errorAJAX" : "Erreur de lecture de contenu original avec AJAX",
 	"exceptionthrown" : "Exception causé: ",
 	"unknownurl" : "Url inconnue",
 	"emptyorinvalidhtml" : "Vous ne avez pas spécifié de contenu HTML ou ne est pas reconnu la source",

@@ -15,12 +15,6 @@
  * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
  */
 // ///////////////// ///////////////// ///////////////// ///////////////
-// Vars used in script
-// Which method to use to download web pages getting ride of CORS
-var CORSMETHOD     = 3;
-var MAINCORSMETHOD = 3;
-var MAXCORSMETHOD  = 4;
-// ///////////////// ///////////////// ///////////////// ///////////////
 
 // ///////////////// ///////////////// ///////////////// ///////////////
 // Import/Export stuff
@@ -77,66 +71,73 @@ function downloadFile() // strData, strFileName, strMimeType
 // ///////////////
 // Process the html from an url
 // Based on URL, call the parser for html text
-function processContent(url, html)
+function processContent(url, content)
 {
 	var result = null;
 
-	if ((url.indexOf("hearthstats.") != -1) || (url.indexOf("hss.io") != -1))
-		result = importFromHearthStats(html);
-	else if (url.indexOf("hearthpwn.") != -1) 
-		result = importFromHearthPwn(html);
-	else if (url.indexOf("hearthhead.") != -1)
-		result = importFromHearthHead(html);
-	else if (url.indexOf("heartharena") != -1)
-		result = importFromHearthArena(html);
-	else if (url.indexOf("hearthstoneplayers.") != -1)
-		result = importFromHearthStonePlayers(html);
-	else if (url.indexOf("hearthstonetopdecks.") != -1)
-		result = importFromHearthStoneTopDecks(html);
-	else if (url.indexOf("hearthstonetopdeck.") != -1)
-		result = importFromHearthStoneTopDeck(html);
-	else if (url.indexOf("hearthnews.fr") != -1) 
-		result = importFromHearthNews(html);
-	else if (url.indexOf("hearthstone-decks.") != -1)
-		result = importFromHearthStoneDecks(html);
-	else if (url.indexOf("gameofhearthstone.") != -1)
-		result = importFromGameOfHearthStone(html);
-	else if (url.indexOf("hearthstone.buffed.") != -1)
-		result = importFromBuffed(html);
-	else if (url.indexOf("gosugamers.") != -1)
-		result = importFromGosugamers(html);
-	else if (url.indexOf("millenium.") != -1)
+	// Several things can throw exceptions... let's catch them here
+	try
 	{
-		if ( url.indexOf("/accueil/") != -1 )
-			result = importFromMilleniumBeta(html);
-		else
+		var html = $.parseHTML(content);
+
+		if ((url.indexOf("hearthstats.") != -1) || (url.indexOf("hss.io") != -1))
+			result = importFromHearthStats(html);
+		else if (url.indexOf("hearthpwn.") != -1) 
+			result = importFromHearthPwn(html);
+		else if (url.indexOf("hearthhead.") != -1)
+			result = importFromHearthHead(html);
+		else if (url.indexOf("heartharena") != -1)
+			result = importFromHearthArena(html);
+		else if (url.indexOf("hearthstoneplayers.") != -1)
+			result = importFromHearthStonePlayers(html);
+		else if (url.indexOf("hearthstonetopdecks.") != -1)
+			result = importFromHearthStoneTopDecks(html);
+		else if (url.indexOf("hearthstonetopdeck.") != -1)
+			result = importFromHearthStoneTopDeck(html);
+		else if (url.indexOf("hearthnews.fr") != -1) 
+			result = importFromHearthNews(html);
+		else if (url.indexOf("hearthstone-decks.") != -1)
+			result = importFromHearthStoneDecks(html);
+		else if (url.indexOf("gameofhearthstone.") != -1)
+			result = importFromGameOfHearthStone(html);
+		else if (url.indexOf("hearthstone.buffed.") != -1)
+			result = importFromBuffed(html);
+		else if (url.indexOf("gosugamers.") != -1)
+			result = importFromGosugamers(html);
+		else if (url.indexOf("millenium.") != -1)
 			result = importFromMillenium(html);
-	} else if (url.indexOf("pro.eslgaming.") != -1)
-		result = importFromProESLGaming(html);
-	else if (url.indexOf("playhs.es") != -1)
-		result = importFromPlayHS(html);
-	else if (url.indexOf("hearthstonebuilder.com") != -1)
-		result = importFromHeartstoneBuilder(html);
-	else if (url.indexOf("elitedecks.net") != -1)
-		result = importFromEliteDecks(html);
-	else if (url.indexOf(".inven.co.kr") != -1)
-		result = importFromInvenCoKr(html);
-	else if (url.indexOf("hearthbuilder.") != -1)
-		result = importFromHearthBuilder(html);
-	else if (url.indexOf("blizzpro.") != -1)
-		result = importFromBlizzpro(html);
-	else if (url.indexOf(".hsdeck.") != -1)
-		result = importFromHSDeck(html);
-	else if (url.indexOf("playhscards.ru") != -1)
-		result = importFromPlayHSCards(html);
-	else if (url.indexOf("icy-veins.com") != -1)
-		result = importFromIcyVeins(html);
+		else if (url.indexOf("pro.eslgaming.") != -1)
+			result = importFromProESLGaming(html);
+		else if (url.indexOf("playhs.es") != -1)
+			result = importFromPlayHS(html);
+		else if (url.indexOf("hearthstonebuilder.com") != -1)
+			result = importFromHeartstoneBuilder(content);
+		else if (url.indexOf("elitedecks.net") != -1)
+			result = importFromEliteDecks(html);
+		else if (url.indexOf(".inven.co.kr") != -1)
+			result = importFromInvenCoKr(html, content);
+		else if (url.indexOf("hearthbuilder.") != -1)
+			result = importFromHearthBuilder(html);
+		else if (url.indexOf("blizzpro.") != -1)
+			result = importFromBlizzpro(html);
+		else if (url.indexOf(".hsdeck.") != -1)
+			result = importFromHSDeck(html);
+		else if (url.indexOf("playhscards.ru") != -1)
+			result = importFromPlayHSCards(html);
+		else if (url.indexOf("icy-veins.com") != -1)
+			result = importFromIcyVeins(html);
 /* TODO
-	else if (url.indexOf("arenavalue") != -1)
-		result = importFromArenaValue(html);
+		else if (url.indexOf("arenavalue") != -1)
+			result = importFromArenaValue(html);
 */
-	else if (url.indexOf("tempostorm") != -1)
-		result = importFromTempoStorm(html);
+		else if (url.indexOf("tempostorm") != -1)
+			result = importFromTempoStorm(content); // Note: TempoStorm uses JSON data, not HTML data
+	}
+	catch(err)
+	{
+		result = { name: "", hero: 0, cards: [], errcode: texts[locale].exceptionthrown + err.message, errvalue: 1 };
+	}
+
 	if (result == null)
 		result = { name: "", hero: 0, cards: [], errcode: texts[locale].unknownurl, errvalue: 1 };
 
@@ -186,159 +187,95 @@ function processBuilder(url, callback)
 	callback(result);
 }
 // ///////////////
-// Function called to process an url and get the underlying page
-function processUrl(url, callback)
+function processUrl(theurl, callback)
 {
 	// Check if good url
 	var errcode   = "";
-	var isRussian = false;
 
-	if (url.length == 0)
+	if (theurl.length == 0)
 		errcode = texts[locale].nourl;
-	else if (url.indexOf('#...') >= 0)
+	else if (theurl.indexOf('#...') >= 0)
 		errcode = texts[locale].wrongurl;
 
 	// Wrong url?
 	if (errcode != "")
 		callback( { name: "", hero: 0, cards: [], errcode: errcode, errvalue: 1 } );
 	// If it's a builder url, deck cames in there (no deck name, tho)
-	else if ((url.indexOf("deckbuilder") != -1) || (url.indexOf("builder/") != -1))
-		processBuilder(url, callback);
+	else if ((theurl.indexOf("deckbuilder") != -1) || (theurl.indexOf("builder/") != -1))
+		processBuilder(theurl, callback);
 	else
 	{
+		// Let's show a waiting animation
+		showSpinner();
+		// Website url: let's crawl a bit
 		var contentType = 'Content-type: text/plain; charset=utf-8';
+		var aparams  = "";
+		var aurl     = theurl;
+		var amethod  = "get";
+		var alang    = "utf-8";
+		var ajson    = '1';
 
-		// Using russian encoding for russian pages. Check if CORS method allows it
-		if (url.indexOf('.ru/') != -1)
+		// Do special filtering here if needed
+		if (aurl.indexOf('tempostorm.com') > -1)
 		{
-			isRussian = true;
-			CORSMETHOD = 2;
-			contentType = 'Content-type: text/plain; charset=iso-8859-1';
-		}
-
-		// Fix locales for hearthstats
-		if ((url.indexOf('hearthstats') != -1) || (url.indexOf('hss.io') != -1))
-			if (url.indexOf('?locale') != -1)
-				url = url.substr(0, url.indexOf('?locale'));
-
-		// fix page mode for gameofhearthstone
-		if ((url.indexOf('gameofhearthstone') != -1) && (url.indexOf('?display') == -1))
-			url = url + '?display=1';
-
-		// Use english version for buffed.de, to get right card ID's from name :)
-		if (url.indexOf('hearthstone.buffed.') != -1)
-		{
-			// not english? do it english
-			if (url.indexOf('/en/') == -1)
-			{
-				// http://hearthstone.buffed.de/en/guide/Mein-Aktuelles-Magier-Deck-01012014-394
-				var deckname = url.substr(url.indexOf('guide/') + 6);
-				url = 'http://hearthstone.buffed.de/en/guide/' + deckname;
-			}
-		}
-
-		if (url.indexOf('hearthstonebuilder.com') != -1)
-		{
-			var deckId = url;
+			aparams = '{"slug":"' + aurl.substr(aurl.indexOf('decks/') + 6) + '"}'
+			aurl    = 'https://tempostorm.com/deck';
+			amethod = "post";
+		} else if (aurl.indexOf('inven.co.kr') > -1) {
+			alang = "euc-kr";
+		} else if (aurl.indexOf('elitedecks.net') > -1) {
+			alang = "";
+			ajson = '0';
+		} else if (aurl.indexOf('hearthstonebuilder') > -1) {
+			var deckId = aurl;
 			while (deckId.indexOf('/') != -1)
 				deckId = deckId.substr(deckId.indexOf('/') + 1);
-			url = 'http://hearthstonebuilder.com/api/deck/' + deckId;
-		}
-
-		// We use a custom method for tempostorm (nice egotistic site, that doesn't like to share stuf
-		if (url.indexOf('tempostorm.com') != -1)
-		{
-			var slug = url.substr(url.indexOf('decks/') + 6);
-			$.post('http://hugojcastro.esy.es/hs_helper/import_deck.php',
-				{
-					url: 'https://tempostorm.com/deck',
-					params: '{"slug":"' + slug + '"}'
-				}).done( function(data) {
-					var result = processContent(url, data); 
-					// Call original callback
-					callback(result);
-					// Hide waiting animation
-					hideSpinner();
-				} );
-			// Custom stuff. No need to continue.
-			return;
-		}
-
-		// 1 use corsproxy (sometimes fails), 2 use whateverorigin (don't process GET request in url), 3 use anyorigin (not recommended)
-		var finalurl = '';
-		var dataType = '';
-
-		// Method #1: Using corsproxy, with http:// stripped from url
-		if (CORSMETHOD == 1)
-		{
-			var question = url.indexOf('://');
-			if (question != -1)
-				url = url.substr(question + 3);
-			finalurl = 'http://www.corsproxy.com/' + url;
-		// Method #2: Using whateverorigin. Big issue: It does not support urls with GET params (http://..../page.php?a=b&b=c&c=d...)
-		} else if (CORSMETHOD == 2) {
-			finalurl = 'http://whateverorigin.org/get?url=' + encodeURIComponent(url) + '&callback=?';
-			dataType = 'json';
-		// Method #3: Using anyorigin. Owner demands payment, so it's not safe at all
-		} else if (CORSMETHOD == 3) {
-			finalurl = 'http://anyorigin.com/dev/get?url=' + escape(url) + '&callback=?';
-			dataType = 'json';
-		// Method #4: Using another corsproxy url
-		} else if (CORSMETHOD == 4) {
-			finalurl = 'http://cors.corsproxy.io/url=' + url;
-		}
-
-		if (finalurl != "")
-		{
-			$.ajax(
+			aurl = 'http://hearthstonebuilder.com/api/deck/' + deckId;
+		} else if (aurl.indexOf('hearthstone.buffed.') != -1) {
+			// Use english version for buffed.de, to get right card ID's from name :)
+			// not english? do it english
+			if (aurl.indexOf('/en/') == -1)
 			{
-				url: finalurl,
-				timeout: 10000,
-				crossDomain: true,
-				async: false,
-				dataType: dataType,
-				contentType: contentType,
-				beforeSend: function (xhr)
-				{
-					showSpinner();
-					if (isRussian)
-						xhr.overrideMimeType('text/plain; charset=iso-8859-1');
-				},
-				complete: function(xhr,status)
-				{
-					hideSpinner();
-				},
-				error: function(httpReq, textStatus, exceptionThrown)
-				{
-					// Error? Try next CORS method
-					CORSMETHOD++;
-					if (CORSMETHOD > MAXCORSMETHOD)
-						CORSMETHOD = 1;
-					if (CORSMETHOD == MAINCORSMETHOD)
-					{
-						callback({ name: "", hero: 0, cards: [], errcode: httpReq.responseText + "' (" + textStatus + ")", errvalue: 1 } );
-					} else {
-						processUrl(url, callback);
-					}
-				},
-				success: function(data, status, xhr)
-				{
-					// Take response and process it
-					var result = processContent(url, (((CORSMETHOD == 4) || (CORSMETHOD == 1)) ? data : data.contents));
-					// Fixes for complex websites
-					if (url.indexOf('playhscards.ru/arena/') != -1)
-						result.isarena = true;
-					// Call original callback
-					callback(result);
-					// Hide waiting animation
-					hideSpinner();
-				},
-				
-			});
-		} else {
-			$.simplyToast(texts[locale].noCORSmethod, 'error');
-			// alert(texts[locale].noCORSmethod);
+				var deckname = aurl.substr(aurl.indexOf('guide/') + 6);
+				aurl = 'http://hearthstone.buffed.de/en/guide/' + deckname;
+			}
+		} else if ((aurl.indexOf('gameofhearthstone') != -1) && (aurl.indexOf('?display') == -1)) {
+			// fix page mode for gameofhearthstone
+			aurl = aurl + '?display=1';
+		} else if ((aurl.indexOf('hearthstats') != -1) || (aurl.indexOf('hss.io') != -1)) {
+			// Fix locales for hearthstats
+			if (aurl.indexOf('?locale') != -1)
+				aurl = aurl.substr(0, aurl.indexOf('?locale'));
 		}
+		// Custom POST request to our proxy
+		$.post(
+  			'http://hugojcastro.esy.es/hs_helper/import_deck.php',
+			{
+				url:    aurl,
+				method: amethod,
+				params: aparams,
+				lang:   alang,
+				json:   ajson
+			}
+		).done(
+			function(data)
+			{
+				var result = processContent(theurl, data);
+				// Fixes for complex websites
+				if (aurl.indexOf('playhscards.ru/arena/') != -1)
+					result.isarena = true;
+				// Call original callback
+				callback(result);
+				// Hide waiting animation
+				hideSpinner();
+			}
+		).fail(
+			function(xhr, textStatus, errorThrown)
+			{
+				hideSpinner();
+				callback({ name: "", hero: 0, cards: [], errcode: xhr.responseText + "' (" + textStatus + ")", errvalue: 1 } );
+			}
+		);
 	}
 }
 // ///////////////

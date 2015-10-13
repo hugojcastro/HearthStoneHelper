@@ -40,7 +40,6 @@ texts["enus"] = {
 	"urlimporterror" : "Error when importing from url",
 	"parseerror" : "Error when reading from HTML (are you using the right website?)",
 	"cardcounter" : "To Draw",
-	"errorAJAX" : "Error when reading original content with AJAX",
 	"exceptionthrown" : "Exception thrown: ",
 	"unknownurl" : "Unknown Url",
 	"emptyorinvalidhtml" : "No HTML content was given or its source is unknown",

@@ -40,7 +40,6 @@ texts["ruru"] = {
 	"urlimporterror" : "Ошибка при импорте из URL",
 	"parseerror" : "Ошибка при чтении из HTML (вы используете правильный сайт?)",
 	"cardcounter" : "рисовать",
-	"errorAJAX" : "Ошибка при чтении оригинального контента с AJAX",
 	"exceptionthrown" : "Исключение:",
 	"unknownurl" : "Неизвестный Url",
 	"emptyorinvalidhtml" : "онтент не было дано или его источник неизвестен",

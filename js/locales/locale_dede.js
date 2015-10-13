@@ -40,7 +40,6 @@ texts["dede"] = {
 	"urlimporterror" : "Fehler beim Importieren von URL",
 	"parseerror" : "Fehler beim Lesen von HTML (sind Sie sicher, es ist die richtige Seite?)",
 	"cardcounter" : "sind",
-	"errorAJAX" : "Fehler beim Lesen der Originalinhalt mit AJAX",
 	"exceptionthrown" : "Ausnahme verursacht hat: ",
 	"unknownurl" : "URL unbekannt",
 	"emptyorinvalidhtml" : "Sie haben HTML-Inhalt angegeben oder wurde nicht erkannt Quelle",
