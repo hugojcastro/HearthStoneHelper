@@ -20,593 +20,450 @@ var jBasicDecks = [
 {
   "name": "Garrosh",
   "hero": 1,
-  "cards": [
-  {
-    "card": 41,
+  "cards": [{
+    "card": "CS2_121",
     "count": 2
-  },
-  {
-    "card": 157,
+  }, {
+    "card": "CS2_162",
     "count": 2
-  },
-  {
-    "card": 191,
+  }, {
+    "card": "CS2_168",
     "count": 2
-  },
-  {
-    "card": 257,
+  }, {
+    "card": "CS2_196",
     "count": 2
-  },
-  {
-    "card": 289,
+  }, {
+    "card": "CS2_124",
     "count": 2
-  },
-  {
-    "card": 344,
+  }, {
+    "card": "CS2_103",
     "count": 2
-  },
-  {
-    "card": 401,
+  }, {
+    "card": "CS2_106",
     "count": 2
-  },
-  {
-    "card": 523,
+  }, {
+    "card": "EX1_025",
     "count": 2
-  },
-  {
-    "card": 635,
+  }, {
+    "card": "CS2_179",
     "count": 2
-  },
-  {
-    "card": 768,
+  }, {
+    "card": "EX1_399",
     "count": 2
-  },
-  {
-    "card": 785,
+  }, {
+    "card": "CS2_108",
     "count": 2
-  },
-  {
-    "card": 976,
+  }, {
+    "card": "EX1_506",
     "count": 2
-  },
-  {
-    "card": 1007,
+  }, {
+    "card": "CS2_105",
     "count": 2
-  },
-  {
-    "card": 1009,
+  }, {
+    "card": "EX1_084",
     "count": 2
-  },
-  {
-    "card": 1686,
+  }, {
+    "card": "CS2_200",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Uther",
   "hero": 2,
-  "cards": [
-  {
-    "card": 70,
+  "cards": [{
+    "card": "CS2_087",
     "count": 2
-  },
-  {
-    "card": 157,
+  }, {
+    "card": "CS2_162",
     "count": 2
-  },
-  {
-    "card": 250,
+  }, {
+    "card": "CS2_094",
     "count": 2
-  },
-  {
-    "card": 284,
+  }, {
+    "card": "EX1_015",
     "count": 2
-  },
-  {
-    "card": 291,
+  }, {
+    "card": "CS2_089",
     "count": 2
-  },
-  {
-    "card": 308,
+  }, {
+    "card": "CS2_147",
     "count": 2
-  },
-  {
-    "card": 339,
+  }, {
+    "card": "CS2_141",
     "count": 2
-  },
-  {
-    "card": 383,
+  }, {
+    "card": "CS2_091",
     "count": 2
-  },
-  {
-    "card": 389,
+  }, {
+    "card": "CS2_189",
     "count": 2
-  },
-  {
-    "card": 413,
+  }, {
+    "card": "CS2_150",
     "count": 2
-  },
-  {
-    "card": 622,
+  }, {
+    "card": "CS2_131",
     "count": 2
-  },
-  {
-    "card": 727,
+  }, {
+    "card": "EX1_371",
     "count": 2
-  },
-  {
-    "card": 753,
+  }, {
+    "card": "CS2_222",
     "count": 2
-  },
-  {
-    "card": 922,
+  }, {
+    "card": "CS1_042",
     "count": 2
-  },
-  {
-    "card": 1401,
+  }, {
+    "card": "CS2_122",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Rexxar",
   "hero": 3,
-  "cards": [
-  {
-    "card": 216,
+  "cards": [{
+    "card": "CS2_172",
     "count": 2
-  },
-  {
-    "card": 257,
+  }, {
+    "card": "CS2_196",
     "count": 2
-  },
-  {
-    "card": 284,
+  }, {
+    "card": "EX1_015",
     "count": 2
-  },
-  {
-    "card": 292,
+  }, {
+    "card": "DS1_183",
     "count": 2
-  },
-  {
-    "card": 606,
+  }, {
+    "card": "DS1_175",
     "count": 2
-  },
-  {
-    "card": 648,
+  }, {
+    "card": "CS2_171",
     "count": 2
-  },
-  {
-    "card": 877,
+  }, {
+    "card": "DS1_185",
     "count": 2
-  },
-  {
-    "card": 922,
+  }, {
+    "card": "CS1_042",
     "count": 2
-  },
-  {
-    "card": 1003,
+  }, {
+    "card": "DS1_070",
     "count": 2
-  },
-  {
-    "card": 1047,
+  }, {
+    "card": "DS1_184",
     "count": 2
-  },
-  {
-    "card": 1182,
+  }, {
+    "card": "CS2_125",
     "count": 2
-  },
-  {
-    "card": 1369,
+  }, {
+    "card": "CS2_120",
     "count": 2
-  },
-  {
-    "card": 1370,
+  }, {
+    "card": "CS2_119",
     "count": 2
-  },
-  {
-    "card": 1401,
+  }, {
+    "card": "CS2_122",
     "count": 2
-  },
-  {
-    "card": 1687,
+  }, {
+    "card": "CS2_201",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Valeera",
   "hero": 4,
-  "cards": [
-  {
-    "card": 180,
+  "cards": [{
+    "card": "CS2_072",
     "count": 2
-  },
-  {
-    "card": 216,
+  }, {
+    "card": "CS2_172",
     "count": 2
-  },
-  {
-    "card": 284,
+  }, {
+    "card": "EX1_015",
     "count": 2
-  },
-  {
-    "card": 308,
+  }, {
+    "card": "CS2_147",
     "count": 2
-  },
-  {
-    "card": 339,
+  }, {
+    "card": "CS2_141",
     "count": 2
-  },
-  {
-    "card": 345,
+  }, {
+    "card": "CS2_076",
     "count": 2
-  },
-  {
-    "card": 389,
+  }, {
+    "card": "CS2_189",
     "count": 2
-  },
-  {
-    "card": 413,
+  }, {
+    "card": "CS2_150",
     "count": 2
-  },
-  {
-    "card": 459,
+  }, {
+    "card": "CS2_074",
     "count": 2
-  },
-  {
-    "card": 461,
+  }, {
+    "card": "EX1_581",
     "count": 2
-  },
-  {
-    "card": 523,
+  }, {
+    "card": "EX1_025",
     "count": 2
-  },
-  {
-    "card": 622,
+  }, {
+    "card": "CS2_131",
     "count": 2
-  },
-  {
-    "card": 670,
+  }, {
+    "card": "EX1_593",
     "count": 2
-  },
-  {
-    "card": 710,
+  }, {
+    "card": "CS2_075",
     "count": 2
-  },
-  {
-    "card": 922,
+  }, {
+    "card": "CS1_042",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Thrall",
   "hero": 7,
-  "cards": [
-  {
-    "card": 41,
+  "cards": [{
+    "card": "CS2_121",
     "count": 2
-  },
-  {
-    "card": 51,
+  }, {
+    "card": "CS2_039",
     "count": 2
-  },
-  {
-    "card": 132,
+  }, {
+    "card": "EX1_011",
     "count": 2
-  },
-  {
-    "card": 149,
+  }, {
+    "card": "CS2_041",
     "count": 2
-  },
-  {
-    "card": 191,
+  }, {
+    "card": "CS2_168",
     "count": 2
-  },
-  {
-    "card": 239,
+  }, {
+    "card": "CS2_045",
     "count": 2
-  },
-  {
-    "card": 289,
+  }, {
+    "card": "CS2_124",
     "count": 2
-  },
-  {
-    "card": 445,
+  }, {
+    "card": "CS2_213",
     "count": 2
-  },
-  {
-    "card": 496,
+  }, {
+    "card": "CS2_226",
     "count": 2
-  },
-  {
-    "card": 635,
+  }, {
+    "card": "CS2_179",
     "count": 2
-  },
-  {
-    "card": 648,
+  }, {
+    "card": "CS2_171",
     "count": 2
-  },
-  {
-    "card": 766,
+  }, {
+    "card": "EX1_246",
     "count": 2
-  },
-  {
-    "card": 971,
+  }, {
+    "card": "CS2_037",
     "count": 2
-  },
-  {
-    "card": 1140,
+  }, {
+    "card": "CS2_187",
     "count": 2
-  },
-  {
-    "card": 1401,
+  }, {
+    "card": "CS2_122",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Jaina",
   "hero": 8,
-  "cards": [
-  {
-    "card": 77,
+  "cards": [{
+    "card": "CS2_022",
     "count": 2
-  },
-  {
-    "card": 191,
+  }, {
+    "card": "CS2_168",
     "count": 2
-  },
-  {
-    "card": 216,
+  }, {
+    "card": "CS2_172",
     "count": 2
-  },
-  {
-    "card": 284,
+  }, {
+    "card": "EX1_015",
     "count": 2
-  },
-  {
-    "card": 289,
+  }, {
+    "card": "CS2_124",
     "count": 2
-  },
-  {
-    "card": 315,
+  }, {
+    "card": "CS2_029",
     "count": 2
-  },
-  {
-    "card": 447,
+  }, {
+    "card": "CS2_025",
     "count": 2
-  },
-  {
-    "card": 555,
+  }, {
+    "card": "CS2_023",
     "count": 2
-  },
-  {
-    "card": 564,
+  }, {
+    "card": "EX1_277",
     "count": 2
-  },
-  {
-    "card": 635,
+  }, {
+    "card": "CS2_179",
     "count": 2
-  },
-  {
-    "card": 670,
+  }, {
+    "card": "EX1_593",
     "count": 2
-  },
-  {
-    "card": 1369,
+  }, {
+    "card": "CS2_120",
     "count": 2
-  },
-  {
-    "card": 1370,
+  }, {
+    "card": "CS2_119",
     "count": 2
-  },
-  {
-    "card": 1401,
+  }, {
+    "card": "CS2_122",
     "count": 2
-  },
-  {
-    "card": 1686,
+  }, {
+    "card": "CS2_200",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Gul'dan",
   "hero": 9,
-  "cards": [
-  {
-    "card": 48,
+  "cards": [{
+    "card": "CS2_065",
     "count": 2
-  },
-  {
-    "card": 90,
+  }, {
+    "card": "CS2_182",
     "count": 2
-  },
-  {
-    "card": 132,
+  }, {
+    "card": "EX1_011",
     "count": 2
-  },
-  {
-    "card": 191,
+  }, {
+    "card": "CS2_168",
     "count": 2
-  },
-  {
-    "card": 289,
+  }, {
+    "card": "CS2_124",
     "count": 2
-  },
-  {
-    "card": 445,
+  }, {
+    "card": "CS2_213",
     "count": 2
-  },
-  {
-    "card": 582,
+  }, {
+    "card": "DS1_055",
     "count": 2
-  },
-  {
-    "card": 592,
+  }, {
+    "card": "EX1_306",
     "count": 2
-  },
-  {
-    "card": 672,
+  }, {
+    "card": "CS2_142",
     "count": 2
-  },
-  {
-    "card": 712,
+  }, {
+    "card": "CS2_186",
     "count": 2
-  },
-  {
-    "card": 914,
+  }, {
+    "card": "CS2_057",
     "count": 2
-  },
-  {
-    "card": 919,
+  }, {
+    "card": "CS2_061",
     "count": 2
-  },
-  {
-    "card": 950,
+  }, {
+    "card": "CS2_062",
     "count": 2
-  },
-  {
-    "card": 995,
+  }, {
+    "card": "CS2_197",
     "count": 2
-  },
-  {
-    "card": 1369,
+  }, {
+    "card": "CS2_120",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Malfurion",
   "hero": 11,
-  "cards": [
-  {
-    "card": 67,
+  "cards": [{
+    "card": "CS2_127",
     "count": 2
-  },
-  {
-    "card": 157,
+  }, {
+    "card": "CS2_162",
     "count": 2
-  },
-  {
-    "card": 213,
+  }, {
+    "card": "CS2_009",
     "count": 2
-  },
-  {
-    "card": 216,
+  }, {
+    "card": "CS2_172",
     "count": 2
-  },
-  {
-    "card": 254,
+  }, {
+    "card": "EX1_169",
     "count": 2
-  },
-  {
-    "card": 389,
+  }, {
+    "card": "CS2_189",
     "count": 2
-  },
-  {
-    "card": 648,
+  }, {
+    "card": "CS2_171",
     "count": 2
-  },
-  {
-    "card": 670,
+  }, {
+    "card": "EX1_593",
     "count": 2
-  },
-  {
-    "card": 773,
+  }, {
+    "card": "CS2_007",
     "count": 2
-  },
-  {
-    "card": 1050,
+  }, {
+    "card": "CS2_005",
     "count": 2
-  },
-  {
-    "card": 1124,
+  }, {
+    "card": "CS2_013",
     "count": 2
-  },
-  {
-    "card": 1369,
+  }, {
+    "card": "CS2_120",
     "count": 2
-  },
-  {
-    "card": 1370,
+  }, {
+    "card": "CS2_119",
     "count": 2
-  },
-  {
-    "card": 1686,
+  }, {
+    "card": "CS2_200",
     "count": 2
-  },
-  {
-    "card": 1687,
+  }, {
+    "card": "CS2_201",
     "count": 2
   }],
   "isarena": false
-},
-{
+}, {
   "name": "Anduin",
   "hero": 5,
-  "cards": [
-  {
-    "card": 41,
+  "cards": [{
+    "card": "CS2_121",
     "count": 2
-  },
-  {
-    "card": 67,
+  }, {
+    "card": "CS2_127",
     "count": 2
-  },
-  {
-    "card": 90,
+  }, {
+    "card": "CS2_182",
     "count": 2
-  },
-  {
-    "card": 132,
+  }, {
+    "card": "EX1_011",
     "count": 2
-  },
-  {
-    "card": 216,
+  }, {
+    "card": "CS2_172",
     "count": 2
-  },
-  {
-    "card": 279,
+  }, {
+    "card": "CS1_130",
     "count": 2
-  },
-  {
-    "card": 389,
+  }, {
+    "card": "CS2_189",
     "count": 2
-  },
-  {
-    "card": 545,
+  }, {
+    "card": "DS1_233",
     "count": 2
-  },
-  {
-    "card": 608,
+  }, {
+    "card": "EX1_019",
     "count": 2
-  },
-  {
-    "card": 613,
+  }, {
+    "card": "CS2_004",
     "count": 2
-  },
-  {
-    "card": 635,
+  }, {
+    "card": "CS2_179",
     "count": 2
-  },
-  {
-    "card": 768,
+  }, {
+    "card": "EX1_399",
     "count": 2
-  },
-  {
-    "card": 1367,
+  }, {
+    "card": "CS2_234",
     "count": 2
-  },
-  {
-    "card": 1650,
+  }, {
+    "card": "CS2_235",
     "count": 2
-  },
-  {
-    "card": 1687,
+  }, {
+    "card": "CS2_201",
     "count": 2
   }],
   "isarena": false

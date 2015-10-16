@@ -40,7 +40,7 @@ function importFromHearthHeadHTML(htmlText)
 				if (href.indexOf(cardUrl) != -1)
 				{
 					var cardId = parseInt(href.substr(cardUrl.length));
-					result.cards[result.cards.length] = { card: cardId, count: quantity };
+					result.cards[result.cards.length] = { card: hearthhead_cards[cardId].image, count: quantity };
 				}
     	    });
 	    });
@@ -82,13 +82,14 @@ function importFromHearthPwnHTML(html)
 			var separator = href.indexOf(cardUrl);
 			if (separator != -1)
 			{
-				var cardId = hearthpwn_cards[parseInt(href.substr(0, href.indexOf('-')).substr(separator + cardUrl.length))].hearthheadid;
+				var hpwnid = parseInt(href.substr(0, href.indexOf('-')).substr(separator + cardUrl.length));
+				var cardId = hearthpwn_cards[hpwnid].image;
 
 				result.cards[result.cards.length] = { card: cardId, count: quantity };
 
 				// Check hero from HearthHead card class... If so, damn you HearthPwn for not help on this
-				if (typeof(hs_cards[locale][cardId].classs) != "undefined")
-					result.hero = hs_cards[locale][cardId].classs;
+				if (result.hero == 0)
+					result.hero = getClassFromCard(cardId);
 			}
 	    });
 	}
@@ -128,13 +129,13 @@ function importFromHearthStoneBuffedHTML(html)
 						while (card.indexOf('-') != -1)
 							card = card.substr(card.indexOf('-') + 1);
 
-						card = parseInt(card);
+						card = hearthhead_cards[parseInt(card)].image;
 
 						result.cards[result.cards.length] = { card: card, count: quantity };
 
 						// Check hero from HearthHead card class... If so, damn you HearthStoneBuffed for not help on this
-						if (typeof(hs_cards[locale][card].classs) != "undefined")
-							result.hero = hs_cards[locale][card].classs;
+						if (result.hero == 0)
+							result.hero = getClassFromCard(card);
 					}
 				}
 			}

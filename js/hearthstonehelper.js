@@ -16,16 +16,18 @@
  */
 // ///////////////// ///////////////// ///////////////// ///////////////
 var locale          = 'eses';
-var storageDecks    = 'HSHelperDecks'; // name for deck storage (cookie or localStorage)
-var storageLocale   = 'HSHelperLocale'; // name for locale storage (cookie or localStorage)
+var storageDecks    = 'HSHelperDecks';   // name for deck storage (cookie or localStorage)
+var storageLocale   = 'HSHelperLocale';  // name for locale storage (cookie or localStorage)
+var storageVersion  = 'HSHelperVersion'; // version for actual data
 var preurl			= 'images/cards/';
 var card_extension	= '.png';
 var helpUrl         = 'images/help/';
 var cardSetUrl		= 'images/sets/';
 var heroesUrl		= 'images/heroes/';
-var hs_quality      = [ 'soulbound', 'common', 'common', 'rare', 'epic', 'legendary' ]; // Only used for css text colors, so no translation needed
+var hs_quality      = [ 'soulbound', 'common', 'rare', 'epic', 'legendary', '?' ]; // Only used for css text colors, so no translation needed
 var cardSet         = { 3: 'classic', 12: 'naxx', 13: 'gvg', 14: 'brm', 15: 'tgt' }; // Array of expansion names
 var jDecks          = []; // Array of custom decks
+var HSVersion       = 1;
 var my_deck_cards	= [];
 var my_deck_hero	    = 0;
 var my_deck_name	    = texts[locale].unnamed;
@@ -41,81 +43,111 @@ function getCardUrl(locale, card_image)
 	var loc = (locale == 'ptpt') ? 'ptbr' : locale;
 	return ( preurl + loc + '/' + card_image + card_extension);
 }
-// ///////////////
+// /////////////// -
 // Aux to get quality from card
 function getQualityFromCard( cardid )
 {
-	if ( typeof( hs_cards['enus'][cardid].quality != 'undefined' ) )
-		return hs_cards['enus'][cardid].quality;
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return (( typeof( cards[idx].quality != 'undefined' ) ) ? cards[idx].quality : 0);
 	return 0;
 }
-// ///////////////
+// /////////////// -
+// Aux to get quality from card
+function getClassFromCard( cardid )
+{
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return (( typeof( cards[idx].classs != 'undefined' ) ) ? cards[idx].classs : 0);
+	return 0;
+}
+// /////////////// -
 // Aux to get cost from card (mainly for charts)
 function getCostFromCard( cardid )
 {
-	if ( typeof( hs_cards['enus'][cardid].cost != 'undefined' ) )
-		return hs_cards['enus'][cardid].cost;
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return (( typeof( cards[idx].cost != 'undefined' ) ) ? cards[idx].cost : -1);
 	return -1;
 }
-// ///////////////
+// /////////////// -
 // Aux to get attack from card (mainly for charts)
 function getAttackFromCard( cardid )
 {
-	if ( typeof( hs_cards['enus'][cardid].attack != 'undefined' ) )
-	{
-		if ( hs_cards['enus'][cardid].type == 4 )
-			return hs_cards['enus'][cardid].attack;
-	}
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return (( typeof( cards[idx].attack != 'undefined' ) ) ? cards[idx].attack : -1);
 	return -1;
 }
-// ///////////////
+// /////////////// -
+// Aux to get attack from card (mainly for charts)
+function getNameFromCard( locale, cardid )
+{
+	var cards = hs_cards[locale];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return cards[idx].name;
+	return "???";
+}
+// /////////////// -
 // Aux to get health from card (mainly for charts)
 function getHealthFromCard( cardid )
 {
-	if ( typeof( hs_cards['enus'][cardid].health != 'undefined' ) )
-	{
-		if (hs_cards['enus'][cardid].type == 4 )
-			return hs_cards['enus'][cardid].health;
-	}
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return (( typeof( cards[idx].health != 'undefined' ) ) ? cards[idx].health : -1);
 	return -1;
 }
-// ///////////////
-// Aux to get attack from card (mainly for charts)
+// /////////////// -
+// Aux to get type from card
 function getTypeFromCard( cardid )
 {
-	if ( typeof( hs_cards['enus'][cardid].type != 'undefined' ) )
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
 	{
-		switch (hs_cards['enus'][cardid].type)
+		if ( cards[idx].id == cardid )
 		{
-			case 4 : return 'minion'; break;
-			case 5 : return 'spell';  break;
-			case 7 : return 'weapon'; break;
+			if ( typeof( cards[idx].type != 'undefined' ) )
+				switch (cards[idx].type)
+				{
+					case 4 : return 'minion'; break;
+					case 5 : return 'spell';  break;
+					case 7 : return 'weapon'; break;
+				}
+			return '';
 		}
 	}
 	return '';
 }
-// ///////////////
+// /////////////// -
 // Aux to get hero from card (if linked to class, 0 otherwise)
 function getHeroFromCard( cardid )
 {
-	if ( typeof( hs_cards['enus'][cardid].classs != 'undefined' ) )
-		return hs_cards['enus'][cardid].classs;
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return (( typeof( cards[idx].classs ) != 'undefined' ) ? cards[idx].classs : 0);
 	return 0;
 }
-// ///////////////
+// /////////////// -
 // Aux to get card id from name using a locale
 function getCardIdFromName(locale, name)
 {
 	// Get rid of types and foreigner chars
 	var lname = name.toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/[\u2013\u2014]/g, '-');
-	var ghc = hs_cards[locale];
+	var ghc   = hs_cards[locale];
 
 	for (var idx in ghc)
 		if (ghc[idx].name.toLowerCase() == lname)
 		{
 			// Avoid 'choose one' cards
-			var letter = ghc[idx].image.substr(ghc[idx].image.length - 1);
-			if ((letter != 'a') && (letter != 'b'))
+			var letter = ghc[idx].id.substr(ghc[idx].id.length - 1);
+			if ((letter != 'a') && (letter != 'b') && (letter != 'H'))
 				return ghc[idx].id;
 		}
 	// For some reason, non utf-8 cards will give bad search results; so, let's use decodeURI over their foreighn chars to avoid it
@@ -125,15 +157,15 @@ function getCardIdFromName(locale, name)
 			if (ghc[idx].name.toLowerCase() == lname)
 			{
 				// Avoid 'choose one' cards
-				var letter = ghc[idx].image.substr(ghc[idx].image.length - 1);
-				if ((letter != 'a') && (letter != 'b'))
+				var letter = ghc[idx].id.substr(ghc[idx].id.length - 1);
+				if ((letter != 'a') && (letter != 'b') && (letter != 'H'))
 					return ghc[idx].id;
 			}
 	} catch(err) {}
 
 	return -1;
 }
-// ///////////////
+// /////////////// -
 // Aux to get card id from name and cost
 function getCardIdFromNameCost(locale, name, cost)
 {
@@ -154,7 +186,7 @@ function getCardIdFromNameCost(locale, name, cost)
 
 	return -1;
 }
-// ///////////////
+// /////////////// -
 // Aux to get hero value from its name
 function getHeroClassFromName(localeorname, name)
 {
@@ -190,17 +222,7 @@ function getHeroClassFromName(localeorname, name)
 	return 0;
 }
 // ///////////////
-// Aux to get card id from its image name
-function getCardIdFromImage(img)
-{
-	var cards = hs_cards[locale];
-	var theImg = img.toLowerCase().trim();
-
-	for (var idx in cards)
-		if (cards[idx].image.toLowerCase() == theImg)
-			return cards[idx].id;
-}
-// ///////////////// ///////////////// ///////////////// ///////////////
+// ///////////////// ///////////////// ///////////////// /////////////// -
 // To sort deck names
 function sortDecks( aDeck )
 {
@@ -216,24 +238,28 @@ function sortDecks( aDeck )
 			}
 		);
 }
-// ///////////////// ///////////////// ///////////////// ///////////////
+// ///////////////// ///////////////// ///////////////// /////////////// -
 // Aux to get max. set card from a deck (i.e. classic, naxx, GvG...)
 function getDeckSet( cards )
 {
 	var result = 'classic';
 	var maxExpFound = 0;
+	var set;
 
 	// check each card on deck for max value
 	for ( var aCard in cards )
-		if ( hs_cards[locale][cards[aCard].card].set > maxExpFound )
-			maxExpFound = hs_cards[locale][cards[aCard].card].set;
+	{
+		set = getTypeFromCard(cards[aCard].card); 
+		if ( set > maxExpFound )
+			maxExpFound = set;
+	}
 
 	if (( typeof( cardSet[maxExpFound] ) != "undefined" ) && ( cardSet[maxExpFound] != "" ))
 		result = cardSet[maxExpFound];
 
 	return result;
 }
-// ///////////////// ///////////////// ///////////////// ///////////////
+// ///////////////// ///////////////// ///////////////// /////////////// -
 // Delete a deck from the arrays
 function deleteADeck( decks, idx )
 {
@@ -246,7 +272,7 @@ function deleteADeck( decks, idx )
 
 	return false;
 }
-// ///////////////// ///////////////// ///////////////// ///////////////
+// ///////////////// ///////////////// ///////////////// /////////////// -
 // Add a deck to array
 function addADeck( decks, name, hero, cards, isarena )
 {
@@ -256,7 +282,7 @@ function addADeck( decks, name, hero, cards, isarena )
 }
 // ///////////////// ///////////////// ///////////////// ///////////////
 
-// ///////////////
+// /////////////// -
 // Spinner stuff (waiting animation)
 function showSpinner()
 {
@@ -268,7 +294,7 @@ function hideSpinner()
 }
 // ///////////////
 
-// ///////////////
+// /////////////// -
 // Aux stuff to copy arrays and objects
 function fullCopy(stuff)
 {
@@ -285,7 +311,7 @@ function fullCopy(stuff)
  
 	return result;
 }
-// ///////////////// ///////////////// ///////////////// ///////////////
+// ///////////////// ///////////////// ///////////////// /////////////// -
 // To fit long deck names
 (function($)
 {
@@ -337,7 +363,7 @@ function anItem()
 // Use: createCard(hs_cards card)
 function createCard( card )
 {
-	var card_image = card.image;
+	var card_image = card.id;
 	// Get card background (always local, because no text is shown)
 	var card_url = getCardUrl('eses', card_image);
 	// Get card set
@@ -420,15 +446,28 @@ function createCard( card )
 function addCard(card_id)
 {
 	// If card not found on DB, warn and finish
-	if (typeof(hs_cards[locale][card_id]) == "undefined")
+	var found = false;
+	// Get card as single object
+	var card;
+	// Check all cards
+	for (var i in hs_cards[locale])
+	{
+		// If found, take it
+		if (hs_cards[locale][i].id == card_id)
+		{
+			found = true;
+			card  = hs_cards[locale][i];
+			break;
+		}
+	}
+	// Not found? warn and exit
+	if (!found)
 	{
 		$.simplyToast(texts[locale].cardnotfound, 'danger');
 		return;
 	}
 	// Get deck from page
 	var deck = $('#deck');
-	// Get card as single object
-	var card = hs_cards[locale][card_id];
 	// Check if card on deck
 	if ($('#card_' + card.id).length > 0)
 	{
@@ -561,7 +600,7 @@ function restoreCard(card_id)
 	var card_count	 = parseInt($(card).attr('card_count'));
 	var card_quality = parseInt($(card).attr('card_quality'));
 	var card_cost	 = parseInt($(card).attr('card_cost'));
-	var card_name	 = hs_cards[locale][card_id].name;
+	var card_name	 = getNameFromCard(locale, card_id);
 
 	if ((!my_deck_isarena) && ((card_count == 2) || ((card_count == 1) && (card_quality == 5)))) return;
 
@@ -665,7 +704,6 @@ function showDeckCore()
 	visibleControls(true);
 	// Reset card counter
 	cardCounterReset();
-
 }
 // ///////////////
 function restoreDeck()
@@ -1056,7 +1094,10 @@ function importAllDecks(e)
 				// Found a valid one... copy it
 				isarena = (typeof(newDecks[i].isarena) == "undefined") ? false : newDecks[i].isarena;
 				if (!deckDupped)
+				{
+					var result = checkDeckIDs(newDecks[i].cards);
 					addADeck(jDecks, newDecks[i].name, newDecks[i].hero, newDecks[i].cards, isarena);
+				}
 			}
 
 			// Show buttons if needed
@@ -1123,7 +1164,7 @@ function refreshLocale(loc)
 	$('.card').each(function(index, element) {
 		card		= $(element);
 		card_id		= card.attr('card_id');
-		card_name	= hs_cards[locale][card_id].name;
+		card_name	= getNameFromCard(locale, card_id);
 		$(card).attr('card_name', card_name);
 		$(card).find('span.name').html(card_name);        
     });
@@ -1415,8 +1456,8 @@ function importSuccessful(result)
 		my_deck_cards.splice(0, my_deck_cards.length);
 
 	// And deck data (hero and cards) from url
-	my_deck_hero = result.hero;
-	my_deck_cards = fullCopy(result.cards);
+	my_deck_hero    = result.hero;
+	my_deck_cards   = fullCopy(result.cards);
 	my_deck_isarena = (typeof(result.isarena) == "undefined") ? false : result.isarena;
 
 	// Update charts with card list
@@ -1591,10 +1632,22 @@ $(document).ready(function(e)
 	// Get decks from storage
 	jDecks = retrieveFromStorage(storageDecks);
 
-	// fix old versions for invalid arena flag
-	for (var i = 0; i < jDecks.length; i++)
-		if (typeof(jDecks[i].isarena) == "undefined")
-			jDecks[i].isarena = false;
+	// Get data version from storage
+	var version = retrieveFromStorage(storageVersion);
+	// If no version or it's older, check and update stuff
+	if ((version == []) || (version == null) || (version == '') || (version < HSVersion))
+	{
+		// Update version and store it
+		version = HSVersion
+		storeOnStorage(version, storageVersion);
+
+		// Fix outdated values and data
+		if (updateDeckData(jDecks))
+		{
+			// Something was updated? save the new data :)
+			storeOnStorage(jDecks, storageDecks);
+		}
+	}
 
 	// No saved decks? Don't show the load button
 	if ((jDecks == null) || (jDecks.length == 0))

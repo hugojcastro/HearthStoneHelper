@@ -19,7 +19,8 @@
 // ///////////////// ///////////////// ///////////////// ///////////////
 // Import/Export stuff
 // ///////////////
-
+// This will fix the use from local files (file:///..., C:\...)
+jQuery.support.cors = true;
 // ///////////////
 // Function to download text as file
 // Example: downloadFile('the content of the file', 'filename.txt', 'text/plain');
@@ -70,7 +71,9 @@ function downloadFile() // strData, strFileName, strMimeType
 
 // ///////////////
 // Process the html from an url
-// Based on URL, call the parser for html text
+// Based on URL, call each parser for html text or JSON text
+// url: HTML from imported url in text format (html var will be the parsed text to DOM objects)
+// content: JSON content imported from url
 function processContent(url, content)
 {
 	var result = null;
@@ -187,6 +190,9 @@ function processBuilder(url, callback)
 	callback(result);
 }
 // ///////////////
+// Get content from an url (HTML text or JSON data), and pass it as argument for the callback function
+// theurl: URL to get content from
+// callback: function to call using retrieved content as parameter :D
 function processUrl(theurl, callback)
 {
 	// Check if good url
@@ -216,22 +222,36 @@ function processUrl(theurl, callback)
 		var ajson    = '1';
 
 		// Do special filtering here if needed
+		
+		// Tempostorm? get JSON data using POST method and custom params
 		if (aurl.indexOf('tempostorm.com') > -1)
 		{
 			aparams = '{"slug":"' + aurl.substr(aurl.indexOf('decks/') + 6) + '"}'
 			aurl    = 'https://tempostorm.com/deck';
 			amethod = "post";
-		} else if (aurl.indexOf('inven.co.kr') > -1) {
+		}
+		// Inven.co.kr? Use corean language for retrieved content
+		else if (aurl.indexOf('inven.co.kr') > -1)
+		{
 			alang = "euc-kr";
-		} else if (aurl.indexOf('elitedecks.net') > -1) {
+		}
+		// Elitedecks? No language tag and no JSON to use custom import method in PHP proxy
+		else if (aurl.indexOf('elitedecks.net') > -1)
+		{
 			alang = "";
 			ajson = '0';
-		} else if (aurl.indexOf('hearthstonebuilder') > -1) {
+		}
+		// Hearthstonebuilder? Get deck as JSON from custom URL
+		else if (aurl.indexOf('hearthstonebuilder') > -1)
+		{
 			var deckId = aurl;
 			while (deckId.indexOf('/') != -1)
 				deckId = deckId.substr(deckId.indexOf('/') + 1);
 			aurl = 'http://hearthstonebuilder.com/api/deck/' + deckId;
-		} else if (aurl.indexOf('hearthstone.buffed.') != -1) {
+		}
+		// Buffed.de? always use english locale to get data :D
+		else if (aurl.indexOf('hearthstone.buffed.') != -1) 
+		{
 			// Use english version for buffed.de, to get right card ID's from name :)
 			// not english? do it english
 			if (aurl.indexOf('/en/') == -1)
@@ -239,23 +259,32 @@ function processUrl(theurl, callback)
 				var deckname = aurl.substr(aurl.indexOf('guide/') + 6);
 				aurl = 'http://hearthstone.buffed.de/en/guide/' + deckname;
 			}
-		} else if ((aurl.indexOf('gameofhearthstone') != -1) && (aurl.indexOf('?display') == -1)) {
+		}
+		// Gameofhearthstone? Force display mode to 1 (text descriptions)
+		else if ((aurl.indexOf('gameofhearthstone') != -1) && (aurl.indexOf('?display') == -1))
+		{
 			// fix page mode for gameofhearthstone
 			aurl = aurl + '?display=1';
-		} else if ((aurl.indexOf('hearthstats') != -1) || (aurl.indexOf('hss.io') != -1)) {
+		} 
+		// Hearthstats/hss.io? Force the use of english locale (easy way: just remove locale value ^^)
+		else if ((aurl.indexOf('hearthstats') != -1) || (aurl.indexOf('hss.io') != -1))
+		{
 			// Fix locales for hearthstats
 			if (aurl.indexOf('?locale') != -1)
 				aurl = aurl.substr(0, aurl.indexOf('?locale'));
 		}
+
 		// Custom POST request to our proxy
 		$.post(
   			'http://hugojcastro.esy.es/hs_helper/import_deck.php',
 			{
-				url:    aurl,
-				method: amethod,
-				params: aparams,
-				lang:   alang,
-				json:   ajson
+				url:         aurl,
+				method:      amethod,
+				params:      aparams,
+				lang:        alang,
+				json:        ajson,
+				headers:     { 'Access-Control-Allow-Origin': '*' },
+				crossDomain: true
 			}
 		).done(
 			function(data)
@@ -273,9 +302,47 @@ function processUrl(theurl, callback)
 			function(xhr, textStatus, errorThrown)
 			{
 				hideSpinner();
-				callback({ name: "", hero: 0, cards: [], errcode: xhr.responseText + "' (" + textStatus + ")", errvalue: 1 } );
+				callback({ name: "", hero: 0, cards: [], errcode: xhr.responseText + "' (" + errorThrown + " - " + textStatus + ")", errvalue: 1 } );
 			}
 		);
 	}
+}
+// ///////////////
+// Not sure if best place for this method but anyways :D
+// From now, I'll use Blizzard's ID for cards, instead of an index from HearthHead.
+// This will ease the updates from new content, even after HearthHead.
+// I'm using this method to check imported decks and to update values in case it's necessary
+function checkDeckIDs(cards)
+{
+	var result = false;
+	// Check if uses old notation of Integers instead of strings as IDs
+	if ($.isNumeric(cards[0].card))
+	{
+		for (var idx in cards)
+		{
+			cards[idx].card = hearthhead_cards[cards[idx].card].image;
+		}
+		result = true;
+	}
+	return result;
+}
+// ///////////////
+function updateDeckData(decks)
+{
+	var result = false;
+	// For each deck stored in array
+	for (var i = 0; i < decks.length; i++)
+	{
+		// fix old versions for invalid arena flag
+		if (typeof(decks[i].isarena) == "undefined")
+		{
+			decks[i].isarena = false;
+			result = true;
+		}
+		// Check if uses old notation of Integers instead of strings as IDs
+		if (checkDeckIDs(decks[i].cards))
+			result = true;
+	}
+	return result;
 }
 // ///////////////

@@ -31,7 +31,7 @@ function importFromHearthHeadBuilder(url)
 		result.hero = deck.classs;
 		// Read cards
 		for (var card in deck.cards)
-			result.cards[result.cards.length] = { card: deck.cards[card].id, count: deck.cards[card].count };
+			result.cards[result.cards.length] = { card: hearthhead_cards[deck.cards[card].id].image, count: deck.cards[card].count };
 	}
 
 	return result;
@@ -56,7 +56,7 @@ function importFromHearthPwnBuilder(url)
 	for (var idx in cards)
 	{
 		var aux = cards[idx].split(':');
-		result.cards[result.cards.length] = { card: hearthpwn_cards[aux[0]].hearthheadid, count: aux[1] };
+		result.cards[result.cards.length] = { card: hearthpwn_cards[aux[0]].image, count: aux[1] };
 	}
 
 	return result;
@@ -85,7 +85,7 @@ function importFromHearthStoneBuffedBuilder(url)
 		var cardid    = parseInt(aux[0]);
 		var cardcount = parseInt(aux[1]);
 
-		result.cards[result.cards.length] = { card: cardid, count: cardcount };
+		result.cards[result.cards.length] = { card: hearthhead_cards[cardid].image, count: cardcount };
 	}
 
 	return result;
@@ -114,8 +114,7 @@ function importFromGosugamersBuilder(url)
 
 	for (idx = 1; idx < Cards.length; idx++)
 	{
-		name = gosugamers_cards[parseInt(Cards[idx])].name;
-		cardid = parseInt(getCardIdFromName('enus', name));
+		cardid = gosugamers_cards[parseInt(Cards[idx])].image;
 
 		for (pos = 0; pos < result.cards.length; pos++)
 			if (result.cards[pos].id == cardid)

@@ -45,7 +45,7 @@ function importFromHearthHead(html)
 
 		var cardCount = (count == '') ? 1 : parseInt(count.substr(1));
 
-		result.cards[result.cards.length] = { card: cardId, count: cardCount };
+		result.cards[result.cards.length] = { card: hearthhead_cards[cardId].image, count: cardCount };
 	});
 	
 	return result;
@@ -68,7 +68,7 @@ function importFromHearthPwn(html)
 
 		href = href.substr(href.indexOf('cards/') + 6);
 
-		var cardId    = hearthpwn_cards[href.substr(0, href.indexOf('-'))].hearthheadid;
+		var cardId    = hearthpwn_cards[href.substr(0, href.indexOf('-'))].image;
 		var cardCount = ($(element).parent().parent().text().indexOf(' 2') > 0) ? 2 : 1;
 
 		result.cards[result.cards.length] = { card: cardId, count: cardCount };
@@ -116,9 +116,10 @@ function importFromHearthArena(html)
 	// Cards
 	$(html).find('ul.deckList li.deckCard').each(function(index, element)
 	{
-		var quantity = $(element).find('span.quantity').first().text();
+		var quantity = parseInt($(element).find('span.quantity').first().text());
 		var cardname = $(element).find('span.name').first().text();
-		var cardid   = getCardIdFromName('enus', cardname);
+		var cardcost = parseInt($(element).find('span.mana').first().text());
+		var cardid   = getCardIdFromNameCost('enus', cardname, cardcost);
 
 		result.cards[result.cards.length] = { card: cardid, count: quantity };
 	});
@@ -145,22 +146,19 @@ function importFromHearthStoneDecks(html)
 	// Cards
 	$(html).find('div#liste_cartes table tr.alt td.zecha-popover a').each(function(index, element)
 	{
-		var cardImage = $(element).attr('real_id');
-		var cardName  = $(element).text().trim();
-		var quantity  = $(element).attr('nb_card');
+		var cardid   = $(element).attr('real_id');
+		var cardName = $(element).text().trim();
+		var quantity = parseInt($(element).attr('nb_card'));
+		var cardcost = parseInt($(element).parent().next('td').next('td').find('span.mana').text().trim());
 		// This site still lacks from some card info, so we must warn...
-		if (cardImage != '')
+		if (cardid == '')
+			cardid = getCardIdFromNameCost('frfr', cardName, cardCost);
+
+		if (cardid != -1)
 		{
-			var cardid = getCardIdFromImage(cardImage);
 			result.cards[result.cards.length] = { card: cardid, count: quantity };
 		} else {
-			var cardid = getCardIdFromName('frfr', cardName);
-			if (cardid != -1)
-			{
-				result.cards[result.cards.length] = { card: cardid, count: quantity };
-			} else {
-				out += '<br />' + quantity + 'x ' + cardName;
-			}
+			out += '<br />' + quantity + 'x ' + cardName;
 		}
 	});
 	// errvalue 2 is warning; 1 is error; on warning, cards should be taken
@@ -187,9 +185,8 @@ function importFromHearthNews(html)
 	// Cards
 	$(html).find('a.real_id').each(function(index, element)
 	{
-		var cardImage = $(element).attr('real_id');
+		var cardid = $(element).attr('real_id');
 		// var cname     = $(element).text().toLowerCase().trim();
-		var cardid    = getCardIdFromImage(cardImage);
 		var quantity  = $(element).attr('nb_card');
 
 		result.cards[result.cards.length] = { card: cardid, count: quantity };
@@ -238,10 +235,11 @@ function importFromHearthStonePlayers(html)
 		var count    = $(element).find('span.card-count').first();
 		var quantity = ((typeof(count) != "undefined") && (parseInt($(count).text()) == 2)) ? 2 : 1;
 		var cname    = $(element).find('span.card-title').first().text();
-		var cost     = $(element).find('span.mana-cost').first().text();
+		var cost     = parseInt($(element).find('span.mana-cost').first().text());
 		var cardid   = getCardIdFromNameCost('enus', cname, cost);
 
-		if ( result.hero == 0) result.hero = getHeroFromCard( cardid );
+		if ( result.hero == 0)
+			result.hero = getHeroFromCard( cardid );
 
 		// Check if card exists, just in case of arena decks
 		var found = false;
@@ -274,8 +272,9 @@ function importFromHearthStoneTopDecks(html)
 	var cards = $(html).find('ul.deck-class li').each(function(index, element)
 	{
 		var cname    = $( element ).find( 'span.card-name' ).first().text();
-		var quantity = $( element ).find( 'span.card-count' ).first().text();
-		var cardid   = getCardIdFromName('enus', cname);
+		var quantity = parseInt($( element ).find( 'span.card-count' ).first().text());
+		var cost     = parseInt($( element ).find( 'span.card-cost' ).first().text());
+		var cardid   = getCardIdFromNameCost('enus', cname, cost);
 
 		if ( result.hero == 0)
 			result.hero = getHeroFromCard( cardid );
@@ -301,9 +300,10 @@ function importFromGameOfHearthStone(html)
 	// Cards
 	$(html).find('a.collapsed-card').each(function(index, element)
 	{
-		var quantity = $(element).attr('data-count');
+		var quantity = parseInt($(element).attr('data-count'));
 		var name     = $(element).find('span.name').first().text();
-		var cardid   = getCardIdFromName('enus', name);
+		var cost     = parseInt($(element).find('span.cost').first().text());
+		var cardid   = getCardIdFromNameCost('enus', name, cost);
 
 		// Check for weird decks: more than 2 simple cards or more than 1 legendary
 		if (( quantity > 2 ) || (( getQualityFromCard( cardid ) == 5 ) && ( quantity > 1 ))) result.isarena = true;
@@ -334,6 +334,7 @@ function importFromBuffed(html)
 	var idx    = 0;
 	// predefine vars to help garbage compiler
 	var count;
+	var cost
 	var quantity;
 	var name;
 	var cardid;
@@ -342,9 +343,10 @@ function importFromBuffed(html)
 		count = $(cells[pos]).text().trim();
 		if (count != '')
 		{
-			quantity = (count.indexOf('2x') != -1) ? 2 : 1;
+			quantity = parseInt(count.substr(0, count.indexOf('x')));
 			name     = $(cells[pos + 1]).text().trim();
-			cardid   = getCardIdFromName('enus', name);
+			cost     = parseInt($(cells[pos + 2]).text().trim());
+			cardid   = getCardIdFromNameCost('enus', name, cost);
 
 			result.cards[result.cards.length] = { card: cardid, count: quantity };
 		}
@@ -372,12 +374,17 @@ function importFromGosugamers(html)
 	$(html).find("a[id^='deck-card-']").each(function(index, element)
 	{
 		var name     = $(element).find("span[class*='name']").first().text().trim();
-		var quantity = ($(element).find("span[class='count']").first().text().trim() == '') ? 1 : 2;
+		var cost     = parseInt($(element).find("span[class*='mana']").first().text().trim());
+		var quantity = $(element).find("span[class='count']").first().text().trim();
+		if (quantity == '')
+			quantity = 1;
+		else
+			quantity = parseInt(quantity);
 
 		// Adjust bad names
 		if (name == 'Dr Boom') name = 'Dr. Boom';
 
-		var cardid   = getCardIdFromName('enus', name);
+		var cardid   = getCardIdFromNameCost('enus', name, cost);
 
 		result.cards[result.cards.length] = { card: cardid, count: quantity };
 	});
@@ -404,7 +411,7 @@ function importFromMillenium(html)
 		cname = cname.substr( cname.indexOf( 'hearthhead.com/card=' ) + 20 );
 		if ( cname.indexOf( '/' ) != -1 )
 			cname = cname.substr( 0, cname.indexOf( '/' ) );
-		var cardid = parseInt( cname );
+		var cardid = hearthhead_cards[parseInt( cname )].image;
 		// count
 		var tr = $(element).parent().prev().prev().text();
 		var quantity = ( tr.indexOf( '2' ) != -1 ) ? 2 : ( ( tr.indexOf( '1' ) != -1 ) ? 1 : 0 );
@@ -421,7 +428,7 @@ function importFromMillenium(html)
 		cname = cname.substr(cname.indexOf('hearthhead.com/card=') + 20);
 		if (cname.indexOf('/') != -1)
 			cname = cname.substr(0, cname.indexOf('/'));
-		var cardid = parseInt(cname);
+		var cardid = hearthhead_cards[parseInt( cname )].image;
 		// count
 		var tr = $(element).parent().parent().prev().prev().text();
 		var quantity = ( tr.indexOf( '2' ) != -1 ) ? 2 : ( ( tr.indexOf( '1' ) != -1 ) ? 1 : 0 );
@@ -443,13 +450,12 @@ function importFromProESLGaming(html)
 	$(html).find("div.cards > div.inner > div.decklist_compact div.carditem_container").each(function(index, element)
 	{
 		var quantity = parseInt($(element).find('div.num').first().text().trim());
-		var image    = $(element).find('div.image > img').first().attr('src');
-		image = image.substr(image.indexOf('/cards/') + 7);
-		image = image.substr(0, image.indexOf('.'));
-		var cardid = getCardIdFromImage(image);
+		var cardid    = $(element).find('div.image > img').first().attr('src');
+		cardid = cardid.substr(cardid.indexOf('/cards/') + 7);
+		cardid = cardid.substr(0, cardid.indexOf('.'));
 		result.cards[result.cards.length] = { card: cardid, count: quantity };
-		if (typeof(hs_cards[locale][cardid].classs) != "undefined")
-			result.hero = hs_cards[locale][cardid].classs;
+		if (result.hero == 0)
+			result.hero = getHeroFromCard(cardid);
 	});
 
 	return result;
@@ -473,9 +479,10 @@ function importFromPlayHS(html)
 	{
 		var cname = $(element).text().trim();
 		if (cname == "Retador de carnero") cname = "Criador de carneros";
-		var cardid   = getCardIdFromName('eses', cname);
-		var count    = $(element).parent().parent().prev('td').text();
+		var count    = $(element).parent().parent().prev('td').text().trim();
 		var quantity = parseInt(count.substr(0, count.indexOf('x')));
+		var cost     = parseInt($(element).parent().parent().next('td').text().trim());
+		var cardid   = getCardIdFromNameCost('eses', cname, cost);
 		if (cardid != -1)
 		{
 			result.cards[result.cards.length] = { card: cardid, count: quantity };
@@ -500,7 +507,7 @@ function importFromHeartstoneBuilder(jsonCards)
 	var result = { name: aDeck.name, hero: getHeroClassFromName(aDeck.class), cards: [], errcode: "", errvalue: 0 };
 
 	for (var idx = 0; idx < aDeck.cards.length; idx++)
-		result.cards[result.cards.length] = { card: aDeck.cards[idx].id, count: aDeck.cards[idx].qty };
+		result.cards[result.cards.length] = { card: hearthhead_cards[aDeck.cards[idx].id].image, count: aDeck.cards[idx].qty };
 
 	return result;
 }
@@ -509,27 +516,48 @@ function importFromEliteDecks(html)
 {
 	var result = { name: "", hero: 0, cards: [], errcode: "", errvalue: 0, isarena: false };
 
+	// Check for missing cards (this page has weird spanish card names O.o)
+	var out = '';
 	// Name
 	result.name = $(html).find("h2.dname").first().text().trim();
 	// Hero
 	var Hero = $(html).find("div.vmazoinfo img.heroedeck").first().attr('src');
 	Hero = Hero.substr(0, Hero.indexOf('.')).substr(Hero.indexOf('decks/') + 7);
-	result.isarena = (Hero == 'arena');
+	if (Hero == 'arena')
+		result.isarena = true;
 	if (!result.isarena)
 		result.hero = getHeroClassFromName(Hero);
 	// Cards
 	$(html).find("div.vmazolayer div.vminions ul.vminionslist li, div.vmazolayer div.vspells ul.vspellslist li").each(function(index, element)
 	{
-		quantity = parseInt($(element).find('span.cantidad').first().text().trim());
-		name     = decodeURIComponent(escape($(element).find('span.nombreCarta').first().text().trim()));
-		cardid   = getCardIdFromName('eses', name);
-		if (cardid == -1)
-			cardid = getCardIdFromName('enus', name);
-		if ((result.isarena) && (typeof(hs_cards['enus'][cardid].classs) != "undefined"))
-			result.hero = hs_cards['enus'][cardid].classs;
-		result.cards[result.cards.length] = { card: cardid, count: quantity };
-	});
+		var quantity = parseInt($(element).find('span.cantidad').first().text().trim());
+		var coste    = parseInt($(element).find('span.costeCarta').first().text().trim());
+		var name     = $(element).find('span.nombreCarta').first().text().trim();
+		// Fix weird spanish card names
+		if (name == "Raíces vivientes")
+			name = "Raíces vivas";
+		else if (name == "Robot sanador solariego")
+			name = "Sanabot antiguo";
 
+		var cardid = getCardIdFromNameCost('eses', name, coste);
+		if (cardid == -1)
+			cardid = getCardIdFromNameCost('enus', name, coste);
+
+		if (cardid != -1)
+		{
+			if (result.hero == 0)
+				result.hero = getHeroFromCard( cardid );
+			result.cards[result.cards.length] = { card: cardid, count: quantity };
+		}
+		else
+			out += '<br />' + quantity + 'x ' + name;
+	});
+	// errvalue 2 is warning; 1 is error; on warning, cards should be taken
+	if (out != '')
+	{
+		result.errcode = texts[locale].deckMissingCards + out;
+		result.errvalue = 2;
+	}
 	return result;
 }
 // ///////////////
@@ -557,7 +585,7 @@ function importFromInvenCoKr(html, text)
 			cards[countTable[idx]] = cards[countTable[idx]] + 1;
 	}
 	for (var cardid in cards)
-		result.cards[result.cards.length] = {  card: cardid, count: cards[cardid] };
+		result.cards[result.cards.length] = {  card: hearthhead_cards[cardid].image, count: cards[cardid] };
 
 	return result;
 }
@@ -582,7 +610,8 @@ function importFromHearthBuilder(html)
 			quantity = parseInt(cardname.substr(idx + 2).trim());
 		if( quantity > 1)
 			cardname = cardname.substr(0, idx).trim();
-		var cardid = getCardIdFromName('enus', cardname);
+		var cardcost = parseInt($(element).parent().next('td').next('td').text().trim());
+		var cardid   = getCardIdFromNameCost('enus', cardname, cardcost);
 		result.cards[result.cards.length] = { card: cardid, count: quantity };
 	});
 
@@ -595,6 +624,8 @@ function importFromBlizzpro(html)
 
 	// Name
 	result.name = unescape(escape($(html).find("p strong > a[href*='/deck=']").first().text().trim()));
+	if (result.name == "")
+		result.name = $(html).find("div.trans-content h1.entry-title").first().text().trim();
 	// Hero
 	var Hero = $(html).find("p strong > a[href*='/deck=']").first().parent().parent().text().trim();
 	Hero = Hero.substr(Hero.indexOf('Class: ') + 7).toLowerCase();
@@ -605,11 +636,15 @@ function importFromBlizzpro(html)
 		var cardname = $(element).text().trim().toLowerCase();
 		var linetext = $(element).parent().text().trim().toLowerCase().replace(cardname, '');
 		var quantity = 1;
+		var hhid = $(element).attr('href');
+		hhid = parseInt(hhid.substr(hhid.indexOf('=') + 1, hhid.length));
 		var idx      = linetext.indexOf('x');
 		if (idx != -1)
 			quantity = parseInt(linetext.substr(idx + 1).trim());
-		var cardid = getCardIdFromName('enus', cardname);
+		var cardid = hearthhead_cards[hhid].image; // getCardIdFromName('enus', cardname);
 		result.cards[result.cards.length] = { card: cardid, count: quantity };
+		if (result.hero == 0)
+			result.hero = getHeroFromCard( cardid );
 	});
 
 	return result;
@@ -631,7 +666,8 @@ function importFromHSDeck(html)
 	{
 		var cardname = $(element).attr('ctitle');
 		var quantity = parseInt($(element).attr('ccount'));
-		var cardid = getCardIdFromName('enus', cardname);
+		var cost     = parseInt($(element).attr('mana'));
+		var cardid   = getCardIdFromNameCost('enus', cardname, cost);
 		if (cardid != -1)
 		{
 			result.cards[result.cards.length] = { card: cardid, count: quantity };
@@ -705,7 +741,9 @@ function importFromIcyVeins(html)
 	{
 		var cname  = $(element).find('a').first().text();
 		var count  = parseInt($(element).text().charAt(0));
-		var cardId = getCardIdFromName('enus', cname);
+		var hpwnid = $(element).find('a').first().attr('data-tooltip-href');
+		hpwnid     = parseInt(hpwnid.substr(hpwnid.indexOf('cards/') + 6));
+		var cardId = hearthpwn_cards[hpwnid].image; // getCardIdFromName('enus', cname);
 		// Arena
 		if ((count > 2) || ( (getQualityFromCard(cardId) == 5) && (count > 1))) result.isarena = true;
 		result.cards[result.cards.length] = { card: cardId, count: count };
