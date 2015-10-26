@@ -443,13 +443,6 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   42: {
-    "id": "CS2_011o",
-    "name": "Дикий рев",
-    "classs": 11,
-    "set": 2,
-    "type": 0
-  },
-  43: {
     "id": "CS2_011",
     "name": "Дикий рев",
     "cost": 3,
@@ -458,6 +451,13 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  43: {
+    "id": "CS2_011o",
+    "name": "Дикий рев",
+    "classs": 11,
+    "set": 2,
+    "type": 0
   },
   44: {
     "id": "EX1_371",
@@ -583,13 +583,6 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   56: {
-    "id": "CS2_009e",
-    "name": "Знак дикой природы",
-    "classs": 11,
-    "set": 2,
-    "type": 0
-  },
-  57: {
     "id": "CS2_009",
     "name": "Знак дикой природы",
     "cost": 2,
@@ -598,6 +591,13 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  57: {
+    "id": "CS2_009e",
+    "name": "Знак дикой природы",
+    "classs": 11,
+    "set": 2,
+    "type": 0
   },
   58: {
     "id": "CS2_226e",
@@ -826,19 +826,19 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   81: {
-    "id": "CS1_113e",
-    "name": "Контроль разума",
-    "classs": 5,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  82: {
     "id": "CS1_113",
     "name": "Контроль разума",
     "cost": 10,
     "classs": 5,
     "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  82: {
+    "id": "CS1_113e",
+    "name": "Контроль разума",
+    "classs": 5,
     "set": 2,
     "type": 0,
     "quality": 1
@@ -1003,18 +1003,25 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   98: {
-    "id": "GAME_003e",
-    "name": "Месть монетки",
-    "set": 2,
-    "type": 0
-  },
-  99: {
     "id": "GAME_003",
     "name": "Месть монетки",
     "set": 2,
     "type": 0
   },
+  99: {
+    "id": "GAME_003e",
+    "name": "Месть монетки",
+    "set": 2,
+    "type": 0
+  },
   100: {
+    "id": "CS2_084e",
+    "name": "Метка охотника",
+    "classs": 3,
+    "set": 2,
+    "type": 0
+  },
+  101: {
     "id": "CS2_084",
     "name": "Метка охотника",
     "cost": 0,
@@ -1023,13 +1030,6 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  101: {
-    "id": "CS2_084e",
-    "name": "Метка охотника",
-    "classs": 3,
-    "set": 2,
-    "type": 0
   },
   102: {
     "id": "EX1_025t",
@@ -1142,13 +1142,6 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   114: {
-    "id": "GAME_006",
-    "name": "НЕЕЕЕЕЕЕЕЕТ",
-    "cost": 2,
-    "set": 2,
-    "type": 0
-  },
-  115: {
     "id": "DS1_055",
     "name": "Нага-целительница",
     "cost": 5,
@@ -1158,6 +1151,13 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  115: {
+    "id": "GAME_006",
+    "name": "НЕЕЕЕЕЕЕЕЕТ",
+    "cost": 2,
+    "set": 2,
+    "type": 0
   },
   116: {
     "id": "CS2_039",
@@ -1364,6 +1364,13 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   136: {
+    "id": "CS2_092e",
+    "name": "Печать королей",
+    "classs": 2,
+    "set": 2,
+    "type": 0
+  },
+  137: {
     "id": "CS2_092",
     "name": "Печать королей",
     "cost": 4,
@@ -1372,13 +1379,6 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  137: {
-    "id": "CS2_092e",
-    "name": "Печать королей",
-    "classs": 2,
-    "set": 2,
-    "type": 0
   },
   138: {
     "id": "CS2_087e",
@@ -1437,6 +1437,13 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   144: {
+    "id": "CS2_063e",
+    "name": "Порча",
+    "classs": 9,
+    "set": 2,
+    "type": 0
+  },
+  145: {
     "id": "CS2_063",
     "name": "Порча",
     "cost": 1,
@@ -1445,13 +1452,6 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  145: {
-    "id": "CS2_063e",
-    "name": "Порча",
-    "classs": 9,
-    "set": 2,
-    "type": 0
   },
   146: {
     "id": "CS2_061",
@@ -1476,6 +1476,14 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   148: {
+    "id": "CS2_022e",
+    "name": "Превращение",
+    "classs": 8,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  149: {
     "id": "CS2_022",
     "name": "Превращение",
     "cost": 4,
@@ -1484,14 +1492,6 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  149: {
-    "id": "CS2_022e",
-    "name": "Превращение",
-    "classs": 8,
-    "set": 2,
-    "type": 0,
-    "quality": 1
   },
   150: {
     "id": "CS2_049",
@@ -1585,23 +1585,23 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   159: {
-    "id": "EX1_084e",
+    "id": "CS2_103e2",
     "name": "Рывок",
     "classs": 1,
     "set": 2,
     "type": 0
   },
   160: {
-    "id": "DS1_178e",
+    "id": "EX1_084e",
     "name": "Рывок",
-    "classs": 3,
+    "classs": 1,
     "set": 2,
     "type": 0
   },
   161: {
-    "id": "CS2_103e2",
+    "id": "DS1_178e",
     "name": "Рывок",
-    "classs": 1,
+    "classs": 3,
     "set": 2,
     "type": 0
   },
@@ -1638,6 +1638,13 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   165: {
+    "id": "EX1_246e",
+    "name": "Сглаз",
+    "classs": 7,
+    "set": 2,
+    "type": 0
+  },
+  166: {
     "id": "EX1_246",
     "name": "Сглаз",
     "cost": 3,
@@ -1646,13 +1653,6 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  166: {
-    "id": "EX1_246e",
-    "name": "Сглаз",
-    "classs": 7,
-    "set": 2,
-    "type": 0
   },
   167: {
     "id": "CS2_127",
@@ -1686,6 +1686,13 @@ hs_cards['ruru'] = {
     "type": 0
   },
   170: {
+    "id": "EX1_244e",
+    "name": "Сила тотемов",
+    "classs": 7,
+    "set": 2,
+    "type": 0
+  },
+  171: {
     "id": "EX1_244",
     "name": "Сила тотемов",
     "cost": 0,
@@ -1694,13 +1701,6 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  171: {
-    "id": "EX1_244e",
-    "name": "Сила тотемов",
-    "classs": 7,
-    "set": 2,
-    "type": 0
   },
   172: {
     "id": "skele11",
@@ -1713,26 +1713,13 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   173: {
-    "id": "CS2_234",
-    "name": "Слово Тьмы: Боль",
-    "cost": 2,
+    "id": "CS2_004e",
+    "name": "Слово силы: Щит",
     "classs": 5,
-    "collectible": 1,
     "set": 2,
-    "type": 0,
-    "quality": 0
+    "type": 0
   },
   174: {
-    "id": "EX1_622",
-    "name": "Слово Тьмы: Смерть",
-    "cost": 3,
-    "classs": 5,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  175: {
     "id": "CS2_004",
     "name": "Слово силы: Щит",
     "cost": 1,
@@ -1742,12 +1729,25 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 0
   },
-  176: {
-    "id": "CS2_004e",
-    "name": "Слово силы: Щит",
+  175: {
+    "id": "CS2_234",
+    "name": "Слово Тьмы: Боль",
+    "cost": 2,
     "classs": 5,
+    "collectible": 1,
     "set": 2,
-    "type": 0
+    "type": 0,
+    "quality": 0
+  },
+  176: {
+    "id": "EX1_622",
+    "name": "Слово Тьмы: Смерть",
+    "cost": 3,
+    "classs": 5,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
   },
   177: {
     "id": "CS2_017",
@@ -1936,6 +1936,13 @@ hs_cards['ruru'] = {
     "quality": 0
   },
   195: {
+    "id": "CS2_105e",
+    "name": "Удар героя",
+    "classs": 1,
+    "set": 2,
+    "type": 0
+  },
+  196: {
     "id": "CS2_105",
     "name": "Удар героя",
     "cost": 2,
@@ -1944,13 +1951,6 @@ hs_cards['ruru'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  196: {
-    "id": "CS2_105e",
-    "name": "Удар героя",
-    "classs": 1,
-    "set": 2,
-    "type": 0
   },
   197: {
     "id": "CS2_122e",
@@ -2106,44 +2106,44 @@ hs_cards['ruru'] = {
     "type": 0
   },
   212: {
-    "id": "BRMA14_8H",
-    "name": "Активация Магматрона",
-    "cost": 6,
-    "set": 14,
-    "type": 0
-  },
-  213: {
     "id": "BRMA14_8",
     "name": "Активация Магматрона",
     "cost": 8,
     "set": 14,
     "type": 0
   },
-  214: {
-    "id": "BRMA14_4",
-    "name": "Активация Токситрона",
-    "cost": 4,
+  213: {
+    "id": "BRMA14_8H",
+    "name": "Активация Магматрона",
+    "cost": 6,
     "set": 14,
     "type": 0
   },
-  215: {
+  214: {
     "id": "BRMA14_4H",
     "name": "Активация Токситрона",
     "cost": 2,
     "set": 14,
     "type": 0
   },
+  215: {
+    "id": "BRMA14_4",
+    "name": "Активация Токситрона",
+    "cost": 4,
+    "set": 14,
+    "type": 0
+  },
   216: {
-    "id": "BRMA14_2H",
+    "id": "BRMA14_2",
     "name": "Активация Чаротрона",
-    "cost": 0,
+    "cost": 2,
     "set": 14,
     "type": 0
   },
   217: {
-    "id": "BRMA14_2",
+    "id": "BRMA14_2H",
     "name": "Активация Чаротрона",
-    "cost": 2,
+    "cost": 0,
     "set": 14,
     "type": 0
   },
@@ -2162,27 +2162,27 @@ hs_cards['ruru'] = {
     "type": 0
   },
   220: {
-    "id": "BRMA14_10H",
-    "name": "Активация!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  221: {
     "id": "BRMA14_10",
     "name": "Активация!",
     "cost": 4,
     "set": 14,
     "type": 0
   },
+  221: {
+    "id": "BRMA14_10H",
+    "name": "Активация!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
   222: {
-    "id": "BRMA15_2",
+    "id": "BRMA15_2H",
     "name": "Алхимик",
     "set": 14,
     "type": 0
   },
   223: {
-    "id": "BRMA15_2H",
+    "id": "BRMA15_2",
     "name": "Алхимик",
     "set": 14,
     "type": 0
@@ -2241,28 +2241,28 @@ hs_cards['ruru'] = {
     "type": 0
   },
   231: {
-    "id": "BRMA04_4",
-    "name": "В отрыв!",
-    "cost": 3,
-    "set": 14,
-    "type": 0
-  },
-  232: {
     "id": "BRMA04_4H",
     "name": "В отрыв!",
     "cost": 3,
     "set": 14,
     "type": 0
   },
+  232: {
+    "id": "BRMA04_4",
+    "name": "В отрыв!",
+    "cost": 3,
+    "set": 14,
+    "type": 0
+  },
   233: {
-    "id": "BRMA11_1H",
+    "id": "BRMA11_1",
     "name": "Валестраз Порочный",
     "health": 30,
     "set": 14,
     "type": 0
   },
   234: {
-    "id": "BRMA11_1",
+    "id": "BRMA11_1H",
     "name": "Валестраз Порочный",
     "health": 30,
     "set": 14,
@@ -2276,14 +2276,14 @@ hs_cards['ruru'] = {
     "type": 0
   },
   236: {
-    "id": "BRMA07_1H",
+    "id": "BRMA07_1",
     "name": "Вождь Омокк",
     "health": 30,
     "set": 14,
     "type": 0
   },
   237: {
-    "id": "BRMA07_1",
+    "id": "BRMA07_1H",
     "name": "Вождь Омокк",
     "health": 30,
     "set": 14,
@@ -2367,28 +2367,28 @@ hs_cards['ruru'] = {
     "quality": 2
   },
   247: {
-    "id": "BRMA04_1",
-    "name": "Гарр",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  248: {
     "id": "BRMA04_1H",
     "name": "Гарр",
     "health": 45,
     "set": 14,
     "type": 0
   },
+  248: {
+    "id": "BRMA04_1",
+    "name": "Гарр",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
   249: {
-    "id": "BRMA08_1H",
+    "id": "BRMA08_1",
     "name": "Генерал Драккисат",
     "health": 50,
     "set": 14,
     "type": 0
   },
   250: {
-    "id": "BRMA08_1",
+    "id": "BRMA08_1H",
     "name": "Генерал Драккисат",
     "health": 50,
     "set": 14,
@@ -2519,21 +2519,21 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   264: {
-    "id": "BRMA09_4Ht",
-    "name": "Драконор",
-    "cost": 1,
-    "attack": 5,
-    "health": 4,
-    "race": 24,
-    "set": 14,
-    "type": 0
-  },
-  265: {
     "id": "BRMA09_4t",
     "name": "Драконор",
     "cost": 1,
     "attack": 3,
     "health": 1,
+    "race": 24,
+    "set": 14,
+    "type": 0
+  },
+  265: {
+    "id": "BRMA09_4Ht",
+    "name": "Драконор",
+    "cost": 1,
+    "attack": 5,
+    "health": 4,
     "race": 24,
     "set": 14,
     "type": 0
@@ -2592,18 +2592,6 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   271: {
-    "id": "BRM_010",
-    "name": "Друид пламени",
-    "cost": 3,
-    "attack": 2,
-    "health": 2,
-    "classs": 11,
-    "collectible": 1,
-    "set": 14,
-    "type": 0,
-    "quality": 1
-  },
-  272: {
     "id": "BRM_010t2",
     "name": "Друид пламени",
     "cost": 3,
@@ -2615,15 +2603,27 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
+  272: {
+    "id": "BRM_010",
+    "name": "Друид пламени",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "classs": 11,
+    "collectible": 1,
+    "set": 14,
+    "type": 0,
+    "quality": 1
+  },
   273: {
-    "id": "BRMA11_2H",
+    "id": "BRMA11_2",
     "name": "Душа красных драконов",
     "cost": 0,
     "set": 14,
     "type": 0
   },
   274: {
-    "id": "BRMA11_2",
+    "id": "BRMA11_2H",
     "name": "Душа красных драконов",
     "cost": 0,
     "set": 14,
@@ -2646,22 +2646,22 @@ hs_cards['ruru'] = {
     "type": 0
   },
   277: {
-    "id": "BRMA05_3",
-    "name": "Живая бомба",
-    "cost": 4,
-    "set": 14,
-    "type": 0
-  },
-  278: {
     "id": "BRMA05_3e",
     "name": "Живая бомба",
     "set": 14,
     "type": 0
   },
-  279: {
+  278: {
     "id": "BRMA05_3H",
     "name": "Живая бомба",
     "cost": 3,
+    "set": 14,
+    "type": 0
+  },
+  279: {
+    "id": "BRMA05_3",
+    "name": "Живая бомба",
+    "cost": 4,
     "set": 14,
     "type": 0
   },
@@ -2751,13 +2751,6 @@ hs_cards['ruru'] = {
     "type": 0
   },
   291: {
-    "id": "BRMA07_3",
-    "name": "КРУШИ-И-ИТЬ!!",
-    "cost": 4,
-    "set": 14,
-    "type": 0
-  },
-  292: {
     "id": "BRMA17_9",
     "name": "Коготь Ониксии",
     "cost": 2,
@@ -2766,12 +2759,19 @@ hs_cards['ruru'] = {
     "set": 14,
     "type": 0
   },
-  293: {
+  292: {
     "id": "BRMA10_6",
     "name": "Когти Бритвосмерта",
     "cost": 1,
     "attack": 1,
     "durability": 5,
+    "set": 14,
+    "type": 0
+  },
+  293: {
+    "id": "BRMA01_1",
+    "name": "Корен Худовар",
+    "health": 30,
     "set": 14,
     "type": 0
   },
@@ -2783,9 +2783,11 @@ hs_cards['ruru'] = {
     "type": 0
   },
   295: {
-    "id": "BRMA01_1",
-    "name": "Корен Худовар",
-    "health": 30,
+    "id": "BRMA17_6",
+    "name": "Костяное создание",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
     "set": 14,
     "type": 0
   },
@@ -2799,35 +2801,26 @@ hs_cards['ruru'] = {
     "type": 0
   },
   297: {
-    "id": "BRMA17_6",
-    "name": "Костяное создание",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
-    "set": 14,
-    "type": 0
-  },
-  298: {
     "id": "BRMA17_5H",
     "name": "Костяные прислужники",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  299: {
+  298: {
     "id": "BRMA17_5",
     "name": "Костяные прислужники",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  300: {
+  299: {
     "id": "BRM_033e",
     "name": "Кровь дракона",
     "set": 14,
     "type": 0
   },
-  301: {
+  300: {
     "id": "BRMA13_7",
     "name": "Кружащийся пепел",
     "cost": 0,
@@ -2836,15 +2829,22 @@ hs_cards['ruru'] = {
     "set": 14,
     "type": 0
   },
+  301: {
+    "id": "BRMA07_3",
+    "name": "КРУШИ-И-ИТЬ!!",
+    "cost": 4,
+    "set": 14,
+    "type": 0
+  },
   302: {
-    "id": "BRMA09_4",
+    "id": "BRMA09_4H",
     "name": "Крыло Тьмы",
     "cost": 1,
     "set": 14,
     "type": 0
   },
   303: {
-    "id": "BRMA09_4H",
+    "id": "BRMA09_4",
     "name": "Крыло Тьмы",
     "cost": 1,
     "set": 14,
@@ -2872,13 +2872,6 @@ hs_cards['ruru'] = {
     "type": 0
   },
   307: {
-    "id": "BRM_011t",
-    "name": "Лавовый шок",
-    "classs": 7,
-    "set": 14,
-    "type": 0
-  },
-  308: {
     "id": "BRM_011",
     "name": "Лавовый шок",
     "cost": 2,
@@ -2887,6 +2880,13 @@ hs_cards['ruru'] = {
     "set": 14,
     "type": 0,
     "quality": 2
+  },
+  308: {
+    "id": "BRM_011t",
+    "name": "Лавовый шок",
+    "classs": 7,
+    "set": 14,
+    "type": 0
   },
   309: {
     "id": "BRMA13_1H",
@@ -2903,28 +2903,28 @@ hs_cards['ruru'] = {
     "type": 0
   },
   311: {
-    "id": "BRMA12_7",
-    "name": "Магия бронзовых драконов",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
-  312: {
     "id": "BRMA12_7H",
     "name": "Магия бронзовых драконов",
     "cost": 3,
     "set": 14,
     "type": 0
   },
+  312: {
+    "id": "BRMA12_7",
+    "name": "Магия бронзовых драконов",
+    "cost": 1,
+    "set": 14,
+    "type": 0
+  },
   313: {
-    "id": "BRMA12_2",
+    "id": "BRMA12_2H",
     "name": "Магия драконов",
     "cost": 0,
     "set": 14,
     "type": 0
   },
   314: {
-    "id": "BRMA12_2H",
+    "id": "BRMA12_2",
     "name": "Магия драконов",
     "cost": 0,
     "set": 14,
@@ -2945,30 +2945,30 @@ hs_cards['ruru'] = {
     "type": 0
   },
   317: {
-    "id": "BRMA12_3H",
-    "name": "Магия красных драконов",
-    "cost": 3,
-    "set": 14,
-    "type": 0
-  },
-  318: {
     "id": "BRMA12_3",
     "name": "Магия красных драконов",
     "cost": 1,
     "set": 14,
     "type": 0
   },
+  318: {
+    "id": "BRMA12_3H",
+    "name": "Магия красных драконов",
+    "cost": 3,
+    "set": 14,
+    "type": 0
+  },
   319: {
-    "id": "BRMA12_5",
+    "id": "BRMA12_5H",
     "name": "Магия синих драконов",
-    "cost": 1,
+    "cost": 3,
     "set": 14,
     "type": 0
   },
   320: {
-    "id": "BRMA12_5H",
+    "id": "BRMA12_5",
     "name": "Магия синих драконов",
-    "cost": 3,
+    "cost": 1,
     "set": 14,
     "type": 0
   },
@@ -3033,20 +3033,6 @@ hs_cards['ruru'] = {
     "type": 0
   },
   328: {
-    "id": "BRMA06_1H",
-    "name": "Мажордом Экзекутус",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  329: {
-    "id": "BRMA06_1",
-    "name": "Мажордом Экзекутус",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  330: {
     "id": "BRM_027",
     "name": "Мажордом Экзекутус",
     "cost": 9,
@@ -3057,15 +3043,29 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
+  329: {
+    "id": "BRMA06_1",
+    "name": "Мажордом Экзекутус",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  330: {
+    "id": "BRMA06_1H",
+    "name": "Мажордом Экзекутус",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
   331: {
-    "id": "BRMA15_1",
+    "id": "BRMA15_1H",
     "name": "Малориак",
     "health": 30,
     "set": 14,
     "type": 0
   },
   332: {
-    "id": "BRMA15_1H",
+    "id": "BRMA15_1",
     "name": "Малориак",
     "health": 30,
     "set": 14,
@@ -3097,15 +3097,6 @@ hs_cards['ruru'] = {
     "type": 0
   },
   336: {
-    "id": "BRMA03_3H",
-    "name": "Мойра Бронзобород",
-    "cost": 2,
-    "attack": 3,
-    "health": 1,
-    "set": 14,
-    "type": 0
-  },
-  337: {
     "id": "BRMA03_3",
     "name": "Мойра Бронзобород",
     "cost": 2,
@@ -3114,17 +3105,26 @@ hs_cards['ruru'] = {
     "set": 14,
     "type": 0
   },
-  338: {
-    "id": "BRMA03_2",
-    "name": "Мощь Повелителя Огня",
+  337: {
+    "id": "BRMA03_3H",
+    "name": "Мойра Бронзобород",
     "cost": 2,
+    "attack": 3,
+    "health": 1,
+    "set": 14,
+    "type": 0
+  },
+  338: {
+    "id": "BRM_003e",
+    "name": "Мощь дракона",
+    "classs": 8,
     "set": 14,
     "type": 0
   },
   339: {
-    "id": "BRM_003e",
-    "name": "Мощь дракона",
-    "classs": 8,
+    "id": "BRMA03_2",
+    "name": "Мощь Повелителя Огня",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
@@ -3161,20 +3161,34 @@ hs_cards['ruru'] = {
     "type": 0
   },
   344: {
-    "id": "BRMA17_2H",
+    "id": "BRMA13_3H",
     "name": "Нефариан",
     "health": 30,
     "set": 14,
     "type": 0
   },
   345: {
-    "id": "BRMA17_2",
+    "id": "BRMA17_2H",
     "name": "Нефариан",
     "health": 30,
     "set": 14,
     "type": 0
   },
   346: {
+    "id": "BRMA17_2",
+    "name": "Нефариан",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  347: {
+    "id": "BRMA13_3",
+    "name": "Нефариан",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  348: {
     "id": "BRM_030",
     "name": "Нефариан",
     "cost": 9,
@@ -3185,20 +3199,6 @@ hs_cards['ruru'] = {
     "set": 14,
     "type": 0,
     "quality": 4
-  },
-  347: {
-    "id": "BRMA13_3",
-    "name": "Нефариан",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  348: {
-    "id": "BRMA13_3H",
-    "name": "Нефариан",
-    "health": 30,
-    "set": 14,
-    "type": 0
   },
   349: {
     "id": "BRMA01_4t",
@@ -3349,14 +3349,14 @@ hs_cards['ruru'] = {
     "type": 0
   },
   367: {
-    "id": "BRMA17_8",
+    "id": "BRMA17_8H",
     "name": "Пламя Нефариана",
     "cost": 0,
     "set": 14,
     "type": 0
   },
   368: {
-    "id": "BRMA17_8H",
+    "id": "BRMA17_8",
     "name": "Пламя Нефариана",
     "cost": 0,
     "set": 14,
@@ -3400,13 +3400,13 @@ hs_cards['ruru'] = {
     "type": 0
   },
   373: {
-    "id": "BRMA08_2",
+    "id": "BRMA08_2H",
     "name": "Пристальный взгляд",
     "set": 14,
     "type": 0
   },
   374: {
-    "id": "BRMA08_2H",
+    "id": "BRMA08_2",
     "name": "Пристальный взгляд",
     "set": 14,
     "type": 0
@@ -3419,7 +3419,7 @@ hs_cards['ruru'] = {
     "type": 0
   },
   376: {
-    "id": "BRMA06_3",
+    "id": "BRM_027h",
     "name": "Рагнарос",
     "health": 8,
     "set": 14,
@@ -3433,7 +3433,7 @@ hs_cards['ruru'] = {
     "type": 0
   },
   378: {
-    "id": "BRM_027h",
+    "id": "BRMA06_3",
     "name": "Рагнарос",
     "health": 8,
     "set": 14,
@@ -3454,20 +3454,13 @@ hs_cards['ruru'] = {
     "type": 0
   },
   381: {
-    "id": "BRMA09_1H",
-    "name": "Ренд Чернорук",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  382: {
     "id": "BRMA09_1",
     "name": "Ренд Чернорук",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  383: {
+  382: {
     "id": "BRM_029",
     "name": "Ренд Чернорук",
     "cost": 7,
@@ -3477,6 +3470,13 @@ hs_cards['ruru'] = {
     "set": 14,
     "type": 0,
     "quality": 4
+  },
+  383: {
+    "id": "BRMA09_1H",
+    "name": "Ренд Чернорук",
+    "health": 30,
+    "set": 14,
+    "type": 0
   },
   384: {
     "id": "BRM_018e",
@@ -3532,14 +3532,14 @@ hs_cards['ruru'] = {
     "type": 0
   },
   391: {
-    "id": "BRMA09_5H",
+    "id": "BRMA09_5",
     "name": "Спешиться",
     "cost": 4,
     "set": 14,
     "type": 0
   },
   392: {
-    "id": "BRMA09_5",
+    "id": "BRMA09_5H",
     "name": "Спешиться",
     "cost": 4,
     "set": 14,
@@ -3560,14 +3560,14 @@ hs_cards['ruru'] = {
     "type": 0
   },
   395: {
-    "id": "BRMA02_1",
+    "id": "BRMA02_1H",
     "name": "Судья Мрачнокамень",
     "health": 30,
     "set": 14,
     "type": 0
   },
   396: {
-    "id": "BRMA02_1H",
+    "id": "BRMA02_1",
     "name": "Судья Мрачнокамень",
     "health": 30,
     "set": 14,
@@ -3670,48 +3670,41 @@ hs_cards['ruru'] = {
     "quality": 4
   },
   406: {
-    "id": "BRMA13_8",
-    "name": "УМРИ, НАСЕКОМОЕ!",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  407: {
-    "id": "BRM_027p",
-    "name": "УМРИ, НАСЕКОМОЕ!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  408: {
-    "id": "BRM_027pH",
-    "name": "УМРИТЕ, НАСЕКОМЫЕ!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  409: {
     "id": "BRM_030t",
     "name": "Удар хвостом",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  410: {
-    "id": "BRMA12_1H",
-    "name": "Хромаггус",
-    "health": 60,
+  407: {
+    "id": "BRMA13_8",
+    "name": "УМРИ, НАСЕКОМОЕ!",
+    "cost": 0,
     "set": 14,
     "type": 0
   },
-  411: {
+  408: {
+    "id": "BRM_027p",
+    "name": "УМРИ, НАСЕКОМОЕ!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  409: {
+    "id": "BRM_027pH",
+    "name": "УМРИТЕ, НАСЕКОМЫЕ!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  410: {
     "id": "BRMA12_1",
     "name": "Хромаггус",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  412: {
+  411: {
     "id": "BRM_031",
     "name": "Хромаггус",
     "cost": 8,
@@ -3723,6 +3716,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
+  412: {
+    "id": "BRMA12_1H",
+    "name": "Хромаггус",
+    "health": 60,
+    "set": 14,
+    "type": 0
+  },
   413: {
     "id": "BRMA12_8",
     "name": "Хроматическая мутация",
@@ -3731,16 +3731,6 @@ hs_cards['ruru'] = {
     "type": 0
   },
   414: {
-    "id": "BRMA10_5",
-    "name": "Хроматический дракон",
-    "cost": 4,
-    "attack": 7,
-    "health": 3,
-    "race": 24,
-    "set": 14,
-    "type": 0
-  },
-  415: {
     "id": "BRMA10_5H",
     "name": "Хроматический дракон",
     "cost": 4,
@@ -3750,20 +3740,30 @@ hs_cards['ruru'] = {
     "set": 14,
     "type": 0
   },
-  416: {
-    "id": "BRMA12_9",
-    "name": "Хроматический драконор",
-    "health": 30,
+  415: {
+    "id": "BRMA10_5",
+    "name": "Хроматический дракон",
+    "cost": 4,
+    "attack": 7,
+    "health": 3,
+    "race": 24,
     "set": 14,
     "type": 0
   },
-  417: {
+  416: {
     "id": "BRMA12_8t",
     "name": "Хроматический драконор",
     "cost": 2,
     "attack": 2,
     "health": 3,
     "race": 24,
+    "set": 14,
+    "type": 0
+  },
+  417: {
+    "id": "BRMA12_9",
+    "name": "Хроматический драконор",
+    "health": 30,
     "set": 14,
     "type": 0
   },
@@ -3821,16 +3821,16 @@ hs_cards['ruru'] = {
     "quality": 4
   },
   423: {
-    "id": "BRMA16_2",
+    "id": "BRMA16_2H",
     "name": "Эхолокация",
-    "cost": 1,
+    "cost": 0,
     "set": 14,
     "type": 0
   },
   424: {
-    "id": "BRMA16_2H",
+    "id": "BRMA16_2",
     "name": "Эхолокация",
-    "cost": 0,
+    "cost": 1,
     "set": 14,
     "type": 0
   },
@@ -6148,6 +6148,22 @@ hs_cards['ruru'] = {
     "quality": 4
   },
   657: {
+    "id": "EX1_165a",
+    "name": "Облик кошки",
+    "classs": 11,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  658: {
+    "id": "EX1_165b",
+    "name": "Облик медведя",
+    "classs": 11,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  659: {
     "id": "EX1_625",
     "name": "Облик Тьмы",
     "cost": 3,
@@ -6156,22 +6172,6 @@ hs_cards['ruru'] = {
     "set": 3,
     "type": 0,
     "quality": 3
-  },
-  658: {
-    "id": "EX1_165a",
-    "name": "Облик кошки",
-    "classs": 11,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  659: {
-    "id": "EX1_165b",
-    "name": "Облик медведя",
-    "classs": 11,
-    "set": 3,
-    "type": 0,
-    "quality": 1
   },
   660: {
     "id": "EX1_594",
@@ -6311,14 +6311,6 @@ hs_cards['ruru'] = {
     "type": 0
   },
   673: {
-    "id": "EX1_tk33",
-    "name": "ПЕКЛО!",
-    "cost": 2,
-    "classs": 9,
-    "set": 3,
-    "type": 0
-  },
-  674: {
     "id": "EX1_160t",
     "name": "Пантера",
     "cost": 2,
@@ -6329,6 +6321,14 @@ hs_cards['ruru'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  674: {
+    "id": "EX1_tk33",
+    "name": "ПЕКЛО!",
+    "cost": 2,
+    "classs": 9,
+    "set": 3,
+    "type": 0
   },
   675: {
     "id": "EX1_258e",
@@ -6824,13 +6824,6 @@ hs_cards['ruru'] = {
     "quality": 2
   },
   729: {
-    "id": "EX1_612o",
-    "name": "Сила Кирин-Тора",
-    "classs": 8,
-    "set": 3,
-    "type": 0
-  },
-  730: {
     "id": "EX1_160",
     "name": "Сила дикой природы",
     "cost": 2,
@@ -6839,6 +6832,13 @@ hs_cards['ruru'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  730: {
+    "id": "EX1_612o",
+    "name": "Сила Кирин-Тора",
+    "classs": 8,
+    "set": 3,
+    "type": 0
   },
   731: {
     "id": "EX1_571",
@@ -6890,10 +6890,10 @@ hs_cards['ruru'] = {
     "quality": 2
   },
   736: {
-    "id": "CS2_117",
-    "name": "Служитель Земли",
+    "id": "EX1_007",
+    "name": "Служитель боли",
     "cost": 3,
-    "attack": 3,
+    "attack": 1,
     "health": 3,
     "collectible": 1,
     "set": 3,
@@ -6901,10 +6901,10 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   737: {
-    "id": "EX1_007",
-    "name": "Служитель боли",
+    "id": "CS2_117",
+    "name": "Служитель Земли",
     "cost": 3,
-    "attack": 1,
+    "attack": 3,
     "health": 3,
     "collectible": 1,
     "set": 3,
@@ -7873,16 +7873,6 @@ hs_cards['ruru'] = {
     "quality": 4
   },
   834: {
-    "id": "CRED_30",
-    "name": "JC Park",
-    "cost": 7,
-    "attack": 2,
-    "health": 4,
-    "set": 16,
-    "type": 0,
-    "quality": 4
-  },
-  835: {
     "id": "CRED_01",
     "name": "Jason Chayes",
     "cost": 6,
@@ -7892,7 +7882,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  836: {
+  835: {
     "id": "CRED_29",
     "name": "Jason MacAllister",
     "cost": 5,
@@ -7902,11 +7892,21 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  837: {
+  836: {
     "id": "CRED_11",
     "name": "Jay Baxter",
     "cost": 4,
     "attack": 1,
+    "health": 4,
+    "set": 16,
+    "type": 0,
+    "quality": 4
+  },
+  837: {
+    "id": "CRED_30",
+    "name": "JC Park",
+    "cost": 7,
+    "attack": 2,
     "health": 4,
     "set": 16,
     "type": 0,
@@ -8144,16 +8144,16 @@ hs_cards['ruru'] = {
     "quality": 4
   },
   861: {
-    "id": "NAX1h_01",
+    "id": "NAX1_01",
     "name": "Ануб'Рекан",
-    "health": 45,
+    "health": 30,
     "set": 12,
     "type": 0
   },
   862: {
-    "id": "NAX1_01",
+    "id": "NAX1h_01",
     "name": "Ануб'Рекан",
-    "health": 30,
+    "health": 45,
     "set": 12,
     "type": 0
   },
@@ -8867,33 +8867,33 @@ hs_cards['ruru'] = {
     "type": 0
   },
   951: {
-    "id": "NAX2_03H",
-    "name": "Огненный ливень",
-    "cost": 1,
-    "set": 12,
-    "type": 0
-  },
-  952: {
     "id": "NAX2_03",
     "name": "Огненный ливень",
     "cost": 2,
     "set": 12,
     "type": 0
   },
+  952: {
+    "id": "NAX2_03H",
+    "name": "Огненный ливень",
+    "cost": 1,
+    "set": 12,
+    "type": 0
+  },
   953: {
-    "id": "NAX7_04H",
+    "id": "NAX7_04",
     "name": "Огромный клинок",
     "cost": 3,
-    "attack": 10,
+    "attack": 5,
     "durability": 2,
     "set": 12,
     "type": 0
   },
   954: {
-    "id": "NAX7_04",
+    "id": "NAX7_04H",
     "name": "Огромный клинок",
     "cost": 3,
-    "attack": 5,
+    "attack": 10,
     "durability": 2,
     "set": 12,
     "type": 0
@@ -8911,6 +8911,13 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   956: {
+    "id": "FP1_020e",
+    "name": "Отмщение",
+    "classs": 2,
+    "set": 12,
+    "type": 0
+  },
+  957: {
     "id": "FP1_020",
     "name": "Отмщение",
     "cost": 1,
@@ -8920,24 +8927,17 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  957: {
-    "id": "FP1_020e",
-    "name": "Отмщение",
-    "classs": 2,
-    "set": 12,
-    "type": 0
-  },
   958: {
-    "id": "NAX11_02H",
+    "id": "NAX11_02",
     "name": "Отравленное облако",
-    "cost": 0,
+    "cost": 2,
     "set": 12,
     "type": 0
   },
   959: {
-    "id": "NAX11_02",
+    "id": "NAX11_02H",
     "name": "Отравленное облако",
-    "cost": 2,
+    "cost": 0,
     "set": 12,
     "type": 0
   },
@@ -9472,119 +9472,122 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   1021: {
-    "id": "XXX_040",
-    "name": "",
-    "health": 10,
-    "classs": 1,
+    "id": "XXX_048",
+    "name": "-1 Durability",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1022: {
+    "id": "XXX_055",
+    "name": "1000 Stats",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
-  1022: {
-    "id": "XXX_001",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1023: {
-    "id": "XXX_003",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_055e",
+    "name": "1000 Stats Enchant",
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1024: {
-    "id": "XXX_004",
-    "name": "",
+    "id": "XXX_095",
+    "name": "AI Buddy - All Charge!",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1025: {
-    "id": "XXX_005",
-    "name": "",
+    "id": "XXX_094",
+    "name": "AI Buddy - Blank Slate",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1026: {
-    "id": "XXX_006",
-    "name": "",
+    "id": "XXX_096",
+    "name": "AI Buddy - Damage Own Hero 5",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1027: {
-    "id": "XXX_007",
-    "name": "",
+    "id": "XXX_097",
+    "name": "AI Buddy - Destroy Minions",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1028: {
-    "id": "XXX_008",
-    "name": "",
+    "id": "XXX_098",
+    "name": "AI Buddy - No Deck/Hand",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1029: {
-    "id": "XXX_009",
-    "name": "",
+    "id": "XXX_099",
+    "name": "AI Helper Buddy",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1030: {
-    "id": "XXX_009e",
-    "name": "",
+    "id": "XXX_061",
+    "name": "Armor 1",
+    "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1031: {
-    "id": "XXX_010",
-    "name": "",
+    "id": "XXX_053",
+    "name": "Armor 100",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1032: {
-    "id": "XXX_011",
-    "name": "",
+    "id": "XXX_062",
+    "name": "Armor 5",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1033: {
-    "id": "XXX_012",
-    "name": "",
+    "id": "XXX_039",
+    "name": "Become Hogger",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1034: {
-    "id": "XXX_013",
-    "name": "",
+    "id": "XXX_012",
+    "name": "Bounce",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1035: {
-    "id": "XXX_014",
-    "name": "",
+    "id": "XXX_006",
+    "name": "Break Weapon",
     "cost": 0,
     "set": 7,
     "type": 0,
@@ -9592,83 +9595,46 @@ hs_cards['ruru'] = {
   },
   1036: {
     "id": "XXX_015",
-    "name": "",
+    "name": "Crash",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1037: {
-    "id": "XXX_016",
-    "name": "",
+    "id": "XXX_001",
+    "name": "Damage 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1038: {
-    "id": "XXX_017",
-    "name": "",
+    "id": "XXX_002",
+    "name": "Damage 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1039: {
-    "id": "XXX_018",
-    "name": "",
+    "id": "XXX_060",
+    "name": "Damage All",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1040: {
-    "id": "XXX_019",
-    "name": "",
+    "id": "XXX_020",
+    "name": "Damage all but 1",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1041: {
-    "id": "XXX_020",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1042: {
-    "id": "XXX_021",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1043: {
-    "id": "XXX_022",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1044: {
-    "id": "XXX_022e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1045: {
-    "id": "XXX_023",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1046: {
     "id": "XXX_024",
-    "name": "",
+    "name": "Damage Reflector",
     "cost": 0,
     "attack": 3,
     "health": 10,
@@ -9676,92 +9642,179 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1047: {
-    "id": "XXX_025",
-    "name": "",
+  1042: {
+    "id": "XXX_005",
+    "name": "Destroy",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1043: {
+    "id": "XXX_050",
+    "name": "Destroy a Mana Crystal",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1044: {
+    "id": "XXX_023",
+    "name": "Destroy All Heroes",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1045: {
+    "id": "XXX_049",
+    "name": "Destroy all Mana",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1046: {
+    "id": "XXX_018",
+    "name": "Destroy All Minions",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1047: {
+    "id": "XXX_063",
+    "name": "Destroy ALL Secrets",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1048: {
-    "id": "XXX_026",
-    "name": "",
+    "id": "XXX_047",
+    "name": "Destroy Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1049: {
-    "id": "XXX_027",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1050: {
-    "id": "XXX_028",
-    "name": "",
+    "id": "XXX_041",
+    "name": "Destroy Hero Power",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1050: {
+    "id": "XXX_059",
+    "name": "Destroy Hero's Stuff",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1051: {
-    "id": "XXX_029",
-    "name": "",
+    "id": "XXX_057",
+    "name": "Destroy Target Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1052: {
-    "id": "XXX_030",
-    "name": "",
+    "id": "XXX_013",
+    "name": "Discard",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1053: {
-    "id": "XXX_039",
-    "name": "",
+    "id": "XXX_025",
+    "name": "Do Nothing",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1054: {
-    "id": "XXX_002",
-    "name": "",
+    "id": "XXX_017",
+    "name": "Draw 3 Cards",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1055: {
-    "id": "XXX_041",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_009e",
+    "name": "Empty Enchant",
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1056: {
-    "id": "XXX_042",
-    "name": "",
+    "id": "XXX_026",
+    "name": "Enable Emotes",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1057: {
-    "id": "XXX_043",
-    "name": "",
+    "id": "XXX_007",
+    "name": "Enable for Attack",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1058: {
+    "id": "XXX_009",
+    "name": "Enchant",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1059: {
+    "id": "XXX_046",
+    "name": "Force AI to Use Hero Power",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1060: {
+    "id": "XXX_022e",
+    "name": "Free Cards",
+    "set": 7,
+    "type": 0
+  },
+  1061: {
+    "id": "XXX_022",
+    "name": "Free Cards",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1062: {
+    "id": "XXX_008",
+    "name": "Freeze",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1063: {
+    "id": "XXX_052",
+    "name": "Grant Mega-Windfury",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1064: {
     "id": "XXX_044",
-    "name": "",
+    "name": "Hand Swapper Minion",
     "cost": 0,
     "attack": 5,
     "health": 5,
@@ -9769,220 +9822,167 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1059: {
-    "id": "XXX_045",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1060: {
-    "id": "XXX_046",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1061: {
-    "id": "XXX_047",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1062: {
-    "id": "XXX_048",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1063: {
-    "id": "XXX_049",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1064: {
-    "id": "XXX_050",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1065: {
-    "id": "XXX_051",
-    "name": "",
+    "id": "XXX_042",
+    "name": "Hand to Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1066: {
-    "id": "XXX_052",
-    "name": "",
+    "id": "XXX_040",
+    "name": "Hogger",
+    "health": 10,
+    "classs": 1,
+    "set": 7,
+    "type": 0
+  },
+  1067: {
+    "id": "XXX_051",
+    "name": "Make Immune",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1067: {
-    "id": "XXX_053",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0
-  },
   1068: {
-    "id": "XXX_054",
-    "name": "",
+    "id": "XXX_014",
+    "name": "Mill 10",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1069: {
-    "id": "XXX_054e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1070: {
-    "id": "XXX_055",
-    "name": "",
+    "id": "XXX_043",
+    "name": "Mill 30",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
+  },
+  1070: {
+    "id": "XXX_019",
+    "name": "Molasses",
+    "set": 7,
+    "type": 0,
+    "quality": 1
   },
   1071: {
-    "id": "XXX_055e",
-    "name": "",
+    "id": "XXX_029",
+    "name": "Opponent Concede",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
   1072: {
-    "id": "XXX_056",
-    "name": "",
+    "id": "XXX_030",
+    "name": "Opponent Disconnect",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1073: {
-    "id": "XXX_057",
-    "name": "",
+    "id": "XXX_003",
+    "name": "Restore 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1074: {
-    "id": "XXX_058",
-    "name": "",
+    "id": "XXX_004",
+    "name": "Restore 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1075: {
-    "id": "XXX_058e",
-    "name": "",
+    "id": "XXX_021",
+    "name": "Restore All Health",
+    "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1076: {
-    "id": "XXX_059",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_028",
+    "name": "Reveal Hand",
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1077: {
-    "id": "XXX_060",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_027",
+    "name": "Server Crash",
     "set": 7,
     "type": 0
   },
   1078: {
-    "id": "XXX_061",
-    "name": "",
+    "id": "XXX_010",
+    "name": "Silence - debug",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1079: {
-    "id": "XXX_062",
-    "name": "",
+    "id": "XXX_056",
+    "name": "Silence Destroy",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1080: {
-    "id": "XXX_063",
-    "name": "",
+    "id": "XXX_016",
+    "name": "Snake Ball",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1081: {
-    "id": "XXX_094",
-    "name": "",
+    "id": "XXX_045",
+    "name": "Steal Card",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1082: {
-    "id": "XXX_095",
-    "name": "",
+    "id": "XXX_011",
+    "name": "Summon a random Secret",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1083: {
-    "id": "XXX_096",
-    "name": "",
+    "id": "XXX_054",
+    "name": "Weapon Buff",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
     "type": 0
   },
   1084: {
-    "id": "XXX_097",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_054e",
+    "name": "Weapon Buff Enchant",
     "set": 7,
     "type": 0
   },
   1085: {
-    "id": "XXX_098",
-    "name": "",
+    "id": "XXX_058",
+    "name": "Weapon Nerf",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1086: {
-    "id": "XXX_099",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_058e",
+    "name": "Weapon Nerf Enchant",
     "set": 7,
     "type": 0
   },
@@ -10330,22 +10330,22 @@ hs_cards['ruru'] = {
     "quality": 1
   },
   1118: {
-    "id": "GVG_104a",
-    "name": "ДЕРЖИ ПЛЮШКУ.",
-    "set": 13,
-    "type": 0
-  },
-  1119: {
     "id": "GVG_032a",
     "name": "Дарованная мана",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1120: {
+  1119: {
     "id": "GVG_032b",
     "name": "Дарованные карты",
     "classs": 11,
+    "set": 13,
+    "type": 0
+  },
+  1120: {
+    "id": "GVG_104a",
+    "name": "ДЕРЖИ ПЛЮШКУ.",
     "set": 13,
     "type": 0
   },
@@ -12216,6 +12216,27 @@ hs_cards['ruru'] = {
     "type": 0
   },
   1312: {
+    "id": "PRO_001a",
+    "name": "«I Am Murloc»",
+    "cost": 4,
+    "set": 11,
+    "type": 0
+  },
+  1313: {
+    "id": "PRO_001c",
+    "name": "«Power of the Horde»",
+    "cost": 4,
+    "set": 11,
+    "type": 0
+  },
+  1314: {
+    "id": "PRO_001b",
+    "name": "«Rogues Do It...»",
+    "cost": 4,
+    "set": 11,
+    "type": 0
+  },
+  1315: {
     "id": "PRO_001",
     "name": "E.T.C.",
     "cost": 5,
@@ -12225,27 +12246,6 @@ hs_cards['ruru'] = {
     "set": 11,
     "type": 0,
     "quality": 4
-  },
-  1313: {
-    "id": "PRO_001a",
-    "name": "«I Am Murloc»",
-    "cost": 4,
-    "set": 11,
-    "type": 0
-  },
-  1314: {
-    "id": "PRO_001c",
-    "name": "«Power of the Horde»",
-    "cost": 4,
-    "set": 11,
-    "type": 0
-  },
-  1315: {
-    "id": "PRO_001b",
-    "name": "«Rogues Do It...»",
-    "cost": 4,
-    "set": 11,
-    "type": 0
   },
   1316: {
     "id": "Mekka3",
@@ -12360,7 +12360,7 @@ hs_cards['ruru'] = {
   },
   1327: {
     "id": "PlaceholderCard",
-    "name": "",
+    "name": "Placeholder Card",
     "cost": 9,
     "attack": 6,
     "health": 8,
@@ -12376,6 +12376,13 @@ hs_cards['ruru'] = {
     "type": 0
   },
   1329: {
+    "id": "TB_FactionWar_Boss_BoomBot",
+    "name": "FactionWar_BoomBot",
+    "health": 30,
+    "set": 18,
+    "type": 0
+  },
+  1330: {
     "id": "TBST_003",
     "name": "N3wb Healer",
     "cost": 1,
@@ -12384,7 +12391,7 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1330: {
+  1331: {
     "id": "TBST_002",
     "name": "N3wb Mage",
     "cost": 1,
@@ -12393,7 +12400,7 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1331: {
+  1332: {
     "id": "TBST_001",
     "name": "N3wb Tank",
     "cost": 1,
@@ -12402,7 +12409,7 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1332: {
+  1333: {
     "id": "TBST_005",
     "name": "PvP-разбойник",
     "cost": 3,
@@ -12411,20 +12418,71 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1333: {
+  1334: {
+    "id": "TB_GreatCurves_01",
+    "name": "TB_ClockworkCardDealer",
+    "set": 18,
+    "type": 0
+  },
+  1335: {
+    "id": "TB_RMC_001",
+    "name": "TB_EnchRandomManaCost",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1336: {
+    "id": "TB_RandHero2_001",
+    "name": "TB_EnchWhosTheBossNow",
+    "set": 18,
+    "type": 0
+  },
+  1337: {
+    "id": "TB_FactionWar_BoomBot",
+    "name": "TBFactionWarBoomBot",
+    "set": 18,
+    "type": 0
+  },
+  1338: {
+    "id": "TB_FactionWar_BoomBot_Spell",
+    "name": "TBFactionWarBoomBotSpell",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1339: {
+    "id": "TB_MechWar_CommonCards",
+    "name": "TBMechWarCommonCards",
+    "set": 18,
+    "type": 0
+  },
+  1340: {
+    "id": "TB_RandCardCost",
+    "name": "TBRandomCardCost",
+    "set": 18,
+    "type": 0
+  },
+  1341: {
     "id": "TBST_006",
     "name": "TBST Push Common Card",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1334: {
+  1342: {
     "id": "TBUD_1",
     "name": "TBUD Summon Early Minion",
     "set": 18,
     "type": 0
   },
-  1335: {
+  1343: {
+    "id": "BRMA14_10H_TB",
+    "name": "Активация!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1344: {
     "id": "BRMC_86",
     "name": "Атрамед",
     "cost": 4,
@@ -12435,13 +12493,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1336: {
+  1345: {
     "id": "TB_EndlessMinions01",
     "name": "Бесконечные чары",
     "set": 18,
     "type": 0
   },
-  1337: {
+  1346: {
     "id": "TB_006",
     "name": "Большой банан",
     "cost": 1,
@@ -12449,13 +12507,19 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1338: {
+  1347: {
     "id": "TB_006e",
     "name": "Большой банан",
     "set": 18,
     "type": 0
   },
-  1339: {
+  1348: {
+    "id": "TB_CoOpBossSpell_2",
+    "name": "Бомбардировка",
+    "set": 18,
+    "type": 0
+  },
+  1349: {
     "id": "BRMC_98",
     "name": "Бритвосмерт",
     "cost": 6,
@@ -12466,7 +12530,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1340: {
+  1350: {
     "id": "BRMC_97",
     "name": "Валестраз",
     "cost": 6,
@@ -12477,27 +12541,55 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1341: {
-    "id": "TB_014",
-    "name": "Выберите новую карту!",
-    "cost": 0,
+  1351: {
+    "id": "TB_MechWar_Boss2",
+    "name": "Взрыв-бот",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1352: {
+    "id": "TB_MechWar_Boss2_HeroPower",
+    "name": "Взрыв-бот-младший",
+    "cost": 2,
     "set": 18,
     "type": 0
   },
-  1342: {
+  1353: {
+    "id": "HRW02_1e",
+    "name": "Вооружен до зубов",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1354: {
     "id": "TB_012",
     "name": "Выберите новую карту!",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1343: {
+  1355: {
+    "id": "TB_014",
+    "name": "Выберите новую карту!",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1356: {
     "id": "TB_010e",
     "name": "Выберите один эффект из трех",
     "set": 18,
     "type": 0
   },
-  1344: {
+  1357: {
+    "id": "TB_CoOpBossSpell_3",
+    "name": "Выброс охладителя",
+    "set": 18,
+    "type": 0
+  },
+  1358: {
     "id": "BRMC_99",
     "name": "Гарр",
     "cost": 5,
@@ -12507,7 +12599,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1345: {
+  1359: {
     "id": "TB_008",
     "name": "Гнилой банан",
     "cost": 1,
@@ -12515,7 +12607,7 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1346: {
+  1360: {
     "id": "BRMC_95",
     "name": "Големагг",
     "cost": 50,
@@ -12525,20 +12617,33 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1347: {
+  1361: {
     "id": "BRMC_97e",
     "name": "Горящий адреналин",
     "set": 18,
     "type": 0
   },
-  1348: {
+  1362: {
+    "id": "TB_CoOpBossSpell_5",
+    "name": "Двойной разряд",
+    "set": 18,
+    "type": 0
+  },
+  1363: {
     "id": "TBA01_5",
     "name": "Дикая магия",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1349: {
+  1364: {
+    "id": "BRMA13_4_2_TB",
+    "name": "Дикая магия",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1365: {
     "id": "BRMC_88",
     "name": "Драконид-истребитель",
     "cost": 6,
@@ -12548,7 +12653,7 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1350: {
+  1366: {
     "id": "BRMC_84",
     "name": "Драконор-заклинатель",
     "cost": 5,
@@ -12558,26 +12663,33 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1351: {
+  1367: {
     "id": "BRMC_98e",
     "name": "Драконья жажда",
     "set": 18,
     "type": 0
   },
-  1352: {
+  1368: {
+    "id": "NAX8_02H_TB",
+    "name": "Жатва",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1369: {
     "id": "BRMC_100",
     "name": "Живая бомба",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1353: {
+  1370: {
     "id": "BRMC_100e",
     "name": "Живая бомба",
     "set": 18,
     "type": 0
   },
-  1354: {
+  1371: {
     "id": "BRMC_90",
     "name": "Живая лава",
     "cost": 2,
@@ -12586,13 +12698,13 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1355: {
+  1372: {
     "id": "TB_007e",
     "name": "Загадочное переключение",
     "set": 18,
     "type": 0
   },
-  1356: {
+  1373: {
     "id": "TB_007",
     "name": "Загадочный банан",
     "cost": 1,
@@ -12600,7 +12712,21 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1357: {
+  1374: {
+    "id": "NAX12_02H_2_TB",
+    "name": "Истребление",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1375: {
+    "id": "NAX12_02H_2c_TB",
+    "name": "Истребление",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1376: {
     "id": "BRMC_99e",
     "name": "Каменный элементаль",
     "cost": 2,
@@ -12609,7 +12735,14 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1358: {
+  1377: {
+    "id": "NAX3_02_TB",
+    "name": "Кокон",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1378: {
     "id": "BRMC_92",
     "name": "Корен Худовар",
     "cost": 4,
@@ -12619,7 +12752,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1359: {
+  1379: {
+    "id": "BRMA17_5_TB",
+    "name": "Костяные прислужники",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1380: {
     "id": "BRMC_89",
     "name": "Кружащийся пепел",
     "cost": 2,
@@ -12628,7 +12768,14 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1360: {
+  1381: {
+    "id": "BRMA01_2H_2_TB",
+    "name": "Куча мала!!!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1382: {
     "id": "BRMC_85",
     "name": "Люцифрон",
     "cost": 4,
@@ -12638,7 +12785,24 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1361: {
+  1383: {
+    "id": "BRMA06_2H_TB",
+    "name": "Мажордом",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1384: {
+    "id": "TB_CoOp_Mechazod",
+    "name": "Механизатор Механозод",
+    "cost": 10,
+    "attack": 2,
+    "health": 95,
+    "set": 18,
+    "type": 0,
+    "quality": 4
+  },
+  1385: {
     "id": "BRMC_87",
     "name": "Мойра Бронзобород",
     "cost": 3,
@@ -12648,21 +12812,35 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1362: {
+  1386: {
+    "id": "BRMA02_2_2_TB",
+    "name": "Насмехающаяся толпа",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1387: {
+    "id": "BRMA02_2_2c_TB",
+    "name": "Насмехающаяся толпа",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1388: {
     "id": "TBA01_4",
     "name": "Нефариан",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1363: {
+  1389: {
     "id": "TBA01_6",
     "name": "Огненная ярость",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1364: {
+  1390: {
     "id": "TBST_004",
     "name": "Опытный лекарь",
     "cost": 3,
@@ -12671,14 +12849,28 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1365: {
+  1391: {
+    "id": "BRMA09_2_TB",
+    "name": "Открыть ворота",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1392: {
     "id": "BRMC_83",
     "name": "Открыть ворота",
     "cost": 8,
     "set": 18,
     "type": 0
   },
-  1366: {
+  1393: {
+    "id": "NAX11_02H_2_TB",
+    "name": "Отравленное облако",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1394: {
     "id": "TB_015",
     "name": "Пират",
     "cost": 2,
@@ -12688,34 +12880,61 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1367: {
+  1395: {
     "id": "TB_011",
     "name": "Потускневшая монетка",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1368: {
+  1396: {
+    "id": "TB_MechWar_Boss1_HeroPower",
+    "name": "ПРИВЕТ, ПРИВЕТ, ПРИВЕТ.",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1397: {
     "id": "TB_009",
     "name": "Призывает 15 секретов.",
     "set": 18,
     "type": 0
   },
-  1369: {
+  1398: {
+    "id": "TB_CoOpBossSpell_1",
+    "name": "Приоритет",
+    "set": 18,
+    "type": 0
+  },
+  1399: {
     "id": "TBA01_1",
     "name": "Рагнарос",
     "health": 60,
     "set": 18,
     "type": 0
   },
-  1370: {
+  1400: {
+    "id": "TB_CoOpBossSpell_4",
+    "name": "Разгон",
+    "set": 18,
+    "type": 0
+  },
+  1401: {
+    "id": "TB_MechWar_Boss1",
+    "name": "Раздражатор",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1402: {
     "id": "BRMC_93",
     "name": "Система «Омнитрон»",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1371: {
+  1403: {
     "id": "BRMC_96",
     "name": "Судья Мрачнокамень",
     "cost": 3,
@@ -12725,7 +12944,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1372: {
+  1404: {
     "id": "BRMC_94",
     "name": "Сульфурас",
     "cost": 2,
@@ -12734,7 +12953,7 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1373: {
+  1405: {
     "id": "BRMC_91",
     "name": "Сын пламени",
     "cost": 3,
@@ -12743,32 +12962,38 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1374: {
+  1406: {
     "id": "TB_Pilot1",
     "name": "Таинственный пилот",
     "set": 18,
     "type": 0
   },
-  1375: {
+  1407: {
+    "id": "TB_CoOpBossSpell_6",
+    "name": "Убить хранителя истории",
+    "set": 18,
+    "type": 0
+  },
+  1408: {
     "id": "TB_013",
     "name": "Чары выбора",
     "set": 18,
     "type": 0
   },
-  1376: {
+  1409: {
     "id": "TB_010",
     "name": "Чары сбора колоды",
     "set": 18,
     "type": 0
   },
-  1377: {
+  1410: {
     "id": "BRMC_95h",
     "name": "Щенки гончей Недр",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1378: {
+  1411: {
     "id": "BRMC_95he",
     "name": "Щенок гончей Недр",
     "cost": 3,
@@ -12778,13 +13003,27 @@ hs_cards['ruru'] = {
     "set": 18,
     "type": 0
   },
-  1379: {
+  1412: {
+    "id": "BRMA07_2_2c_TB",
+    "name": "Я КРУШИТЬ!",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1413: {
+    "id": "BRMA07_2_2_TB",
+    "name": "Я КРУШИТЬ!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1414: {
     "id": "BRMC_86e",
     "name": "Я тебя слышу...",
     "set": 18,
     "type": 0
   },
-  1380: {
+  1415: {
     "id": "AT_045",
     "name": "Авиана",
     "cost": 9,
@@ -12796,7 +13035,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1381: {
+  1416: {
     "id": "AT_036",
     "name": "Ануб'арак",
     "cost": 9,
@@ -12808,7 +13047,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1382: {
+  1417: {
     "id": "AT_043",
     "name": "Астральное единение",
     "cost": 4,
@@ -12818,20 +13057,20 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1383: {
+  1418: {
     "id": "AT_021e",
     "name": "Бесовская ярость",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1384: {
+  1419: {
     "id": "AT_011e",
     "name": "Благословение Света",
     "set": 15,
     "type": 0
   },
-  1385: {
+  1420: {
     "id": "AT_075",
     "name": "Боевой берейтор",
     "cost": 3,
@@ -12843,7 +13082,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1386: {
+  1421: {
     "id": "AT_099t",
     "name": "Боевой кодо",
     "cost": 5,
@@ -12853,7 +13092,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1387: {
+  1422: {
     "id": "AT_073",
     "name": "Боевой настрой",
     "cost": 1,
@@ -12863,20 +13102,20 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1388: {
+  1423: {
     "id": "AT_073e",
     "name": "Боевой настрой",
     "set": 15,
     "type": 0
   },
-  1389: {
+  1424: {
     "id": "AT_047e",
     "name": "Боевой опыт",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1390: {
+  1425: {
     "id": "AT_101",
     "name": "Боец арены",
     "cost": 5,
@@ -12887,7 +13126,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1391: {
+  1426: {
     "id": "AT_006",
     "name": "Боец из Даларана",
     "cost": 4,
@@ -12899,7 +13138,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1392: {
+  1427: {
     "id": "AT_038",
     "name": "Боец из Дарнаса",
     "cost": 2,
@@ -12911,7 +13150,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1393: {
+  1428: {
     "id": "AT_066",
     "name": "Боец из Оргриммара",
     "cost": 3,
@@ -12923,7 +13162,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1394: {
+  1429: {
     "id": "AT_124",
     "name": "Болф Таранный Щит",
     "cost": 6,
@@ -12934,7 +13173,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1395: {
+  1430: {
     "id": "AT_133",
     "name": "Бретер из Прибамбасска",
     "cost": 1,
@@ -12945,7 +13184,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1396: {
+  1431: {
     "id": "AT_104",
     "name": "Бретер-клыкарр",
     "cost": 5,
@@ -12957,7 +13196,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1397: {
+  1432: {
     "id": "AT_108",
     "name": "Бронированный скакун",
     "cost": 4,
@@ -12969,7 +13208,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1398: {
+  1433: {
     "id": "AT_029",
     "name": "Буканьер",
     "cost": 1,
@@ -12982,7 +13221,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1399: {
+  1434: {
     "id": "AT_055",
     "name": "Быстрое исцеление",
     "cost": 1,
@@ -12992,14 +13231,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1400: {
+  1435: {
     "id": "AT_016e",
     "name": "В замешательстве",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1401: {
+  1436: {
     "id": "AT_072",
     "name": "Вариан Ринн",
     "cost": 10,
@@ -13011,19 +13250,19 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1402: {
+  1437: {
     "id": "AT_109e",
     "name": "Вдохновение",
     "set": 15,
     "type": 0
   },
-  1403: {
+  1438: {
     "id": "AT_119e",
     "name": "Вдохновение",
     "set": 15,
     "type": 0
   },
-  1404: {
+  1439: {
     "id": "AT_112",
     "name": "Великий бретер",
     "cost": 6,
@@ -13034,7 +13273,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1405: {
+  1440: {
     "id": "AT_118",
     "name": "Великий рыцарь",
     "cost": 6,
@@ -13045,7 +13284,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1406: {
+  1441: {
     "id": "AT_005t",
     "name": "Вепрь",
     "cost": 3,
@@ -13055,7 +13294,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1407: {
+  1442: {
     "id": "AT_113",
     "name": "Вербовщик",
     "cost": 5,
@@ -13066,7 +13305,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1408: {
+  1443: {
     "id": "AT_027",
     "name": "Вилфред Непопамс",
     "cost": 6,
@@ -13078,7 +13317,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1409: {
+  1444: {
     "id": "AT_067",
     "name": "Вожак магнатавров",
     "cost": 4,
@@ -13090,7 +13329,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1410: {
+  1445: {
     "id": "AT_048",
     "name": "Волна исцеления",
     "cost": 3,
@@ -13100,7 +13339,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1411: {
+  1446: {
     "id": "AT_033",
     "name": "Воришка",
     "cost": 3,
@@ -13110,7 +13349,18 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1412: {
+  1447: {
+    "id": "AT_083",
+    "name": "Всадник на дракондоре",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1448: {
     "id": "AT_028",
     "name": "Всадник Шадо-Пан",
     "cost": 5,
@@ -13122,18 +13372,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1413: {
-    "id": "AT_083",
-    "name": "Всадник на дракондоре",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1414: {
+  1449: {
     "id": "AT_099",
     "name": "Всадница на кодо",
     "cost": 6,
@@ -13144,7 +13383,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1415: {
+  1450: {
     "id": "AT_132_MAGE",
     "name": "Вспышка огня (ранг 2)",
     "cost": 2,
@@ -13152,7 +13391,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1416: {
+  1451: {
     "id": "AT_078",
     "name": "Вход в Колизей",
     "cost": 6,
@@ -13162,7 +13401,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1417: {
+  1452: {
     "id": "AT_132_WARLOCK",
     "name": "Высасывание души",
     "cost": 2,
@@ -13170,7 +13409,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1418: {
+  1453: {
     "id": "AT_132_HUNTER",
     "name": "Выстрел из баллисты",
     "cost": 2,
@@ -13178,7 +13417,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1419: {
+  1454: {
     "id": "AT_057",
     "name": "Главный конюх",
     "cost": 3,
@@ -13190,14 +13429,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1420: {
+  1455: {
     "id": "AT_027e",
     "name": "Главный призыватель",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1421: {
+  1456: {
     "id": "AT_098",
     "name": "Глотательница чар",
     "cost": 6,
@@ -13208,7 +13447,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1422: {
+  1457: {
     "id": "AT_122",
     "name": "Гормок",
     "cost": 4,
@@ -13219,14 +13458,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1423: {
+  1458: {
     "id": "AT_066e",
     "name": "Горны Оргриммара",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1424: {
+  1459: {
     "id": "AT_130",
     "name": "Гроза морей",
     "cost": 6,
@@ -13238,7 +13477,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1425: {
+  1460: {
     "id": "AT_020",
     "name": "Грозный демон",
     "cost": 7,
@@ -13251,25 +13490,24 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1426: {
+  1461: {
     "id": "AT_071e",
     "name": "Дар Алекстразы",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1427: {
+  1462: {
     "id": "AT_024",
     "name": "Демоническая сила",
     "cost": 2,
     "classs": 9,
     "collectible": 1,
-    "race": 15,
     "set": 15,
     "type": 0,
     "quality": 1
   },
-  1428: {
+  1463: {
     "id": "AT_040",
     "name": "Дикая странница",
     "cost": 4,
@@ -13281,14 +13519,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1429: {
+  1464: {
     "id": "AT_040e",
     "name": "Добрый дух",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1430: {
+  1465: {
     "id": "AT_008",
     "name": "Дракон Хладарры",
     "cost": 6,
@@ -13301,7 +13539,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1431: {
+  1466: {
     "id": "AT_116",
     "name": "Драконий посланник",
     "cost": 2,
@@ -13313,7 +13551,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1432: {
+  1467: {
     "id": "AT_053",
     "name": "Древнее знание",
     "cost": 2,
@@ -13323,7 +13561,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1433: {
+  1468: {
     "id": "AT_042",
     "name": "Друид-саблезуб",
     "cost": 2,
@@ -13335,25 +13573,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1434: {
+  1469: {
     "id": "AT_077e",
     "name": "Еще удар",
     "set": 15,
     "type": 0
   },
-  1435: {
-    "id": "AT_037b",
-    "name": "Живые корни",
-    "set": 15,
-    "type": 0
-  },
-  1436: {
-    "id": "AT_037a",
-    "name": "Живые корни",
-    "set": 15,
-    "type": 0
-  },
-  1437: {
+  1470: {
     "id": "AT_037",
     "name": "Живые корни",
     "cost": 1,
@@ -13363,7 +13589,19 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1438: {
+  1471: {
+    "id": "AT_037a",
+    "name": "Живые корни",
+    "set": 15,
+    "type": 0
+  },
+  1472: {
+    "id": "AT_037b",
+    "name": "Живые корни",
+    "set": 15,
+    "type": 0
+  },
+  1473: {
     "id": "AT_094",
     "name": "Жонглер пламенем",
     "cost": 2,
@@ -13374,7 +13612,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1439: {
+  1474: {
     "id": "AT_063t",
     "name": "Жуткая Чешуя",
     "cost": 3,
@@ -13387,7 +13625,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1440: {
+  1475: {
     "id": "AT_096",
     "name": "Заводной рыцарь",
     "cost": 5,
@@ -13399,7 +13637,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1441: {
+  1476: {
     "id": "AT_079",
     "name": "Загадочный претендент",
     "cost": 6,
@@ -13411,13 +13649,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1442: {
+  1477: {
     "id": "AT_045ee",
     "name": "Заклятие тумана",
     "set": 15,
     "type": 0
   },
-  1443: {
+  1478: {
     "id": "AT_016",
     "name": "Замешательство",
     "cost": 2,
@@ -13427,7 +13665,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1444: {
+  1479: {
     "id": "AT_035t",
     "name": "Засада!",
     "cost": 0,
@@ -13435,7 +13673,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1445: {
+  1480: {
     "id": "AT_088",
     "name": "Защитник Могора",
     "cost": 6,
@@ -13446,7 +13684,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1446: {
+  1481: {
     "id": "AT_090",
     "name": "Защитник Муклы",
     "cost": 5,
@@ -13458,7 +13696,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1447: {
+  1482: {
     "id": "AT_106",
     "name": "Защитник Света",
     "cost": 3,
@@ -13469,7 +13707,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1448: {
+  1483: {
     "id": "AT_071",
     "name": "Защитница Алекстразы",
     "cost": 2,
@@ -13481,7 +13719,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1449: {
+  1484: {
     "id": "AT_114",
     "name": "Злобный насмешник",
     "cost": 4,
@@ -13492,19 +13730,19 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1450: {
+  1485: {
     "id": "AT_086e",
     "name": "Злодейство",
     "set": 15,
     "type": 0
   },
-  1451: {
+  1486: {
     "id": "AT_041e",
     "name": "Зов чащи",
     "set": 15,
     "type": 0
   },
-  1452: {
+  1487: {
     "id": "AT_097",
     "name": "Зритель турнира",
     "cost": 1,
@@ -13515,7 +13753,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1453: {
+  1488: {
     "id": "AT_035",
     "name": "Из-под земли",
     "cost": 3,
@@ -13525,7 +13763,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1454: {
+  1489: {
     "id": "AT_018",
     "name": "Исповедница Пейлтресс",
     "cost": 7,
@@ -13537,7 +13775,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1455: {
+  1490: {
     "id": "AT_132_PRIEST",
     "name": "Исцеление",
     "cost": 2,
@@ -13545,19 +13783,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1456: {
-    "id": "AT_014",
-    "name": "Исчадие Тьмы",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1457: {
+  1491: {
     "id": "AT_012",
     "name": "Исчадие теней",
     "cost": 4,
@@ -13569,7 +13795,19 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1458: {
+  1492: {
+    "id": "AT_014",
+    "name": "Исчадие Тьмы",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1493: {
     "id": "AT_031",
     "name": "Карманник",
     "cost": 2,
@@ -13581,7 +13819,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1459: {
+  1494: {
     "id": "AT_119",
     "name": "Квалдир-налетчик",
     "cost": 5,
@@ -13592,7 +13830,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1460: {
+  1495: {
     "id": "AT_063",
     "name": "Кислотная Утроба",
     "cost": 7,
@@ -13605,7 +13843,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1461: {
+  1496: {
     "id": "AT_046",
     "name": "Клыкарр-шаман",
     "cost": 3,
@@ -13617,7 +13855,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1462: {
+  1497: {
     "id": "AT_080",
     "name": "Командир гарнизона",
     "cost": 2,
@@ -13628,7 +13866,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1463: {
+  1498: {
     "id": "AT_019",
     "name": "Конь погибели",
     "cost": 4,
@@ -13641,13 +13879,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1464: {
+  1499: {
     "id": "AT_028e",
     "name": "Копье ци",
     "set": 15,
     "type": 0
   },
-  1465: {
+  1500: {
     "id": "AT_084",
     "name": "Копьеносец",
     "cost": 2,
@@ -13658,7 +13896,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1466: {
+  1501: {
     "id": "AT_065",
     "name": "Королевский поборник",
     "cost": 3,
@@ -13670,13 +13908,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1467: {
+  1502: {
     "id": "AT_065e",
     "name": "Королевский поборник",
     "set": 15,
     "type": 0
   },
-  1468: {
+  1503: {
     "id": "AT_058",
     "name": "Королевский элекк",
     "cost": 2,
@@ -13689,7 +13927,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1469: {
+  1504: {
     "id": "AT_089",
     "name": "Костяной лейтенант",
     "cost": 2,
@@ -13700,13 +13938,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1470: {
+  1505: {
     "id": "AT_089e",
     "name": "Костяной страж",
     "set": 15,
     "type": 0
   },
-  1471: {
+  1506: {
     "id": "AT_070",
     "name": "Крагг Поднебесный",
     "cost": 7,
@@ -13718,7 +13956,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1472: {
+  1507: {
     "id": "AT_103",
     "name": "Кракен Северного моря",
     "cost": 9,
@@ -13729,7 +13967,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1473: {
+  1508: {
     "id": "AT_023",
     "name": "Крушитель из Бездны",
     "cost": 6,
@@ -13742,7 +13980,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1474: {
+  1509: {
     "id": "AT_022",
     "name": "Кулак Джараксуса",
     "cost": 4,
@@ -13752,7 +13990,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1475: {
+  1510: {
     "id": "AT_121",
     "name": "Кумир толпы",
     "cost": 4,
@@ -13763,7 +14001,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1476: {
+  1511: {
     "id": "AT_123",
     "name": "Ледяная Пасть",
     "cost": 7,
@@ -13775,18 +14013,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1477: {
-    "id": "AT_125",
-    "name": "Ледяной Рев",
-    "cost": 9,
-    "attack": 10,
-    "health": 10,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1478: {
+  1512: {
     "id": "AT_120",
     "name": "Ледяной великан",
     "cost": 10,
@@ -13797,7 +14024,18 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1479: {
+  1513: {
+    "id": "AT_125",
+    "name": "Ледяной Рев",
+    "cost": 9,
+    "attack": 10,
+    "health": 10,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1514: {
     "id": "AT_092",
     "name": "Ледяной яростень",
     "cost": 3,
@@ -13808,7 +14046,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1480: {
+  1515: {
     "id": "AT_091",
     "name": "Лекарь турнира",
     "cost": 4,
@@ -13819,21 +14057,21 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1481: {
+  1516: {
     "id": "AT_075e",
     "name": "Лошадиная сила",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1482: {
+  1517: {
     "id": "AT_132_DRUIDe",
     "name": "Лютые когти",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1483: {
+  1518: {
     "id": "AT_050",
     "name": "Магический молот",
     "cost": 4,
@@ -13845,7 +14083,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1484: {
+  1519: {
     "id": "AT_021",
     "name": "Малый рыцарь зла",
     "cost": 2,
@@ -13858,7 +14096,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1485: {
+  1520: {
     "id": "AT_132",
     "name": "Мариэль Чистосердечная",
     "cost": 6,
@@ -13869,13 +14107,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1486: {
+  1521: {
     "id": "AT_121e",
     "name": "Мега-эго",
     "set": 15,
     "type": 0
   },
-  1487: {
+  1522: {
     "id": "AT_060",
     "name": "Медвежья ловушка",
     "cost": 2,
@@ -13885,7 +14123,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1488: {
+  1523: {
     "id": "AT_095",
     "name": "Молчаливый рыцарь",
     "cost": 3,
@@ -13896,7 +14134,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1489: {
+  1524: {
     "id": "AT_093",
     "name": "Морозный снобольд",
     "cost": 4,
@@ -13907,7 +14145,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1490: {
+  1525: {
     "id": "AT_056",
     "name": "Мощный выстрел",
     "cost": 3,
@@ -13917,20 +14155,20 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1491: {
+  1526: {
+    "id": "AT_090e",
+    "name": "Мощь гориллы",
+    "set": 15,
+    "type": 0
+  },
+  1527: {
     "id": "AT_006e",
     "name": "Мощь Даларана",
     "classs": 8,
     "set": 15,
     "type": 0
   },
-  1492: {
-    "id": "AT_090e",
-    "name": "Мощь гориллы",
-    "set": 15,
-    "type": 0
-  },
-  1493: {
+  1528: {
     "id": "AT_044",
     "name": "Мульчирование",
     "cost": 3,
@@ -13940,7 +14178,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1494: {
+  1529: {
     "id": "AT_076",
     "name": "Мурлок-рыцарь",
     "cost": 4,
@@ -13953,20 +14191,20 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1495: {
+  1530: {
     "id": "AT_096e",
     "name": "На взводе",
     "set": 15,
     "type": 0
   },
-  1496: {
+  1531: {
     "id": "AT_061e",
     "name": "На изготовку!",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1497: {
+  1532: {
     "id": "AT_061",
     "name": "На изготовку!",
     "cost": 2,
@@ -13976,7 +14214,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1498: {
+  1533: {
     "id": "AT_132_WARRIOR",
     "name": "Не пробьешь!",
     "cost": 2,
@@ -13984,7 +14222,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1499: {
+  1534: {
     "id": "AT_036t",
     "name": "Неруб",
     "cost": 3,
@@ -13994,14 +14232,14 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1500: {
+  1535: {
     "id": "AT_116e",
     "name": "Ну давай, я жду!",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1501: {
+  1536: {
     "id": "AT_042a",
     "name": "Облик льва",
     "classs": 11,
@@ -14009,7 +14247,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1502: {
+  1537: {
     "id": "AT_042b",
     "name": "Облик пантеры",
     "classs": 11,
@@ -14017,7 +14255,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1503: {
+  1538: {
     "id": "AT_015",
     "name": "Обращение",
     "cost": 2,
@@ -14027,20 +14265,20 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1504: {
+  1539: {
     "id": "AT_069e",
     "name": "Обучение завершено",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1505: {
+  1540: {
     "id": "AT_017e",
     "name": "Объятия сумрака",
     "set": 15,
     "type": 0
   },
-  1506: {
+  1541: {
     "id": "AT_064",
     "name": "Оглушить",
     "cost": 3,
@@ -14050,7 +14288,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1507: {
+  1542: {
     "id": "AT_001",
     "name": "Огненное копье",
     "cost": 5,
@@ -14060,14 +14298,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1508: {
+  1543: {
     "id": "AT_014e",
     "name": "Одержимость Тьмой",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1509: {
+  1544: {
     "id": "AT_085",
     "name": "Озерная дева",
     "cost": 4,
@@ -14078,7 +14316,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1510: {
+  1545: {
     "id": "AT_132_SHAMANb",
     "name": "Опаляющий тотем",
     "cost": 0,
@@ -14088,20 +14326,20 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1511: {
+  1546: {
     "id": "AT_029e",
     "name": "Особая заточка",
     "set": 15,
     "type": 0
   },
-  1512: {
+  1547: {
     "id": "AT_034e",
     "name": "Отрава",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1513: {
+  1548: {
     "id": "AT_034",
     "name": "Отравленное лезвие",
     "cost": 4,
@@ -14113,7 +14351,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1514: {
+  1549: {
     "id": "AT_132_ROGUE",
     "name": "Отравленные кинжалы",
     "cost": 2,
@@ -14121,7 +14359,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1515: {
+  1550: {
     "id": "AT_132_ROGUEt",
     "name": "Отравленный кинжал",
     "cost": 1,
@@ -14131,14 +14369,14 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1516: {
+  1551: {
     "id": "AT_081e",
     "name": "Очищение",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1517: {
+  1552: {
     "id": "AT_003",
     "name": "Павший герой",
     "cost": 2,
@@ -14150,7 +14388,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1518: {
+  1553: {
     "id": "AT_100",
     "name": "Паладин-регент",
     "cost": 3,
@@ -14161,7 +14399,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1519: {
+  1554: {
     "id": "AT_010",
     "name": "Пастух",
     "cost": 5,
@@ -14173,7 +14411,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1520: {
+  1555: {
     "id": "AT_062",
     "name": "Паучий клубок",
     "cost": 6,
@@ -14183,14 +14421,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1521: {
+  1556: {
     "id": "AT_074e2",
     "name": "Печать чемпионов",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1522: {
+  1557: {
     "id": "AT_074",
     "name": "Печать чемпионов",
     "cost": 3,
@@ -14200,7 +14438,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1523: {
+  1558: {
     "id": "AT_102",
     "name": "Пленный йормунгар",
     "cost": 7,
@@ -14212,13 +14450,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1524: {
+  1559: {
     "id": "AT_133e",
     "name": "Победа!",
     "set": 15,
     "type": 0
   },
-  1525: {
+  1560: {
     "id": "AT_005",
     "name": "Превращение в вепря",
     "cost": 3,
@@ -14228,7 +14466,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1526: {
+  1561: {
     "id": "AT_054",
     "name": "Призыватель туманов",
     "cost": 6,
@@ -14240,7 +14478,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1527: {
+  1562: {
     "id": "AT_111",
     "name": "Продавец закусок",
     "cost": 4,
@@ -14251,7 +14489,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1528: {
+  1563: {
     "id": "AT_051",
     "name": "Разрушительные стихии",
     "cost": 3,
@@ -14261,7 +14499,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1529: {
+  1564: {
     "id": "AT_105",
     "name": "Раненый квалдир",
     "cost": 1,
@@ -14272,7 +14510,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1530: {
+  1565: {
     "id": "AT_110",
     "name": "Распорядитель Колизея",
     "cost": 3,
@@ -14283,7 +14521,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1531: {
+  1566: {
     "id": "AT_047",
     "name": "Резчица тотемов",
     "cost": 4,
@@ -14295,7 +14533,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1532: {
+  1567: {
     "id": "AT_009",
     "name": "Ронин",
     "cost": 8,
@@ -14307,7 +14545,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1533: {
+  1568: {
     "id": "AT_049",
     "name": "Рыцарь Громового Утеса",
     "cost": 5,
@@ -14319,7 +14557,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1534: {
+  1569: {
     "id": "AT_030",
     "name": "Рыцарь Подгорода",
     "cost": 2,
@@ -14331,7 +14569,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1535: {
+  1570: {
     "id": "AT_041",
     "name": "Рыцарь чащи",
     "cost": 7,
@@ -14343,7 +14581,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1536: {
+  1571: {
     "id": "AT_128",
     "name": "Рыцарь-скелет",
     "cost": 6,
@@ -14354,7 +14592,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1537: {
+  1572: {
     "id": "AT_042t2",
     "name": "Саблезубая пантера",
     "cost": 2,
@@ -14366,7 +14604,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1538: {
+  1573: {
     "id": "AT_042t",
     "name": "Саблезубый лев",
     "cost": 2,
@@ -14378,7 +14616,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1539: {
+  1574: {
     "id": "AT_086",
     "name": "Саботажник",
     "cost": 3,
@@ -14389,16 +14627,17 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1540: {
+  1575: {
     "id": "AT_037t",
     "name": "Саженец",
     "cost": 1,
     "attack": 1,
     "health": 1,
+    "classs": 11,
     "set": 15,
     "type": 0
   },
-  1541: {
+  1576: {
     "id": "AT_127",
     "name": "Сараад, рыцарь Нексуса",
     "cost": 5,
@@ -14409,7 +14648,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1542: {
+  1577: {
     "id": "AT_011",
     "name": "Святая защитница",
     "cost": 4,
@@ -14421,7 +14660,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1543: {
+  1578: {
     "id": "AT_132_PALADIN",
     "name": "Серебряная длань",
     "cost": 2,
@@ -14429,7 +14668,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1544: {
+  1579: {
     "id": "AT_077",
     "name": "Серебряное копье",
     "cost": 2,
@@ -14441,7 +14680,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1545: {
+  1580: {
     "id": "AT_087",
     "name": "Серебряный всадник",
     "cost": 3,
@@ -14452,7 +14691,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1546: {
+  1581: {
     "id": "AT_109",
     "name": "Серебряный дозорный",
     "cost": 2,
@@ -14463,20 +14702,20 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1547: {
+  1582: {
+    "id": "AT_024e",
+    "name": "Сила тьмы",
+    "set": 15,
+    "type": 0
+  },
+  1583: {
     "id": "AT_049e",
     "name": "Сила Утеса",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1548: {
-    "id": "AT_024e",
-    "name": "Сила тьмы",
-    "set": 15,
-    "type": 0
-  },
-  1549: {
+  1584: {
     "id": "AT_082",
     "name": "Скромный оруженосец",
     "cost": 1,
@@ -14487,13 +14726,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1550: {
+  1585: {
     "id": "AT_013e",
     "name": "Слово силы: Слава",
     "set": 15,
     "type": 0
   },
-  1551: {
+  1586: {
     "id": "AT_013",
     "name": "Слово силы: Слава",
     "cost": 1,
@@ -14503,14 +14742,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1552: {
+  1587: {
     "id": "AT_032e",
     "name": "Сомнительная сделка",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1553: {
+  1588: {
     "id": "AT_032",
     "name": "Сомнительный делец",
     "cost": 3,
@@ -14522,7 +14761,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1554: {
+  1589: {
     "id": "AT_069",
     "name": "Спарринг-партнер",
     "cost": 2,
@@ -14534,7 +14773,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1555: {
+  1590: {
     "id": "AT_026",
     "name": "Страж гнева",
     "cost": 2,
@@ -14547,7 +14786,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1556: {
+  1591: {
     "id": "AT_017",
     "name": "Сумеречный страж",
     "cost": 4,
@@ -14559,7 +14798,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1557: {
+  1592: {
     "id": "AT_025",
     "name": "Темная сделка",
     "cost": 6,
@@ -14569,7 +14808,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1558: {
+  1593: {
     "id": "AT_132_SHAMANd",
     "name": "Тотем гнева воздуха",
     "cost": 0,
@@ -14579,7 +14818,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1559: {
+  1594: {
     "id": "AT_132_SHAMANa",
     "name": "Тотем исцеления",
     "cost": 0,
@@ -14589,7 +14828,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1560: {
+  1595: {
     "id": "AT_132_SHAMANc",
     "name": "Тотем каменного когтя",
     "cost": 0,
@@ -14599,7 +14838,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1561: {
+  1596: {
     "id": "AT_052",
     "name": "Тотемный голем",
     "cost": 2,
@@ -14612,7 +14851,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1562: {
+  1597: {
     "id": "AT_132_SHAMAN",
     "name": "Тотемный удар",
     "cost": 2,
@@ -14620,13 +14859,13 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1563: {
+  1598: {
     "id": "AT_082e",
     "name": "Тренировка",
     "set": 15,
     "type": 0
   },
-  1564: {
+  1599: {
     "id": "AT_050t",
     "name": "Удар молнии",
     "cost": 2,
@@ -14634,32 +14873,32 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1565: {
+  1600: {
     "id": "AT_045e",
     "name": "Укрепляющий туман",
     "set": 15,
     "type": 0
   },
-  1566: {
+  1601: {
     "id": "AT_083e",
     "name": "Укрощенный дракондор",
     "set": 15,
     "type": 0
   },
-  1567: {
+  1602: {
     "id": "AT_115e",
     "name": "Урок фехтования",
     "set": 15,
     "type": 0
   },
-  1568: {
+  1603: {
     "id": "AT_068e",
     "name": "Усиление",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1569: {
+  1604: {
     "id": "AT_068",
     "name": "Усиление",
     "cost": 2,
@@ -14669,7 +14908,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1570: {
+  1605: {
     "id": "AT_115",
     "name": "Учитель фехтования",
     "cost": 3,
@@ -14680,7 +14919,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1571: {
+  1606: {
     "id": "AT_129",
     "name": "Фьола Погибель Света",
     "cost": 3,
@@ -14691,14 +14930,14 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1572: {
+  1607: {
     "id": "AT_057o",
     "name": "Холеный зверь",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1573: {
+  1608: {
     "id": "AT_059",
     "name": "Храбрая лучница",
     "cost": 1,
@@ -14710,7 +14949,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1574: {
+  1609: {
     "id": "AT_117",
     "name": "Церемониймейстер",
     "cost": 3,
@@ -14721,13 +14960,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1575: {
+  1610: {
     "id": "AT_117e",
     "name": "Церемония",
     "set": 15,
     "type": 0
   },
-  1576: {
+  1611: {
     "id": "AT_004",
     "name": "Чародейская вспышка",
     "cost": 1,
@@ -14737,7 +14976,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 3
   },
-  1577: {
+  1612: {
     "id": "AT_007",
     "name": "Чаромет",
     "cost": 3,
@@ -14749,7 +14988,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 1
   },
-  1578: {
+  1613: {
     "id": "AT_132_DRUID",
     "name": "Чудесное преображение",
     "cost": 2,
@@ -14757,7 +14996,7 @@ hs_cards['ruru'] = {
     "set": 15,
     "type": 0
   },
-  1579: {
+  1614: {
     "id": "AT_002",
     "name": "Чучело",
     "cost": 3,
@@ -14767,7 +15006,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1580: {
+  1615: {
     "id": "AT_081",
     "name": "Эдрик Чистый",
     "cost": 7,
@@ -14779,7 +15018,7 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1581: {
+  1616: {
     "id": "AT_131",
     "name": "Эйдис Погибель Тьмы",
     "cost": 3,
@@ -14790,13 +15029,13 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 4
   },
-  1582: {
+  1617: {
     "id": "AT_084e",
     "name": "Экипировка",
     "set": 15,
     "type": 0
   },
-  1583: {
+  1618: {
     "id": "AT_039",
     "name": "Яростный воин",
     "cost": 4,
@@ -14809,11 +15048,11 @@ hs_cards['ruru'] = {
     "type": 0,
     "quality": 2
   },
-  1584: {
+  1619: {
     "id": "AT_039e",
     "name": "Ярость",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-}; // 1584 cards
+}; // 1619 cards

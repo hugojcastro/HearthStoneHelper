@@ -480,6 +480,10 @@ ul
 {
 	background-position: 0 -416px;
 }
+.jajp /* japanese flag */
+{
+	background-position: 0 -448px;
+}
 
 /* IMPORT */
 .import /* For buttons or controls used to import */
@@ -589,6 +593,7 @@ ul
 	clear:none !important;
 	float:left !important;
 	display:list-item !important;
+    list-style: none !important;
 }
 /* MISC */
 .cost /* Cost area: Diamond on background plus cost value text and position */

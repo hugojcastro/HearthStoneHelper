@@ -18,10 +18,10 @@
 // ///////////////
 // Conversion table for non translated help files yet
 var flipTranslations = {
-	'enus':'enus', 'engb':'enus', 'eses':'eses', 'esmx':'eses', // done
+	'enus':'enus', 'engb':'enus', 'eses':'eses', 'esla':'eses', // done
 	'itit':'enus', 'frfr':'enus', 'dede':'enus', 'plpl':'enus',
 	'ptpt':'enus', 'ptbr':'enus', 'ruru':'enus', 'kokr':'enus',
-	'zhcn':'enus', 'zhtw':'enus'
+	'zhcn':'enus', 'zhtw':'enus', 'jajp':'enus'
 	};
 
 // ///////////////

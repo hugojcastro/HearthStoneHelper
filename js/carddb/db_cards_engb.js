@@ -16,12 +16,6 @@
  */
 hs_cards['engb'] = {
   1: {
-    "id": "GAME_004",
-    "name": "AFK",
-    "set": 2,
-    "type": 0
-  },
-  2: {
     "id": "EX1_066",
     "name": "Acidic Swamp Ooze",
     "cost": 2,
@@ -31,6 +25,12 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  2: {
+    "id": "GAME_004",
+    "name": "AFK",
+    "set": 2,
+    "type": 0
   },
   3: {
     "id": "CS2_041",
@@ -236,13 +236,6 @@ hs_cards['engb'] = {
     "quality": 0
   },
   24: {
-    "id": "CS2_046e",
-    "name": "Bloodlust",
-    "classs": 7,
-    "set": 2,
-    "type": 0
-  },
-  25: {
     "id": "CS2_046",
     "name": "Bloodlust",
     "cost": 5,
@@ -251,6 +244,13 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  25: {
+    "id": "CS2_046e",
+    "name": "Bloodlust",
+    "classs": 7,
+    "set": 2,
+    "type": 0
   },
   26: {
     "id": "CS2_173",
@@ -298,6 +298,13 @@ hs_cards['engb'] = {
     "quality": 0
   },
   30: {
+    "id": "CS2_103e2",
+    "name": "Charge",
+    "classs": 1,
+    "set": 2,
+    "type": 0
+  },
+  31: {
     "id": "CS2_103",
     "name": "Charge",
     "cost": 3,
@@ -307,13 +314,6 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 0
   },
-  31: {
-    "id": "EX1_084e",
-    "name": "Charge",
-    "classs": 1,
-    "set": 2,
-    "type": 0
-  },
   32: {
     "id": "DS1_178e",
     "name": "Charge",
@@ -322,7 +322,7 @@ hs_cards['engb'] = {
     "type": 0
   },
   33: {
-    "id": "CS2_103e2",
+    "id": "EX1_084e",
     "name": "Charge",
     "classs": 1,
     "set": 2,
@@ -415,6 +415,13 @@ hs_cards['engb'] = {
     "quality": 1
   },
   44: {
+    "id": "CS2_063e",
+    "name": "Corruption",
+    "classs": 9,
+    "set": 2,
+    "type": 0
+  },
+  45: {
     "id": "CS2_063",
     "name": "Corruption",
     "cost": 1,
@@ -423,13 +430,6 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  45: {
-    "id": "CS2_063e",
-    "name": "Corruption",
-    "classs": 9,
-    "set": 2,
-    "type": 0
   },
   46: {
     "id": "CS2_083b",
@@ -479,13 +479,6 @@ hs_cards['engb'] = {
     "quality": 0
   },
   51: {
-    "id": "CS2_236e",
-    "name": "Divine Spirit",
-    "classs": 5,
-    "set": 2,
-    "type": 0
-  },
-  52: {
     "id": "CS2_236",
     "name": "Divine Spirit",
     "cost": 2,
@@ -494,6 +487,13 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  52: {
+    "id": "CS2_236e",
+    "name": "Divine Spirit",
+    "classs": 5,
+    "set": 2,
+    "type": 0
   },
   53: {
     "id": "EX1_025",
@@ -860,13 +860,6 @@ hs_cards['engb'] = {
     "quality": 0
   },
   89: {
-    "id": "CS2_105e",
-    "name": "Heroic Strike",
-    "classs": 1,
-    "set": 2,
-    "type": 0
-  },
-  90: {
     "id": "CS2_105",
     "name": "Heroic Strike",
     "cost": 2,
@@ -875,6 +868,13 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  90: {
+    "id": "CS2_105e",
+    "name": "Heroic Strike",
+    "classs": 1,
+    "set": 2,
+    "type": 0
   },
   91: {
     "id": "EX1_246",
@@ -965,13 +965,6 @@ hs_cards['engb'] = {
     "quality": 1
   },
   100: {
-    "id": "CS2_084e",
-    "name": "Hunter's Mark",
-    "classs": 3,
-    "set": 2,
-    "type": 0
-  },
-  101: {
     "id": "CS2_084",
     "name": "Hunter's Mark",
     "cost": 0,
@@ -980,6 +973,13 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  101: {
+    "id": "CS2_084e",
+    "name": "Hunter's Mark",
+    "classs": 3,
+    "set": 2,
+    "type": 0
   },
   102: {
     "id": "EX1_169",
@@ -1201,19 +1201,19 @@ hs_cards['engb'] = {
     "quality": 0
   },
   124: {
-    "id": "CS1_113",
+    "id": "CS1_113e",
     "name": "Mind Control",
-    "cost": 10,
     "classs": 5,
-    "collectible": 1,
     "set": 2,
     "type": 0,
     "quality": 1
   },
   125: {
-    "id": "CS1_113e",
+    "id": "CS1_113",
     "name": "Mind Control",
+    "cost": 10,
     "classs": 5,
+    "collectible": 1,
     "set": 2,
     "type": 0,
     "quality": 1
@@ -1333,13 +1333,6 @@ hs_cards['engb'] = {
     "quality": 1
   },
   137: {
-    "id": "GAME_006",
-    "name": "NOOOOOOOOOOOO",
-    "cost": 2,
-    "set": 2,
-    "type": 0
-  },
-  138: {
     "id": "EX1_593",
     "name": "Nightblade",
     "cost": 5,
@@ -1349,6 +1342,13 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  138: {
+    "id": "GAME_006",
+    "name": "NOOOOOOOOOOOO",
+    "cost": 2,
+    "set": 2,
+    "type": 0
   },
   139: {
     "id": "CS2_235",
@@ -1533,6 +1533,13 @@ hs_cards['engb'] = {
     "quality": 0
   },
   157: {
+    "id": "CS2_011o",
+    "name": "Savage Roar",
+    "classs": 11,
+    "set": 2,
+    "type": 0
+  },
+  158: {
     "id": "CS2_011",
     "name": "Savage Roar",
     "cost": 3,
@@ -1541,13 +1548,6 @@ hs_cards['engb'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  158: {
-    "id": "CS2_011o",
-    "name": "Savage Roar",
-    "classs": 11,
-    "set": 2,
-    "type": 0
   },
   159: {
     "id": "CS2_050",
@@ -2106,30 +2106,30 @@ hs_cards['engb'] = {
     "type": 0
   },
   212: {
-    "id": "BRMA14_2",
-    "name": "Activate Arcanotron",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  213: {
     "id": "BRMA14_2H",
     "name": "Activate Arcanotron",
     "cost": 0,
     "set": 14,
     "type": 0
   },
+  213: {
+    "id": "BRMA14_2",
+    "name": "Activate Arcanotron",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
   214: {
-    "id": "BRMA14_6",
+    "id": "BRMA14_6H",
     "name": "Activate Electron",
-    "cost": 6,
+    "cost": 4,
     "set": 14,
     "type": 0
   },
   215: {
-    "id": "BRMA14_6H",
+    "id": "BRMA14_6",
     "name": "Activate Electron",
-    "cost": 4,
+    "cost": 6,
     "set": 14,
     "type": 0
   },
@@ -2148,16 +2148,16 @@ hs_cards['engb'] = {
     "type": 0
   },
   218: {
-    "id": "BRMA14_4",
+    "id": "BRMA14_4H",
     "name": "Activate Toxitron",
-    "cost": 4,
+    "cost": 2,
     "set": 14,
     "type": 0
   },
   219: {
-    "id": "BRMA14_4H",
+    "id": "BRMA14_4",
     "name": "Activate Toxitron",
-    "cost": 2,
+    "cost": 4,
     "set": 14,
     "type": 0
   },
@@ -2298,14 +2298,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   236: {
-    "id": "BRMA17_5",
+    "id": "BRMA17_5H",
     "name": "Bone Minions",
     "cost": 2,
     "set": 14,
     "type": 0
   },
   237: {
-    "id": "BRMA17_5H",
+    "id": "BRMA17_5",
     "name": "Bone Minions",
     "cost": 2,
     "set": 14,
@@ -2368,30 +2368,30 @@ hs_cards['engb'] = {
     "type": 0
   },
   246: {
-    "id": "BRMA12_4H",
-    "name": "Brood Affliction: Green",
-    "cost": 3,
-    "set": 14,
-    "type": 0
-  },
-  247: {
     "id": "BRMA12_4",
     "name": "Brood Affliction: Green",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  248: {
-    "id": "BRMA12_3H",
-    "name": "Brood Affliction: Red",
+  247: {
+    "id": "BRMA12_4H",
+    "name": "Brood Affliction: Green",
     "cost": 3,
     "set": 14,
     "type": 0
   },
-  249: {
+  248: {
     "id": "BRMA12_3",
     "name": "Brood Affliction: Red",
     "cost": 1,
+    "set": 14,
+    "type": 0
+  },
+  249: {
+    "id": "BRMA12_3H",
+    "name": "Brood Affliction: Red",
+    "cost": 3,
     "set": 14,
     "type": 0
   },
@@ -2403,6 +2403,20 @@ hs_cards['engb'] = {
     "type": 0
   },
   251: {
+    "id": "BRMA12_1H",
+    "name": "Chromaggus",
+    "health": 60,
+    "set": 14,
+    "type": 0
+  },
+  252: {
+    "id": "BRMA12_1",
+    "name": "Chromaggus",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  253: {
     "id": "BRM_031",
     "name": "Chromaggus",
     "cost": 8,
@@ -2413,20 +2427,6 @@ hs_cards['engb'] = {
     "set": 14,
     "type": 0,
     "quality": 4
-  },
-  252: {
-    "id": "BRMA12_1H",
-    "name": "Chromaggus",
-    "health": 60,
-    "set": 14,
-    "type": 0
-  },
-  253: {
-    "id": "BRMA12_1",
-    "name": "Chromaggus",
-    "health": 30,
-    "set": 14,
-    "type": 0
   },
   254: {
     "id": "BRMA12_8t",
@@ -2509,15 +2509,6 @@ hs_cards['engb'] = {
     "type": 0
   },
   263: {
-    "id": "BRMA10_4H",
-    "name": "Corrupted Egg",
-    "cost": 1,
-    "attack": 0,
-    "health": 3,
-    "set": 14,
-    "type": 0
-  },
-  264: {
     "id": "BRMA10_4",
     "name": "Corrupted Egg",
     "cost": 1,
@@ -2526,28 +2517,16 @@ hs_cards['engb'] = {
     "set": 14,
     "type": 0
   },
+  264: {
+    "id": "BRMA10_4H",
+    "name": "Corrupted Egg",
+    "cost": 1,
+    "attack": 0,
+    "health": 3,
+    "set": 14,
+    "type": 0
+  },
   265: {
-    "id": "BRMA13_8",
-    "name": "DIE, INSECT!",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  266: {
-    "id": "BRM_027p",
-    "name": "DIE, INSECT!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  267: {
-    "id": "BRM_027pH",
-    "name": "DIE, INSECTS!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  268: {
     "id": "BRMA01_3",
     "name": "Dark Iron Bouncer",
     "cost": 6,
@@ -2556,7 +2535,7 @@ hs_cards['engb'] = {
     "set": 14,
     "type": 0
   },
-  269: {
+  266: {
     "id": "BRM_008",
     "name": "Dark Iron Skulker",
     "cost": 5,
@@ -2568,7 +2547,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  270: {
+  267: {
     "id": "BRMA02_2t",
     "name": "Dark Iron Spectator",
     "cost": 1,
@@ -2577,7 +2556,7 @@ hs_cards['engb'] = {
     "set": 14,
     "type": 0
   },
-  271: {
+  268: {
     "id": "BRM_005",
     "name": "Demonwrath",
     "cost": 3,
@@ -2586,6 +2565,27 @@ hs_cards['engb'] = {
     "set": 14,
     "type": 0,
     "quality": 2
+  },
+  269: {
+    "id": "BRM_027p",
+    "name": "DIE, INSECT!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  270: {
+    "id": "BRMA13_8",
+    "name": "DIE, INSECT!",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
+  271: {
+    "id": "BRM_027pH",
+    "name": "DIE, INSECTS!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
   },
   272: {
     "id": "BRMA09_5",
@@ -2715,18 +2715,6 @@ hs_cards['engb'] = {
     "quality": 1
   },
   286: {
-    "id": "BRM_010t",
-    "name": "Druid of the Flame",
-    "cost": 3,
-    "attack": 5,
-    "health": 2,
-    "classs": 11,
-    "race": 20,
-    "set": 14,
-    "type": 0,
-    "quality": 1
-  },
-  287: {
     "id": "BRM_010",
     "name": "Druid of the Flame",
     "cost": 3,
@@ -2734,6 +2722,18 @@ hs_cards['engb'] = {
     "health": 2,
     "classs": 11,
     "collectible": 1,
+    "set": 14,
+    "type": 0,
+    "quality": 1
+  },
+  287: {
+    "id": "BRM_010t",
+    "name": "Druid of the Flame",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "classs": 11,
+    "race": 20,
     "set": 14,
     "type": 0,
     "quality": 1
@@ -2751,16 +2751,16 @@ hs_cards['engb'] = {
     "quality": 1
   },
   289: {
-    "id": "BRMA16_2",
+    "id": "BRMA16_2H",
     "name": "Echolocate",
-    "cost": 1,
+    "cost": 0,
     "set": 14,
     "type": 0
   },
   290: {
-    "id": "BRMA16_2H",
+    "id": "BRMA16_2",
     "name": "Echolocate",
-    "cost": 0,
+    "cost": 1,
     "set": 14,
     "type": 0
   },
@@ -2787,6 +2787,20 @@ hs_cards['engb'] = {
     "quality": 4
   },
   293: {
+    "id": "BRMA03_1H",
+    "name": "Emperor Thaurissan",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  294: {
+    "id": "BRMA03_1",
+    "name": "Emperor Thaurissan",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  295: {
     "id": "BRM_028",
     "name": "Emperor Thaurissan",
     "cost": 6,
@@ -2796,20 +2810,6 @@ hs_cards['engb'] = {
     "set": 14,
     "type": 0,
     "quality": 4
-  },
-  294: {
-    "id": "BRMA03_1H",
-    "name": "Emperor Thaurissan",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  295: {
-    "id": "BRMA03_1",
-    "name": "Emperor Thaurissan",
-    "health": 30,
-    "set": 14,
-    "type": 0
   },
   296: {
     "id": "BRMA11_2H",
@@ -2856,7 +2856,7 @@ hs_cards['engb'] = {
     "quality": 1
   },
   301: {
-    "id": "BRMA04_3H",
+    "id": "BRMA04_3",
     "name": "Firesworn",
     "cost": 0,
     "attack": 0,
@@ -2865,7 +2865,7 @@ hs_cards['engb'] = {
     "type": 0
   },
   302: {
-    "id": "BRMA04_3",
+    "id": "BRMA04_3H",
     "name": "Firesworn",
     "cost": 0,
     "attack": 0,
@@ -2935,14 +2935,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   310: {
-    "id": "BRMA08_1",
+    "id": "BRMA08_1H",
     "name": "General Drakkisath",
     "health": 50,
     "set": 14,
     "type": 0
   },
   311: {
-    "id": "BRMA08_1H",
+    "id": "BRMA08_1",
     "name": "General Drakkisath",
     "health": 50,
     "set": 14,
@@ -2976,17 +2976,6 @@ hs_cards['engb'] = {
     "type": 0
   },
   315: {
-    "id": "BRMA09_5Ht",
-    "name": "Gyth",
-    "cost": 3,
-    "attack": 8,
-    "health": 8,
-    "race": 24,
-    "set": 14,
-    "type": 0,
-    "quality": 4
-  },
-  316: {
     "id": "BRMA09_5t",
     "name": "Gyth",
     "cost": 3,
@@ -2997,29 +2986,40 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  317: {
-    "id": "BRMA02_1H",
-    "name": "High Justice Grimstone",
-    "health": 30,
+  316: {
+    "id": "BRMA09_5Ht",
+    "name": "Gyth",
+    "cost": 3,
+    "attack": 8,
+    "health": 8,
+    "race": 24,
     "set": 14,
-    "type": 0
+    "type": 0,
+    "quality": 4
   },
-  318: {
+  317: {
     "id": "BRMA02_1",
     "name": "High Justice Grimstone",
     "health": 30,
     "set": 14,
     "type": 0
   },
+  318: {
+    "id": "BRMA02_1H",
+    "name": "High Justice Grimstone",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
   319: {
-    "id": "BRMA07_1",
+    "id": "BRMA07_1H",
     "name": "Highlord Omokk",
     "health": 30,
     "set": 14,
     "type": 0
   },
   320: {
-    "id": "BRMA07_1H",
+    "id": "BRMA07_1",
     "name": "Highlord Omokk",
     "health": 30,
     "set": 14,
@@ -3044,14 +3044,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   323: {
-    "id": "BRMA05_2",
+    "id": "BRMA05_2H",
     "name": "Ignite Mana",
     "cost": 0,
     "set": 14,
     "type": 0
   },
   324: {
-    "id": "BRMA05_2H",
+    "id": "BRMA05_2",
     "name": "Ignite Mana",
     "cost": 0,
     "set": 14,
@@ -3106,33 +3106,26 @@ hs_cards['engb'] = {
     "type": 0
   },
   331: {
-    "id": "BRMA02_2",
-    "name": "Jeering Crowd",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
-  332: {
     "id": "BRMA02_2H",
     "name": "Jeering Crowd",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  333: {
-    "id": "BRMA17_4",
-    "name": "LAVA!",
-    "cost": 2,
+  332: {
+    "id": "BRMA02_2",
+    "name": "Jeering Crowd",
+    "cost": 1,
     "set": 14,
     "type": 0
   },
-  334: {
+  333: {
     "id": "BRM_024e",
     "name": "Large Talons",
     "set": 14,
     "type": 0
   },
-  335: {
+  334: {
     "id": "BRM_011",
     "name": "Lava Shock",
     "cost": 2,
@@ -3142,36 +3135,43 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  336: {
+  335: {
     "id": "BRM_011t",
     "name": "Lava Shock",
     "classs": 7,
     "set": 14,
     "type": 0
   },
-  337: {
-    "id": "BRMA05_3e",
-    "name": "Living Bomb",
+  336: {
+    "id": "BRMA17_4",
+    "name": "LAVA!",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
-  338: {
+  337: {
     "id": "BRMA05_3He",
     "name": "Living Bomb",
     "set": 14,
     "type": 0
   },
-  339: {
-    "id": "BRMA05_3",
+  338: {
+    "id": "BRMA05_3H",
     "name": "Living Bomb",
-    "cost": 4,
+    "cost": 3,
+    "set": 14,
+    "type": 0
+  },
+  339: {
+    "id": "BRMA05_3e",
+    "name": "Living Bomb",
     "set": 14,
     "type": 0
   },
   340: {
-    "id": "BRMA05_3H",
+    "id": "BRMA05_3",
     "name": "Living Bomb",
-    "cost": 3,
+    "cost": 4,
     "set": 14,
     "type": 0
   },
@@ -3199,38 +3199,13 @@ hs_cards['engb'] = {
     "type": 0
   },
   344: {
-    "id": "BRMA07_2",
-    "name": "ME SMASH",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
-  345: {
-    "id": "BRMA07_2H",
-    "name": "ME SMASH",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  346: {
     "id": "BRMA04_2",
     "name": "Magma Pulse",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  347: {
-    "id": "BRMA14_9H",
-    "name": "Magmatron",
-    "cost": 5,
-    "attack": 8,
-    "health": 8,
-    "race": 17,
-    "set": 14,
-    "type": 0,
-    "quality": 4
-  },
-  348: {
+  345: {
     "id": "BRMA14_9",
     "name": "Magmatron",
     "cost": 5,
@@ -3241,7 +3216,18 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  349: {
+  346: {
+    "id": "BRMA14_9H",
+    "name": "Magmatron",
+    "cost": 5,
+    "attack": 8,
+    "health": 8,
+    "race": 17,
+    "set": 14,
+    "type": 0,
+    "quality": 4
+  },
+  347: {
     "id": "BRMA14_12",
     "name": "Magmaw",
     "cost": 5,
@@ -3250,6 +3236,20 @@ hs_cards['engb'] = {
     "set": 14,
     "type": 0,
     "quality": 4
+  },
+  348: {
+    "id": "BRMA06_1H",
+    "name": "Majordomo Executus",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  349: {
+    "id": "BRMA06_1",
+    "name": "Majordomo Executus",
+    "health": 30,
+    "set": 14,
+    "type": 0
   },
   350: {
     "id": "BRM_027",
@@ -3263,30 +3263,30 @@ hs_cards['engb'] = {
     "quality": 4
   },
   351: {
-    "id": "BRMA06_1H",
-    "name": "Majordomo Executus",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  352: {
-    "id": "BRMA06_1",
-    "name": "Majordomo Executus",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  353: {
     "id": "BRMA15_1H",
     "name": "Maloriak",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  354: {
+  352: {
     "id": "BRMA15_1",
     "name": "Maloriak",
     "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  353: {
+    "id": "BRMA07_2",
+    "name": "ME SMASH",
+    "cost": 1,
+    "set": 14,
+    "type": 0
+  },
+  354: {
+    "id": "BRMA07_2H",
+    "name": "ME SMASH",
+    "cost": 0,
     "set": 14,
     "type": 0
   },
@@ -3323,27 +3323,6 @@ hs_cards['engb'] = {
     "type": 0
   },
   359: {
-    "id": "BRMA13_3",
-    "name": "Nefarian",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  360: {
-    "id": "BRMA13_3H",
-    "name": "Nefarian",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  361: {
-    "id": "BRMA17_2",
-    "name": "Nefarian",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  362: {
     "id": "BRM_030",
     "name": "Nefarian",
     "cost": 9,
@@ -3355,36 +3334,57 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  363: {
+  360: {
     "id": "BRMA17_2H",
     "name": "Nefarian",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  364: {
-    "id": "BRMA17_8H",
-    "name": "Nefarian Strikes!",
-    "cost": 0,
+  361: {
+    "id": "BRMA13_3H",
+    "name": "Nefarian",
+    "health": 30,
     "set": 14,
     "type": 0
   },
-  365: {
+  362: {
+    "id": "BRMA17_2",
+    "name": "Nefarian",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  363: {
+    "id": "BRMA13_3",
+    "name": "Nefarian",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  364: {
     "id": "BRMA17_8",
     "name": "Nefarian Strikes!",
     "cost": 0,
     "set": 14,
     "type": 0
   },
+  365: {
+    "id": "BRMA17_8H",
+    "name": "Nefarian Strikes!",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
   366: {
-    "id": "BRMA09_3H",
+    "id": "BRMA09_3",
     "name": "Old Horde",
     "cost": 2,
     "set": 14,
     "type": 0
   },
   367: {
-    "id": "BRMA09_3",
+    "id": "BRMA09_3H",
     "name": "Old Horde",
     "cost": 2,
     "set": 14,
@@ -3409,14 +3409,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   370: {
-    "id": "BRMA14_1",
+    "id": "BRMA14_1H",
     "name": "Omnotron Defense System",
     "health": 30,
     "set": 14,
     "type": 0
   },
   371: {
-    "id": "BRMA14_1H",
+    "id": "BRMA14_1",
     "name": "Omnotron Defense System",
     "health": 30,
     "set": 14,
@@ -3452,14 +3452,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   376: {
-    "id": "BRMA09_2H",
+    "id": "BRMA09_2",
     "name": "Open the Gates",
     "cost": 2,
     "set": 14,
     "type": 0
   },
   377: {
-    "id": "BRMA09_2",
+    "id": "BRMA09_2H",
     "name": "Open the Gates",
     "cost": 2,
     "set": 14,
@@ -3486,16 +3486,16 @@ hs_cards['engb'] = {
     "type": 0
   },
   381: {
-    "id": "BRM_014e",
-    "name": "Power Rager",
-    "classs": 3,
+    "id": "BRMA03_2",
+    "name": "Power of the Firelord",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
   382: {
-    "id": "BRMA03_2",
-    "name": "Power of the Firelord",
-    "cost": 2,
+    "id": "BRM_014e",
+    "name": "Power Rager",
+    "classs": 3,
     "set": 14,
     "type": 0
   },
@@ -3510,35 +3510,35 @@ hs_cards['engb'] = {
     "quality": 1
   },
   384: {
-    "id": "BRM_027h",
-    "name": "Ragnaros the Firelord",
-    "health": 8,
-    "set": 14,
-    "type": 0
-  },
-  385: {
-    "id": "BRMA06_3H",
-    "name": "Ragnaros the Firelord",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  386: {
     "id": "BRMA06_3",
     "name": "Ragnaros the Firelord",
     "health": 8,
     "set": 14,
     "type": 0
   },
+  385: {
+    "id": "BRM_027h",
+    "name": "Ragnaros the Firelord",
+    "health": 8,
+    "set": 14,
+    "type": 0
+  },
+  386: {
+    "id": "BRMA06_3H",
+    "name": "Ragnaros the Firelord",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
   387: {
-    "id": "BRMA10_1H",
+    "id": "BRMA10_1",
     "name": "Razorgore the Untamed",
     "health": 30,
     "set": 14,
     "type": 0
   },
   388: {
-    "id": "BRMA10_1",
+    "id": "BRMA10_1H",
     "name": "Razorgore the Untamed",
     "health": 30,
     "set": 14,
@@ -3620,14 +3620,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   398: {
-    "id": "BRMA04_4",
+    "id": "BRMA04_4H",
     "name": "Rock Out",
     "cost": 3,
     "set": 14,
     "type": 0
   },
   399: {
-    "id": "BRMA04_4H",
+    "id": "BRMA04_4",
     "name": "Rock Out",
     "cost": 3,
     "set": 14,
@@ -3653,41 +3653,41 @@ hs_cards['engb'] = {
     "type": 0
   },
   402: {
-    "id": "BRMA16_3e",
-    "name": "Sonic Breath",
-    "set": 14,
-    "type": 0
-  },
-  403: {
     "id": "BRMA16_3",
     "name": "Sonic Breath",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  404: {
-    "id": "BRMA07_3",
-    "name": "TIME FOR SMASH",
-    "cost": 4,
+  403: {
+    "id": "BRMA16_3e",
+    "name": "Sonic Breath",
     "set": 14,
     "type": 0
   },
-  405: {
+  404: {
     "id": "BRM_030t",
     "name": "Tail Swipe",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  406: {
+  405: {
     "id": "BRMA15_2",
     "name": "The Alchemist",
     "set": 14,
     "type": 0
   },
-  407: {
+  406: {
     "id": "BRMA15_2H",
     "name": "The Alchemist",
+    "set": 14,
+    "type": 0
+  },
+  407: {
+    "id": "BRMA06_2",
+    "name": "The Majordomo",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
@@ -3699,50 +3699,50 @@ hs_cards['engb'] = {
     "type": 0
   },
   409: {
-    "id": "BRMA06_2",
-    "name": "The Majordomo",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  410: {
     "id": "BRMA10_3H",
     "name": "The Rookery",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  411: {
+  410: {
     "id": "BRMA10_3",
     "name": "The Rookery",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  412: {
+  411: {
     "id": "BRMA09_6",
     "name": "The True Warchief",
     "cost": 1,
     "set": 14,
     "type": 0
   },
+  412: {
+    "id": "BRMA07_3",
+    "name": "TIME FOR SMASH",
+    "cost": 4,
+    "set": 14,
+    "type": 0
+  },
   413: {
-    "id": "BRMA14_5H",
+    "id": "BRMA14_5",
     "name": "Toxitron",
     "cost": 1,
-    "attack": 4,
-    "health": 4,
+    "attack": 3,
+    "health": 3,
     "race": 17,
     "set": 14,
     "type": 0,
     "quality": 4
   },
   414: {
-    "id": "BRMA14_5",
+    "id": "BRMA14_5H",
     "name": "Toxitron",
     "cost": 1,
-    "attack": 3,
-    "health": 3,
+    "attack": 4,
+    "health": 4,
     "race": 17,
     "set": 14,
     "type": 0,
@@ -3827,21 +3827,21 @@ hs_cards['engb'] = {
     "quality": 2
   },
   424: {
+    "id": "BRM_004t",
+    "name": "Whelp",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "set": 14,
+    "type": 0
+  },
+  425: {
     "id": "BRMA09_2t",
     "name": "Whelp",
     "cost": 1,
     "attack": 1,
     "health": 1,
     "race": 24,
-    "set": 14,
-    "type": 0
-  },
-  425: {
-    "id": "BRM_004t",
-    "name": "Whelp",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
     "set": 14,
     "type": 0
   },
@@ -3865,14 +3865,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   428: {
-    "id": "BRMA13_4H",
+    "id": "BRMA13_4",
     "name": "Wild Magic",
     "cost": 1,
     "set": 14,
     "type": 0
   },
   429: {
-    "id": "BRMA13_4",
+    "id": "BRMA13_4H",
     "name": "Wild Magic",
     "cost": 1,
     "set": 14,
@@ -4022,31 +4022,6 @@ hs_cards['engb'] = {
     "quality": 2
   },
   444: {
-    "id": "NEW1_008b",
-    "name": "Ancient Secrets",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  445: {
-    "id": "NEW1_008a",
-    "name": "Ancient Teachings",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  446: {
-    "id": "EX1_045",
-    "name": "Ancient Watcher",
-    "cost": 2,
-    "attack": 4,
-    "health": 5,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  447: {
     "id": "NEW1_008",
     "name": "Ancient of Lore",
     "cost": 7,
@@ -4058,7 +4033,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  448: {
+  445: {
     "id": "EX1_178",
     "name": "Ancient of War",
     "cost": 7,
@@ -4069,6 +4044,31 @@ hs_cards['engb'] = {
     "set": 3,
     "type": 0,
     "quality": 3
+  },
+  446: {
+    "id": "NEW1_008b",
+    "name": "Ancient Secrets",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  447: {
+    "id": "NEW1_008a",
+    "name": "Ancient Teachings",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  448: {
+    "id": "EX1_045",
+    "name": "Ancient Watcher",
+    "cost": 2,
+    "attack": 4,
+    "health": 5,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
   },
   449: {
     "id": "EX1_009",
@@ -5572,14 +5572,6 @@ hs_cards['engb'] = {
     "quality": 2
   },
   600: {
-    "id": "EX1_tk33",
-    "name": "INFERNO!",
-    "cost": 2,
-    "classs": 9,
-    "set": 3,
-    "type": 0
-  },
-  601: {
     "id": "EX1_289",
     "name": "Ice Barrier",
     "cost": 3,
@@ -5589,7 +5581,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  602: {
+  601: {
     "id": "EX1_295",
     "name": "Ice Block",
     "cost": 3,
@@ -5599,14 +5591,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  603: {
+  602: {
     "id": "EX1_295o",
     "name": "Ice Block",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  604: {
+  603: {
     "id": "CS2_031",
     "name": "Ice Lance",
     "cost": 1,
@@ -5616,7 +5608,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  605: {
+  604: {
     "id": "EX1_614",
     "name": "Illidan Stormrage",
     "cost": 6,
@@ -5628,7 +5620,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  606: {
+  605: {
     "id": "EX1_598",
     "name": "Imp",
     "cost": 1,
@@ -5639,7 +5631,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  607: {
+  606: {
     "id": "EX1_597",
     "name": "Imp Master",
     "cost": 3,
@@ -5650,7 +5642,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  608: {
+  607: {
     "id": "EX1_tk34",
     "name": "Infernal",
     "cost": 6,
@@ -5661,6 +5653,14 @@ hs_cards['engb'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  608: {
+    "id": "EX1_tk33",
+    "name": "INFERNO!",
+    "cost": 2,
+    "classs": 9,
+    "set": 3,
+    "type": 0
   },
   609: {
     "id": "EX1_623e",
@@ -6130,23 +6130,23 @@ hs_cards['engb'] = {
     "quality": 2
   },
   656: {
-    "id": "NEW1_037",
-    "name": "Master Swordsmith",
-    "cost": 2,
-    "attack": 1,
-    "health": 3,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  657: {
     "id": "NEW1_014",
     "name": "Master of Disguise",
     "cost": 4,
     "attack": 4,
     "health": 4,
     "classs": 4,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  657: {
+    "id": "NEW1_037",
+    "name": "Master Swordsmith",
+    "cost": 2,
+    "attack": 1,
+    "health": 3,
     "collectible": 1,
     "set": 3,
     "type": 0,
@@ -6482,13 +6482,23 @@ hs_cards['engb'] = {
     "quality": 3
   },
   692: {
-    "id": "EX1_316e",
-    "name": "Power Overwhelming",
-    "classs": 9,
+    "id": "EX1_612o",
+    "name": "Power of the Kirin Tor",
+    "classs": 8,
     "set": 3,
     "type": 0
   },
   693: {
+    "id": "EX1_160",
+    "name": "Power of the Wild",
+    "cost": 2,
+    "classs": 11,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  694: {
     "id": "EX1_316",
     "name": "Power Overwhelming",
     "cost": 1,
@@ -6498,22 +6508,12 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  694: {
-    "id": "EX1_612o",
-    "name": "Power of the Kirin Tor",
-    "classs": 8,
+  695: {
+    "id": "EX1_316e",
+    "name": "Power Overwhelming",
+    "classs": 9,
     "set": 3,
     "type": 0
-  },
-  695: {
-    "id": "EX1_160",
-    "name": "Power of the Wild",
-    "cost": 2,
-    "classs": 11,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
   },
   696: {
     "id": "EX1_145o",
@@ -6599,13 +6599,6 @@ hs_cards['engb'] = {
     "quality": 4
   },
   704: {
-    "id": "CS2_104e",
-    "name": "Rampage",
-    "classs": 1,
-    "set": 3,
-    "type": 0
-  },
-  705: {
     "id": "CS2_104",
     "name": "Rampage",
     "cost": 2,
@@ -6614,6 +6607,13 @@ hs_cards['engb'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  705: {
+    "id": "CS2_104e",
+    "name": "Rampage",
+    "classs": 1,
+    "set": 3,
+    "type": 0
   },
   706: {
     "id": "CS2_161",
@@ -6661,32 +6661,20 @@ hs_cards['engb'] = {
     "type": 0
   },
   711: {
-    "id": "EX1_178a",
-    "name": "Rooted",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  712: {
     "id": "EX1_178ae",
     "name": "Rooted",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  713: {
-    "id": "EX1_134",
-    "name": "SI:7 Agent",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "classs": 4,
-    "collectible": 1,
+  712: {
+    "id": "EX1_178a",
+    "name": "Rooted",
+    "classs": 11,
     "set": 3,
-    "type": 0,
-    "quality": 2
+    "type": 0
   },
-  714: {
+  713: {
     "id": "EX1_578",
     "name": "Savagery",
     "cost": 1,
@@ -6696,7 +6684,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  715: {
+  714: {
     "id": "EX1_534",
     "name": "Savannah Highmane",
     "cost": 6,
@@ -6709,7 +6697,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  716: {
+  715: {
     "id": "EX1_020",
     "name": "Scarlet Crusader",
     "cost": 3,
@@ -6720,7 +6708,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  717: {
+  716: {
     "id": "EX1_531",
     "name": "Scavenging Hyena",
     "cost": 2,
@@ -6733,7 +6721,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  718: {
+  717: {
     "id": "EX1_586",
     "name": "Sea Giant",
     "cost": 10,
@@ -6744,7 +6732,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  719: {
+  718: {
     "id": "EX1_080",
     "name": "Secretkeeper",
     "cost": 1,
@@ -6755,7 +6743,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  720: {
+  719: {
     "id": "EX1_317",
     "name": "Sense Demons",
     "cost": 3,
@@ -6765,14 +6753,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  721: {
+  720: {
     "id": "EX1_334e",
     "name": "Shadow Madness",
     "classs": 5,
     "set": 3,
     "type": 0
   },
-  722: {
+  721: {
     "id": "EX1_334",
     "name": "Shadow Madness",
     "cost": 4,
@@ -6782,7 +6770,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  723: {
+  722: {
     "id": "EX1_345t",
     "name": "Shadow of Nothing",
     "cost": 0,
@@ -6793,7 +6781,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  724: {
+  723: {
     "id": "EX1_303",
     "name": "Shadowflame",
     "cost": 4,
@@ -6803,7 +6791,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  725: {
+  724: {
     "id": "EX1_625",
     "name": "Shadowform",
     "cost": 3,
@@ -6813,14 +6801,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  726: {
+  725: {
     "id": "EX1_590e",
     "name": "Shadows of M'uru",
     "set": 3,
     "type": 0,
     "quality": 1
   },
-  727: {
+  726: {
     "id": "EX1_144",
     "name": "Shadowstep",
     "cost": 0,
@@ -6830,20 +6818,20 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  728: {
+  727: {
     "id": "EX1_573b",
     "name": "Shan'do's Lesson",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  729: {
+  728: {
     "id": "CS2_221e",
     "name": "Sharp!",
     "set": 3,
     "type": 0
   },
-  730: {
+  729: {
     "id": "EX1_410",
     "name": "Shield Slam",
     "cost": 1,
@@ -6853,7 +6841,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  731: {
+  730: {
     "id": "EX1_405",
     "name": "Shieldbearer",
     "cost": 1,
@@ -6863,6 +6851,18 @@ hs_cards['engb'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  731: {
+    "id": "EX1_134",
+    "name": "SI:7 Agent",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "classs": 4,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
   },
   732: {
     "id": "EX1_332",
@@ -6961,13 +6961,6 @@ hs_cards['engb'] = {
     "quality": 1
   },
   741: {
-    "id": "EX1_158e",
-    "name": "Soul of the Forest",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  742: {
     "id": "EX1_158",
     "name": "Soul of the Forest",
     "cost": 4,
@@ -6976,6 +6969,13 @@ hs_cards['engb'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  742: {
+    "id": "EX1_158e",
+    "name": "Soul of the Forest",
+    "classs": 11,
+    "set": 3,
+    "type": 0
   },
   743: {
     "id": "NEW1_027",
@@ -7873,16 +7873,6 @@ hs_cards['engb'] = {
     "quality": 4
   },
   834: {
-    "id": "CRED_30",
-    "name": "JC Park",
-    "cost": 7,
-    "attack": 2,
-    "health": 4,
-    "set": 16,
-    "type": 0,
-    "quality": 4
-  },
-  835: {
     "id": "CRED_01",
     "name": "Jason Chayes",
     "cost": 6,
@@ -7892,7 +7882,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  836: {
+  835: {
     "id": "CRED_29",
     "name": "Jason MacAllister",
     "cost": 5,
@@ -7902,11 +7892,21 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  837: {
+  836: {
     "id": "CRED_11",
     "name": "Jay Baxter",
     "cost": 4,
     "attack": 1,
+    "health": 4,
+    "set": 16,
+    "type": 0,
+    "quality": 4
+  },
+  837: {
+    "id": "CRED_30",
+    "name": "JC Park",
+    "cost": 7,
+    "attack": 2,
     "health": 4,
     "set": 16,
     "type": 0,
@@ -8144,20 +8144,6 @@ hs_cards['engb'] = {
     "quality": 4
   },
   861: {
-    "id": "NAX1h_01",
-    "name": "Anub'Rekhan",
-    "health": 45,
-    "set": 12,
-    "type": 0
-  },
-  862: {
-    "id": "NAX1_01",
-    "name": "Anub'Rekhan",
-    "health": 30,
-    "set": 12,
-    "type": 0
-  },
-  863: {
     "id": "FP1_026",
     "name": "Anub'ar Ambusher",
     "cost": 4,
@@ -8168,6 +8154,20 @@ hs_cards['engb'] = {
     "set": 12,
     "type": 0,
     "quality": 1
+  },
+  862: {
+    "id": "NAX1_01",
+    "name": "Anub'Rekhan",
+    "health": 30,
+    "set": 12,
+    "type": 0
+  },
+  863: {
+    "id": "NAX1h_01",
+    "name": "Anub'Rekhan",
+    "health": 45,
+    "set": 12,
+    "type": 0
   },
   864: {
     "id": "FP1_020",
@@ -8711,13 +8711,6 @@ hs_cards['engb'] = {
     "quality": 1
   },
   931: {
-    "id": "NAX3_01H",
-    "name": "Maexxna",
-    "health": 45,
-    "set": 12,
-    "type": 0
-  },
-  932: {
     "id": "FP1_010",
     "name": "Maexxna",
     "cost": 6,
@@ -8729,6 +8722,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
+  932: {
+    "id": "NAX3_01H",
+    "name": "Maexxna",
+    "health": 45,
+    "set": 12,
+    "type": 0
+  },
   933: {
     "id": "NAX3_01",
     "name": "Maexxna",
@@ -8737,15 +8737,15 @@ hs_cards['engb'] = {
     "type": 0
   },
   934: {
-    "id": "NAX9_07e",
+    "id": "NAX9_07",
     "name": "Mark of the Horsemen",
+    "cost": 5,
     "set": 12,
     "type": 0
   },
   935: {
-    "id": "NAX9_07",
+    "id": "NAX9_07e",
     "name": "Mark of the Horsemen",
-    "cost": 5,
     "set": 12,
     "type": 0
   },
@@ -8892,14 +8892,6 @@ hs_cards['engb'] = {
     "quality": 2
   },
   953: {
-    "id": "NAX4_01",
-    "name": "Noth the Plaguebringer",
-    "health": 30,
-    "classs": 8,
-    "set": 12,
-    "type": 0
-  },
-  954: {
     "id": "NAX4_01H",
     "name": "Noth the Plaguebringer",
     "health": 45,
@@ -8907,17 +8899,25 @@ hs_cards['engb'] = {
     "set": 12,
     "type": 0
   },
-  955: {
-    "id": "NAX10_01",
-    "name": "Patchwerk",
+  954: {
+    "id": "NAX4_01",
+    "name": "Noth the Plaguebringer",
     "health": 30,
+    "classs": 8,
+    "set": 12,
+    "type": 0
+  },
+  955: {
+    "id": "NAX10_01H",
+    "name": "Patchwerk",
+    "health": 45,
     "set": 12,
     "type": 0
   },
   956: {
-    "id": "NAX10_01H",
+    "id": "NAX10_01",
     "name": "Patchwerk",
-    "health": 45,
+    "health": 30,
     "set": 12,
     "type": 0
   },
@@ -9106,14 +9106,14 @@ hs_cards['engb'] = {
     "type": 0
   },
   980: {
-    "id": "NAX1_04",
+    "id": "NAX1h_04",
     "name": "Skitter",
     "cost": 2,
     "set": 12,
     "type": 0
   },
   981: {
-    "id": "NAX1h_04",
+    "id": "NAX1_04",
     "name": "Skitter",
     "cost": 2,
     "set": 12,
@@ -9625,19 +9625,19 @@ hs_cards['engb'] = {
     "type": 0
   },
   1040: {
-    "id": "XXX_024",
-    "name": "Damage Reflector",
+    "id": "XXX_020",
+    "name": "Damage all but 1",
     "cost": 0,
-    "attack": 3,
-    "health": 10,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1041: {
-    "id": "XXX_020",
-    "name": "Damage all but 1",
+    "id": "XXX_024",
+    "name": "Damage Reflector",
     "cost": 0,
+    "attack": 3,
+    "health": 10,
     "set": 7,
     "type": 0,
     "quality": 1
@@ -9651,11 +9651,12 @@ hs_cards['engb'] = {
     "quality": 1
   },
   1043: {
-    "id": "XXX_063",
-    "name": "Destroy ALL Secrets",
+    "id": "XXX_050",
+    "name": "Destroy a Mana Crystal",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1044: {
     "id": "XXX_023",
@@ -9666,6 +9667,14 @@ hs_cards['engb'] = {
     "quality": 1
   },
   1045: {
+    "id": "XXX_049",
+    "name": "Destroy all Mana",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1046: {
     "id": "XXX_018",
     "name": "Destroy All Minions",
     "cost": 0,
@@ -9673,7 +9682,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1046: {
+  1047: {
+    "id": "XXX_063",
+    "name": "Destroy ALL Secrets",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
+  1048: {
     "id": "XXX_047",
     "name": "Destroy Deck",
     "cost": 0,
@@ -9681,7 +9697,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1047: {
+  1049: {
     "id": "XXX_041",
     "name": "Destroy Hero Power",
     "cost": 0,
@@ -9689,35 +9705,19 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1048: {
+  1050: {
     "id": "XXX_059",
     "name": "Destroy Hero's Stuff",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1049: {
+  1051: {
     "id": "XXX_057",
     "name": "Destroy Target Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
-  },
-  1050: {
-    "id": "XXX_050",
-    "name": "Destroy a Mana Crystal",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1051: {
-    "id": "XXX_049",
-    "name": "Destroy all Mana",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
   },
   1052: {
     "id": "XXX_013",
@@ -10719,12 +10719,6 @@ hs_cards['engb'] = {
     "quality": 2
   },
   1159: {
-    "id": "GVG_104a",
-    "name": "HERE, TAKE BUFF.",
-    "set": 13,
-    "type": 0
-  },
-  1160: {
     "id": "GVG_120",
     "name": "Hemet Nesingwary",
     "cost": 5,
@@ -10734,6 +10728,12 @@ hs_cards['engb'] = {
     "set": 13,
     "type": 0,
     "quality": 4
+  },
+  1160: {
+    "id": "GVG_104a",
+    "name": "HERE, TAKE BUFF.",
+    "set": 13,
+    "type": 0
   },
   1161: {
     "id": "GVG_104",
@@ -12370,6 +12370,21 @@ hs_cards['engb'] = {
     "quality": 3
   },
   1328: {
+    "id": "BRMA14_10H_TB",
+    "name": "Activate!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1329: {
+    "id": "TB_MechWar_Boss1",
+    "name": "Annoy-o-Tron",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1330: {
     "id": "BRMC_86",
     "name": "Atramedes",
     "cost": 4,
@@ -12380,7 +12395,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1329: {
+  1331: {
+    "id": "TB_006e",
+    "name": "Big Banana",
+    "set": 18,
+    "type": 0
+  },
+  1332: {
     "id": "TB_006",
     "name": "Big Banana",
     "cost": 1,
@@ -12388,45 +12409,67 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1330: {
-    "id": "TB_006e",
-    "name": "Big Banana",
+  1333: {
+    "id": "TB_CoOpBossSpell_2",
+    "name": "Bomb Salvo",
     "set": 18,
     "type": 0
   },
-  1331: {
+  1334: {
+    "id": "BRMA17_5_TB",
+    "name": "Bone Minions",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1335: {
+    "id": "TB_MechWar_Boss2",
+    "name": "Boom Bot",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1336: {
+    "id": "TB_MechWar_Boss2_HeroPower",
+    "name": "Boom Bot Jr.",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1337: {
     "id": "TB_001",
     "name": "Boss HP Swapper",
     "set": 18,
     "type": 0
   },
-  1332: {
+  1338: {
     "id": "BRMC_97e",
     "name": "Burning Adrenaline",
     "set": 18,
     "type": 0
   },
-  1333: {
-    "id": "TB_010e",
-    "name": "Choose One of Three",
-    "set": 18,
-    "type": 0
-  },
-  1334: {
+  1339: {
     "id": "TB_014",
     "name": "Choose a New Card!",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1335: {
+  1340: {
     "id": "TB_012",
     "name": "Choose a New Card!",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1336: {
+  1341: {
+    "id": "TB_010e",
+    "name": "Choose One of Three",
+    "set": 18,
+    "type": 0
+  },
+  1342: {
     "id": "BRMC_95he",
     "name": "Core Hound Pup",
     "cost": 3,
@@ -12436,14 +12479,14 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1337: {
+  1343: {
     "id": "BRMC_95h",
     "name": "Core Hound Puppies",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1338: {
+  1344: {
     "id": "BRMC_92",
     "name": "Coren Direbrew",
     "cost": 4,
@@ -12453,19 +12496,33 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1339: {
+  1345: {
     "id": "TB_009",
     "name": "Create 15 Secrets",
     "set": 18,
     "type": 0
   },
-  1340: {
+  1346: {
+    "id": "NAX12_02H_2c_TB",
+    "name": "Decimate",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1347: {
+    "id": "NAX12_02H_2_TB",
+    "name": "Decimate",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1348: {
     "id": "TB_010",
     "name": "Deckbuilding Enchant",
     "set": 18,
     "type": 0
   },
-  1341: {
+  1349: {
     "id": "TB_007",
     "name": "Deviate Banana",
     "cost": 1,
@@ -12473,13 +12530,19 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1342: {
+  1350: {
     "id": "TB_007e",
     "name": "Deviate Switch",
     "set": 18,
     "type": 0
   },
-  1343: {
+  1351: {
+    "id": "TB_CoOpBossSpell_5",
+    "name": "Double Zap",
+    "set": 18,
+    "type": 0
+  },
+  1352: {
     "id": "BRMC_84",
     "name": "Dragonkin Spellcaster",
     "cost": 5,
@@ -12489,13 +12552,13 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1344: {
+  1353: {
     "id": "BRMC_98e",
     "name": "Dragonlust",
     "set": 18,
     "type": 0
   },
-  1345: {
+  1354: {
     "id": "BRMC_88",
     "name": "Drakonid Slayer",
     "cost": 6,
@@ -12505,13 +12568,20 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1346: {
+  1355: {
     "id": "TB_EndlessMinions01",
     "name": "Endless Enchantment",
     "set": 18,
     "type": 0
   },
-  1347: {
+  1356: {
+    "id": "TB_FactionWar_Boss_BoomBot",
+    "name": "FactionWar_BoomBot",
+    "health": 30,
+    "set": 18,
+    "type": 0
+  },
+  1357: {
     "id": "BRMC_99",
     "name": "Garr",
     "cost": 5,
@@ -12521,7 +12591,24 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1348: {
+  1358: {
+    "id": "HRW02_1e",
+    "name": "Gear Up",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1359: {
+    "id": "TB_CoOp_Mechazod",
+    "name": "Gearmaster Mechazod",
+    "cost": 10,
+    "attack": 2,
+    "health": 95,
+    "set": 18,
+    "type": 0,
+    "quality": 4
+  },
+  1360: {
     "id": "BRMC_95",
     "name": "Golemagg",
     "cost": 50,
@@ -12531,7 +12618,21 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1349: {
+  1361: {
+    "id": "NAX8_02H_TB",
+    "name": "Harvest",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1362: {
+    "id": "TB_MechWar_Boss1_HeroPower",
+    "name": "Hello! Hello! Hello!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1363: {
     "id": "BRMC_96",
     "name": "High Justice Grimstone",
     "cost": 3,
@@ -12541,26 +12642,46 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1350: {
+  1364: {
     "id": "BRMC_86e",
     "name": "I Hear You...",
     "set": 18,
     "type": 0
   },
-  1351: {
+  1365: {
+    "id": "BRMA02_2_2_TB",
+    "name": "Jeering Crowd",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1366: {
+    "id": "BRMA02_2_2c_TB",
+    "name": "Jeering Crowd",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1367: {
+    "id": "TB_CoOpBossSpell_6",
+    "name": "Kill the Lorewalker",
+    "set": 18,
+    "type": 0
+  },
+  1368: {
     "id": "BRMC_100e",
     "name": "Living Bomb",
     "set": 18,
     "type": 0
   },
-  1352: {
+  1369: {
     "id": "BRMC_100",
     "name": "Living Bomb",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1353: {
+  1370: {
     "id": "BRMC_90",
     "name": "Living Lava",
     "cost": 2,
@@ -12569,7 +12690,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1354: {
+  1371: {
     "id": "BRMC_85",
     "name": "Lucifron",
     "cost": 4,
@@ -12579,7 +12700,21 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1355: {
+  1372: {
+    "id": "BRMA07_2_2_TB",
+    "name": "ME SMASH",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1373: {
+    "id": "BRMA07_2_2c_TB",
+    "name": "ME SMASH",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1374: {
     "id": "BRMC_87",
     "name": "Moira Bronzebeard",
     "cost": 3,
@@ -12589,27 +12724,27 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1356: {
+  1375: {
     "id": "TBA01_6",
     "name": "Molten Rage",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1357: {
+  1376: {
     "id": "TB_Pilot1",
     "name": "Mystery Pilot",
     "set": 18,
     "type": 0
   },
-  1358: {
+  1377: {
     "id": "TBA01_4",
     "name": "Nefarian",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1359: {
+  1378: {
     "id": "TBST_004",
     "name": "OLDLegit Healer",
     "cost": 3,
@@ -12618,7 +12753,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1360: {
+  1379: {
     "id": "TBST_003",
     "name": "OLDN3wb Healer",
     "cost": 1,
@@ -12627,7 +12762,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1361: {
+  1380: {
     "id": "TBST_002",
     "name": "OLDN3wb Mage",
     "cost": 1,
@@ -12636,7 +12771,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1362: {
+  1381: {
     "id": "TBST_001",
     "name": "OLDN3wb Tank",
     "cost": 1,
@@ -12645,7 +12780,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1363: {
+  1382: {
     "id": "TBST_005",
     "name": "OLDPvP Rogue",
     "cost": 3,
@@ -12654,28 +12789,48 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1364: {
+  1383: {
     "id": "TBST_006",
     "name": "OLDTBST Push Common Card",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1365: {
+  1384: {
     "id": "BRMC_93",
     "name": "Omnotron Defense System",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1366: {
+  1385: {
+    "id": "BRMA09_2_TB",
+    "name": "Open the Gates",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1386: {
     "id": "BRMC_83",
     "name": "Open the Gates",
     "cost": 8,
     "set": 18,
     "type": 0
   },
-  1367: {
+  1387: {
+    "id": "TB_CoOpBossSpell_4",
+    "name": "Overclock",
+    "set": 18,
+    "type": 0
+  },
+  1388: {
+    "id": "BRMA01_2H_2_TB",
+    "name": "Pile On!!!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1389: {
     "id": "TB_015",
     "name": "Pirate",
     "cost": 2,
@@ -12685,20 +12840,33 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1368: {
+  1390: {
     "id": "TB_013",
     "name": "Player Choice Enchant",
     "set": 18,
     "type": 0
   },
-  1369: {
+  1391: {
+    "id": "NAX11_02H_2_TB",
+    "name": "Poison Cloud",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1392: {
+    "id": "TB_CoOpBossSpell_1",
+    "name": "Prioritize",
+    "set": 18,
+    "type": 0
+  },
+  1393: {
     "id": "TBA01_1",
     "name": "Ragnaros the Firelord",
     "health": 60,
     "set": 18,
     "type": 0
   },
-  1370: {
+  1394: {
     "id": "BRMC_98",
     "name": "Razorgore",
     "cost": 6,
@@ -12709,7 +12877,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1371: {
+  1395: {
+    "id": "TB_CoOpBossSpell_3",
+    "name": "Release Coolant",
+    "set": 18,
+    "type": 0
+  },
+  1396: {
     "id": "BRMC_99e",
     "name": "Rock Elemental",
     "cost": 2,
@@ -12718,7 +12892,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1372: {
+  1397: {
     "id": "TB_008",
     "name": "Rotten Banana",
     "cost": 1,
@@ -12726,7 +12900,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1373: {
+  1398: {
     "id": "BRMC_91",
     "name": "Son of the Flame",
     "cost": 3,
@@ -12735,7 +12909,7 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1374: {
+  1399: {
     "id": "BRMC_94",
     "name": "Sulfuras",
     "cost": 2,
@@ -12744,20 +12918,71 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1375: {
-    "id": "TBUD_1",
-    "name": "TBUD Summon Early Minion",
-    "set": 18,
-    "type": 0
-  },
-  1376: {
+  1400: {
     "id": "TB_011",
     "name": "Tarnished Coin",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1377: {
+  1401: {
+    "id": "TB_GreatCurves_01",
+    "name": "TB_ClockworkCardDealer",
+    "set": 18,
+    "type": 0
+  },
+  1402: {
+    "id": "TB_RMC_001",
+    "name": "TB_EnchRandomManaCost",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1403: {
+    "id": "TB_RandHero2_001",
+    "name": "TB_EnchWhosTheBossNow",
+    "set": 18,
+    "type": 0
+  },
+  1404: {
+    "id": "TB_FactionWar_BoomBot",
+    "name": "TBFactionWarBoomBot",
+    "set": 18,
+    "type": 0
+  },
+  1405: {
+    "id": "TB_FactionWar_BoomBot_Spell",
+    "name": "TBFactionWarBoomBotSpell",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1406: {
+    "id": "TB_MechWar_CommonCards",
+    "name": "TBMechWarCommonCards",
+    "set": 18,
+    "type": 0
+  },
+  1407: {
+    "id": "TB_RandCardCost",
+    "name": "TBRandomCardCost",
+    "set": 18,
+    "type": 0
+  },
+  1408: {
+    "id": "TBUD_1",
+    "name": "TBUD Summon Early Minion",
+    "set": 18,
+    "type": 0
+  },
+  1409: {
+    "id": "BRMA06_2H_TB",
+    "name": "The Majordomo",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1410: {
     "id": "BRMC_97",
     "name": "Vaelastrasz",
     "cost": 6,
@@ -12768,7 +12993,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1378: {
+  1411: {
+    "id": "NAX3_02_TB",
+    "name": "Web Wrap",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1412: {
     "id": "BRMC_89",
     "name": "Whirling Ash",
     "cost": 2,
@@ -12777,14 +13009,21 @@ hs_cards['engb'] = {
     "set": 18,
     "type": 0
   },
-  1379: {
+  1413: {
     "id": "TBA01_5",
     "name": "Wild Magic",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1380: {
+  1414: {
+    "id": "BRMA13_4_2_TB",
+    "name": "Wild Magic",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1415: {
     "id": "AT_063",
     "name": "Acidmaw",
     "cost": 7,
@@ -12797,14 +13036,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1381: {
+  1416: {
     "id": "AT_071e",
     "name": "Alexstrasza's Boon",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1382: {
+  1417: {
     "id": "AT_071",
     "name": "Alexstrasza's Champion",
     "cost": 2,
@@ -12816,7 +13055,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1383: {
+  1418: {
     "id": "AT_035t",
     "name": "Ambush!",
     "cost": 0,
@@ -12824,7 +13063,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1384: {
+  1419: {
     "id": "AT_053",
     "name": "Ancestral Knowledge",
     "cost": 2,
@@ -12834,7 +13073,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1385: {
+  1420: {
     "id": "AT_036",
     "name": "Anub'arak",
     "cost": 9,
@@ -12846,7 +13085,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1386: {
+  1421: {
     "id": "AT_004",
     "name": "Arcane Blast",
     "cost": 1,
@@ -12856,7 +13095,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1387: {
+  1422: {
     "id": "AT_087",
     "name": "Argent Horserider",
     "cost": 3,
@@ -12867,7 +13106,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1388: {
+  1423: {
     "id": "AT_077",
     "name": "Argent Lance",
     "cost": 2,
@@ -12879,7 +13118,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1389: {
+  1424: {
     "id": "AT_109",
     "name": "Argent Watchman",
     "cost": 2,
@@ -12890,7 +13129,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1390: {
+  1425: {
     "id": "AT_108",
     "name": "Armored Warhorse",
     "cost": 4,
@@ -12902,7 +13141,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1391: {
+  1426: {
     "id": "AT_043",
     "name": "Astral Communion",
     "cost": 4,
@@ -12912,7 +13151,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1392: {
+  1427: {
     "id": "AT_045",
     "name": "Aviana",
     "cost": 9,
@@ -12924,7 +13163,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1393: {
+  1428: {
     "id": "AT_062",
     "name": "Ball of Spiders",
     "cost": 6,
@@ -12934,7 +13173,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1394: {
+  1429: {
     "id": "AT_132_HUNTER",
     "name": "Ballista Shot",
     "cost": 2,
@@ -12942,7 +13181,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1395: {
+  1430: {
     "id": "AT_064",
     "name": "Bash",
     "cost": 3,
@@ -12952,7 +13191,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1396: {
+  1431: {
     "id": "AT_060",
     "name": "Bear Trap",
     "cost": 2,
@@ -12962,7 +13201,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1397: {
+  1432: {
     "id": "AT_035",
     "name": "Beneath the Grounds",
     "cost": 3,
@@ -12972,7 +13211,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1398: {
+  1433: {
     "id": "AT_005t",
     "name": "Boar",
     "cost": 3,
@@ -12982,7 +13221,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1399: {
+  1434: {
     "id": "AT_124",
     "name": "Bolf Ramshield",
     "cost": 6,
@@ -12993,7 +13232,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1400: {
+  1435: {
     "id": "AT_068",
     "name": "Bolster",
     "cost": 2,
@@ -13003,14 +13242,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1401: {
+  1436: {
     "id": "AT_068e",
     "name": "Bolstered",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1402: {
+  1437: {
     "id": "AT_089",
     "name": "Boneguard Lieutenant",
     "cost": 2,
@@ -13021,13 +13260,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1403: {
+  1438: {
     "id": "AT_089e",
     "name": "Boneguarded",
     "set": 15,
     "type": 0
   },
-  1404: {
+  1439: {
     "id": "AT_059",
     "name": "Brave Archer",
     "cost": 1,
@@ -13039,14 +13278,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1405: {
+  1440: {
     "id": "AT_116e",
     "name": "Bring it on!",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1406: {
+  1441: {
     "id": "AT_029",
     "name": "Buccaneer",
     "cost": 1,
@@ -13059,7 +13298,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1407: {
+  1442: {
     "id": "AT_033",
     "name": "Burgle",
     "cost": 3,
@@ -13069,13 +13308,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1408: {
+  1443: {
     "id": "AT_041e",
     "name": "Call of the Wild",
     "set": 15,
     "type": 0
   },
-  1409: {
+  1444: {
     "id": "AT_102",
     "name": "Captured Jormungar",
     "cost": 7,
@@ -13087,13 +13326,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1410: {
+  1445: {
     "id": "AT_117e",
     "name": "Ceremony",
     "set": 15,
     "type": 0
   },
-  1411: {
+  1446: {
     "id": "AT_050",
     "name": "Charged Hammer",
     "cost": 4,
@@ -13105,13 +13344,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1412: {
+  1447: {
     "id": "AT_028e",
     "name": "Chi Lance",
     "set": 15,
     "type": 0
   },
-  1413: {
+  1448: {
     "id": "AT_123",
     "name": "Chillmaw",
     "cost": 7,
@@ -13123,7 +13362,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1414: {
+  1449: {
     "id": "AT_096",
     "name": "Clockwork Knight",
     "cost": 5,
@@ -13135,7 +13374,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1415: {
+  1450: {
     "id": "AT_008",
     "name": "Coldarra Drake",
     "cost": 6,
@@ -13148,7 +13387,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1416: {
+  1451: {
     "id": "AT_110",
     "name": "Coliseum Manager",
     "cost": 3,
@@ -13159,7 +13398,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1417: {
+  1452: {
     "id": "AT_073",
     "name": "Competitive Spirit",
     "cost": 1,
@@ -13169,13 +13408,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1418: {
+  1453: {
     "id": "AT_073e",
     "name": "Competitive Spirit",
     "set": 15,
     "type": 0
   },
-  1419: {
+  1454: {
     "id": "AT_018",
     "name": "Confessor Paletress",
     "cost": 7,
@@ -13187,7 +13426,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1420: {
+  1455: {
     "id": "AT_016",
     "name": "Confuse",
     "cost": 2,
@@ -13197,14 +13436,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1421: {
+  1456: {
     "id": "AT_016e",
     "name": "Confused",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1422: {
+  1457: {
     "id": "AT_015",
     "name": "Convert",
     "cost": 2,
@@ -13214,7 +13453,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1423: {
+  1458: {
     "id": "AT_121",
     "name": "Crowd Favorite",
     "cost": 4,
@@ -13225,7 +13464,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1424: {
+  1459: {
     "id": "AT_031",
     "name": "Cutpurse",
     "cost": 2,
@@ -13237,7 +13476,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1425: {
+  1460: {
     "id": "AT_006",
     "name": "Dalaran Aspirant",
     "cost": 4,
@@ -13249,7 +13488,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1426: {
+  1461: {
     "id": "AT_025",
     "name": "Dark Bargain",
     "cost": 6,
@@ -13259,13 +13498,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1427: {
+  1462: {
     "id": "AT_024e",
     "name": "Dark Fusion",
     "set": 15,
     "type": 0
   },
-  1428: {
+  1463: {
     "id": "AT_038",
     "name": "Darnassus Aspirant",
     "cost": 2,
@@ -13277,25 +13516,24 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1429: {
+  1464: {
     "id": "AT_024",
     "name": "Demonfuse",
     "cost": 2,
     "classs": 9,
     "collectible": 1,
-    "race": 15,
     "set": 15,
     "type": 0,
     "quality": 1
   },
-  1430: {
+  1465: {
     "id": "AT_132_DRUIDe",
     "name": "Dire Claws",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1431: {
+  1466: {
     "id": "AT_132_DRUID",
     "name": "Dire Shapeshift",
     "cost": 2,
@@ -13303,7 +13541,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1432: {
+  1467: {
     "id": "AT_047",
     "name": "Draenei Totemcarver",
     "cost": 4,
@@ -13315,7 +13553,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1433: {
+  1468: {
     "id": "AT_083",
     "name": "Dragonhawk Rider",
     "cost": 3,
@@ -13326,13 +13564,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1434: {
+  1469: {
     "id": "AT_083e",
     "name": "Dragonhawkery",
     "set": 15,
     "type": 0
   },
-  1435: {
+  1470: {
     "id": "AT_063t",
     "name": "Dreadscale",
     "cost": 3,
@@ -13345,7 +13583,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1436: {
+  1471: {
     "id": "AT_019",
     "name": "Dreadsteed",
     "cost": 4,
@@ -13358,7 +13596,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1437: {
+  1472: {
     "id": "AT_042",
     "name": "Druid of the Saber",
     "cost": 2,
@@ -13370,7 +13608,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1438: {
+  1473: {
     "id": "AT_081",
     "name": "Eadric the Pure",
     "cost": 7,
@@ -13382,7 +13620,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1439: {
+  1474: {
     "id": "AT_002",
     "name": "Effigy",
     "cost": 3,
@@ -13392,7 +13630,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1440: {
+  1475: {
     "id": "AT_051",
     "name": "Elemental Destruction",
     "cost": 3,
@@ -13402,13 +13640,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1441: {
+  1476: {
     "id": "AT_045e",
     "name": "Empowering Mist",
     "set": 15,
     "type": 0
   },
-  1442: {
+  1477: {
     "id": "AT_078",
     "name": "Enter the Coliseum",
     "cost": 6,
@@ -13418,13 +13656,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1443: {
+  1478: {
     "id": "AT_084e",
     "name": "Equipped",
     "set": 15,
     "type": 0
   },
-  1444: {
+  1479: {
     "id": "AT_114",
     "name": "Evil Heckler",
     "cost": 4,
@@ -13435,26 +13673,26 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1445: {
+  1480: {
     "id": "AT_047e",
     "name": "Experienced",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1446: {
+  1481: {
     "id": "AT_077e",
     "name": "Extra Poke",
     "set": 15,
     "type": 0
   },
-  1447: {
+  1482: {
     "id": "AT_029e",
     "name": "Extra Stabby",
     "set": 15,
     "type": 0
   },
-  1448: {
+  1483: {
     "id": "AT_131",
     "name": "Eydis Darkbane",
     "cost": 3,
@@ -13465,7 +13703,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1449: {
+  1484: {
     "id": "AT_003",
     "name": "Fallen Hero",
     "cost": 2,
@@ -13477,7 +13715,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1450: {
+  1485: {
     "id": "AT_020",
     "name": "Fearsome Doomguard",
     "cost": 7,
@@ -13490,14 +13728,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1451: {
+  1486: {
     "id": "AT_021e",
     "name": "Felrage",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1452: {
+  1487: {
     "id": "AT_115",
     "name": "Fencing Coach",
     "cost": 3,
@@ -13508,13 +13746,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1453: {
+  1488: {
     "id": "AT_115e",
     "name": "Fencing Practice",
     "set": 15,
     "type": 0
   },
-  1454: {
+  1489: {
     "id": "AT_132_MAGE",
     "name": "Fireblast Rank 2",
     "cost": 2,
@@ -13522,7 +13760,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1455: {
+  1490: {
     "id": "AT_022",
     "name": "Fist of Jaraxxus",
     "cost": 4,
@@ -13532,7 +13770,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1456: {
+  1491: {
     "id": "AT_129",
     "name": "Fjola Lightbane",
     "cost": 3,
@@ -13543,7 +13781,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1457: {
+  1492: {
     "id": "AT_094",
     "name": "Flame Juggler",
     "cost": 2,
@@ -13554,7 +13792,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1458: {
+  1493: {
     "id": "AT_001",
     "name": "Flame Lance",
     "cost": 5,
@@ -13564,7 +13802,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1459: {
+  1494: {
     "id": "AT_055",
     "name": "Flash Heal",
     "cost": 1,
@@ -13574,14 +13812,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1460: {
+  1495: {
     "id": "AT_066e",
     "name": "Forges of Orgrimmar",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1461: {
+  1496: {
     "id": "AT_093",
     "name": "Frigid Snobold",
     "cost": 4,
@@ -13592,7 +13830,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1462: {
+  1497: {
     "id": "AT_120",
     "name": "Frost Giant",
     "cost": 10,
@@ -13603,7 +13841,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1463: {
+  1498: {
     "id": "AT_133",
     "name": "Gadgetzan Jouster",
     "cost": 1,
@@ -13614,7 +13852,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1464: {
+  1499: {
     "id": "AT_080",
     "name": "Garrison Commander",
     "cost": 2,
@@ -13625,7 +13863,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1465: {
+  1500: {
     "id": "AT_122",
     "name": "Gormok the Impaler",
     "cost": 4,
@@ -13636,7 +13874,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1466: {
+  1501: {
     "id": "AT_118",
     "name": "Grand Crusader",
     "cost": 6,
@@ -13647,14 +13885,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1467: {
+  1502: {
     "id": "AT_057o",
     "name": "Groomed",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1468: {
+  1503: {
     "id": "AT_132_PRIEST",
     "name": "Heal",
     "cost": 2,
@@ -13662,7 +13900,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1469: {
+  1504: {
     "id": "AT_132_SHAMANa",
     "name": "Healing Totem",
     "cost": 0,
@@ -13672,7 +13910,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1470: {
+  1505: {
     "id": "AT_048",
     "name": "Healing Wave",
     "cost": 3,
@@ -13682,7 +13920,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1471: {
+  1506: {
     "id": "AT_011",
     "name": "Holy Champion",
     "cost": 4,
@@ -13694,13 +13932,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1472: {
+  1507: {
     "id": "AT_121e",
     "name": "Huge Ego",
     "set": 15,
     "type": 0
   },
-  1473: {
+  1508: {
     "id": "AT_092",
     "name": "Ice Rager",
     "cost": 3,
@@ -13711,7 +13949,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1474: {
+  1509: {
     "id": "AT_125",
     "name": "Icehowl",
     "cost": 9,
@@ -13722,7 +13960,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1475: {
+  1510: {
     "id": "AT_105",
     "name": "Injured Kvaldir",
     "cost": 1,
@@ -13733,19 +13971,19 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1476: {
+  1511: {
     "id": "AT_109e",
     "name": "Inspired",
     "set": 15,
     "type": 0
   },
-  1477: {
+  1512: {
     "id": "AT_119e",
     "name": "Inspired",
     "set": 15,
     "type": 0
   },
-  1478: {
+  1513: {
     "id": "AT_132",
     "name": "Justicar Trueheart",
     "cost": 6,
@@ -13756,20 +13994,20 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1479: {
+  1514: {
     "id": "AT_040e",
     "name": "Kindred Spirit",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1480: {
+  1515: {
     "id": "AT_065e",
     "name": "King's Defender",
     "set": 15,
     "type": 0
   },
-  1481: {
+  1516: {
     "id": "AT_065",
     "name": "King's Defender",
     "cost": 3,
@@ -13781,7 +14019,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1482: {
+  1517: {
     "id": "AT_058",
     "name": "King's Elekk",
     "cost": 2,
@@ -13794,7 +14032,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1483: {
+  1518: {
     "id": "AT_041",
     "name": "Knight of the Wild",
     "cost": 7,
@@ -13806,7 +14044,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1484: {
+  1519: {
     "id": "AT_099",
     "name": "Kodorider",
     "cost": 6,
@@ -13817,7 +14055,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1485: {
+  1520: {
     "id": "AT_119",
     "name": "Kvaldir Raider",
     "cost": 5,
@@ -13828,14 +14066,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1486: {
+  1521: {
     "id": "AT_034e",
     "name": "Laced",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1487: {
+  1522: {
     "id": "AT_084",
     "name": "Lance Carrier",
     "cost": 2,
@@ -13846,13 +14084,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1488: {
+  1523: {
     "id": "AT_011e",
     "name": "Light's Blessing",
     "set": 15,
     "type": 0
   },
-  1489: {
+  1524: {
     "id": "AT_106",
     "name": "Light's Champion",
     "cost": 3,
@@ -13863,7 +14101,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1490: {
+  1525: {
     "id": "AT_050t",
     "name": "Lightning Jolt",
     "cost": 2,
@@ -13871,7 +14109,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1491: {
+  1526: {
     "id": "AT_042a",
     "name": "Lion Form",
     "classs": 11,
@@ -13879,19 +14117,19 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1492: {
+  1527: {
     "id": "AT_037b",
     "name": "Living Roots",
     "set": 15,
     "type": 0
   },
-  1493: {
+  1528: {
     "id": "AT_037a",
     "name": "Living Roots",
     "set": 15,
     "type": 0
   },
-  1494: {
+  1529: {
     "id": "AT_037",
     "name": "Living Roots",
     "cost": 1,
@@ -13901,7 +14139,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1495: {
+  1530: {
     "id": "AT_061",
     "name": "Lock and Load",
     "cost": 2,
@@ -13911,14 +14149,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1496: {
+  1531: {
     "id": "AT_061e",
     "name": "Lock and Load",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1497: {
+  1532: {
     "id": "AT_082",
     "name": "Lowly Squire",
     "cost": 1,
@@ -13929,7 +14167,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1498: {
+  1533: {
     "id": "AT_067",
     "name": "Magnataur Alpha",
     "cost": 4,
@@ -13941,7 +14179,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1499: {
+  1534: {
     "id": "AT_085",
     "name": "Maiden of the Lake",
     "cost": 4,
@@ -13952,7 +14190,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1500: {
+  1535: {
     "id": "AT_112",
     "name": "Master Jouster",
     "cost": 6,
@@ -13963,14 +14201,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1501: {
-    "id": "AT_027e",
-    "name": "Master Summoner",
-    "classs": 9,
-    "set": 15,
-    "type": 0
-  },
-  1502: {
+  1536: {
     "id": "AT_117",
     "name": "Master of Ceremonies",
     "cost": 3,
@@ -13981,26 +14212,33 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1503: {
+  1537: {
+    "id": "AT_027e",
+    "name": "Master Summoner",
+    "classs": 9,
+    "set": 15,
+    "type": 0
+  },
+  1538: {
     "id": "AT_075e",
     "name": "Might of the Hostler",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1504: {
+  1539: {
     "id": "AT_090e",
     "name": "Might of the Monkey",
     "set": 15,
     "type": 0
   },
-  1505: {
+  1540: {
     "id": "AT_045ee",
     "name": "Mistcaller Deck Ench",
     "set": 15,
     "type": 0
   },
-  1506: {
+  1541: {
     "id": "AT_088",
     "name": "Mogor's Champion",
     "cost": 6,
@@ -14011,7 +14249,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1507: {
+  1542: {
     "id": "AT_090",
     "name": "Mukla's Champion",
     "cost": 5,
@@ -14023,7 +14261,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1508: {
+  1543: {
     "id": "AT_044",
     "name": "Mulch",
     "cost": 3,
@@ -14033,7 +14271,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1509: {
+  1544: {
     "id": "AT_076",
     "name": "Murloc Knight",
     "cost": 4,
@@ -14046,7 +14284,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1510: {
+  1545: {
     "id": "AT_079",
     "name": "Mysterious Challenger",
     "cost": 6,
@@ -14058,7 +14296,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1511: {
+  1546: {
     "id": "AT_036t",
     "name": "Nerubian",
     "cost": 3,
@@ -14068,7 +14306,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1512: {
+  1547: {
     "id": "AT_127",
     "name": "Nexus-Champion Saraad",
     "cost": 5,
@@ -14079,7 +14317,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1513: {
+  1548: {
     "id": "AT_103",
     "name": "North Sea Kraken",
     "cost": 9,
@@ -14090,7 +14328,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1514: {
+  1549: {
     "id": "AT_066",
     "name": "Orgrimmar Aspirant",
     "cost": 3,
@@ -14102,7 +14340,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1515: {
+  1550: {
     "id": "AT_042b",
     "name": "Panther Form",
     "classs": 11,
@@ -14110,7 +14348,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1516: {
+  1551: {
     "id": "AT_101",
     "name": "Pit Fighter",
     "cost": 5,
@@ -14121,7 +14359,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1517: {
+  1552: {
     "id": "AT_034",
     "name": "Poisoned Blade",
     "cost": 4,
@@ -14133,7 +14371,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1518: {
+  1553: {
     "id": "AT_132_ROGUEt",
     "name": "Poisoned Dagger",
     "cost": 1,
@@ -14143,7 +14381,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1519: {
+  1554: {
     "id": "AT_132_ROGUE",
     "name": "Poisoned Daggers",
     "cost": 2,
@@ -14151,7 +14389,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1520: {
+  1555: {
     "id": "AT_005",
     "name": "Polymorph: Boar",
     "cost": 3,
@@ -14161,13 +14399,27 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1521: {
+  1556: {
+    "id": "AT_006e",
+    "name": "Power of Dalaran",
+    "classs": 8,
+    "set": 15,
+    "type": 0
+  },
+  1557: {
+    "id": "AT_049e",
+    "name": "Power of the Bluff",
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1558: {
     "id": "AT_013e",
     "name": "Power Word: Glory",
     "set": 15,
     "type": 0
   },
-  1522: {
+  1559: {
     "id": "AT_013",
     "name": "Power Word: Glory",
     "cost": 1,
@@ -14177,21 +14429,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1523: {
-    "id": "AT_006e",
-    "name": "Power of Dalaran",
-    "classs": 8,
-    "set": 15,
-    "type": 0
-  },
-  1524: {
-    "id": "AT_049e",
-    "name": "Power of the Bluff",
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1525: {
+  1560: {
     "id": "AT_056",
     "name": "Powershot",
     "cost": 3,
@@ -14201,14 +14439,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1526: {
+  1561: {
     "id": "AT_081e",
     "name": "Purified",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1527: {
+  1562: {
     "id": "AT_010",
     "name": "Ram Wrangler",
     "cost": 5,
@@ -14220,7 +14458,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1528: {
+  1563: {
     "id": "AT_113",
     "name": "Recruiter",
     "cost": 5,
@@ -14231,7 +14469,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1529: {
+  1564: {
     "id": "AT_111",
     "name": "Refreshment Vendor",
     "cost": 4,
@@ -14242,7 +14480,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1530: {
+  1565: {
     "id": "AT_009",
     "name": "Rhonin",
     "cost": 8,
@@ -14254,7 +14492,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1531: {
+  1566: {
     "id": "AT_042t",
     "name": "Sabertooth Lion",
     "cost": 2,
@@ -14266,7 +14504,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1532: {
+  1567: {
     "id": "AT_042t2",
     "name": "Sabertooth Panther",
     "cost": 2,
@@ -14278,7 +14516,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1533: {
+  1568: {
     "id": "AT_086",
     "name": "Saboteur",
     "cost": 3,
@@ -14289,23 +14527,24 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1534: {
+  1569: {
     "id": "AT_037t",
     "name": "Sapling",
     "cost": 1,
     "attack": 1,
     "health": 1,
+    "classs": 11,
     "set": 15,
     "type": 0
   },
-  1535: {
+  1570: {
     "id": "AT_039e",
     "name": "Savage",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1536: {
+  1571: {
     "id": "AT_039",
     "name": "Savage Combatant",
     "cost": 4,
@@ -14318,7 +14557,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1537: {
+  1572: {
     "id": "AT_130",
     "name": "Sea Reaver",
     "cost": 6,
@@ -14330,7 +14569,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1538: {
+  1573: {
     "id": "AT_074",
     "name": "Seal of Champions",
     "cost": 3,
@@ -14340,14 +14579,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1539: {
+  1574: {
     "id": "AT_074e2",
     "name": "Seal of Champions",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1540: {
+  1575: {
     "id": "AT_132_SHAMANb",
     "name": "Searing Totem",
     "cost": 0,
@@ -14357,7 +14596,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1541: {
+  1576: {
     "id": "AT_028",
     "name": "Shado-Pan Rider",
     "cost": 5,
@@ -14369,7 +14608,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1542: {
+  1577: {
     "id": "AT_014",
     "name": "Shadowfiend",
     "cost": 3,
@@ -14381,14 +14620,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1543: {
+  1578: {
     "id": "AT_014e",
     "name": "Shadowfiended",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1544: {
+  1579: {
     "id": "AT_032",
     "name": "Shady Dealer",
     "cost": 3,
@@ -14400,14 +14639,14 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1545: {
+  1580: {
     "id": "AT_032e",
     "name": "Shady Deals",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1546: {
+  1581: {
     "id": "AT_098",
     "name": "Sideshow Spelleater",
     "cost": 6,
@@ -14418,7 +14657,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1547: {
+  1582: {
     "id": "AT_095",
     "name": "Silent Knight",
     "cost": 3,
@@ -14429,7 +14668,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1548: {
+  1583: {
     "id": "AT_100",
     "name": "Silver Hand Regent",
     "cost": 3,
@@ -14440,7 +14679,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1549: {
+  1584: {
     "id": "AT_070",
     "name": "Skycap'n Kragg",
     "cost": 7,
@@ -14452,7 +14691,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1550: {
+  1585: {
     "id": "AT_132_WARLOCK",
     "name": "Soul Tap",
     "cost": 2,
@@ -14460,7 +14699,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1551: {
+  1586: {
     "id": "AT_069",
     "name": "Sparring Partner",
     "cost": 2,
@@ -14472,7 +14711,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1552: {
+  1587: {
     "id": "AT_012",
     "name": "Spawn of Shadows",
     "cost": 4,
@@ -14484,7 +14723,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1553: {
+  1588: {
     "id": "AT_007",
     "name": "Spellslinger",
     "cost": 3,
@@ -14496,7 +14735,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1554: {
+  1589: {
     "id": "AT_057",
     "name": "Stablemaster",
     "cost": 3,
@@ -14508,7 +14747,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1555: {
+  1590: {
     "id": "AT_132_SHAMANc",
     "name": "Stoneclaw Totem",
     "cost": 0,
@@ -14518,7 +14757,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1556: {
+  1591: {
     "id": "AT_132_WARRIOR",
     "name": "Tank Up!",
     "cost": 2,
@@ -14526,7 +14765,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1557: {
+  1592: {
     "id": "AT_054",
     "name": "The Mistcaller",
     "cost": 6,
@@ -14538,7 +14777,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1558: {
+  1593: {
     "id": "AT_132_PALADIN",
     "name": "The Silver Hand",
     "cost": 2,
@@ -14546,7 +14785,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1559: {
+  1594: {
     "id": "AT_128",
     "name": "The Skeleton Knight",
     "cost": 6,
@@ -14557,7 +14796,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1560: {
+  1595: {
     "id": "AT_049",
     "name": "Thunder Bluff Valiant",
     "cost": 5,
@@ -14569,7 +14808,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1561: {
+  1596: {
     "id": "AT_021",
     "name": "Tiny Knight of Evil",
     "cost": 2,
@@ -14582,7 +14821,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1562: {
+  1597: {
     "id": "AT_052",
     "name": "Totem Golem",
     "cost": 2,
@@ -14595,7 +14834,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1563: {
+  1598: {
     "id": "AT_132_SHAMAN",
     "name": "Totemic Slam",
     "cost": 2,
@@ -14603,7 +14842,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1564: {
+  1599: {
     "id": "AT_097",
     "name": "Tournament Attendee",
     "cost": 1,
@@ -14614,7 +14853,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1565: {
+  1600: {
     "id": "AT_091",
     "name": "Tournament Medic",
     "cost": 4,
@@ -14625,20 +14864,20 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1566: {
+  1601: {
     "id": "AT_082e",
     "name": "Training",
     "set": 15,
     "type": 0
   },
-  1567: {
+  1602: {
     "id": "AT_069e",
     "name": "Training Complete",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1568: {
+  1603: {
     "id": "AT_104",
     "name": "Tuskarr Jouster",
     "cost": 5,
@@ -14650,7 +14889,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1569: {
+  1604: {
     "id": "AT_046",
     "name": "Tuskarr Totemic",
     "cost": 3,
@@ -14662,7 +14901,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1570: {
+  1605: {
     "id": "AT_017",
     "name": "Twilight Guardian",
     "cost": 4,
@@ -14674,13 +14913,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 3
   },
-  1571: {
+  1606: {
     "id": "AT_017e",
     "name": "Twilight's Embrace",
     "set": 15,
     "type": 0
   },
-  1572: {
+  1607: {
     "id": "AT_030",
     "name": "Undercity Valiant",
     "cost": 2,
@@ -14692,7 +14931,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1573: {
+  1608: {
     "id": "AT_072",
     "name": "Varian Wrynn",
     "cost": 10,
@@ -14704,19 +14943,19 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1574: {
+  1609: {
     "id": "AT_133e",
     "name": "Victory!",
     "set": 15,
     "type": 0
   },
-  1575: {
+  1610: {
     "id": "AT_086e",
     "name": "Villainy",
     "set": 15,
     "type": 0
   },
-  1576: {
+  1611: {
     "id": "AT_023",
     "name": "Void Crusher",
     "cost": 6,
@@ -14729,7 +14968,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-  1577: {
+  1612: {
     "id": "AT_099t",
     "name": "War Kodo",
     "cost": 5,
@@ -14739,7 +14978,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1578: {
+  1613: {
     "id": "AT_075",
     "name": "Warhorse Trainer",
     "cost": 3,
@@ -14751,7 +14990,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1579: {
+  1614: {
     "id": "AT_040",
     "name": "Wildwalker",
     "cost": 4,
@@ -14763,7 +15002,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1580: {
+  1615: {
     "id": "AT_027",
     "name": "Wilfred Fizzlebang",
     "cost": 6,
@@ -14775,13 +15014,13 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 4
   },
-  1581: {
+  1616: {
     "id": "AT_096e",
     "name": "Wound Up",
     "set": 15,
     "type": 0
   },
-  1582: {
+  1617: {
     "id": "AT_132_SHAMANd",
     "name": "Wrath of Air Totem",
     "cost": 0,
@@ -14791,7 +15030,7 @@ hs_cards['engb'] = {
     "set": 15,
     "type": 0
   },
-  1583: {
+  1618: {
     "id": "AT_026",
     "name": "Wrathguard",
     "cost": 2,
@@ -14804,7 +15043,7 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 1
   },
-  1584: {
+  1619: {
     "id": "AT_116",
     "name": "Wyrmrest Agent",
     "cost": 2,
@@ -14816,4 +15055,4 @@ hs_cards['engb'] = {
     "type": 0,
     "quality": 2
   },
-}; // 1584 cards
+}; // 1619 cards

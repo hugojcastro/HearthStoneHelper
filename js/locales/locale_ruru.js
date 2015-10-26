@@ -78,6 +78,7 @@ texts["ruru"] = {
 	"localekokr" : "한국의",
 	"localezhcn" : "普通話",
 	"localezhtw" : "国语",
+	"localejajp" : "日本語",
 	"minion"     : "Существо",
 	"spell"      : "Заклинание",
 	"weapon"     : "Оружие",

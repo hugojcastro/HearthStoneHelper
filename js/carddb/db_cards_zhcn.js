@@ -122,16 +122,16 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   12: {
-    "id": "DS1_178e",
+    "id": "CS2_103e2",
     "name": "冲锋",
-    "classs": 3,
+    "classs": 1,
     "set": 2,
     "type": 0
   },
   13: {
-    "id": "CS2_103e2",
+    "id": "DS1_178e",
     "name": "冲锋",
-    "classs": 1,
+    "classs": 3,
     "set": 2,
     "type": 0
   },
@@ -215,6 +215,13 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   22: {
+    "id": "CS2_087e",
+    "name": "力量祝福",
+    "classs": 2,
+    "set": 2,
+    "type": 0
+  },
+  23: {
     "id": "CS2_087",
     "name": "力量祝福",
     "cost": 1,
@@ -223,13 +230,6 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  23: {
-    "id": "CS2_087e",
-    "name": "力量祝福",
-    "classs": 2,
-    "set": 2,
-    "type": 0
   },
   24: {
     "id": "HERO_01",
@@ -282,14 +282,6 @@ hs_cards['zhcn'] = {
     "quality": 0
   },
   29: {
-    "id": "CS2_022e",
-    "name": "变形术",
-    "classs": 8,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  30: {
     "id": "CS2_022",
     "name": "变形术",
     "cost": 4,
@@ -298,6 +290,14 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  30: {
+    "id": "CS2_022e",
+    "name": "变形术",
+    "classs": 8,
+    "set": 2,
+    "type": 0,
+    "quality": 1
   },
   31: {
     "id": "HERO_07",
@@ -341,6 +341,13 @@ hs_cards['zhcn'] = {
     "quality": 0
   },
   35: {
+    "id": "CS2_046e",
+    "name": "嗜血",
+    "classs": 7,
+    "set": 2,
+    "type": 0
+  },
+  36: {
     "id": "CS2_046",
     "name": "嗜血",
     "cost": 5,
@@ -349,13 +356,6 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  36: {
-    "id": "CS2_046e",
-    "name": "嗜血",
-    "classs": 7,
-    "set": 2,
-    "type": 0
   },
   37: {
     "id": "CS2_122",
@@ -369,13 +369,6 @@ hs_cards['zhcn'] = {
     "quality": 0
   },
   38: {
-    "id": "EX1_244e",
-    "name": "图腾之力",
-    "classs": 7,
-    "set": 2,
-    "type": 0
-  },
-  39: {
     "id": "EX1_244",
     "name": "图腾之力",
     "cost": 0,
@@ -384,6 +377,13 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  39: {
+    "id": "EX1_244e",
+    "name": "图腾之力",
+    "classs": 7,
+    "set": 2,
+    "type": 0
   },
   40: {
     "id": "CS2_049",
@@ -628,13 +628,13 @@ hs_cards['zhcn'] = {
     "quality": 0
   },
   65: {
-    "id": "GAME_003",
+    "id": "GAME_003e",
     "name": "幸运币复仇",
     "set": 2,
     "type": 0
   },
   66: {
-    "id": "GAME_003e",
+    "id": "GAME_003",
     "name": "幸运币复仇",
     "set": 2,
     "type": 0
@@ -1227,6 +1227,13 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   126: {
+    "id": "CS2_092e",
+    "name": "王者祝福",
+    "classs": 2,
+    "set": 2,
+    "type": 0
+  },
+  127: {
     "id": "CS2_092",
     "name": "王者祝福",
     "cost": 4,
@@ -1235,13 +1242,6 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  127: {
-    "id": "CS2_092e",
-    "name": "王者祝福",
-    "classs": 2,
-    "set": 2,
-    "type": 0
   },
   128: {
     "id": "HERO_06",
@@ -1304,6 +1304,13 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   134: {
+    "id": "CS2_004e",
+    "name": "真言术：盾",
+    "classs": 5,
+    "set": 2,
+    "type": 0
+  },
+  135: {
     "id": "CS2_004",
     "name": "真言术：盾",
     "cost": 1,
@@ -1312,13 +1319,6 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  135: {
-    "id": "CS2_004e",
-    "name": "真言术：盾",
-    "classs": 5,
-    "set": 2,
-    "type": 0
   },
   136: {
     "id": "CS2_097",
@@ -1396,13 +1396,6 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   143: {
-    "id": "CS2_236e",
-    "name": "神圣之灵",
-    "classs": 5,
-    "set": 2,
-    "type": 0
-  },
-  144: {
     "id": "CS2_236",
     "name": "神圣之灵",
     "cost": 2,
@@ -1411,6 +1404,13 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  144: {
+    "id": "CS2_236e",
+    "name": "神圣之灵",
+    "classs": 5,
+    "set": 2,
+    "type": 0
   },
   145: {
     "id": "CS1_130",
@@ -1495,19 +1495,19 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   153: {
-    "id": "CS1_113e",
-    "name": "精神控制",
-    "classs": 5,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  154: {
     "id": "CS1_113",
     "name": "精神控制",
     "cost": 10,
     "classs": 5,
     "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  154: {
+    "id": "CS1_113e",
+    "name": "精神控制",
+    "classs": 5,
     "set": 2,
     "type": 0,
     "quality": 1
@@ -1563,12 +1563,6 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   160: {
-    "id": "CS2_074e",
-    "name": "致命药膏",
-    "set": 2,
-    "type": 0
-  },
-  161: {
     "id": "CS2_074",
     "name": "致命药膏",
     "cost": 1,
@@ -1577,6 +1571,12 @@ hs_cards['zhcn'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  161: {
+    "id": "CS2_074e",
+    "name": "致命药膏",
+    "set": 2,
+    "type": 0
   },
   162: {
     "id": "DS1_178",
@@ -2107,14 +2107,14 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   212: {
-    "id": "BRMA04_4H",
+    "id": "BRMA04_4",
     "name": "乱石滚动",
     "cost": 3,
     "set": 14,
     "type": 0
   },
   213: {
-    "id": "BRMA04_4",
+    "id": "BRMA04_4H",
     "name": "乱石滚动",
     "cost": 3,
     "set": 14,
@@ -2128,20 +2128,6 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   215: {
-    "id": "BRMA12_1",
-    "name": "克洛玛古斯",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  216: {
-    "id": "BRMA12_1H",
-    "name": "克洛玛古斯",
-    "health": 60,
-    "set": 14,
-    "type": 0
-  },
-  217: {
     "id": "BRM_031",
     "name": "克洛玛古斯",
     "cost": 8,
@@ -2153,37 +2139,51 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  218: {
-    "id": "BRMA14_1H",
-    "name": "全能金刚防御系统",
+  216: {
+    "id": "BRMA12_1",
+    "name": "克洛玛古斯",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  219: {
+  217: {
+    "id": "BRMA12_1H",
+    "name": "克洛玛古斯",
+    "health": 60,
+    "set": 14,
+    "type": 0
+  },
+  218: {
     "id": "BRMA14_1",
     "name": "全能金刚防御系统",
     "health": 30,
     "set": 14,
     "type": 0
   },
+  219: {
+    "id": "BRMA14_1H",
+    "name": "全能金刚防御系统",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
   220: {
-    "id": "BRMA14_5",
+    "id": "BRMA14_5H",
     "name": "剧毒金刚",
     "cost": 1,
-    "attack": 3,
-    "health": 3,
+    "attack": 4,
+    "health": 4,
     "race": 17,
     "set": 14,
     "type": 0,
     "quality": 4
   },
   221: {
-    "id": "BRMA14_5H",
+    "id": "BRMA14_5",
     "name": "剧毒金刚",
     "cost": 1,
-    "attack": 4,
-    "health": 4,
+    "attack": 3,
+    "health": 3,
     "race": 17,
     "set": 14,
     "type": 0,
@@ -2196,16 +2196,16 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   223: {
-    "id": "BRMA04_1",
+    "id": "BRMA04_1H",
     "name": "加尔",
-    "health": 30,
+    "health": 45,
     "set": 14,
     "type": 0
   },
   224: {
-    "id": "BRMA04_1H",
+    "id": "BRMA04_1",
     "name": "加尔",
-    "health": 45,
+    "health": 30,
     "set": 14,
     "type": 0
   },
@@ -2224,28 +2224,28 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   227: {
-    "id": "BRMA16_2H",
-    "name": "回音定位",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  228: {
     "id": "BRMA16_2",
     "name": "回音定位",
     "cost": 1,
     "set": 14,
     "type": 0
   },
+  228: {
+    "id": "BRMA16_2H",
+    "name": "回音定位",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
   229: {
-    "id": "BRMA11_1",
+    "id": "BRMA11_1H",
     "name": "堕落的瓦拉斯塔兹",
     "health": 30,
     "set": 14,
     "type": 0
   },
   230: {
-    "id": "BRMA11_1H",
+    "id": "BRMA11_1",
     "name": "堕落的瓦拉斯塔兹",
     "health": 30,
     "set": 14,
@@ -2306,21 +2306,21 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   237: {
-    "id": "BRMA17_7",
-    "name": "多彩龙人",
-    "cost": 2,
-    "attack": 1,
-    "health": 4,
-    "set": 14,
-    "type": 0
-  },
-  238: {
     "id": "BRMA12_8t",
     "name": "多彩龙人",
     "cost": 2,
     "attack": 2,
     "health": 3,
     "race": 24,
+    "set": 14,
+    "type": 0
+  },
+  238: {
+    "id": "BRMA17_7",
+    "name": "多彩龙人",
+    "cost": 2,
+    "attack": 1,
+    "health": 4,
     "set": 14,
     "type": 0
   },
@@ -2335,21 +2335,21 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   240: {
-    "id": "BRMA17_2H",
-    "name": "奈法利安",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  241: {
     "id": "BRMA13_3",
     "name": "奈法利安",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  242: {
+  241: {
     "id": "BRMA13_3H",
+    "name": "奈法利安",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  242: {
+    "id": "BRMA17_2H",
     "name": "奈法利安",
     "health": 30,
     "set": 14,
@@ -2510,14 +2510,14 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   261: {
-    "id": "BRMA09_2H",
+    "id": "BRMA09_2",
     "name": "打开大门",
     "cost": 2,
     "set": 14,
     "type": 0
   },
   262: {
-    "id": "BRMA09_2",
+    "id": "BRMA09_2H",
     "name": "打开大门",
     "cost": 2,
     "set": 14,
@@ -2566,34 +2566,34 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   268: {
-    "id": "BRMA09_3H",
-    "name": "旧部落",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  269: {
     "id": "BRMA09_3",
     "name": "旧部落",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  270: {
-    "id": "BRMA09_3t",
-    "name": "旧部落兽人",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
+  269: {
+    "id": "BRMA09_3H",
+    "name": "旧部落",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
-  271: {
+  270: {
     "id": "BRMA09_3Ht",
     "name": "旧部落兽人",
     "cost": 1,
     "attack": 2,
     "health": 2,
+    "set": 14,
+    "type": 0
+  },
+  271: {
+    "id": "BRMA09_3t",
+    "name": "旧部落兽人",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
     "set": 14,
     "type": 0
   },
@@ -2617,14 +2617,14 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   274: {
-    "id": "BRMA07_1H",
+    "id": "BRMA07_1",
     "name": "欧莫克大王",
     "health": 30,
     "set": 14,
     "type": 0
   },
   275: {
-    "id": "BRMA07_1",
+    "id": "BRMA07_1H",
     "name": "欧莫克大王",
     "health": 30,
     "set": 14,
@@ -2638,41 +2638,41 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   277: {
-    "id": "BRM_027pH",
-    "name": "死吧，卑鄙的家伙！",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  278: {
     "id": "BRM_027p",
     "name": "死吧，卑鄙的家伙！",
     "cost": 2,
     "set": 14,
     "type": 0
   },
+  278: {
+    "id": "BRM_027pH",
+    "name": "死吧，卑鄙的家伙！",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
   279: {
-    "id": "BRMA05_3",
+    "id": "BRMA05_3He",
     "name": "活体炸弹",
-    "cost": 4,
     "set": 14,
     "type": 0
   },
   280: {
-    "id": "BRMA05_3e",
-    "name": "活体炸弹",
-    "set": 14,
-    "type": 0
-  },
-  281: {
     "id": "BRMA05_3H",
     "name": "活体炸弹",
     "cost": 3,
     "set": 14,
     "type": 0
   },
+  281: {
+    "id": "BRMA05_3",
+    "name": "活体炸弹",
+    "cost": 4,
+    "set": 14,
+    "type": 0
+  },
   282: {
-    "id": "BRMA05_3He",
+    "id": "BRMA05_3e",
     "name": "活体炸弹",
     "set": 14,
     "type": 0
@@ -2687,72 +2687,72 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   284: {
-    "id": "BRMA14_4",
-    "name": "激活剧毒金刚",
+    "id": "BRMA14_10",
+    "name": "激活！",
     "cost": 4,
     "set": 14,
     "type": 0
   },
   285: {
-    "id": "BRMA14_4H",
-    "name": "激活剧毒金刚",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  286: {
-    "id": "BRMA14_2",
-    "name": "激活奥能金刚",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  287: {
-    "id": "BRMA14_2H",
-    "name": "激活奥能金刚",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  288: {
-    "id": "BRMA14_8H",
-    "name": "激活熔岩金刚",
-    "cost": 6,
-    "set": 14,
-    "type": 0
-  },
-  289: {
-    "id": "BRMA14_8",
-    "name": "激活熔岩金刚",
-    "cost": 8,
-    "set": 14,
-    "type": 0
-  },
-  290: {
-    "id": "BRMA14_6",
-    "name": "激活电荷金刚",
-    "cost": 6,
-    "set": 14,
-    "type": 0
-  },
-  291: {
-    "id": "BRMA14_6H",
-    "name": "激活电荷金刚",
-    "cost": 4,
-    "set": 14,
-    "type": 0
-  },
-  292: {
     "id": "BRMA14_10H",
     "name": "激活！",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  293: {
-    "id": "BRMA14_10",
-    "name": "激活！",
+  286: {
+    "id": "BRMA14_4",
+    "name": "激活剧毒金刚",
     "cost": 4,
+    "set": 14,
+    "type": 0
+  },
+  287: {
+    "id": "BRMA14_4H",
+    "name": "激活剧毒金刚",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  288: {
+    "id": "BRMA14_2",
+    "name": "激活奥能金刚",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  289: {
+    "id": "BRMA14_2H",
+    "name": "激活奥能金刚",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
+  290: {
+    "id": "BRMA14_8H",
+    "name": "激活熔岩金刚",
+    "cost": 6,
+    "set": 14,
+    "type": 0
+  },
+  291: {
+    "id": "BRMA14_8",
+    "name": "激活熔岩金刚",
+    "cost": 8,
+    "set": 14,
+    "type": 0
+  },
+  292: {
+    "id": "BRMA14_6H",
+    "name": "激活电荷金刚",
+    "cost": 4,
+    "set": 14,
+    "type": 0
+  },
+  293: {
+    "id": "BRMA14_6",
+    "name": "激活电荷金刚",
+    "cost": 6,
     "set": 14,
     "type": 0
   },
@@ -2769,15 +2769,6 @@ hs_cards['zhcn'] = {
     "quality": 2
   },
   295: {
-    "id": "BRMA06_4H",
-    "name": "火妖卫士",
-    "cost": 2,
-    "attack": 3,
-    "health": 3,
-    "set": 14,
-    "type": 0
-  },
-  296: {
     "id": "BRMA06_4",
     "name": "火妖卫士",
     "cost": 2,
@@ -2786,15 +2777,24 @@ hs_cards['zhcn'] = {
     "set": 14,
     "type": 0
   },
+  296: {
+    "id": "BRMA06_4H",
+    "name": "火妖卫士",
+    "cost": 2,
+    "attack": 3,
+    "health": 3,
+    "set": 14,
+    "type": 0
+  },
   297: {
-    "id": "BRMA06_2",
+    "id": "BRMA06_2H",
     "name": "火妖管理者",
     "cost": 2,
     "set": 14,
     "type": 0
   },
   298: {
-    "id": "BRMA06_2H",
+    "id": "BRMA06_2",
     "name": "火妖管理者",
     "cost": 2,
     "set": 14,
@@ -2882,21 +2882,21 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   307: {
-    "id": "BRM_027h",
-    "name": "炎魔之王拉格纳罗斯",
-    "health": 8,
-    "set": 14,
-    "type": 0
-  },
-  308: {
     "id": "BRMA06_3H",
     "name": "炎魔之王拉格纳罗斯",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  309: {
+  308: {
     "id": "BRMA06_3",
+    "name": "炎魔之王拉格纳罗斯",
+    "health": 8,
+    "set": 14,
+    "type": 0
+  },
+  309: {
+    "id": "BRM_027h",
     "name": "炎魔之王拉格纳罗斯",
     "health": 8,
     "set": 14,
@@ -2910,27 +2910,27 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   311: {
-    "id": "BRMA05_2",
-    "name": "点燃法力",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  312: {
     "id": "BRMA05_2H",
     "name": "点燃法力",
     "cost": 0,
     "set": 14,
     "type": 0
   },
+  312: {
+    "id": "BRMA05_2",
+    "name": "点燃法力",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
   313: {
-    "id": "BRMA15_2",
+    "id": "BRMA15_2H",
     "name": "炼金师",
     "set": 14,
     "type": 0
   },
   314: {
-    "id": "BRMA15_2H",
+    "id": "BRMA15_2",
     "name": "炼金师",
     "set": 14,
     "type": 0
@@ -2952,18 +2952,6 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   317: {
-    "id": "BRM_010t",
-    "name": "烈焰德鲁伊",
-    "cost": 3,
-    "attack": 5,
-    "health": 2,
-    "classs": 11,
-    "race": 20,
-    "set": 14,
-    "type": 0,
-    "quality": 1
-  },
-  318: {
     "id": "BRM_010t2",
     "name": "烈焰德鲁伊",
     "cost": 3,
@@ -2975,7 +2963,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  319: {
+  318: {
     "id": "BRM_010",
     "name": "烈焰德鲁伊",
     "cost": 3,
@@ -2983,6 +2971,18 @@ hs_cards['zhcn'] = {
     "health": 2,
     "classs": 11,
     "collectible": 1,
+    "set": 14,
+    "type": 0,
+    "quality": 1
+  },
+  319: {
+    "id": "BRM_010t",
+    "name": "烈焰德鲁伊",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "classs": 11,
+    "race": 20,
     "set": 14,
     "type": 0,
     "quality": 1
@@ -3005,13 +3005,20 @@ hs_cards['zhcn'] = {
     "quality": 4
   },
   322: {
+    "id": "BRMA17_4",
+    "name": "熔岩！",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  323: {
     "id": "BRMA04_2",
     "name": "熔岩脉动",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  323: {
+  324: {
     "id": "BRMA14_9H",
     "name": "熔岩金刚",
     "cost": 5,
@@ -3022,7 +3029,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  324: {
+  325: {
     "id": "BRMA14_9",
     "name": "熔岩金刚",
     "cost": 5,
@@ -3033,16 +3040,6 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  325: {
-    "id": "BRM_011",
-    "name": "熔岩震击",
-    "cost": 2,
-    "classs": 7,
-    "collectible": 1,
-    "set": 14,
-    "type": 0,
-    "quality": 2
-  },
   326: {
     "id": "BRM_011t",
     "name": "熔岩震击",
@@ -3051,11 +3048,14 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   327: {
-    "id": "BRMA17_4",
-    "name": "熔岩！",
+    "id": "BRM_011",
+    "name": "熔岩震击",
     "cost": 2,
+    "classs": 7,
+    "collectible": 1,
     "set": 14,
-    "type": 0
+    "type": 0,
+    "quality": 2
   },
   328: {
     "id": "BRM_014",
@@ -3139,22 +3139,22 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   339: {
-    "id": "BRMA14_7",
+    "id": "BRMA14_7H",
     "name": "电荷金刚",
     "cost": 3,
-    "attack": 5,
-    "health": 5,
+    "attack": 6,
+    "health": 6,
     "race": 17,
     "set": 14,
     "type": 0,
     "quality": 4
   },
   340: {
-    "id": "BRMA14_7H",
+    "id": "BRMA14_7",
     "name": "电荷金刚",
     "cost": 3,
-    "attack": 6,
-    "health": 6,
+    "attack": 5,
+    "health": 5,
     "race": 17,
     "set": 14,
     "type": 0,
@@ -3170,34 +3170,34 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   342: {
-    "id": "BRMA17_5",
-    "name": "白骨爪牙",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  343: {
     "id": "BRMA17_5H",
     "name": "白骨爪牙",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  344: {
-    "id": "BRMA17_6",
-    "name": "白骨魔像",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
+  343: {
+    "id": "BRMA17_5",
+    "name": "白骨爪牙",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
-  345: {
+  344: {
     "id": "BRMA17_6H",
     "name": "白骨魔像",
     "cost": 1,
     "attack": 4,
     "health": 2,
+    "set": 14,
+    "type": 0
+  },
+  345: {
+    "id": "BRMA17_6",
+    "name": "白骨魔像",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
     "set": 14,
     "type": 0
   },
@@ -3230,14 +3230,14 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   349: {
-    "id": "BRMA13_2H",
+    "id": "BRMA13_2",
     "name": "真正形态",
     "cost": 1,
     "set": 14,
     "type": 0
   },
   350: {
-    "id": "BRMA13_2",
+    "id": "BRMA13_2H",
     "name": "真正形态",
     "cost": 1,
     "set": 14,
@@ -3303,13 +3303,6 @@ hs_cards['zhcn'] = {
     "quality": 4
   },
   359: {
-    "id": "BRMA03_1H",
-    "name": "索瑞森大帝",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  360: {
     "id": "BRM_028",
     "name": "索瑞森大帝",
     "cost": 6,
@@ -3320,8 +3313,15 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  361: {
+  360: {
     "id": "BRMA03_1",
+    "name": "索瑞森大帝",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  361: {
+    "id": "BRMA03_1H",
     "name": "索瑞森大帝",
     "health": 30,
     "set": 14,
@@ -3348,14 +3348,14 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   365: {
-    "id": "BRMA13_1H",
+    "id": "BRMA13_1",
     "name": "维克多·奈法里奥斯",
     "health": 30,
     "set": 14,
     "type": 0
   },
   366: {
-    "id": "BRMA13_1",
+    "id": "BRMA13_1H",
     "name": "维克多·奈法里奥斯",
     "health": 30,
     "set": 14,
@@ -3369,20 +3369,20 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   368: {
-    "id": "BRMA10_4",
-    "name": "腐化的蛋",
-    "cost": 1,
-    "attack": 0,
-    "health": 1,
-    "set": 14,
-    "type": 0
-  },
-  369: {
     "id": "BRMA10_4H",
     "name": "腐化的蛋",
     "cost": 1,
     "attack": 0,
     "health": 3,
+    "set": 14,
+    "type": 0
+  },
+  369: {
+    "id": "BRMA10_4",
+    "name": "腐化的蛋",
+    "cost": 1,
+    "attack": 0,
+    "health": 1,
     "set": 14,
     "type": 0
   },
@@ -3401,20 +3401,20 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   372: {
-    "id": "BRMA03_3",
-    "name": "茉艾拉·铜须",
-    "cost": 2,
-    "attack": 1,
-    "health": 3,
-    "set": 14,
-    "type": 0
-  },
-  373: {
     "id": "BRMA03_3H",
     "name": "茉艾拉·铜须",
     "cost": 2,
     "attack": 3,
     "health": 1,
+    "set": 14,
+    "type": 0
+  },
+  373: {
+    "id": "BRMA03_3",
+    "name": "茉艾拉·铜须",
+    "cost": 2,
+    "attack": 1,
+    "health": 3,
     "set": 14,
     "type": 0
   },
@@ -3433,14 +3433,14 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   376: {
-    "id": "BRMA09_5",
+    "id": "BRMA09_5H",
     "name": "跃下坐骑",
     "cost": 4,
     "set": 14,
     "type": 0
   },
   377: {
-    "id": "BRMA09_5H",
+    "id": "BRMA09_5",
     "name": "跃下坐骑",
     "cost": 4,
     "set": 14,
@@ -3468,16 +3468,16 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   381: {
-    "id": "BRMA05_1H",
+    "id": "BRMA05_1",
     "name": "迦顿男爵",
-    "health": 50,
+    "health": 30,
     "set": 14,
     "type": 0
   },
   382: {
-    "id": "BRMA05_1",
+    "id": "BRMA05_1H",
     "name": "迦顿男爵",
-    "health": 30,
+    "health": 50,
     "set": 14,
     "type": 0
   },
@@ -3508,21 +3508,21 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   386: {
-    "id": "BRM_004t",
-    "name": "雏龙",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
-    "set": 14,
-    "type": 0
-  },
-  387: {
     "id": "BRMA09_2Ht",
     "name": "雏龙",
     "cost": 1,
     "attack": 2,
     "health": 2,
     "race": 24,
+    "set": 14,
+    "type": 0
+  },
+  387: {
+    "id": "BRM_004t",
+    "name": "雏龙",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
     "set": 14,
     "type": 0
   },
@@ -3534,13 +3534,6 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   389: {
-    "id": "BRMA09_1H",
-    "name": "雷德·黑手",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  390: {
     "id": "BRM_029",
     "name": "雷德·黑手",
     "cost": 7,
@@ -3551,8 +3544,15 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  391: {
+  390: {
     "id": "BRMA09_1",
+    "name": "雷德·黑手",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  391: {
+    "id": "BRMA09_1H",
     "name": "雷德·黑手",
     "health": 30,
     "set": 14,
@@ -3584,14 +3584,14 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   395: {
-    "id": "BRMA15_1H",
+    "id": "BRMA15_1",
     "name": "马洛拉克",
     "health": 30,
     "set": 14,
     "type": 0
   },
   396: {
-    "id": "BRMA15_1",
+    "id": "BRMA15_1H",
     "name": "马洛拉克",
     "health": 30,
     "set": 14,
@@ -3689,21 +3689,21 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   407: {
-    "id": "BRMA09_4t",
-    "name": "龙人",
-    "cost": 1,
-    "attack": 3,
-    "health": 1,
-    "race": 24,
-    "set": 14,
-    "type": 0
-  },
-  408: {
     "id": "BRMA09_4Ht",
     "name": "龙人",
     "cost": 1,
     "attack": 5,
     "health": 4,
+    "race": 24,
+    "set": 14,
+    "type": 0
+  },
+  408: {
+    "id": "BRMA09_4t",
+    "name": "龙人",
+    "cost": 1,
+    "attack": 3,
+    "health": 1,
     "race": 24,
     "set": 14,
     "type": 0
@@ -3795,14 +3795,14 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   418: {
-    "id": "BRMA12_2",
+    "id": "BRMA12_2H",
     "name": "龙血之痛",
     "cost": 0,
     "set": 14,
     "type": 0
   },
   419: {
-    "id": "BRMA12_2H",
+    "id": "BRMA12_2",
     "name": "龙血之痛",
     "cost": 0,
     "set": 14,
@@ -3837,16 +3837,16 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   424: {
-    "id": "BRMA12_5H",
+    "id": "BRMA12_5",
     "name": "龙血之痛：蓝",
-    "cost": 3,
+    "cost": 1,
     "set": 14,
     "type": 0
   },
   425: {
-    "id": "BRMA12_5",
+    "id": "BRMA12_5H",
     "name": "龙血之痛：蓝",
-    "cost": 1,
+    "cost": 3,
     "set": 14,
     "type": 0
   },
@@ -3865,16 +3865,16 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   428: {
-    "id": "BRMA12_6H",
+    "id": "BRMA12_6",
     "name": "龙血之痛：黑",
-    "cost": 3,
+    "cost": 1,
     "set": 14,
     "type": 0
   },
   429: {
-    "id": "BRMA12_6",
+    "id": "BRMA12_6H",
     "name": "龙血之痛：黑",
-    "cost": 1,
+    "cost": 3,
     "set": 14,
     "type": 0
   },
@@ -6116,6 +6116,16 @@ hs_cards['zhcn'] = {
     "quality": 3
   },
   657: {
+    "id": "EX1_594",
+    "name": "蒸发",
+    "cost": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  658: {
     "id": "EX1_537",
     "name": "爆炸射击",
     "cost": 5,
@@ -6125,7 +6135,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  658: {
+  659: {
     "id": "EX1_610",
     "name": "爆炸陷阱",
     "cost": 2,
@@ -6135,7 +6145,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  659: {
+  660: {
     "id": "EX1_390",
     "name": "牛头人战士",
     "cost": 3,
@@ -6146,7 +6156,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  660: {
+  661: {
     "id": "NEW1_041",
     "name": "狂奔科多兽",
     "cost": 5,
@@ -6158,21 +6168,21 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  661: {
+  662: {
     "id": "CS2_104e",
     "name": "狂暴",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  662: {
+  663: {
     "id": "EX1_604o",
     "name": "狂暴",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  663: {
+  664: {
     "id": "CS2_104",
     "name": "狂暴",
     "cost": 2,
@@ -6182,7 +6192,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  664: {
+  665: {
+    "id": "EX1_549o",
+    "name": "狂野怒火",
+    "classs": 3,
+    "set": 3,
+    "type": 0
+  },
+  666: {
     "id": "EX1_549",
     "name": "狂野怒火",
     "cost": 1,
@@ -6192,14 +6209,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  665: {
-    "id": "EX1_549o",
-    "name": "狂野怒火",
-    "classs": 3,
-    "set": 3,
-    "type": 0
-  },
-  666: {
+  667: {
     "id": "NEW1_020",
     "name": "狂野炎术师",
     "cost": 2,
@@ -6210,7 +6220,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  667: {
+  668: {
     "id": "EX1_609",
     "name": "狙击",
     "cost": 2,
@@ -6220,7 +6230,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  668: {
+  669: {
     "id": "EX1_010",
     "name": "狼人渗透者",
     "cost": 1,
@@ -6231,13 +6241,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  669: {
+  670: {
     "id": "EX1_162o",
     "name": "狼群之力",
     "set": 3,
     "type": 0
   },
-  670: {
+  671: {
     "id": "EX1_538t",
     "name": "猎犬",
     "cost": 1,
@@ -6248,7 +6258,7 @@ hs_cards['zhcn'] = {
     "set": 3,
     "type": 0
   },
-  671: {
+  672: {
     "id": "EX1_160t",
     "name": "猎豹",
     "cost": 2,
@@ -6260,7 +6270,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  672: {
+  673: {
     "id": "EX1_165a",
     "name": "猎豹形态",
     "classs": 11,
@@ -6268,7 +6278,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  673: {
+  674: {
     "id": "EX1_391",
     "name": "猛击",
     "cost": 2,
@@ -6278,7 +6288,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  674: {
+  675: {
     "id": "EX1_005",
     "name": "王牌猎人",
     "cost": 3,
@@ -6289,7 +6299,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  675: {
+  676: {
     "id": "EX1_563",
     "name": "玛里苟斯",
     "cost": 9,
@@ -6301,17 +6311,10 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  676: {
+  677: {
     "id": "EX1_623e",
     "name": "生命灌注",
     "classs": 5,
-    "set": 3,
-    "type": 0
-  },
-  677: {
-    "id": "EX1_619e",
-    "name": "生而平等",
-    "classs": 2,
     "set": 3,
     "type": 0
   },
@@ -6326,12 +6329,19 @@ hs_cards['zhcn'] = {
     "quality": 2
   },
   679: {
+    "id": "EX1_619e",
+    "name": "生而平等",
+    "classs": 2,
+    "set": 3,
+    "type": 0
+  },
+  680: {
     "id": "NEW1_038o",
     "name": "生长",
     "set": 3,
     "type": 0
   },
-  680: {
+  681: {
     "id": "EX1_082",
     "name": "疯狂投弹者",
     "cost": 2,
@@ -6342,7 +6352,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  681: {
+  682: {
     "id": "EX1_059",
     "name": "疯狂的炼金师",
     "cost": 2,
@@ -6353,7 +6363,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  682: {
+  683: {
     "id": "CS2_151",
     "name": "白银之手骑士",
     "cost": 5,
@@ -6364,7 +6374,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  683: {
+  684: {
     "id": "EX1_410",
     "name": "盾牌猛击",
     "cost": 1,
@@ -6374,7 +6384,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  684: {
+  685: {
     "id": "NEW1_008",
     "name": "知识古树",
     "cost": 7,
@@ -6386,7 +6396,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  685: {
+  686: {
     "id": "EX1_048",
     "name": "破法者",
     "cost": 4,
@@ -6397,7 +6407,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  686: {
+  687: {
     "id": "EX1_284",
     "name": "碧蓝幼龙",
     "cost": 5,
@@ -6409,7 +6419,24 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  687: {
+  688: {
+    "id": "CS2_053e",
+    "name": "视界术",
+    "classs": 7,
+    "set": 3,
+    "type": 0
+  },
+  689: {
+    "id": "CS2_053",
+    "name": "视界术",
+    "cost": 3,
+    "classs": 7,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 3
+  },
+  690: {
     "id": "EX1_624",
     "name": "神圣之火",
     "cost": 6,
@@ -6419,7 +6446,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  688: {
+  691: {
     "id": "EX1_365",
     "name": "神圣愤怒",
     "cost": 5,
@@ -6429,7 +6456,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  689: {
+  692: {
     "id": "EX1_349",
     "name": "神恩术",
     "cost": 3,
@@ -6439,14 +6466,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  690: {
+  693: {
     "id": "EX1_166b",
     "name": "禁魔",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  691: {
+  694: {
     "id": "EX1_091",
     "name": "秘教暗影祭司",
     "cost": 6,
@@ -6458,7 +6485,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  692: {
+  695: {
     "id": "EX1_014",
     "name": "穆克拉",
     "cost": 3,
@@ -6470,14 +6497,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  693: {
+  696: {
     "id": "EX1_590e",
     "name": "穆鲁之影",
     "set": 3,
     "type": 0,
     "quality": 1
   },
-  694: {
+  697: {
     "id": "EX1_345t",
     "name": "空无之影",
     "cost": 0,
@@ -6488,7 +6515,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  695: {
+  698: {
     "id": "NEW1_029",
     "name": "米尔豪斯·法力风暴",
     "cost": 2,
@@ -6499,7 +6526,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  696: {
+  699: {
     "id": "NEW1_023",
     "name": "精灵龙",
     "cost": 2,
@@ -6511,7 +6538,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  697: {
+  700: {
     "id": "EX1_tk31",
     "name": "精神控制",
     "classs": 5,
@@ -6519,7 +6546,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  698: {
+  701: {
     "id": "EX1_085",
     "name": "精神控制技师",
     "cost": 3,
@@ -6530,7 +6557,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  699: {
+  702: {
     "id": "NEW1_026t",
     "name": "紫罗兰学徒",
     "cost": 0,
@@ -6539,7 +6566,7 @@ hs_cards['zhcn'] = {
     "set": 3,
     "type": 0
   },
-  700: {
+  703: {
     "id": "NEW1_026",
     "name": "紫罗兰教师",
     "cost": 4,
@@ -6550,7 +6577,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  701: {
+  704: {
     "id": "EX1_557",
     "name": "纳特·帕格",
     "cost": 2,
@@ -6561,7 +6588,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  702: {
+  705: {
     "id": "EX1_407",
     "name": "绝命乱斗",
     "cost": 5,
@@ -6571,13 +6598,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  703: {
+  706: {
     "id": "NEW1_024o",
     "name": "绿皮的命令",
     "set": 3,
     "type": 0
   },
-  704: {
+  707: {
     "id": "NEW1_024",
     "name": "绿皮船长",
     "cost": 5,
@@ -6589,7 +6616,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  705: {
+  708: {
     "id": "EX1_626",
     "name": "群体驱散",
     "cost": 4,
@@ -6599,7 +6626,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  706: {
+  709: {
     "id": "DREAM_03",
     "name": "翡翠幼龙",
     "cost": 4,
@@ -6610,14 +6637,14 @@ hs_cards['zhcn'] = {
     "set": 3,
     "type": 0
   },
-  707: {
+  710: {
     "id": "EX1_382e",
     "name": "老实点！",
     "classs": 2,
     "set": 3,
     "type": 0
   },
-  708: {
+  711: {
     "id": "EX1_522",
     "name": "耐心的刺客",
     "cost": 2,
@@ -6629,14 +6656,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  709: {
+  712: {
     "id": "EX1_612o",
     "name": "肯瑞托之力",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  710: {
+  713: {
     "id": "EX1_612",
     "name": "肯瑞托法师",
     "cost": 3,
@@ -6648,13 +6675,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  711: {
+  714: {
     "id": "EX1_584e",
     "name": "肯瑞托的教诲",
     "set": 3,
     "type": 0
   },
-  712: {
+  715: {
     "id": "EX1_126",
     "name": "背叛",
     "cost": 2,
@@ -6664,7 +6691,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  713: {
+  716: {
     "id": "tt_004",
     "name": "腐肉食尸鬼",
     "cost": 3,
@@ -6675,7 +6702,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  714: {
+  717: {
     "id": "EX1_571",
     "name": "自然之力",
     "cost": 6,
@@ -6685,7 +6712,28 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  715: {
+  718: {
+    "id": "EX1_155ae",
+    "name": "自然印记",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  719: {
+    "id": "EX1_155be",
+    "name": "自然印记",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  720: {
+    "id": "EX1_155b",
+    "name": "自然印记",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  721: {
     "id": "EX1_155",
     "name": "自然印记",
     "cost": 3,
@@ -6695,35 +6743,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  716: {
-    "id": "EX1_155ae",
-    "name": "自然印记",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  717: {
-    "id": "EX1_155b",
-    "name": "自然印记",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  718: {
-    "id": "EX1_155be",
-    "name": "自然印记",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  719: {
+  722: {
     "id": "EX1_155a",
     "name": "自然印记",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  720: {
+  723: {
     "id": "EX1_161",
     "name": "自然平衡",
     "cost": 1,
@@ -6733,7 +6760,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  721: {
+  724: {
     "id": "EX1_617",
     "name": "致命射击",
     "cost": 3,
@@ -6743,7 +6770,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  722: {
+  725: {
     "id": "EX1_408",
     "name": "致死打击",
     "cost": 4,
@@ -6753,7 +6780,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  723: {
+  726: {
     "id": "EX1_613",
     "name": "艾德温·范克里夫",
     "cost": 3,
@@ -6765,7 +6792,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  724: {
+  727: {
     "id": "EX1_583",
     "name": "艾露恩的女祭司",
     "cost": 6,
@@ -6776,13 +6803,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  725: {
+  728: {
     "id": "EX1_004e",
     "name": "艾露恩的赐福",
     "set": 3,
     "type": 0
   },
-  726: {
+  729: {
     "id": "EX1_finkle",
     "name": "芬克·恩霍尔",
     "cost": 2,
@@ -6792,7 +6819,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  727: {
+  730: {
     "id": "EX1_007",
     "name": "苦痛侍僧",
     "cost": 3,
@@ -6803,14 +6830,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  728: {
+  731: {
     "id": "EX1_613e",
     "name": "范克里夫的复仇",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  729: {
+  732: {
     "id": "EX1_028",
     "name": "荆棘谷猛虎",
     "cost": 5,
@@ -6822,7 +6849,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  730: {
+  733: {
     "id": "EX1_021",
     "name": "萨尔玛先知",
     "cost": 3,
@@ -6833,17 +6860,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  731: {
-    "id": "EX1_594",
-    "name": "蒸发",
-    "cost": 3,
-    "classs": 8,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  732: {
+  734: {
     "id": "EX1_274",
     "name": "虚灵奥术师",
     "cost": 4,
@@ -6855,7 +6872,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  733: {
+  735: {
     "id": "EX1_304",
     "name": "虚空恐魔",
     "cost": 3,
@@ -6868,7 +6885,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  734: {
+  736: {
     "id": "EX1_554t",
     "name": "蛇",
     "cost": 0,
@@ -6880,14 +6897,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  735: {
+  737: {
     "id": "CS2_059o",
     "name": "血之契印",
     "classs": 9,
     "set": 3,
     "type": 0
   },
-  736: {
+  738: {
     "id": "EX1_411",
     "name": "血吼",
     "cost": 7,
@@ -6899,7 +6916,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  737: {
+  739: {
     "id": "NEW1_025",
     "name": "血帆海盗",
     "cost": 1,
@@ -6911,7 +6928,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  738: {
+  740: {
     "id": "NEW1_018",
     "name": "血帆袭击者",
     "cost": 2,
@@ -6923,7 +6940,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  739: {
+  741: {
     "id": "EX1_323w",
     "name": "血怒",
     "cost": 3,
@@ -6933,14 +6950,14 @@ hs_cards['zhcn'] = {
     "set": 3,
     "type": 0
   },
-  740: {
+  742: {
     "id": "EX1_411e",
     "name": "血性狂暴",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  741: {
+  743: {
     "id": "EX1_012",
     "name": "血法师萨尔诺斯",
     "cost": 2,
@@ -6951,7 +6968,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  742: {
+  744: {
     "id": "EX1_020",
     "name": "血色十字军战士",
     "cost": 3,
@@ -6962,7 +6979,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  743: {
+  745: {
     "id": "EX1_590",
     "name": "血骑士",
     "cost": 3,
@@ -6973,14 +6990,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  744: {
+  746: {
     "id": "EX1_128e",
     "name": "被隐藏",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  745: {
+  747: {
     "id": "EX1_137",
     "name": "裂颅之击",
     "cost": 3,
@@ -6990,29 +7007,12 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  746: {
+  748: {
     "id": "NEW1_037e",
     "name": "装备",
     "collectible": 0,
     "set": 3,
     "type": 0
-  },
-  747: {
-    "id": "CS2_053e",
-    "name": "视界术",
-    "classs": 7,
-    "set": 3,
-    "type": 0
-  },
-  748: {
-    "id": "CS2_053",
-    "name": "视界术",
-    "cost": 3,
-    "classs": 7,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 3
   },
   749: {
     "id": "DS1_188",
@@ -7873,16 +7873,6 @@ hs_cards['zhcn'] = {
     "quality": 4
   },
   834: {
-    "id": "CRED_30",
-    "name": "JC Park",
-    "cost": 7,
-    "attack": 2,
-    "health": 4,
-    "set": 16,
-    "type": 0,
-    "quality": 4
-  },
-  835: {
     "id": "CRED_01",
     "name": "Jason Chayes",
     "cost": 6,
@@ -7892,7 +7882,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  836: {
+  835: {
     "id": "CRED_29",
     "name": "Jason MacAllister",
     "cost": 5,
@@ -7902,11 +7892,21 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  837: {
+  836: {
     "id": "CRED_11",
     "name": "Jay Baxter",
     "cost": 4,
     "attack": 1,
+    "health": 4,
+    "set": 16,
+    "type": 0,
+    "quality": 4
+  },
+  837: {
+    "id": "CRED_30",
+    "name": "JC Park",
+    "cost": 7,
+    "attack": 2,
     "health": 4,
     "set": 16,
     "type": 0,
@@ -9095,20 +9095,20 @@ hs_cards['zhcn'] = {
     "quality": 2
   },
   977: {
-    "id": "NAX1h_03",
-    "name": "蛛魔",
-    "cost": 2,
-    "attack": 4,
-    "health": 4,
-    "set": 12,
-    "type": 0
-  },
-  978: {
     "id": "NAX1_03",
     "name": "蛛魔",
     "cost": 2,
     "attack": 3,
     "health": 1,
+    "set": 12,
+    "type": 0
+  },
+  978: {
+    "id": "NAX1h_03",
+    "name": "蛛魔",
+    "cost": 2,
+    "attack": 4,
+    "health": 4,
     "set": 12,
     "type": 0
   },
@@ -9307,16 +9307,16 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   1001: {
-    "id": "NAX1h_01",
+    "id": "NAX1_01",
     "name": "阿努布雷坎",
-    "health": 45,
+    "health": 30,
     "set": 12,
     "type": 0
   },
   1002: {
-    "id": "NAX1_01",
+    "id": "NAX1h_01",
     "name": "阿努布雷坎",
-    "health": 30,
+    "health": 45,
     "set": 12,
     "type": 0
   },
@@ -9327,14 +9327,14 @@ hs_cards['zhcn'] = {
     "type": 0
   },
   1004: {
-    "id": "NAX1h_04",
+    "id": "NAX1_04",
     "name": "飞掠召唤",
     "cost": 2,
     "set": 12,
     "type": 0
   },
   1005: {
-    "id": "NAX1_04",
+    "id": "NAX1h_04",
     "name": "飞掠召唤",
     "cost": 2,
     "set": 12,
@@ -9472,119 +9472,122 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   1021: {
-    "id": "XXX_040",
-    "name": "",
-    "health": 10,
-    "classs": 1,
+    "id": "XXX_048",
+    "name": "-1 Durability",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1022: {
+    "id": "XXX_055",
+    "name": "1000 Stats",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
-  1022: {
-    "id": "XXX_001",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1023: {
-    "id": "XXX_003",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_055e",
+    "name": "1000 Stats Enchant",
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1024: {
-    "id": "XXX_004",
-    "name": "",
+    "id": "XXX_095",
+    "name": "AI Buddy - All Charge!",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1025: {
-    "id": "XXX_005",
-    "name": "",
+    "id": "XXX_094",
+    "name": "AI Buddy - Blank Slate",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1026: {
-    "id": "XXX_006",
-    "name": "",
+    "id": "XXX_096",
+    "name": "AI Buddy - Damage Own Hero 5",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1027: {
-    "id": "XXX_007",
-    "name": "",
+    "id": "XXX_097",
+    "name": "AI Buddy - Destroy Minions",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1028: {
-    "id": "XXX_008",
-    "name": "",
+    "id": "XXX_098",
+    "name": "AI Buddy - No Deck/Hand",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1029: {
-    "id": "XXX_009",
-    "name": "",
+    "id": "XXX_099",
+    "name": "AI Helper Buddy",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1030: {
-    "id": "XXX_009e",
-    "name": "",
+    "id": "XXX_061",
+    "name": "Armor 1",
+    "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1031: {
-    "id": "XXX_010",
-    "name": "",
+    "id": "XXX_053",
+    "name": "Armor 100",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1032: {
-    "id": "XXX_011",
-    "name": "",
+    "id": "XXX_062",
+    "name": "Armor 5",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1033: {
-    "id": "XXX_012",
-    "name": "",
+    "id": "XXX_039",
+    "name": "Become Hogger",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1034: {
-    "id": "XXX_013",
-    "name": "",
+    "id": "XXX_012",
+    "name": "Bounce",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1035: {
-    "id": "XXX_014",
-    "name": "",
+    "id": "XXX_006",
+    "name": "Break Weapon",
     "cost": 0,
     "set": 7,
     "type": 0,
@@ -9592,83 +9595,46 @@ hs_cards['zhcn'] = {
   },
   1036: {
     "id": "XXX_015",
-    "name": "",
+    "name": "Crash",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1037: {
-    "id": "XXX_016",
-    "name": "",
+    "id": "XXX_001",
+    "name": "Damage 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1038: {
-    "id": "XXX_017",
-    "name": "",
+    "id": "XXX_002",
+    "name": "Damage 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1039: {
-    "id": "XXX_018",
-    "name": "",
+    "id": "XXX_060",
+    "name": "Damage All",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1040: {
-    "id": "XXX_019",
-    "name": "",
+    "id": "XXX_020",
+    "name": "Damage all but 1",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1041: {
-    "id": "XXX_020",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1042: {
-    "id": "XXX_021",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1043: {
-    "id": "XXX_022",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1044: {
-    "id": "XXX_022e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1045: {
-    "id": "XXX_023",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1046: {
     "id": "XXX_024",
-    "name": "",
+    "name": "Damage Reflector",
     "cost": 0,
     "attack": 3,
     "health": 10,
@@ -9676,92 +9642,179 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1047: {
-    "id": "XXX_025",
-    "name": "",
+  1042: {
+    "id": "XXX_005",
+    "name": "Destroy",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1043: {
+    "id": "XXX_050",
+    "name": "Destroy a Mana Crystal",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1044: {
+    "id": "XXX_023",
+    "name": "Destroy All Heroes",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1045: {
+    "id": "XXX_049",
+    "name": "Destroy all Mana",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1046: {
+    "id": "XXX_018",
+    "name": "Destroy All Minions",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1047: {
+    "id": "XXX_063",
+    "name": "Destroy ALL Secrets",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1048: {
-    "id": "XXX_026",
-    "name": "",
+    "id": "XXX_047",
+    "name": "Destroy Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1049: {
-    "id": "XXX_027",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1050: {
-    "id": "XXX_028",
-    "name": "",
+    "id": "XXX_041",
+    "name": "Destroy Hero Power",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1050: {
+    "id": "XXX_059",
+    "name": "Destroy Hero's Stuff",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1051: {
-    "id": "XXX_029",
-    "name": "",
+    "id": "XXX_057",
+    "name": "Destroy Target Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1052: {
-    "id": "XXX_030",
-    "name": "",
+    "id": "XXX_013",
+    "name": "Discard",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1053: {
-    "id": "XXX_039",
-    "name": "",
+    "id": "XXX_025",
+    "name": "Do Nothing",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1054: {
-    "id": "XXX_002",
-    "name": "",
+    "id": "XXX_017",
+    "name": "Draw 3 Cards",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1055: {
-    "id": "XXX_041",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_009e",
+    "name": "Empty Enchant",
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1056: {
-    "id": "XXX_042",
-    "name": "",
+    "id": "XXX_026",
+    "name": "Enable Emotes",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1057: {
-    "id": "XXX_043",
-    "name": "",
+    "id": "XXX_007",
+    "name": "Enable for Attack",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1058: {
+    "id": "XXX_009",
+    "name": "Enchant",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1059: {
+    "id": "XXX_046",
+    "name": "Force AI to Use Hero Power",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1060: {
+    "id": "XXX_022e",
+    "name": "Free Cards",
+    "set": 7,
+    "type": 0
+  },
+  1061: {
+    "id": "XXX_022",
+    "name": "Free Cards",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1062: {
+    "id": "XXX_008",
+    "name": "Freeze",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1063: {
+    "id": "XXX_052",
+    "name": "Grant Mega-Windfury",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1064: {
     "id": "XXX_044",
-    "name": "",
+    "name": "Hand Swapper Minion",
     "cost": 0,
     "attack": 5,
     "health": 5,
@@ -9769,220 +9822,167 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1059: {
-    "id": "XXX_045",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1060: {
-    "id": "XXX_046",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1061: {
-    "id": "XXX_047",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1062: {
-    "id": "XXX_048",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1063: {
-    "id": "XXX_049",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1064: {
-    "id": "XXX_050",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1065: {
-    "id": "XXX_051",
-    "name": "",
+    "id": "XXX_042",
+    "name": "Hand to Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1066: {
-    "id": "XXX_052",
-    "name": "",
+    "id": "XXX_040",
+    "name": "Hogger",
+    "health": 10,
+    "classs": 1,
+    "set": 7,
+    "type": 0
+  },
+  1067: {
+    "id": "XXX_051",
+    "name": "Make Immune",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1067: {
-    "id": "XXX_053",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0
-  },
   1068: {
-    "id": "XXX_054",
-    "name": "",
+    "id": "XXX_014",
+    "name": "Mill 10",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1069: {
-    "id": "XXX_054e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1070: {
-    "id": "XXX_055",
-    "name": "",
+    "id": "XXX_043",
+    "name": "Mill 30",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
+  },
+  1070: {
+    "id": "XXX_019",
+    "name": "Molasses",
+    "set": 7,
+    "type": 0,
+    "quality": 1
   },
   1071: {
-    "id": "XXX_055e",
-    "name": "",
+    "id": "XXX_029",
+    "name": "Opponent Concede",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
   1072: {
-    "id": "XXX_056",
-    "name": "",
+    "id": "XXX_030",
+    "name": "Opponent Disconnect",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1073: {
-    "id": "XXX_057",
-    "name": "",
+    "id": "XXX_003",
+    "name": "Restore 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1074: {
-    "id": "XXX_058",
-    "name": "",
+    "id": "XXX_004",
+    "name": "Restore 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1075: {
-    "id": "XXX_058e",
-    "name": "",
+    "id": "XXX_021",
+    "name": "Restore All Health",
+    "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1076: {
-    "id": "XXX_059",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_028",
+    "name": "Reveal Hand",
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1077: {
-    "id": "XXX_060",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_027",
+    "name": "Server Crash",
     "set": 7,
     "type": 0
   },
   1078: {
-    "id": "XXX_061",
-    "name": "",
+    "id": "XXX_010",
+    "name": "Silence - debug",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1079: {
-    "id": "XXX_062",
-    "name": "",
+    "id": "XXX_056",
+    "name": "Silence Destroy",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1080: {
-    "id": "XXX_063",
-    "name": "",
+    "id": "XXX_016",
+    "name": "Snake Ball",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1081: {
-    "id": "XXX_094",
-    "name": "",
+    "id": "XXX_045",
+    "name": "Steal Card",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1082: {
-    "id": "XXX_095",
-    "name": "",
+    "id": "XXX_011",
+    "name": "Summon a random Secret",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1083: {
-    "id": "XXX_096",
-    "name": "",
+    "id": "XXX_054",
+    "name": "Weapon Buff",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
     "type": 0
   },
   1084: {
-    "id": "XXX_097",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_054e",
+    "name": "Weapon Buff Enchant",
     "set": 7,
     "type": 0
   },
   1085: {
-    "id": "XXX_098",
-    "name": "",
+    "id": "XXX_058",
+    "name": "Weapon Nerf",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1086: {
-    "id": "XXX_099",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_058e",
+    "name": "Weapon Nerf Enchant",
     "set": 7,
     "type": 0
   },
@@ -12244,6 +12244,12 @@ hs_cards['zhcn'] = {
     "quality": 1
   },
   1315: {
+    "id": "Mekka3e",
+    "name": "壮胆！",
+    "set": 11,
+    "type": 0
+  },
+  1316: {
     "id": "Mekka3",
     "name": "壮胆机器人3000型",
     "cost": 1,
@@ -12253,12 +12259,6 @@ hs_cards['zhcn'] = {
     "set": 11,
     "type": 0,
     "quality": 1
-  },
-  1316: {
-    "id": "Mekka3e",
-    "name": "壮胆！",
-    "set": 11,
-    "type": 0
   },
   1317: {
     "id": "Mekka1",
@@ -12360,7 +12360,7 @@ hs_cards['zhcn'] = {
   },
   1327: {
     "id": "PlaceholderCard",
-    "name": "",
+    "name": "Placeholder Card",
     "cost": 9,
     "attack": 6,
     "health": 8,
@@ -12370,6 +12370,19 @@ hs_cards['zhcn'] = {
     "quality": 3
   },
   1328: {
+    "id": "TB_RandHero2_001",
+    "name": "Boss HP Swapper2",
+    "set": 18,
+    "type": 0
+  },
+  1329: {
+    "id": "TB_FactionWar_Boss_BoomBot",
+    "name": "FactionWar_BoomBot",
+    "health": 30,
+    "set": 18,
+    "type": 0
+  },
+  1330: {
     "id": "TBST_004",
     "name": "OLDLegit Healer",
     "cost": 3,
@@ -12378,7 +12391,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1329: {
+  1331: {
     "id": "TBST_003",
     "name": "OLDN3wb Healer",
     "cost": 1,
@@ -12387,7 +12400,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1330: {
+  1332: {
     "id": "TBST_002",
     "name": "OLDN3wb Mage",
     "cost": 1,
@@ -12396,7 +12409,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1331: {
+  1333: {
     "id": "TBST_001",
     "name": "OLDN3wb Tank",
     "cost": 1,
@@ -12405,7 +12418,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1332: {
+  1334: {
     "id": "TBST_005",
     "name": "OLDPvP Rogue",
     "cost": 3,
@@ -12414,39 +12427,90 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1333: {
+  1335: {
     "id": "TBST_006",
     "name": "OLDTBST Push Common Card",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1334: {
+  1336: {
+    "id": "TB_GreatCurves_01",
+    "name": "TB_ClockworkCardDealer",
+    "set": 18,
+    "type": 0
+  },
+  1337: {
+    "id": "TB_RMC_001",
+    "name": "TB_EnchRandomManaCost",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1338: {
+    "id": "TB_FactionWar_BoomBot",
+    "name": "TBFactionWarBoomBot",
+    "set": 18,
+    "type": 0
+  },
+  1339: {
+    "id": "TB_FactionWar_BoomBot_Spell",
+    "name": "TBFactionWarBoomBotSpell",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1340: {
+    "id": "TB_MechWar_CommonCards",
+    "name": "TBMechWarCommonCards",
+    "set": 18,
+    "type": 0
+  },
+  1341: {
+    "id": "TB_RandCardCost",
+    "name": "TBRandomCardCost",
+    "set": 18,
+    "type": 0
+  },
+  1342: {
     "id": "TBUD_1",
     "name": "TBUD Summon Early Minion",
     "set": 18,
     "type": 0
   },
-  1335: {
+  1343: {
     "id": "TB_010e",
     "name": "三选一",
     "set": 18,
     "type": 0
   },
-  1336: {
+  1344: {
+    "id": "TB_CoOpBossSpell_1",
+    "name": "优选目标",
+    "set": 18,
+    "type": 0
+  },
+  1345: {
+    "id": "HRW02_1e",
+    "name": "作战武装",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1346: {
     "id": "BRMC_93",
     "name": "全能金刚防御系统",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1337: {
+  1347: {
     "id": "TB_009",
     "name": "创造15个奥秘",
     "set": 18,
     "type": 0
   },
-  1338: {
+  1348: {
     "id": "BRMC_99",
     "name": "加尔",
     "cost": 5,
@@ -12456,7 +12520,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1339: {
+  1349: {
+    "id": "TB_CoOpBossSpell_5",
+    "name": "双重震击",
+    "set": 18,
+    "type": 0
+  },
+  1350: {
     "id": "BRMC_95",
     "name": "古雷曼格",
     "cost": 50,
@@ -12466,13 +12536,28 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1340: {
+  1351: {
+    "id": "TB_MechWar_Boss1_HeroPower",
+    "name": "吵不死你",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1352: {
+    "id": "TB_MechWar_Boss1",
+    "name": "吵吵机器人",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1353: {
     "id": "TB_006e",
     "name": "大香蕉",
     "set": 18,
     "type": 0
   },
-  1341: {
+  1354: {
     "id": "TB_006",
     "name": "大香蕉",
     "cost": 1,
@@ -12480,33 +12565,67 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1342: {
+  1355: {
     "id": "TBA01_4",
     "name": "奈法利安",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1343: {
+  1356: {
     "id": "TB_010",
     "name": "套牌构筑强化",
     "set": 18,
     "type": 0
   },
-  1344: {
+  1357: {
+    "id": "BRMA01_2H_2_TB",
+    "name": "干杯！",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1358: {
+    "id": "TB_CoOpBossSpell_2",
+    "name": "弹幕攻击",
+    "set": 18,
+    "type": 0
+  },
+  1359: {
+    "id": "BRMA02_2_2_TB",
+    "name": "强势围观",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1360: {
+    "id": "BRMA02_2_2c_TB",
+    "name": "强势围观",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1361: {
     "id": "BRMC_86e",
     "name": "我听见你了",
     "set": 18,
     "type": 0
   },
-  1345: {
+  1362: {
     "id": "BRMC_83",
     "name": "打开大门",
     "cost": 8,
     "set": 18,
     "type": 0
   },
-  1346: {
+  1363: {
+    "id": "BRMA09_2_TB",
+    "name": "打开大门",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1364: {
     "id": "BRMC_98",
     "name": "拉佐格尔",
     "cost": 6,
@@ -12517,7 +12636,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1347: {
+  1365: {
+    "id": "NAX8_02H_TB",
+    "name": "收割",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1366: {
     "id": "TB_007",
     "name": "改造香蕉",
     "cost": 1,
@@ -12525,32 +12651,63 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1348: {
+  1367: {
     "id": "TB_007e",
     "name": "改造香蕉",
     "set": 18,
     "type": 0
   },
-  1349: {
+  1368: {
     "id": "TB_EndlessMinions01",
     "name": "无尽强化",
     "set": 18,
     "type": 0
   },
-  1350: {
-    "id": "BRMC_100e",
-    "name": "活体炸弹",
+  1369: {
+    "id": "TB_CoOp_Mechazod",
+    "name": "机甲专家麦卡佐德",
+    "cost": 10,
+    "attack": 2,
+    "health": 95,
+    "set": 18,
+    "type": 0,
+    "quality": 4
+  },
+  1370: {
+    "id": "NAX12_02H_2_TB",
+    "name": "残杀",
+    "cost": 2,
     "set": 18,
     "type": 0
   },
-  1351: {
+  1371: {
+    "id": "NAX12_02H_2c_TB",
+    "name": "残杀",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1372: {
+    "id": "NAX11_02H_2_TB",
+    "name": "毒云",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1373: {
     "id": "BRMC_100",
     "name": "活体炸弹",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1352: {
+  1374: {
+    "id": "BRMC_100e",
+    "name": "活体炸弹",
+    "set": 18,
+    "type": 0
+  },
+  1375: {
     "id": "BRMC_90",
     "name": "活体熔岩",
     "cost": 2,
@@ -12559,7 +12716,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1353: {
+  1376: {
     "id": "TB_015",
     "name": "海盗",
     "cost": 2,
@@ -12569,7 +12726,27 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1354: {
+  1377: {
+    "id": "TB_CoOpBossSpell_6",
+    "name": "消灭游学者",
+    "set": 18,
+    "type": 0
+  },
+  1378: {
+    "id": "BRMA14_10H_TB",
+    "name": "激活！",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1379: {
+    "id": "BRMA06_2H_TB",
+    "name": "火妖管理者",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1380: {
     "id": "BRMC_89",
     "name": "灰烬漩涡",
     "cost": 2,
@@ -12578,14 +12755,21 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1355: {
+  1381: {
     "id": "TBA01_1",
     "name": "炎魔之王拉格纳罗斯",
     "health": 60,
     "set": 18,
     "type": 0
   },
-  1356: {
+  1382: {
+    "id": "TB_MechWar_Boss2_HeroPower",
+    "name": "炸不死你",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1383: {
     "id": "TB_008",
     "name": "烂香蕉",
     "cost": 1,
@@ -12593,7 +12777,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1357: {
+  1384: {
     "id": "BRMC_91",
     "name": "烈焰之子",
     "cost": 3,
@@ -12602,21 +12786,14 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1358: {
+  1385: {
     "id": "TBA01_6",
     "name": "熔岩暴怒",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1359: {
-    "id": "BRMC_95h",
-    "name": "熔火幼犬",
-    "cost": 3,
-    "set": 18,
-    "type": 0
-  },
-  1360: {
+  1386: {
     "id": "BRMC_95he",
     "name": "熔火幼犬",
     "cost": 3,
@@ -12626,26 +12803,54 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1361: {
+  1387: {
+    "id": "BRMC_95h",
+    "name": "熔火幼犬",
+    "cost": 3,
+    "set": 18,
+    "type": 0
+  },
+  1388: {
     "id": "BRMC_97e",
     "name": "燃烧刺激",
     "set": 18,
     "type": 0
   },
-  1362: {
+  1389: {
     "id": "TBA01_5",
     "name": "狂野魔法",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1363: {
+  1390: {
+    "id": "BRMA13_4_2_TB",
+    "name": "狂野魔法",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1391: {
+    "id": "BRMA07_2_2c_TB",
+    "name": "猛砸",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1392: {
+    "id": "BRMA07_2_2_TB",
+    "name": "猛砸",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1393: {
     "id": "TB_013",
     "name": "玩家选择强化",
     "set": 18,
     "type": 0
   },
-  1364: {
+  1394: {
     "id": "BRMC_97",
     "name": "瓦拉斯塔兹",
     "cost": 6,
@@ -12656,14 +12861,21 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1365: {
+  1395: {
     "id": "TB_011",
     "name": "生锈的硬币",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1366: {
+  1396: {
+    "id": "BRMA17_5_TB",
+    "name": "白骨爪牙",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1397: {
     "id": "BRMC_99e",
     "name": "石元素",
     "cost": 2,
@@ -12672,13 +12884,21 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1367: {
+  1398: {
+    "id": "TB_MechWar_Boss2",
+    "name": "砰砰机器人",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1399: {
     "id": "TB_Pilot1",
     "name": "神秘操控者",
     "set": 18,
     "type": 0
   },
-  1368: {
+  1400: {
     "id": "BRMC_92",
     "name": "科林·烈酒",
     "cost": 4,
@@ -12688,7 +12908,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1369: {
+  1401: {
     "id": "BRMC_86",
     "name": "艾卓曼德斯",
     "cost": 4,
@@ -12699,7 +12919,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1370: {
+  1402: {
     "id": "BRMC_87",
     "name": "茉艾拉·铜须",
     "cost": 3,
@@ -12709,7 +12929,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1371: {
+  1403: {
     "id": "BRMC_94",
     "name": "萨弗拉斯",
     "cost": 2,
@@ -12718,7 +12938,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1372: {
+  1404: {
     "id": "BRMC_96",
     "name": "裁决者格里斯通",
     "cost": 3,
@@ -12728,27 +12948,46 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1373: {
+  1405: {
+    "id": "NAX3_02_TB",
+    "name": "裹体之网",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1406: {
+    "id": "TB_CoOpBossSpell_4",
+    "name": "超频",
+    "set": 18,
+    "type": 0
+  },
+  1407: {
     "id": "TB_012",
     "name": "选择一张新卡牌！",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1374: {
+  1408: {
     "id": "TB_014",
     "name": "选择一张新卡牌！",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1375: {
+  1409: {
+    "id": "TB_CoOpBossSpell_3",
+    "name": "释放冷却剂",
+    "set": 18,
+    "type": 0
+  },
+  1410: {
     "id": "TB_001",
     "name": "首领生命值交换器",
     "set": 18,
     "type": 0
   },
-  1376: {
+  1411: {
     "id": "BRMC_85",
     "name": "鲁西弗隆",
     "cost": 4,
@@ -12758,7 +12997,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1377: {
+  1412: {
     "id": "BRMC_84",
     "name": "龙人施法者",
     "cost": 5,
@@ -12768,7 +13007,7 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1378: {
+  1413: {
     "id": "BRMC_88",
     "name": "龙人杀戮者",
     "cost": 6,
@@ -12778,19 +13017,19 @@ hs_cards['zhcn'] = {
     "set": 18,
     "type": 0
   },
-  1379: {
+  1414: {
     "id": "BRMC_98e",
     "name": "龙人狂怒",
     "set": 18,
     "type": 0
   },
-  1380: {
+  1415: {
     "id": "AT_096e",
     "name": "上紧发条",
     "set": 15,
     "type": 0
   },
-  1381: {
+  1416: {
     "id": "AT_073",
     "name": "争强好胜",
     "cost": 1,
@@ -12800,13 +13039,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1382: {
+  1417: {
     "id": "AT_073e",
     "name": "争强好胜",
     "set": 15,
     "type": 0
   },
-  1383: {
+  1418: {
     "id": "AT_121",
     "name": "人气选手",
     "cost": 4,
@@ -12817,7 +13056,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1384: {
+  1419: {
     "id": "AT_035t",
     "name": "伏击",
     "cost": 0,
@@ -12825,7 +13064,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1385: {
+  1420: {
     "id": "AT_082",
     "name": "低阶侍从",
     "cost": 1,
@@ -12836,7 +13075,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1386: {
+  1421: {
     "id": "AT_099t",
     "name": "作战科多兽",
     "cost": 5,
@@ -12846,7 +13085,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1387: {
+  1422: {
     "id": "AT_102",
     "name": "俘获的冰虫",
     "cost": 7,
@@ -12858,13 +13097,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1388: {
+  1423: {
     "id": "AT_121e",
     "name": "信心爆棚",
     "set": 15,
     "type": 0
   },
-  1389: {
+  1424: {
     "id": "AT_051",
     "name": "元素毁灭",
     "cost": 3,
@@ -12874,7 +13113,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1390: {
+  1425: {
     "id": "AT_053",
     "name": "先祖知识",
     "cost": 2,
@@ -12884,7 +13123,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1391: {
+  1426: {
     "id": "AT_129",
     "name": "光明邪使菲奥拉",
     "cost": 3,
@@ -12895,7 +13134,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1392: {
+  1427: {
     "id": "AT_119",
     "name": "克瓦迪尔劫掠者",
     "cost": 5,
@@ -12906,7 +13145,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1393: {
+  1428: {
     "id": "AT_057",
     "name": "兽栏大师",
     "cost": 3,
@@ -12918,7 +13157,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1394: {
+  1429: {
     "id": "AT_125",
     "name": "冰吼",
     "cost": 9,
@@ -12929,7 +13168,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1395: {
+  1430: {
     "id": "AT_123",
     "name": "冰喉",
     "cost": 7,
@@ -12941,7 +13180,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1396: {
+  1431: {
     "id": "AT_120",
     "name": "冰霜巨人",
     "cost": 10,
@@ -12952,7 +13191,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1397: {
+  1432: {
     "id": "AT_092",
     "name": "冰霜暴怒者",
     "cost": 3,
@@ -12963,7 +13202,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1398: {
+  1433: {
     "id": "AT_115",
     "name": "击剑教头",
     "cost": 3,
@@ -12974,13 +13213,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1399: {
+  1434: {
     "id": "AT_115e",
     "name": "击剑练习",
     "set": 15,
     "type": 0
   },
-  1400: {
+  1435: {
     "id": "AT_042",
     "name": "刃牙德鲁伊",
     "cost": 2,
@@ -12992,7 +13231,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1401: {
+  1436: {
     "id": "AT_042t2",
     "name": "刃牙猎豹",
     "cost": 2,
@@ -13004,7 +13243,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1402: {
+  1437: {
     "id": "AT_042t",
     "name": "刃牙雄狮",
     "cost": 2,
@@ -13016,13 +13255,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1403: {
+  1438: {
     "id": "AT_082e",
     "name": "刻苦训练",
     "set": 15,
     "type": 0
   },
-  1404: {
+  1439: {
     "id": "AT_033",
     "name": "剽窃",
     "cost": 3,
@@ -13032,7 +13271,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1405: {
+  1440: {
     "id": "AT_068",
     "name": "加固",
     "cost": 2,
@@ -13042,14 +13281,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1406: {
+  1441: {
     "id": "AT_068e",
     "name": "加固",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1407: {
+  1442: {
     "id": "AT_133",
     "name": "加基森枪骑士",
     "cost": 1,
@@ -13060,7 +13299,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1408: {
+  1443: {
     "id": "AT_022",
     "name": "加拉克苏斯之拳",
     "cost": 4,
@@ -13070,7 +13309,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1409: {
+  1444: {
     "id": "AT_103",
     "name": "北海海怪",
     "cost": 9,
@@ -13081,7 +13320,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1410: {
+  1445: {
     "id": "AT_118",
     "name": "十字军统领",
     "cost": 6,
@@ -13092,7 +13331,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1411: {
+  1446: {
     "id": "AT_124",
     "name": "博尔夫·碎盾",
     "cost": 6,
@@ -13103,7 +13342,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1412: {
+  1447: {
     "id": "AT_035",
     "name": "危机四伏",
     "cost": 3,
@@ -13113,7 +13352,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1413: {
+  1448: {
     "id": "AT_096",
     "name": "发条骑士",
     "cost": 5,
@@ -13125,7 +13364,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1414: {
+  1449: {
     "id": "AT_105",
     "name": "受伤的克瓦迪尔",
     "cost": 1,
@@ -13136,13 +13375,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1415: {
+  1450: {
     "id": "AT_119e",
     "name": "受到鼓舞",
     "set": 15,
     "type": 0
   },
-  1416: {
+  1451: {
     "id": "AT_005",
     "name": "变形术：野猪",
     "cost": 3,
@@ -13152,27 +13391,27 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1417: {
+  1452: {
     "id": "AT_027e",
     "name": "召唤大师",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1418: {
+  1453: {
     "id": "AT_057o",
     "name": "吃饱喝足",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1419: {
+  1454: {
     "id": "AT_045ee",
     "name": "唤雾者之息",
     "set": 15,
     "type": 0
   },
-  1420: {
+  1455: {
     "id": "AT_054",
     "name": "唤雾者伊戈瓦尔",
     "cost": 6,
@@ -13184,7 +13423,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1421: {
+  1456: {
     "id": "AT_007",
     "name": "嗜法者",
     "cost": 3,
@@ -13196,13 +13435,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1422: {
+  1457: {
     "id": "AT_065e",
     "name": "国王护卫者",
     "set": 15,
     "type": 0
   },
-  1423: {
+  1458: {
     "id": "AT_065",
     "name": "国王护卫者",
     "cost": 3,
@@ -13214,7 +13453,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1424: {
+  1459: {
     "id": "AT_052",
     "name": "图腾魔像",
     "cost": 2,
@@ -13227,7 +13466,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1425: {
+  1460: {
     "id": "AT_106",
     "name": "圣光勇士",
     "cost": 3,
@@ -13238,19 +13477,19 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1426: {
+  1461: {
     "id": "AT_011e",
     "name": "圣光的祝福",
     "set": 15,
     "type": 0
   },
-  1427: {
+  1462: {
     "id": "AT_109e",
     "name": "士气振奋",
     "set": 15,
     "type": 0
   },
-  1428: {
+  1463: {
     "id": "AT_112",
     "name": "大师级枪骑士",
     "cost": 6,
@@ -13261,7 +13500,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1429: {
+  1464: {
     "id": "AT_070",
     "name": "天空上尉库拉格",
     "cost": 7,
@@ -13273,7 +13512,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1430: {
+  1465: {
     "id": "AT_062",
     "name": "天降蛛群",
     "cost": 6,
@@ -13283,7 +13522,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1431: {
+  1466: {
     "id": "AT_004",
     "name": "奥术冲击",
     "cost": 1,
@@ -13293,14 +13532,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1432: {
+  1467: {
     "id": "AT_066e",
     "name": "奥格瑞玛之锋",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1433: {
+  1468: {
     "id": "AT_066",
     "name": "奥格瑞玛狼骑士",
     "cost": 3,
@@ -13312,7 +13551,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1434: {
+  1469: {
     "id": "AT_027",
     "name": "威尔弗雷德·菲兹班",
     "cost": 6,
@@ -13324,14 +13563,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1435: {
+  1470: {
     "id": "AT_061e",
     "name": "子弹上膛",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1436: {
+  1471: {
     "id": "AT_061",
     "name": "子弹上膛",
     "cost": 2,
@@ -13341,14 +13580,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1437: {
+  1472: {
     "id": "AT_034e",
     "name": "小心剧毒",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1438: {
+  1473: {
     "id": "AT_021",
     "name": "小鬼骑士",
     "cost": 2,
@@ -13361,7 +13600,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1439: {
+  1474: {
     "id": "AT_030",
     "name": "幽暗城勇士",
     "cost": 2,
@@ -13373,7 +13612,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1440: {
+  1475: {
     "id": "AT_117",
     "name": "庆典司仪",
     "cost": 3,
@@ -13384,7 +13623,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1441: {
+  1476: {
     "id": "AT_132_WARRIOR",
     "name": "强化全副武装！",
     "cost": 2,
@@ -13392,14 +13631,14 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1442: {
+  1477: {
     "id": "AT_132_DRUIDe",
     "name": "强化利爪",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1443: {
+  1478: {
     "id": "AT_132_ROGUE",
     "name": "强化匕首精通",
     "cost": 2,
@@ -13407,7 +13646,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1444: {
+  1479: {
     "id": "AT_132_ROGUEt",
     "name": "强化匕首精通",
     "cost": 1,
@@ -13417,7 +13656,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1445: {
+  1480: {
     "id": "AT_132_DRUID",
     "name": "强化变形",
     "cost": 2,
@@ -13425,7 +13664,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1446: {
+  1481: {
     "id": "AT_132_SHAMAN",
     "name": "强化图腾召唤",
     "cost": 2,
@@ -13433,7 +13672,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1447: {
+  1482: {
     "id": "AT_132_PALADIN",
     "name": "强化援军",
     "cost": 2,
@@ -13441,7 +13680,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1448: {
+  1483: {
     "id": "AT_132_PRIEST",
     "name": "强化次级治疗术",
     "cost": 2,
@@ -13449,7 +13688,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1449: {
+  1484: {
     "id": "AT_132_MAGE",
     "name": "强化火焰冲击",
     "cost": 2,
@@ -13457,7 +13696,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1450: {
+  1485: {
     "id": "AT_132_WARLOCK",
     "name": "强化生命分流",
     "cost": 2,
@@ -13465,7 +13704,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1451: {
+  1486: {
     "id": "AT_132_HUNTER",
     "name": "强化稳固射击",
     "cost": 2,
@@ -13473,13 +13712,13 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1452: {
+  1487: {
     "id": "AT_045e",
     "name": "强心迷雾",
     "set": 15,
     "type": 0
   },
-  1453: {
+  1488: {
     "id": "AT_056",
     "name": "强风射击",
     "cost": 3,
@@ -13489,7 +13728,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1454: {
+  1489: {
     "id": "AT_028",
     "name": "影踪骁骑兵",
     "cost": 5,
@@ -13501,7 +13740,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1455: {
+  1490: {
     "id": "AT_113",
     "name": "征募官",
     "cost": 5,
@@ -13512,7 +13751,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1456: {
+  1491: {
     "id": "AT_047",
     "name": "德莱尼图腾师",
     "cost": 4,
@@ -13524,7 +13763,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1457: {
+  1492: {
     "id": "AT_055",
     "name": "快速治疗",
     "cost": 1,
@@ -13534,7 +13773,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1458: {
+  1493: {
     "id": "AT_064",
     "name": "怒袭",
     "cost": 3,
@@ -13544,7 +13783,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1459: {
+  1494: {
     "id": "AT_020",
     "name": "恐怖末日守卫",
     "cost": 7,
@@ -13557,7 +13796,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1460: {
+  1495: {
     "id": "AT_019",
     "name": "恐惧战马",
     "cost": 4,
@@ -13570,7 +13809,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1461: {
+  1496: {
     "id": "AT_063t",
     "name": "恐鳞",
     "cost": 3,
@@ -13583,18 +13822,17 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1462: {
+  1497: {
     "id": "AT_024",
     "name": "恶魔融合",
     "cost": 2,
     "classs": 9,
     "collectible": 1,
-    "race": 15,
     "set": 15,
     "type": 0,
     "quality": 1
   },
-  1463: {
+  1498: {
     "id": "AT_026",
     "name": "愤怒卫士",
     "cost": 2,
@@ -13607,7 +13845,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1464: {
+  1499: {
     "id": "AT_075",
     "name": "战马训练师",
     "cost": 3,
@@ -13619,7 +13857,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1465: {
+  1500: {
     "id": "AT_084",
     "name": "持枪侍从",
     "cost": 2,
@@ -13630,7 +13868,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1466: {
+  1501: {
     "id": "AT_060",
     "name": "捕熊陷阱",
     "cost": 2,
@@ -13640,14 +13878,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1467: {
+  1502: {
     "id": "AT_116e",
     "name": "放马过来！",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1468: {
+  1503: {
     "id": "AT_043",
     "name": "星界沟通",
     "cost": 4,
@@ -13657,7 +13895,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1469: {
+  1504: {
     "id": "AT_012",
     "name": "暗影子嗣",
     "cost": 4,
@@ -13669,7 +13907,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1470: {
+  1505: {
     "id": "AT_014",
     "name": "暗影魔",
     "cost": 3,
@@ -13681,20 +13919,20 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1471: {
+  1506: {
     "id": "AT_014e",
     "name": "暗影魔",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1472: {
+  1507: {
     "id": "AT_029e",
     "name": "暗钩手",
     "set": 15,
     "type": 0
   },
-  1473: {
+  1508: {
     "id": "AT_017",
     "name": "暮光守护者",
     "cost": 4,
@@ -13706,13 +13944,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1474: {
+  1509: {
     "id": "AT_017e",
     "name": "暮光的拥抱",
     "set": 15,
     "type": 0
   },
-  1475: {
+  1510: {
     "id": "AT_010",
     "name": "暴躁的牧羊人",
     "cost": 5,
@@ -13724,7 +13962,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1476: {
+  1511: {
     "id": "AT_098",
     "name": "杂耍吞法者",
     "cost": 6,
@@ -13735,16 +13973,17 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1477: {
+  1512: {
     "id": "AT_037t",
     "name": "树苗",
     "cost": 1,
     "attack": 1,
     "health": 1,
+    "classs": 11,
     "set": 15,
     "type": 0
   },
-  1478: {
+  1513: {
     "id": "AT_101",
     "name": "格斗士",
     "cost": 5,
@@ -13755,7 +13994,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1479: {
+  1514: {
     "id": "AT_069",
     "name": "格斗陪练师",
     "cost": 2,
@@ -13767,7 +14006,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1480: {
+  1515: {
     "id": "AT_095",
     "name": "沉默的骑士",
     "cost": 3,
@@ -13778,7 +14017,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1481: {
+  1516: {
     "id": "AT_132_SHAMANa",
     "name": "治疗图腾",
     "cost": 0,
@@ -13788,7 +14027,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1482: {
+  1517: {
     "id": "AT_048",
     "name": "治疗波",
     "cost": 3,
@@ -13798,7 +14037,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1483: {
+  1518: {
     "id": "AT_037",
     "name": "活体根须",
     "cost": 1,
@@ -13808,19 +14047,19 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1484: {
+  1519: {
     "id": "AT_037b",
     "name": "活体根须",
     "set": 15,
     "type": 0
   },
-  1485: {
+  1520: {
     "id": "AT_037a",
     "name": "活体根须",
     "set": 15,
     "type": 0
   },
-  1486: {
+  1521: {
     "id": "AT_046",
     "name": "海象人图腾师",
     "cost": 3,
@@ -13832,7 +14071,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1487: {
+  1522: {
     "id": "AT_104",
     "name": "海象人龟骑士",
     "cost": 5,
@@ -13844,7 +14083,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1488: {
+  1523: {
     "id": "AT_034",
     "name": "淬毒利刃",
     "cost": 4,
@@ -13856,7 +14095,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1489: {
+  1524: {
     "id": "AT_085",
     "name": "湖之仙女",
     "cost": 4,
@@ -13867,7 +14106,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1490: {
+  1525: {
     "id": "AT_050",
     "name": "灌魔之锤",
     "cost": 4,
@@ -13879,7 +14118,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1491: {
+  1526: {
     "id": "AT_094",
     "name": "火焰杂耍者",
     "cost": 2,
@@ -13890,14 +14129,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1492: {
+  1527: {
     "id": "AT_040e",
     "name": "灵魂羁绊",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1493: {
+  1528: {
     "id": "AT_132_SHAMANb",
     "name": "灼热图腾",
     "cost": 0,
@@ -13907,7 +14146,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1494: {
+  1529: {
     "id": "AT_001",
     "name": "炎枪术",
     "cost": 5,
@@ -13917,7 +14156,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1495: {
+  1530: {
     "id": "AT_039",
     "name": "狂野争斗者",
     "cost": 4,
@@ -13930,7 +14169,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1496: {
+  1531: {
     "id": "AT_042b",
     "name": "猎豹形态",
     "classs": 11,
@@ -13938,7 +14177,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1497: {
+  1532: {
     "id": "AT_067",
     "name": "猛犸人头领",
     "cost": 4,
@@ -13950,7 +14189,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1498: {
+  1533: {
     "id": "AT_072",
     "name": "瓦里安·乌瑞恩",
     "cost": 10,
@@ -13962,14 +14201,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1499: {
+  1534: {
     "id": "AT_039e",
     "name": "生来狂野",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1500: {
+  1535: {
     "id": "AT_100",
     "name": "白银之手教官",
     "cost": 3,
@@ -13980,7 +14219,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1501: {
+  1536: {
     "id": "AT_077",
     "name": "白银之枪",
     "cost": 2,
@@ -13992,13 +14231,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1502: {
+  1537: {
     "id": "AT_089e",
     "name": "白骨之盾",
     "set": 15,
     "type": 0
   },
-  1503: {
+  1538: {
     "id": "AT_089",
     "name": "白骨卫士军官",
     "cost": 2,
@@ -14009,7 +14248,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1504: {
+  1539: {
     "id": "AT_058",
     "name": "皇家雷象",
     "cost": 2,
@@ -14022,19 +14261,19 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1505: {
+  1540: {
     "id": "AT_028e",
     "name": "真气突",
     "set": 15,
     "type": 0
   },
-  1506: {
+  1541: {
     "id": "AT_013e",
     "name": "真言术：耀",
     "set": 15,
     "type": 0
   },
-  1507: {
+  1542: {
     "id": "AT_013",
     "name": "真言术：耀",
     "cost": 1,
@@ -14044,7 +14283,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1508: {
+  1543: {
     "id": "AT_132_SHAMANc",
     "name": "石爪图腾",
     "cost": 0,
@@ -14054,7 +14293,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1509: {
+  1544: {
     "id": "AT_086",
     "name": "破坏者",
     "cost": 3,
@@ -14065,7 +14304,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1510: {
+  1545: {
     "id": "AT_130",
     "name": "破海者",
     "cost": 6,
@@ -14077,7 +14316,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1511: {
+  1546: {
     "id": "AT_059",
     "name": "神勇弓箭手",
     "cost": 1,
@@ -14089,7 +14328,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1512: {
+  1547: {
     "id": "AT_011",
     "name": "神圣勇士",
     "cost": 4,
@@ -14101,7 +14340,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1513: {
+  1548: {
     "id": "AT_079",
     "name": "神秘挑战者",
     "cost": 6,
@@ -14113,7 +14352,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1514: {
+  1549: {
     "id": "AT_099",
     "name": "科多兽骑手",
     "cost": 6,
@@ -14124,7 +14363,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1515: {
+  1550: {
     "id": "AT_090",
     "name": "穆克拉的勇士",
     "cost": 5,
@@ -14136,7 +14375,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1516: {
+  1551: {
     "id": "AT_088",
     "name": "穆戈尔的勇士",
     "cost": 6,
@@ -14147,7 +14386,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1517: {
+  1552: {
     "id": "AT_132_SHAMANd",
     "name": "空气之怒图腾",
     "cost": 0,
@@ -14157,7 +14396,7 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1518: {
+  1553: {
     "id": "AT_122",
     "name": "穿刺者戈莫克",
     "cost": 4,
@@ -14168,7 +14407,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1519: {
+  1554: {
     "id": "AT_031",
     "name": "窃贼",
     "cost": 2,
@@ -14180,7 +14419,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1520: {
+  1555: {
     "id": "AT_015",
     "name": "策反",
     "cost": 2,
@@ -14190,7 +14429,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1521: {
+  1556: {
     "id": "AT_078",
     "name": "精英对决",
     "cost": 6,
@@ -14200,7 +14439,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1522: {
+  1557: {
     "id": "AT_081",
     "name": "纯洁者耶德瑞克",
     "cost": 7,
@@ -14212,14 +14451,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1523: {
+  1558: {
     "id": "AT_047e",
     "name": "经验丰富",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1524: {
+  1559: {
     "id": "AT_009",
     "name": "罗宁",
     "cost": 8,
@@ -14231,7 +14470,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1525: {
+  1560: {
     "id": "AT_008",
     "name": "考达拉幼龙",
     "cost": 6,
@@ -14244,13 +14483,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1526: {
+  1561: {
     "id": "AT_133e",
     "name": "胜利！",
     "set": 15,
     "type": 0
   },
-  1527: {
+  1562: {
     "id": "AT_044",
     "name": "腐根",
     "cost": 3,
@@ -14260,7 +14499,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1528: {
+  1563: {
     "id": "AT_045",
     "name": "艾维娜",
     "cost": 9,
@@ -14272,20 +14511,20 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1529: {
+  1564: {
     "id": "AT_117e",
     "name": "节日庆典",
     "set": 15,
     "type": 0
   },
-  1530: {
+  1565: {
     "id": "AT_074e2",
     "name": "英勇圣印",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1531: {
+  1566: {
     "id": "AT_074",
     "name": "英勇圣印",
     "cost": 3,
@@ -14295,7 +14534,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1532: {
+  1567: {
     "id": "AT_003",
     "name": "英雄之魂",
     "cost": 2,
@@ -14307,7 +14546,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1533: {
+  1568: {
     "id": "AT_040",
     "name": "荒野行者",
     "cost": 4,
@@ -14319,7 +14558,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1534: {
+  1569: {
     "id": "AT_041",
     "name": "荒野骑士",
     "cost": 7,
@@ -14331,7 +14570,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1535: {
+  1570: {
     "id": "AT_127",
     "name": "虚灵勇士萨兰德",
     "cost": 5,
@@ -14342,7 +14581,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1536: {
+  1571: {
     "id": "AT_023",
     "name": "虚空碾压者",
     "cost": 6,
@@ -14355,7 +14594,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1537: {
+  1572: {
     "id": "AT_036t",
     "name": "蛛魔",
     "cost": 3,
@@ -14365,14 +14604,14 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1538: {
+  1573: {
     "id": "AT_081e",
     "name": "被净化",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1539: {
+  1574: {
     "id": "AT_132",
     "name": "裁决者图哈特",
     "cost": 6,
@@ -14383,13 +14622,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1540: {
+  1575: {
     "id": "AT_084e",
     "name": "装备",
     "set": 15,
     "type": 0
   },
-  1541: {
+  1576: {
     "id": "AT_080",
     "name": "要塞指挥官",
     "cost": 2,
@@ -14400,7 +14639,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1542: {
+  1577: {
     "id": "AT_110",
     "name": "角斗场主管",
     "cost": 3,
@@ -14411,14 +14650,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1543: {
+  1578: {
     "id": "AT_069e",
     "name": "训练完成",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1544: {
+  1579: {
     "id": "AT_091",
     "name": "赛场医师",
     "cost": 4,
@@ -14429,7 +14668,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1545: {
+  1580: {
     "id": "AT_097",
     "name": "赛场观众",
     "cost": 1,
@@ -14440,14 +14679,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1546: {
+  1581: {
     "id": "AT_032e",
     "name": "走私交易",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1547: {
+  1582: {
     "id": "AT_032",
     "name": "走私商贩",
     "cost": 3,
@@ -14459,7 +14698,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1548: {
+  1583: {
     "id": "AT_002",
     "name": "轮回",
     "cost": 3,
@@ -14469,14 +14708,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1549: {
+  1584: {
     "id": "AT_006e",
     "name": "达拉然之力",
     "classs": 8,
     "set": 15,
     "type": 0
   },
-  1550: {
+  1585: {
     "id": "AT_006",
     "name": "达拉然铁骑士",
     "cost": 4,
@@ -14488,7 +14727,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1551: {
+  1586: {
     "id": "AT_038",
     "name": "达纳苏斯豹骑士",
     "cost": 2,
@@ -14500,7 +14739,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1552: {
+  1587: {
     "id": "AT_016",
     "name": "迷乱",
     "cost": 2,
@@ -14510,27 +14749,27 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1553: {
+  1588: {
     "id": "AT_016e",
     "name": "迷乱",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1554: {
+  1589: {
     "id": "AT_086e",
     "name": "邪恶之力",
     "set": 15,
     "type": 0
   },
-  1555: {
+  1590: {
     "id": "AT_021e",
     "name": "邪火之怒",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1556: {
+  1591: {
     "id": "AT_114",
     "name": "邪灵拷问者",
     "cost": 4,
@@ -14541,7 +14780,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1557: {
+  1592: {
     "id": "AT_063",
     "name": "酸喉",
     "cost": 7,
@@ -14554,7 +14793,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1558: {
+  1593: {
     "id": "AT_108",
     "name": "重甲战马",
     "cost": 4,
@@ -14566,13 +14805,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1559: {
+  1594: {
     "id": "AT_041e",
     "name": "野性呼唤",
     "set": 15,
     "type": 0
   },
-  1560: {
+  1595: {
     "id": "AT_005t",
     "name": "野猪",
     "cost": 3,
@@ -14582,13 +14821,13 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1561: {
+  1596: {
     "id": "AT_090e",
     "name": "金刚之力",
     "set": 15,
     "type": 0
   },
-  1562: {
+  1597: {
     "id": "AT_018",
     "name": "银色神官帕尔崔丝",
     "cost": 7,
@@ -14600,7 +14839,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1563: {
+  1598: {
     "id": "AT_109",
     "name": "银色警卫",
     "cost": 2,
@@ -14611,7 +14850,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1564: {
+  1599: {
     "id": "AT_087",
     "name": "银色骑手",
     "cost": 3,
@@ -14622,7 +14861,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1565: {
+  1600: {
     "id": "AT_029",
     "name": "锈水海盗",
     "cost": 1,
@@ -14635,7 +14874,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1566: {
+  1601: {
     "id": "AT_036",
     "name": "阿努巴拉克",
     "cost": 9,
@@ -14647,14 +14886,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1567: {
+  1602: {
     "id": "AT_071e",
     "name": "阿莱克丝塔萨之赐",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1568: {
+  1603: {
     "id": "AT_071",
     "name": "阿莱克丝塔萨的勇士",
     "cost": 2,
@@ -14666,7 +14905,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1569: {
+  1604: {
     "id": "AT_042a",
     "name": "雄狮形态",
     "classs": 11,
@@ -14674,7 +14913,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1570: {
+  1605: {
     "id": "AT_093",
     "name": "雪地狗头人",
     "cost": 4,
@@ -14685,7 +14924,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1571: {
+  1606: {
     "id": "AT_111",
     "name": "零食商贩",
     "cost": 4,
@@ -14696,14 +14935,14 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1572: {
+  1607: {
     "id": "AT_049e",
     "name": "雷霆崖之力",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1573: {
+  1608: {
     "id": "AT_049",
     "name": "雷霆崖勇士",
     "cost": 5,
@@ -14715,7 +14954,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1574: {
+  1609: {
     "id": "AT_050t",
     "name": "雷霆震击",
     "cost": 2,
@@ -14723,20 +14962,20 @@ hs_cards['zhcn'] = {
     "set": 15,
     "type": 0
   },
-  1575: {
+  1610: {
     "id": "AT_077e",
     "name": "额外突刺",
     "set": 15,
     "type": 0
   },
-  1576: {
+  1611: {
     "id": "AT_075e",
     "name": "骑士之威",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1577: {
+  1612: {
     "id": "AT_128",
     "name": "骷髅骑士",
     "cost": 6,
@@ -14747,7 +14986,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1578: {
+  1613: {
     "id": "AT_076",
     "name": "鱼人骑士",
     "cost": 4,
@@ -14760,7 +14999,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1579: {
+  1614: {
     "id": "AT_025",
     "name": "黑暗契约",
     "cost": 6,
@@ -14770,13 +15009,13 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 3
   },
-  1580: {
+  1615: {
     "id": "AT_024e",
     "name": "黑暗融合",
     "set": 15,
     "type": 0
   },
-  1581: {
+  1616: {
     "id": "AT_131",
     "name": "黑暗邪使艾蒂丝",
     "cost": 3,
@@ -14787,7 +15026,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 4
   },
-  1582: {
+  1617: {
     "id": "AT_116",
     "name": "龙眠教官",
     "cost": 2,
@@ -14799,7 +15038,7 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 2
   },
-  1583: {
+  1618: {
     "id": "AT_083",
     "name": "龙鹰骑士",
     "cost": 3,
@@ -14810,10 +15049,10 @@ hs_cards['zhcn'] = {
     "type": 0,
     "quality": 1
   },
-  1584: {
+  1619: {
     "id": "AT_083e",
     "name": "龙鹰骑士",
     "set": 15,
     "type": 0
   },
-}; // 1584 cards
+}; // 1619 cards

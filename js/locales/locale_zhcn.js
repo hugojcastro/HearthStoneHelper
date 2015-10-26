@@ -78,6 +78,7 @@ texts["zhcn"] = {
 	"localekokr" : "한국의",
 	"localezhcn" : "普通話", // traditional
 	"localezhtw" : "国语", // simplifyed
+	"localejajp" : "日本語",
 	"minion"     : "随从",
 	"spell"      : "法术",
 	"weapon"     : "武器",

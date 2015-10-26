@@ -48,13 +48,6 @@ hs_cards['kokr'] = {
     "quality": 1
   },
   4: {
-    "id": "EX1_360e",
-    "name": "겸손",
-    "classs": 2,
-    "set": 2,
-    "type": 0
-  },
-  5: {
     "id": "EX1_360",
     "name": "겸손",
     "cost": 1,
@@ -63,6 +56,13 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  5: {
+    "id": "EX1_360e",
+    "name": "겸손",
+    "classs": 2,
+    "set": 2,
+    "type": 0
   },
   6: {
     "id": "CS2_122e",
@@ -269,6 +269,13 @@ hs_cards['kokr'] = {
     "quality": 1
   },
   26: {
+    "id": "CS2_045e",
+    "name": "대지의 무기",
+    "classs": 7,
+    "set": 2,
+    "type": 0
+  },
+  27: {
     "id": "CS2_045",
     "name": "대지의 무기",
     "cost": 1,
@@ -277,13 +284,6 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  27: {
-    "id": "CS2_045e",
-    "name": "대지의 무기",
-    "classs": 7,
-    "set": 2,
-    "type": 0
   },
   28: {
     "id": "EX1_278",
@@ -331,13 +331,6 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   32: {
-    "id": "EX1_084e",
-    "name": "돌진",
-    "classs": 1,
-    "set": 2,
-    "type": 0
-  },
-  33: {
     "id": "CS2_103",
     "name": "돌진",
     "cost": 3,
@@ -347,28 +340,35 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 0
   },
-  34: {
-    "id": "CS2_103e2",
-    "name": "돌진",
-    "classs": 1,
-    "set": 2,
-    "type": 0
-  },
-  35: {
+  33: {
     "id": "DS1_178e",
     "name": "돌진",
     "classs": 3,
     "set": 2,
     "type": 0
   },
+  34: {
+    "id": "EX1_084e",
+    "name": "돌진",
+    "classs": 1,
+    "set": 2,
+    "type": 0
+  },
+  35: {
+    "id": "CS2_103e2",
+    "name": "돌진",
+    "classs": 1,
+    "set": 2,
+    "type": 0
+  },
   36: {
-    "id": "GAME_005",
+    "id": "GAME_005e",
     "name": "동전 한 닢",
     "set": 2,
     "type": 0
   },
   37: {
-    "id": "GAME_005e",
+    "id": "GAME_005",
     "name": "동전 한 닢",
     "set": 2,
     "type": 0
@@ -454,12 +454,6 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   47: {
-    "id": "CS2_074e",
-    "name": "맹독",
-    "set": 2,
-    "type": 0
-  },
-  48: {
     "id": "CS2_074",
     "name": "맹독",
     "cost": 1,
@@ -468,6 +462,12 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  48: {
+    "id": "CS2_074e",
+    "name": "맹독",
+    "set": 2,
+    "type": 0
   },
   49: {
     "id": "EX1_506",
@@ -673,14 +673,6 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   68: {
-    "id": "CS2_022e",
-    "name": "변이",
-    "classs": 8,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  69: {
     "id": "CS2_022",
     "name": "변이",
     "cost": 4,
@@ -689,6 +681,14 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  69: {
+    "id": "CS2_022e",
+    "name": "변이",
+    "classs": 8,
+    "set": 2,
+    "type": 0,
+    "quality": 1
   },
   70: {
     "id": "EX1_173",
@@ -1356,6 +1356,13 @@ hs_cards['kokr'] = {
     "type": 0
   },
   137: {
+    "id": "CS2_011o",
+    "name": "야생의 포효",
+    "classs": 11,
+    "set": 2,
+    "type": 0
+  },
+  138: {
     "id": "CS2_011",
     "name": "야생의 포효",
     "cost": 3,
@@ -1364,13 +1371,6 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  138: {
-    "id": "CS2_011o",
-    "name": "야생의 포효",
-    "classs": 11,
-    "set": 2,
-    "type": 0
   },
   139: {
     "id": "CS2_tk1",
@@ -1518,13 +1518,6 @@ hs_cards['kokr'] = {
     "quality": 1
   },
   153: {
-    "id": "CS2_092e",
-    "name": "왕의 축복",
-    "classs": 2,
-    "set": 2,
-    "type": 0
-  },
-  154: {
     "id": "CS2_092",
     "name": "왕의 축복",
     "cost": 4,
@@ -1533,6 +1526,13 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  154: {
+    "id": "CS2_092e",
+    "name": "왕의 축복",
+    "classs": 2,
+    "set": 2,
+    "type": 0
   },
   155: {
     "id": "CS2_097",
@@ -1662,19 +1662,19 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   167: {
-    "id": "CS1_113",
+    "id": "CS1_113e",
     "name": "정신 지배",
-    "cost": 10,
     "classs": 5,
-    "collectible": 1,
     "set": 2,
     "type": 0,
     "quality": 1
   },
   168: {
-    "id": "CS1_113e",
+    "id": "CS1_113",
     "name": "정신 지배",
+    "cost": 10,
     "classs": 5,
+    "collectible": 1,
     "set": 2,
     "type": 0,
     "quality": 1
@@ -1756,6 +1756,13 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   177: {
+    "id": "CS2_236e",
+    "name": "천상의 정신",
+    "classs": 5,
+    "set": 2,
+    "type": 0
+  },
+  178: {
     "id": "CS2_236",
     "name": "천상의 정신",
     "cost": 2,
@@ -1764,13 +1771,6 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  178: {
-    "id": "CS2_236e",
-    "name": "천상의 정신",
-    "classs": 5,
-    "set": 2,
-    "type": 0
   },
   179: {
     "id": "DS1_184",
@@ -1859,6 +1859,13 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   187: {
+    "id": "EX1_244e",
+    "name": "토템의 힘",
+    "classs": 7,
+    "set": 2,
+    "type": 0
+  },
+  188: {
     "id": "EX1_244",
     "name": "토템의 힘",
     "cost": 0,
@@ -1867,13 +1874,6 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  188: {
-    "id": "EX1_244e",
-    "name": "토템의 힘",
-    "classs": 7,
-    "set": 2,
-    "type": 0
   },
   189: {
     "id": "CS2_162",
@@ -1923,13 +1923,6 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   193: {
-    "id": "CS2_046e",
-    "name": "피의 욕망",
-    "classs": 7,
-    "set": 2,
-    "type": 0
-  },
-  194: {
     "id": "CS2_046",
     "name": "피의 욕망",
     "cost": 5,
@@ -1938,6 +1931,13 @@ hs_cards['kokr'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  194: {
+    "id": "CS2_046e",
+    "name": "피의 욕망",
+    "classs": 7,
+    "set": 2,
+    "type": 0
   },
   195: {
     "id": "CS1h_001",
@@ -2005,22 +2005,22 @@ hs_cards['kokr'] = {
     "quality": 0
   },
   202: {
+    "id": "CS2_027",
+    "name": "환영 복제",
+    "cost": 1,
+    "classs": 8,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  203: {
     "id": "CS2_mirror",
     "name": "환영 복제",
     "cost": 0,
     "attack": 0,
     "health": 2,
     "classs": 8,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  203: {
-    "id": "CS2_027",
-    "name": "환영 복제",
-    "cost": 1,
-    "classs": 8,
-    "collectible": 1,
     "set": 2,
     "type": 0,
     "quality": 1
@@ -2282,16 +2282,16 @@ hs_cards['kokr'] = {
     "type": 0
   },
   233: {
-    "id": "BRMA05_1H",
+    "id": "BRMA05_1",
     "name": "남작 게돈",
-    "health": 50,
+    "health": 30,
     "set": 14,
     "type": 0
   },
   234: {
-    "id": "BRMA05_1",
+    "id": "BRMA05_1H",
     "name": "남작 게돈",
-    "health": 30,
+    "health": 50,
     "set": 14,
     "type": 0
   },
@@ -2316,6 +2316,13 @@ hs_cards['kokr'] = {
     "type": 0
   },
   238: {
+    "id": "BRMA17_2H",
+    "name": "네파리안",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  239: {
     "id": "BRM_030",
     "name": "네파리안",
     "cost": 9,
@@ -2327,15 +2334,8 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  239: {
-    "id": "BRMA17_2",
-    "name": "네파리안",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
   240: {
-    "id": "BRMA17_2H",
+    "id": "BRMA17_2",
     "name": "네파리안",
     "health": 30,
     "set": 14,
@@ -2356,48 +2356,62 @@ hs_cards['kokr'] = {
     "type": 0
   },
   243: {
-    "id": "BRMA17_8H",
-    "name": "네파리안의 공격!",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  244: {
     "id": "BRMA17_8",
     "name": "네파리안의 공격!",
     "cost": 0,
     "set": 14,
     "type": 0
   },
+  244: {
+    "id": "BRMA17_8H",
+    "name": "네파리안의 공격!",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
   245: {
-    "id": "BRMA02_1H",
-    "name": "대법관 그림스톤",
-    "health": 30,
+    "id": "BRMA01_2H",
+    "name": "다들 모여!",
+    "cost": 0,
     "set": 14,
     "type": 0
   },
   246: {
+    "id": "BRMA01_2",
+    "name": "다들 모여!",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
+  247: {
     "id": "BRMA02_1",
     "name": "대법관 그림스톤",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  247: {
+  248: {
+    "id": "BRMA02_1H",
+    "name": "대법관 그림스톤",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  249: {
     "id": "BRMA07_1",
     "name": "대영주 오모크",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  248: {
+  250: {
     "id": "BRMA07_1H",
     "name": "대영주 오모크",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  249: {
+  251: {
     "id": "BRM_016",
     "name": "도끼 투척수",
     "cost": 4,
@@ -2409,7 +2423,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  250: {
+  252: {
     "id": "BRMA15_4",
     "name": "돌연변이",
     "cost": 1,
@@ -2418,42 +2432,42 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  251: {
+  253: {
     "id": "BRMA12_10",
     "name": "돌연변이",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  252: {
+  254: {
     "id": "BRMA15_3",
     "name": "돌연변이를 풀어라!",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  253: {
+  255: {
     "id": "BRMA08_3",
     "name": "드라키사스의 명령",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  254: {
+  256: {
     "id": "BRMA09_1",
     "name": "렌드 블랙핸드",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  255: {
+  257: {
     "id": "BRMA09_1H",
     "name": "렌드 블랙핸드",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  256: {
+  258: {
     "id": "BRM_029",
     "name": "렌드 블랙핸드",
     "cost": 7,
@@ -2464,81 +2478,70 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  257: {
+  259: {
     "id": "BRMA04_2",
     "name": "마그마 분출",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  258: {
+  260: {
     "id": "BRMA05_2H",
     "name": "마나 점화",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  259: {
+  261: {
     "id": "BRMA05_2",
     "name": "마나 점화",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  260: {
-    "id": "BRMA13_4",
-    "name": "마법 폭주",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
-  261: {
+  262: {
     "id": "BRMA13_4H",
     "name": "마법 폭주",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  262: {
+  263: {
+    "id": "BRMA13_4",
+    "name": "마법 폭주",
+    "cost": 1,
+    "set": 14,
+    "type": 0
+  },
+  264: {
     "id": "BRMA14_1H",
     "name": "만능골렘 방어 시스템",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  263: {
+  265: {
     "id": "BRMA14_1",
     "name": "만능골렘 방어 시스템",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  264: {
-    "id": "BRMA15_1",
-    "name": "말로리악",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  265: {
+  266: {
     "id": "BRMA15_1H",
     "name": "말로리악",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  266: {
-    "id": "BRMA14_5",
-    "name": "맹독골렘",
-    "cost": 1,
-    "attack": 3,
-    "health": 3,
-    "race": 17,
-    "set": 14,
-    "type": 0,
-    "quality": 4
-  },
   267: {
+    "id": "BRMA15_1",
+    "name": "말로리악",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  268: {
     "id": "BRMA14_5H",
     "name": "맹독골렘",
     "cost": 1,
@@ -2549,21 +2552,32 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  268: {
+  269: {
+    "id": "BRMA14_5",
+    "name": "맹독골렘",
+    "cost": 1,
+    "attack": 3,
+    "health": 3,
+    "race": 17,
+    "set": 14,
+    "type": 0,
+    "quality": 4
+  },
+  270: {
     "id": "BRMA14_4H",
     "name": "맹독골렘 가동",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  269: {
+  271: {
     "id": "BRMA14_4",
     "name": "맹독골렘 가동",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  270: {
+  272: {
     "id": "BRMA03_3",
     "name": "모이라 브론즈비어드",
     "cost": 2,
@@ -2572,7 +2586,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  271: {
+  273: {
     "id": "BRMA03_3H",
     "name": "모이라 브론즈비어드",
     "cost": 2,
@@ -2581,42 +2595,42 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  272: {
-    "id": "BRMA09_2",
-    "name": "문을 열어라!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  273: {
+  274: {
     "id": "BRMA09_2H",
     "name": "문을 열어라!",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  274: {
-    "id": "BRMA04_4H",
-    "name": "바위의 습격",
-    "cost": 3,
+  275: {
+    "id": "BRMA09_2",
+    "name": "문을 열어라!",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
-  275: {
+  276: {
     "id": "BRMA04_4",
     "name": "바위의 습격",
     "cost": 3,
     "set": 14,
     "type": 0
   },
-  276: {
+  277: {
+    "id": "BRMA04_4H",
+    "name": "바위의 습격",
+    "cost": 3,
+    "set": 14,
+    "type": 0
+  },
+  278: {
     "id": "BRMA07_3",
     "name": "박살낼 시간이다!",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  277: {
+  279: {
     "id": "BRM_015",
     "name": "복수",
     "cost": 2,
@@ -2626,27 +2640,27 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  278: {
+  280: {
     "id": "BRMA10_3e",
     "name": "부화",
     "set": 14,
     "type": 0
   },
-  279: {
+  281: {
     "id": "BRMA10_3",
     "name": "부화장",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  280: {
+  282: {
     "id": "BRMA10_3H",
     "name": "부화장",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  281: {
+  283: {
     "id": "BRM_017",
     "name": "부활",
     "cost": 2,
@@ -2656,22 +2670,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  282: {
+  284: {
     "id": "BRMA10_6e",
     "name": "분노에 눈이 멈",
     "set": 14,
     "type": 0
   },
-  283: {
-    "id": "BRMA06_4",
-    "name": "불꽃꼬리 수행사제",
-    "cost": 2,
-    "attack": 1,
-    "health": 3,
-    "set": 14,
-    "type": 0
-  },
-  284: {
+  285: {
     "id": "BRMA06_4H",
     "name": "불꽃꼬리 수행사제",
     "cost": 2,
@@ -2680,7 +2685,16 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  285: {
+  286: {
+    "id": "BRMA06_4",
+    "name": "불꽃꼬리 수행사제",
+    "cost": 2,
+    "attack": 1,
+    "health": 3,
+    "set": 14,
+    "type": 0
+  },
+  287: {
     "id": "BRM_002",
     "name": "불꽃꼬리 전사",
     "cost": 3,
@@ -2692,7 +2706,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  286: {
+  288: {
     "id": "BRM_010b",
     "name": "불꽃매 변신",
     "classs": 11,
@@ -2701,16 +2715,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  287: {
-    "id": "BRMA04_3H",
-    "name": "불꽃의 추종자",
-    "cost": 0,
-    "attack": 0,
-    "health": 5,
-    "set": 14,
-    "type": 0
-  },
-  288: {
+  289: {
     "id": "BRMA04_3",
     "name": "불꽃의 추종자",
     "cost": 0,
@@ -2719,7 +2724,16 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  289: {
+  290: {
+    "id": "BRMA04_3H",
+    "name": "불꽃의 추종자",
+    "cost": 0,
+    "attack": 0,
+    "health": 5,
+    "set": 14,
+    "type": 0
+  },
+  291: {
     "id": "BRM_010a",
     "name": "불꽃표범 변신",
     "classs": 11,
@@ -2728,48 +2742,48 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  290: {
-    "id": "BRM_027h",
-    "name": "불의 군주 라그나로스",
-    "health": 8,
-    "set": 14,
-    "type": 0
-  },
-  291: {
+  292: {
     "id": "BRMA06_3H",
     "name": "불의 군주 라그나로스",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  292: {
+  293: {
+    "id": "BRM_027h",
+    "name": "불의 군주 라그나로스",
+    "health": 8,
+    "set": 14,
+    "type": 0
+  },
+  294: {
     "id": "BRMA06_3",
     "name": "불의 군주 라그나로스",
     "health": 8,
     "set": 14,
     "type": 0
   },
-  293: {
+  295: {
     "id": "BRMA03_2",
     "name": "불의 군주의 힘",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  294: {
+  296: {
     "id": "BRM_012e",
     "name": "불이다!",
     "set": 14,
     "type": 0
   },
-  295: {
+  297: {
     "id": "BRMA11_3",
     "name": "불타는 아드레날린",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  296: {
+  298: {
     "id": "BRMA14_3",
     "name": "비전골렘",
     "cost": 0,
@@ -2780,35 +2794,35 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  297: {
-    "id": "BRMA14_2",
-    "name": "비전골렘 가동",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  298: {
+  299: {
     "id": "BRMA14_2H",
     "name": "비전골렘 가동",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  299: {
-    "id": "BRMA08_1",
-    "name": "사령관 드라키사스",
-    "health": 50,
+  300: {
+    "id": "BRMA14_2",
+    "name": "비전골렘 가동",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
-  300: {
+  301: {
     "id": "BRMA08_1H",
     "name": "사령관 드라키사스",
     "health": 50,
     "set": 14,
     "type": 0
   },
-  301: {
+  302: {
+    "id": "BRMA08_1",
+    "name": "사령관 드라키사스",
+    "health": 50,
+    "set": 14,
+    "type": 0
+  },
+  303: {
     "id": "BRMA13_6",
     "name": "살아있는 용암",
     "cost": 0,
@@ -2817,42 +2831,33 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  302: {
-    "id": "BRMA05_3H",
-    "name": "살아있는 폭탄",
-    "cost": 3,
-    "set": 14,
-    "type": 0
-  },
-  303: {
-    "id": "BRMA05_3He",
-    "name": "살아있는 폭탄",
-    "set": 14,
-    "type": 0
-  },
   304: {
-    "id": "BRMA05_3e",
-    "name": "살아있는 폭탄",
-    "set": 14,
-    "type": 0
-  },
-  305: {
     "id": "BRMA05_3",
     "name": "살아있는 폭탄",
     "cost": 4,
     "set": 14,
     "type": 0
   },
+  305: {
+    "id": "BRMA05_3H",
+    "name": "살아있는 폭탄",
+    "cost": 3,
+    "set": 14,
+    "type": 0
+  },
   306: {
-    "id": "BRM_004t",
-    "name": "새끼용",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
+    "id": "BRMA05_3e",
+    "name": "살아있는 폭탄",
     "set": 14,
     "type": 0
   },
   307: {
+    "id": "BRMA05_3He",
+    "name": "살아있는 폭탄",
+    "set": 14,
+    "type": 0
+  },
+  308: {
     "id": "BRMA09_2t",
     "name": "새끼용",
     "cost": 1,
@@ -2862,7 +2867,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  308: {
+  309: {
     "id": "BRMA09_2Ht",
     "name": "새끼용",
     "cost": 1,
@@ -2872,7 +2877,16 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  309: {
+  310: {
+    "id": "BRM_004t",
+    "name": "새끼용",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "set": 14,
+    "type": 0
+  },
+  311: {
     "id": "BRMA10_6",
     "name": "서슬송곳니의 발톱",
     "cost": 1,
@@ -2881,7 +2895,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  310: {
+  312: {
     "id": "BRMA13_7",
     "name": "소용돌이치는 잿불덩이",
     "cost": 0,
@@ -2890,7 +2904,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  311: {
+  313: {
     "id": "BRM_013",
     "name": "속사",
     "cost": 2,
@@ -2900,21 +2914,21 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  312: {
-    "id": "BRMA16_1H",
-    "name": "아트라메데스",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  313: {
+  314: {
     "id": "BRMA16_1",
     "name": "아트라메데스",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  314: {
+  315: {
+    "id": "BRMA16_1H",
+    "name": "아트라메데스",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  316: {
     "id": "BRM_005",
     "name": "악마의 격노",
     "cost": 3,
@@ -2924,21 +2938,21 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  315: {
+  317: {
     "id": "BRMA02_2",
     "name": "야유하는 군중",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  316: {
+  318: {
     "id": "BRMA02_2H",
     "name": "야유하는 군중",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  317: {
+  319: {
     "id": "BRM_001",
     "name": "엄숙한 애도",
     "cost": 5,
@@ -2948,33 +2962,33 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  318: {
+  320: {
     "id": "BRMA15_2H",
     "name": "연금술사",
     "set": 14,
     "type": 0
   },
-  319: {
+  321: {
     "id": "BRMA15_2",
     "name": "연금술사",
     "set": 14,
     "type": 0
   },
-  320: {
+  322: {
     "id": "BRMA09_3",
     "name": "옛 호드",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  321: {
+  323: {
     "id": "BRMA09_3H",
     "name": "옛 호드",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  322: {
+  324: {
     "id": "BRMA09_3t",
     "name": "옛 호드 오크",
     "cost": 1,
@@ -2983,7 +2997,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  323: {
+  325: {
     "id": "BRMA09_3Ht",
     "name": "옛 호드 오크",
     "cost": 1,
@@ -2992,21 +3006,21 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  324: {
+  326: {
     "id": "BRMA17_3",
     "name": "오닉시아",
     "health": 15,
     "set": 14,
     "type": 0
   },
-  325: {
+  327: {
     "id": "BRMA17_3H",
     "name": "오닉시아",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  326: {
+  328: {
     "id": "BRMA17_9",
     "name": "오닉시아의 발톱",
     "cost": 2,
@@ -3015,14 +3029,14 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  327: {
+  329: {
     "id": "BRMA12_8",
     "name": "오색 돌연변이",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  328: {
+  330: {
     "id": "BRMA10_5",
     "name": "오색 비룡",
     "cost": 4,
@@ -3032,7 +3046,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  329: {
+  331: {
     "id": "BRMA10_5H",
     "name": "오색 비룡",
     "cost": 4,
@@ -3042,7 +3056,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  330: {
+  332: {
     "id": "BRMA17_7",
     "name": "오색 실험체",
     "cost": 2,
@@ -3051,14 +3065,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  331: {
-    "id": "BRMA12_9",
-    "name": "오색 용혈족",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  332: {
+  333: {
     "id": "BRMA12_8t",
     "name": "오색 용혈족",
     "cost": 2,
@@ -3068,7 +3075,14 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  333: {
+  334: {
+    "id": "BRMA12_9",
+    "name": "오색 용혈족",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  335: {
     "id": "BRM_024",
     "name": "용기병 분쇄자",
     "cost": 6,
@@ -3080,7 +3094,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  334: {
+  336: {
+    "id": "BRM_011t",
+    "name": "용암 충격",
+    "classs": 7,
+    "set": 14,
+    "type": 0
+  },
+  337: {
     "id": "BRM_011",
     "name": "용암 충격",
     "cost": 2,
@@ -3090,21 +3111,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  335: {
-    "id": "BRM_011t",
-    "name": "용암 충격",
-    "classs": 7,
-    "set": 14,
-    "type": 0
-  },
-  336: {
+  338: {
     "id": "BRMA17_4",
     "name": "용암!",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  337: {
+  339: {
     "id": "BRMA14_9H",
     "name": "용암골렘",
     "cost": 5,
@@ -3115,7 +3129,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  338: {
+  340: {
     "id": "BRMA14_9",
     "name": "용암골렘",
     "cost": 5,
@@ -3126,21 +3140,21 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  339: {
+  341: {
     "id": "BRMA14_8H",
     "name": "용암골렘 가동",
     "cost": 6,
     "set": 14,
     "type": 0
   },
-  340: {
+  342: {
     "id": "BRMA14_8",
     "name": "용암골렘 가동",
     "cost": 8,
     "set": 14,
     "type": 0
   },
-  341: {
+  343: {
     "id": "BRMA14_12",
     "name": "용암아귀",
     "cost": 5,
@@ -3150,7 +3164,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  342: {
+  344: {
     "id": "BRM_018",
     "name": "용의 배우자",
     "cost": 5,
@@ -3163,7 +3177,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  343: {
+  345: {
     "id": "BRM_003",
     "name": "용의 숨결",
     "cost": 5,
@@ -3173,7 +3187,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  344: {
+  346: {
     "id": "BRM_022",
     "name": "용의 알",
     "cost": 1,
@@ -3184,20 +3198,20 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  345: {
+  347: {
     "id": "BRM_033e",
     "name": "용의 피",
     "set": 14,
     "type": 0
   },
-  346: {
+  348: {
     "id": "BRM_003e",
     "name": "용의 힘",
     "classs": 8,
     "set": 14,
     "type": 0
   },
-  347: {
+  349: {
     "id": "BRMA16_5",
     "name": "용이빨",
     "cost": 1,
@@ -3206,23 +3220,13 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  348: {
+  350: {
     "id": "BRM_020e",
     "name": "용족의 힘",
     "set": 14,
     "type": 0
   },
-  349: {
-    "id": "BRMA09_4t",
-    "name": "용혈족",
-    "cost": 1,
-    "attack": 3,
-    "health": 1,
-    "race": 24,
-    "set": 14,
-    "type": 0
-  },
-  350: {
+  351: {
     "id": "BRMA09_4Ht",
     "name": "용혈족",
     "cost": 1,
@@ -3232,7 +3236,17 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  351: {
+  352: {
+    "id": "BRMA09_4t",
+    "name": "용혈족",
+    "cost": 1,
+    "attack": 3,
+    "health": 1,
+    "race": 24,
+    "set": 14,
+    "type": 0
+  },
+  353: {
     "id": "BRM_020",
     "name": "용혈족 마술사",
     "cost": 4,
@@ -3244,41 +3258,41 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  352: {
+  354: {
     "id": "BRM_001e",
     "name": "융해",
     "classs": 5,
     "set": 14,
     "type": 0
   },
-  353: {
+  355: {
     "id": "BRMA16_3",
     "name": "음파 숨결",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  354: {
+  356: {
     "id": "BRMA16_3e",
     "name": "음파 숨결",
     "set": 14,
     "type": 0
   },
-  355: {
+  357: {
     "id": "BRMA16_2H",
     "name": "음파 탐지",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  356: {
+  358: {
     "id": "BRMA16_2",
     "name": "음파 탐지",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  357: {
+  359: {
     "id": "BRM_006t",
     "name": "임프",
     "cost": 1,
@@ -3289,7 +3303,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  358: {
+  360: {
     "id": "BRM_006",
     "name": "임프 두목",
     "cost": 3,
@@ -3302,46 +3316,35 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  359: {
+  361: {
     "id": "BRMA14_11",
     "name": "재충전",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  360: {
+  362: {
     "id": "BRMA01_4",
     "name": "저놈을 잡아!",
     "cost": 3,
     "set": 14,
     "type": 0
   },
-  361: {
+  363: {
     "id": "BRMA11_2",
     "name": "적색의 정수",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  362: {
+  364: {
     "id": "BRMA11_2H",
     "name": "적색의 정수",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  363: {
-    "id": "BRMA14_7H",
-    "name": "전기골렘",
-    "cost": 3,
-    "attack": 6,
-    "health": 6,
-    "race": 17,
-    "set": 14,
-    "type": 0,
-    "quality": 4
-  },
-  364: {
+  365: {
     "id": "BRMA14_7",
     "name": "전기골렘",
     "cost": 3,
@@ -3352,35 +3355,39 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  365: {
-    "id": "BRMA14_6",
-    "name": "전기골렘 가동",
-    "cost": 6,
-    "set": 14,
-    "type": 0
-  },
   366: {
+    "id": "BRMA14_7H",
+    "name": "전기골렘",
+    "cost": 3,
+    "attack": 6,
+    "health": 6,
+    "race": 17,
+    "set": 14,
+    "type": 0,
+    "quality": 4
+  },
+  367: {
     "id": "BRMA14_6H",
     "name": "전기골렘 가동",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  367: {
-    "id": "BRMA03_1H",
-    "name": "제왕 타우릿산",
-    "health": 30,
+  368: {
+    "id": "BRMA14_6",
+    "name": "전기골렘 가동",
+    "cost": 6,
     "set": 14,
     "type": 0
   },
-  368: {
+  369: {
     "id": "BRMA03_1",
     "name": "제왕 타우릿산",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  369: {
+  370: {
     "id": "BRM_028",
     "name": "제왕 타우릿산",
     "cost": 6,
@@ -3391,13 +3398,20 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  370: {
+  371: {
+    "id": "BRMA03_1H",
+    "name": "제왕 타우릿산",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  372: {
     "id": "BRM_028e",
     "name": "제왕의 은총",
     "set": 14,
     "type": 0
   },
-  371: {
+  373: {
     "id": "BRMA01_4t",
     "name": "주정뱅이",
     "cost": 1,
@@ -3406,70 +3420,63 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  372: {
+  374: {
     "id": "BRM_027pH",
     "name": "죽어라, 벌레들아!",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  373: {
+  375: {
     "id": "BRM_027p",
     "name": "죽어라, 벌레야!",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  374: {
+  376: {
     "id": "BRMA13_8",
     "name": "죽어라, 벌레야!",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  375: {
+  377: {
     "id": "BRMA09_6",
     "name": "진정한 대족장",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  376: {
-    "id": "BRMA13_2H",
-    "name": "진정한 형상",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
-  377: {
+  378: {
     "id": "BRMA13_2",
     "name": "진정한 형상",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  378: {
+  379: {
+    "id": "BRMA13_2H",
+    "name": "진정한 형상",
+    "cost": 1,
+    "set": 14,
+    "type": 0
+  },
+  380: {
     "id": "BRMA16_4",
     "name": "징 울리기",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  379: {
+  381: {
     "id": "BRMA06_1H",
     "name": "청지기 이그젝큐투스",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  380: {
-    "id": "BRMA06_1",
-    "name": "청지기 이그젝큐투스",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  381: {
+  382: {
     "id": "BRM_027",
     "name": "청지기 이그젝큐투스",
     "cost": 9,
@@ -3480,49 +3487,56 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  382: {
-    "id": "BRMA06_2H",
-    "name": "청지기의 권능",
-    "cost": 2,
+  383: {
+    "id": "BRMA06_1",
+    "name": "청지기 이그젝큐투스",
+    "health": 30,
     "set": 14,
     "type": 0
   },
-  383: {
+  384: {
     "id": "BRMA06_2",
     "name": "청지기의 권능",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  384: {
+  385: {
+    "id": "BRMA06_2H",
+    "name": "청지기의 권능",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  386: {
     "id": "BRMA01_1H",
     "name": "코렌 다이어브루",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  385: {
+  387: {
     "id": "BRMA01_1",
     "name": "코렌 다이어브루",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  386: {
-    "id": "BRMA12_1H",
-    "name": "크로마구스",
-    "health": 60,
-    "set": 14,
-    "type": 0
-  },
-  387: {
+  388: {
     "id": "BRMA12_1",
     "name": "크로마구스",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  388: {
+  389: {
+    "id": "BRMA12_1H",
+    "name": "크로마구스",
+    "health": 60,
+    "set": 14,
+    "type": 0
+  },
+  390: {
     "id": "BRM_031",
     "name": "크로마구스",
     "cost": 8,
@@ -3534,21 +3548,21 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  389: {
+  391: {
     "id": "BRMA11_1H",
     "name": "타락한 밸라스트라즈",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  390: {
+  392: {
     "id": "BRMA11_1",
     "name": "타락한 밸라스트라즈",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  391: {
+  393: {
     "id": "BRMA10_4H",
     "name": "타락한 알",
     "cost": 1,
@@ -3557,7 +3571,7 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  392: {
+  394: {
     "id": "BRMA10_4",
     "name": "타락한 알",
     "cost": 1,
@@ -3566,21 +3580,21 @@ hs_cards['kokr'] = {
     "set": 14,
     "type": 0
   },
-  393: {
-    "id": "BRMA09_5H",
-    "name": "탈것 내리기",
-    "cost": 4,
-    "set": 14,
-    "type": 0
-  },
-  394: {
+  395: {
     "id": "BRMA09_5",
     "name": "탈것 내리기",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  395: {
+  396: {
+    "id": "BRMA09_5H",
+    "name": "탈것 내리기",
+    "cost": 4,
+    "set": 14,
+    "type": 0
+  },
+  397: {
     "id": "BRM_012",
     "name": "파괴의 화염수호정령",
     "cost": 4,
@@ -3592,7 +3606,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  396: {
+  398: {
     "id": "BRM_007",
     "name": "패거리",
     "cost": 2,
@@ -3602,31 +3616,17 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  397: {
+  399: {
     "id": "BRMA10_1",
     "name": "폭군 서슬송곳니",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  398: {
+  400: {
     "id": "BRMA10_1H",
     "name": "폭군 서슬송곳니",
     "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  399: {
-    "id": "BRMA01_2",
-    "name": "한판 붙자!",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  400: {
-    "id": "BRMA01_2H",
-    "name": "한판 붙자!",
-    "cost": 0,
     "set": 14,
     "type": 0
   },
@@ -3681,14 +3681,14 @@ hs_cards['kokr'] = {
     "quality": 2
   },
   407: {
-    "id": "BRMA12_2H",
+    "id": "BRMA12_2",
     "name": "혈족의 고통",
     "cost": 0,
     "set": 14,
     "type": 0
   },
   408: {
-    "id": "BRMA12_2",
+    "id": "BRMA12_2H",
     "name": "혈족의 고통",
     "cost": 0,
     "set": 14,
@@ -3709,44 +3709,44 @@ hs_cards['kokr'] = {
     "type": 0
   },
   411: {
-    "id": "BRMA12_3H",
-    "name": "혈족의 고통: 적",
-    "cost": 3,
-    "set": 14,
-    "type": 0
-  },
-  412: {
     "id": "BRMA12_3",
     "name": "혈족의 고통: 적",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  413: {
-    "id": "BRMA12_5H",
-    "name": "혈족의 고통: 청",
+  412: {
+    "id": "BRMA12_3H",
+    "name": "혈족의 고통: 적",
     "cost": 3,
     "set": 14,
     "type": 0
   },
-  414: {
+  413: {
     "id": "BRMA12_5",
     "name": "혈족의 고통: 청",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  415: {
-    "id": "BRMA12_7H",
-    "name": "혈족의 고통: 청동",
+  414: {
+    "id": "BRMA12_5H",
+    "name": "혈족의 고통: 청",
     "cost": 3,
     "set": 14,
     "type": 0
   },
-  416: {
+  415: {
     "id": "BRMA12_7",
     "name": "혈족의 고통: 청동",
     "cost": 1,
+    "set": 14,
+    "type": 0
+  },
+  416: {
+    "id": "BRMA12_7H",
+    "name": "혈족의 고통: 청동",
+    "cost": 3,
     "set": 14,
     "type": 0
   },
@@ -3808,18 +3808,6 @@ hs_cards['kokr'] = {
     "quality": 1
   },
   423: {
-    "id": "BRM_010t",
-    "name": "화염의 드루이드",
-    "cost": 3,
-    "attack": 5,
-    "health": 2,
-    "classs": 11,
-    "race": 20,
-    "set": 14,
-    "type": 0,
-    "quality": 1
-  },
-  424: {
     "id": "BRM_010",
     "name": "화염의 드루이드",
     "cost": 3,
@@ -3827,6 +3815,18 @@ hs_cards['kokr'] = {
     "health": 2,
     "classs": 11,
     "collectible": 1,
+    "set": 14,
+    "type": 0,
+    "quality": 1
+  },
+  424: {
+    "id": "BRM_010t",
+    "name": "화염의 드루이드",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "classs": 11,
+    "race": 20,
     "set": 14,
     "type": 0,
     "quality": 1
@@ -8508,14 +8508,14 @@ hs_cards['kokr'] = {
     "type": 0
   },
   905: {
-    "id": "NAX1_04",
+    "id": "NAX1h_04",
     "name": "땅거미",
     "cost": 2,
     "set": 12,
     "type": 0
   },
   906: {
-    "id": "NAX1h_04",
+    "id": "NAX1_04",
     "name": "땅거미",
     "cost": 2,
     "set": 12,
@@ -8868,16 +8868,16 @@ hs_cards['kokr'] = {
     "type": 0
   },
   948: {
-    "id": "NAX1h_01",
+    "id": "NAX1_01",
     "name": "아눕레칸",
-    "health": 45,
+    "health": 30,
     "set": 12,
     "type": 0
   },
   949: {
-    "id": "NAX1_01",
+    "id": "NAX1h_01",
     "name": "아눕레칸",
-    "health": 30,
+    "health": 45,
     "set": 12,
     "type": 0
   },
@@ -9472,119 +9472,122 @@ hs_cards['kokr'] = {
     "type": 0
   },
   1021: {
-    "id": "XXX_040",
-    "name": "",
-    "health": 10,
-    "classs": 1,
+    "id": "XXX_048",
+    "name": "-1 Durability",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1022: {
+    "id": "XXX_055",
+    "name": "1000 Stats",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
-  1022: {
-    "id": "XXX_001",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1023: {
-    "id": "XXX_003",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_055e",
+    "name": "1000 Stats Enchant",
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1024: {
-    "id": "XXX_004",
-    "name": "",
+    "id": "XXX_095",
+    "name": "AI Buddy - All Charge!",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1025: {
-    "id": "XXX_005",
-    "name": "",
+    "id": "XXX_094",
+    "name": "AI Buddy - Blank Slate",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1026: {
-    "id": "XXX_006",
-    "name": "",
+    "id": "XXX_096",
+    "name": "AI Buddy - Damage Own Hero 5",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1027: {
-    "id": "XXX_007",
-    "name": "",
+    "id": "XXX_097",
+    "name": "AI Buddy - Destroy Minions",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1028: {
-    "id": "XXX_008",
-    "name": "",
+    "id": "XXX_098",
+    "name": "AI Buddy - No Deck/Hand",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1029: {
-    "id": "XXX_009",
-    "name": "",
+    "id": "XXX_099",
+    "name": "AI Helper Buddy",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1030: {
-    "id": "XXX_009e",
-    "name": "",
+    "id": "XXX_061",
+    "name": "Armor 1",
+    "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1031: {
-    "id": "XXX_010",
-    "name": "",
+    "id": "XXX_053",
+    "name": "Armor 100",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1032: {
-    "id": "XXX_011",
-    "name": "",
+    "id": "XXX_062",
+    "name": "Armor 5",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1033: {
-    "id": "XXX_012",
-    "name": "",
+    "id": "XXX_039",
+    "name": "Become Hogger",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1034: {
-    "id": "XXX_013",
-    "name": "",
+    "id": "XXX_012",
+    "name": "Bounce",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1035: {
-    "id": "XXX_014",
-    "name": "",
+    "id": "XXX_006",
+    "name": "Break Weapon",
     "cost": 0,
     "set": 7,
     "type": 0,
@@ -9592,83 +9595,46 @@ hs_cards['kokr'] = {
   },
   1036: {
     "id": "XXX_015",
-    "name": "",
+    "name": "Crash",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1037: {
-    "id": "XXX_016",
-    "name": "",
+    "id": "XXX_001",
+    "name": "Damage 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1038: {
-    "id": "XXX_017",
-    "name": "",
+    "id": "XXX_002",
+    "name": "Damage 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1039: {
-    "id": "XXX_018",
-    "name": "",
+    "id": "XXX_060",
+    "name": "Damage All",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1040: {
-    "id": "XXX_019",
-    "name": "",
+    "id": "XXX_020",
+    "name": "Damage all but 1",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1041: {
-    "id": "XXX_020",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1042: {
-    "id": "XXX_021",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1043: {
-    "id": "XXX_022",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1044: {
-    "id": "XXX_022e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1045: {
-    "id": "XXX_023",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1046: {
     "id": "XXX_024",
-    "name": "",
+    "name": "Damage Reflector",
     "cost": 0,
     "attack": 3,
     "health": 10,
@@ -9676,92 +9642,179 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1047: {
-    "id": "XXX_025",
-    "name": "",
+  1042: {
+    "id": "XXX_005",
+    "name": "Destroy",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1043: {
+    "id": "XXX_050",
+    "name": "Destroy a Mana Crystal",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1044: {
+    "id": "XXX_023",
+    "name": "Destroy All Heroes",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1045: {
+    "id": "XXX_049",
+    "name": "Destroy all Mana",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1046: {
+    "id": "XXX_018",
+    "name": "Destroy All Minions",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1047: {
+    "id": "XXX_063",
+    "name": "Destroy ALL Secrets",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1048: {
-    "id": "XXX_026",
-    "name": "",
+    "id": "XXX_047",
+    "name": "Destroy Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1049: {
-    "id": "XXX_027",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1050: {
-    "id": "XXX_028",
-    "name": "",
+    "id": "XXX_041",
+    "name": "Destroy Hero Power",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1050: {
+    "id": "XXX_059",
+    "name": "Destroy Hero's Stuff",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1051: {
-    "id": "XXX_029",
-    "name": "",
+    "id": "XXX_057",
+    "name": "Destroy Target Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1052: {
-    "id": "XXX_030",
-    "name": "",
+    "id": "XXX_013",
+    "name": "Discard",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1053: {
-    "id": "XXX_039",
-    "name": "",
+    "id": "XXX_025",
+    "name": "Do Nothing",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1054: {
-    "id": "XXX_002",
-    "name": "",
+    "id": "XXX_017",
+    "name": "Draw 3 Cards",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1055: {
-    "id": "XXX_041",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_009e",
+    "name": "Empty Enchant",
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1056: {
-    "id": "XXX_042",
-    "name": "",
+    "id": "XXX_026",
+    "name": "Enable Emotes",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1057: {
-    "id": "XXX_043",
-    "name": "",
+    "id": "XXX_007",
+    "name": "Enable for Attack",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1058: {
+    "id": "XXX_009",
+    "name": "Enchant",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1059: {
+    "id": "XXX_046",
+    "name": "Force AI to Use Hero Power",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1060: {
+    "id": "XXX_022e",
+    "name": "Free Cards",
+    "set": 7,
+    "type": 0
+  },
+  1061: {
+    "id": "XXX_022",
+    "name": "Free Cards",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1062: {
+    "id": "XXX_008",
+    "name": "Freeze",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1063: {
+    "id": "XXX_052",
+    "name": "Grant Mega-Windfury",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1064: {
     "id": "XXX_044",
-    "name": "",
+    "name": "Hand Swapper Minion",
     "cost": 0,
     "attack": 5,
     "health": 5,
@@ -9769,220 +9822,167 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1059: {
-    "id": "XXX_045",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1060: {
-    "id": "XXX_046",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1061: {
-    "id": "XXX_047",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1062: {
-    "id": "XXX_048",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1063: {
-    "id": "XXX_049",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1064: {
-    "id": "XXX_050",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1065: {
-    "id": "XXX_051",
-    "name": "",
+    "id": "XXX_042",
+    "name": "Hand to Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1066: {
-    "id": "XXX_052",
-    "name": "",
+    "id": "XXX_040",
+    "name": "Hogger",
+    "health": 10,
+    "classs": 1,
+    "set": 7,
+    "type": 0
+  },
+  1067: {
+    "id": "XXX_051",
+    "name": "Make Immune",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1067: {
-    "id": "XXX_053",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0
-  },
   1068: {
-    "id": "XXX_054",
-    "name": "",
+    "id": "XXX_014",
+    "name": "Mill 10",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1069: {
-    "id": "XXX_054e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1070: {
-    "id": "XXX_055",
-    "name": "",
+    "id": "XXX_043",
+    "name": "Mill 30",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
+  },
+  1070: {
+    "id": "XXX_019",
+    "name": "Molasses",
+    "set": 7,
+    "type": 0,
+    "quality": 1
   },
   1071: {
-    "id": "XXX_055e",
-    "name": "",
+    "id": "XXX_029",
+    "name": "Opponent Concede",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
   1072: {
-    "id": "XXX_056",
-    "name": "",
+    "id": "XXX_030",
+    "name": "Opponent Disconnect",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1073: {
-    "id": "XXX_057",
-    "name": "",
+    "id": "XXX_003",
+    "name": "Restore 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1074: {
-    "id": "XXX_058",
-    "name": "",
+    "id": "XXX_004",
+    "name": "Restore 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1075: {
-    "id": "XXX_058e",
-    "name": "",
+    "id": "XXX_021",
+    "name": "Restore All Health",
+    "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1076: {
-    "id": "XXX_059",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_028",
+    "name": "Reveal Hand",
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1077: {
-    "id": "XXX_060",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_027",
+    "name": "Server Crash",
     "set": 7,
     "type": 0
   },
   1078: {
-    "id": "XXX_061",
-    "name": "",
+    "id": "XXX_010",
+    "name": "Silence - debug",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1079: {
-    "id": "XXX_062",
-    "name": "",
+    "id": "XXX_056",
+    "name": "Silence Destroy",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1080: {
-    "id": "XXX_063",
-    "name": "",
+    "id": "XXX_016",
+    "name": "Snake Ball",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1081: {
-    "id": "XXX_094",
-    "name": "",
+    "id": "XXX_045",
+    "name": "Steal Card",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1082: {
-    "id": "XXX_095",
-    "name": "",
+    "id": "XXX_011",
+    "name": "Summon a random Secret",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1083: {
-    "id": "XXX_096",
-    "name": "",
+    "id": "XXX_054",
+    "name": "Weapon Buff",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
     "type": 0
   },
   1084: {
-    "id": "XXX_097",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_054e",
+    "name": "Weapon Buff Enchant",
     "set": 7,
     "type": 0
   },
   1085: {
-    "id": "XXX_098",
-    "name": "",
+    "id": "XXX_058",
+    "name": "Weapon Nerf",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1086: {
-    "id": "XXX_099",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_058e",
+    "name": "Weapon Nerf Enchant",
     "set": 7,
     "type": 0
   },
@@ -12360,7 +12360,7 @@ hs_cards['kokr'] = {
   },
   1327: {
     "id": "PlaceholderCard",
-    "name": "",
+    "name": "Placeholder Card",
     "cost": 9,
     "attack": 6,
     "health": 8,
@@ -12370,6 +12370,19 @@ hs_cards['kokr'] = {
     "quality": 3
   },
   1328: {
+    "id": "TB_RandHero2_001",
+    "name": "Boss HP Swapper2",
+    "set": 18,
+    "type": 0
+  },
+  1329: {
+    "id": "TB_FactionWar_Boss_BoomBot",
+    "name": "FactionWar_BoomBot",
+    "health": 30,
+    "set": 18,
+    "type": 0
+  },
+  1330: {
     "id": "TBST_004",
     "name": "OLDLegit Healer",
     "cost": 3,
@@ -12378,7 +12391,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1329: {
+  1331: {
     "id": "TBST_003",
     "name": "OLDN3wb Healer",
     "cost": 1,
@@ -12387,7 +12400,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1330: {
+  1332: {
     "id": "TBST_002",
     "name": "OLDN3wb Mage",
     "cost": 1,
@@ -12396,7 +12409,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1331: {
+  1333: {
     "id": "TBST_001",
     "name": "OLDN3wb Tank",
     "cost": 1,
@@ -12405,7 +12418,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1332: {
+  1334: {
     "id": "TBST_005",
     "name": "OLDPvP Rogue",
     "cost": 3,
@@ -12414,20 +12427,65 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1333: {
+  1335: {
     "id": "TBST_006",
     "name": "OLDTBST Push Common Card",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1334: {
+  1336: {
+    "id": "TB_GreatCurves_01",
+    "name": "TB_ClockworkCardDealer",
+    "set": 18,
+    "type": 0
+  },
+  1337: {
+    "id": "TB_RMC_001",
+    "name": "TB_EnchRandomManaCost",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1338: {
+    "id": "TB_FactionWar_BoomBot",
+    "name": "TBFactionWarBoomBot",
+    "set": 18,
+    "type": 0
+  },
+  1339: {
+    "id": "TB_FactionWar_BoomBot_Spell",
+    "name": "TBFactionWarBoomBotSpell",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1340: {
+    "id": "TB_MechWar_CommonCards",
+    "name": "TBMechWarCommonCards",
+    "set": 18,
+    "type": 0
+  },
+  1341: {
+    "id": "TB_RandCardCost",
+    "name": "TBRandomCardCost",
+    "set": 18,
+    "type": 0
+  },
+  1342: {
     "id": "TBUD_1",
     "name": "TBUD Summon Early Minion",
     "set": 18,
     "type": 0
   },
-  1335: {
+  1343: {
+    "id": "BRMA14_10H_TB",
+    "name": "가동!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1344: {
     "id": "BRMC_99",
     "name": "가르",
     "cost": 5,
@@ -12437,7 +12495,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1336: {
+  1345: {
+    "id": "NAX3_02_TB",
+    "name": "거미줄 감싸기",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1346: {
     "id": "BRMC_95",
     "name": "골레마그",
     "cost": 50,
@@ -12447,7 +12512,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1337: {
+  1347: {
+    "id": "TB_CoOpBossSpell_4",
+    "name": "과조작",
+    "set": 18,
+    "type": 0
+  },
+  1348: {
     "id": "TB_007",
     "name": "기묘한 바나나",
     "cost": 1,
@@ -12455,33 +12526,67 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1338: {
+  1349: {
     "id": "TB_007e",
     "name": "기묘한 전환",
     "set": 18,
     "type": 0
   },
-  1339: {
+  1350: {
+    "id": "TB_MechWar_Boss2_HeroPower",
+    "name": "꼬마 폭탄로봇",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1351: {
     "id": "TB_011",
     "name": "낡은 동전",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1340: {
+  1352: {
+    "id": "TB_CoOpBossSpell_3",
+    "name": "냉각수 방출",
+    "set": 18,
+    "type": 0
+  },
+  1353: {
+    "id": "BRMA07_2_2_TB",
+    "name": "너 박살낸다!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1354: {
+    "id": "BRMA07_2_2c_TB",
+    "name": "너 박살낸다!",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1355: {
     "id": "BRMC_86e",
     "name": "네 소리가 들린다...",
     "set": 18,
     "type": 0
   },
-  1341: {
+  1356: {
     "id": "TBA01_4",
     "name": "네파리안",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1342: {
+  1357: {
+    "id": "BRMA01_2H_2_TB",
+    "name": "다들 모여!!!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1358: {
     "id": "BRMC_96",
     "name": "대법관 그림스톤",
     "cost": 3,
@@ -12491,13 +12596,20 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1343: {
+  1359: {
     "id": "TB_010",
     "name": "덱 생성 마법 부여",
     "set": 18,
     "type": 0
   },
-  1344: {
+  1360: {
+    "id": "NAX11_02H_2_TB",
+    "name": "독구름",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1361: {
     "id": "BRMC_85",
     "name": "루시프론",
     "cost": 4,
@@ -12507,21 +12619,34 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1345: {
+  1362: {
+    "id": "BRMA13_4_2_TB",
+    "name": "마법 폭주",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1363: {
     "id": "TBA01_5",
     "name": "마법 폭주",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1346: {
+  1364: {
     "id": "BRMC_93",
     "name": "만능골렘 방어 시스템",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1347: {
+  1365: {
+    "id": "TB_CoOpBossSpell_5",
+    "name": "메카조드 갈래 번개",
+    "set": 18,
+    "type": 0
+  },
+  1366: {
     "id": "BRMC_87",
     "name": "모이라 브론즈비어드",
     "cost": 3,
@@ -12531,20 +12656,33 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1348: {
+  1367: {
+    "id": "TB_CoOpBossSpell_1",
+    "name": "목표 포착",
+    "set": 18,
+    "type": 0
+  },
+  1368: {
     "id": "TB_EndlessMinions01",
     "name": "무한 강화",
     "set": 18,
     "type": 0
   },
-  1349: {
+  1369: {
     "id": "BRMC_83",
     "name": "문을 열어라!",
     "cost": 8,
     "set": 18,
     "type": 0
   },
-  1350: {
+  1370: {
+    "id": "BRMA09_2_TB",
+    "name": "문을 열어라!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1371: {
     "id": "BRMC_99e",
     "name": "바위 정령",
     "cost": 2,
@@ -12553,7 +12691,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1351: {
+  1372: {
     "id": "BRMC_97",
     "name": "밸라스트라즈",
     "cost": 6,
@@ -12564,26 +12702,33 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1352: {
+  1373: {
+    "id": "HRW02_1e",
+    "name": "부릉부릉",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1374: {
     "id": "TBA01_1",
     "name": "불의 군주 라그나로스",
     "health": 60,
     "set": 18,
     "type": 0
   },
-  1353: {
+  1375: {
     "id": "BRMC_97e",
     "name": "불타는 아드레날린",
     "set": 18,
     "type": 0
   },
-  1354: {
+  1376: {
     "id": "TB_009",
     "name": "비밀 15개 생성",
     "set": 18,
     "type": 0
   },
-  1355: {
+  1377: {
     "id": "BRMC_90",
     "name": "살아있는 용암",
     "cost": 2,
@@ -12592,20 +12737,20 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1356: {
+  1378: {
     "id": "BRMC_100e",
     "name": "살아있는 폭탄",
     "set": 18,
     "type": 0
   },
-  1357: {
+  1379: {
     "id": "BRMC_100",
     "name": "살아있는 폭탄",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1358: {
+  1380: {
     "id": "BRMC_95he",
     "name": "새끼 심장부 사냥개",
     "cost": 3,
@@ -12615,21 +12760,21 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1359: {
-    "id": "TB_014",
-    "name": "새로운 카드를 선택하세요!",
-    "cost": 0,
-    "set": 18,
-    "type": 0
-  },
-  1360: {
+  1381: {
     "id": "TB_012",
     "name": "새로운 카드를 선택하세요!",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1361: {
+  1382: {
+    "id": "TB_014",
+    "name": "새로운 카드를 선택하세요!",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1383: {
     "id": "BRMC_98",
     "name": "서슬송곳니",
     "cost": 6,
@@ -12640,7 +12785,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1362: {
+  1384: {
     "id": "BRMC_94",
     "name": "설퍼라스",
     "cost": 2,
@@ -12649,13 +12794,13 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1363: {
+  1385: {
     "id": "TB_010e",
     "name": "셋 중 하나 선택",
     "set": 18,
     "type": 0
   },
-  1364: {
+  1386: {
     "id": "BRMC_89",
     "name": "소용돌이치는 잿불덩이",
     "cost": 2,
@@ -12664,20 +12809,20 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1365: {
+  1387: {
     "id": "TB_Pilot1",
     "name": "수수께끼의 조종수",
     "set": 18,
     "type": 0
   },
-  1366: {
+  1388: {
     "id": "BRMC_95h",
     "name": "심장부 사냥개를 풀어라",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1367: {
+  1389: {
     "id": "TB_008",
     "name": "썩은 바나나",
     "cost": 1,
@@ -12685,7 +12830,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1368: {
+  1390: {
     "id": "BRMC_86",
     "name": "아트라메데스",
     "cost": 4,
@@ -12696,20 +12841,49 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1369: {
+  1391: {
+    "id": "TB_MechWar_Boss1_HeroPower",
+    "name": "안녕! 안녕! 안녕!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1392: {
+    "id": "TB_MechWar_Boss1",
+    "name": "안녕로봇",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1393: {
+    "id": "BRMA02_2_2_TB",
+    "name": "야유하는 군중",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1394: {
+    "id": "BRMA02_2_2c_TB",
+    "name": "야유하는 군중",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1395: {
     "id": "TBA01_6",
     "name": "용암의 분노",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1370: {
+  1396: {
     "id": "BRMC_98e",
     "name": "용의 분노",
     "set": 18,
     "type": 0
   },
-  1371: {
+  1397: {
     "id": "BRMC_84",
     "name": "용혈족 주문술사",
     "cost": 5,
@@ -12719,7 +12893,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1372: {
+  1398: {
     "id": "BRMC_88",
     "name": "용혈족 학살자",
     "cost": 6,
@@ -12729,13 +12903,47 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1373: {
+  1399: {
     "id": "TB_001",
     "name": "우두머리 생명력 변환기",
     "set": 18,
     "type": 0
   },
-  1374: {
+  1400: {
+    "id": "TB_CoOpBossSpell_6",
+    "name": "전승지기 처치",
+    "set": 18,
+    "type": 0
+  },
+  1401: {
+    "id": "NAX8_02H_TB",
+    "name": "착취",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1402: {
+    "id": "NAX12_02H_2_TB",
+    "name": "척살",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1403: {
+    "id": "NAX12_02H_2c_TB",
+    "name": "척살",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1404: {
+    "id": "BRMA06_2H_TB",
+    "name": "청지기의 권능",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1405: {
     "id": "BRMC_92",
     "name": "코렌 다이어브루",
     "cost": 4,
@@ -12745,7 +12953,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1375: {
+  1406: {
+    "id": "TB_006e",
+    "name": "큰 바나나",
+    "set": 18,
+    "type": 0
+  },
+  1407: {
     "id": "TB_006",
     "name": "큰 바나나",
     "cost": 1,
@@ -12753,19 +12967,44 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1376: {
-    "id": "TB_006e",
-    "name": "큰 바나나",
+  1408: {
+    "id": "TB_CoOp_Mechazod",
+    "name": "톱니반장 메카조드",
+    "cost": 10,
+    "attack": 2,
+    "health": 95,
+    "set": 18,
+    "type": 0,
+    "quality": 4
+  },
+  1409: {
+    "id": "TB_CoOpBossSpell_2",
+    "name": "폭탄 난사",
     "set": 18,
     "type": 0
   },
-  1377: {
+  1410: {
+    "id": "TB_MechWar_Boss2",
+    "name": "폭탄로봇",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1411: {
     "id": "TB_013",
     "name": "플레이어 선택 마법 부여",
     "set": 18,
     "type": 0
   },
-  1378: {
+  1412: {
+    "id": "BRMA17_5_TB",
+    "name": "해골 하수인",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1413: {
     "id": "TB_015",
     "name": "해적",
     "cost": 2,
@@ -12775,7 +13014,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1379: {
+  1414: {
     "id": "BRMC_91",
     "name": "화염의 피조물",
     "cost": 3,
@@ -12784,7 +13023,7 @@ hs_cards['kokr'] = {
     "set": 18,
     "type": 0
   },
-  1380: {
+  1415: {
     "id": "AT_133",
     "name": "가젯잔 창기사",
     "cost": 1,
@@ -12795,7 +13034,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1381: {
+  1416: {
     "id": "AT_064",
     "name": "강타",
     "cost": 3,
@@ -12805,7 +13044,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1382: {
+  1417: {
     "id": "AT_056",
     "name": "강화 사격",
     "cost": 3,
@@ -12815,7 +13054,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1383: {
+  1418: {
     "id": "AT_132_MAGE",
     "name": "강화된 화염 작렬",
     "cost": 2,
@@ -12823,20 +13062,20 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1384: {
+  1419: {
     "id": "AT_045e",
     "name": "강화의 안개",
     "set": 15,
     "type": 0
   },
-  1385: {
+  1420: {
     "id": "AT_032e",
     "name": "거래 성사",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1386: {
+  1421: {
     "id": "AT_062",
     "name": "거미떼",
     "cost": 6,
@@ -12846,13 +13085,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1387: {
+  1422: {
     "id": "AT_115e",
     "name": "검술 연습",
     "set": 15,
     "type": 0
   },
-  1388: {
+  1423: {
     "id": "AT_115",
     "name": "검술 지도자",
     "cost": 3,
@@ -12863,7 +13102,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1389: {
+  1424: {
     "id": "AT_026",
     "name": "격노수호병",
     "cost": 2,
@@ -12876,19 +13115,19 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1390: {
+  1425: {
     "id": "AT_109e",
     "name": "격려됨",
     "set": 15,
     "type": 0
   },
-  1391: {
+  1426: {
     "id": "AT_119e",
     "name": "격려됨",
     "set": 15,
     "type": 0
   },
-  1392: {
+  1427: {
     "id": "AT_110",
     "name": "경기장 관리자",
     "cost": 3,
@@ -12899,7 +13138,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1393: {
+  1428: {
     "id": "AT_078",
     "name": "경기장 입장",
     "cost": 6,
@@ -12909,13 +13148,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1394: {
+  1429: {
     "id": "AT_073e",
     "name": "경쟁심",
     "set": 15,
     "type": 0
   },
-  1395: {
+  1430: {
     "id": "AT_073",
     "name": "경쟁심",
     "cost": 1,
@@ -12925,7 +13164,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1396: {
+  1431: {
     "id": "AT_116",
     "name": "고룡쉼터 요원",
     "cost": 2,
@@ -12937,7 +13176,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1397: {
+  1432: {
     "id": "AT_068",
     "name": "고무",
     "cost": 2,
@@ -12947,14 +13186,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1398: {
+  1433: {
     "id": "AT_068e",
     "name": "고무됨",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1399: {
+  1434: {
     "id": "AT_114",
     "name": "고약한 야유꾼",
     "cost": 4,
@@ -12965,7 +13204,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1400: {
+  1435: {
     "id": "AT_095",
     "name": "고요한 기사",
     "cost": 3,
@@ -12976,7 +13215,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1401: {
+  1436: {
     "id": "AT_118",
     "name": "고위 성전사",
     "cost": 6,
@@ -12987,7 +13226,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1402: {
+  1437: {
     "id": "AT_018",
     "name": "고해사제 페일트리스",
     "cost": 7,
@@ -12999,7 +13238,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1403: {
+  1438: {
     "id": "AT_060",
     "name": "곰 덫",
     "cost": 2,
@@ -13009,7 +13248,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1404: {
+  1439: {
     "id": "AT_098",
     "name": "공연장 주문탐식자",
     "cost": 6,
@@ -13020,7 +13259,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1405: {
+  1440: {
     "id": "AT_019",
     "name": "공포마",
     "cost": 4,
@@ -13033,7 +13272,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1406: {
+  1441: {
     "id": "AT_063t",
     "name": "공포비늘",
     "cost": 3,
@@ -13046,7 +13285,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1407: {
+  1442: {
     "id": "AT_023",
     "name": "공허파괴자",
     "cost": 6,
@@ -13059,14 +13298,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1408: {
+  1443: {
     "id": "AT_057o",
     "name": "관리받음",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1409: {
+  1444: {
     "id": "AT_015",
     "name": "교화",
     "cost": 2,
@@ -13076,7 +13315,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1410: {
+  1445: {
     "id": "AT_101",
     "name": "구덩이 투사",
     "cost": 5,
@@ -13087,13 +13326,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1411: {
+  1446: {
     "id": "AT_028e",
     "name": "기의 창",
     "set": 15,
     "type": 0
   },
-  1412: {
+  1447: {
     "id": "AT_122",
     "name": "꿰뚫는 자 고르목",
     "cost": 4,
@@ -13104,13 +13343,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1413: {
+  1448: {
     "id": "AT_029e",
     "name": "날카로운 칼",
     "set": 15,
     "type": 0
   },
-  1414: {
+  1449: {
     "id": "AT_036t",
     "name": "네루비안",
     "cost": 3,
@@ -13120,7 +13359,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1415: {
+  1450: {
     "id": "AT_093",
     "name": "눈덩이 스노볼트",
     "cost": 4,
@@ -13131,7 +13370,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1416: {
+  1451: {
     "id": "AT_038",
     "name": "다르나서스 지원자",
     "cost": 2,
@@ -13143,7 +13382,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1417: {
+  1452: {
     "id": "AT_006",
     "name": "달라란 지원자",
     "cost": 4,
@@ -13155,14 +13394,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1418: {
+  1453: {
     "id": "AT_006e",
     "name": "달라란의 힘",
     "classs": 8,
     "set": 15,
     "type": 0
   },
-  1419: {
+  1454: {
     "id": "AT_069",
     "name": "대련 상대",
     "cost": 2,
@@ -13174,20 +13413,20 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1420: {
+  1455: {
     "id": "AT_077e",
     "name": "더욱 견고하게",
     "set": 15,
     "type": 0
   },
-  1421: {
+  1456: {
     "id": "AT_116e",
     "name": "덤벼라!",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1422: {
+  1457: {
     "id": "AT_067",
     "name": "덩치 큰 마그나타우르",
     "cost": 4,
@@ -13199,7 +13438,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1423: {
+  1458: {
     "id": "AT_033",
     "name": "도둑질",
     "cost": 3,
@@ -13209,7 +13448,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1424: {
+  1459: {
     "id": "AT_132_ROGUE",
     "name": "독 묻은 단검",
     "cost": 2,
@@ -13217,7 +13456,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1425: {
+  1460: {
     "id": "AT_132_ROGUEt",
     "name": "독 묻은 단검",
     "cost": 1,
@@ -13227,7 +13466,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1426: {
+  1461: {
     "id": "AT_034",
     "name": "독 묻은 칼",
     "cost": 4,
@@ -13239,7 +13478,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1427: {
+  1462: {
     "id": "AT_132_SHAMANc",
     "name": "돌발톱 토템",
     "cost": 0,
@@ -13249,7 +13488,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1428: {
+  1463: {
     "id": "AT_047",
     "name": "드레나이 토템술사",
     "cost": 4,
@@ -13261,7 +13500,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1429: {
+  1464: {
     "id": "AT_035",
     "name": "땅속의 위협",
     "cost": 3,
@@ -13271,7 +13510,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1430: {
+  1465: {
     "id": "AT_009",
     "name": "로닌",
     "cost": 8,
@@ -13283,7 +13522,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1431: {
+  1466: {
     "id": "AT_057",
     "name": "마구간지기",
     "cost": 3,
@@ -13295,14 +13534,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1432: {
+  1467: {
     "id": "AT_075e",
     "name": "마부의 힘",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1433: {
+  1468: {
     "id": "AT_097",
     "name": "마상시합 관중",
     "cost": 1,
@@ -13313,7 +13552,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1434: {
+  1469: {
     "id": "AT_121",
     "name": "마상시합 유명인",
     "cost": 4,
@@ -13324,7 +13563,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1435: {
+  1470: {
     "id": "AT_117",
     "name": "마상시합 진행자",
     "cost": 3,
@@ -13335,7 +13574,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1436: {
+  1471: {
     "id": "AT_091",
     "name": "마상시합장 의무관",
     "cost": 4,
@@ -13346,7 +13585,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1437: {
+  1472: {
     "id": "AT_076",
     "name": "멀록 기사",
     "cost": 4,
@@ -13359,7 +13598,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1438: {
+  1473: {
     "id": "AT_005t",
     "name": "멧돼지",
     "cost": 3,
@@ -13369,7 +13608,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1439: {
+  1474: {
     "id": "AT_088",
     "name": "모고르의 용사",
     "cost": 6,
@@ -13380,7 +13619,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1440: {
+  1475: {
     "id": "AT_113",
     "name": "모병관",
     "cost": 5,
@@ -13391,22 +13630,36 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1441: {
+  1476: {
     "id": "AT_037t",
     "name": "묘목",
     "cost": 1,
     "attack": 1,
     "health": 1,
+    "classs": 11,
     "set": 15,
     "type": 0
   },
-  1442: {
+  1477: {
+    "id": "AT_020",
+    "name": "무시무시한 파멸의 수호병",
+    "cost": 7,
+    "attack": 6,
+    "health": 8,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1478: {
     "id": "AT_084e",
     "name": "무장함",
     "set": 15,
     "type": 0
   },
-  1443: {
+  1479: {
     "id": "AT_090",
     "name": "무클라의 용사",
     "cost": 5,
@@ -13418,7 +13671,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1444: {
+  1480: {
     "id": "AT_130",
     "name": "바다의 학살자",
     "cost": 6,
@@ -13430,7 +13683,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1445: {
+  1481: {
     "id": "AT_072",
     "name": "바리안 린",
     "cost": 10,
@@ -13442,7 +13695,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1446: {
+  1482: {
     "id": "AT_132_WARRIOR",
     "name": "방어도 상승!",
     "cost": 2,
@@ -13450,7 +13703,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1447: {
+  1483: {
     "id": "AT_050t",
     "name": "번개 충격",
     "cost": 2,
@@ -13458,7 +13711,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1448: {
+  1484: {
     "id": "AT_005",
     "name": "변이: 멧돼지",
     "cost": 3,
@@ -13468,7 +13721,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1449: {
+  1485: {
     "id": "AT_124",
     "name": "볼프 램실드",
     "cost": 6,
@@ -13479,7 +13732,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1450: {
+  1486: {
     "id": "AT_105",
     "name": "부상당한 크발디르",
     "cost": 1,
@@ -13490,7 +13743,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1451: {
+  1487: {
     "id": "AT_103",
     "name": "북해 크라켄",
     "cost": 9,
@@ -13501,7 +13754,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1452: {
+  1488: {
     "id": "AT_094",
     "name": "불꽃 곡예사",
     "cost": 2,
@@ -13512,7 +13765,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1453: {
+  1489: {
     "id": "AT_132_SHAMANb",
     "name": "불타는 토템",
     "cost": 0,
@@ -13522,7 +13775,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1454: {
+  1490: {
     "id": "AT_004",
     "name": "비전 작렬",
     "cost": 1,
@@ -13532,13 +13785,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1455: {
+  1491: {
     "id": "AT_011e",
     "name": "빛의 가호",
     "set": 15,
     "type": 0
   },
-  1456: {
+  1492: {
     "id": "AT_106",
     "name": "빛의 용사",
     "cost": 3,
@@ -13549,7 +13802,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1457: {
+  1493: {
     "id": "AT_102",
     "name": "사로잡힌 요르문가르",
     "cost": 7,
@@ -13561,7 +13814,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1458: {
+  1494: {
     "id": "AT_042a",
     "name": "사자 변신",
     "classs": 11,
@@ -13569,7 +13822,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1459: {
+  1495: {
     "id": "AT_063",
     "name": "산성아귀",
     "cost": 7,
@@ -13582,7 +13835,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1460: {
+  1496: {
     "id": "AT_010",
     "name": "산양 사육사",
     "cost": 5,
@@ -13594,19 +13847,19 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1461: {
-    "id": "AT_037b",
-    "name": "살아있는 뿌리",
-    "set": 15,
-    "type": 0
-  },
-  1462: {
+  1497: {
     "id": "AT_037a",
     "name": "살아있는 뿌리",
     "set": 15,
     "type": 0
   },
-  1463: {
+  1498: {
+    "id": "AT_037b",
+    "name": "살아있는 뿌리",
+    "set": 15,
+    "type": 0
+  },
+  1499: {
     "id": "AT_037",
     "name": "살아있는 뿌리",
     "cost": 1,
@@ -13616,7 +13869,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1464: {
+  1500: {
     "id": "AT_120",
     "name": "서리 거인",
     "cost": 10,
@@ -13627,7 +13880,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1465: {
+  1501: {
     "id": "AT_123",
     "name": "서리아귀",
     "cost": 7,
@@ -13639,7 +13892,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1466: {
+  1502: {
     "id": "AT_053",
     "name": "선조의 지혜",
     "cost": 2,
@@ -13649,26 +13902,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1467: {
+  1503: {
     "id": "AT_117e",
     "name": "설명 본능",
     "set": 15,
     "type": 0
   },
-  1468: {
-    "id": "AT_020",
-    "name": "섬뜩한 파멸의 수호병",
-    "cost": 7,
-    "attack": 6,
-    "health": 8,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1469: {
+  1504: {
     "id": "AT_081",
     "name": "성기사 에드릭",
     "cost": 7,
@@ -13680,7 +13920,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1470: {
+  1505: {
     "id": "AT_031",
     "name": "소매치기",
     "cost": 2,
@@ -13692,14 +13932,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1471: {
+  1506: {
     "id": "AT_027e",
     "name": "소환의 대가",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1472: {
+  1507: {
     "id": "AT_132_HUNTER",
     "name": "쇠뇌 사격",
     "cost": 2,
@@ -13707,7 +13947,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1473: {
+  1508: {
     "id": "AT_079",
     "name": "수수께끼의 도전자",
     "cost": 6,
@@ -13719,14 +13959,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1474: {
+  1509: {
     "id": "AT_047e",
     "name": "숙련자",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1475: {
+  1510: {
     "id": "AT_055",
     "name": "순간 치유",
     "cost": 1,
@@ -13736,13 +13976,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1476: {
+  1511: {
     "id": "AT_133e",
     "name": "승리!",
     "set": 15,
     "type": 0
   },
-  1477: {
+  1512: {
     "id": "AT_011",
     "name": "신성한 용사",
     "cost": 4,
@@ -13754,13 +13994,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1478: {
+  1513: {
     "id": "AT_013e",
     "name": "신의 권능: 영광",
     "set": 15,
     "type": 0
   },
-  1479: {
+  1514: {
     "id": "AT_013",
     "name": "신의 권능: 영광",
     "cost": 1,
@@ -13770,14 +14010,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1480: {
+  1515: {
     "id": "AT_061e",
     "name": "실탄 장전",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1481: {
+  1516: {
     "id": "AT_061",
     "name": "실탄 장전",
     "cost": 2,
@@ -13787,7 +14027,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1482: {
+  1517: {
     "id": "AT_132",
     "name": "심판관 트루하트",
     "cost": 6,
@@ -13798,7 +14038,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1483: {
+  1518: {
     "id": "AT_049",
     "name": "썬더 블러프 용맹전사",
     "cost": 5,
@@ -13810,14 +14050,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1484: {
+  1519: {
     "id": "AT_049e",
     "name": "썬더 블러프의 힘",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1485: {
+  1520: {
     "id": "AT_036",
     "name": "아눕아락",
     "cost": 9,
@@ -13829,7 +14069,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1486: {
+  1521: {
     "id": "AT_045",
     "name": "아비아나",
     "cost": 9,
@@ -13841,7 +14081,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1487: {
+  1522: {
     "id": "AT_131",
     "name": "아이디스 다크베인",
     "cost": 3,
@@ -13852,18 +14092,17 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1488: {
+  1523: {
     "id": "AT_024",
     "name": "악마의 기운",
     "cost": 2,
     "classs": 9,
     "collectible": 1,
-    "race": 15,
     "set": 15,
     "type": 0,
     "quality": 1
   },
-  1489: {
+  1524: {
     "id": "AT_054",
     "name": "안개소환사",
     "cost": 6,
@@ -13875,13 +14114,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1490: {
+  1525: {
     "id": "AT_045ee",
     "name": "안개소환사 덱 강화",
     "set": 15,
     "type": 0
   },
-  1491: {
+  1526: {
     "id": "AT_071",
     "name": "알렉스트라자의 용사",
     "cost": 2,
@@ -13893,14 +14132,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1492: {
+  1527: {
     "id": "AT_071e",
     "name": "알렉스트라자의 은혜",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1493: {
+  1528: {
     "id": "AT_032",
     "name": "암거래상",
     "cost": 3,
@@ -13912,7 +14151,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1494: {
+  1529: {
     "id": "AT_040",
     "name": "야생길잡이",
     "cost": 4,
@@ -13924,7 +14163,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1495: {
+  1530: {
     "id": "AT_041",
     "name": "야생의 기사",
     "cost": 7,
@@ -13936,20 +14175,20 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1496: {
+  1531: {
     "id": "AT_041e",
     "name": "야생의 부름",
     "set": 15,
     "type": 0
   },
-  1497: {
+  1532: {
     "id": "AT_040e",
     "name": "야생의 영혼",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1498: {
+  1533: {
     "id": "AT_044",
     "name": "양분 흡수",
     "cost": 3,
@@ -13959,13 +14198,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1499: {
+  1534: {
     "id": "AT_024e",
     "name": "어둠 주입",
     "set": 15,
     "type": 0
   },
-  1500: {
+  1535: {
     "id": "AT_025",
     "name": "어둠의 거래",
     "cost": 6,
@@ -13975,7 +14214,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1501: {
+  1536: {
     "id": "AT_014",
     "name": "어둠의 마귀",
     "cost": 3,
@@ -13987,14 +14226,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1502: {
+  1537: {
     "id": "AT_014e",
     "name": "어둠의 마귀 효과",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1503: {
+  1538: {
     "id": "AT_012",
     "name": "어둠의 종복",
     "cost": 4,
@@ -14006,7 +14245,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1504: {
+  1539: {
     "id": "AT_030",
     "name": "언더시티 용맹전사",
     "cost": 2,
@@ -14018,7 +14257,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1505: {
+  1540: {
     "id": "AT_092",
     "name": "얼음 광전사",
     "cost": 3,
@@ -14029,7 +14268,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1506: {
+  1541: {
     "id": "AT_125",
     "name": "얼음울음",
     "cost": 9,
@@ -14040,13 +14279,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1507: {
+  1542: {
     "id": "AT_121e",
     "name": "엄청난 자부심",
     "set": 15,
     "type": 0
   },
-  1508: {
+  1543: {
     "id": "AT_127",
     "name": "연합용사 사라아드",
     "cost": 5,
@@ -14057,7 +14296,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1509: {
+  1544: {
     "id": "AT_003",
     "name": "영웅의 넋",
     "cost": 2,
@@ -14069,7 +14308,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1510: {
+  1545: {
     "id": "AT_132_WARLOCK",
     "name": "영혼 전환",
     "cost": 2,
@@ -14077,7 +14316,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1511: {
+  1546: {
     "id": "AT_066",
     "name": "오그리마 지원자",
     "cost": 3,
@@ -14089,20 +14328,20 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1512: {
+  1547: {
     "id": "AT_066e",
     "name": "오그리마의 제련소",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1513: {
+  1548: {
     "id": "AT_065e",
     "name": "왕의 수호검",
     "set": 15,
     "type": 0
   },
-  1514: {
+  1549: {
     "id": "AT_065",
     "name": "왕의 수호검",
     "cost": 3,
@@ -14114,7 +14353,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1515: {
+  1550: {
     "id": "AT_058",
     "name": "왕의 엘레크",
     "cost": 2,
@@ -14127,7 +14366,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1516: {
+  1551: {
     "id": "AT_059",
     "name": "용감한 궁수",
     "cost": 1,
@@ -14139,7 +14378,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1517: {
+  1552: {
     "id": "AT_083",
     "name": "용매 기수",
     "cost": 3,
@@ -14150,13 +14389,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1518: {
+  1553: {
     "id": "AT_083e",
     "name": "용매의 날렵함",
     "set": 15,
     "type": 0
   },
-  1519: {
+  1554: {
     "id": "AT_074",
     "name": "용사의 문장",
     "cost": 3,
@@ -14166,14 +14405,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1520: {
+  1555: {
     "id": "AT_074e2",
     "name": "용사의 문장",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1521: {
+  1556: {
     "id": "AT_112",
     "name": "위대한 창기사",
     "cost": 6,
@@ -14184,7 +14423,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1522: {
+  1557: {
     "id": "AT_027",
     "name": "윌프레드 피즐뱅",
     "cost": 6,
@@ -14196,13 +14435,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1523: {
+  1558: {
     "id": "AT_090e",
     "name": "유인원의 힘",
     "set": 15,
     "type": 0
   },
-  1524: {
+  1559: {
     "id": "AT_132_PALADIN",
     "name": "은빛 성기사단",
     "cost": 2,
@@ -14210,7 +14449,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1525: {
+  1560: {
     "id": "AT_100",
     "name": "은빛 성기사단 섭정",
     "cost": 3,
@@ -14221,7 +14460,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1526: {
+  1561: {
     "id": "AT_109",
     "name": "은빛십자군 경비병",
     "cost": 2,
@@ -14232,7 +14471,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1527: {
+  1562: {
     "id": "AT_087",
     "name": "은빛십자군 기수",
     "cost": 3,
@@ -14243,7 +14482,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1528: {
+  1563: {
     "id": "AT_077",
     "name": "은빛십자군 창",
     "cost": 2,
@@ -14255,7 +14494,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1529: {
+  1564: {
     "id": "AT_028",
     "name": "음영파 기수",
     "cost": 5,
@@ -14267,7 +14506,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1530: {
+  1565: {
     "id": "AT_002",
     "name": "인형 의식",
     "cost": 3,
@@ -14277,7 +14516,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1531: {
+  1566: {
     "id": "AT_022",
     "name": "자락서스의 주먹",
     "cost": 4,
@@ -14287,7 +14526,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1532: {
+  1567: {
     "id": "AT_021",
     "name": "작고 사악한 창기사",
     "cost": 2,
@@ -14300,7 +14539,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1533: {
+  1568: {
     "id": "AT_035t",
     "name": "잠복!",
     "cost": 0,
@@ -14308,7 +14547,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1534: {
+  1569: {
     "id": "AT_075",
     "name": "전투마 조련사",
     "cost": 3,
@@ -14320,7 +14559,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1535: {
+  1570: {
     "id": "AT_099t",
     "name": "전투코도",
     "cost": 5,
@@ -14330,14 +14569,14 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1536: {
+  1571: {
     "id": "AT_081e",
     "name": "정화됨",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1537: {
+  1572: {
     "id": "AT_080",
     "name": "주둔지 사령관",
     "cost": 2,
@@ -14348,7 +14587,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1538: {
+  1573: {
     "id": "AT_007",
     "name": "주문사수",
     "cost": 3,
@@ -14360,7 +14599,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1539: {
+  1574: {
     "id": "AT_108",
     "name": "중무장 전투마",
     "cost": 4,
@@ -14372,14 +14611,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1540: {
+  1575: {
     "id": "AT_021e",
     "name": "지옥분노",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1541: {
+  1576: {
     "id": "AT_084",
     "name": "창 운반꾼",
     "cost": 2,
@@ -14390,7 +14629,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1542: {
+  1577: {
     "id": "AT_043",
     "name": "천공의 교감",
     "cost": 4,
@@ -14400,7 +14639,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1543: {
+  1578: {
     "id": "AT_132_SHAMANd",
     "name": "천벌의 토템",
     "cost": 0,
@@ -14410,7 +14649,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1544: {
+  1579: {
     "id": "AT_050",
     "name": "충전된 망치",
     "cost": 4,
@@ -14422,7 +14661,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1545: {
+  1580: {
     "id": "AT_132_PRIEST",
     "name": "치유",
     "cost": 2,
@@ -14430,7 +14669,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1546: {
+  1581: {
     "id": "AT_132_SHAMANa",
     "name": "치유 토템",
     "cost": 0,
@@ -14440,7 +14679,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1547: {
+  1582: {
     "id": "AT_048",
     "name": "치유의 물결",
     "cost": 3,
@@ -14450,7 +14689,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1548: {
+  1583: {
     "id": "AT_042t",
     "name": "칼날이빨 사자",
     "cost": 2,
@@ -14462,7 +14701,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1549: {
+  1584: {
     "id": "AT_042t2",
     "name": "칼날이빨 흑표범",
     "cost": 2,
@@ -14474,7 +14713,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1550: {
+  1585: {
     "id": "AT_042",
     "name": "칼날이빨의 드루이드",
     "cost": 2,
@@ -14486,7 +14725,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1551: {
+  1586: {
     "id": "AT_099",
     "name": "코도 기수",
     "cost": 6,
@@ -14497,7 +14736,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1552: {
+  1587: {
     "id": "AT_008",
     "name": "콜다라 비룡",
     "cost": 6,
@@ -14510,7 +14749,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1553: {
+  1588: {
     "id": "AT_119",
     "name": "크발디르 약탈자",
     "cost": 5,
@@ -14521,13 +14760,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1554: {
+  1589: {
     "id": "AT_096e",
     "name": "태엽 감김",
     "set": 15,
     "type": 0
   },
-  1555: {
+  1590: {
     "id": "AT_096",
     "name": "태엽돌이 기사",
     "cost": 5,
@@ -14539,7 +14778,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1556: {
+  1591: {
     "id": "AT_052",
     "name": "토템 골렘",
     "cost": 2,
@@ -14552,7 +14791,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1557: {
+  1592: {
     "id": "AT_132_SHAMAN",
     "name": "토템 지배",
     "cost": 2,
@@ -14560,7 +14799,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1558: {
+  1593: {
     "id": "AT_104",
     "name": "투스카르 창기사",
     "cost": 5,
@@ -14572,7 +14811,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1559: {
+  1594: {
     "id": "AT_046",
     "name": "투스카르 토템지기",
     "cost": 3,
@@ -14584,7 +14823,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1560: {
+  1595: {
     "id": "AT_111",
     "name": "투스카르 행상인",
     "cost": 4,
@@ -14595,13 +14834,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1561: {
+  1596: {
     "id": "AT_086e",
     "name": "파괴공작!",
     "set": 15,
     "type": 0
   },
-  1562: {
+  1597: {
     "id": "AT_086",
     "name": "파괴공작원",
     "cost": 3,
@@ -14612,7 +14851,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1563: {
+  1598: {
     "id": "AT_051",
     "name": "파괴의 정기",
     "cost": 3,
@@ -14622,7 +14861,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1564: {
+  1599: {
     "id": "AT_082",
     "name": "풋내기 종자",
     "cost": 1,
@@ -14633,7 +14872,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1565: {
+  1600: {
     "id": "AT_129",
     "name": "피욜라 라이트베인",
     "cost": 3,
@@ -14644,7 +14883,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1566: {
+  1601: {
     "id": "AT_070",
     "name": "하늘선장 크라그",
     "cost": 7,
@@ -14656,7 +14895,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1567: {
+  1602: {
     "id": "AT_128",
     "name": "해골 기사",
     "cost": 6,
@@ -14667,7 +14906,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 4
   },
-  1568: {
+  1603: {
     "id": "AT_089",
     "name": "해골경비대 부관",
     "cost": 2,
@@ -14678,13 +14917,13 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1569: {
+  1604: {
     "id": "AT_089e",
     "name": "해골경비대의 끈기",
     "set": 15,
     "type": 0
   },
-  1570: {
+  1605: {
     "id": "AT_029",
     "name": "해적단원",
     "cost": 1,
@@ -14697,7 +14936,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1571: {
+  1606: {
     "id": "AT_085",
     "name": "호수의 여신",
     "cost": 4,
@@ -14708,14 +14947,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1572: {
+  1607: {
     "id": "AT_016e",
     "name": "혼란",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1573: {
+  1608: {
     "id": "AT_016",
     "name": "혼란",
     "cost": 2,
@@ -14725,7 +14964,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1574: {
+  1609: {
     "id": "AT_001",
     "name": "화염창",
     "cost": 5,
@@ -14735,7 +14974,7 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1575: {
+  1610: {
     "id": "AT_017",
     "name": "황혼의 수호자",
     "cost": 4,
@@ -14747,33 +14986,33 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 3
   },
-  1576: {
+  1611: {
     "id": "AT_017e",
     "name": "황혼의 은총",
     "set": 15,
     "type": 0
   },
-  1577: {
+  1612: {
     "id": "AT_069e",
     "name": "훈련 완료",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1578: {
+  1613: {
     "id": "AT_082e",
     "name": "훈련 중",
     "set": 15,
     "type": 0
   },
-  1579: {
+  1614: {
     "id": "AT_132_DRUIDe",
     "name": "흉포한 발톱",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1580: {
+  1615: {
     "id": "AT_132_DRUID",
     "name": "흉포한 변신",
     "cost": 2,
@@ -14781,7 +15020,7 @@ hs_cards['kokr'] = {
     "set": 15,
     "type": 0
   },
-  1581: {
+  1616: {
     "id": "AT_039",
     "name": "흉포한 전투원",
     "cost": 4,
@@ -14794,14 +15033,14 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 2
   },
-  1582: {
+  1617: {
     "id": "AT_039e",
     "name": "흉포함",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1583: {
+  1618: {
     "id": "AT_042b",
     "name": "흑표범 변신",
     "classs": 11,
@@ -14809,11 +15048,11 @@ hs_cards['kokr'] = {
     "type": 0,
     "quality": 1
   },
-  1584: {
+  1619: {
     "id": "AT_034e",
     "name": "흥건한 독",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-}; // 1584 cards
+}; // 1619 cards

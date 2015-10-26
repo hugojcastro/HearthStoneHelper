@@ -16,12 +16,6 @@
  */
 hs_cards['dede'] = {
   1: {
-    "id": "GAME_004",
-    "name": "AFK",
-    "set": 2,
-    "type": 0
-  },
-  2: {
     "id": "CS2_056",
     "name": "Aderlass",
     "cost": 2,
@@ -29,6 +23,12 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  2: {
+    "id": "GAME_004",
+    "name": "AFK",
+    "set": 2,
+    "type": 0
   },
   3: {
     "id": "EX1_399e",
@@ -206,6 +206,13 @@ hs_cards['dede'] = {
     "quality": 1
   },
   21: {
+    "id": "EX1_360e",
+    "name": "Demut",
+    "classs": 2,
+    "set": 2,
+    "type": 0
+  },
+  22: {
     "id": "EX1_360",
     "name": "Demut",
     "cost": 1,
@@ -215,13 +222,6 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  22: {
-    "id": "EX1_360e",
-    "name": "Demut",
-    "classs": 2,
-    "set": 2,
-    "type": 0
-  },
   23: {
     "id": "CS2_222o",
     "name": "Die Macht Sturmwinds",
@@ -229,13 +229,13 @@ hs_cards['dede'] = {
     "type": 0
   },
   24: {
-    "id": "GAME_005e",
+    "id": "GAME_005",
     "name": "Die Münze",
     "set": 2,
     "type": 0
   },
   25: {
-    "id": "GAME_005",
+    "id": "GAME_005e",
     "name": "Die Münze",
     "set": 2,
     "type": 0
@@ -374,6 +374,16 @@ hs_cards['dede'] = {
     "quality": 1
   },
   38: {
+    "id": "DS1_184",
+    "name": "Fährtenlesen",
+    "cost": 1,
+    "classs": 3,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 0
+  },
+  39: {
     "id": "EX1_539",
     "name": "Fass!",
     "cost": 3,
@@ -383,7 +393,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  39: {
+  40: {
     "id": "CS2_029",
     "name": "Feuerball",
     "cost": 4,
@@ -393,7 +403,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  40: {
+  41: {
     "id": "CS2_042",
     "name": "Feuerelementar",
     "cost": 6,
@@ -405,7 +415,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  41: {
+  42: {
     "id": "CS2_034",
     "name": "Feuerschlag",
     "cost": 2,
@@ -414,7 +424,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  42: {
+  43: {
     "id": "CS2_106",
     "name": "Feurige Kriegsaxt",
     "cost": 2,
@@ -426,7 +436,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  43: {
+  44: {
     "id": "CS2_075",
     "name": "Finsterer Stoß",
     "cost": 1,
@@ -436,7 +446,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  44: {
+  45: {
     "id": "CS2_032",
     "name": "Flammenstoß",
     "cost": 7,
@@ -446,14 +456,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  45: {
+  46: {
     "id": "EX1_565o",
     "name": "Flammenzunge",
     "classs": 7,
     "set": 2,
     "type": 0
   },
-  46: {
+  47: {
     "id": "EX1_565",
     "name": "Flammenzungentotem",
     "cost": 2,
@@ -466,7 +476,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  47: {
+  48: {
     "id": "CS2_120",
     "name": "Flusskrokilisk",
     "cost": 2,
@@ -478,7 +488,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  48: {
+  49: {
     "id": "hexfrog",
     "name": "Frosch",
     "cost": 0,
@@ -489,7 +499,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  49: {
+  50: {
     "id": "CS2_024",
     "name": "Frostblitz",
     "cost": 2,
@@ -499,7 +509,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  50: {
+  51: {
     "id": "CS2_026",
     "name": "Frostnova",
     "cost": 3,
@@ -509,7 +519,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  51: {
+  52: {
     "id": "CS2_037",
     "name": "Frostschock",
     "cost": 1,
@@ -519,7 +529,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  52: {
+  53: {
     "id": "CS2_121",
     "name": "Frostwolfgrunzer",
     "cost": 2,
@@ -530,7 +540,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  53: {
+  54: {
     "id": "CS2_226",
     "name": "Frostwolfkriegsfürst",
     "cost": 5,
@@ -541,7 +551,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  54: {
+  55: {
     "id": "CS1_042",
     "name": "Fußsoldat von Goldhain",
     "cost": 1,
@@ -551,16 +561,6 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  55: {
-    "id": "DS1_184",
-    "name": "Fährtenlesen",
-    "cost": 1,
-    "classs": 3,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 0
   },
   56: {
     "id": "HERO_01",
@@ -573,19 +573,19 @@ hs_cards['dede'] = {
     "quality": 0
   },
   57: {
-    "id": "CS1_113e",
-    "name": "Gedankenkontrolle",
-    "classs": 5,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  58: {
     "id": "CS1_113",
     "name": "Gedankenkontrolle",
     "cost": 10,
     "classs": 5,
     "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  58: {
+    "id": "CS1_113e",
+    "name": "Gedankenkontrolle",
+    "classs": 5,
     "set": 2,
     "type": 0,
     "quality": 1
@@ -676,6 +676,23 @@ hs_cards['dede'] = {
     "quality": 1
   },
   68: {
+    "id": "CS2_236e",
+    "name": "Göttlicher Wille",
+    "classs": 5,
+    "set": 2,
+    "type": 0
+  },
+  69: {
+    "id": "CS2_236",
+    "name": "Göttlicher Wille",
+    "cost": 2,
+    "classs": 5,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  70: {
     "id": "EX1_508",
     "name": "Grimmschuppenorakel",
     "cost": 1,
@@ -687,7 +704,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  69: {
+  71: {
     "id": "NEW1_034",
     "name": "Grummel",
     "cost": 3,
@@ -699,7 +716,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  70: {
+  72: {
     "id": "HERO_07",
     "name": "Gul'dan",
     "health": 30,
@@ -709,7 +726,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  71: {
+  73: {
     "id": "EX1_399",
     "name": "Gurubashiberserker",
     "cost": 5,
@@ -719,23 +736,6 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  72: {
-    "id": "CS2_236",
-    "name": "Göttlicher Wille",
-    "cost": 2,
-    "classs": 5,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  73: {
-    "id": "CS2_236e",
-    "name": "Göttlicher Wille",
-    "classs": 5,
-    "set": 2,
-    "type": 0
   },
   74: {
     "id": "CS2_094",
@@ -820,6 +820,13 @@ hs_cards['dede'] = {
     "quality": 0
   },
   82: {
+    "id": "CS2_105e",
+    "name": "Heldenhafter Stoß",
+    "classs": 1,
+    "set": 2,
+    "type": 0
+  },
+  83: {
     "id": "CS2_105",
     "name": "Heldenhafter Stoß",
     "cost": 2,
@@ -828,13 +835,6 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  83: {
-    "id": "CS2_105e",
-    "name": "Heldenhafter Stoß",
-    "classs": 1,
-    "set": 2,
-    "type": 0
   },
   84: {
     "id": "CS2_162",
@@ -865,22 +865,22 @@ hs_cards['dede'] = {
     "quality": 0
   },
   87: {
-    "id": "DS1_070",
-    "name": "Hundemeister",
+    "id": "CS2_062",
+    "name": "Höllenfeuer",
     "cost": 4,
-    "attack": 4,
-    "health": 3,
-    "classs": 3,
+    "classs": 9,
     "collectible": 1,
     "set": 2,
     "type": 0,
     "quality": 0
   },
   88: {
-    "id": "CS2_062",
-    "name": "Höllenfeuer",
+    "id": "DS1_070",
+    "name": "Hundemeister",
     "cost": 4,
-    "classs": 9,
+    "attack": 4,
+    "health": 3,
+    "classs": 3,
     "collectible": 1,
     "set": 2,
     "type": 0,
@@ -909,16 +909,6 @@ hs_cards['dede'] = {
     "quality": 0
   },
   91: {
-    "id": "HERO_08",
-    "name": "Jaina Prachtmeer",
-    "health": 30,
-    "classs": 8,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 0
-  },
-  92: {
     "id": "CS2_196",
     "name": "Jägerin der Klingenhauer",
     "cost": 3,
@@ -929,14 +919,17 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  93: {
-    "id": "CS2_046e",
-    "name": "Kampfrausch",
-    "classs": 7,
+  92: {
+    "id": "HERO_08",
+    "name": "Jaina Prachtmeer",
+    "health": 30,
+    "classs": 8,
+    "collectible": 1,
     "set": 2,
-    "type": 0
+    "type": 0,
+    "quality": 0
   },
-  94: {
+  93: {
     "id": "CS2_046",
     "name": "Kampfrausch",
     "cost": 5,
@@ -945,6 +938,13 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  94: {
+    "id": "CS2_046e",
+    "name": "Kampfrausch",
+    "classs": 7,
+    "set": 2,
+    "type": 0
   },
   95: {
     "id": "CS2_201",
@@ -1083,6 +1083,13 @@ hs_cards['dede'] = {
     "type": 0
   },
   108: {
+    "id": "EX1_244e",
+    "name": "Macht der Totems",
+    "classs": 7,
+    "set": 2,
+    "type": 0
+  },
+  109: {
     "id": "EX1_244",
     "name": "Macht der Totems",
     "cost": 0,
@@ -1091,13 +1098,6 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  109: {
-    "id": "EX1_244e",
-    "name": "Macht der Totems",
-    "classs": 7,
-    "set": 2,
-    "type": 0
   },
   110: {
     "id": "CS2_004",
@@ -1139,6 +1139,13 @@ hs_cards['dede'] = {
     "quality": 0
   },
   114: {
+    "id": "CS2_009e",
+    "name": "Mal der Wildnis",
+    "classs": 11,
+    "set": 2,
+    "type": 0
+  },
+  115: {
     "id": "CS2_009",
     "name": "Mal der Wildnis",
     "cost": 2,
@@ -1148,21 +1155,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  115: {
-    "id": "CS2_009e",
-    "name": "Mal der Wildnis",
-    "classs": 11,
-    "set": 2,
-    "type": 0
-  },
   116: {
-    "id": "CS2_084e",
-    "name": "Mal des Jägers",
-    "classs": 3,
-    "set": 2,
-    "type": 0
-  },
-  117: {
     "id": "CS2_084",
     "name": "Mal des Jägers",
     "cost": 0,
@@ -1171,6 +1164,13 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 1
+  },
+  117: {
+    "id": "CS2_084e",
+    "name": "Mal des Jägers",
+    "classs": 3,
+    "set": 2,
+    "type": 0
   },
   118: {
     "id": "HERO_06",
@@ -1277,13 +1277,6 @@ hs_cards['dede'] = {
     "quality": 1
   },
   128: {
-    "id": "GAME_006",
-    "name": "NEEEEIIIIIIN",
-    "cost": 2,
-    "set": 2,
-    "type": 0
-  },
-  129: {
     "id": "EX1_593",
     "name": "Nachtklinge",
     "cost": 5,
@@ -1293,6 +1286,13 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 0
+  },
+  129: {
+    "id": "GAME_006",
+    "name": "NEEEEIIIIIIN",
+    "cost": 2,
+    "set": 2,
+    "type": 0
   },
   130: {
     "id": "CS2_119",
@@ -1400,6 +1400,17 @@ hs_cards['dede'] = {
     "quality": 1
   },
   141: {
+    "id": "EX1_066",
+    "name": "Säurehaltiger Schlamm",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  142: {
     "id": "CS2_tk1",
     "name": "Schaf",
     "cost": 0,
@@ -1410,7 +1421,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  142: {
+  143: {
     "id": "CS2_057",
     "name": "Schattenblitz",
     "cost": 3,
@@ -1420,7 +1431,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  143: {
+  144: {
     "id": "CS2_234",
     "name": "Schattenwort: Schmerz",
     "cost": 2,
@@ -1430,7 +1441,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  144: {
+  145: {
     "id": "EX1_622",
     "name": "Schattenwort: Tod",
     "cost": 3,
@@ -1440,7 +1451,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  145: {
+  146: {
     "id": "EX1_606",
     "name": "Schildblock",
     "cost": 3,
@@ -1450,7 +1461,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  146: {
+  147: {
     "id": "CS2_179",
     "name": "Schildmeista von Sen'jin",
     "cost": 4,
@@ -1461,7 +1472,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  147: {
+  148: {
     "id": "CS2_122",
     "name": "Schlachtzugsleiter",
     "cost": 3,
@@ -1472,7 +1483,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  148: {
+  149: {
     "id": "CS2_064",
     "name": "Schreckenshöllenbestie",
     "cost": 6,
@@ -1485,7 +1496,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  149: {
+  150: {
     "id": "CS2_141",
     "name": "Schütze von Eisenschmiede",
     "cost": 3,
@@ -1496,7 +1507,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  150: {
+  151: {
     "id": "EX1_308",
     "name": "Seelenfeuer",
     "cost": 1,
@@ -1506,21 +1517,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  151: {
+  152: {
     "id": "EX1_019e",
     "name": "Segen der Klerikerin",
     "classs": 5,
     "set": 2,
     "type": 0
   },
-  152: {
+  153: {
     "id": "CS2_092e",
     "name": "Segen der Könige",
     "classs": 2,
     "set": 2,
     "type": 0
   },
-  153: {
+  154: {
     "id": "CS2_092",
     "name": "Segen der Könige",
     "cost": 4,
@@ -1530,14 +1541,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  154: {
+  155: {
     "id": "CS2_087e",
     "name": "Segen der Macht",
     "classs": 2,
     "set": 2,
     "type": 0
   },
-  155: {
+  156: {
     "id": "CS2_087",
     "name": "Segen der Macht",
     "cost": 1,
@@ -1547,7 +1558,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  156: {
+  157: {
     "id": "CS2_127",
     "name": "Silberrückenpatriarch",
     "cost": 3,
@@ -1559,7 +1570,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  157: {
+  158: {
     "id": "skele11",
     "name": "Skelett",
     "cost": 1,
@@ -1569,7 +1580,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  158: {
+  159: {
     "id": "CS2_114",
     "name": "Spalten",
     "cost": 2,
@@ -1579,7 +1590,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  159: {
+  160: {
     "id": "CS2_027",
     "name": "Spiegelbild",
     "cost": 1,
@@ -1589,7 +1600,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  160: {
+  161: {
     "id": "CS2_mirror",
     "name": "Spiegelbild",
     "cost": 0,
@@ -1600,7 +1611,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  161: {
+  162: {
     "id": "CS2_077",
     "name": "Sprinten",
     "cost": 7,
@@ -1610,7 +1621,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  162: {
+  163: {
     "id": "CS2_171",
     "name": "Steinhauereber",
     "cost": 1,
@@ -1622,7 +1633,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  163: {
+  164: {
     "id": "CS2_051",
     "name": "Steinklauentotem",
     "cost": 1,
@@ -1634,7 +1645,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  164: {
+  165: {
     "id": "EX1_173",
     "name": "Sternenfeuer",
     "cost": 6,
@@ -1643,13 +1654,6 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 1
-  },
-  165: {
-    "id": "DS1_178e",
-    "name": "Sturmangriff",
-    "classs": 3,
-    "set": 2,
-    "type": 0
   },
   166: {
     "id": "CS2_103",
@@ -1662,20 +1666,27 @@ hs_cards['dede'] = {
     "quality": 0
   },
   167: {
+    "id": "DS1_178e",
+    "name": "Sturmangriff",
+    "classs": 3,
+    "set": 2,
+    "type": 0
+  },
+  168: {
     "id": "EX1_084e",
     "name": "Sturmangriff",
     "classs": 1,
     "set": 2,
     "type": 0
   },
-  168: {
+  169: {
     "id": "CS2_103e2",
     "name": "Sturmangriff",
     "classs": 1,
     "set": 2,
     "type": 0
   },
-  169: {
+  170: {
     "id": "CS2_150",
     "name": "Sturmlanzenkommando",
     "cost": 5,
@@ -1686,7 +1697,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  170: {
+  171: {
     "id": "CS2_052",
     "name": "Sturmzorntotem",
     "cost": 1,
@@ -1698,7 +1709,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  171: {
+  172: {
     "id": "EX1_306",
     "name": "Sukkubus",
     "cost": 2,
@@ -1710,17 +1721,6 @@ hs_cards['dede'] = {
     "set": 2,
     "type": 0,
     "quality": 0
-  },
-  172: {
-    "id": "EX1_066",
-    "name": "Säurehaltiger Schlamm",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 1
   },
   173: {
     "id": "HERO_02",
@@ -1743,6 +1743,22 @@ hs_cards['dede'] = {
     "quality": 1
   },
   175: {
+    "id": "CS2_074e",
+    "name": "Tödliches Gift",
+    "set": 2,
+    "type": 0
+  },
+  176: {
+    "id": "CS2_074",
+    "name": "Tödliches Gift",
+    "cost": 1,
+    "classs": 4,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 0
+  },
+  177: {
     "id": "CS2_049",
     "name": "Totem beschwören",
     "cost": 2,
@@ -1751,7 +1767,28 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  176: {
+  178: {
+    "id": "EX1_278",
+    "name": "Tückische Klinge",
+    "cost": 2,
+    "classs": 4,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  179: {
+    "id": "CS2_082",
+    "name": "Tückisches Messer",
+    "cost": 1,
+    "attack": 1,
+    "durability": 2,
+    "classs": 4,
+    "set": 2,
+    "type": 0,
+    "quality": 0
+  },
+  180: {
     "id": "DS1_178",
     "name": "Tundranashorn",
     "cost": 5,
@@ -1764,44 +1801,15 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  177: {
-    "id": "CS2_074e",
-    "name": "Tödliches Gift",
+  181: {
+    "id": "CS2_013t",
+    "name": "Überschüssiges Mana",
+    "cost": 0,
+    "classs": 11,
     "set": 2,
     "type": 0
   },
-  178: {
-    "id": "CS2_074",
-    "name": "Tödliches Gift",
-    "cost": 1,
-    "classs": 4,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 0
-  },
-  179: {
-    "id": "EX1_278",
-    "name": "Tückische Klinge",
-    "cost": 2,
-    "classs": 4,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  180: {
-    "id": "CS2_082",
-    "name": "Tückisches Messer",
-    "cost": 1,
-    "attack": 1,
-    "durability": 2,
-    "classs": 4,
-    "set": 2,
-    "type": 0,
-    "quality": 0
-  },
-  181: {
+  182: {
     "id": "HERO_04",
     "name": "Uther Lichtbringer",
     "health": 30,
@@ -1811,7 +1819,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  182: {
+  183: {
     "id": "HERO_03",
     "name": "Valeera Sanguinar",
     "health": 30,
@@ -1821,7 +1829,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  183: {
+  184: {
     "id": "CS2_050",
     "name": "Verbrennungstotem",
     "cost": 1,
@@ -1833,7 +1841,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  184: {
+  185: {
     "id": "CS2_063",
     "name": "Verderbnis",
     "cost": 1,
@@ -1843,21 +1851,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  185: {
+  186: {
     "id": "CS2_063e",
     "name": "Verderbnis",
     "classs": 9,
     "set": 2,
     "type": 0
   },
-  186: {
+  187: {
     "id": "EX1_246e",
     "name": "Verhext",
     "classs": 7,
     "set": 2,
     "type": 0
   },
-  187: {
+  188: {
     "id": "EX1_246",
     "name": "Verhexung",
     "cost": 3,
@@ -1867,7 +1875,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  188: {
+  189: {
     "id": "CS2_237",
     "name": "Verhungernder Bussard",
     "cost": 5,
@@ -1880,7 +1888,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  189: {
+  190: {
     "id": "NEW1_004",
     "name": "Verschwinden",
     "cost": 6,
@@ -1890,21 +1898,11 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  190: {
+  191: {
     "id": "CS2_101",
     "name": "Verstärkung",
     "cost": 2,
     "classs": 2,
-    "set": 2,
-    "type": 0,
-    "quality": 0
-  },
-  191: {
-    "id": "CS2_022",
-    "name": "Verwandlung",
-    "cost": 4,
-    "classs": 8,
-    "collectible": 1,
     "set": 2,
     "type": 0,
     "quality": 0
@@ -1918,6 +1916,16 @@ hs_cards['dede'] = {
     "quality": 1
   },
   193: {
+    "id": "CS2_022",
+    "name": "Verwandlung",
+    "cost": 4,
+    "classs": 8,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 0
+  },
+  194: {
     "id": "EX1_011",
     "name": "Voodoodoktor",
     "cost": 1,
@@ -1928,14 +1936,19 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  194: {
-    "id": "CS2_045e",
-    "name": "Waffe des Felsbeißers",
-    "classs": 7,
-    "set": 2,
-    "type": 0
-  },
   195: {
+    "id": "CS2_088",
+    "name": "Wächter der Könige",
+    "cost": 7,
+    "attack": 5,
+    "health": 6,
+    "classs": 2,
+    "collectible": 1,
+    "set": 2,
+    "type": 0,
+    "quality": 1
+  },
+  196: {
     "id": "CS2_045",
     "name": "Waffe des Felsbeißers",
     "cost": 1,
@@ -1945,7 +1958,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  196: {
+  197: {
+    "id": "CS2_045e",
+    "name": "Waffe des Felsbeißers",
+    "classs": 7,
+    "set": 2,
+    "type": 0
+  },
+  198: {
     "id": "DS1_175",
     "name": "Waldwolf",
     "cost": 1,
@@ -1958,7 +1978,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  197: {
+  199: {
     "id": "CS2_033",
     "name": "Wasserelementar",
     "cost": 4,
@@ -1970,7 +1990,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  198: {
+  200: {
     "id": "CS2_093",
     "name": "Weihe",
     "cost": 4,
@@ -1980,7 +2000,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  199: {
+  201: {
     "id": "EX1_302",
     "name": "Weltliche Ängste",
     "cost": 1,
@@ -1990,14 +2010,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  200: {
+  202: {
     "id": "CS2_011o",
     "name": "Wildes Brüllen",
     "classs": 11,
     "set": 2,
     "type": 0
   },
-  201: {
+  203: {
     "id": "CS2_011",
     "name": "Wildes Brüllen",
     "cost": 3,
@@ -2007,7 +2027,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  202: {
+  204: {
     "id": "CS2_013",
     "name": "Wildwuchs",
     "cost": 2,
@@ -2017,7 +2037,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  203: {
+  205: {
     "id": "EX1_587",
     "name": "Windsprecher",
     "cost": 4,
@@ -2029,7 +2049,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  204: {
+  206: {
     "id": "CS2_039",
     "name": "Windzorn",
     "cost": 2,
@@ -2039,7 +2059,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  205: {
+  207: {
     "id": "EX1_400",
     "name": "Wirbelwind",
     "cost": 1,
@@ -2049,7 +2069,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  206: {
+  208: {
     "id": "CS2_124",
     "name": "Wolfsreiter",
     "cost": 3,
@@ -2060,26 +2080,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  207: {
+  209: {
     "id": "DS1_175o",
     "name": "Wutgeheul",
     "classs": 3,
     "set": 2,
     "type": 0
   },
-  208: {
-    "id": "CS2_088",
-    "name": "Wächter der Könige",
-    "cost": 7,
-    "attack": 5,
-    "health": 6,
-    "classs": 2,
-    "collectible": 1,
-    "set": 2,
-    "type": 0,
-    "quality": 1
-  },
-  209: {
+  210: {
     "id": "DS1h_292",
     "name": "Zuverlässiger Schuss",
     "cost": 2,
@@ -2088,23 +2096,15 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 0
   },
-  210: {
-    "id": "CS2_013t",
-    "name": "Überschüssiges Mana",
-    "cost": 0,
-    "classs": 11,
-    "set": 2,
-    "type": 0
-  },
   211: {
-    "id": "BRMA09_5",
+    "id": "BRMA09_5H",
     "name": "Absteigen",
     "cost": 4,
     "set": 14,
     "type": 0
   },
   212: {
-    "id": "BRMA09_5H",
+    "id": "BRMA09_5",
     "name": "Absteigen",
     "cost": 4,
     "set": 14,
@@ -2146,16 +2146,16 @@ hs_cards['dede'] = {
     "quality": 4
   },
   217: {
-    "id": "BRMA14_2",
+    "id": "BRMA14_2H",
     "name": "Arkanotron aktivieren",
-    "cost": 2,
+    "cost": 0,
     "set": 14,
     "type": 0
   },
   218: {
-    "id": "BRMA14_2H",
+    "id": "BRMA14_2",
     "name": "Arkanotron aktivieren",
-    "cost": 0,
+    "cost": 2,
     "set": 14,
     "type": 0
   },
@@ -2345,9 +2345,9 @@ hs_cards['dede'] = {
     "type": 0
   },
   243: {
-    "id": "BRMA12_1H",
+    "id": "BRMA12_1",
     "name": "Chromaggus",
-    "health": 60,
+    "health": 30,
     "set": 14,
     "type": 0
   },
@@ -2364,9 +2364,9 @@ hs_cards['dede'] = {
     "quality": 4
   },
   245: {
-    "id": "BRMA12_1",
+    "id": "BRMA12_1H",
     "name": "Chromaggus",
-    "health": 30,
+    "health": 60,
     "set": 14,
     "type": 0
   },
@@ -2424,80 +2424,90 @@ hs_cards['dede'] = {
     "type": 0
   },
   252: {
-    "id": "BRMA01_1",
-    "name": "Coren Düsterbräu",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  253: {
     "id": "BRMA01_1H",
     "name": "Coren Düsterbräu",
     "health": 30,
     "set": 14,
     "type": 0
   },
+  253: {
+    "id": "BRMA01_1",
+    "name": "Coren Düsterbräu",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
   254: {
+    "id": "BRM_005",
+    "name": "Dämonenzorn",
+    "cost": 3,
+    "classs": 9,
+    "collectible": 1,
+    "set": 14,
+    "type": 0,
+    "quality": 2
+  },
+  255: {
     "id": "BRMA15_2",
     "name": "Der Alchemist",
     "set": 14,
     "type": 0
   },
-  255: {
+  256: {
     "id": "BRMA15_2H",
     "name": "Der Alchemist",
     "set": 14,
     "type": 0
   },
-  256: {
+  257: {
     "id": "BRMA06_2H",
     "name": "Der Majordomus",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  257: {
+  258: {
     "id": "BRMA06_2",
     "name": "Der Majordomus",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  258: {
-    "id": "BRMA10_3",
-    "name": "Die Brutstätte",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
   259: {
-    "id": "BRMA10_3H",
-    "name": "Die Brutstätte",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  260: {
     "id": "BRMA09_3",
     "name": "Die alte Horde",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  261: {
+  260: {
     "id": "BRMA09_3H",
     "name": "Die alte Horde",
     "cost": 2,
     "set": 14,
     "type": 0
   },
+  261: {
+    "id": "BRMA10_3",
+    "name": "Die Brutstätte",
+    "cost": 1,
+    "set": 14,
+    "type": 0
+  },
   262: {
+    "id": "BRMA10_3H",
+    "name": "Die Brutstätte",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
+  263: {
     "id": "BRM_033e",
     "name": "Drachenblut",
     "set": 14,
     "type": 0
   },
-  263: {
+  264: {
     "id": "BRM_022",
     "name": "Drachenei",
     "cost": 1,
@@ -2508,7 +2518,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  264: {
+  265: {
     "id": "BRM_018",
     "name": "Drachengefährte",
     "cost": 5,
@@ -2521,7 +2531,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  265: {
+  266: {
     "id": "BRM_003",
     "name": "Drachenodem",
     "cost": 5,
@@ -2531,7 +2541,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  266: {
+  267: {
     "id": "BRMA16_5",
     "name": "Drachenzähne",
     "cost": 1,
@@ -2540,7 +2550,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  267: {
+  268: {
     "id": "BRMA09_4Ht",
     "name": "Drachkin",
     "cost": 1,
@@ -2550,7 +2560,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  268: {
+  269: {
     "id": "BRMA09_4t",
     "name": "Drachkin",
     "cost": 1,
@@ -2560,7 +2570,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  269: {
+  270: {
     "id": "BRM_020",
     "name": "Drachkinzauberer",
     "cost": 4,
@@ -2572,14 +2582,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  270: {
+  271: {
     "id": "BRMA08_3",
     "name": "Drakkisaths Befehl",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  271: {
+  272: {
     "id": "BRM_024",
     "name": "Drakonidenzermalmer",
     "cost": 6,
@@ -2591,7 +2601,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  272: {
+  273: {
     "id": "BRM_007",
     "name": "Dreierbande",
     "cost": 2,
@@ -2601,19 +2611,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  273: {
-    "id": "BRM_010",
-    "name": "Druidin der Flamme",
-    "cost": 3,
-    "attack": 2,
-    "health": 2,
-    "classs": 11,
-    "collectible": 1,
-    "set": 14,
-    "type": 0,
-    "quality": 1
-  },
   274: {
+    "id": "BRMA16_4",
+    "name": "Dröhnender Gong",
+    "cost": 1,
+    "set": 14,
+    "type": 0
+  },
+  275: {
     "id": "BRM_010t",
     "name": "Druidin der Flamme",
     "cost": 3,
@@ -2625,7 +2630,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  275: {
+  276: {
     "id": "BRM_010t2",
     "name": "Druidin der Flamme",
     "cost": 3,
@@ -2637,14 +2642,19 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  276: {
-    "id": "BRMA16_4",
-    "name": "Dröhnender Gong",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
   277: {
+    "id": "BRM_010",
+    "name": "Druidin der Flamme",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "classs": 11,
+    "collectible": 1,
+    "set": 14,
+    "type": 0,
+    "quality": 1
+  },
+  278: {
     "id": "BRM_008",
     "name": "Dunkeleisenlauerer",
     "cost": 5,
@@ -2656,7 +2666,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  278: {
+  279: {
     "id": "BRMA02_2t",
     "name": "Dunkeleisenzuschauer",
     "cost": 1,
@@ -2664,16 +2674,6 @@ hs_cards['dede'] = {
     "health": 1,
     "set": 14,
     "type": 0
-  },
-  279: {
-    "id": "BRM_005",
-    "name": "Dämonenzorn",
-    "cost": 3,
-    "classs": 9,
-    "collectible": 1,
-    "set": 14,
-    "type": 0,
-    "quality": 2
   },
   280: {
     "id": "BRMA16_2H",
@@ -2712,16 +2712,16 @@ hs_cards['dede'] = {
     "quality": 4
   },
   284: {
-    "id": "BRMA14_6",
+    "id": "BRMA14_6H",
     "name": "Elektron aktivieren",
-    "cost": 6,
+    "cost": 4,
     "set": 14,
     "type": 0
   },
   285: {
-    "id": "BRMA14_6H",
+    "id": "BRMA14_6",
     "name": "Elektron aktivieren",
-    "cost": 4,
+    "cost": 6,
     "set": 14,
     "type": 0
   },
@@ -2756,35 +2756,35 @@ hs_cards['dede'] = {
     "type": 0
   },
   290: {
-    "id": "BRMA11_2H",
-    "name": "Essenz der Roten",
-    "cost": 0,
-    "set": 14,
-    "type": 0
-  },
-  291: {
     "id": "BRMA11_2",
     "name": "Essenz der Roten",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  292: {
-    "id": "BRMA17_8H",
-    "name": "Feuer vom Himmel",
+  291: {
+    "id": "BRMA11_2H",
+    "name": "Essenz der Roten",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  293: {
+  292: {
     "id": "BRMA17_8",
     "name": "Feuer vom Himmel",
     "cost": 0,
     "set": 14,
     "type": 0
   },
+  293: {
+    "id": "BRMA17_8H",
+    "name": "Feuer vom Himmel",
+    "cost": 0,
+    "set": 14,
+    "type": 0
+  },
   294: {
-    "id": "BRMA04_3",
+    "id": "BRMA04_3H",
     "name": "Feueranbeter",
     "cost": 0,
     "attack": 0,
@@ -2793,7 +2793,7 @@ hs_cards['dede'] = {
     "type": 0
   },
   295: {
-    "id": "BRMA04_3H",
+    "id": "BRMA04_3",
     "name": "Feueranbeter",
     "cost": 0,
     "attack": 0,
@@ -2868,15 +2868,6 @@ hs_cards['dede'] = {
     "quality": 2
   },
   304: {
-    "id": "BRMA06_4",
-    "name": "Flammenschürerakolyth",
-    "cost": 2,
-    "attack": 1,
-    "health": 3,
-    "set": 14,
-    "type": 0
-  },
-  305: {
     "id": "BRMA06_4H",
     "name": "Flammenschürerakolyth",
     "cost": 2,
@@ -2885,17 +2876,26 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
+  305: {
+    "id": "BRMA06_4",
+    "name": "Flammenschürerakolyth",
+    "cost": 2,
+    "attack": 1,
+    "health": 3,
+    "set": 14,
+    "type": 0
+  },
   306: {
-    "id": "BRMA04_1H",
+    "id": "BRMA04_1",
     "name": "Garr",
-    "health": 45,
+    "health": 30,
     "set": 14,
     "type": 0
   },
   307: {
-    "id": "BRMA04_1",
+    "id": "BRMA04_1H",
     "name": "Garr",
-    "health": 30,
+    "health": 45,
     "set": 14,
     "type": 0
   },
@@ -2953,14 +2953,14 @@ hs_cards['dede'] = {
     "quality": 4
   },
   314: {
-    "id": "BRMA07_1H",
+    "id": "BRMA07_1",
     "name": "Hochlord Omokk",
     "health": 30,
     "set": 14,
     "type": 0
   },
   315: {
-    "id": "BRMA07_1",
+    "id": "BRMA07_1H",
     "name": "Hochlord Omokk",
     "health": 30,
     "set": 14,
@@ -3063,14 +3063,14 @@ hs_cards['dede'] = {
     "quality": 2
   },
   328: {
-    "id": "BRMA17_5H",
+    "id": "BRMA17_5",
     "name": "Knochendiener",
     "cost": 2,
     "set": 14,
     "type": 0
   },
   329: {
-    "id": "BRMA17_5",
+    "id": "BRMA17_5H",
     "name": "Knochendiener",
     "cost": 2,
     "set": 14,
@@ -3095,26 +3095,19 @@ hs_cards['dede'] = {
     "type": 0
   },
   332: {
+    "id": "BRM_024e",
+    "name": "Lange Klauen",
+    "set": 14,
+    "type": 0
+  },
+  333: {
     "id": "BRMA17_4",
     "name": "LAVA!",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  333: {
-    "id": "BRM_024e",
-    "name": "Lange Klauen",
-    "set": 14,
-    "type": 0
-  },
   334: {
-    "id": "BRM_011t",
-    "name": "Lavaschock",
-    "classs": 7,
-    "set": 14,
-    "type": 0
-  },
-  335: {
     "id": "BRM_011",
     "name": "Lavaschock",
     "cost": 2,
@@ -3124,29 +3117,36 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
+  335: {
+    "id": "BRM_011t",
+    "name": "Lavaschock",
+    "classs": 7,
+    "set": 14,
+    "type": 0
+  },
   336: {
+    "id": "BRMA05_3e",
+    "name": "Lebende Bombe",
+    "set": 14,
+    "type": 0
+  },
+  337: {
     "id": "BRMA05_3",
     "name": "Lebende Bombe",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  337: {
-    "id": "BRMA05_3e",
-    "name": "Lebende Bombe",
-    "set": 14,
-    "type": 0
-  },
   338: {
-    "id": "BRMA05_3H",
+    "id": "BRMA05_3He",
     "name": "Lebende Bombe",
-    "cost": 3,
     "set": 14,
     "type": 0
   },
   339: {
-    "id": "BRMA05_3He",
+    "id": "BRMA05_3H",
     "name": "Lebende Bombe",
+    "cost": 3,
     "set": 14,
     "type": 0
   },
@@ -3194,17 +3194,6 @@ hs_cards['dede'] = {
     "type": 0
   },
   346: {
-    "id": "BRMA14_9H",
-    "name": "Magmatron",
-    "cost": 5,
-    "attack": 8,
-    "health": 8,
-    "race": 17,
-    "set": 14,
-    "type": 0,
-    "quality": 4
-  },
-  347: {
     "id": "BRMA14_9",
     "name": "Magmatron",
     "cost": 5,
@@ -3215,17 +3204,28 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
+  347: {
+    "id": "BRMA14_9H",
+    "name": "Magmatron",
+    "cost": 5,
+    "attack": 8,
+    "health": 8,
+    "race": 17,
+    "set": 14,
+    "type": 0,
+    "quality": 4
+  },
   348: {
-    "id": "BRMA14_8H",
+    "id": "BRMA14_8",
     "name": "Magmatron aktivieren",
-    "cost": 6,
+    "cost": 8,
     "set": 14,
     "type": 0
   },
   349: {
-    "id": "BRMA14_8",
+    "id": "BRMA14_8H",
     "name": "Magmatron aktivieren",
-    "cost": 8,
+    "cost": 6,
     "set": 14,
     "type": 0
   },
@@ -3286,14 +3286,14 @@ hs_cards['dede'] = {
     "type": 0
   },
   357: {
-    "id": "BRMA05_2",
+    "id": "BRMA05_2H",
     "name": "Mana entzünden",
     "cost": 0,
     "set": 14,
     "type": 0
   },
   358: {
-    "id": "BRMA05_2H",
+    "id": "BRMA05_2",
     "name": "Mana entzünden",
     "cost": 0,
     "set": 14,
@@ -3332,7 +3332,7 @@ hs_cards['dede'] = {
     "type": 0
   },
   363: {
-    "id": "BRMA17_2H",
+    "id": "BRMA13_3H",
     "name": "Nefarian",
     "health": 30,
     "set": 14,
@@ -3358,55 +3358,69 @@ hs_cards['dede'] = {
     "type": 0
   },
   366: {
-    "id": "BRMA13_3H",
+    "id": "BRMA17_2H",
     "name": "Nefarian",
     "health": 30,
     "set": 14,
     "type": 0
   },
   367: {
-    "id": "BRMA02_1H",
-    "name": "Oberrichter Grimmstein",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  368: {
     "id": "BRMA02_1",
     "name": "Oberrichter Grimmstein",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  369: {
-    "id": "BRMA14_1",
-    "name": "Omnotron",
+  368: {
+    "id": "BRMA02_1H",
+    "name": "Oberrichter Grimmstein",
     "health": 30,
     "set": 14,
     "type": 0
   },
+  369: {
+    "id": "BRMA09_2H",
+    "name": "Öffnet das Tor!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
   370: {
+    "id": "BRMA09_2",
+    "name": "Öffnet das Tor!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  371: {
     "id": "BRMA14_1H",
     "name": "Omnotron",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  371: {
+  372: {
+    "id": "BRMA14_1",
+    "name": "Omnotron",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  373: {
     "id": "BRMA17_3H",
     "name": "Onyxia",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  372: {
+  374: {
     "id": "BRMA17_3",
     "name": "Onyxia",
     "health": 15,
     "set": 14,
     "type": 0
   },
-  373: {
+  375: {
     "id": "BRMA17_9",
     "name": "Onyxias Klauen",
     "cost": 2,
@@ -3415,16 +3429,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  374: {
-    "id": "BRMA09_3t",
-    "name": "Orc der alten Horde",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
-    "set": 14,
-    "type": 0
-  },
-  375: {
+  376: {
     "id": "BRMA09_3Ht",
     "name": "Orc der alten Horde",
     "cost": 1,
@@ -3433,21 +3438,30 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  376: {
+  377: {
+    "id": "BRMA09_3t",
+    "name": "Orc der alten Horde",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "set": 14,
+    "type": 0
+  },
+  378: {
     "id": "BRMA09_4H",
     "name": "Pechschwinge",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  377: {
+  379: {
     "id": "BRMA09_4",
     "name": "Pechschwinge",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  378: {
+  380: {
     "id": "BRM_033",
     "name": "Pechschwingentechnikerin",
     "cost": 3,
@@ -3458,7 +3472,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  379: {
+  381: {
     "id": "BRM_034",
     "name": "Pechschwingenverderber",
     "cost": 5,
@@ -3469,7 +3483,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  380: {
+  382: {
     "id": "BRM_015",
     "name": "Rache",
     "cost": 2,
@@ -3479,42 +3493,35 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  381: {
-    "id": "BRM_027h",
-    "name": "Ragnaros der Feuerfürst",
-    "health": 8,
-    "set": 14,
-    "type": 0
-  },
-  382: {
+  383: {
     "id": "BRMA06_3H",
     "name": "Ragnaros der Feuerfürst",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  383: {
+  384: {
+    "id": "BRM_027h",
+    "name": "Ragnaros der Feuerfürst",
+    "health": 8,
+    "set": 14,
+    "type": 0
+  },
+  385: {
     "id": "BRMA06_3",
     "name": "Ragnaros der Feuerfürst",
     "health": 8,
     "set": 14,
     "type": 0
   },
-  384: {
-    "id": "BRMA09_1",
-    "name": "Rend Schwarzfaust",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  385: {
+  386: {
     "id": "BRMA09_1H",
     "name": "Rend Schwarzfaust",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  386: {
+  387: {
     "id": "BRM_029",
     "name": "Rend Schwarzfaust",
     "cost": 7,
@@ -3525,62 +3532,48 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  387: {
-    "id": "BRM_027p",
-    "name": "STERBT, INSEKT!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
   388: {
-    "id": "BRMA13_8",
-    "name": "STERBT, INSEKT!",
-    "cost": 0,
+    "id": "BRMA09_1",
+    "name": "Rend Schwarzfaust",
+    "health": 30,
     "set": 14,
     "type": 0
   },
   389: {
-    "id": "BRM_027pH",
-    "name": "STERBT, INSEKTEN!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  390: {
     "id": "BRMA16_3e",
     "name": "Schallatem",
     "set": 14,
     "type": 0
   },
-  391: {
+  390: {
     "id": "BRMA16_3",
     "name": "Schallatem",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  392: {
+  391: {
     "id": "BRMA01_2H",
     "name": "Schlägerei!",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  393: {
+  392: {
     "id": "BRMA01_2",
     "name": "Schlägerei!",
     "cost": 0,
     "set": 14,
     "type": 0
   },
-  394: {
+  393: {
     "id": "BRM_001e",
     "name": "Schmelzen",
     "classs": 5,
     "set": 14,
     "type": 0
   },
-  395: {
+  394: {
     "id": "BRM_013",
     "name": "Schneller Schuss",
     "cost": 2,
@@ -3590,14 +3583,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  396: {
+  395: {
     "id": "BRM_030t",
     "name": "Schwanzfeger",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  397: {
+  396: {
     "id": "BRM_022t",
     "name": "Schwarzer Welpling",
     "cost": 1,
@@ -3608,12 +3601,19 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  398: {
+  397: {
     "id": "BRMA13_5",
     "name": "Sohn der Flamme",
     "cost": 0,
     "attack": 6,
     "health": 3,
+    "set": 14,
+    "type": 0
+  },
+  398: {
+    "id": "BRMA04_4",
+    "name": "Spiel mit dem Feuer",
+    "cost": 3,
     "set": 14,
     "type": 0
   },
@@ -3625,24 +3625,27 @@ hs_cards['dede'] = {
     "type": 0
   },
   400: {
-    "id": "BRMA04_4",
-    "name": "Spiel mit dem Feuer",
-    "cost": 3,
+    "id": "BRM_027p",
+    "name": "STERBT, INSEKT!",
+    "cost": 2,
     "set": 14,
     "type": 0
   },
   401: {
-    "id": "BRMA14_5H",
-    "name": "Toxitron",
-    "cost": 1,
-    "attack": 4,
-    "health": 4,
-    "race": 17,
+    "id": "BRMA13_8",
+    "name": "STERBT, INSEKT!",
+    "cost": 0,
     "set": 14,
-    "type": 0,
-    "quality": 4
+    "type": 0
   },
   402: {
+    "id": "BRM_027pH",
+    "name": "STERBT, INSEKTEN!",
+    "cost": 2,
+    "set": 14,
+    "type": 0
+  },
+  403: {
     "id": "BRMA14_5",
     "name": "Toxitron",
     "cost": 1,
@@ -3653,27 +3656,38 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  403: {
+  404: {
+    "id": "BRMA14_5H",
+    "name": "Toxitron",
+    "cost": 1,
+    "attack": 4,
+    "health": 4,
+    "race": 17,
+    "set": 14,
+    "type": 0,
+    "quality": 4
+  },
+  405: {
     "id": "BRMA14_4H",
     "name": "Toxitron aktivieren",
     "cost": 2,
     "set": 14,
     "type": 0
   },
-  404: {
+  406: {
     "id": "BRMA14_4",
     "name": "Toxitron aktivieren",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  405: {
+  407: {
     "id": "BRMA15_2He",
     "name": "Trank der Macht",
     "set": 14,
     "type": 0
   },
-  406: {
+  408: {
     "id": "BRMA01_4t",
     "name": "Trunkenbold",
     "cost": 1,
@@ -3682,21 +3696,21 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  407: {
-    "id": "BRMA11_1",
-    "name": "Vaelastrasz der Verdorbene",
-    "health": 30,
-    "set": 14,
-    "type": 0
-  },
-  408: {
+  409: {
     "id": "BRMA11_1H",
     "name": "Vaelastrasz der Verdorbene",
     "health": 30,
     "set": 14,
     "type": 0
   },
-  409: {
+  410: {
+    "id": "BRMA11_1",
+    "name": "Vaelastrasz der Verdorbene",
+    "health": 30,
+    "set": 14,
+    "type": 0
+  },
+  411: {
     "id": "BRMA10_4",
     "name": "Verderbtes Ei",
     "cost": 1,
@@ -3705,7 +3719,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  410: {
+  412: {
     "id": "BRMA10_4H",
     "name": "Verderbtes Ei",
     "cost": 1,
@@ -3714,7 +3728,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  411: {
+  413: {
     "id": "BRM_009",
     "name": "Vulkanborke",
     "cost": 9,
@@ -3726,7 +3740,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  412: {
+  414: {
     "id": "BRM_025",
     "name": "Vulkandrache",
     "cost": 6,
@@ -3738,28 +3752,28 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  413: {
+  415: {
     "id": "BRMA13_2H",
     "name": "Wahre Gestalt",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  414: {
+  416: {
     "id": "BRMA13_2",
     "name": "Wahre Gestalt",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  415: {
+  417: {
     "id": "BRMA09_6",
     "name": "Wahrer Kriegshäuptling",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  416: {
+  418: {
     "id": "BRMA09_2Ht",
     "name": "Welpling",
     "cost": 1,
@@ -3769,7 +3783,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  417: {
+  419: {
     "id": "BRM_004t",
     "name": "Welpling",
     "cost": 1,
@@ -3778,7 +3792,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  418: {
+  420: {
     "id": "BRMA09_2t",
     "name": "Welpling",
     "cost": 1,
@@ -3788,7 +3802,7 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  419: {
+  421: {
     "id": "BRM_006t",
     "name": "Wichtel",
     "cost": 1,
@@ -3799,21 +3813,21 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  420: {
-    "id": "BRMA13_4",
-    "name": "Wilde Magie",
-    "cost": 1,
-    "set": 14,
-    "type": 0
-  },
-  421: {
+  422: {
     "id": "BRMA13_4H",
     "name": "Wilde Magie",
     "cost": 1,
     "set": 14,
     "type": 0
   },
-  422: {
+  423: {
+    "id": "BRMA13_4",
+    "name": "Wilde Magie",
+    "cost": 1,
+    "set": 14,
+    "type": 0
+  },
+  424: {
     "id": "BRMA13_7",
     "name": "Wirbelnde Asche",
     "cost": 0,
@@ -3822,21 +3836,21 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  423: {
+  425: {
     "id": "BRMA07_3",
     "name": "ZEIT FÜR HAUEN",
     "cost": 4,
     "set": 14,
     "type": 0
   },
-  424: {
+  426: {
     "id": "BRM_014e",
     "name": "Zur Weißglut gebracht",
     "classs": 3,
     "set": 14,
     "type": 0
   },
-  425: {
+  427: {
     "id": "BRMA01_3",
     "name": "Zwergenrausschmeißer",
     "cost": 6,
@@ -3845,13 +3859,13 @@ hs_cards['dede'] = {
     "set": 14,
     "type": 0
   },
-  426: {
+  428: {
     "id": "BRM_004e",
     "name": "Zwielichtausdauer",
     "set": 14,
     "type": 0
   },
-  427: {
+  429: {
     "id": "BRM_004",
     "name": "Zwielichtwelpling",
     "cost": 1,
@@ -3864,21 +3878,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  428: {
-    "id": "BRMA09_2H",
-    "name": "Öffnet das Tor!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
-  429: {
-    "id": "BRMA09_2",
-    "name": "Öffnet das Tor!",
-    "cost": 2,
-    "set": 14,
-    "type": 0
-  },
   430: {
+    "id": "CS2_188o",
+    "name": "„Inspiriert“",
+    "set": 3,
+    "type": 0
+  },
+  431: {
     "id": "EX1_531",
     "name": "Aasfressende Hyäne",
     "cost": 2,
@@ -3891,7 +3897,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  431: {
+  432: {
     "id": "EX1_536",
     "name": "Adlerhornbogen",
     "cost": 3,
@@ -3903,7 +3909,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  432: {
+  433: {
     "id": "EX1_007",
     "name": "Akolyth des Schmerzes",
     "cost": 3,
@@ -3914,7 +3920,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  433: {
+  434: {
     "id": "NEW1_010",
     "name": "Al'Akir der Windlord",
     "cost": 8,
@@ -3926,7 +3932,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  434: {
+  435: {
     "id": "EX1_006",
     "name": "Alarm-o-Bot",
     "cost": 3,
@@ -3938,7 +3944,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  435: {
+  436: {
     "id": "EX1_561",
     "name": "Alexstrasza",
     "cost": 9,
@@ -3950,17 +3956,9 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  436: {
+  437: {
     "id": "EX1_561e",
     "name": "Alexstraszas Feuer",
-    "set": 3,
-    "type": 0
-  },
-  437: {
-    "id": "DREAM_05",
-    "name": "Alptraum",
-    "cost": 0,
-    "classs": 0,
     "set": 3,
     "type": 0
   },
@@ -3971,6 +3969,14 @@ hs_cards['dede'] = {
     "type": 0
   },
   439: {
+    "id": "DREAM_05",
+    "name": "Alptraum",
+    "cost": 0,
+    "classs": 0,
+    "set": 3,
+    "type": 0
+  },
+  440: {
     "id": "EX1_393",
     "name": "Amaniberserker",
     "cost": 2,
@@ -3981,7 +3987,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  440: {
+  441: {
     "id": "EX1_398",
     "name": "Arathiwaffenschmiedin",
     "cost": 4,
@@ -3993,7 +3999,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  441: {
+  442: {
     "id": "EX1_362",
     "name": "Argentumbeschützer",
     "cost": 2,
@@ -4005,7 +4011,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  442: {
+  443: {
     "id": "EX1_008",
     "name": "Argentumknappin",
     "cost": 1,
@@ -4016,7 +4022,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  443: {
+  444: {
     "id": "EX1_067",
     "name": "Argentumkommandant",
     "cost": 6,
@@ -4027,7 +4033,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  444: {
+  445: {
     "id": "EX1_089",
     "name": "Arkangolem",
     "cost": 3,
@@ -4038,7 +4044,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  445: {
+  446: {
     "id": "EX1_383t",
     "name": "Aschenbringer",
     "cost": 5,
@@ -4049,7 +4055,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  446: {
+  447: {
     "id": "EX1_274",
     "name": "Astraler Arkanist",
     "cost": 4,
@@ -4061,7 +4067,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  447: {
+  448: {
     "id": "EX1_591",
     "name": "Auchenaiseelenpriesterin",
     "cost": 4,
@@ -4073,28 +4079,28 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  448: {
+  449: {
     "id": "EX1_603e",
     "name": "Auf Zack gebracht",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  449: {
+  450: {
     "id": "EX1_536e",
     "name": "Aufgewertet",
     "classs": 3,
     "set": 3,
     "type": 0
   },
-  450: {
+  451: {
     "id": "EX1_409e",
     "name": "Aufgewertet",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  451: {
+  452: {
     "id": "EX1_409",
     "name": "Aufwertung",
     "cost": 1,
@@ -4104,7 +4110,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  452: {
+  453: {
     "id": "EX1_132",
     "name": "Auge um Auge",
     "cost": 1,
@@ -4114,7 +4120,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  453: {
+  454: {
     "id": "EX1_124",
     "name": "Ausweiden",
     "cost": 2,
@@ -4124,7 +4130,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  454: {
+  455: {
     "id": "EX1_284",
     "name": "Azurblauer Drache",
     "cost": 5,
@@ -4136,7 +4142,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  455: {
+  456: {
     "id": "EX1_110t",
     "name": "Baine Bluthuf",
     "cost": 4,
@@ -4146,13 +4152,6 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  456: {
-    "id": "EX1_014t",
-    "name": "Banane",
-    "cost": 1,
-    "set": 3,
-    "type": 0
-  },
   457: {
     "id": "EX1_014te",
     "name": "Banane",
@@ -4160,6 +4159,13 @@ hs_cards['dede'] = {
     "type": 0
   },
   458: {
+    "id": "EX1_014t",
+    "name": "Banane",
+    "cost": 1,
+    "set": 3,
+    "type": 0
+  },
+  459: {
     "id": "EX1_131t",
     "name": "Bandit der Defias",
     "cost": 1,
@@ -4169,14 +4175,22 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  459: {
+  460: {
     "id": "EX1_166b",
     "name": "Bannen",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  460: {
+  461: {
+    "id": "EX1_165b",
+    "name": "Bärengestalt",
+    "classs": 11,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  462: {
     "id": "EX1_249",
     "name": "Baron Geddon",
     "cost": 7,
@@ -4187,14 +4201,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  461: {
+  463: {
+    "id": "NEW1_036e",
+    "name": "Befehlsruf",
+    "classs": 1,
+    "set": 3,
+    "type": 0
+  },
+  464: {
     "id": "NEW1_036e2",
     "name": "Befehlsruf",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  462: {
+  465: {
     "id": "NEW1_036",
     "name": "Befehlsruf",
     "cost": 2,
@@ -4204,14 +4225,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  463: {
-    "id": "NEW1_036e",
-    "name": "Befehlsruf",
-    "classs": 1,
-    "set": 3,
-    "type": 0
-  },
-  464: {
+  466: {
     "id": "EX1_105",
     "name": "Bergriese",
     "cost": 12,
@@ -4222,7 +4236,18 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  465: {
+  467: {
+    "id": "skele21",
+    "name": "Beschädigter Golem",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "race": 17,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  468: {
     "id": "EX1_315",
     "name": "Beschwörungsportal",
     "cost": 4,
@@ -4234,18 +4259,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  466: {
-    "id": "skele21",
-    "name": "Beschädigter Golem",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
-    "race": 17,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  467: {
+  469: {
     "id": "EX1_096",
     "name": "Beutehamsterer",
     "cost": 2,
@@ -4256,14 +4270,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  468: {
+  470: {
     "id": "NEW1_037e",
     "name": "Bewaffnet",
     "collectible": 0,
     "set": 3,
     "type": 0
   },
-  469: {
+  471: {
     "id": "EX1_570",
     "name": "Biss",
     "cost": 4,
@@ -4273,19 +4287,19 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  470: {
+  472: {
     "id": "EX1_570e",
     "name": "Biss",
     "set": 3,
     "type": 0
   },
-  471: {
+  473: {
     "id": "EX1_509e",
     "name": "Blarghghl",
     "set": 3,
     "type": 0
   },
-  472: {
+  474: {
     "id": "EX1_238",
     "name": "Blitzschlag",
     "cost": 1,
@@ -4295,7 +4309,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  473: {
+  475: {
     "id": "CS2_028",
     "name": "Blizzard",
     "cost": 6,
@@ -4305,7 +4319,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  474: {
+  476: {
     "id": "EX1_012",
     "name": "Blutmagier Thalnos",
     "cost": 2,
@@ -4316,21 +4330,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  475: {
+  477: {
     "id": "CS2_059o",
     "name": "Blutpakt",
     "classs": 9,
     "set": 3,
     "type": 0
   },
-  476: {
+  478: {
     "id": "EX1_411e",
     "name": "Blutrausch",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  477: {
+  479: {
     "id": "EX1_590",
     "name": "Blutritter",
     "cost": 3,
@@ -4341,7 +4355,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  478: {
+  480: {
     "id": "EX1_411",
     "name": "Blutschrei",
     "cost": 7,
@@ -4353,7 +4367,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  479: {
+  481: {
     "id": "NEW1_025",
     "name": "Blutsegelkorsar",
     "cost": 1,
@@ -4365,7 +4379,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  480: {
+  482: {
     "id": "NEW1_018",
     "name": "Blutsegelräuberin",
     "cost": 2,
@@ -4377,7 +4391,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  481: {
+  483: {
     "id": "CS2_059",
     "name": "Blutwichtel",
     "cost": 1,
@@ -4390,14 +4404,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  482: {
-    "id": "EX1_379e",
-    "name": "Buße",
-    "classs": 2,
-    "set": 3,
-    "type": 0
-  },
-  483: {
+  484: {
     "id": "EX1_379",
     "name": "Buße",
     "cost": 1,
@@ -4407,15 +4414,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  484: {
-    "id": "EX1_165b",
-    "name": "Bärengestalt",
-    "classs": 11,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
   485: {
+    "id": "EX1_379e",
+    "name": "Buße",
+    "classs": 2,
+    "set": 3,
+    "type": 0
+  },
+  486: {
     "id": "EX1_110",
     "name": "Cairne Bluthuf",
     "cost": 6,
@@ -4426,7 +4432,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  486: {
+  487: {
     "id": "EX1_573",
     "name": "Cenarius",
     "cost": 9,
@@ -4438,7 +4444,36 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  487: {
+  488: {
+    "id": "EX1_317",
+    "name": "Dämonen wahrnehmen",
+    "cost": 3,
+    "classs": 9,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  489: {
+    "id": "EX1_596e",
+    "name": "Dämonenfeuer",
+    "cost": 0,
+    "classs": 9,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  490: {
+    "id": "EX1_596",
+    "name": "Dämonenfeuer",
+    "cost": 2,
+    "classs": 9,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  491: {
     "id": "EX1_002",
     "name": "Der Schwarze Ritter",
     "cost": 6,
@@ -4449,7 +4484,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  488: {
+  492: {
     "id": "EX1_577",
     "name": "Die Bestie",
     "cost": 6,
@@ -4461,31 +4496,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  489: {
-    "id": "EX1_165t1",
-    "name": "Druide der Klaue",
-    "cost": 5,
-    "attack": 4,
-    "health": 4,
-    "classs": 11,
-    "race": 20,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  490: {
-    "id": "EX1_165t2",
-    "name": "Druide der Klaue",
-    "cost": 5,
-    "attack": 4,
-    "health": 6,
-    "classs": 11,
-    "race": 20,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  491: {
+  493: {
     "id": "EX1_165",
     "name": "Druide der Klaue",
     "cost": 5,
@@ -4497,7 +4508,31 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  492: {
+  494: {
+    "id": "EX1_165t2",
+    "name": "Druide der Klaue",
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "classs": 11,
+    "race": 20,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  495: {
+    "id": "EX1_165t1",
+    "name": "Druide der Klaue",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "classs": 11,
+    "race": 20,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  496: {
     "id": "EX1_017",
     "name": "Dschungelpanther",
     "cost": 3,
@@ -4509,7 +4544,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  493: {
+  497: {
     "id": "EX1_046",
     "name": "Dunkeleisenzwerg",
     "cost": 4,
@@ -4520,14 +4555,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  494: {
+  498: {
     "id": "EX1_334e",
     "name": "Dunkler Wahnsinn",
     "classs": 5,
     "set": 3,
     "type": 0
   },
-  495: {
+  499: {
     "id": "EX1_334",
     "name": "Dunkler Wahnsinn",
     "cost": 4,
@@ -4537,36 +4572,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  496: {
-    "id": "EX1_317",
-    "name": "Dämonen wahrnehmen",
-    "cost": 3,
-    "classs": 9,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  497: {
-    "id": "EX1_596e",
-    "name": "Dämonenfeuer",
-    "cost": 0,
-    "classs": 9,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  498: {
-    "id": "EX1_596",
-    "name": "Dämonenfeuer",
-    "cost": 2,
-    "classs": 9,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  499: {
+  500: {
     "id": "EX1_613",
     "name": "Edwin van Cleef",
     "cost": 3,
@@ -4578,7 +4584,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  500: {
+  501: {
     "id": "EX1_tk28",
     "name": "Eichhörnchen",
     "cost": 1,
@@ -4589,7 +4595,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  501: {
+  502: {
     "id": "EX1_289",
     "name": "Eisbarriere",
     "cost": 3,
@@ -4598,13 +4604,6 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0,
     "quality": 1
-  },
-  502: {
-    "id": "EX1_295o",
-    "name": "Eisblock",
-    "classs": 8,
-    "set": 3,
-    "type": 0
   },
   503: {
     "id": "EX1_295",
@@ -4617,6 +4616,13 @@ hs_cards['dede'] = {
     "quality": 3
   },
   504: {
+    "id": "EX1_295o",
+    "name": "Eisblock",
+    "classs": 8,
+    "set": 3,
+    "type": 0
+  },
+  505: {
     "id": "CS2_203",
     "name": "Eisenschnabeleule",
     "cost": 2,
@@ -4628,7 +4634,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  505: {
+  506: {
     "id": "EX1_611",
     "name": "Eiskältefalle",
     "cost": 2,
@@ -4638,7 +4644,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  506: {
+  507: {
     "id": "CS2_031",
     "name": "Eislanze",
     "cost": 1,
@@ -4648,13 +4654,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  507: {
+  508: {
     "id": "EX1_004e",
     "name": "Elunes Anmut",
     "set": 3,
     "type": 0
   },
-  508: {
+  509: {
     "id": "EX1_258",
     "name": "Entfesselter Elementar",
     "cost": 3,
@@ -4666,7 +4672,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  509: {
+  510: {
     "id": "NEW1_005",
     "name": "Entführer",
     "cost": 6,
@@ -4678,21 +4684,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  510: {
+  511: {
     "id": "EX1_178b",
     "name": "Entwurzeln",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  511: {
+  512: {
     "id": "EX1_178be",
     "name": "Entwurzelt",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  512: {
+  513: {
     "id": "EX1_250",
     "name": "Erdelementar",
     "cost": 5,
@@ -4704,7 +4710,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  513: {
+  514: {
     "id": "EX1_245",
     "name": "Erdschock",
     "cost": 1,
@@ -4714,7 +4720,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  514: {
+  515: {
     "id": "EX1_136",
     "name": "Erlösung",
     "cost": 1,
@@ -4724,7 +4730,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  515: {
+  516: {
     "id": "EX1_556",
     "name": "Erntegolem",
     "cost": 3,
@@ -4736,7 +4742,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  516: {
+  517: {
     "id": "EX1_559",
     "name": "Erzmagier Antonidas",
     "cost": 7,
@@ -4748,13 +4754,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  517: {
+  518: {
     "id": "EX1_059e",
     "name": "Experimente!",
     "set": 3,
     "type": 0
   },
-  518: {
+  519: {
     "id": "EX1_537",
     "name": "Explosivschuss",
     "cost": 5,
@@ -4764,7 +4770,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  519: {
+  520: {
     "id": "NEW1_023",
     "name": "Feendrache",
     "cost": 2,
@@ -4776,7 +4782,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  520: {
+  521: {
+    "id": "CS2_053e",
+    "name": "Fernsicht",
+    "classs": 7,
+    "set": 3,
+    "type": 0
+  },
+  522: {
     "id": "CS2_053",
     "name": "Fernsicht",
     "cost": 3,
@@ -4786,28 +4799,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  521: {
-    "id": "CS2_053e",
-    "name": "Fernsicht",
-    "classs": 7,
-    "set": 3,
-    "type": 0
-  },
-  522: {
+  523: {
     "id": "EX1_178a",
     "name": "Festgewurzelt",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  523: {
+  524: {
     "id": "EX1_178ae",
     "name": "Festgewurzelt",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  524: {
+  525: {
     "id": "EX1_603",
     "name": "Fieser Zuchtmeister",
     "cost": 2,
@@ -4819,7 +4825,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  525: {
+  526: {
     "id": "EX1_finkle",
     "name": "Finkle Einhorn",
     "cost": 2,
@@ -4829,7 +4835,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  526: {
+  527: {
     "id": "EX1_614t",
     "name": "Flamme von Azzinoth",
     "cost": 1,
@@ -4838,7 +4844,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  527: {
+  528: {
     "id": "EX1_319",
     "name": "Flammenwichtel",
     "cost": 1,
@@ -4851,7 +4857,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  528: {
+  529: {
     "id": "tt_004",
     "name": "Fleischfressender Ghul",
     "cost": 3,
@@ -4862,7 +4868,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  529: {
+  530: {
     "id": "EX1_382",
     "name": "Friedensbewahrer",
     "cost": 3,
@@ -4874,7 +4880,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  530: {
+  531: {
     "id": "EX1_283",
     "name": "Frostelementar",
     "cost": 6,
@@ -4885,7 +4891,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  531: {
+  532: {
     "id": "EX1_251",
     "name": "Gabelblitzschlag",
     "cost": 1,
@@ -4895,7 +4901,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  532: {
+  533: {
     "id": "EX1_085",
     "name": "Gedankenkontrolleur",
     "cost": 3,
@@ -4906,7 +4912,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  533: {
+  534: {
     "id": "EX1_339",
     "name": "Gedankenraub",
     "cost": 3,
@@ -4916,7 +4922,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  534: {
+  535: {
     "id": "EX1_345",
     "name": "Gedankenspiele",
     "cost": 4,
@@ -4926,7 +4932,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  535: {
+  536: {
     "id": "EX1_625t",
     "name": "Gedankenstachel",
     "cost": 2,
@@ -4934,7 +4940,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  536: {
+  537: {
     "id": "EX1_625t2",
     "name": "Gedankenzersplitterung",
     "cost": 2,
@@ -4942,7 +4948,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  537: {
+  538: {
     "id": "EX1_522",
     "name": "Geduldiger Attentäter",
     "cost": 2,
@@ -4954,20 +4960,20 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  538: {
+  539: {
     "id": "EX1_611e",
     "name": "Gefangen",
     "classs": 3,
     "set": 3,
     "type": 0
   },
-  539: {
+  540: {
     "id": "NEW1_017e",
     "name": "Gefüllter Bauch",
     "set": 3,
     "type": 0
   },
-  540: {
+  541: {
     "id": "EX1_287",
     "name": "Gegenzauber",
     "cost": 3,
@@ -4977,7 +4983,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  541: {
+  542: {
+    "id": "EX1_046e",
+    "name": "Gehärtet",
+    "set": 3,
+    "type": 0
+  },
+  543: {
     "id": "EX1_080",
     "name": "Geheimnisbewahrerin",
     "cost": 1,
@@ -4988,19 +5000,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  542: {
+  544: {
     "id": "EX1_080o",
     "name": "Geheimnisse bewahren",
     "set": 3,
     "type": 0
   },
-  543: {
-    "id": "EX1_046e",
-    "name": "Gehärtet",
-    "set": 3,
-    "type": 0
-  },
-  544: {
+  545: {
     "id": "CS2_038",
     "name": "Geist der Ahnen",
     "cost": 2,
@@ -5010,14 +5016,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  545: {
+  546: {
     "id": "CS2_038e",
     "name": "Geist der Ahnen",
     "classs": 7,
     "set": 3,
     "type": 0
   },
-  546: {
+  547: {
     "id": "EX1_tk11",
     "name": "Geisterwolf",
     "cost": 2,
@@ -5028,7 +5034,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  547: {
+  548: {
     "id": "EX1_620",
     "name": "Geschmolzener Riese",
     "cost": 20,
@@ -5039,7 +5045,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  548: {
+  549: {
+    "id": "EX1_355e",
+    "name": "Gesegneter Champion",
+    "classs": 2,
+    "set": 3,
+    "type": 0
+  },
+  550: {
     "id": "EX1_355",
     "name": "Gesegneter Champion",
     "cost": 5,
@@ -5049,14 +5062,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  549: {
-    "id": "EX1_355e",
-    "name": "Gesegneter Champion",
-    "classs": 2,
-    "set": 3,
-    "type": 0
-  },
-  550: {
+  551: {
     "id": "EX1_564",
     "name": "Gesichtsloser Manipulator",
     "cost": 5,
@@ -5067,13 +5073,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  551: {
+  552: {
     "id": "EX1_055o",
     "name": "Gestärkt",
     "set": 3,
     "type": 0
   },
-  552: {
+  553: {
     "id": "EX1_259",
     "name": "Gewittersturm",
     "cost": 3,
@@ -5083,7 +5089,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  553: {
+  554: {
     "id": "EX1_619",
     "name": "Gleichheit",
     "cost": 2,
@@ -5093,14 +5099,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  554: {
+  555: {
     "id": "EX1_619e",
     "name": "Gleichheit",
     "classs": 2,
     "set": 3,
     "type": 0
   },
-  555: {
+  556: {
     "id": "NEW1_040t",
     "name": "Gnoll",
     "cost": 2,
@@ -5109,7 +5115,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  556: {
+  557: {
     "id": "EX1_095",
     "name": "Goblinauktionator",
     "cost": 6,
@@ -5120,13 +5126,23 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  557: {
+  558: {
     "id": "NEW1_018e",
     "name": "Goldrausch",
     "set": 3,
     "type": 0
   },
-  558: {
+  559: {
+    "id": "EX1_349",
+    "name": "Göttliche Gunst",
+    "cost": 3,
+    "classs": 2,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  560: {
     "id": "EX1_414",
     "name": "Grommash Höllschrei",
     "cost": 8,
@@ -5138,7 +5154,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  559: {
+  561: {
     "id": "EX1_005",
     "name": "Großwildjäger",
     "cost": 3,
@@ -5149,7 +5165,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  560: {
+  562: {
     "id": "EX1_313",
     "name": "Grubenlord",
     "cost": 4,
@@ -5162,7 +5178,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  561: {
+  563: {
+    "id": "NEW1_024o",
+    "name": "Grünhauts Befehl",
+    "set": 3,
+    "type": 0
+  },
+  564: {
     "id": "NEW1_038",
     "name": "Gruul",
     "cost": 8,
@@ -5173,43 +5195,27 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  562: {
-    "id": "NEW1_024o",
-    "name": "Grünhauts Befehl",
-    "set": 3,
-    "type": 0
-  },
-  563: {
+  565: {
     "id": "EX1_573ae",
     "name": "Gunst des Halbgotts",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  564: {
+  566: {
     "id": "EX1_573a",
     "name": "Gunst des Halbgotts",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  565: {
-    "id": "EX1_349",
-    "name": "Göttliche Gunst",
-    "cost": 3,
-    "classs": 2,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  566: {
+  567: {
     "id": "EX1_093e",
     "name": "Hand von Argus",
     "set": 3,
     "type": 0
   },
-  567: {
+  568: {
     "id": "EX1_354",
     "name": "Handauflegung",
     "cost": 8,
@@ -5219,7 +5225,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  568: {
+  569: {
     "id": "EX1_558",
     "name": "Harrison Jones",
     "cost": 5,
@@ -5230,7 +5236,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  569: {
+  570: {
     "id": "CS2_221",
     "name": "Hasserfüllte Schmiedin",
     "cost": 5,
@@ -5241,7 +5247,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  570: {
+  571: {
     "id": "EX1_365",
     "name": "Heiliger Zorn",
     "cost": 5,
@@ -5251,7 +5257,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  571: {
+  572: {
     "id": "EX1_624",
     "name": "Heiliges Feuer",
     "cost": 6,
@@ -5261,7 +5267,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  572: {
+  573: {
     "id": "EX1_130",
     "name": "Heldenopfer",
     "cost": 1,
@@ -5271,7 +5277,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  573: {
+  574: {
     "id": "NEW1_040",
     "name": "Hogger",
     "cost": 6,
@@ -5282,31 +5288,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  574: {
-    "id": "NEW1_017",
-    "name": "Hungrige Krabbe",
-    "cost": 1,
-    "attack": 1,
-    "health": 2,
-    "collectible": 1,
-    "race": 20,
-    "set": 3,
-    "type": 0,
-    "quality": 3
-  },
   575: {
-    "id": "EX1_534t",
-    "name": "Hyäne",
-    "cost": 2,
-    "attack": 2,
-    "health": 2,
-    "classs": 3,
-    "race": 20,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  576: {
     "id": "EX1_tk34",
     "name": "Höllenbestie",
     "cost": 6,
@@ -5317,6 +5299,18 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  576: {
+    "id": "NEW1_017",
+    "name": "Hungrige Krabbe",
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "collectible": 1,
+    "race": 20,
+    "set": 3,
+    "type": 0,
+    "quality": 3
   },
   577: {
     "id": "EX1_166",
@@ -5331,12 +5325,16 @@ hs_cards['dede'] = {
     "quality": 2
   },
   578: {
-    "id": "EX1_tk33",
-    "name": "INFERNO!",
+    "id": "EX1_534t",
+    "name": "Hyäne",
     "cost": 2,
-    "classs": 9,
+    "attack": 2,
+    "health": 2,
+    "classs": 3,
+    "race": 20,
     "set": 3,
-    "type": 0
+    "type": 0,
+    "quality": 2
   },
   579: {
     "id": "EX1_614",
@@ -5351,16 +5349,17 @@ hs_cards['dede'] = {
     "quality": 4
   },
   580: {
-    "id": "EX1_623e",
-    "name": "Infusion",
-    "classs": 5,
+    "id": "EX1_tk33",
+    "name": "INFERNO!",
+    "cost": 2,
+    "classs": 9,
     "set": 3,
     "type": 0
   },
   581: {
-    "id": "EX1_607e",
-    "name": "Innere Wut",
-    "classs": 1,
+    "id": "EX1_623e",
+    "name": "Infusion",
+    "classs": 5,
     "set": 3,
     "type": 0
   },
@@ -5375,14 +5374,11 @@ hs_cards['dede'] = {
     "quality": 1
   },
   583: {
-    "id": "CS1_129",
-    "name": "Inneres Feuer",
-    "cost": 1,
-    "classs": 5,
-    "collectible": 1,
+    "id": "EX1_607e",
+    "name": "Innere Wut",
+    "classs": 1,
     "set": 3,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   584: {
     "id": "CS1_129e",
@@ -5392,6 +5388,16 @@ hs_cards['dede'] = {
     "type": 0
   },
   585: {
+    "id": "CS1_129",
+    "name": "Inneres Feuer",
+    "cost": 1,
+    "classs": 5,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  586: {
     "id": "EX1_533",
     "name": "Irreführung",
     "cost": 2,
@@ -5401,7 +5407,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  586: {
+  587: {
     "id": "CS2_231",
     "name": "Irrwisch",
     "cost": 0,
@@ -5412,7 +5418,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  587: {
+  588: {
     "id": "EX1_538t",
     "name": "Jagdhund",
     "cost": 1,
@@ -5423,7 +5429,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  588: {
+  589: {
     "id": "EX1_004",
     "name": "Junge Priesterin",
     "cost": 1,
@@ -5434,7 +5440,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  589: {
+  590: {
     "id": "EX1_049",
     "name": "Junger Braumeister",
     "cost": 2,
@@ -5445,7 +5451,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  590: {
+  591: {
     "id": "CS2_169",
     "name": "Junger Drachenfalke",
     "cost": 1,
@@ -5457,7 +5463,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  591: {
+  592: {
     "id": "EX1_091",
     "name": "Kabaleschattenpriesterin",
     "cost": 6,
@@ -5469,7 +5475,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  592: {
+  593: {
     "id": "EX1_170",
     "name": "Kaiserkobra",
     "cost": 3,
@@ -5481,7 +5487,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  593: {
+  594: {
     "id": "CS2_073",
     "name": "Kaltblütigkeit",
     "cost": 1,
@@ -5491,13 +5497,6 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  594: {
-    "id": "CS2_073e2",
-    "name": "Kaltblütigkeit",
-    "classs": 4,
-    "set": 3,
-    "type": 0
-  },
   595: {
     "id": "CS2_073e",
     "name": "Kaltblütigkeit",
@@ -5506,6 +5505,23 @@ hs_cards['dede'] = {
     "type": 0
   },
   596: {
+    "id": "CS2_073e2",
+    "name": "Kaltblütigkeit",
+    "classs": 4,
+    "set": 3,
+    "type": 0
+  },
+  597: {
+    "id": "EX1_275",
+    "name": "Kältekegel",
+    "cost": 4,
+    "classs": 8,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  598: {
     "id": "EX1_392",
     "name": "Kampfeswut",
     "cost": 2,
@@ -5515,13 +5531,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  597: {
+  599: {
     "id": "tt_004o",
     "name": "Kannibalismus",
     "set": 3,
     "type": 0
   },
-  598: {
+  600: {
     "id": "NEW1_024",
     "name": "Kapitän Grünhaut",
     "cost": 5,
@@ -5533,7 +5549,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  599: {
+  601: {
     "id": "EX1_165a",
     "name": "Katzengestalt",
     "classs": 11,
@@ -5541,7 +5557,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  600: {
+  602: {
     "id": "EX1_133",
     "name": "Klinge des Verderbens",
     "cost": 3,
@@ -5553,7 +5569,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  601: {
+  603: {
     "id": "CS2_233",
     "name": "Klingenwirbel",
     "cost": 2,
@@ -5563,7 +5579,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  602: {
+  604: {
     "id": "CS2_152",
     "name": "Knappe",
     "cost": 1,
@@ -5573,7 +5589,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  603: {
+  605: {
     "id": "EX1_323w",
     "name": "Kochendes Blut",
     "cost": 3,
@@ -5583,56 +5599,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  604: {
-    "id": "EX1_tk31",
-    "name": "Kontrolliert Gedanken",
-    "classs": 5,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  605: {
-    "id": "EX1_621",
-    "name": "Kreis der Heilung",
-    "cost": 0,
-    "classs": 5,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
   606: {
-    "id": "EX1_161",
-    "name": "Kreislauf der Natur",
-    "cost": 1,
-    "classs": 11,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  607: {
-    "id": "EX1_595",
-    "name": "Kultmeisterin",
-    "cost": 4,
-    "attack": 4,
-    "health": 2,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  608: {
-    "id": "EX1_275",
-    "name": "Kältekegel",
-    "cost": 4,
-    "classs": 8,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  609: {
     "id": "EX1_543",
     "name": "König Knirsch",
     "cost": 9,
@@ -5645,7 +5612,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  610: {
+  607: {
     "id": "EX1_014",
     "name": "König Mukla",
     "cost": 3,
@@ -5657,7 +5624,46 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
+  608: {
+    "id": "EX1_tk31",
+    "name": "Kontrolliert Gedanken",
+    "classs": 5,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  609: {
+    "id": "EX1_621",
+    "name": "Kreis der Heilung",
+    "cost": 0,
+    "classs": 5,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  610: {
+    "id": "EX1_161",
+    "name": "Kreislauf der Natur",
+    "cost": 1,
+    "classs": 11,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
   611: {
+    "id": "EX1_595",
+    "name": "Kultmeisterin",
+    "cost": 4,
+    "attack": 4,
+    "health": 2,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  612: {
     "id": "DREAM_01",
     "name": "Lachende Schwester",
     "cost": 3,
@@ -5667,7 +5673,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  612: {
+  613: {
     "id": "DS1_188",
     "name": "Langbogen des Gladiators",
     "cost": 7,
@@ -5679,7 +5685,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  613: {
+  614: {
     "id": "EX1_538",
     "name": "Lasst die Hunde los!",
     "cost": 3,
@@ -5689,7 +5695,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  614: {
+  615: {
     "id": "EX1_241",
     "name": "Lavaeruption",
     "cost": 3,
@@ -5699,7 +5705,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  615: {
+  616: {
     "id": "EX1_116",
     "name": "Leeroy Jenkins",
     "cost": 5,
@@ -5710,13 +5716,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  616: {
+  617: {
     "id": "EX1_584e",
     "name": "Lehren der Kirin Tor",
     "set": 3,
     "type": 0
   },
-  617: {
+  618: {
     "id": "EX1_100",
     "name": "Lehrensucher Cho",
     "cost": 2,
@@ -5727,14 +5733,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  618: {
+  619: {
     "id": "EX1_573b",
     "name": "Lektion des Shan'do",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  619: {
+  620: {
     "id": "EX1_029",
     "name": "Lepragnom",
     "cost": 1,
@@ -5745,7 +5751,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  620: {
+  621: {
     "id": "EX1_544",
     "name": "Leuchtfeuer",
     "cost": 2,
@@ -5755,7 +5761,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  621: {
+  622: {
     "id": "EX1_341",
     "name": "Lichtbrunnen",
     "cost": 2,
@@ -5767,7 +5773,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  622: {
+  623: {
     "id": "EX1_335",
     "name": "Lichtbrut",
     "cost": 4,
@@ -5779,7 +5785,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  623: {
+  624: {
     "id": "EX1_001",
     "name": "Lichtwächterin",
     "cost": 1,
@@ -5789,19 +5795,6 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0,
     "quality": 2
-  },
-  624: {
-    "id": "EX1_323",
-    "name": "Lord Jaraxxus",
-    "cost": 9,
-    "attack": 3,
-    "health": 15,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 3,
-    "type": 0,
-    "quality": 4
   },
   625: {
     "id": "EX1_323h",
@@ -5816,13 +5809,26 @@ hs_cards['dede'] = {
     "quality": 4
   },
   626: {
+    "id": "EX1_323",
+    "name": "Lord Jaraxxus",
+    "cost": 9,
+    "attack": 3,
+    "health": 15,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "set": 3,
+    "type": 0,
+    "quality": 4
+  },
+  627: {
     "id": "EX1_612o",
     "name": "Macht der Kirin Tor",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  627: {
+  628: {
     "id": "EX1_160",
     "name": "Macht der Wildnis",
     "cost": 2,
@@ -5832,7 +5838,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  628: {
+  629: {
     "id": "EX1_612",
     "name": "Magierin der Kirin Tor",
     "cost": 3,
@@ -5844,7 +5850,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  629: {
+  630: {
+    "id": "EX1_155ae",
+    "name": "Mal der Natur",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  631: {
     "id": "EX1_155",
     "name": "Mal der Natur",
     "cost": 3,
@@ -5854,20 +5867,6 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  630: {
-    "id": "EX1_155a",
-    "name": "Mal der Natur",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  631: {
-    "id": "EX1_155b",
-    "name": "Mal der Natur",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
   632: {
     "id": "EX1_155be",
     "name": "Mal der Natur",
@@ -5876,13 +5875,20 @@ hs_cards['dede'] = {
     "type": 0
   },
   633: {
-    "id": "EX1_155ae",
+    "id": "EX1_155b",
     "name": "Mal der Natur",
     "classs": 11,
     "set": 3,
     "type": 0
   },
   634: {
+    "id": "EX1_155a",
+    "name": "Mal der Natur",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  635: {
     "id": "EX1_563",
     "name": "Malygos",
     "cost": 9,
@@ -5894,7 +5900,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  635: {
+  636: {
     "id": "EX1_575",
     "name": "Manafluttotem",
     "cost": 3,
@@ -5907,7 +5913,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  636: {
+  637: {
     "id": "EX1_616",
     "name": "Managespenst",
     "cost": 2,
@@ -5918,14 +5924,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  637: {
+  638: {
     "id": "NEW1_012o",
     "name": "Manasättigung",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  638: {
+  639: {
     "id": "EX1_055",
     "name": "Manasüchtige",
     "cost": 2,
@@ -5936,7 +5942,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  639: {
+  640: {
     "id": "NEW1_012",
     "name": "Manawyrm",
     "cost": 1,
@@ -5948,7 +5954,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  640: {
+  641: {
     "id": "EX1_626",
     "name": "Massenbannung",
     "cost": 4,
@@ -5958,7 +5964,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  641: {
+  642: {
     "id": "EX1_586",
     "name": "Meeresriese",
     "cost": 10,
@@ -5969,7 +5975,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  642: {
+  643: {
     "id": "NEW1_014",
     "name": "Meisterin der Tarnung",
     "cost": 4,
@@ -5981,7 +5987,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  643: {
+  644: {
     "id": "NEW1_037",
     "name": "Meisterschwertschmied",
     "cost": 2,
@@ -5992,7 +5998,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  644: {
+  645: {
     "id": "NEW1_019",
     "name": "Messerjongleur",
     "cost": 2,
@@ -6003,7 +6009,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  645: {
+  646: {
     "id": "NEW1_029",
     "name": "Millhaus Manasturm",
     "cost": 2,
@@ -6014,14 +6020,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  646: {
+  647: {
     "id": "EX1_166a",
     "name": "Mondfeuer",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  647: {
+  648: {
     "id": "EX1_097",
     "name": "Monstrosität",
     "cost": 5,
@@ -6032,7 +6038,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  648: {
+  649: {
     "id": "CS1_069",
     "name": "Moorkrabbler",
     "cost": 5,
@@ -6043,19 +6049,19 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  649: {
+  650: {
     "id": "EX1_507e",
     "name": "Mrgglaargl!",
     "set": 3,
     "type": 0
   },
-  650: {
+  651: {
     "id": "EX1_103e",
     "name": "Mrghlglhal",
     "set": 3,
     "type": 0
   },
-  651: {
+  652: {
     "id": "EX1_507",
     "name": "Murlocanführer",
     "cost": 3,
@@ -6067,7 +6073,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  652: {
+  653: {
     "id": "EX1_509",
     "name": "Murlocgezeitenrufer",
     "cost": 1,
@@ -6079,7 +6085,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  653: {
+  654: {
     "id": "EX1_557",
     "name": "Nat Pagle",
     "cost": 2,
@@ -6090,7 +6096,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  654: {
+  655: {
     "id": "EX1_571",
     "name": "Naturgewalt",
     "cost": 6,
@@ -6100,7 +6106,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  655: {
+  656: {
     "id": "EX1_560",
     "name": "Nozdormu",
     "cost": 9,
@@ -6112,7 +6118,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  656: {
+  657: {
     "id": "EX1_320",
     "name": "Omen der Verdammnis",
     "cost": 5,
@@ -6122,7 +6128,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  657: {
+  658: {
     "id": "EX1_562",
     "name": "Onyxia",
     "cost": 9,
@@ -6134,7 +6140,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  658: {
+  659: {
     "id": "NEW1_041",
     "name": "Panischer Kodo",
     "cost": 5,
@@ -6146,7 +6152,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  659: {
+  660: {
     "id": "EX1_160t",
     "name": "Panther",
     "cost": 2,
@@ -6158,22 +6164,12 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  660: {
+  661: {
     "id": "EX1_160a",
     "name": "Panther herbeirufen",
     "classs": 11,
     "set": 3,
     "type": 0
-  },
-  661: {
-    "id": "EX1_164",
-    "name": "Pflege",
-    "cost": 5,
-    "classs": 11,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
   },
   662: {
     "id": "EX1_164a",
@@ -6190,6 +6186,16 @@ hs_cards['dede'] = {
     "type": 0
   },
   664: {
+    "id": "EX1_164",
+    "name": "Pflege",
+    "cost": 5,
+    "classs": 11,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  665: {
     "id": "EX1_583",
     "name": "Priesterin von Elune",
     "cost": 6,
@@ -6200,7 +6206,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  665: {
+  666: {
     "id": "EX1_350",
     "name": "Prophet Velen",
     "cost": 7,
@@ -6212,14 +6218,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  666: {
+  667: {
     "id": "EX1_274e",
     "name": "Pure Macht!",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  667: {
+  668: {
     "id": "EX1_279",
     "name": "Pyroschlag",
     "cost": 10,
@@ -6229,7 +6235,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  668: {
+  669: {
     "id": "CS2_161",
     "name": "Rabenholdtassassine",
     "cost": 7,
@@ -6240,79 +6246,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  669: {
-    "id": "EX1_298",
-    "name": "Ragnaros der Feuerfürst",
-    "cost": 8,
-    "attack": 8,
-    "health": 8,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 4
-  },
   670: {
-    "id": "EX1_604o",
-    "name": "Rasend",
-    "classs": 1,
-    "set": 3,
-    "type": 0
-  },
-  671: {
-    "id": "EX1_044",
-    "name": "Rastloser Abenteurer",
-    "cost": 3,
-    "attack": 2,
-    "health": 2,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  672: {
-    "id": "EX1_366e",
-    "name": "Rechtschaffen",
-    "classs": 2,
-    "set": 3,
-    "type": 0
-  },
-  673: {
-    "id": "CS2_151",
-    "name": "Ritter der Silbernen Hand",
-    "cost": 5,
-    "attack": 4,
-    "health": 4,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  674: {
-    "id": "CS2_188",
-    "name": "Ruchloser Unteroffizier",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  675: {
-    "id": "EX1_160be",
-    "name": "Rudelführer",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  676: {
-    "id": "EX1_160b",
-    "name": "Rudelführer",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  677: {
     "id": "EX1_131",
     "name": "Rädelsführer der Defias",
     "cost": 2,
@@ -6324,25 +6258,85 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
+  671: {
+    "id": "EX1_298",
+    "name": "Ragnaros der Feuerfürst",
+    "cost": 8,
+    "attack": 8,
+    "health": 8,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 4
+  },
+  672: {
+    "id": "EX1_604o",
+    "name": "Rasend",
+    "classs": 1,
+    "set": 3,
+    "type": 0
+  },
+  673: {
+    "id": "EX1_044",
+    "name": "Rastloser Abenteurer",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  674: {
+    "id": "EX1_366e",
+    "name": "Rechtschaffen",
+    "classs": 2,
+    "set": 3,
+    "type": 0
+  },
+  675: {
+    "id": "CS2_151",
+    "name": "Ritter der Silbernen Hand",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  676: {
+    "id": "CS2_188",
+    "name": "Ruchloser Unteroffizier",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  677: {
+    "id": "EX1_160be",
+    "name": "Rudelführer",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
   678: {
+    "id": "EX1_160b",
+    "name": "Rudelführer",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  679: {
     "id": "EX1_402",
     "name": "Rüstungsschmiedin",
     "cost": 2,
     "attack": 1,
     "health": 4,
     "classs": 1,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  679: {
-    "id": "EX1_134",
-    "name": "SI:7-Agent",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "classs": 4,
     "collectible": 1,
     "set": 3,
     "type": 0,
@@ -6369,6 +6363,16 @@ hs_cards['dede'] = {
     "quality": 2
   },
   682: {
+    "id": "EX1_137",
+    "name": "Schädelbruch",
+    "cost": 3,
+    "classs": 4,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  683: {
     "id": "EX1_609",
     "name": "Scharfschießen",
     "cost": 2,
@@ -6378,7 +6382,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  683: {
+  684: {
     "id": "EX1_021",
     "name": "Scharfseher von Thrallmar",
     "cost": 3,
@@ -6389,7 +6393,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  684: {
+  685: {
     "id": "EX1_020",
     "name": "Scharlachrote Fanatikerin",
     "cost": 3,
@@ -6400,7 +6404,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  685: {
+  686: {
     "id": "EX1_407",
     "name": "Scharmützel",
     "cost": 5,
@@ -6410,7 +6414,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  686: {
+  687: {
     "id": "EX1_345t",
     "name": "Schatten des Nichts",
     "cost": 0,
@@ -6421,14 +6425,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  687: {
+  688: {
     "id": "EX1_590e",
     "name": "Schatten von M'uru",
     "set": 3,
     "type": 0,
     "quality": 1
   },
-  688: {
+  689: {
     "id": "EX1_303",
     "name": "Schattenflamme",
     "cost": 4,
@@ -6438,7 +6442,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  689: {
+  690: {
     "id": "EX1_625",
     "name": "Schattengestalt",
     "cost": 3,
@@ -6448,7 +6452,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  690: {
+  691: {
     "id": "EX1_144",
     "name": "Schattenschritt",
     "cost": 0,
@@ -6458,7 +6462,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  691: {
+  692: {
     "id": "EX1_567",
     "name": "Schicksalshammer",
     "cost": 5,
@@ -6470,7 +6474,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  692: {
+  693: {
     "id": "EX1_410",
     "name": "Schildschlag",
     "cost": 1,
@@ -6480,7 +6484,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  693: {
+  694: {
     "id": "EX1_405",
     "name": "Schildträger",
     "cost": 1,
@@ -6491,7 +6495,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  694: {
+  695: {
     "id": "EX1_554t",
     "name": "Schlange",
     "cost": 0,
@@ -6503,7 +6507,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  695: {
+  696: {
     "id": "EX1_554",
     "name": "Schlangenfalle",
     "cost": 2,
@@ -6513,14 +6517,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  696: {
+  697: {
     "id": "EX1_411e2",
     "name": "Schliff benötigt",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  697: {
+  698: {
     "id": "EX1_028",
     "name": "Schlingendorntiger",
     "cost": 5,
@@ -6532,7 +6536,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  698: {
+  699: {
     "id": "EX1_304",
     "name": "Schrecken der Leere",
     "cost": 3,
@@ -6545,7 +6549,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  699: {
+  700: {
     "id": "NEW1_022",
     "name": "Schreckenskorsar",
     "cost": 4,
@@ -6557,7 +6561,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  700: {
+  701: {
     "id": "EX1_409t",
     "name": "Schwere Axt",
     "cost": 1,
@@ -6567,7 +6571,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  701: {
+  702: {
     "id": "EX1_366",
     "name": "Schwert der Gerechtigkeit",
     "cost": 3,
@@ -6578,16 +6582,6 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0,
     "quality": 3
-  },
-  702: {
-    "id": "EX1_137",
-    "name": "Schädelbruch",
-    "cost": 3,
-    "classs": 4,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
   },
   703: {
     "id": "EX1_158e",
@@ -6617,14 +6611,11 @@ hs_cards['dede'] = {
     "quality": 2
   },
   706: {
-    "id": "EX1_363",
+    "id": "EX1_363e2",
     "name": "Segen der Weisheit",
-    "cost": 1,
     "classs": 2,
-    "collectible": 1,
     "set": 3,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   707: {
     "id": "EX1_363e",
@@ -6634,11 +6625,14 @@ hs_cards['dede'] = {
     "type": 0
   },
   708: {
-    "id": "EX1_363e2",
+    "id": "EX1_363",
     "name": "Segen der Weisheit",
+    "cost": 1,
     "classs": 2,
+    "collectible": 1,
     "set": 3,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   709: {
     "id": "CS2_117",
@@ -6652,6 +6646,18 @@ hs_cards['dede'] = {
     "quality": 1
   },
   710: {
+    "id": "EX1_134",
+    "name": "SI:7-Agent",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "classs": 4,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  711: {
     "id": "DREAM_03",
     "name": "Smaragddrache",
     "cost": 4,
@@ -6662,7 +6668,18 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  711: {
+  712: {
+    "id": "CS2_227",
+    "name": "Söldner der Venture Co.",
+    "cost": 5,
+    "attack": 7,
+    "health": 6,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  713: {
     "id": "EX1_032",
     "name": "Sonnenläuferin",
     "cost": 6,
@@ -6673,7 +6690,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  712: {
+  714: {
     "id": "EX1_058",
     "name": "Sonnenzornbeschützerin",
     "cost": 2,
@@ -6684,7 +6701,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  713: {
+  715: {
     "id": "EX1_294",
     "name": "Spiegelgestalt",
     "cost": 3,
@@ -6694,7 +6711,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  714: {
+  716: {
     "id": "EX1_610",
     "name": "Sprengfalle",
     "cost": 2,
@@ -6704,7 +6721,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  715: {
+  717: {
+    "id": "EX1_162o",
+    "name": "Stärke des Rudels",
+    "set": 3,
+    "type": 0
+  },
+  718: {
     "id": "EX1_243",
     "name": "Staubteufel",
     "cost": 1,
@@ -6716,7 +6739,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  716: {
+  719: {
+    "id": "NEW1_007a",
+    "name": "Sternenregen",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  720: {
+    "id": "NEW1_007b",
+    "name": "Sternenregen",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  721: {
     "id": "NEW1_007",
     "name": "Sternenregen",
     "cost": 5,
@@ -6726,21 +6763,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  717: {
-    "id": "NEW1_007b",
-    "name": "Sternenregen",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  718: {
-    "id": "NEW1_007a",
-    "name": "Sternenregen",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  719: {
+  722: {
     "id": "EX1_332",
     "name": "Stille",
     "cost": 0,
@@ -6750,7 +6773,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  720: {
+  723: {
     "id": "EX1_398t",
     "name": "Streitaxt",
     "cost": 1,
@@ -6760,53 +6783,25 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  721: {
+  724: {
     "id": "EX1_044e",
     "name": "Stufenaufstieg",
     "set": 3,
     "type": 0
   },
-  722: {
+  725: {
     "id": "EX1_043e",
     "name": "Stunde des Zwielichts",
     "set": 3,
     "type": 0
   },
-  723: {
+  726: {
     "id": "EX1_247",
     "name": "Sturmgeschmiedete Axt",
     "cost": 2,
     "attack": 2,
     "durability": 3,
     "classs": 7,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  724: {
-    "id": "EX1_162o",
-    "name": "Stärke des Rudels",
-    "set": 3,
-    "type": 0
-  },
-  725: {
-    "id": "EX1_016",
-    "name": "Sylvanas Windläufer",
-    "cost": 6,
-    "attack": 5,
-    "health": 5,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 4
-  },
-  726: {
-    "id": "CS2_227",
-    "name": "Söldner der Venture Co.",
-    "cost": 5,
-    "attack": 7,
-    "health": 6,
     "collectible": 1,
     "set": 3,
     "type": 0,
@@ -6837,6 +6832,17 @@ hs_cards['dede'] = {
     "quality": 3
   },
   729: {
+    "id": "EX1_016",
+    "name": "Sylvanas Windläufer",
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 4
+  },
+  730: {
     "id": "EX1_390",
     "name": "Taurenkrieger",
     "cost": 3,
@@ -6847,7 +6853,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  730: {
+  731: {
     "id": "EX1_162",
     "name": "Terrorwolfalpha",
     "cost": 2,
@@ -6859,7 +6865,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  731: {
+  732: {
     "id": "EX1_tk29",
     "name": "Teufelssaurier",
     "cost": 5,
@@ -6870,7 +6876,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  732: {
+  733: {
     "id": "EX1_301",
     "name": "Teufelswache",
     "cost": 3,
@@ -6883,7 +6889,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  733: {
+  734: {
     "id": "EX1_050",
     "name": "Tiefenlichtorakel",
     "cost": 3,
@@ -6895,7 +6901,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  734: {
+  735: {
     "id": "EX1_103",
     "name": "Tiefenlichtseher",
     "cost": 3,
@@ -6907,7 +6913,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  735: {
+  736: {
     "id": "EX1_383",
     "name": "Tirion Fordring",
     "cost": 8,
@@ -6919,14 +6925,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  736: {
+  737: {
     "id": "CS2_104e",
     "name": "Toben",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  737: {
+  738: {
     "id": "CS2_104",
     "name": "Toben",
     "cost": 2,
@@ -6936,7 +6942,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  738: {
+  739: {
     "id": "EX1_412",
     "name": "Tobender Worgen",
     "cost": 3,
@@ -6947,7 +6953,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  739: {
+  740: {
     "id": "NEW1_030",
     "name": "Todesschwinge",
     "cost": 10,
@@ -6959,7 +6965,34 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  740: {
+  741: {
+    "id": "EX1_617",
+    "name": "Tödlicher Schuss",
+    "cost": 3,
+    "classs": 3,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  742: {
+    "id": "EX1_408",
+    "name": "Tödlicher Stoß",
+    "cost": 4,
+    "classs": 1,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  743: {
+    "id": "NEW1_029t",
+    "name": "Tötet Millhaus!",
+    "set": 3,
+    "type": 0,
+    "quality": 4
+  },
+  744: {
     "id": "DREAM_04",
     "name": "Traum",
     "cost": 0,
@@ -6967,7 +7000,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  741: {
+  745: {
     "id": "EX1_tk9",
     "name": "Treant",
     "cost": 1,
@@ -6978,17 +7011,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  742: {
-    "id": "EX1_573t",
-    "name": "Treant",
-    "cost": 1,
-    "attack": 2,
-    "health": 2,
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  743: {
+  746: {
     "id": "EX1_158t",
     "name": "Treant",
     "cost": 1,
@@ -6998,34 +7021,17 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  744: {
-    "id": "EX1_617",
-    "name": "Tödlicher Schuss",
-    "cost": 3,
-    "classs": 3,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  745: {
-    "id": "EX1_408",
-    "name": "Tödlicher Stoß",
-    "cost": 4,
-    "classs": 1,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
-  },
-  746: {
-    "id": "NEW1_029t",
-    "name": "Tötet Millhaus!",
-    "set": 3,
-    "type": 0,
-    "quality": 4
-  },
   747: {
+    "id": "EX1_573t",
+    "name": "Treant",
+    "cost": 1,
+    "attack": 2,
+    "health": 2,
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  748: {
     "id": "EX1_083",
     "name": "Tüftlermeister Oberfunks",
     "cost": 3,
@@ -7036,7 +7042,31 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  748: {
+  749: {
+    "id": "EX1_258e",
+    "name": "Überladen",
+    "classs": 7,
+    "set": 3,
+    "type": 0
+  },
+  750: {
+    "id": "EX1_316",
+    "name": "Überwältigende Macht",
+    "cost": 1,
+    "classs": 9,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  751: {
+    "id": "EX1_316e",
+    "name": "Überwältigende Macht",
+    "classs": 9,
+    "set": 3,
+    "type": 0
+  },
+  752: {
     "id": "EX1_578",
     "name": "Unbändigkeit",
     "cost": 1,
@@ -7046,7 +7076,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  749: {
+  753: {
     "id": "NEW1_021",
     "name": "Untergangsverkünder",
     "cost": 2,
@@ -7057,21 +7087,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  750: {
+  754: {
     "id": "NEW1_008b",
     "name": "Uralte Geheimnisse",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  751: {
+  755: {
     "id": "NEW1_008a",
     "name": "Uralte Lehren",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  752: {
+  756: {
     "id": "EX1_057",
     "name": "Uralter Braumeister",
     "cost": 4,
@@ -7082,7 +7112,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  753: {
+  757: {
     "id": "EX1_584",
     "name": "Uralter Magier",
     "cost": 4,
@@ -7093,7 +7123,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  754: {
+  758: {
     "id": "EX1_045",
     "name": "Uralter Wächter",
     "cost": 2,
@@ -7104,7 +7134,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  755: {
+  759: {
     "id": "NEW1_008",
     "name": "Urtum der Lehren",
     "cost": 7,
@@ -7116,7 +7146,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  756: {
+  760: {
     "id": "EX1_178",
     "name": "Urtum des Krieges",
     "cost": 7,
@@ -7128,14 +7158,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  757: {
+  761: {
     "id": "EX1_613e",
     "name": "Van Cleefs Rache",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  758: {
+  762: {
     "id": "EX1_310",
     "name": "Verdammniswache",
     "cost": 5,
@@ -7148,7 +7178,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  759: {
+  763: {
     "id": "EX1_128",
     "name": "Verhüllen",
     "cost": 1,
@@ -7158,14 +7188,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  760: {
+  764: {
     "id": "EX1_128e",
     "name": "Verhüllt",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  761: {
+  765: {
     "id": "CS2_181",
     "name": "Verletzter Klingenmeister",
     "cost": 3,
@@ -7176,7 +7206,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  762: {
+  766: {
     "id": "EX1_126",
     "name": "Verrat",
     "cost": 2,
@@ -7186,7 +7216,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  763: {
+  767: {
     "id": "EX1_059",
     "name": "Verrückter Alchemist",
     "cost": 2,
@@ -7197,7 +7227,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  764: {
+  768: {
     "id": "EX1_082",
     "name": "Verrückter Bomber",
     "cost": 2,
@@ -7208,13 +7238,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  765: {
+  769: {
     "id": "NEW1_025e",
     "name": "Verstärkt",
     "set": 3,
     "type": 0
   },
-  766: {
+  770: {
     "id": "EX1_130a",
     "name": "Verteidiger",
     "cost": 1,
@@ -7225,7 +7255,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  767: {
+  771: {
     "id": "EX1_093",
     "name": "Verteidiger von Argus",
     "cost": 4,
@@ -7236,7 +7266,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  768: {
+  772: {
     "id": "EX1_102",
     "name": "Verwüster",
     "cost": 3,
@@ -7248,14 +7278,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  769: {
+  773: {
     "id": "EX1_304e",
     "name": "Verzehren",
     "classs": 9,
     "set": 3,
     "type": 0
   },
-  770: {
+  774: {
     "id": "NEW1_026",
     "name": "Violette Ausbilderin",
     "cost": 4,
@@ -7266,7 +7296,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  771: {
+  775: {
     "id": "NEW1_026t",
     "name": "Violetter Lehrling",
     "cost": 0,
@@ -7275,13 +7305,13 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  772: {
+  776: {
     "id": "CS2_181e",
     "name": "Volle Kraft",
     "set": 3,
     "type": 0
   },
-  773: {
+  777: {
     "id": "EX1_623",
     "name": "Vollstrecker des Tempels",
     "cost": 6,
@@ -7293,14 +7323,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  774: {
-    "id": "EX1_145o",
-    "name": "Vorbereitung",
-    "classs": 4,
-    "set": 3,
-    "type": 0
-  },
-  775: {
+  778: {
     "id": "EX1_145",
     "name": "Vorbereitung",
     "cost": 0,
@@ -7310,13 +7333,20 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  776: {
+  779: {
+    "id": "EX1_145o",
+    "name": "Vorbereitung",
+    "classs": 4,
+    "set": 3,
+    "type": 0
+  },
+  780: {
     "id": "CS2_221e",
     "name": "Vorsicht! Scharf!",
     "set": 3,
     "type": 0
   },
-  777: {
+  781: {
     "id": "EX1_023",
     "name": "Wache von Silbermond",
     "cost": 4,
@@ -7327,36 +7357,37 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  778: {
+  782: {
     "id": "EX1_001e",
     "name": "Wachsam",
     "set": 3,
     "type": 0
   },
-  779: {
+  783: {
     "id": "NEW1_038o",
     "name": "Wachstum",
     "set": 3,
     "type": 0
   },
-  780: {
+  784: {
+    "id": "EX1_396",
+    "name": "Wächter von Mogu'shan",
+    "cost": 4,
+    "attack": 1,
+    "health": 7,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  785: {
     "id": "EX1_382e",
     "name": "Waffen niederlegen!",
     "classs": 2,
     "set": 3,
     "type": 0
   },
-  781: {
-    "id": "EX1_116t",
-    "name": "Welpling",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
-    "race": 24,
-    "set": 3,
-    "type": 0
-  },
-  782: {
+  786: {
     "id": "ds1_whelptoken",
     "name": "Welpling",
     "cost": 1,
@@ -7366,7 +7397,17 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  783: {
+  787: {
+    "id": "EX1_116t",
+    "name": "Welpling",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "race": 24,
+    "set": 3,
+    "type": 0
+  },
+  788: {
     "id": "EX1_317t",
     "name": "Wertloser Wichtel",
     "cost": 1,
@@ -7378,7 +7419,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  784: {
+  789: {
     "id": "EX1_598",
     "name": "Wichtel",
     "cost": 1,
@@ -7389,7 +7430,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  785: {
+  790: {
     "id": "EX1_597",
     "name": "Wichtelmeisterin",
     "cost": 3,
@@ -7400,7 +7441,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  786: {
+  791: {
     "id": "NEW1_020",
     "name": "Wilder Pyromant",
     "cost": 2,
@@ -7411,7 +7452,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  787: {
+  792: {
     "id": "EX1_248",
     "name": "Wildgeist",
     "cost": 3,
@@ -7421,7 +7462,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  788: {
+  793: {
     "id": "EX1_033",
     "name": "Windzornharpie",
     "cost": 6,
@@ -7432,7 +7473,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  789: {
+  794: {
     "id": "EX1_076",
     "name": "Winzige Beschwörerin",
     "cost": 2,
@@ -7443,7 +7484,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  790: {
+  795: {
     "id": "EX1_312",
     "name": "Wirbelnder Nether",
     "cost": 8,
@@ -7453,7 +7494,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  791: {
+  796: {
     "id": "EX1_010",
     "name": "Worgenspitzel",
     "cost": 1,
@@ -7464,18 +7505,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  792: {
-    "id": "EX1_396",
-    "name": "Wächter von Mogu'shan",
-    "cost": 4,
-    "attack": 1,
-    "health": 7,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  793: {
+  797: {
     "id": "EX1_604",
     "name": "Wütender Berserker",
     "cost": 3,
@@ -7487,7 +7517,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  794: {
+  798: {
     "id": "EX1_009",
     "name": "Wütendes Huhn",
     "cost": 1,
@@ -7499,13 +7529,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  795: {
+  799: {
     "id": "NEW1_027e",
     "name": "Yarrr!",
     "set": 3,
     "type": 0
   },
-  796: {
+  800: {
     "id": "EX1_572",
     "name": "Ysera",
     "cost": 9,
@@ -7517,7 +7547,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  797: {
+  801: {
     "id": "DREAM_02",
     "name": "Ysera erwacht",
     "cost": 2,
@@ -7525,7 +7555,7 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0
   },
-  798: {
+  802: {
     "id": "EX1_048",
     "name": "Zauberbrecher",
     "cost": 4,
@@ -7536,17 +7566,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  799: {
-    "id": "tt_010",
-    "name": "Zauberformerin",
-    "cost": 3,
-    "classs": 8,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 3
-  },
-  800: {
+  803: {
     "id": "tt_010a",
     "name": "Zauberformerin",
     "cost": 0,
@@ -7557,7 +7577,17 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  801: {
+  804: {
+    "id": "tt_010",
+    "name": "Zauberformerin",
+    "cost": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 3
+  },
+  805: {
     "id": "EX1_608",
     "name": "Zauberlehrling",
     "cost": 2,
@@ -7569,7 +7599,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  802: {
+  806: {
     "id": "EX1_391",
     "name": "Zerschmettern",
     "cost": 2,
@@ -7579,7 +7609,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  803: {
+  807: {
     "id": "EX1_594",
     "name": "Zerstäuben",
     "cost": 3,
@@ -7589,21 +7619,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  804: {
+  808: {
     "id": "EX1_154a",
     "name": "Zorn",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  805: {
-    "id": "EX1_154b",
-    "name": "Zorn",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  806: {
+  809: {
     "id": "EX1_154",
     "name": "Zorn",
     "cost": 2,
@@ -7613,7 +7636,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  807: {
+  810: {
+    "id": "EX1_154b",
+    "name": "Zorn",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  811: {
+    "id": "EX1_549o",
+    "name": "Zorn des Wildtiers",
+    "classs": 3,
+    "set": 3,
+    "type": 0
+  },
+  812: {
     "id": "EX1_549",
     "name": "Zorn des Wildtiers",
     "cost": 1,
@@ -7623,14 +7660,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  808: {
-    "id": "EX1_549o",
-    "name": "Zorn des Wildtiers",
-    "classs": 3,
-    "set": 3,
-    "type": 0
-  },
-  809: {
+  813: {
     "id": "EX1_384",
     "name": "Zornige Vergeltung",
     "cost": 6,
@@ -7640,7 +7670,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  810: {
+  814: {
     "id": "EX1_043",
     "name": "Zwielichtdrache",
     "cost": 4,
@@ -7651,36 +7681,6 @@ hs_cards['dede'] = {
     "set": 3,
     "type": 0,
     "quality": 2
-  },
-  811: {
-    "id": "EX1_258e",
-    "name": "Überladen",
-    "classs": 7,
-    "set": 3,
-    "type": 0
-  },
-  812: {
-    "id": "EX1_316e",
-    "name": "Überwältigende Macht",
-    "classs": 9,
-    "set": 3,
-    "type": 0
-  },
-  813: {
-    "id": "EX1_316",
-    "name": "Überwältigende Macht",
-    "cost": 1,
-    "classs": 9,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  814: {
-    "id": "CS2_188o",
-    "name": "„Inspiriert“",
-    "set": 3,
-    "type": 0
   },
   815: {
     "id": "CRED_15",
@@ -7873,16 +7873,6 @@ hs_cards['dede'] = {
     "quality": 4
   },
   834: {
-    "id": "CRED_30",
-    "name": "JC Park",
-    "cost": 7,
-    "attack": 2,
-    "health": 4,
-    "set": 16,
-    "type": 0,
-    "quality": 4
-  },
-  835: {
     "id": "CRED_01",
     "name": "Jason Chayes",
     "cost": 6,
@@ -7892,7 +7882,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  836: {
+  835: {
     "id": "CRED_29",
     "name": "Jason MacAllister",
     "cost": 5,
@@ -7902,11 +7892,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  837: {
+  836: {
     "id": "CRED_11",
     "name": "Jay Baxter",
     "cost": 4,
     "attack": 1,
+    "health": 4,
+    "set": 16,
+    "type": 0,
+    "quality": 4
+  },
+  837: {
+    "id": "CRED_30",
+    "name": "JC Park",
+    "cost": 7,
+    "attack": 2,
     "health": 4,
     "set": 16,
     "type": 0,
@@ -8162,16 +8162,16 @@ hs_cards['dede'] = {
     "type": 0
   },
   863: {
-    "id": "NAX1h_01",
+    "id": "NAX1_01",
     "name": "Anub'Rekhan",
-    "health": 45,
+    "health": 30,
     "set": 12,
     "type": 0
   },
   864: {
-    "id": "NAX1_01",
+    "id": "NAX1h_01",
     "name": "Anub'Rekhan",
-    "health": 30,
+    "health": 45,
     "set": 12,
     "type": 0
   },
@@ -8617,6 +8617,13 @@ hs_cards['dede'] = {
     "type": 0
   },
   921: {
+    "id": "NAX15_01",
+    "name": "Kel'Thuzad",
+    "health": 30,
+    "set": 12,
+    "type": 0
+  },
+  922: {
     "id": "FP1_013",
     "name": "Kel'Thuzad",
     "cost": 8,
@@ -8626,13 +8633,6 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0,
     "quality": 4
-  },
-  922: {
-    "id": "NAX15_01",
-    "name": "Kel'Thuzad",
-    "health": 30,
-    "set": 12,
-    "type": 0
   },
   923: {
     "id": "NAX15_04a",
@@ -8812,8 +8812,9 @@ hs_cards['dede'] = {
     "type": 0
   },
   944: {
-    "id": "FP1_030e",
+    "id": "NAX6_02H",
     "name": "Nekrotische Aura",
+    "cost": 0,
     "set": 12,
     "type": 0
   },
@@ -8825,9 +8826,8 @@ hs_cards['dede'] = {
     "type": 0
   },
   946: {
-    "id": "NAX6_02H",
+    "id": "FP1_030e",
     "name": "Nekrotische Aura",
-    "cost": 0,
     "set": 12,
     "type": 0
   },
@@ -8839,6 +8839,15 @@ hs_cards['dede'] = {
     "type": 0
   },
   948: {
+    "id": "NAX1h_03",
+    "name": "Neruber",
+    "cost": 2,
+    "attack": 4,
+    "health": 4,
+    "set": 12,
+    "type": 0
+  },
+  949: {
     "id": "NAX1_03",
     "name": "Neruber",
     "cost": 2,
@@ -8847,7 +8856,7 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0
   },
-  949: {
+  950: {
     "id": "FP1_007t",
     "name": "Neruber",
     "cost": 3,
@@ -8856,15 +8865,6 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0,
     "quality": 2
-  },
-  950: {
-    "id": "NAX1h_03",
-    "name": "Neruber",
-    "cost": 2,
-    "attack": 4,
-    "health": 4,
-    "set": 12,
-    "type": 0
   },
   951: {
     "id": "FP1_007",
@@ -8908,17 +8908,17 @@ hs_cards['dede'] = {
     "type": 0
   },
   955: {
-    "id": "NAX4_01H",
+    "id": "NAX4_01",
     "name": "Noth der Seuchenfürst",
-    "health": 45,
+    "health": 30,
     "classs": 8,
     "set": 12,
     "type": 0
   },
   956: {
-    "id": "NAX4_01",
+    "id": "NAX4_01H",
     "name": "Noth der Seuchenfürst",
-    "health": 30,
+    "health": 45,
     "classs": 8,
     "set": 12,
     "type": 0
@@ -8957,6 +8957,16 @@ hs_cards['dede'] = {
     "type": 0
   },
   962: {
+    "id": "FP1_020",
+    "name": "Rächer",
+    "cost": 1,
+    "classs": 2,
+    "collectible": 1,
+    "set": 12,
+    "type": 0,
+    "quality": 1
+  },
+  963: {
     "id": "FP1_025",
     "name": "Reinkarnation",
     "cost": 2,
@@ -8965,15 +8975,6 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0,
     "quality": 1
-  },
-  963: {
-    "id": "NAX12_03H",
-    "name": "Reißzähne",
-    "cost": 1,
-    "attack": 3,
-    "durability": 5,
-    "set": 12,
-    "type": 0
   },
   964: {
     "id": "NAX12_03",
@@ -8985,6 +8986,15 @@ hs_cards['dede'] = {
     "type": 0
   },
   965: {
+    "id": "NAX12_03H",
+    "name": "Reißzähne",
+    "cost": 1,
+    "attack": 3,
+    "durability": 5,
+    "set": 12,
+    "type": 0
+  },
+  966: {
     "id": "NAX7_02",
     "name": "Reservist",
     "cost": 2,
@@ -8993,7 +9003,7 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0
   },
-  966: {
+  967: {
     "id": "NAX7_04H",
     "name": "Riesige Runenklinge",
     "cost": 3,
@@ -9002,7 +9012,7 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0
   },
-  967: {
+  968: {
     "id": "NAX7_04",
     "name": "Riesige Runenklinge",
     "cost": 3,
@@ -9011,13 +9021,13 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0
   },
-  968: {
+  969: {
     "id": "FP1_028e",
     "name": "Ruf der Dunkelheit",
     "set": 12,
     "type": 0
   },
-  969: {
+  970: {
     "id": "NAX9_05",
     "name": "Runenklinge",
     "cost": 3,
@@ -9026,7 +9036,7 @@ hs_cards['dede'] = {
     "set": 12,
     "type": 0
   },
-  970: {
+  971: {
     "id": "NAX9_05H",
     "name": "Runenklinge",
     "cost": 3,
@@ -9034,16 +9044,6 @@ hs_cards['dede'] = {
     "durability": 3,
     "set": 12,
     "type": 0
-  },
-  971: {
-    "id": "FP1_020",
-    "name": "Rächer",
-    "cost": 1,
-    "classs": 2,
-    "collectible": 1,
-    "set": 12,
-    "type": 0,
-    "quality": 1
   },
   972: {
     "id": "NAX14_01H",
@@ -9418,6 +9418,24 @@ hs_cards['dede'] = {
     "type": 0
   },
   1015: {
+    "id": "NAX15_03n",
+    "name": "Wächter von Eiskrone",
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "set": 12,
+    "type": 0
+  },
+  1016: {
+    "id": "NAX15_03t",
+    "name": "Wächter von Eiskrone",
+    "cost": 4,
+    "attack": 5,
+    "health": 5,
+    "set": 12,
+    "type": 0
+  },
+  1017: {
     "id": "FP1_026",
     "name": "Wegelagerer der Anub'ar",
     "cost": 4,
@@ -9429,34 +9447,16 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1016: {
+  1018: {
     "id": "NAX12_04",
     "name": "Wutanfall",
     "cost": 3,
     "set": 12,
     "type": 0
   },
-  1017: {
+  1019: {
     "id": "NAX12_04e",
     "name": "Wutanfall",
-    "set": 12,
-    "type": 0
-  },
-  1018: {
-    "id": "NAX15_03n",
-    "name": "Wächter von Eiskrone",
-    "cost": 4,
-    "attack": 3,
-    "health": 3,
-    "set": 12,
-    "type": 0
-  },
-  1019: {
-    "id": "NAX15_03t",
-    "name": "Wächter von Eiskrone",
-    "cost": 4,
-    "attack": 5,
-    "health": 5,
     "set": 12,
     "type": 0
   },
@@ -9472,119 +9472,122 @@ hs_cards['dede'] = {
     "quality": 1
   },
   1021: {
-    "id": "XXX_040",
-    "name": "",
-    "health": 10,
-    "classs": 1,
+    "id": "XXX_048",
+    "name": "-1 Durability",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1022: {
+    "id": "XXX_055",
+    "name": "1000 Stats",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
-  1022: {
-    "id": "XXX_001",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1023: {
-    "id": "XXX_003",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_055e",
+    "name": "1000 Stats Enchant",
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1024: {
-    "id": "XXX_004",
-    "name": "",
+    "id": "XXX_095",
+    "name": "AI Buddy - All Charge!",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1025: {
-    "id": "XXX_005",
-    "name": "",
+    "id": "XXX_094",
+    "name": "AI Buddy - Blank Slate",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1026: {
-    "id": "XXX_006",
-    "name": "",
+    "id": "XXX_096",
+    "name": "AI Buddy - Damage Own Hero 5",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1027: {
-    "id": "XXX_007",
-    "name": "",
+    "id": "XXX_097",
+    "name": "AI Buddy - Destroy Minions",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1028: {
-    "id": "XXX_008",
-    "name": "",
+    "id": "XXX_098",
+    "name": "AI Buddy - No Deck/Hand",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1029: {
-    "id": "XXX_009",
-    "name": "",
+    "id": "XXX_099",
+    "name": "AI Helper Buddy",
     "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1030: {
-    "id": "XXX_009e",
-    "name": "",
+    "id": "XXX_061",
+    "name": "Armor 1",
+    "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1031: {
-    "id": "XXX_010",
-    "name": "",
+    "id": "XXX_053",
+    "name": "Armor 100",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1032: {
-    "id": "XXX_011",
-    "name": "",
+    "id": "XXX_062",
+    "name": "Armor 5",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1033: {
-    "id": "XXX_012",
-    "name": "",
+    "id": "XXX_039",
+    "name": "Become Hogger",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1034: {
-    "id": "XXX_013",
-    "name": "",
+    "id": "XXX_012",
+    "name": "Bounce",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1035: {
-    "id": "XXX_014",
-    "name": "",
+    "id": "XXX_006",
+    "name": "Break Weapon",
     "cost": 0,
     "set": 7,
     "type": 0,
@@ -9592,83 +9595,46 @@ hs_cards['dede'] = {
   },
   1036: {
     "id": "XXX_015",
-    "name": "",
+    "name": "Crash",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1037: {
-    "id": "XXX_016",
-    "name": "",
+    "id": "XXX_001",
+    "name": "Damage 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1038: {
-    "id": "XXX_017",
-    "name": "",
+    "id": "XXX_002",
+    "name": "Damage 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1039: {
-    "id": "XXX_018",
-    "name": "",
+    "id": "XXX_060",
+    "name": "Damage All",
     "cost": 0,
     "set": 7,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   1040: {
-    "id": "XXX_019",
-    "name": "",
+    "id": "XXX_020",
+    "name": "Damage all but 1",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1041: {
-    "id": "XXX_020",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1042: {
-    "id": "XXX_021",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1043: {
-    "id": "XXX_022",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1044: {
-    "id": "XXX_022e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1045: {
-    "id": "XXX_023",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1046: {
     "id": "XXX_024",
-    "name": "",
+    "name": "Damage Reflector",
     "cost": 0,
     "attack": 3,
     "health": 10,
@@ -9676,92 +9642,179 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1047: {
-    "id": "XXX_025",
-    "name": "",
+  1042: {
+    "id": "XXX_005",
+    "name": "Destroy",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1043: {
+    "id": "XXX_050",
+    "name": "Destroy a Mana Crystal",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1044: {
+    "id": "XXX_023",
+    "name": "Destroy All Heroes",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1045: {
+    "id": "XXX_049",
+    "name": "Destroy all Mana",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1046: {
+    "id": "XXX_018",
+    "name": "Destroy All Minions",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1047: {
+    "id": "XXX_063",
+    "name": "Destroy ALL Secrets",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1048: {
-    "id": "XXX_026",
-    "name": "",
+    "id": "XXX_047",
+    "name": "Destroy Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1049: {
-    "id": "XXX_027",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1050: {
-    "id": "XXX_028",
-    "name": "",
+    "id": "XXX_041",
+    "name": "Destroy Hero Power",
+    "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
+  1050: {
+    "id": "XXX_059",
+    "name": "Destroy Hero's Stuff",
+    "cost": 0,
+    "set": 7,
+    "type": 0
+  },
   1051: {
-    "id": "XXX_029",
-    "name": "",
+    "id": "XXX_057",
+    "name": "Destroy Target Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1052: {
-    "id": "XXX_030",
-    "name": "",
+    "id": "XXX_013",
+    "name": "Discard",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1053: {
-    "id": "XXX_039",
-    "name": "",
+    "id": "XXX_025",
+    "name": "Do Nothing",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1054: {
-    "id": "XXX_002",
-    "name": "",
+    "id": "XXX_017",
+    "name": "Draw 3 Cards",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1055: {
-    "id": "XXX_041",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_009e",
+    "name": "Empty Enchant",
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1056: {
-    "id": "XXX_042",
-    "name": "",
+    "id": "XXX_026",
+    "name": "Enable Emotes",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1057: {
-    "id": "XXX_043",
-    "name": "",
+    "id": "XXX_007",
+    "name": "Enable for Attack",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1058: {
+    "id": "XXX_009",
+    "name": "Enchant",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1059: {
+    "id": "XXX_046",
+    "name": "Force AI to Use Hero Power",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1060: {
+    "id": "XXX_022e",
+    "name": "Free Cards",
+    "set": 7,
+    "type": 0
+  },
+  1061: {
+    "id": "XXX_022",
+    "name": "Free Cards",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1062: {
+    "id": "XXX_008",
+    "name": "Freeze",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1063: {
+    "id": "XXX_052",
+    "name": "Grant Mega-Windfury",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1064: {
     "id": "XXX_044",
-    "name": "",
+    "name": "Hand Swapper Minion",
     "cost": 0,
     "attack": 5,
     "health": 5,
@@ -9769,220 +9822,167 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1059: {
-    "id": "XXX_045",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1060: {
-    "id": "XXX_046",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1061: {
-    "id": "XXX_047",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1062: {
-    "id": "XXX_048",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1063: {
-    "id": "XXX_049",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
-  1064: {
-    "id": "XXX_050",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0,
-    "quality": 1
-  },
   1065: {
-    "id": "XXX_051",
-    "name": "",
+    "id": "XXX_042",
+    "name": "Hand to Deck",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1066: {
-    "id": "XXX_052",
-    "name": "",
+    "id": "XXX_040",
+    "name": "Hogger",
+    "health": 10,
+    "classs": 1,
+    "set": 7,
+    "type": 0
+  },
+  1067: {
+    "id": "XXX_051",
+    "name": "Make Immune",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1067: {
-    "id": "XXX_053",
-    "name": "",
-    "cost": 0,
-    "set": 7,
-    "type": 0
-  },
   1068: {
-    "id": "XXX_054",
-    "name": "",
+    "id": "XXX_014",
+    "name": "Mill 10",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1069: {
-    "id": "XXX_054e",
-    "name": "",
-    "set": 7,
-    "type": 0
-  },
-  1070: {
-    "id": "XXX_055",
-    "name": "",
+    "id": "XXX_043",
+    "name": "Mill 30",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
+  },
+  1070: {
+    "id": "XXX_019",
+    "name": "Molasses",
+    "set": 7,
+    "type": 0,
+    "quality": 1
   },
   1071: {
-    "id": "XXX_055e",
-    "name": "",
+    "id": "XXX_029",
+    "name": "Opponent Concede",
+    "cost": 0,
     "set": 7,
     "type": 0
   },
   1072: {
-    "id": "XXX_056",
-    "name": "",
+    "id": "XXX_030",
+    "name": "Opponent Disconnect",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1073: {
-    "id": "XXX_057",
-    "name": "",
+    "id": "XXX_003",
+    "name": "Restore 1",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1074: {
-    "id": "XXX_058",
-    "name": "",
+    "id": "XXX_004",
+    "name": "Restore 5",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
   },
   1075: {
-    "id": "XXX_058e",
-    "name": "",
+    "id": "XXX_021",
+    "name": "Restore All Health",
+    "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1076: {
-    "id": "XXX_059",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_028",
+    "name": "Reveal Hand",
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1077: {
-    "id": "XXX_060",
-    "name": "",
-    "cost": 0,
+    "id": "XXX_027",
+    "name": "Server Crash",
     "set": 7,
     "type": 0
   },
   1078: {
-    "id": "XXX_061",
-    "name": "",
+    "id": "XXX_010",
+    "name": "Silence - debug",
     "cost": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1079: {
-    "id": "XXX_062",
-    "name": "",
+    "id": "XXX_056",
+    "name": "Silence Destroy",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1080: {
-    "id": "XXX_063",
-    "name": "",
+    "id": "XXX_016",
+    "name": "Snake Ball",
     "cost": 0,
     "set": 7,
     "type": 0
   },
   1081: {
-    "id": "XXX_094",
-    "name": "",
+    "id": "XXX_045",
+    "name": "Steal Card",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1082: {
-    "id": "XXX_095",
-    "name": "",
+    "id": "XXX_011",
+    "name": "Summon a random Secret",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1083: {
-    "id": "XXX_096",
-    "name": "",
+    "id": "XXX_054",
+    "name": "Weapon Buff",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
     "set": 7,
     "type": 0
   },
   1084: {
-    "id": "XXX_097",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_054e",
+    "name": "Weapon Buff Enchant",
     "set": 7,
     "type": 0
   },
   1085: {
-    "id": "XXX_098",
-    "name": "",
+    "id": "XXX_058",
+    "name": "Weapon Nerf",
     "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
     "set": 7,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   1086: {
-    "id": "XXX_099",
-    "name": "",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
+    "id": "XXX_058e",
+    "name": "Weapon Nerf Enchant",
     "set": 7,
     "type": 0
   },
@@ -10007,14 +10007,14 @@ hs_cards['dede'] = {
     "type": 0
   },
   1089: {
-    "id": "GVG_030ae",
+    "id": "GVG_030a",
     "name": "Angriffsmodus",
     "classs": 11,
     "set": 13,
     "type": 0
   },
   1090: {
-    "id": "GVG_030a",
+    "id": "GVG_030ae",
     "name": "Angriffsmodus",
     "classs": 11,
     "set": 13,
@@ -10208,6 +10208,23 @@ hs_cards['dede'] = {
     "type": 0
   },
   1107: {
+    "id": "GVG_019e",
+    "name": "Dämonenherz",
+    "classs": 9,
+    "set": 13,
+    "type": 0
+  },
+  1108: {
+    "id": "GVG_019",
+    "name": "Dämonenherz",
+    "cost": 5,
+    "classs": 9,
+    "collectible": 1,
+    "set": 13,
+    "type": 0,
+    "quality": 3
+  },
+  1109: {
     "id": "GVG_087",
     "name": "Dampfdruckschütze",
     "cost": 2,
@@ -10219,14 +10236,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1108: {
+  1110: {
     "id": "GVG_046e",
     "name": "Der König",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1109: {
+  1111: {
     "id": "GVG_110",
     "name": "Dr. Bumm",
     "cost": 7,
@@ -10237,7 +10254,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1110: {
+  1112: {
     "id": "GVG_080t",
     "name": "Druide des Giftzahns",
     "cost": 5,
@@ -10248,7 +10265,7 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0
   },
-  1111: {
+  1113: {
     "id": "GVG_080",
     "name": "Druide des Giftzahns",
     "cost": 5,
@@ -10260,65 +10277,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1112: {
-    "id": "GVG_015",
-    "name": "Dunkelbombe",
-    "cost": 2,
-    "classs": 9,
-    "collectible": 1,
-    "set": 13,
-    "type": 0,
-    "quality": 1
-  },
-  1113: {
-    "id": "GVG_041b",
-    "name": "Dunkle Einflüsterung",
-    "classs": 11,
-    "set": 13,
-    "type": 0
-  },
   1114: {
-    "id": "GVG_041",
-    "name": "Dunkle Einflüsterung",
-    "cost": 6,
-    "classs": 11,
-    "collectible": 1,
-    "set": 13,
-    "type": 0,
-    "quality": 3
-  },
-  1115: {
-    "id": "GVG_041c",
-    "name": "Dunkle Einflüsterung",
-    "classs": 11,
-    "set": 13,
-    "type": 0
-  },
-  1116: {
-    "id": "GVG_041a",
-    "name": "Dunkle Einflüsterung",
-    "classs": 11,
-    "set": 13,
-    "type": 0
-  },
-  1117: {
-    "id": "GVG_019e",
-    "name": "Dämonenherz",
-    "classs": 9,
-    "set": 13,
-    "type": 0
-  },
-  1118: {
-    "id": "GVG_019",
-    "name": "Dämonenherz",
-    "cost": 5,
-    "classs": 9,
-    "collectible": 1,
-    "set": 13,
-    "type": 0,
-    "quality": 3
-  },
-  1119: {
     "id": "GVG_066",
     "name": "Dünenbrecherschamane",
     "cost": 4,
@@ -10329,6 +10288,47 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0,
     "quality": 2
+  },
+  1115: {
+    "id": "GVG_015",
+    "name": "Dunkelbombe",
+    "cost": 2,
+    "classs": 9,
+    "collectible": 1,
+    "set": 13,
+    "type": 0,
+    "quality": 1
+  },
+  1116: {
+    "id": "GVG_041c",
+    "name": "Dunkle Einflüsterung",
+    "classs": 11,
+    "set": 13,
+    "type": 0
+  },
+  1117: {
+    "id": "GVG_041a",
+    "name": "Dunkle Einflüsterung",
+    "classs": 11,
+    "set": 13,
+    "type": 0
+  },
+  1118: {
+    "id": "GVG_041b",
+    "name": "Dunkle Einflüsterung",
+    "classs": 11,
+    "set": 13,
+    "type": 0
+  },
+  1119: {
+    "id": "GVG_041",
+    "name": "Dunkle Einflüsterung",
+    "cost": 6,
+    "classs": 11,
+    "collectible": 1,
+    "set": 13,
+    "type": 0,
+    "quality": 3
   },
   1120: {
     "id": "GVG_005",
@@ -10611,12 +10611,6 @@ hs_cards['dede'] = {
     "type": 0
   },
   1147: {
-    "id": "GVG_104a",
-    "name": "HIER, NIMM BUFF.",
-    "set": 13,
-    "type": 0
-  },
-  1148: {
     "id": "GVG_028",
     "name": "Handelsprinz Gallywix",
     "cost": 6,
@@ -10628,7 +10622,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1149: {
+  1148: {
     "id": "GVG_120",
     "name": "Hemet Nesingwary",
     "cost": 5,
@@ -10639,7 +10633,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1150: {
+  1149: {
     "id": "GVG_018",
     "name": "Herrin der Schmerzen",
     "cost": 2,
@@ -10651,6 +10645,12 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0,
     "quality": 2
+  },
+  1150: {
+    "id": "GVG_104a",
+    "name": "HIER, NIMM BUFF.",
+    "set": 13,
+    "type": 0
   },
   1151: {
     "id": "GVG_104",
@@ -10791,19 +10791,6 @@ hs_cards['dede'] = {
     "type": 0
   },
   1165: {
-    "id": "GVG_051",
-    "name": "Kriegsbot",
-    "cost": 1,
-    "attack": 1,
-    "health": 3,
-    "classs": 1,
-    "collectible": 1,
-    "race": 17,
-    "set": 13,
-    "type": 0,
-    "quality": 1
-  },
-  1166: {
     "id": "GVG_046",
     "name": "König der Wildtiere",
     "cost": 5,
@@ -10815,6 +10802,19 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0,
     "quality": 2
+  },
+  1166: {
+    "id": "GVG_051",
+    "name": "Kriegsbot",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "classs": 1,
+    "collectible": 1,
+    "race": 17,
+    "set": 13,
+    "type": 0,
+    "quality": 1
   },
   1167: {
     "id": "GVG_012",
@@ -10927,6 +10927,13 @@ hs_cards['dede'] = {
     "quality": 1
   },
   1178: {
+    "id": "GVG_048e",
+    "name": "Metallzähne",
+    "classs": 3,
+    "set": 13,
+    "type": 0
+  },
+  1179: {
     "id": "GVG_048",
     "name": "Metallzahnspringer",
     "cost": 3,
@@ -10938,13 +10945,6 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0,
     "quality": 2
-  },
-  1179: {
-    "id": "GVG_048e",
-    "name": "Metallzähne",
-    "classs": 3,
-    "set": 13,
-    "type": 0
   },
   1180: {
     "id": "GVG_103",
@@ -10993,6 +10993,19 @@ hs_cards['dede'] = {
     "quality": 4
   },
   1184: {
+    "id": "GVG_055",
+    "name": "Mörderische Rostlaube",
+    "cost": 4,
+    "attack": 2,
+    "health": 5,
+    "classs": 1,
+    "collectible": 1,
+    "race": 17,
+    "set": 13,
+    "type": 0,
+    "quality": 2
+  },
+  1185: {
     "id": "GVG_040",
     "name": "Murlocgeistwandler",
     "cost": 4,
@@ -11005,26 +11018,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1185: {
+  1186: {
     "id": "GVG_074",
     "name": "Mystikerin von Kezan",
     "cost": 4,
     "attack": 4,
     "health": 3,
     "collectible": 1,
-    "set": 13,
-    "type": 0,
-    "quality": 2
-  },
-  1186: {
-    "id": "GVG_055",
-    "name": "Mörderische Rostlaube",
-    "cost": 4,
-    "attack": 2,
-    "health": 5,
-    "classs": 1,
-    "collectible": 1,
-    "race": 17,
     "set": 13,
     "type": 0,
     "quality": 2
@@ -11194,6 +11194,13 @@ hs_cards['dede'] = {
     "type": 0
   },
   1203: {
+    "id": "PART_002",
+    "name": "Rückspuler",
+    "cost": 1,
+    "set": 13,
+    "type": 0
+  },
+  1204: {
     "id": "GVG_029",
     "name": "Ruf der Urahnen",
     "cost": 4,
@@ -11203,7 +11210,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1204: {
+  1205: {
     "id": "GVG_061",
     "name": "Ruf zu den Waffen",
     "cost": 3,
@@ -11213,7 +11220,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1205: {
+  1206: {
     "id": "GVG_123",
     "name": "Rußspeier",
     "cost": 3,
@@ -11225,13 +11232,6 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0,
     "quality": 2
-  },
-  1206: {
-    "id": "PART_002",
-    "name": "Rückspuler",
-    "cost": 1,
-    "set": 13,
-    "type": 0
   },
   1207: {
     "id": "GVG_060",
@@ -11273,6 +11273,28 @@ hs_cards['dede'] = {
     "type": 0
   },
   1211: {
+    "id": "GVG_022a",
+    "name": "Schärföl des Tüftlers",
+    "set": 13,
+    "type": 0
+  },
+  1212: {
+    "id": "GVG_022b",
+    "name": "Schärföl des Tüftlers",
+    "set": 13,
+    "type": 0
+  },
+  1213: {
+    "id": "GVG_022",
+    "name": "Schärföl des Tüftlers",
+    "cost": 4,
+    "classs": 4,
+    "collectible": 1,
+    "set": 13,
+    "type": 0,
+    "quality": 1
+  },
+  1214: {
     "id": "GVG_101",
     "name": "Scharlachroter Läuterer",
     "cost": 3,
@@ -11284,7 +11306,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1212: {
+  1215: {
     "id": "GVG_009",
     "name": "Schattenbomberin",
     "cost": 1,
@@ -11296,7 +11318,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1213: {
+  1216: {
     "id": "GVG_072",
     "name": "Schattenboxer",
     "cost": 2,
@@ -11309,7 +11331,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1214: {
+  1217: {
     "id": "GVG_075",
     "name": "Schiffskanone",
     "cost": 2,
@@ -11320,7 +11342,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1215: {
+  1218: {
     "id": "GVG_053",
     "name": "Schildmaid",
     "cost": 6,
@@ -11332,7 +11354,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1216: {
+  1219: {
     "id": "GVG_002",
     "name": "Schneefresser",
     "cost": 2,
@@ -11345,7 +11367,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1217: {
+  1220: {
     "id": "GVG_106",
     "name": "Schrottbot",
     "cost": 5,
@@ -11357,7 +11379,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1218: {
+  1221: {
     "id": "GVG_011",
     "name": "Schrumpfmeister",
     "cost": 2,
@@ -11369,13 +11391,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1219: {
+  1222: {
     "id": "GVG_011a",
     "name": "Schrumpfstrahl",
     "set": 13,
     "type": 0
   },
-  1220: {
+  1223: {
     "id": "GVG_100",
     "name": "Schwebender Beobachter",
     "cost": 5,
@@ -11384,28 +11406,6 @@ hs_cards['dede'] = {
     "classs": 9,
     "collectible": 1,
     "race": 15,
-    "set": 13,
-    "type": 0,
-    "quality": 1
-  },
-  1221: {
-    "id": "GVG_022b",
-    "name": "Schärföl des Tüftlers",
-    "set": 13,
-    "type": 0
-  },
-  1222: {
-    "id": "GVG_022a",
-    "name": "Schärföl des Tüftlers",
-    "set": 13,
-    "type": 0
-  },
-  1223: {
-    "id": "GVG_022",
-    "name": "Schärföl des Tüftlers",
-    "cost": 4,
-    "classs": 4,
-    "collectible": 1,
     "set": 13,
     "type": 0,
     "quality": 1
@@ -11423,6 +11423,12 @@ hs_cards['dede'] = {
     "quality": 1
   },
   1225: {
+    "id": "GVG_057a",
+    "name": "Siegel des Lichts",
+    "set": 13,
+    "type": 0
+  },
+  1226: {
     "id": "GVG_057",
     "name": "Siegel des Lichts",
     "cost": 2,
@@ -11431,12 +11437,6 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0,
     "quality": 1
-  },
-  1226: {
-    "id": "GVG_057a",
-    "name": "Siegel des Lichts",
-    "set": 13,
-    "type": 0
   },
   1227: {
     "id": "GVG_114",
@@ -11585,19 +11585,26 @@ hs_cards['dede'] = {
     "quality": 1
   },
   1240: {
+    "id": "GVG_123e",
+    "name": "Überdreht",
+    "classs": 8,
+    "set": 13,
+    "type": 0
+  },
+  1241: {
     "id": "PART_006a",
     "name": "Umgekehrt",
     "set": 13,
     "type": 0
   },
-  1241: {
+  1242: {
     "id": "PART_006",
     "name": "Umkehrschalter",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1242: {
+  1243: {
     "id": "GVG_111t",
     "name": "V-07-TR-0N",
     "cost": 8,
@@ -11608,13 +11615,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1243: {
+  1244: {
     "id": "GVG_010b",
     "name": "Velens Auserwählter",
     "set": 13,
     "type": 0
   },
-  1244: {
+  1245: {
     "id": "GVG_010",
     "name": "Velens Auserwählter",
     "cost": 3,
@@ -11624,13 +11631,13 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1245: {
+  1246: {
     "id": "GVG_063a",
     "name": "Vergeltung",
     "set": 13,
     "type": 0
   },
-  1246: {
+  1247: {
     "id": "GVG_071",
     "name": "Verirrter Weitschreiter",
     "cost": 4,
@@ -11642,23 +11649,17 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1247: {
+  1248: {
     "id": "GVG_030b",
     "name": "Verteidigungsmodus",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1248: {
+  1249: {
     "id": "GVG_030be",
     "name": "Verteidigungsmodus",
     "classs": 11,
-    "set": 13,
-    "type": 0
-  },
-  1249: {
-    "id": "GVG_068a",
-    "name": "Verwertete Magie",
     "set": 13,
     "type": 0
   },
@@ -11669,6 +11670,12 @@ hs_cards['dede'] = {
     "type": 0
   },
   1251: {
+    "id": "GVG_068a",
+    "name": "Verwertete Magie",
+    "set": 13,
+    "type": 0
+  },
+  1252: {
     "id": "GVG_014",
     "name": "Vol'jin",
     "cost": 5,
@@ -11680,7 +11687,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1252: {
+  1253: {
     "id": "GVG_090",
     "name": "Wahnsinniger Bomber",
     "cost": 5,
@@ -11691,7 +11698,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1253: {
+  1254: {
     "id": "GVG_045t",
     "name": "Wichtel",
     "cost": 1,
@@ -11702,7 +11709,7 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0
   },
-  1254: {
+  1255: {
     "id": "GVG_045",
     "name": "Wichtelexplosion",
     "cost": 4,
@@ -11712,7 +11719,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1255: {
+  1256: {
     "id": "GVG_031",
     "name": "Wiederverwerten",
     "cost": 6,
@@ -11722,7 +11729,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1256: {
+  1257: {
     "id": "GVG_097",
     "name": "Winzige Exorzistin",
     "cost": 3,
@@ -11733,20 +11740,20 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1257: {
+  1258: {
     "id": "PART_007e",
     "name": "Wirbelnde Klingen",
     "set": 13,
     "type": 0
   },
-  1258: {
+  1259: {
     "id": "PART_007",
     "name": "Wirbelnde Klingen",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1259: {
+  1260: {
     "id": "GVG_037",
     "name": "Wirbelnder Zapp-o-Mat",
     "cost": 2,
@@ -11759,7 +11766,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1260: {
+  1261: {
     "id": "GVG_056t",
     "name": "Wühlmine",
     "cost": 0,
@@ -11767,7 +11774,7 @@ hs_cards['dede'] = {
     "set": 13,
     "type": 0
   },
-  1261: {
+  1262: {
     "id": "GVG_059",
     "name": "Zahnradhammer",
     "cost": 3,
@@ -11779,7 +11786,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1262: {
+  1263: {
     "id": "GVG_052",
     "name": "Zermalmen",
     "cost": 7,
@@ -11789,7 +11796,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1263: {
+  1264: {
     "id": "GVG_093",
     "name": "Zielattrappe",
     "cost": 0,
@@ -11801,16 +11808,9 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1264: {
+  1265: {
     "id": "GVG_106e",
     "name": "Zugemüllt",
-    "set": 13,
-    "type": 0
-  },
-  1265: {
-    "id": "GVG_123e",
-    "name": "Überdreht",
-    "classs": 8,
     "set": 13,
     "type": 0
   },
@@ -12067,19 +12067,19 @@ hs_cards['dede'] = {
     "quality": 1
   },
   1295: {
-    "id": "TU4e_004",
-    "name": "Kriegsgleve von Azzinoth",
-    "cost": 2,
-    "attack": 2,
-    "durability": 2,
+    "id": "TU4c_001",
+    "name": "König Mukla",
+    "health": 26,
     "set": 5,
     "type": 0,
     "quality": 1
   },
   1296: {
-    "id": "TU4c_001",
-    "name": "König Mukla",
-    "health": 26,
+    "id": "TU4e_004",
+    "name": "Kriegsgleve von Azzinoth",
+    "cost": 2,
+    "attack": 2,
+    "durability": 2,
     "set": 5,
     "type": 0,
     "quality": 1
@@ -12216,6 +12216,27 @@ hs_cards['dede'] = {
     "quality": 1
   },
   1312: {
+    "id": "PRO_001a",
+    "name": "„I Am Murloc“",
+    "cost": 4,
+    "set": 11,
+    "type": 0
+  },
+  1313: {
+    "id": "PRO_001c",
+    "name": "„Power of the Horde“",
+    "cost": 4,
+    "set": 11,
+    "type": 0
+  },
+  1314: {
+    "id": "PRO_001b",
+    "name": "„Rogues Do It...“",
+    "cost": 4,
+    "set": 11,
+    "type": 0
+  },
+  1315: {
     "id": "PRO_001",
     "name": "Elite Tauren Chieftain",
     "cost": 5,
@@ -12226,7 +12247,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1313: {
+  1316: {
     "id": "Mekka4",
     "name": "Geflügelisierer",
     "cost": 1,
@@ -12237,7 +12258,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1314: {
+  1317: {
     "id": "EX1_112",
     "name": "Gelbin Mekkadrill",
     "cost": 6,
@@ -12248,7 +12269,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1315: {
+  1318: {
     "id": "Mekka4t",
     "name": "Huhn",
     "cost": 0,
@@ -12258,7 +12279,7 @@ hs_cards['dede'] = {
     "set": 11,
     "type": 0
   },
-  1316: {
+  1319: {
     "id": "Mekka3",
     "name": "Kraftverstärker 3000",
     "cost": 1,
@@ -12269,7 +12290,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1317: {
+  1320: {
     "id": "PRO_001at",
     "name": "Murloc",
     "cost": 0,
@@ -12279,7 +12300,7 @@ hs_cards['dede'] = {
     "set": 11,
     "type": 0
   },
-  1318: {
+  1321: {
     "id": "Mekka2",
     "name": "Reparaturbot",
     "cost": 1,
@@ -12290,19 +12311,19 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1319: {
+  1322: {
     "id": "Mekka3e",
     "name": "Verstärkt!",
     "set": 11,
     "type": 0
   },
-  1320: {
+  1323: {
     "id": "Mekka4e",
     "name": "Verwandelt",
     "set": 11,
     "type": 0
   },
-  1321: {
+  1324: {
     "id": "Mekka1",
     "name": "Zielsuchendes Huhn",
     "cost": 1,
@@ -12312,27 +12333,6 @@ hs_cards['dede'] = {
     "set": 11,
     "type": 0,
     "quality": 1
-  },
-  1322: {
-    "id": "PRO_001a",
-    "name": "„I Am Murloc“",
-    "cost": 4,
-    "set": 11,
-    "type": 0
-  },
-  1323: {
-    "id": "PRO_001c",
-    "name": "„Power of the Horde“",
-    "cost": 4,
-    "set": 11,
-    "type": 0
-  },
-  1324: {
-    "id": "PRO_001b",
-    "name": "„Rogues Do It...“",
-    "cost": 4,
-    "set": 11,
-    "type": 0
   },
   1325: {
     "id": "NEW1_016",
@@ -12360,7 +12360,7 @@ hs_cards['dede'] = {
   },
   1327: {
     "id": "PlaceholderCard",
-    "name": "",
+    "name": "Placeholder Card",
     "cost": 9,
     "attack": 6,
     "health": 8,
@@ -12383,6 +12383,13 @@ hs_cards['dede'] = {
     "type": 0
   },
   1330: {
+    "id": "BRMA14_10H_TB",
+    "name": "Aktivieren!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1331: {
     "id": "BRMC_86",
     "name": "Atramedes",
     "cost": 4,
@@ -12393,19 +12400,40 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1331: {
+  1332: {
+    "id": "TB_CoOpBossSpell_2",
+    "name": "Bombensalve",
+    "set": 18,
+    "type": 0
+  },
+  1333: {
     "id": "TB_001",
     "name": "Boss-Lebenspunkte vertauschen",
     "set": 18,
     "type": 0
   },
-  1332: {
+  1334: {
     "id": "BRMC_97e",
     "name": "Brennendes Adrenalin",
     "set": 18,
     "type": 0
   },
-  1333: {
+  1335: {
+    "id": "TB_MechWar_Boss2",
+    "name": "Bummbot",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1336: {
+    "id": "TB_MechWar_Boss2_HeroPower",
+    "name": "Bummbot jr.",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1337: {
     "id": "BRMC_92",
     "name": "Coren Düsterbräu",
     "cost": 4,
@@ -12415,19 +12443,46 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1334: {
+  1338: {
     "id": "TB_010",
     "name": "Deckzauber",
     "set": 18,
     "type": 0
   },
-  1335: {
+  1339: {
+    "id": "BRMA06_2H_TB",
+    "name": "Der Majordomus",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1340: {
+    "id": "NAX12_02H_2c_TB",
+    "name": "Dezimieren",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1341: {
+    "id": "NAX12_02H_2_TB",
+    "name": "Dezimieren",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1342: {
+    "id": "TB_CoOpBossSpell_5",
+    "name": "Doppelblitz",
+    "set": 18,
+    "type": 0
+  },
+  1343: {
     "id": "BRMC_98e",
     "name": "Drachenkampflust",
     "set": 18,
     "type": 0
   },
-  1336: {
+  1344: {
     "id": "BRMC_84",
     "name": "Drachkinzauberwirker",
     "cost": 5,
@@ -12437,7 +12492,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1337: {
+  1345: {
     "id": "BRMC_88",
     "name": "Drakonidenschlächter",
     "cost": 6,
@@ -12447,13 +12502,34 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1338: {
+  1346: {
     "id": "TB_EndlessMinions01",
     "name": "Endlose Verzauberung",
     "set": 18,
     "type": 0
   },
-  1339: {
+  1347: {
+    "id": "NAX8_02H_TB",
+    "name": "Ernten",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1348: {
+    "id": "TB_FactionWar_Boss_BoomBot",
+    "name": "FactionWar_BoomBot",
+    "health": 30,
+    "set": 18,
+    "type": 0
+  },
+  1349: {
+    "id": "NAX3_02_TB",
+    "name": "Fangnetz",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1350: {
     "id": "BRMC_99e",
     "name": "Felselementar",
     "cost": 2,
@@ -12462,7 +12538,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1340: {
+  1351: {
     "id": "BRMC_98",
     "name": "Feuerkralle",
     "cost": 6,
@@ -12473,7 +12549,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1341: {
+  1352: {
     "id": "BRMC_99",
     "name": "Garr",
     "cost": 5,
@@ -12483,14 +12559,21 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1342: {
+  1353: {
     "id": "TBA01_6",
     "name": "Geschmolzener Zorn",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1343: {
+  1354: {
+    "id": "NAX11_02H_2_TB",
+    "name": "Giftwolke",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1355: {
     "id": "BRMC_95",
     "name": "Golemagg",
     "cost": 50,
@@ -12500,13 +12583,48 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1344: {
+  1356: {
+    "id": "TB_MechWar_Boss1_HeroPower",
+    "name": "Hallo! Hallo! Hallo!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1357: {
+    "id": "BRMA07_2_2_TB",
+    "name": "ICH HAUEN",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1358: {
+    "id": "BRMA07_2_2c_TB",
+    "name": "ICH HAUEN",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1359: {
     "id": "BRMC_86e",
     "name": "Ich höre Euch ...",
     "set": 18,
     "type": 0
   },
-  1345: {
+  1360: {
+    "id": "BRMA02_2_2_TB",
+    "name": "Johlende Menge",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1361: {
+    "id": "BRMA02_2_2c_TB",
+    "name": "Johlende Menge",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1362: {
     "id": "BRMC_95he",
     "name": "Kernhundwelpe",
     "cost": 3,
@@ -12516,27 +12634,40 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1346: {
+  1363: {
     "id": "BRMC_95h",
     "name": "Kernhundwelpen",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1347: {
-    "id": "BRMC_100e",
-    "name": "Lebende Bombe",
+  1364: {
+    "id": "BRMA17_5_TB",
+    "name": "Knochendiener",
+    "cost": 2,
     "set": 18,
     "type": 0
   },
-  1348: {
+  1365: {
+    "id": "TB_CoOpBossSpell_3",
+    "name": "Kühlmittel freisetzen",
+    "set": 18,
+    "type": 0
+  },
+  1366: {
     "id": "BRMC_100",
     "name": "Lebende Bombe",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1349: {
+  1367: {
+    "id": "BRMC_100e",
+    "name": "Lebende Bombe",
+    "set": 18,
+    "type": 0
+  },
+  1368: {
     "id": "BRMC_90",
     "name": "Lebendige Lava",
     "cost": 2,
@@ -12545,7 +12676,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1350: {
+  1369: {
     "id": "BRMC_85",
     "name": "Lucifron",
     "cost": 4,
@@ -12555,7 +12686,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1351: {
+  1370: {
     "id": "BRMC_87",
     "name": "Moira Bronzebart",
     "cost": 3,
@@ -12565,20 +12696,28 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1352: {
+  1371: {
     "id": "TB_Pilot1",
     "name": "Mysteriöser Insasse",
     "set": 18,
     "type": 0
   },
-  1353: {
+  1372: {
     "id": "TBA01_4",
     "name": "Nefarian",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1354: {
+  1373: {
+    "id": "TB_MechWar_Boss1",
+    "name": "Nerv-o-Tron",
+    "health": 30,
+    "set": 18,
+    "type": 0,
+    "quality": 0
+  },
+  1374: {
     "id": "TBST_003",
     "name": "Noob-Heiler",
     "cost": 1,
@@ -12587,7 +12726,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1355: {
+  1375: {
     "id": "TBST_002",
     "name": "Noob-Magier",
     "cost": 1,
@@ -12596,7 +12735,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1356: {
+  1376: {
     "id": "TBST_001",
     "name": "Noob-Tank",
     "cost": 1,
@@ -12605,14 +12744,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1357: {
-    "id": "TBST_006",
-    "name": "OLDTBST Push Common Card",
-    "cost": 0,
-    "set": 18,
-    "type": 0
-  },
-  1358: {
+  1377: {
     "id": "BRMC_96",
     "name": "Oberrichter Grimmstein",
     "cost": 3,
@@ -12622,14 +12754,35 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1359: {
+  1378: {
+    "id": "BRMC_83",
+    "name": "Öffnet das Tor!",
+    "cost": 8,
+    "set": 18,
+    "type": 0
+  },
+  1379: {
+    "id": "BRMA09_2_TB",
+    "name": "Öffnet das Tor!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1380: {
+    "id": "TBST_006",
+    "name": "OLDTBST Push Common Card",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1381: {
     "id": "BRMC_93",
     "name": "Omnotron",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1360: {
+  1382: {
     "id": "TB_015",
     "name": "Pirat",
     "cost": 2,
@@ -12639,7 +12792,13 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1361: {
+  1383: {
+    "id": "TB_CoOpBossSpell_1",
+    "name": "Prioritäten setzen",
+    "set": 18,
+    "type": 0
+  },
+  1384: {
     "id": "TBST_005",
     "name": "PvP-Schurke",
     "cost": 3,
@@ -12648,20 +12807,14 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1362: {
+  1385: {
     "id": "TBA01_1",
     "name": "Ragnaros der Feuerfürst",
     "health": 60,
     "set": 18,
     "type": 0
   },
-  1363: {
-    "id": "TB_006e",
-    "name": "Riesenbanane",
-    "set": 18,
-    "type": 0
-  },
-  1364: {
+  1386: {
     "id": "TB_006",
     "name": "Riesenbanane",
     "cost": 1,
@@ -12669,7 +12822,37 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1365: {
+  1387: {
+    "id": "TB_006e",
+    "name": "Riesenbanane",
+    "set": 18,
+    "type": 0
+  },
+  1388: {
+    "id": "TB_CoOp_Mechazod",
+    "name": "Ritzelmeister Mechazod",
+    "cost": 10,
+    "attack": 2,
+    "health": 95,
+    "set": 18,
+    "type": 0,
+    "quality": 4
+  },
+  1389: {
+    "id": "HRW02_1e",
+    "name": "Ritzelpower",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1390: {
+    "id": "BRMA01_2H_2_TB",
+    "name": "Schlägerei!",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1391: {
     "id": "BRMC_91",
     "name": "Sohn der Flamme",
     "cost": 3,
@@ -12678,7 +12861,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1366: {
+  1392: {
     "id": "BRMC_94",
     "name": "Sulfuras",
     "cost": 2,
@@ -12687,13 +12870,7 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1367: {
-    "id": "TBUD_1",
-    "name": "TBUD Summon Early Minion",
-    "set": 18,
-    "type": 0
-  },
-  1368: {
+  1393: {
     "id": "TB_007",
     "name": "Tauschbanane",
     "cost": 1,
@@ -12701,13 +12878,63 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1369: {
+  1394: {
     "id": "TB_007e",
     "name": "Tauschschalter",
     "set": 18,
     "type": 0
   },
-  1370: {
+  1395: {
+    "id": "TB_GreatCurves_01",
+    "name": "TB_ClockworkCardDealer",
+    "set": 18,
+    "type": 0
+  },
+  1396: {
+    "id": "TB_RMC_001",
+    "name": "TB_EnchRandomManaCost",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1397: {
+    "id": "TB_RandHero2_001",
+    "name": "TB_EnchWhosTheBossNow",
+    "set": 18,
+    "type": 0
+  },
+  1398: {
+    "id": "TB_FactionWar_BoomBot",
+    "name": "TBFactionWarBoomBot",
+    "set": 18,
+    "type": 0
+  },
+  1399: {
+    "id": "TB_FactionWar_BoomBot_Spell",
+    "name": "TBFactionWarBoomBotSpell",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1400: {
+    "id": "TB_MechWar_CommonCards",
+    "name": "TBMechWarCommonCards",
+    "set": 18,
+    "type": 0
+  },
+  1401: {
+    "id": "TB_RandCardCost",
+    "name": "TBRandomCardCost",
+    "set": 18,
+    "type": 0
+  },
+  1402: {
+    "id": "TBUD_1",
+    "name": "TBUD Summon Early Minion",
+    "set": 18,
+    "type": 0
+  },
+  1403: {
     "id": "TBST_004",
     "name": "Toller Heiler",
     "cost": 3,
@@ -12716,7 +12943,19 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1371: {
+  1404: {
+    "id": "TB_CoOpBossSpell_6",
+    "name": "Tötet den Lehrensucher",
+    "set": 18,
+    "type": 0
+  },
+  1405: {
+    "id": "TB_CoOpBossSpell_4",
+    "name": "Übertakten",
+    "set": 18,
+    "type": 0
+  },
+  1406: {
     "id": "BRMC_97",
     "name": "Vaelastrasz",
     "cost": 6,
@@ -12727,7 +12966,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1372: {
+  1407: {
     "id": "TB_008",
     "name": "Verfaulte Banane",
     "cost": 1,
@@ -12735,14 +12974,41 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1373: {
+  1408: {
+    "id": "TB_012",
+    "name": "Wählt eine neue Karte!",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1409: {
+    "id": "TB_014",
+    "name": "Wählt eine neue Karte!",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1410: {
+    "id": "TB_010e",
+    "name": "Wählt eine von drei",
+    "set": 18,
+    "type": 0
+  },
+  1411: {
     "id": "TBA01_5",
     "name": "Wilde Magie",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1374: {
+  1412: {
+    "id": "BRMA13_4_2_TB",
+    "name": "Wilde Magie",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1413: {
     "id": "BRMC_89",
     "name": "Wirbelnde Asche",
     "cost": 2,
@@ -12751,40 +13017,13 @@ hs_cards['dede'] = {
     "set": 18,
     "type": 0
   },
-  1375: {
-    "id": "TB_012",
-    "name": "Wählt eine neue Karte!",
-    "cost": 0,
-    "set": 18,
-    "type": 0
-  },
-  1376: {
-    "id": "TB_014",
-    "name": "Wählt eine neue Karte!",
-    "cost": 0,
-    "set": 18,
-    "type": 0
-  },
-  1377: {
-    "id": "TB_010e",
-    "name": "Wählt eine von drei",
-    "set": 18,
-    "type": 0
-  },
-  1378: {
+  1414: {
     "id": "TB_013",
     "name": "Zauberwahl",
     "set": 18,
     "type": 0
   },
-  1379: {
-    "id": "BRMC_83",
-    "name": "Öffnet das Tor!",
-    "cost": 8,
-    "set": 18,
-    "type": 0
-  },
-  1380: {
+  1415: {
     "id": "AT_071",
     "name": "Alexstraszas Champion",
     "cost": 2,
@@ -12796,14 +13035,14 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1381: {
+  1416: {
     "id": "AT_071e",
     "name": "Alexstraszas Segen",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1382: {
+  1417: {
     "id": "AT_036",
     "name": "Anub'arak",
     "cost": 9,
@@ -12815,7 +13054,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
-  1383: {
+  1418: {
     "id": "AT_113",
     "name": "Anwerber",
     "cost": 5,
@@ -12826,7 +13065,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1384: {
+  1419: {
     "id": "AT_077",
     "name": "Argentumlanze",
     "cost": 2,
@@ -12838,7 +13077,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1385: {
+  1420: {
     "id": "AT_087",
     "name": "Argentumreiter",
     "cost": 3,
@@ -12849,7 +13088,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1386: {
+  1421: {
     "id": "AT_109",
     "name": "Argentumwachmann",
     "cost": 2,
@@ -12860,7 +13099,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-  1387: {
+  1422: {
     "id": "AT_114",
     "name": "Arglistiger Querulant",
     "cost": 4,
@@ -12871,7 +13110,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 1
   },
-  1388: {
+  1423: {
     "id": "AT_004",
     "name": "Arkanschlag",
     "cost": 1,
@@ -12881,7 +13120,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1389: {
+  1424: {
     "id": "AT_043",
     "name": "Astrale Vereinigung",
     "cost": 4,
@@ -12891,1909 +13130,7 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 3
   },
-  1390: {
-    "id": "AT_050",
-    "name": "Aufgeladener Hammer",
-    "cost": 4,
-    "attack": 2,
-    "durability": 4,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1391: {
-    "id": "AT_096e",
-    "name": "Aufgezogen",
-    "set": 15,
-    "type": 0
-  },
-  1392: {
-    "id": "AT_132_WARRIOR",
-    "name": "Aufpanzern!",
-    "cost": 2,
-    "classs": 1,
-    "set": 15,
-    "type": 0
-  },
-  1393: {
-    "id": "AT_096",
-    "name": "Aufziehritter",
-    "cost": 5,
-    "attack": 5,
-    "health": 5,
-    "collectible": 1,
-    "race": 17,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1394: {
-    "id": "AT_082e",
-    "name": "Ausbildung",
-    "set": 15,
-    "type": 0
-  },
-  1395: {
-    "id": "AT_012",
-    "name": "Ausgeburt der Schatten",
-    "cost": 4,
-    "attack": 5,
-    "health": 4,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1396: {
-    "id": "AT_045",
-    "name": "Aviana",
-    "cost": 9,
-    "attack": 5,
-    "health": 5,
-    "classs": 11,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1397: {
-    "id": "AT_132_HUNTER",
-    "name": "Ballistenschuss",
-    "cost": 2,
-    "classs": 3,
-    "set": 15,
-    "type": 0
-  },
-  1398: {
-    "id": "AT_018",
-    "name": "Beichtpatin Blondlocke",
-    "cost": 7,
-    "attack": 5,
-    "health": 4,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1399: {
-    "id": "AT_015",
-    "name": "Bekehren",
-    "cost": 2,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1400: {
-    "id": "AT_017e",
-    "name": "Berührung des Zwielichts",
-    "set": 15,
-    "type": 0
-  },
-  1401: {
-    "id": "AT_014e",
-    "name": "Beschattet",
-    "classs": 5,
-    "set": 15,
-    "type": 0
-  },
-  1402: {
-    "id": "AT_078",
-    "name": "Betretet das Kolosseum",
-    "cost": 6,
-    "classs": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1403: {
-    "id": "AT_084e",
-    "name": "Bewaffnet",
-    "set": 15,
-    "type": 0
-  },
-  1404: {
-    "id": "AT_055",
-    "name": "Blitzheilung",
-    "cost": 1,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1405: {
-    "id": "AT_050t",
-    "name": "Blitzladung",
-    "cost": 2,
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1406: {
-    "id": "AT_124",
-    "name": "Bolf Rammschild",
-    "cost": 6,
-    "attack": 3,
-    "health": 9,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1407: {
-    "id": "AT_029",
-    "name": "Bukanier",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
-    "classs": 4,
-    "collectible": 1,
-    "race": 23,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1408: {
-    "id": "AT_060",
-    "name": "Bärenfalle",
-    "cost": 2,
-    "classs": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1409: {
-    "id": "AT_106",
-    "name": "Champion des Lichts",
-    "cost": 3,
-    "attack": 4,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1410: {
-    "id": "AT_028e",
-    "name": "Chi-Lanze",
-    "set": 15,
-    "type": 0
-  },
-  1411: {
-    "id": "AT_054",
-    "name": "Der Nebelrufer",
-    "cost": 6,
-    "attack": 4,
-    "health": 4,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1412: {
-    "id": "AT_128",
-    "name": "Der Skelettritter",
-    "cost": 6,
-    "attack": 7,
-    "health": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1413: {
-    "id": "AT_132_PALADIN",
-    "name": "Die Silberne Hand",
-    "cost": 2,
-    "classs": 2,
-    "set": 15,
-    "type": 0
-  },
-  1414: {
-    "id": "AT_008",
-    "name": "Drache von Kaltarra",
-    "cost": 6,
-    "attack": 6,
-    "health": 6,
-    "classs": 8,
-    "collectible": 1,
-    "race": 24,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1415: {
-    "id": "AT_083",
-    "name": "Drachenfalkenreiter",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1416: {
-    "id": "AT_047",
-    "name": "Draenei-Totemschnitzerin",
-    "cost": 4,
-    "attack": 4,
-    "health": 4,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1417: {
-    "id": "AT_042",
-    "name": "Druidin des Säbelzahns",
-    "cost": 2,
-    "attack": 2,
-    "health": 1,
-    "classs": 11,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1418: {
-    "id": "AT_024e",
-    "name": "Dunkle Fusion",
-    "set": 15,
-    "type": 0
-  },
-  1419: {
-    "id": "AT_024",
-    "name": "Dämonische Fusion",
-    "cost": 2,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1420: {
-    "id": "AT_081",
-    "name": "Eadric der Reine",
-    "cost": 7,
-    "attack": 3,
-    "health": 7,
-    "classs": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1421: {
-    "id": "AT_005t",
-    "name": "Eber",
-    "cost": 3,
-    "attack": 4,
-    "health": 2,
-    "race": 20,
-    "set": 15,
-    "type": 0
-  },
-  1422: {
-    "id": "AT_002",
-    "name": "Effigie",
-    "cost": 3,
-    "classs": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1423: {
-    "id": "AT_082",
-    "name": "Einfacher Knappe",
-    "cost": 1,
-    "attack": 1,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1424: {
-    "id": "AT_125",
-    "name": "Eisheuler",
-    "cost": 9,
-    "attack": 10,
-    "health": 10,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
   1425: {
-    "id": "AT_092",
-    "name": "Eiswüter",
-    "cost": 3,
-    "attack": 5,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1426: {
-    "id": "AT_058",
-    "name": "Elekk des Königs",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "classs": 3,
-    "collectible": 1,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1427: {
-    "id": "AT_051",
-    "name": "Elementare Zerstörung",
-    "cost": 3,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1428: {
-    "id": "AT_029e",
-    "name": "Extrascharf",
-    "set": 15,
-    "type": 0
-  },
-  1429: {
-    "id": "AT_131",
-    "name": "Eydis Nachtbann",
-    "cost": 3,
-    "attack": 3,
-    "health": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1430: {
-    "id": "AT_083e",
-    "name": "Falkenzorn",
-    "set": 15,
-    "type": 0
-  },
-  1431: {
-    "id": "AT_115",
-    "name": "Fechtlehrer",
-    "cost": 3,
-    "attack": 2,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1432: {
-    "id": "AT_115e",
-    "name": "Fechtübung",
-    "set": 15,
-    "type": 0
-  },
-  1433: {
-    "id": "AT_132_MAGE",
-    "name": "Feuerschlag (Rang 2)",
-    "cost": 2,
-    "classs": 8,
-    "set": 15,
-    "type": 0
-  },
-  1434: {
-    "id": "AT_020",
-    "name": "Fiese Verdammniswache",
-    "cost": 7,
-    "attack": 6,
-    "health": 8,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1435: {
-    "id": "AT_025",
-    "name": "Finsterer Handel",
-    "cost": 6,
-    "classs": 9,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1436: {
-    "id": "AT_129",
-    "name": "Fjola Lichtbann",
-    "cost": 3,
-    "attack": 3,
-    "health": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1437: {
-    "id": "AT_094",
-    "name": "Flammenjongleur",
-    "cost": 2,
-    "attack": 2,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1438: {
-    "id": "AT_001",
-    "name": "Flammenlanze",
-    "cost": 5,
-    "classs": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1439: {
-    "id": "AT_093",
-    "name": "Frierender Schneebold",
-    "cost": 4,
-    "attack": 2,
-    "health": 6,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1440: {
-    "id": "AT_120",
-    "name": "Frostriese",
-    "cost": 10,
-    "attack": 8,
-    "health": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1441: {
-    "id": "AT_123",
-    "name": "Frostschlund",
-    "cost": 7,
-    "attack": 6,
-    "health": 6,
-    "collectible": 1,
-    "race": 24,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1442: {
-    "id": "AT_080",
-    "name": "Garnisonskommandant",
-    "cost": 2,
-    "attack": 2,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1443: {
-    "id": "AT_003",
-    "name": "Gefallener Held",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "classs": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1444: {
-    "id": "AT_102",
-    "name": "Gefangener Jormungar",
-    "cost": 7,
-    "attack": 5,
-    "health": 9,
-    "collectible": 1,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1445: {
-    "id": "AT_061",
-    "name": "Geladen und entsichert",
-    "cost": 2,
-    "classs": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1446: {
-    "id": "AT_061e",
-    "name": "Geladen und entsichert",
-    "classs": 3,
-    "set": 15,
-    "type": 0
-  },
-  1447: {
-    "id": "AT_108",
-    "name": "Gepanzertes Schlachtross",
-    "cost": 4,
-    "attack": 5,
-    "health": 3,
-    "collectible": 1,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1448: {
-    "id": "AT_081e",
-    "name": "Gereinigt",
-    "classs": 2,
-    "set": 15,
-    "type": 0
-  },
-  1449: {
-    "id": "AT_075e",
-    "name": "Geschenkter Gaul",
-    "classs": 2,
-    "set": 15,
-    "type": 0
-  },
-  1450: {
-    "id": "AT_057o",
-    "name": "Gestriegelt",
-    "classs": 3,
-    "set": 15,
-    "type": 0
-  },
-  1451: {
-    "id": "AT_068e",
-    "name": "Gestärkt",
-    "classs": 1,
-    "set": 15,
-    "type": 0
-  },
-  1452: {
-    "id": "AT_122",
-    "name": "Gormok der Pfähler",
-    "cost": 4,
-    "attack": 4,
-    "health": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1453: {
-    "id": "AT_101",
-    "name": "Grubenkämpferin",
-    "cost": 5,
-    "attack": 5,
-    "health": 6,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1454: {
-    "id": "AT_011",
-    "name": "Heiliger Champion",
-    "cost": 4,
-    "attack": 3,
-    "health": 5,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1455: {
-    "id": "AT_132_SHAMANa",
-    "name": "Heiltotem",
-    "cost": 0,
-    "attack": 0,
-    "health": 2,
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1456: {
-    "id": "AT_132_PRIEST",
-    "name": "Heilung",
-    "cost": 2,
-    "classs": 5,
-    "set": 15,
-    "type": 0
-  },
-  1457: {
-    "id": "AT_070",
-    "name": "Himmelskäpt'n Kragg",
-    "cost": 7,
-    "attack": 4,
-    "health": 6,
-    "collectible": 1,
-    "race": 23,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1458: {
-    "id": "AT_035t",
-    "name": "Hinterhalt!",
-    "cost": 0,
-    "classs": 4,
-    "set": 15,
-    "type": 0
-  },
-  1459: {
-    "id": "AT_111",
-    "name": "Imbissbuden-Tuskarr",
-    "cost": 4,
-    "attack": 3,
-    "health": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1460: {
-    "id": "AT_119e",
-    "name": "Inspiriert",
-    "set": 15,
-    "type": 0
-  },
-  1461: {
-    "id": "AT_109e",
-    "name": "Inspiriert",
-    "set": 15,
-    "type": 0
-  },
-  1462: {
-    "id": "AT_022",
-    "name": "Jaraxxus' Faust",
-    "cost": 4,
-    "classs": 9,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1463: {
-    "id": "AT_132",
-    "name": "Justiziarin Treuherz",
-    "cost": 6,
-    "attack": 6,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1464: {
-    "id": "AT_089",
-    "name": "Knochenwachenleutnant",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1465: {
-    "id": "AT_099",
-    "name": "Kodoreiterin",
-    "cost": 6,
-    "attack": 3,
-    "health": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1466: {
-    "id": "AT_116e",
-    "name": "Kommt nur!",
-    "classs": 5,
-    "set": 15,
-    "type": 0
-  },
-  1467: {
-    "id": "AT_044",
-    "name": "Kompostieren",
-    "cost": 3,
-    "classs": 11,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1468: {
-    "id": "AT_099t",
-    "name": "Kriegskodo",
-    "cost": 5,
-    "attack": 3,
-    "health": 5,
-    "race": 20,
-    "set": 15,
-    "type": 0
-  },
-  1469: {
-    "id": "AT_065e",
-    "name": "Königsverteidiger",
-    "set": 15,
-    "type": 0
-  },
-  1470: {
-    "id": "AT_065",
-    "name": "Königsverteidiger",
-    "cost": 3,
-    "attack": 3,
-    "durability": 2,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1471: {
-    "id": "AT_033",
-    "name": "Lange Finger",
-    "cost": 3,
-    "classs": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1472: {
-    "id": "AT_084",
-    "name": "Lanzenträger",
-    "cost": 2,
-    "attack": 1,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1473: {
-    "id": "AT_037",
-    "name": "Lebendige Wurzeln",
-    "cost": 1,
-    "classs": 11,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1474: {
-    "id": "AT_037a",
-    "name": "Lebendige Wurzeln",
-    "set": 15,
-    "type": 0
-  },
-  1475: {
-    "id": "AT_037b",
-    "name": "Lebendige Wurzeln",
-    "set": 15,
-    "type": 0
-  },
-  1476: {
-    "id": "AT_023",
-    "name": "Leervernichter",
-    "cost": 6,
-    "attack": 5,
-    "health": 4,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1477: {
-    "id": "AT_042a",
-    "name": "Löwengestalt",
-    "classs": 11,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1478: {
-    "id": "AT_090e",
-    "name": "Macht der Affen",
-    "set": 15,
-    "type": 0
-  },
-  1479: {
-    "id": "AT_006e",
-    "name": "Macht von Dalaran",
-    "classs": 8,
-    "set": 15,
-    "type": 0
-  },
-  1480: {
-    "id": "AT_049e",
-    "name": "Macht von Donnerfels",
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1481: {
-    "id": "AT_066e",
-    "name": "Macht von Orgrimmar",
-    "classs": 1,
-    "set": 15,
-    "type": 0
-  },
-  1482: {
-    "id": "AT_013e",
-    "name": "Machtwort: Ruhm",
-    "set": 15,
-    "type": 0
-  },
-  1483: {
-    "id": "AT_013",
-    "name": "Machtwort: Ruhm",
-    "cost": 1,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1484: {
-    "id": "AT_067",
-    "name": "Magnataurenalpha",
-    "cost": 4,
-    "attack": 5,
-    "health": 3,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1485: {
-    "id": "AT_085",
-    "name": "Maid des Sees",
-    "cost": 4,
-    "attack": 2,
-    "health": 6,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1486: {
-    "id": "AT_130",
-    "name": "Meeresplünderer",
-    "cost": 6,
-    "attack": 6,
-    "health": 7,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1487: {
-    "id": "AT_077e",
-    "name": "Mehr Piks",
-    "set": 15,
-    "type": 0
-  },
-  1488: {
-    "id": "AT_110",
-    "name": "Meister des Kolosseums",
-    "cost": 3,
-    "attack": 2,
-    "health": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1489: {
-    "id": "AT_027e",
-    "name": "Meisterbeschwörer",
-    "classs": 9,
-    "set": 15,
-    "type": 0
-  },
-  1490: {
-    "id": "AT_021",
-    "name": "Miniritter des Bösen",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1491: {
-    "id": "AT_034e",
-    "name": "Mit Gift überzogen",
-    "classs": 4,
-    "set": 15,
-    "type": 0
-  },
-  1492: {
-    "id": "AT_088",
-    "name": "Mogors Champion",
-    "cost": 6,
-    "attack": 8,
-    "health": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1493: {
-    "id": "AT_090",
-    "name": "Muklas Champion",
-    "cost": 5,
-    "attack": 4,
-    "health": 3,
-    "collectible": 1,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1494: {
-    "id": "AT_076",
-    "name": "Murlocritter",
-    "cost": 4,
-    "attack": 3,
-    "health": 4,
-    "classs": 2,
-    "collectible": 1,
-    "race": 14,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1495: {
-    "id": "AT_079",
-    "name": "Mysteriöser Ritter",
-    "cost": 6,
-    "attack": 6,
-    "health": 6,
-    "classs": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1496: {
-    "id": "AT_036t",
-    "name": "Neruber",
-    "cost": 3,
-    "attack": 4,
-    "health": 4,
-    "classs": 4,
-    "set": 15,
-    "type": 0
-  },
-  1497: {
-    "id": "AT_127",
-    "name": "Nexus-Champion Saraad",
-    "cost": 5,
-    "attack": 4,
-    "health": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1498: {
-    "id": "AT_086e",
-    "name": "Niedertracht",
-    "set": 15,
-    "type": 0
-  },
-  1499: {
-    "id": "AT_103",
-    "name": "Nordmeerkrake",
-    "cost": 9,
-    "attack": 9,
-    "health": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1500: {
-    "id": "AT_118",
-    "name": "Oberste Kreuzfahrerin",
-    "cost": 6,
-    "attack": 5,
-    "health": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1501: {
-    "id": "AT_042b",
-    "name": "Panthergestalt",
-    "classs": 11,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1502: {
-    "id": "AT_121",
-    "name": "Publikumsliebling",
-    "cost": 4,
-    "attack": 4,
-    "health": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1503: {
-    "id": "AT_049",
-    "name": "Recke von Donnerfels",
-    "cost": 5,
-    "attack": 3,
-    "health": 6,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1504: {
-    "id": "AT_030",
-    "name": "Recke von Unterstadt",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "classs": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1505: {
-    "id": "AT_009",
-    "name": "Rhonin",
-    "cost": 8,
-    "attack": 7,
-    "health": 7,
-    "classs": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1506: {
-    "id": "AT_121e",
-    "name": "Riesiges Ego",
-    "set": 15,
-    "type": 0
-  },
-  1507: {
-    "id": "AT_041",
-    "name": "Ritter der Wildnis",
-    "cost": 7,
-    "attack": 6,
-    "health": 6,
-    "classs": 11,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1508: {
-    "id": "AT_041e",
-    "name": "Ruf der Wildnis",
-    "set": 15,
-    "type": 0
-  },
-  1509: {
-    "id": "AT_119",
-    "name": "Räuber der Kvaldir",
-    "cost": 5,
-    "attack": 4,
-    "health": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1510: {
-    "id": "AT_086",
-    "name": "Saboteur",
-    "cost": 3,
-    "attack": 4,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1511: {
-    "id": "AT_014",
-    "name": "Schattengeist",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1512: {
-    "id": "AT_075",
-    "name": "Schlachtrossausbilder",
-    "cost": 3,
-    "attack": 2,
-    "health": 4,
-    "classs": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1513: {
-    "id": "AT_063t",
-    "name": "Schreckensmaul",
-    "cost": 3,
-    "attack": 4,
-    "health": 2,
-    "classs": 3,
-    "collectible": 1,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1514: {
-    "id": "AT_019",
-    "name": "Schreckensross",
-    "cost": 4,
-    "attack": 1,
-    "health": 1,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1515: {
-    "id": "AT_095",
-    "name": "Schweigsamer Ritter",
-    "cost": 3,
-    "attack": 2,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1516: {
-    "id": "AT_064",
-    "name": "Schwungvoller Hieb",
-    "cost": 3,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1517: {
-    "id": "AT_037t",
-    "name": "Schössling",
-    "cost": 1,
-    "attack": 1,
-    "health": 1,
-    "set": 15,
-    "type": 0
-  },
-  1518: {
-    "id": "AT_059",
-    "name": "Schützin des Hochlands",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
-    "classs": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1519: {
-    "id": "AT_132_WARLOCK",
-    "name": "Seelenentzug",
-    "cost": 2,
-    "classs": 9,
-    "set": 15,
-    "type": 0
-  },
-  1520: {
-    "id": "AT_040e",
-    "name": "Seelenverwandt",
-    "classs": 11,
-    "set": 15,
-    "type": 0
-  },
-  1521: {
-    "id": "AT_011e",
-    "name": "Segen des Lichts",
-    "set": 15,
-    "type": 0
-  },
-  1522: {
-    "id": "AT_028",
-    "name": "Shado-Pan-Reiter",
-    "cost": 5,
-    "attack": 3,
-    "health": 7,
-    "classs": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1523: {
-    "id": "AT_133e",
-    "name": "Sieg!",
-    "set": 15,
-    "type": 0
-  },
-  1524: {
-    "id": "AT_074e2",
-    "name": "Siegel des Champions",
-    "classs": 2,
-    "set": 15,
-    "type": 0
-  },
-  1525: {
-    "id": "AT_074",
-    "name": "Siegel des Champions",
-    "cost": 3,
-    "classs": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1526: {
-    "id": "AT_100",
-    "name": "Silberne Regentin",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1527: {
-    "id": "AT_069",
-    "name": "Sparringspartner",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1528: {
-    "id": "AT_062",
-    "name": "Spinnennest",
-    "cost": 6,
-    "classs": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1529: {
-    "id": "AT_057",
-    "name": "Stallmeisterin",
-    "cost": 3,
-    "attack": 4,
-    "health": 2,
-    "classs": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1530: {
-    "id": "AT_089e",
-    "name": "Starke Knochen",
-    "set": 15,
-    "type": 0
-  },
-  1531: {
-    "id": "AT_132_SHAMANc",
-    "name": "Steinklauentotem",
-    "cost": 0,
-    "attack": 0,
-    "health": 2,
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1532: {
-    "id": "AT_006",
-    "name": "Streiter von Dalaran",
-    "cost": 4,
-    "attack": 3,
-    "health": 5,
-    "classs": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1533: {
-    "id": "AT_066",
-    "name": "Streiter von Orgrimmar",
-    "cost": 3,
-    "attack": 3,
-    "health": 3,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1534: {
-    "id": "AT_038",
-    "name": "Streiterin von Darnassus",
-    "cost": 2,
-    "attack": 2,
-    "health": 3,
-    "classs": 11,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1535: {
-    "id": "AT_132_SHAMANd",
-    "name": "Sturmzorntotem",
-    "cost": 0,
-    "attack": 0,
-    "health": 2,
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1536: {
-    "id": "AT_068",
-    "name": "Stärken",
-    "cost": 2,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1537: {
-    "id": "AT_045e",
-    "name": "Stärkender Nebel",
-    "set": 15,
-    "type": 0
-  },
-  1538: {
-    "id": "AT_042t",
-    "name": "Säbelzahnlöwe",
-    "cost": 2,
-    "attack": 2,
-    "health": 1,
-    "classs": 11,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1539: {
-    "id": "AT_042t2",
-    "name": "Säbelzahnpanther",
-    "cost": 2,
-    "attack": 3,
-    "health": 2,
-    "classs": 11,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1540: {
-    "id": "AT_031",
-    "name": "Taschendieb",
-    "cost": 2,
-    "attack": 2,
-    "health": 2,
-    "classs": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1541: {
-    "id": "AT_132_DRUID",
-    "name": "Terrorgestaltwandel",
-    "cost": 2,
-    "classs": 11,
-    "set": 15,
-    "type": 0
-  },
-  1542: {
-    "id": "AT_132_DRUIDe",
-    "name": "Terrorklauen",
-    "classs": 11,
-    "set": 15,
-    "type": 0
-  },
-  1543: {
-    "id": "AT_021e",
-    "name": "Teufelswut",
-    "classs": 9,
-    "set": 15,
-    "type": 0
-  },
-  1544: {
-    "id": "AT_133",
-    "name": "Tjosterin von Gadgetzan",
-    "cost": 1,
-    "attack": 1,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1545: {
-    "id": "AT_112",
-    "name": "Tjostmeister",
-    "cost": 6,
-    "attack": 5,
-    "health": 6,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1546: {
-    "id": "AT_132_SHAMAN",
-    "name": "Totem aufstellen",
-    "cost": 2,
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1547: {
-    "id": "AT_052",
-    "name": "Totemgolem",
-    "cost": 2,
-    "attack": 3,
-    "health": 4,
-    "classs": 7,
-    "collectible": 1,
-    "race": 21,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1548: {
-    "id": "AT_046",
-    "name": "Totemiker der Tuskarr",
-    "cost": 3,
-    "attack": 3,
-    "health": 2,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1549: {
-    "id": "AT_047e",
-    "name": "Totemsegen",
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1550: {
-    "id": "AT_069e",
-    "name": "Trainiert",
-    "classs": 1,
-    "set": 15,
-    "type": 0
-  },
-  1551: {
-    "id": "AT_091",
-    "name": "Turniersanitäter",
-    "cost": 4,
-    "attack": 1,
-    "health": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1552: {
-    "id": "AT_097",
-    "name": "Turnierzuschauer",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1553: {
-    "id": "AT_104",
-    "name": "Tuskarrtjoster",
-    "cost": 5,
-    "attack": 5,
-    "health": 5,
-    "classs": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1554: {
-    "id": "AT_035",
-    "name": "Unter dem Kolosseum",
-    "cost": 3,
-    "classs": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1555: {
-    "id": "AT_072",
-    "name": "Varian Wrynn",
-    "cost": 10,
-    "attack": 7,
-    "health": 7,
-    "classs": 1,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1556: {
-    "id": "AT_132_SHAMANb",
-    "name": "Verbrennungstotem",
-    "cost": 0,
-    "attack": 1,
-    "health": 1,
-    "classs": 7,
-    "set": 15,
-    "type": 0
-  },
-  1557: {
-    "id": "AT_132_ROGUE",
-    "name": "Vergiftete Dolche",
-    "cost": 2,
-    "classs": 4,
-    "set": 15,
-    "type": 0
-  },
-  1558: {
-    "id": "AT_034",
-    "name": "Vergiftete Klinge",
-    "cost": 4,
-    "attack": 1,
-    "durability": 3,
-    "classs": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1559: {
-    "id": "AT_132_ROGUEt",
-    "name": "Vergifteter Dolch",
-    "cost": 1,
-    "attack": 2,
-    "durability": 2,
-    "classs": 4,
-    "set": 15,
-    "type": 0
-  },
-  1560: {
-    "id": "AT_105",
-    "name": "Verletzter Kvaldir",
-    "cost": 1,
-    "attack": 2,
-    "health": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1561: {
-    "id": "AT_005",
-    "name": "Verwandlung: Eber",
-    "cost": 3,
-    "classs": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1562: {
-    "id": "AT_016",
-    "name": "Verwirren",
-    "cost": 2,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1563: {
-    "id": "AT_016e",
-    "name": "Verwirrt",
-    "classs": 5,
-    "set": 15,
-    "type": 0
-  },
-  1564: {
-    "id": "AT_045ee",
-    "name": "Verzauberung",
-    "set": 15,
-    "type": 0
-  },
-  1565: {
-    "id": "AT_048",
-    "name": "Welle der Heilung",
-    "cost": 3,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1566: {
-    "id": "AT_073e",
-    "name": "Wetteifer",
-    "set": 15,
-    "type": 0
-  },
-  1567: {
-    "id": "AT_073",
-    "name": "Wetteifer",
-    "cost": 1,
-    "classs": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1568: {
-    "id": "AT_039",
-    "name": "Wilder Kämpfer",
-    "cost": 4,
-    "attack": 5,
-    "health": 4,
-    "classs": 11,
-    "collectible": 1,
-    "race": 20,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1569: {
-    "id": "AT_010",
-    "name": "Wilder Widderbändiger",
-    "cost": 5,
-    "attack": 3,
-    "health": 3,
-    "classs": 3,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1570: {
-    "id": "AT_039e",
-    "name": "Wildheit",
-    "classs": 11,
-    "set": 15,
-    "type": 0
-  },
-  1571: {
-    "id": "AT_040",
-    "name": "Wildläuferin",
-    "cost": 4,
-    "attack": 4,
-    "health": 4,
-    "classs": 11,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1572: {
-    "id": "AT_027",
-    "name": "Wilfred Zischknall",
-    "cost": 6,
-    "attack": 4,
-    "health": 4,
-    "classs": 9,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 4
-  },
-  1573: {
-    "id": "AT_053",
-    "name": "Wissen der Ahnen",
-    "cost": 2,
-    "classs": 7,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1574: {
-    "id": "AT_116",
-    "name": "Wyrmruhagent",
-    "cost": 2,
-    "attack": 1,
-    "health": 4,
-    "classs": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1575: {
-    "id": "AT_007",
-    "name": "Zauberkünstler",
-    "cost": 3,
-    "attack": 3,
-    "health": 4,
-    "classs": 8,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1576: {
-    "id": "AT_098",
-    "name": "Zauberschluckerin",
-    "cost": 6,
-    "attack": 6,
-    "health": 5,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1577: {
-    "id": "AT_117e",
-    "name": "Zeremoniell",
-    "set": 15,
-    "type": 0
-  },
-  1578: {
-    "id": "AT_117",
-    "name": "Zeremonienmeisterin",
-    "cost": 3,
-    "attack": 4,
-    "health": 2,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1579: {
-    "id": "AT_026",
-    "name": "Zornwächter",
-    "cost": 2,
-    "attack": 4,
-    "health": 3,
-    "classs": 9,
-    "collectible": 1,
-    "race": 15,
-    "set": 15,
-    "type": 0,
-    "quality": 1
-  },
-  1580: {
-    "id": "AT_032e",
-    "name": "Zwielichtige Handel",
-    "classs": 4,
-    "set": 15,
-    "type": 0
-  },
-  1581: {
-    "id": "AT_032",
-    "name": "Zwielichtiger Händler",
-    "cost": 3,
-    "attack": 4,
-    "health": 3,
-    "classs": 4,
-    "collectible": 1,
-    "set": 15,
-    "type": 0,
-    "quality": 2
-  },
-  1582: {
-    "id": "AT_017",
-    "name": "Zwielichtwächter",
-    "cost": 4,
-    "attack": 2,
-    "health": 6,
-    "collectible": 1,
-    "race": 24,
-    "set": 15,
-    "type": 0,
-    "quality": 3
-  },
-  1583: {
     "id": "AT_063",
     "name": "Ätzschlund",
     "cost": 7,
@@ -14806,7 +13143,1615 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 4
   },
+  1426: {
+    "id": "AT_050",
+    "name": "Aufgeladener Hammer",
+    "cost": 4,
+    "attack": 2,
+    "durability": 4,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1427: {
+    "id": "AT_096e",
+    "name": "Aufgezogen",
+    "set": 15,
+    "type": 0
+  },
+  1428: {
+    "id": "AT_132_WARRIOR",
+    "name": "Aufpanzern!",
+    "cost": 2,
+    "classs": 1,
+    "set": 15,
+    "type": 0
+  },
+  1429: {
+    "id": "AT_096",
+    "name": "Aufziehritter",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "collectible": 1,
+    "race": 17,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1430: {
+    "id": "AT_082e",
+    "name": "Ausbildung",
+    "set": 15,
+    "type": 0
+  },
+  1431: {
+    "id": "AT_012",
+    "name": "Ausgeburt der Schatten",
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1432: {
+    "id": "AT_045",
+    "name": "Aviana",
+    "cost": 9,
+    "attack": 5,
+    "health": 5,
+    "classs": 11,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1433: {
+    "id": "AT_132_HUNTER",
+    "name": "Ballistenschuss",
+    "cost": 2,
+    "classs": 3,
+    "set": 15,
+    "type": 0
+  },
+  1434: {
+    "id": "AT_060",
+    "name": "Bärenfalle",
+    "cost": 2,
+    "classs": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1435: {
+    "id": "AT_018",
+    "name": "Beichtpatin Blondlocke",
+    "cost": 7,
+    "attack": 5,
+    "health": 4,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1436: {
+    "id": "AT_015",
+    "name": "Bekehren",
+    "cost": 2,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1437: {
+    "id": "AT_017e",
+    "name": "Berührung des Zwielichts",
+    "set": 15,
+    "type": 0
+  },
+  1438: {
+    "id": "AT_014e",
+    "name": "Beschattet",
+    "classs": 5,
+    "set": 15,
+    "type": 0
+  },
+  1439: {
+    "id": "AT_078",
+    "name": "Betretet das Kolosseum",
+    "cost": 6,
+    "classs": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1440: {
+    "id": "AT_084e",
+    "name": "Bewaffnet",
+    "set": 15,
+    "type": 0
+  },
+  1441: {
+    "id": "AT_055",
+    "name": "Blitzheilung",
+    "cost": 1,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1442: {
+    "id": "AT_050t",
+    "name": "Blitzladung",
+    "cost": 2,
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1443: {
+    "id": "AT_124",
+    "name": "Bolf Rammschild",
+    "cost": 6,
+    "attack": 3,
+    "health": 9,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1444: {
+    "id": "AT_029",
+    "name": "Bukanier",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "classs": 4,
+    "collectible": 1,
+    "race": 23,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1445: {
+    "id": "AT_106",
+    "name": "Champion des Lichts",
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1446: {
+    "id": "AT_028e",
+    "name": "Chi-Lanze",
+    "set": 15,
+    "type": 0
+  },
+  1447: {
+    "id": "AT_024",
+    "name": "Dämonische Fusion",
+    "cost": 2,
+    "classs": 9,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1448: {
+    "id": "AT_054",
+    "name": "Der Nebelrufer",
+    "cost": 6,
+    "attack": 4,
+    "health": 4,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1449: {
+    "id": "AT_128",
+    "name": "Der Skelettritter",
+    "cost": 6,
+    "attack": 7,
+    "health": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1450: {
+    "id": "AT_132_PALADIN",
+    "name": "Die Silberne Hand",
+    "cost": 2,
+    "classs": 2,
+    "set": 15,
+    "type": 0
+  },
+  1451: {
+    "id": "AT_008",
+    "name": "Drache von Kaltarra",
+    "cost": 6,
+    "attack": 6,
+    "health": 6,
+    "classs": 8,
+    "collectible": 1,
+    "race": 24,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1452: {
+    "id": "AT_083",
+    "name": "Drachenfalkenreiter",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1453: {
+    "id": "AT_047",
+    "name": "Draenei-Totemschnitzerin",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1454: {
+    "id": "AT_042",
+    "name": "Druidin des Säbelzahns",
+    "cost": 2,
+    "attack": 2,
+    "health": 1,
+    "classs": 11,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1455: {
+    "id": "AT_024e",
+    "name": "Dunkle Fusion",
+    "set": 15,
+    "type": 0
+  },
+  1456: {
+    "id": "AT_081",
+    "name": "Eadric der Reine",
+    "cost": 7,
+    "attack": 3,
+    "health": 7,
+    "classs": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1457: {
+    "id": "AT_005t",
+    "name": "Eber",
+    "cost": 3,
+    "attack": 4,
+    "health": 2,
+    "race": 20,
+    "set": 15,
+    "type": 0
+  },
+  1458: {
+    "id": "AT_002",
+    "name": "Effigie",
+    "cost": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1459: {
+    "id": "AT_082",
+    "name": "Einfacher Knappe",
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1460: {
+    "id": "AT_125",
+    "name": "Eisheuler",
+    "cost": 9,
+    "attack": 10,
+    "health": 10,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1461: {
+    "id": "AT_092",
+    "name": "Eiswüter",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1462: {
+    "id": "AT_058",
+    "name": "Elekk des Königs",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "classs": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1463: {
+    "id": "AT_051",
+    "name": "Elementare Zerstörung",
+    "cost": 3,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1464: {
+    "id": "AT_029e",
+    "name": "Extrascharf",
+    "set": 15,
+    "type": 0
+  },
+  1465: {
+    "id": "AT_131",
+    "name": "Eydis Nachtbann",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1466: {
+    "id": "AT_083e",
+    "name": "Falkenzorn",
+    "set": 15,
+    "type": 0
+  },
+  1467: {
+    "id": "AT_115",
+    "name": "Fechtlehrer",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1468: {
+    "id": "AT_115e",
+    "name": "Fechtübung",
+    "set": 15,
+    "type": 0
+  },
+  1469: {
+    "id": "AT_132_MAGE",
+    "name": "Feuerschlag (Rang 2)",
+    "cost": 2,
+    "classs": 8,
+    "set": 15,
+    "type": 0
+  },
+  1470: {
+    "id": "AT_020",
+    "name": "Fiese Verdammniswache",
+    "cost": 7,
+    "attack": 6,
+    "health": 8,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1471: {
+    "id": "AT_025",
+    "name": "Finsterer Handel",
+    "cost": 6,
+    "classs": 9,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1472: {
+    "id": "AT_129",
+    "name": "Fjola Lichtbann",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1473: {
+    "id": "AT_094",
+    "name": "Flammenjongleur",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1474: {
+    "id": "AT_001",
+    "name": "Flammenlanze",
+    "cost": 5,
+    "classs": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1475: {
+    "id": "AT_093",
+    "name": "Frierender Schneebold",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1476: {
+    "id": "AT_120",
+    "name": "Frostriese",
+    "cost": 10,
+    "attack": 8,
+    "health": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1477: {
+    "id": "AT_123",
+    "name": "Frostschlund",
+    "cost": 7,
+    "attack": 6,
+    "health": 6,
+    "collectible": 1,
+    "race": 24,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1478: {
+    "id": "AT_080",
+    "name": "Garnisonskommandant",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1479: {
+    "id": "AT_003",
+    "name": "Gefallener Held",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "classs": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1480: {
+    "id": "AT_102",
+    "name": "Gefangener Jormungar",
+    "cost": 7,
+    "attack": 5,
+    "health": 9,
+    "collectible": 1,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1481: {
+    "id": "AT_061",
+    "name": "Geladen und entsichert",
+    "cost": 2,
+    "classs": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1482: {
+    "id": "AT_061e",
+    "name": "Geladen und entsichert",
+    "classs": 3,
+    "set": 15,
+    "type": 0
+  },
+  1483: {
+    "id": "AT_108",
+    "name": "Gepanzertes Schlachtross",
+    "cost": 4,
+    "attack": 5,
+    "health": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1484: {
+    "id": "AT_081e",
+    "name": "Gereinigt",
+    "classs": 2,
+    "set": 15,
+    "type": 0
+  },
+  1485: {
+    "id": "AT_075e",
+    "name": "Geschenkter Gaul",
+    "classs": 2,
+    "set": 15,
+    "type": 0
+  },
+  1486: {
+    "id": "AT_068e",
+    "name": "Gestärkt",
+    "classs": 1,
+    "set": 15,
+    "type": 0
+  },
+  1487: {
+    "id": "AT_057o",
+    "name": "Gestriegelt",
+    "classs": 3,
+    "set": 15,
+    "type": 0
+  },
+  1488: {
+    "id": "AT_122",
+    "name": "Gormok der Pfähler",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1489: {
+    "id": "AT_101",
+    "name": "Grubenkämpferin",
+    "cost": 5,
+    "attack": 5,
+    "health": 6,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1490: {
+    "id": "AT_011",
+    "name": "Heiliger Champion",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1491: {
+    "id": "AT_132_SHAMANa",
+    "name": "Heiltotem",
+    "cost": 0,
+    "attack": 0,
+    "health": 2,
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1492: {
+    "id": "AT_132_PRIEST",
+    "name": "Heilung",
+    "cost": 2,
+    "classs": 5,
+    "set": 15,
+    "type": 0
+  },
+  1493: {
+    "id": "AT_070",
+    "name": "Himmelskäpt'n Kragg",
+    "cost": 7,
+    "attack": 4,
+    "health": 6,
+    "collectible": 1,
+    "race": 23,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1494: {
+    "id": "AT_035t",
+    "name": "Hinterhalt!",
+    "cost": 0,
+    "classs": 4,
+    "set": 15,
+    "type": 0
+  },
+  1495: {
+    "id": "AT_111",
+    "name": "Imbissbuden-Tuskarr",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1496: {
+    "id": "AT_119e",
+    "name": "Inspiriert",
+    "set": 15,
+    "type": 0
+  },
+  1497: {
+    "id": "AT_109e",
+    "name": "Inspiriert",
+    "set": 15,
+    "type": 0
+  },
+  1498: {
+    "id": "AT_022",
+    "name": "Jaraxxus' Faust",
+    "cost": 4,
+    "classs": 9,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1499: {
+    "id": "AT_132",
+    "name": "Justiziarin Treuherz",
+    "cost": 6,
+    "attack": 6,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1500: {
+    "id": "AT_089",
+    "name": "Knochenwachenleutnant",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1501: {
+    "id": "AT_099",
+    "name": "Kodoreiterin",
+    "cost": 6,
+    "attack": 3,
+    "health": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1502: {
+    "id": "AT_116e",
+    "name": "Kommt nur!",
+    "classs": 5,
+    "set": 15,
+    "type": 0
+  },
+  1503: {
+    "id": "AT_044",
+    "name": "Kompostieren",
+    "cost": 3,
+    "classs": 11,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1504: {
+    "id": "AT_065e",
+    "name": "Königsverteidiger",
+    "set": 15,
+    "type": 0
+  },
+  1505: {
+    "id": "AT_065",
+    "name": "Königsverteidiger",
+    "cost": 3,
+    "attack": 3,
+    "durability": 2,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1506: {
+    "id": "AT_099t",
+    "name": "Kriegskodo",
+    "cost": 5,
+    "attack": 3,
+    "health": 5,
+    "race": 20,
+    "set": 15,
+    "type": 0
+  },
+  1507: {
+    "id": "AT_033",
+    "name": "Lange Finger",
+    "cost": 3,
+    "classs": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1508: {
+    "id": "AT_084",
+    "name": "Lanzenträger",
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1509: {
+    "id": "AT_037",
+    "name": "Lebendige Wurzeln",
+    "cost": 1,
+    "classs": 11,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1510: {
+    "id": "AT_037a",
+    "name": "Lebendige Wurzeln",
+    "set": 15,
+    "type": 0
+  },
+  1511: {
+    "id": "AT_037b",
+    "name": "Lebendige Wurzeln",
+    "set": 15,
+    "type": 0
+  },
+  1512: {
+    "id": "AT_023",
+    "name": "Leervernichter",
+    "cost": 6,
+    "attack": 5,
+    "health": 4,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1513: {
+    "id": "AT_042a",
+    "name": "Löwengestalt",
+    "classs": 11,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1514: {
+    "id": "AT_090e",
+    "name": "Macht der Affen",
+    "set": 15,
+    "type": 0
+  },
+  1515: {
+    "id": "AT_006e",
+    "name": "Macht von Dalaran",
+    "classs": 8,
+    "set": 15,
+    "type": 0
+  },
+  1516: {
+    "id": "AT_049e",
+    "name": "Macht von Donnerfels",
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1517: {
+    "id": "AT_066e",
+    "name": "Macht von Orgrimmar",
+    "classs": 1,
+    "set": 15,
+    "type": 0
+  },
+  1518: {
+    "id": "AT_013e",
+    "name": "Machtwort: Ruhm",
+    "set": 15,
+    "type": 0
+  },
+  1519: {
+    "id": "AT_013",
+    "name": "Machtwort: Ruhm",
+    "cost": 1,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1520: {
+    "id": "AT_067",
+    "name": "Magnataurenalpha",
+    "cost": 4,
+    "attack": 5,
+    "health": 3,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1521: {
+    "id": "AT_085",
+    "name": "Maid des Sees",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1522: {
+    "id": "AT_130",
+    "name": "Meeresplünderer",
+    "cost": 6,
+    "attack": 6,
+    "health": 7,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1523: {
+    "id": "AT_077e",
+    "name": "Mehr Piks",
+    "set": 15,
+    "type": 0
+  },
+  1524: {
+    "id": "AT_110",
+    "name": "Meister des Kolosseums",
+    "cost": 3,
+    "attack": 2,
+    "health": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1525: {
+    "id": "AT_027e",
+    "name": "Meisterbeschwörer",
+    "classs": 9,
+    "set": 15,
+    "type": 0
+  },
+  1526: {
+    "id": "AT_021",
+    "name": "Miniritter des Bösen",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1527: {
+    "id": "AT_034e",
+    "name": "Mit Gift überzogen",
+    "classs": 4,
+    "set": 15,
+    "type": 0
+  },
+  1528: {
+    "id": "AT_088",
+    "name": "Mogors Champion",
+    "cost": 6,
+    "attack": 8,
+    "health": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1529: {
+    "id": "AT_090",
+    "name": "Muklas Champion",
+    "cost": 5,
+    "attack": 4,
+    "health": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1530: {
+    "id": "AT_076",
+    "name": "Murlocritter",
+    "cost": 4,
+    "attack": 3,
+    "health": 4,
+    "classs": 2,
+    "collectible": 1,
+    "race": 14,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1531: {
+    "id": "AT_079",
+    "name": "Mysteriöser Ritter",
+    "cost": 6,
+    "attack": 6,
+    "health": 6,
+    "classs": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1532: {
+    "id": "AT_036t",
+    "name": "Neruber",
+    "cost": 3,
+    "attack": 4,
+    "health": 4,
+    "classs": 4,
+    "set": 15,
+    "type": 0
+  },
+  1533: {
+    "id": "AT_127",
+    "name": "Nexus-Champion Saraad",
+    "cost": 5,
+    "attack": 4,
+    "health": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1534: {
+    "id": "AT_086e",
+    "name": "Niedertracht",
+    "set": 15,
+    "type": 0
+  },
+  1535: {
+    "id": "AT_103",
+    "name": "Nordmeerkrake",
+    "cost": 9,
+    "attack": 9,
+    "health": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1536: {
+    "id": "AT_118",
+    "name": "Oberste Kreuzfahrerin",
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1537: {
+    "id": "AT_042b",
+    "name": "Panthergestalt",
+    "classs": 11,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1538: {
+    "id": "AT_121",
+    "name": "Publikumsliebling",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1539: {
+    "id": "AT_119",
+    "name": "Räuber der Kvaldir",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1540: {
+    "id": "AT_049",
+    "name": "Recke von Donnerfels",
+    "cost": 5,
+    "attack": 3,
+    "health": 6,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1541: {
+    "id": "AT_030",
+    "name": "Recke von Unterstadt",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "classs": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1542: {
+    "id": "AT_009",
+    "name": "Rhonin",
+    "cost": 8,
+    "attack": 7,
+    "health": 7,
+    "classs": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1543: {
+    "id": "AT_121e",
+    "name": "Riesiges Ego",
+    "set": 15,
+    "type": 0
+  },
+  1544: {
+    "id": "AT_041",
+    "name": "Ritter der Wildnis",
+    "cost": 7,
+    "attack": 6,
+    "health": 6,
+    "classs": 11,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1545: {
+    "id": "AT_041e",
+    "name": "Ruf der Wildnis",
+    "set": 15,
+    "type": 0
+  },
+  1546: {
+    "id": "AT_042t",
+    "name": "Säbelzahnlöwe",
+    "cost": 2,
+    "attack": 2,
+    "health": 1,
+    "classs": 11,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1547: {
+    "id": "AT_042t2",
+    "name": "Säbelzahnpanther",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "classs": 11,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1548: {
+    "id": "AT_086",
+    "name": "Saboteur",
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1549: {
+    "id": "AT_014",
+    "name": "Schattengeist",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1550: {
+    "id": "AT_075",
+    "name": "Schlachtrossausbilder",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "classs": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1551: {
+    "id": "AT_037t",
+    "name": "Schössling",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "classs": 11,
+    "set": 15,
+    "type": 0
+  },
+  1552: {
+    "id": "AT_063t",
+    "name": "Schreckensmaul",
+    "cost": 3,
+    "attack": 4,
+    "health": 2,
+    "classs": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1553: {
+    "id": "AT_019",
+    "name": "Schreckensross",
+    "cost": 4,
+    "attack": 1,
+    "health": 1,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1554: {
+    "id": "AT_059",
+    "name": "Schützin des Hochlands",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "classs": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1555: {
+    "id": "AT_095",
+    "name": "Schweigsamer Ritter",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1556: {
+    "id": "AT_064",
+    "name": "Schwungvoller Hieb",
+    "cost": 3,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1557: {
+    "id": "AT_132_WARLOCK",
+    "name": "Seelenentzug",
+    "cost": 2,
+    "classs": 9,
+    "set": 15,
+    "type": 0
+  },
+  1558: {
+    "id": "AT_040e",
+    "name": "Seelenverwandt",
+    "classs": 11,
+    "set": 15,
+    "type": 0
+  },
+  1559: {
+    "id": "AT_011e",
+    "name": "Segen des Lichts",
+    "set": 15,
+    "type": 0
+  },
+  1560: {
+    "id": "AT_028",
+    "name": "Shado-Pan-Reiter",
+    "cost": 5,
+    "attack": 3,
+    "health": 7,
+    "classs": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1561: {
+    "id": "AT_133e",
+    "name": "Sieg!",
+    "set": 15,
+    "type": 0
+  },
+  1562: {
+    "id": "AT_074",
+    "name": "Siegel des Champions",
+    "cost": 3,
+    "classs": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1563: {
+    "id": "AT_074e2",
+    "name": "Siegel des Champions",
+    "classs": 2,
+    "set": 15,
+    "type": 0
+  },
+  1564: {
+    "id": "AT_100",
+    "name": "Silberne Regentin",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1565: {
+    "id": "AT_069",
+    "name": "Sparringspartner",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1566: {
+    "id": "AT_062",
+    "name": "Spinnennest",
+    "cost": 6,
+    "classs": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1567: {
+    "id": "AT_057",
+    "name": "Stallmeisterin",
+    "cost": 3,
+    "attack": 4,
+    "health": 2,
+    "classs": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1568: {
+    "id": "AT_089e",
+    "name": "Starke Knochen",
+    "set": 15,
+    "type": 0
+  },
+  1569: {
+    "id": "AT_068",
+    "name": "Stärken",
+    "cost": 2,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1570: {
+    "id": "AT_045e",
+    "name": "Stärkender Nebel",
+    "set": 15,
+    "type": 0
+  },
+  1571: {
+    "id": "AT_132_SHAMANc",
+    "name": "Steinklauentotem",
+    "cost": 0,
+    "attack": 0,
+    "health": 2,
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1572: {
+    "id": "AT_006",
+    "name": "Streiter von Dalaran",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "classs": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1573: {
+    "id": "AT_066",
+    "name": "Streiter von Orgrimmar",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1574: {
+    "id": "AT_038",
+    "name": "Streiterin von Darnassus",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "classs": 11,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1575: {
+    "id": "AT_132_SHAMANd",
+    "name": "Sturmzorntotem",
+    "cost": 0,
+    "attack": 0,
+    "health": 2,
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1576: {
+    "id": "AT_031",
+    "name": "Taschendieb",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "classs": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1577: {
+    "id": "AT_132_DRUID",
+    "name": "Terrorgestaltwandel",
+    "cost": 2,
+    "classs": 11,
+    "set": 15,
+    "type": 0
+  },
+  1578: {
+    "id": "AT_132_DRUIDe",
+    "name": "Terrorklauen",
+    "classs": 11,
+    "set": 15,
+    "type": 0
+  },
+  1579: {
+    "id": "AT_021e",
+    "name": "Teufelswut",
+    "classs": 9,
+    "set": 15,
+    "type": 0
+  },
+  1580: {
+    "id": "AT_133",
+    "name": "Tjosterin von Gadgetzan",
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1581: {
+    "id": "AT_112",
+    "name": "Tjostmeister",
+    "cost": 6,
+    "attack": 5,
+    "health": 6,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1582: {
+    "id": "AT_132_SHAMAN",
+    "name": "Totem aufstellen",
+    "cost": 2,
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1583: {
+    "id": "AT_052",
+    "name": "Totemgolem",
+    "cost": 2,
+    "attack": 3,
+    "health": 4,
+    "classs": 7,
+    "collectible": 1,
+    "race": 21,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
   1584: {
+    "id": "AT_046",
+    "name": "Totemiker der Tuskarr",
+    "cost": 3,
+    "attack": 3,
+    "health": 2,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1585: {
+    "id": "AT_047e",
+    "name": "Totemsegen",
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1586: {
+    "id": "AT_069e",
+    "name": "Trainiert",
+    "classs": 1,
+    "set": 15,
+    "type": 0
+  },
+  1587: {
+    "id": "AT_091",
+    "name": "Turniersanitäter",
+    "cost": 4,
+    "attack": 1,
+    "health": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1588: {
+    "id": "AT_097",
+    "name": "Turnierzuschauer",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1589: {
+    "id": "AT_104",
+    "name": "Tuskarrtjoster",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "classs": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1590: {
     "id": "AT_056",
     "name": "Überspannen",
     "cost": 3,
@@ -14816,4 +14761,298 @@ hs_cards['dede'] = {
     "type": 0,
     "quality": 2
   },
-}; // 1584 cards
+  1591: {
+    "id": "AT_035",
+    "name": "Unter dem Kolosseum",
+    "cost": 3,
+    "classs": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1592: {
+    "id": "AT_072",
+    "name": "Varian Wrynn",
+    "cost": 10,
+    "attack": 7,
+    "health": 7,
+    "classs": 1,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1593: {
+    "id": "AT_132_SHAMANb",
+    "name": "Verbrennungstotem",
+    "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "classs": 7,
+    "set": 15,
+    "type": 0
+  },
+  1594: {
+    "id": "AT_132_ROGUE",
+    "name": "Vergiftete Dolche",
+    "cost": 2,
+    "classs": 4,
+    "set": 15,
+    "type": 0
+  },
+  1595: {
+    "id": "AT_034",
+    "name": "Vergiftete Klinge",
+    "cost": 4,
+    "attack": 1,
+    "durability": 3,
+    "classs": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1596: {
+    "id": "AT_132_ROGUEt",
+    "name": "Vergifteter Dolch",
+    "cost": 1,
+    "attack": 2,
+    "durability": 2,
+    "classs": 4,
+    "set": 15,
+    "type": 0
+  },
+  1597: {
+    "id": "AT_105",
+    "name": "Verletzter Kvaldir",
+    "cost": 1,
+    "attack": 2,
+    "health": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1598: {
+    "id": "AT_005",
+    "name": "Verwandlung: Eber",
+    "cost": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1599: {
+    "id": "AT_016",
+    "name": "Verwirren",
+    "cost": 2,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1600: {
+    "id": "AT_016e",
+    "name": "Verwirrt",
+    "classs": 5,
+    "set": 15,
+    "type": 0
+  },
+  1601: {
+    "id": "AT_045ee",
+    "name": "Verzauberung",
+    "set": 15,
+    "type": 0
+  },
+  1602: {
+    "id": "AT_048",
+    "name": "Welle der Heilung",
+    "cost": 3,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1603: {
+    "id": "AT_073",
+    "name": "Wetteifer",
+    "cost": 1,
+    "classs": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1604: {
+    "id": "AT_073e",
+    "name": "Wetteifer",
+    "set": 15,
+    "type": 0
+  },
+  1605: {
+    "id": "AT_039",
+    "name": "Wilder Kämpfer",
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "classs": 11,
+    "collectible": 1,
+    "race": 20,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1606: {
+    "id": "AT_010",
+    "name": "Wilder Widderbändiger",
+    "cost": 5,
+    "attack": 3,
+    "health": 3,
+    "classs": 3,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1607: {
+    "id": "AT_039e",
+    "name": "Wildheit",
+    "classs": 11,
+    "set": 15,
+    "type": 0
+  },
+  1608: {
+    "id": "AT_040",
+    "name": "Wildläuferin",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "classs": 11,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1609: {
+    "id": "AT_027",
+    "name": "Wilfred Zischknall",
+    "cost": 6,
+    "attack": 4,
+    "health": 4,
+    "classs": 9,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 4
+  },
+  1610: {
+    "id": "AT_053",
+    "name": "Wissen der Ahnen",
+    "cost": 2,
+    "classs": 7,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1611: {
+    "id": "AT_116",
+    "name": "Wyrmruhagent",
+    "cost": 2,
+    "attack": 1,
+    "health": 4,
+    "classs": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1612: {
+    "id": "AT_007",
+    "name": "Zauberkünstler",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "classs": 8,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1613: {
+    "id": "AT_098",
+    "name": "Zauberschluckerin",
+    "cost": 6,
+    "attack": 6,
+    "health": 5,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1614: {
+    "id": "AT_117e",
+    "name": "Zeremoniell",
+    "set": 15,
+    "type": 0
+  },
+  1615: {
+    "id": "AT_117",
+    "name": "Zeremonienmeisterin",
+    "cost": 3,
+    "attack": 4,
+    "health": 2,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+  1616: {
+    "id": "AT_026",
+    "name": "Zornwächter",
+    "cost": 2,
+    "attack": 4,
+    "health": 3,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "set": 15,
+    "type": 0,
+    "quality": 1
+  },
+  1617: {
+    "id": "AT_032e",
+    "name": "Zwielichtige Handel",
+    "classs": 4,
+    "set": 15,
+    "type": 0
+  },
+  1618: {
+    "id": "AT_032",
+    "name": "Zwielichtiger Händler",
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "classs": 4,
+    "collectible": 1,
+    "set": 15,
+    "type": 0,
+    "quality": 2
+  },
+  1619: {
+    "id": "AT_017",
+    "name": "Zwielichtwächter",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "collectible": 1,
+    "race": 24,
+    "set": 15,
+    "type": 0,
+    "quality": 3
+  },
+}; // 1619 cards
