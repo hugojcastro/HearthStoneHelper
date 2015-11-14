@@ -25,14 +25,14 @@ var helpUrl         = 'images/help/';
 var cardSetUrl		= 'images/sets/';
 var heroesUrl		= 'images/heroes/';
 var hs_quality      = [ 'soulbound', 'common', 'rare', 'epic', 'legendary', '?' ]; // Only used for css text colors, so no translation needed
-var cardSet         = { 3: 'classic', 12: 'naxx', 13: 'gvg', 14: 'brm', 15: 'tgt' }; // Array of expansion names
+var cardSet         = { 3: 'classic', 12: 'naxx', 13: 'gvg', 14: 'brm', 15: 'tgt', 20: 'loe' }; // Array of expansion names
 var jDecks          = []; // Array of custom decks
 var HSVersion       = 1;
 var my_deck_cards	= [];
 var my_deck_hero	    = 0;
 var my_deck_name	    = texts[locale].unnamed;
 var my_deck_isarena = false;
-var allLocales      = [ 'dede', 'engb', 'enus', 'eses', 'esla', 'frfr', 'itit', 'kokr', 'plpl', 'ptbr', 'ptpt', 'ruru', 'zhcn', 'zhtw' ];
+var allLocales      = [ 'dede', 'engb', 'enus', 'eses', 'esla', 'frfr', 'itit', 'kokr', 'plpl', 'ptbr', 'ptpt', 'ruru', 'zhcn', 'zhtw', 'jajp' ];
 // I'll use this trick to save resources for translations.
 var similarLocale  = { 'esla': 'eses', 'ptpt': 'ptbr', 'zhtw': 'zhcn', 'engb':'enus' };
 // ///////////////// ///////////////// ///////////////// ///////////////
@@ -124,6 +124,16 @@ function getTypeFromCard( cardid )
 	}
 	return '';
 }
+// Aux to get type from card
+function getSetFromCard( cardid )
+{
+	var cards = hs_cards['enus'];
+	for (var idx in cards)
+		if ( cards[idx].id == cardid )
+			return cards[idx].set;
+	return -1;
+}
+// /////////////// -
 // /////////////// -
 // Aux to get hero from card (if linked to class, 0 otherwise)
 function getHeroFromCard( cardid )
@@ -249,7 +259,7 @@ function getDeckSet( cards )
 	// check each card on deck for max value
 	for ( var aCard in cards )
 	{
-		set = getTypeFromCard(cards[aCard].card); 
+		set = getSetFromCard(cards[aCard].card); 
 		if ( set > maxExpFound )
 			maxExpFound = set;
 	}
@@ -1563,11 +1573,11 @@ $(document).ready(function(e)
 		}
 	});
 
-	$('#deck_name').on('focusout', function(e)
+	$('#deck_name').bind('blur', function(e)
 	{
 		changeName();
 	});
-	$('#deck_name').on('focusin', function(e)
+	$('#deck_name').bind('focus', function(e)
 	{
 		subviewStatus(0);
 	});
@@ -1707,7 +1717,9 @@ $(document).ready(function(e)
 	// Add event to show charts
 	$('#deck_class').bind('click', function(e)
 	{
-		ajHSChart.Show();
+		// Show chart if not clicking on name
+		if (e.target.id != "deck_name")
+			ajHSChart.Show();
 	});
 
 	// Reset charts and move it over deck portrait

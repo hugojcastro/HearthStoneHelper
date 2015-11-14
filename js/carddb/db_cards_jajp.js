@@ -5565,6 +5565,18 @@ hs_cards['jajp'] = {
     "type": 0
   },
   592: {
+    "id": "EX1_323h",
+    "name": "ロード・ジャラクサス",
+    "cost": 0,
+    "attack": 0,
+    "health": 15,
+    "classs": 9,
+    "race": 15,
+    "set": 3,
+    "type": 0,
+    "quality": 4
+  },
+  593: {
     "id": "EX1_323",
     "name": "ロード・ジャラクサス",
     "cost": 9,
@@ -5572,18 +5584,6 @@ hs_cards['jajp'] = {
     "health": 15,
     "classs": 9,
     "collectible": 1,
-    "race": 15,
-    "set": 3,
-    "type": 0,
-    "quality": 4
-  },
-  593: {
-    "id": "EX1_323h",
-    "name": "ロード・ジャラクサス",
-    "cost": 0,
-    "attack": 0,
-    "health": 15,
-    "classs": 9,
     "race": 15,
     "set": 3,
     "type": 0,
@@ -5636,13 +5636,6 @@ hs_cards['jajp'] = {
     "quality": 2
   },
   599: {
-    "id": "EX1_607e",
-    "name": "内なる怒り",
-    "classs": 1,
-    "set": 3,
-    "type": 0
-  },
-  600: {
     "id": "EX1_607",
     "name": "内なる怒り",
     "cost": 0,
@@ -5651,6 +5644,13 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  600: {
+    "id": "EX1_607e",
+    "name": "内なる怒り",
+    "classs": 1,
+    "set": 3,
+    "type": 0
   },
   601: {
     "id": "CS1_129e",
@@ -5680,14 +5680,11 @@ hs_cards['jajp'] = {
     "quality": 1
   },
   604: {
-    "id": "CS2_073",
+    "id": "CS2_073e",
     "name": "冷血",
-    "cost": 1,
     "classs": 4,
-    "collectible": 1,
     "set": 3,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   605: {
     "id": "CS2_073e2",
@@ -5697,20 +5694,16 @@ hs_cards['jajp'] = {
     "type": 0
   },
   606: {
-    "id": "CS2_073e",
+    "id": "CS2_073",
     "name": "冷血",
+    "cost": 1,
     "classs": 4,
+    "collectible": 1,
     "set": 3,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   607: {
-    "id": "EX1_316e",
-    "name": "凄まじき力",
-    "classs": 9,
-    "set": 3,
-    "type": 0
-  },
-  608: {
     "id": "EX1_316",
     "name": "凄まじき力",
     "cost": 1,
@@ -5719,6 +5712,13 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  608: {
+    "id": "EX1_316e",
+    "name": "凄まじき力",
+    "classs": 9,
+    "set": 3,
+    "type": 0
   },
   609: {
     "id": "EX1_611",
@@ -5772,14 +5772,14 @@ hs_cards['jajp'] = {
     "quality": 2
   },
   614: {
-    "id": "EX1_573a",
+    "id": "EX1_573ae",
     "name": "半神の恩寵",
     "classs": 11,
     "set": 3,
     "type": 0
   },
   615: {
-    "id": "EX1_573ae",
+    "id": "EX1_573a",
     "name": "半神の恩寵",
     "classs": 11,
     "set": 3,
@@ -5897,6 +5897,12 @@ hs_cards['jajp'] = {
     "quality": 2
   },
   628: {
+    "id": "EX1_570e",
+    "name": "噛み付き",
+    "set": 3,
+    "type": 0
+  },
+  629: {
     "id": "EX1_570",
     "name": "噛み付き",
     "cost": 4,
@@ -5905,12 +5911,6 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0,
     "quality": 2
-  },
-  629: {
-    "id": "EX1_570e",
-    "name": "噛み付き",
-    "set": 3,
-    "type": 0
   },
   630: {
     "id": "EX1_621",
@@ -5980,6 +5980,13 @@ hs_cards['jajp'] = {
     "quality": 1
   },
   636: {
+    "id": "NEW1_014e",
+    "name": "変装",
+    "classs": 4,
+    "set": 3,
+    "type": 0
+  },
+  637: {
     "id": "NEW1_014",
     "name": "変装の達人",
     "cost": 4,
@@ -5991,7 +5998,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  637: {
+  638: {
     "id": "EX1_165b",
     "name": "変身・クマ",
     "classs": 11,
@@ -5999,7 +6006,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  638: {
+  639: {
     "id": "EX1_165a",
     "name": "変身・大猫",
     "classs": 11,
@@ -6007,7 +6014,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  639: {
+  640: {
     "id": "DREAM_04",
     "name": "夢",
     "cost": 0,
@@ -6015,7 +6022,7 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0
   },
-  640: {
+  641: {
     "id": "EX1_626",
     "name": "大いなる解呪",
     "cost": 4,
@@ -6025,7 +6032,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  641: {
+  642: {
     "id": "CS2_117",
     "name": "大地の円環の遠見師",
     "cost": 3,
@@ -6036,7 +6043,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  642: {
+  643: {
     "id": "EX1_250",
     "name": "大地の精霊",
     "cost": 5,
@@ -6048,7 +6055,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  643: {
+  644: {
     "id": "EX1_245",
     "name": "大地の衝撃",
     "cost": 1,
@@ -6058,7 +6065,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  644: {
+  645: {
     "id": "EX1_005",
     "name": "大物ハンター",
     "cost": 3,
@@ -6069,7 +6076,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  645: {
+  646: {
     "id": "EX1_559",
     "name": "大魔術師アントニダス",
     "cost": 7,
@@ -6081,19 +6088,19 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  646: {
+  647: {
     "id": "NEW1_025e",
     "name": "奮起",
     "set": 3,
     "type": 0
   },
-  647: {
+  648: {
     "id": "EX1_059e",
     "name": "実験だ！",
     "set": 3,
     "type": 0
   },
-  648: {
+  649: {
     "id": "EX1_623",
     "name": "寺院の執行人",
     "cost": 6,
@@ -6105,7 +6112,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  649: {
+  650: {
     "id": "tt_004",
     "name": "屍肉喰いのグール",
     "cost": 3,
@@ -6116,7 +6123,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  650: {
+  651: {
     "id": "EX1_105",
     "name": "山の巨人",
     "cost": 12,
@@ -6127,7 +6134,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  651: {
+  652: {
     "id": "CS2_169",
     "name": "巣立ちのドラゴンホーク",
     "cost": 1,
@@ -6138,13 +6145,6 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0,
     "quality": 1
-  },
-  652: {
-    "id": "EX1_619e",
-    "name": "平等",
-    "classs": 2,
-    "set": 3,
-    "type": 0
   },
   653: {
     "id": "EX1_619",
@@ -6157,12 +6157,19 @@ hs_cards['jajp'] = {
     "quality": 2
   },
   654: {
+    "id": "EX1_619e",
+    "name": "平等",
+    "classs": 2,
+    "set": 3,
+    "type": 0
+  },
+  655: {
     "id": "EX1_001e",
     "name": "庇護",
     "set": 3,
     "type": 0
   },
-  655: {
+  656: {
     "id": "EX1_625",
     "name": "影なる姿",
     "cost": 3,
@@ -6172,7 +6179,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  656: {
+  657: {
     "id": "EX1_303",
     "name": "影の炎",
     "cost": 4,
@@ -6181,13 +6188,6 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0,
     "quality": 2
-  },
-  657: {
-    "id": "EX1_334e",
-    "name": "影の狂気",
-    "classs": 5,
-    "set": 3,
-    "type": 0
   },
   658: {
     "id": "EX1_334",
@@ -6200,6 +6200,13 @@ hs_cards['jajp'] = {
     "quality": 2
   },
   659: {
+    "id": "EX1_334e",
+    "name": "影の狂気",
+    "classs": 5,
+    "set": 3,
+    "type": 0
+  },
+  660: {
     "id": "EX1_144",
     "name": "影隠れ",
     "cost": 0,
@@ -6209,7 +6216,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  660: {
+  661: {
     "id": "EX1_317t",
     "name": "役立たずのインプ",
     "cost": 1,
@@ -6221,7 +6228,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  661: {
+  662: {
     "id": "CS2_152",
     "name": "従騎士",
     "cost": 1,
@@ -6231,7 +6238,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  662: {
+  663: {
     "id": "EX1_408",
     "name": "必殺の一撃",
     "cost": 4,
@@ -6241,7 +6248,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  663: {
+  664: {
     "id": "EX1_617",
     "name": "必殺の一矢",
     "cost": 3,
@@ -6251,7 +6258,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  664: {
+  665: {
     "id": "EX1_625t",
     "name": "思念の楔",
     "cost": 2,
@@ -6259,7 +6266,7 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0
   },
-  665: {
+  666: {
     "id": "EX1_339",
     "name": "思念奪取",
     "cost": 3,
@@ -6269,7 +6276,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  666: {
+  667: {
     "id": "CS2_221",
     "name": "性悪な鍛冶屋",
     "cost": 5,
@@ -6280,12 +6287,6 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  667: {
-    "id": "DREAM_05e",
-    "name": "悪夢",
-    "set": 3,
-    "type": 0
-  },
   668: {
     "id": "DREAM_05",
     "name": "悪夢",
@@ -6295,6 +6296,12 @@ hs_cards['jajp'] = {
     "type": 0
   },
   669: {
+    "id": "DREAM_05e",
+    "name": "悪夢",
+    "set": 3,
+    "type": 0
+  },
+  670: {
     "id": "NEW1_022",
     "name": "悪辣なる海賊",
     "cost": 4,
@@ -6306,7 +6313,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  670: {
+  671: {
     "id": "EX1_596e",
     "name": "悪魔の火",
     "cost": 0,
@@ -6315,7 +6322,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  671: {
+  672: {
     "id": "EX1_596",
     "name": "悪魔の火",
     "cost": 2,
@@ -6325,7 +6332,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  672: {
+  673: {
     "id": "EX1_317",
     "name": "悪魔感知",
     "cost": 3,
@@ -6335,22 +6342,12 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  673: {
+  674: {
     "id": "EX1_603e",
     "name": "愛のムチ",
     "classs": 1,
     "set": 3,
     "type": 0
-  },
-  674: {
-    "id": "EX1_379",
-    "name": "懺悔",
-    "cost": 1,
-    "classs": 2,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
   },
   675: {
     "id": "EX1_379e",
@@ -6360,12 +6357,22 @@ hs_cards['jajp'] = {
     "type": 0
   },
   676: {
+    "id": "EX1_379",
+    "name": "懺悔",
+    "cost": 1,
+    "classs": 2,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  677: {
     "id": "NEW1_038o",
     "name": "成長",
     "set": 3,
     "type": 0
   },
-  677: {
+  678: {
     "id": "EX1_178",
     "name": "戦の古代樹",
     "cost": 7,
@@ -6377,7 +6384,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  678: {
+  679: {
     "id": "EX1_096",
     "name": "戦利品クレクレ君",
     "cost": 2,
@@ -6388,7 +6395,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  679: {
+  680: {
     "id": "EX1_354",
     "name": "按手の儀式",
     "cost": 8,
@@ -6398,14 +6405,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  680: {
+  681: {
     "id": "EX1_304e",
     "name": "捕食",
     "classs": 9,
     "set": 3,
     "type": 0
   },
-  681: {
+  682: {
     "id": "EX1_312",
     "name": "捻じれし冥界",
     "cost": 8,
@@ -6415,7 +6422,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  682: {
+  683: {
     "id": "EX1_100",
     "name": "探話士チョー",
     "cost": 2,
@@ -6426,7 +6433,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  683: {
+  684: {
     "id": "EX1_136",
     "name": "救済",
     "cost": 1,
@@ -6436,14 +6443,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  684: {
+  685: {
     "id": "NEW1_007a",
     "name": "星の雨",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  685: {
+  686: {
     "id": "NEW1_007",
     "name": "星の雨",
     "cost": 5,
@@ -6453,42 +6460,32 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  686: {
+  687: {
     "id": "NEW1_007b",
     "name": "星の雨",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  687: {
-    "id": "EX1_363e2",
-    "name": "智恵の祝福",
-    "classs": 2,
-    "set": 3,
-    "type": 0
-  },
   688: {
-    "id": "EX1_363",
-    "name": "智恵の祝福",
-    "cost": 1,
-    "classs": 2,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  689: {
     "id": "EX1_363e",
     "name": "智恵の祝福",
     "classs": 2,
     "set": 3,
     "type": 0
   },
+  689: {
+    "id": "EX1_363e2",
+    "name": "智恵の祝福",
+    "classs": 2,
+    "set": 3,
+    "type": 0
+  },
   690: {
-    "id": "CS2_104",
-    "name": "暴走",
-    "cost": 2,
-    "classs": 1,
+    "id": "EX1_363",
+    "name": "智恵の祝福",
+    "cost": 1,
+    "classs": 2,
     "collectible": 1,
     "set": 3,
     "type": 0,
@@ -6502,6 +6499,16 @@ hs_cards['jajp'] = {
     "type": 0
   },
   692: {
+    "id": "CS2_104",
+    "name": "暴走",
+    "cost": 2,
+    "classs": 1,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  693: {
     "id": "NEW1_041",
     "name": "暴走コドー",
     "cost": 5,
@@ -6513,14 +6520,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  693: {
+  694: {
     "id": "EX1_166a",
     "name": "月の炎",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  694: {
+  695: {
     "id": "EX1_166",
     "name": "木立の番人",
     "cost": 4,
@@ -6532,28 +6539,28 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  695: {
+  696: {
     "id": "EX1_178ae",
     "name": "根を張っている",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  696: {
+  697: {
     "id": "EX1_178a",
     "name": "根を張る",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  697: {
+  698: {
     "id": "EX1_158e",
     "name": "森の魂",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  698: {
+  699: {
     "id": "EX1_158",
     "name": "森の魂",
     "cost": 4,
@@ -6563,21 +6570,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  699: {
+  700: {
     "id": "EX1_366e",
     "name": "正義の誓い",
     "classs": 2,
     "set": 3,
     "type": 0
   },
-  700: {
+  701: {
     "id": "NEW1_037e",
     "name": "武装",
     "collectible": 0,
     "set": 3,
     "type": 0
   },
-  701: {
+  702: {
     "id": "EX1_603",
     "name": "残酷な現場監督",
     "cost": 2,
@@ -6589,14 +6596,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  702: {
+  703: {
     "id": "EX1_145o",
     "name": "段取り",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  703: {
+  704: {
     "id": "EX1_145",
     "name": "段取り",
     "cost": 0,
@@ -6606,7 +6613,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  704: {
+  705: {
     "id": "EX1_332",
     "name": "沈黙",
     "cost": 0,
@@ -6616,7 +6623,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  705: {
+  706: {
     "id": "EX1_604",
     "name": "泡を吹く狂戦士",
     "cost": 3,
@@ -6628,7 +6635,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  706: {
+  707: {
     "id": "EX1_586",
     "name": "海の巨人",
     "cost": 10,
@@ -6639,7 +6646,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  707: {
+  708: {
     "id": "EX1_097",
     "name": "涜れしもの",
     "cost": 5,
@@ -6650,20 +6657,34 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  708: {
+  709: {
     "id": "EX1_531e",
     "name": "満腹",
     "classs": 3,
     "set": 3,
     "type": 0
   },
-  709: {
+  710: {
     "id": "NEW1_017e",
     "name": "満腹",
     "set": 3,
     "type": 0
   },
-  710: {
+  711: {
+    "id": "EX1_164b",
+    "name": "滋養",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  712: {
+    "id": "EX1_164a",
+    "name": "滋養",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  713: {
     "id": "EX1_164",
     "name": "滋養",
     "cost": 5,
@@ -6673,21 +6694,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  711: {
-    "id": "EX1_164a",
-    "name": "滋養",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  712: {
-    "id": "EX1_164b",
-    "name": "滋養",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  713: {
+  714: {
     "id": "EX1_620",
     "name": "溶岩の巨人",
     "cost": 20,
@@ -6698,7 +6705,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  714: {
+  715: {
     "id": "EX1_241",
     "name": "溶岩爆発",
     "cost": 3,
@@ -6708,7 +6715,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  715: {
+  716: {
     "id": "EX1_412",
     "name": "激昂のウォーゲン",
     "cost": 3,
@@ -6719,7 +6726,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  716: {
+  717: {
     "id": "EX1_319",
     "name": "炎のインプ",
     "cost": 1,
@@ -6732,7 +6739,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  717: {
+  718: {
     "id": "EX1_298",
     "name": "炎の王ラグナロス",
     "cost": 8,
@@ -6743,7 +6750,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  718: {
+  719: {
     "id": "EX1_345t",
     "name": "無の影",
     "cost": 0,
@@ -6754,7 +6761,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  719: {
+  720: {
     "id": "EX1_564",
     "name": "無貌の操り手",
     "cost": 5,
@@ -6765,7 +6772,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  720: {
+  721: {
     "id": "EX1_tk34",
     "name": "焦熱の悪鬼",
     "cost": 6,
@@ -6777,7 +6784,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  721: {
+  722: {
     "id": "EX1_tk33",
     "name": "焦熱地獄！",
     "cost": 2,
@@ -6785,7 +6792,7 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0
   },
-  722: {
+  723: {
     "id": "EX1_544",
     "name": "照明弾",
     "cost": 2,
@@ -6795,7 +6802,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  723: {
+  724: {
     "id": "EX1_594",
     "name": "蒸発",
     "cost": 3,
@@ -6805,7 +6812,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  724: {
+  725: {
     "id": "NEW1_037",
     "name": "熟練武器職人",
     "cost": 2,
@@ -6816,7 +6823,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  725: {
+  726: {
     "id": "NEW1_020",
     "name": "熱狂する火霊術師",
     "cost": 2,
@@ -6827,7 +6834,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  726: {
+  727: {
     "id": "EX1_537",
     "name": "爆発の一矢",
     "cost": 5,
@@ -6837,7 +6844,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  727: {
+  728: {
     "id": "EX1_610",
     "name": "爆発の罠",
     "cost": 2,
@@ -6847,7 +6854,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  728: {
+  729: {
     "id": "EX1_165t1",
     "name": "爪のドルイド",
     "cost": 5,
@@ -6859,7 +6866,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  729: {
+  730: {
     "id": "EX1_165t2",
     "name": "爪のドルイド",
     "cost": 5,
@@ -6871,7 +6878,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  730: {
+  731: {
     "id": "EX1_165",
     "name": "爪のドルイド",
     "cost": 5,
@@ -6883,7 +6890,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  731: {
+  732: {
     "id": "EX1_392",
     "name": "狂瀾怒濤",
     "cost": 2,
@@ -6893,7 +6900,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  732: {
+  733: {
     "id": "EX1_609",
     "name": "狙撃",
     "cost": 2,
@@ -6903,7 +6910,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  733: {
+  734: {
     "id": "EX1_tk11",
     "name": "狼の精霊",
     "cost": 2,
@@ -6914,7 +6921,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  734: {
+  735: {
     "id": "EX1_538t",
     "name": "猟犬",
     "cost": 1,
@@ -6925,7 +6932,7 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0
   },
-  735: {
+  736: {
     "id": "EX1_538",
     "name": "猟犬を放て！",
     "cost": 3,
@@ -6935,7 +6942,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  736: {
+  737: {
     "id": "EX1_033",
     "name": "疾風のハーピィ",
     "cost": 6,
@@ -6946,7 +6953,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  737: {
+  738: {
     "id": "EX1_132",
     "name": "目には目を",
     "cost": 1,
@@ -6956,7 +6963,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  738: {
+  739: {
     "id": "EX1_405",
     "name": "盾持ち",
     "cost": 1,
@@ -6967,7 +6974,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  739: {
+  740: {
     "id": "NEW1_008",
     "name": "知識の古代樹",
     "cost": 7,
@@ -6979,7 +6986,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  740: {
+  741: {
     "id": "EX1_102",
     "name": "破壊兵器",
     "cost": 3,
@@ -6991,7 +6998,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  741: {
+  742: {
     "id": "EX1_320",
     "name": "破滅に至る病",
     "cost": 5,
@@ -7001,7 +7008,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  742: {
+  743: {
+    "id": "CS2_038e",
+    "name": "祖霊の導き",
+    "classs": 7,
+    "set": 3,
+    "type": 0
+  },
+  744: {
     "id": "CS2_038",
     "name": "祖霊の導き",
     "cost": 2,
@@ -7011,14 +7025,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  743: {
-    "id": "CS2_038e",
-    "name": "祖霊の導き",
-    "classs": 7,
-    "set": 3,
-    "type": 0
-  },
-  744: {
+  745: {
     "id": "EX1_355",
     "name": "祝福されし勇者",
     "cost": 5,
@@ -7028,14 +7035,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  745: {
+  746: {
     "id": "EX1_355e",
     "name": "祝福されし勇者",
     "classs": 2,
     "set": 3,
     "type": 0
   },
-  746: {
+  747: {
     "id": "EX1_349",
     "name": "神聖なる恩寵",
     "cost": 3,
@@ -7045,7 +7052,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  747: {
+  748: {
     "id": "EX1_080",
     "name": "秘密の番人",
     "cost": 1,
@@ -7056,27 +7063,27 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  748: {
+  749: {
     "id": "EX1_080o",
     "name": "秘密を守っている",
     "set": 3,
     "type": 0
   },
-  749: {
+  750: {
     "id": "EX1_178be",
     "name": "立ち上がっている",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  750: {
+  751: {
     "id": "EX1_178b",
     "name": "立ち上がる",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  751: {
+  752: {
     "id": "DREAM_01",
     "name": "笑い声の乙女",
     "cost": 3,
@@ -7086,7 +7093,7 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0
   },
-  752: {
+  753: {
     "id": "EX1_625t2",
     "name": "精神崩壊",
     "cost": 2,
@@ -7094,7 +7101,7 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0
   },
-  753: {
+  754: {
     "id": "EX1_tk31",
     "name": "精神支配",
     "classs": 5,
@@ -7102,7 +7109,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  754: {
+  755: {
     "id": "EX1_085",
     "name": "精神支配技士",
     "cost": 3,
@@ -7113,14 +7120,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  755: {
+  756: {
     "id": "EX1_274e",
     "name": "純粋なる力！",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  756: {
+  757: {
     "id": "NEW1_021",
     "name": "終末予言者",
     "cost": 2,
@@ -7131,23 +7138,16 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  757: {
+  758: {
     "id": "EX1_611e",
     "name": "罠にかかった",
     "classs": 3,
     "set": 3,
     "type": 0
   },
-  758: {
+  759: {
     "id": "EX1_162o",
     "name": "群れの力",
-    "set": 3,
-    "type": 0
-  },
-  759: {
-    "id": "EX1_160be",
-    "name": "群れの長",
-    "classs": 11,
     "set": 3,
     "type": 0
   },
@@ -7159,6 +7159,13 @@ hs_cards['jajp'] = {
     "type": 0
   },
   761: {
+    "id": "EX1_160be",
+    "name": "群れの長",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  762: {
     "id": "EX1_584",
     "name": "老練のメイジ",
     "cost": 4,
@@ -7169,7 +7176,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  762: {
+  763: {
     "id": "EX1_057",
     "name": "老練の酒造大師",
     "cost": 4,
@@ -7180,7 +7187,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  763: {
+  764: {
     "id": "EX1_365",
     "name": "聖なる怒り",
     "cost": 5,
@@ -7190,7 +7197,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  764: {
+  765: {
     "id": "EX1_624",
     "name": "聖なる炎",
     "cost": 6,
@@ -7200,7 +7207,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  765: {
+  766: {
     "id": "EX1_137",
     "name": "脳天直撃",
     "cost": 3,
@@ -7210,7 +7217,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  766: {
+  767: {
     "id": "EX1_531",
     "name": "腐肉食いのハイエナ",
     "cost": 2,
@@ -7223,7 +7230,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  767: {
+  768: {
     "id": "EX1_124",
     "name": "腹裂き",
     "cost": 2,
@@ -7233,7 +7240,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  768: {
+  769: {
     "id": "EX1_154",
     "name": "自然の怒り",
     "cost": 2,
@@ -7243,13 +7250,6 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  769: {
-    "id": "EX1_154a",
-    "name": "自然の怒り",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
   770: {
     "id": "EX1_154b",
     "name": "自然の怒り",
@@ -7258,6 +7258,13 @@ hs_cards['jajp'] = {
     "type": 0
   },
   771: {
+    "id": "EX1_154a",
+    "name": "自然の怒り",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  772: {
     "id": "EX1_571",
     "name": "自然の援軍",
     "cost": 6,
@@ -7267,35 +7274,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  772: {
-    "id": "EX1_155a",
-    "name": "自然の紋章",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
   773: {
-    "id": "EX1_155ae",
-    "name": "自然の紋章",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  774: {
-    "id": "EX1_155b",
-    "name": "自然の紋章",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
-  775: {
     "id": "EX1_155be",
     "name": "自然の紋章",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  776: {
+  774: {
     "id": "EX1_155",
     "name": "自然の紋章",
     "cost": 3,
@@ -7305,7 +7291,28 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
+  775: {
+    "id": "EX1_155ae",
+    "name": "自然の紋章",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  776: {
+    "id": "EX1_155b",
+    "name": "自然の紋章",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
   777: {
+    "id": "EX1_155a",
+    "name": "自然の紋章",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  778: {
     "id": "EX1_161",
     "name": "自然への回帰",
     "cost": 1,
@@ -7315,7 +7322,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  778: {
+  779: {
     "id": "EX1_258",
     "name": "自由なるエレメンタル",
     "cost": 3,
@@ -7327,7 +7334,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  779: {
+  780: {
     "id": "EX1_004",
     "name": "若きプリーステス",
     "cost": 1,
@@ -7338,7 +7345,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  780: {
+  781: {
     "id": "EX1_049",
     "name": "若き酒造大師",
     "cost": 2,
@@ -7349,7 +7356,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  781: {
+  782: {
     "id": "EX1_007",
     "name": "苦痛の侍祭",
     "cost": 3,
@@ -7360,14 +7367,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  782: {
+  783: {
     "id": "CS2_059o",
     "name": "血の契約",
     "classs": 9,
     "set": 3,
     "type": 0
   },
-  783: {
+  784: {
     "id": "EX1_323w",
     "name": "血の憤怒",
     "cost": 3,
@@ -7377,14 +7384,14 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0
   },
-  784: {
+  785: {
     "id": "EX1_411e",
     "name": "血吼",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  785: {
+  786: {
     "id": "EX1_126",
     "name": "裏切り",
     "cost": 2,
@@ -7394,20 +7401,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  786: {
+  787: {
     "id": "CS2_221e",
     "name": "見事な切れ味！",
     "set": 3,
     "type": 0
   },
-  787: {
+  788: {
     "id": "EX1_166b",
     "name": "解呪",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  788: {
+  789: {
     "id": "NEW1_005",
     "name": "誘拐魔",
     "cost": 6,
@@ -7418,17 +7425,6 @@ hs_cards['jajp'] = {
     "set": 3,
     "type": 0,
     "quality": 3
-  },
-  789: {
-    "id": "EX1_130a",
-    "name": "身代わり",
-    "cost": 1,
-    "attack": 2,
-    "health": 1,
-    "classs": 2,
-    "set": 3,
-    "type": 0,
-    "quality": 1
   },
   790: {
     "id": "EX1_130",
@@ -7441,27 +7437,28 @@ hs_cards['jajp'] = {
     "quality": 1
   },
   791: {
+    "id": "EX1_130a",
+    "name": "身代わり",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "classs": 2,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  792: {
     "id": "CS2_053e",
     "name": "遠見",
     "classs": 7,
     "set": 3,
     "type": 0
   },
-  792: {
+  793: {
     "id": "CS2_053",
     "name": "遠見",
     "cost": 3,
     "classs": 7,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 3
-  },
-  793: {
-    "id": "EX1_549",
-    "name": "野獣の怒り",
-    "cost": 1,
-    "classs": 3,
     "collectible": 1,
     "set": 3,
     "type": 0,
@@ -7475,6 +7472,16 @@ hs_cards['jajp'] = {
     "type": 0
   },
   795: {
+    "id": "EX1_549",
+    "name": "野獣の怒り",
+    "cost": 1,
+    "classs": 3,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 3
+  },
+  796: {
     "id": "EX1_248",
     "name": "野獣の精霊",
     "cost": 3,
@@ -7484,7 +7491,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  796: {
+  797: {
     "id": "EX1_160",
     "name": "野生の力",
     "cost": 2,
@@ -7494,7 +7501,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  797: {
+  798: {
     "id": "EX1_578",
     "name": "野蛮",
     "cost": 1,
@@ -7504,7 +7511,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  798: {
+  799: {
     "id": "CS2_203",
     "name": "鉄嘴のフクロウ",
     "cost": 2,
@@ -7516,7 +7523,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  799: {
+  800: {
     "id": "EX1_402",
     "name": "鎧職人",
     "cost": 2,
@@ -7528,7 +7535,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  800: {
+  801: {
     "id": "EX1_294",
     "name": "鏡の住民",
     "cost": 3,
@@ -7538,7 +7545,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  801: {
+  802: {
     "id": "EX1_128",
     "name": "隠蔽",
     "cost": 1,
@@ -7548,14 +7555,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  802: {
+  803: {
     "id": "EX1_128e",
     "name": "隠蔽",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  803: {
+  804: {
     "id": "EX1_350",
     "name": "預言者ヴェレン",
     "cost": 7,
@@ -7567,7 +7574,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  804: {
+  805: {
     "id": "NEW1_010",
     "name": "風の王アラキア",
     "cost": 8,
@@ -7579,7 +7586,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  805: {
+  806: {
     "id": "NEW1_017",
     "name": "飢えたカニ",
     "cost": 1,
@@ -7591,7 +7598,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  806: {
+  807: {
     "id": "CS2_188",
     "name": "鬼軍曹",
     "cost": 1,
@@ -7602,7 +7609,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  807: {
+  808: {
     "id": "EX1_309",
     "name": "魂抽出",
     "cost": 6,
@@ -7612,7 +7619,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  808: {
+  809: {
     "id": "EX1_089",
     "name": "魔力のゴーレム",
     "cost": 3,
@@ -7623,7 +7630,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  809: {
+  810: {
     "id": "EX1_396",
     "name": "魔古山の番兵",
     "cost": 4,
@@ -7634,7 +7641,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  810: {
+  811: {
     "id": "EX1_608",
     "name": "魔法使いの弟子",
     "cost": 2,
@@ -7646,7 +7653,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  811: {
+  812: {
     "id": "EX1_577",
     "name": "魔獣",
     "cost": 6,
@@ -7658,13 +7665,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  812: {
+  813: {
     "id": "EX1_043e",
     "name": "黄昏時、来たれり",
     "set": 3,
     "type": 0
   },
-  813: {
+  814: {
     "id": "EX1_002",
     "name": "黒騎士",
     "cost": 6,
@@ -7675,14 +7682,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  814: {
+  815: {
     "id": "EX1_623e",
     "name": "鼓舞",
     "classs": 5,
     "set": 3,
     "type": 0
   },
-  815: {
+  816: {
     "id": "CRED_15",
     "name": "Andy Brock",
     "cost": 1,
@@ -7692,7 +7699,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  816: {
+  817: {
     "id": "CRED_18",
     "name": "Becca Abel",
     "cost": 2,
@@ -7702,7 +7709,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  817: {
+  818: {
     "id": "CRED_08",
     "name": "Ben Brode",
     "cost": 3,
@@ -7712,7 +7719,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  818: {
+  819: {
     "id": "CRED_09",
     "name": "Ben Thompson",
     "cost": 6,
@@ -7722,7 +7729,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  819: {
+  820: {
     "id": "CRED_19",
     "name": "Beomki Hong",
     "cost": 4,
@@ -7732,7 +7739,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  820: {
+  821: {
     "id": "CRED_03",
     "name": "Bob Fitch",
     "cost": 3,
@@ -7742,7 +7749,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  821: {
+  822: {
     "id": "CRED_20",
     "name": "Brian Birmingham",
     "cost": 3,
@@ -7752,7 +7759,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  822: {
+  823: {
     "id": "CRED_13",
     "name": "Brian Schwab",
     "cost": 10,
@@ -7762,7 +7769,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  823: {
+  824: {
     "id": "CRED_21",
     "name": "Bryan Chang",
     "cost": 1,
@@ -7772,7 +7779,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  824: {
+  825: {
     "id": "CRED_22",
     "name": "Cameron Chrisman",
     "cost": 3,
@@ -7782,7 +7789,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  825: {
+  826: {
     "id": "CRED_23",
     "name": "Christopher Yim",
     "cost": 4,
@@ -7792,7 +7799,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  826: {
+  827: {
     "id": "CRED_24",
     "name": "Dean Ayala",
     "cost": 7,
@@ -7802,7 +7809,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  827: {
+  828: {
     "id": "CRED_06",
     "name": "Derek Sakamoto",
     "cost": 1,
@@ -7812,7 +7819,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  828: {
+  829: {
     "id": "CRED_25",
     "name": "Elizabeth Cho",
     "cost": 4,
@@ -7822,7 +7829,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  829: {
+  830: {
     "id": "CRED_26",
     "name": "Eric Del Priore",
     "cost": 3,
@@ -7832,7 +7839,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  830: {
+  831: {
     "id": "CRED_02",
     "name": "Eric Dodds",
     "cost": 6,
@@ -7842,7 +7849,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  831: {
+  832: {
     "id": "CRED_16",
     "name": "Hamilton Chu",
     "cost": 7,
@@ -7852,7 +7859,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  832: {
+  833: {
     "id": "CRED_28",
     "name": "He-Rim Woo",
     "cost": 4,
@@ -7862,7 +7869,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  833: {
+  834: {
     "id": "CRED_27",
     "name": "Henry Ho",
     "cost": 3,
@@ -7872,7 +7879,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  834: {
+  835: {
     "id": "CRED_01",
     "name": "Jason Chayes",
     "cost": 6,
@@ -7882,7 +7889,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  835: {
+  836: {
     "id": "CRED_29",
     "name": "Jason MacAllister",
     "cost": 5,
@@ -7892,7 +7899,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  836: {
+  837: {
     "id": "CRED_11",
     "name": "Jay Baxter",
     "cost": 4,
@@ -7902,7 +7909,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  837: {
+  838: {
     "id": "CRED_30",
     "name": "JC Park",
     "cost": 7,
@@ -7912,7 +7919,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  838: {
+  839: {
     "id": "CRED_31",
     "name": "Jeremy Cranford",
     "cost": 4,
@@ -7922,7 +7929,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  839: {
+  840: {
     "id": "CRED_32",
     "name": "Jerry Mascho",
     "cost": 2,
@@ -7932,7 +7939,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  840: {
+  841: {
     "id": "CRED_33",
     "name": "Jomaro Kindred",
     "cost": 6,
@@ -7942,7 +7949,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  841: {
+  842: {
     "id": "CRED_43",
     "name": "Jon Bankard",
     "cost": 5,
@@ -7952,7 +7959,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  842: {
+  843: {
     "id": "CRED_45",
     "name": "Jonas Laster",
     "cost": 6,
@@ -7962,7 +7969,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  843: {
+  844: {
     "id": "CRED_46",
     "name": "Keith Landes",
     "cost": 2,
@@ -7972,7 +7979,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  844: {
+  845: {
     "id": "CRED_05",
     "name": "Kyle Harrison",
     "cost": 3,
@@ -7982,7 +7989,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  845: {
+  846: {
     "id": "CRED_34",
     "name": "Max Ma",
     "cost": 3,
@@ -7992,7 +7999,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  846: {
+  847: {
     "id": "CRED_35",
     "name": "Max McCall",
     "cost": 4,
@@ -8002,7 +8009,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  847: {
+  848: {
     "id": "CRED_10",
     "name": "Michael Schweitzer",
     "cost": 2,
@@ -8012,7 +8019,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  848: {
+  849: {
     "id": "CRED_36",
     "name": "Mike Donais",
     "cost": 6,
@@ -8022,7 +8029,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  849: {
+  850: {
     "id": "CRED_12",
     "name": "Rachelle Davis",
     "cost": 2,
@@ -8032,7 +8039,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  850: {
+  851: {
     "id": "CRED_37",
     "name": "Ricardo Robaina",
     "cost": 4,
@@ -8042,7 +8049,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  851: {
+  852: {
     "id": "CRED_17",
     "name": "Rob Pardo",
     "cost": 9,
@@ -8052,7 +8059,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  852: {
+  853: {
     "id": "CRED_38",
     "name": "Robin Fredericksen",
     "cost": 4,
@@ -8062,7 +8069,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  853: {
+  854: {
     "id": "CRED_39",
     "name": "Ryan Chew",
     "cost": 2,
@@ -8072,7 +8079,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  854: {
+  855: {
     "id": "CRED_40",
     "name": "Ryan Masterson",
     "cost": 4,
@@ -8083,7 +8090,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  855: {
+  856: {
     "id": "CRED_41",
     "name": "Seyil Yoon",
     "cost": 5,
@@ -8093,7 +8100,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  856: {
+  857: {
     "id": "CRED_04",
     "name": "Steven Gabriel",
     "cost": 1,
@@ -8103,7 +8110,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  857: {
+  858: {
     "id": "CRED_42",
     "name": "Tim Erskine",
     "cost": 4,
@@ -8113,7 +8120,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  858: {
+  859: {
     "id": "CRED_44",
     "name": "Walter Kong",
     "cost": 4,
@@ -8123,7 +8130,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  859: {
+  860: {
     "id": "CRED_14",
     "name": "Yong Woo",
     "cost": 5,
@@ -8133,7 +8140,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  860: {
+  861: {
     "id": "CRED_07",
     "name": "Zwick",
     "cost": 2,
@@ -8143,7 +8150,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  861: {
+  862: {
     "id": "NAX15_03t",
     "name": "アイスクラウンの守護者",
     "cost": 4,
@@ -8152,7 +8159,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  862: {
+  863: {
     "id": "NAX15_03n",
     "name": "アイスクラウンの守護者",
     "cost": 4,
@@ -8161,7 +8168,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  863: {
+  864: {
     "id": "NAX12_03H",
     "name": "アギト",
     "cost": 1,
@@ -8170,7 +8177,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  864: {
+  865: {
     "id": "NAX12_03",
     "name": "アギト",
     "cost": 1,
@@ -8179,7 +8186,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  865: {
+  866: {
     "id": "FP1_026",
     "name": "アヌバー・アンブッシャー",
     "cost": 4,
@@ -8191,21 +8198,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  866: {
+  867: {
     "id": "NAX1h_01",
     "name": "アヌブレカン",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  867: {
+  868: {
     "id": "NAX1_01",
     "name": "アヌブレカン",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  868: {
+  869: {
     "id": "FP1_011",
     "name": "ウェブスピナー",
     "cost": 1,
@@ -8218,7 +8225,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  869: {
+  870: {
     "id": "FP1_022",
     "name": "ヴォイドコーラー",
     "cost": 4,
@@ -8231,7 +8238,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  870: {
+  871: {
     "id": "FP1_001",
     "name": "エサゾンビ",
     "cost": 1,
@@ -8242,77 +8249,77 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  871: {
+  872: {
     "id": "NAX3_02H",
     "name": "クモ糸縛り",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  872: {
+  873: {
     "id": "NAX3_02",
     "name": "クモ糸縛り",
     "cost": 3,
     "set": 12,
     "type": 0
   },
-  873: {
+  874: {
     "id": "NAX2_01H",
     "name": "グランドウィドウ・フェアリーナ",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  874: {
+  875: {
     "id": "NAX2_01",
     "name": "グランドウィドウ・フェアリーナ",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  875: {
+  876: {
     "id": "NAX12_01",
     "name": "グルース",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  876: {
+  877: {
     "id": "NAX12_01H",
     "name": "グルース",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  877: {
+  878: {
     "id": "NAX11_01",
     "name": "グロビュラス",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  878: {
+  879: {
     "id": "NAX11_01H",
     "name": "グロビュラス",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  879: {
+  880: {
     "id": "NAX15_01H",
     "name": "ケルスザード",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  880: {
+  881: {
     "id": "NAX15_01",
     "name": "ケルスザード",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  881: {
+  882: {
     "id": "FP1_013",
     "name": "ケルスザード",
     "cost": 8,
@@ -8323,13 +8330,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  882: {
+  883: {
     "id": "NAX15_04a",
     "name": "ケルスザードの下僕",
     "set": 12,
     "type": 0
   },
-  883: {
+  884: {
     "id": "NAX9_04H",
     "name": "サー・ゼリエク",
     "cost": 3,
@@ -8338,7 +8345,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  884: {
+  885: {
     "id": "NAX9_04",
     "name": "サー・ゼリエク",
     "cost": 3,
@@ -8347,21 +8354,21 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  885: {
+  886: {
     "id": "NAX13_01",
     "name": "サディアス",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  886: {
+  887: {
     "id": "NAX13_01H",
     "name": "サディアス",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  887: {
+  888: {
     "id": "FP1_014t",
     "name": "サディアス",
     "cost": 10,
@@ -8371,55 +8378,55 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  888: {
+  889: {
     "id": "NAX14_01H",
     "name": "サファイロン",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  889: {
+  890: {
     "id": "NAX14_01",
     "name": "サファイロン",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  890: {
+  891: {
     "id": "FP1_023e",
     "name": "ジグラットの力",
     "classs": 5,
     "set": 12,
     "type": 0
   },
-  891: {
+  892: {
     "id": "NAX13_03e",
     "name": "スーパーチャージ",
     "set": 12,
     "type": 0
   },
-  892: {
+  893: {
     "id": "NAX13_03",
     "name": "スーパーチャージ",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  893: {
+  894: {
     "id": "NAX1_04",
     "name": "スキッター",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  894: {
+  895: {
     "id": "NAX1h_04",
     "name": "スキッター",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  895: {
+  896: {
     "id": "NAX4_03",
     "name": "スケルトン",
     "cost": 1,
@@ -8428,7 +8435,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  896: {
+  897: {
     "id": "NAX4_03H",
     "name": "スケルトン",
     "cost": 5,
@@ -8437,7 +8444,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  897: {
+  898: {
     "id": "NAX13_05H",
     "name": "スタラグ",
     "cost": 5,
@@ -8447,7 +8454,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  898: {
+  899: {
     "id": "FP1_014",
     "name": "スタラグ",
     "cost": 5,
@@ -8458,7 +8465,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  899: {
+  900: {
     "id": "FP1_012t",
     "name": "スライム",
     "cost": 1,
@@ -8467,7 +8474,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  900: {
+  901: {
     "id": "NAX9_03",
     "name": "セイン・コアサーズ",
     "cost": 3,
@@ -8476,7 +8483,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  901: {
+  902: {
     "id": "NAX9_03H",
     "name": "セイン・コアサーズ",
     "cost": 3,
@@ -8485,7 +8492,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  902: {
+  903: {
     "id": "FP1_021",
     "name": "デス・バイト",
     "cost": 4,
@@ -8497,7 +8504,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  903: {
+  904: {
     "id": "FP1_006",
     "name": "デスチャージャー",
     "cost": 1,
@@ -8506,7 +8513,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  904: {
+  905: {
     "id": "FP1_009",
     "name": "デスロード",
     "cost": 3,
@@ -8517,7 +8524,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  905: {
+  906: {
     "id": "FP1_019t",
     "name": "トレント",
     "cost": 1,
@@ -8527,7 +8534,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  906: {
+  907: {
     "id": "FP1_005",
     "name": "ナクスラーマスの亡霊",
     "cost": 3,
@@ -8538,7 +8545,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  907: {
+  908: {
     "id": "NAXM_001",
     "name": "ネクロナイト",
     "cost": 4,
@@ -8547,7 +8554,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  908: {
+  909: {
     "id": "FP1_017",
     "name": "ネルバー・ウェブロード",
     "cost": 2,
@@ -8558,7 +8565,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  909: {
+  910: {
     "id": "NAX1h_03",
     "name": "ネルビアン",
     "cost": 2,
@@ -8567,7 +8574,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  910: {
+  911: {
     "id": "NAX1_03",
     "name": "ネルビアン",
     "cost": 2,
@@ -8576,7 +8583,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  911: {
+  912: {
     "id": "FP1_007t",
     "name": "ネルビアン",
     "cost": 3,
@@ -8586,7 +8593,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  912: {
+  913: {
     "id": "FP1_007",
     "name": "ネルビアンの卵",
     "cost": 2,
@@ -8597,28 +8604,28 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  913: {
+  914: {
     "id": "NAX10_01H",
     "name": "パッチウァーク",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  914: {
+  915: {
     "id": "NAX10_01",
     "name": "パッチウァーク",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  915: {
+  916: {
     "id": "NAX9_01H",
     "name": "バロン・リーヴェンデア",
     "health": 14,
     "set": 12,
     "type": 0
   },
-  916: {
+  917: {
     "id": "FP1_031",
     "name": "バロン・リーヴェンデア",
     "cost": 4,
@@ -8629,14 +8636,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  917: {
+  918: {
     "id": "NAX9_01",
     "name": "バロン・リーヴェンデア",
     "health": 7,
     "set": 12,
     "type": 0
   },
-  918: {
+  919: {
     "id": "NAX15_05",
     "name": "ビグルスワース君",
     "cost": 0,
@@ -8647,7 +8654,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  919: {
+  920: {
     "id": "NAX10_02",
     "name": "フック",
     "cost": 3,
@@ -8656,7 +8663,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  920: {
+  921: {
     "id": "NAX10_02H",
     "name": "フック",
     "cost": 3,
@@ -8665,7 +8672,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  921: {
+  922: {
     "id": "NAX13_04H",
     "name": "フューゲン",
     "cost": 5,
@@ -8675,7 +8682,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  922: {
+  923: {
     "id": "FP1_015",
     "name": "フューゲン",
     "cost": 5,
@@ -8686,21 +8693,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  923: {
+  924: {
     "id": "NAX15_02",
     "name": "フロストブラスト",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  924: {
+  925: {
     "id": "NAX15_02H",
     "name": "フロストブラスト",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  925: {
+  926: {
     "id": "FP1_012",
     "name": "ヘドロゲッパー",
     "cost": 5,
@@ -8711,14 +8718,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  926: {
+  927: {
     "id": "NAX3_01H",
     "name": "マイエクスナ",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  927: {
+  928: {
     "id": "FP1_010",
     "name": "マイエクスナ",
     "cost": 6,
@@ -8730,14 +8737,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  928: {
+  929: {
     "id": "NAX3_01",
     "name": "マイエクスナ",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  929: {
+  930: {
     "id": "FP1_004",
     "name": "マッドサイエンティスト",
     "cost": 2,
@@ -8748,21 +8755,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  930: {
+  931: {
     "id": "NAX7_01H",
     "name": "ラズヴィアス教官",
     "health": 55,
     "set": 12,
     "type": 0
   },
-  931: {
+  932: {
     "id": "NAX7_01",
     "name": "ラズヴィアス教官",
     "health": 40,
     "set": 12,
     "type": 0
   },
-  932: {
+  933: {
     "id": "NAX9_05H",
     "name": "ルーンブレード",
     "cost": 3,
@@ -8771,7 +8778,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  933: {
+  934: {
     "id": "NAX9_05",
     "name": "ルーンブレード",
     "cost": 3,
@@ -8780,7 +8787,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  934: {
+  935: {
     "id": "NAX9_02",
     "name": "レディ・ブラゥムー",
     "cost": 3,
@@ -8789,7 +8796,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  935: {
+  936: {
     "id": "NAX9_02H",
     "name": "レディ・ブラゥムー",
     "cost": 3,
@@ -8798,21 +8805,21 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  936: {
+  937: {
     "id": "NAX6_01H",
     "name": "ロウゼブ",
     "health": 99,
     "set": 12,
     "type": 0
   },
-  937: {
+  938: {
     "id": "NAX6_01",
     "name": "ロウゼブ",
     "health": 75,
     "set": 12,
     "type": 0
   },
-  938: {
+  939: {
     "id": "FP1_030",
     "name": "ロウゼブ",
     "cost": 5,
@@ -8823,7 +8830,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  939: {
+  940: {
     "id": "FP1_024",
     "name": "不安定なグール",
     "cost": 2,
@@ -8834,7 +8841,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  940: {
+  941: {
     "id": "NAX8_04",
     "name": "不屈の戦士",
     "cost": 3,
@@ -8843,7 +8850,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  941: {
+  942: {
     "id": "NAX8_03",
     "name": "不屈の訓練兵",
     "cost": 1,
@@ -8852,7 +8859,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  942: {
+  943: {
     "id": "NAX8_05",
     "name": "不屈の騎兵",
     "cost": 6,
@@ -8861,7 +8868,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  943: {
+  944: {
     "id": "NAX5_01",
     "name": "不浄のヘイガン",
     "health": 30,
@@ -8869,7 +8876,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  944: {
+  945: {
     "id": "NAX5_01H",
     "name": "不浄のヘイガン",
     "health": 45,
@@ -8877,7 +8884,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  945: {
+  946: {
     "id": "NAX8_04t",
     "name": "亡霊戦士",
     "cost": 3,
@@ -8886,7 +8893,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  946: {
+  947: {
     "id": "FP1_002t",
     "name": "亡霊蜘蛛",
     "cost": 1,
@@ -8895,7 +8902,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  947: {
+  948: {
     "id": "NAX8_03t",
     "name": "亡霊訓練兵",
     "cost": 1,
@@ -8904,7 +8911,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  948: {
+  949: {
     "id": "NAX8_05t",
     "name": "亡霊騎兵",
     "cost": 5,
@@ -8913,7 +8920,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  949: {
+  950: {
     "id": "FP1_008",
     "name": "亡霊騎士",
     "cost": 5,
@@ -8924,7 +8931,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  950: {
+  951: {
     "id": "FP1_020",
     "name": "仇討",
     "cost": 1,
@@ -8934,14 +8941,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  951: {
+  952: {
     "id": "FP1_020e",
     "name": "仇討",
     "classs": 2,
     "set": 12,
     "type": 0
   },
-  952: {
+  953: {
     "id": "NAX7_02",
     "name": "代役",
     "cost": 2,
@@ -8950,19 +8957,19 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  953: {
+  954: {
     "id": "NAX15_01e",
     "name": "侵入者！",
     "set": 12,
     "type": 0
   },
-  954: {
+  955: {
     "id": "NAX15_01He",
     "name": "侵入者！",
     "set": 12,
     "type": 0
   },
-  955: {
+  956: {
     "id": "NAX2_05",
     "name": "信者",
     "cost": 3,
@@ -8971,7 +8978,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  956: {
+  957: {
     "id": "NAX2_05H",
     "name": "信者",
     "cost": 3,
@@ -8980,14 +8987,14 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  957: {
+  958: {
     "id": "NAX6_03",
     "name": "冬虫夏草",
     "cost": 4,
     "set": 12,
     "type": 0
   },
-  958: {
+  959: {
     "id": "NAX14_03",
     "name": "凍れる勇者",
     "cost": 5,
@@ -8996,42 +9003,42 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  959: {
+  960: {
     "id": "NAX14_02",
     "name": "凍気の吐息",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  960: {
+  961: {
     "id": "NAX8_02",
     "name": "刈入れ",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  961: {
+  962: {
     "id": "NAX8_02H",
     "name": "刈入れ",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  962: {
+  963: {
     "id": "NAX8_01H",
     "name": "刈手のゴシック",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  963: {
+  964: {
     "id": "NAX8_01",
     "name": "刈手のゴシック",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  964: {
+  965: {
     "id": "FP1_003",
     "name": "反響ウーズ",
     "cost": 2,
@@ -9042,7 +9049,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  965: {
+  966: {
     "id": "NAX11_03",
     "name": "吐き出されたスライム",
     "cost": 1,
@@ -9051,7 +9058,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  966: {
+  967: {
     "id": "FP1_002",
     "name": "呪われた蜘蛛",
     "cost": 2,
@@ -9063,34 +9070,34 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  967: {
+  968: {
     "id": "NAX5_02H",
     "name": "噴火",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  968: {
+  969: {
     "id": "NAX5_02",
     "name": "噴火",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  969: {
+  970: {
     "id": "NAX9_07e",
     "name": "四騎士の紋章",
     "set": 12,
     "type": 0
   },
-  970: {
+  971: {
     "id": "NAX9_07",
     "name": "四騎士の紋章",
     "cost": 5,
     "set": 12,
     "type": 0
   },
-  971: {
+  972: {
     "id": "FP1_028",
     "name": "墓掘り人",
     "cost": 1,
@@ -9101,54 +9108,54 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  972: {
+  973: {
     "id": "NAX12_03e",
     "name": "増える牙",
     "set": 12,
     "type": 0
   },
-  973: {
+  974: {
     "id": "NAX6_02H",
     "name": "壊死のオーラ",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  974: {
+  975: {
     "id": "NAX6_02",
     "name": "壊死のオーラ",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  975: {
+  976: {
     "id": "FP1_030e",
     "name": "壊死のオーラ",
     "set": 12,
     "type": 0
   },
-  976: {
+  977: {
     "id": "NAX3_03",
     "name": "壊死毒",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  977: {
+  978: {
     "id": "NAX7_03H",
     "name": "崩しの打撃",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  978: {
+  979: {
     "id": "NAX7_03",
     "name": "崩しの打撃",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  979: {
+  980: {
     "id": "NAX7_04H",
     "name": "巨大ルーンブレード",
     "cost": 3,
@@ -9157,7 +9164,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  980: {
+  981: {
     "id": "NAX7_04",
     "name": "巨大ルーンブレード",
     "cost": 3,
@@ -9166,54 +9173,54 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  981: {
+  982: {
     "id": "NAX10_03H",
     "name": "憎悪の一撃",
     "cost": 4,
     "set": 12,
     "type": 0
   },
-  982: {
+  983: {
     "id": "NAX10_03",
     "name": "憎悪の一撃",
     "cost": 4,
     "set": 12,
     "type": 0
   },
-  983: {
+  984: {
     "id": "NAX4_04",
     "name": "戦う死体",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  984: {
+  985: {
     "id": "NAX4_04H",
     "name": "戦う死体",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  985: {
+  986: {
     "id": "FP1_005e",
     "name": "捕食",
     "set": 12,
     "type": 0
   },
-  986: {
+  987: {
     "id": "NAX13_02e",
     "name": "極性",
     "set": 12,
     "type": 0
   },
-  987: {
+  988: {
     "id": "NAX13_02",
     "name": "極性変転",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  988: {
+  989: {
     "id": "FP1_019",
     "name": "毒の種",
     "cost": 4,
@@ -9223,21 +9230,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  989: {
+  990: {
     "id": "NAX11_02H",
     "name": "毒の雲",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  990: {
+  991: {
     "id": "NAX11_02",
     "name": "毒の雲",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  991: {
+  992: {
     "id": "FP1_016",
     "name": "泣き叫ぶ魂",
     "cost": 4,
@@ -9248,41 +9255,41 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  992: {
+  993: {
     "id": "NAX12_04",
     "name": "激怒",
     "cost": 3,
     "set": 12,
     "type": 0
   },
-  993: {
+  994: {
     "id": "NAX12_04e",
     "name": "激怒",
     "set": 12,
     "type": 0
   },
-  994: {
+  995: {
     "id": "NAX2_03",
     "name": "炎の雨",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  995: {
+  996: {
     "id": "NAX2_03H",
     "name": "炎の雨",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  996: {
+  997: {
     "id": "NAX4_05",
     "name": "疫病",
     "cost": 6,
     "set": 12,
     "type": 0
   },
-  997: {
+  998: {
     "id": "NAX4_01",
     "name": "病魔のノス",
     "health": 30,
@@ -9290,7 +9297,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  998: {
+  999: {
     "id": "NAX4_01H",
     "name": "病魔のノス",
     "health": 45,
@@ -9298,7 +9305,7 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  999: {
+  1000: {
     "id": "FP1_027",
     "name": "石肌のガーゴイル",
     "cost": 3,
@@ -9309,55 +9316,55 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1000: {
+  1001: {
     "id": "NAX11_04e",
     "name": "突然変異を促す注射",
     "set": 12,
     "type": 0
   },
-  1001: {
+  1002: {
     "id": "NAX11_04",
     "name": "突然変異を促す注射",
     "cost": 3,
     "set": 12,
     "type": 0
   },
-  1002: {
+  1003: {
     "id": "NAX7_05",
     "name": "精神支配クリスタル",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  1003: {
+  1004: {
     "id": "NAX5_03",
     "name": "精終戦争",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  1004: {
+  1005: {
     "id": "NAX14_04",
     "name": "純冷気",
     "cost": 5,
     "set": 12,
     "type": 0
   },
-  1005: {
+  1006: {
     "id": "NAX15_04",
     "name": "縛鎖",
     "cost": 8,
     "set": 12,
     "type": 0
   },
-  1006: {
+  1007: {
     "id": "NAX15_04H",
     "name": "縛鎖",
     "cost": 8,
     "set": 12,
     "type": 0
   },
-  1007: {
+  1008: {
     "id": "NAX6_03t",
     "name": "胞子",
     "cost": 0,
@@ -9366,27 +9373,27 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  1008: {
+  1009: {
     "id": "NAX6_04",
     "name": "胞子の破裂",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  1009: {
+  1010: {
     "id": "NAX6_03te",
     "name": "菌生長",
     "set": 12,
     "type": 0
   },
-  1010: {
+  1011: {
     "id": "NAX1_05",
     "name": "蝗の群れ",
     "cost": 7,
     "set": 12,
     "type": 0
   },
-  1011: {
+  1012: {
     "id": "FP1_018",
     "name": "複製",
     "cost": 3,
@@ -9396,7 +9403,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1012: {
+  1013: {
     "id": "FP1_029",
     "name": "踊る剣",
     "cost": 3,
@@ -9407,7 +9414,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1013: {
+  1014: {
     "id": "FP1_025",
     "name": "転生",
     "cost": 2,
@@ -9417,14 +9424,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1014: {
+  1015: {
     "id": "NAX9_06",
     "name": "邪なる影",
     "cost": 5,
     "set": 12,
     "type": 0
   },
-  1015: {
+  1016: {
     "id": "NAXM_002",
     "name": "鍛冶屋スケルトン",
     "cost": 3,
@@ -9433,33 +9440,33 @@ hs_cards['jajp'] = {
     "set": 12,
     "type": 0
   },
-  1016: {
+  1017: {
     "id": "NAX12_02e",
     "name": "間引き",
     "set": 12,
     "type": 0
   },
-  1017: {
+  1018: {
     "id": "NAX12_02H",
     "name": "間引き",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  1018: {
+  1019: {
     "id": "NAX12_02",
     "name": "間引き",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  1019: {
+  1020: {
     "id": "FP1_028e",
     "name": "闇の呼び声",
     "set": 12,
     "type": 0
   },
-  1020: {
+  1021: {
     "id": "FP1_023",
     "name": "闇の教団の使徒",
     "cost": 3,
@@ -9471,7 +9478,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1021: {
+  1022: {
     "id": "XXX_048",
     "name": "-1 Durability",
     "cost": 0,
@@ -9479,20 +9486,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1022: {
+  1023: {
     "id": "XXX_055",
     "name": "1000 Stats",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1023: {
+  1024: {
     "id": "XXX_055e",
     "name": "1000 Stats Enchant",
     "set": 7,
     "type": 0
   },
-  1024: {
+  1025: {
     "id": "XXX_095",
     "name": "AI Buddy - All Charge!",
     "cost": 0,
@@ -9501,7 +9508,7 @@ hs_cards['jajp'] = {
     "set": 7,
     "type": 0
   },
-  1025: {
+  1026: {
     "id": "XXX_094",
     "name": "AI Buddy - Blank Slate",
     "cost": 0,
@@ -9510,7 +9517,7 @@ hs_cards['jajp'] = {
     "set": 7,
     "type": 0
   },
-  1026: {
+  1027: {
     "id": "XXX_096",
     "name": "AI Buddy - Damage Own Hero 5",
     "cost": 0,
@@ -9519,7 +9526,7 @@ hs_cards['jajp'] = {
     "set": 7,
     "type": 0
   },
-  1027: {
+  1028: {
     "id": "XXX_097",
     "name": "AI Buddy - Destroy Minions",
     "cost": 0,
@@ -9529,7 +9536,7 @@ hs_cards['jajp'] = {
     "set": 7,
     "type": 0
   },
-  1028: {
+  1029: {
     "id": "XXX_098",
     "name": "AI Buddy - No Deck/Hand",
     "cost": 0,
@@ -9539,7 +9546,7 @@ hs_cards['jajp'] = {
     "set": 7,
     "type": 0
   },
-  1029: {
+  1030: {
     "id": "XXX_099",
     "name": "AI Helper Buddy",
     "cost": 0,
@@ -9549,35 +9556,35 @@ hs_cards['jajp'] = {
     "set": 7,
     "type": 0
   },
-  1030: {
+  1031: {
     "id": "XXX_061",
     "name": "Armor 1",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1031: {
+  1032: {
     "id": "XXX_053",
     "name": "Armor 100",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1032: {
+  1033: {
     "id": "XXX_062",
     "name": "Armor 5",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1033: {
+  1034: {
     "id": "XXX_039",
     "name": "Become Hogger",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1034: {
+  1035: {
     "id": "XXX_012",
     "name": "Bounce",
     "cost": 0,
@@ -9585,7 +9592,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1035: {
+  1036: {
     "id": "XXX_006",
     "name": "Break Weapon",
     "cost": 0,
@@ -9593,7 +9600,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1036: {
+  1037: {
     "id": "XXX_015",
     "name": "Crash",
     "cost": 0,
@@ -9601,7 +9608,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1037: {
+  1038: {
     "id": "XXX_001",
     "name": "Damage 1",
     "cost": 0,
@@ -9609,7 +9616,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1038: {
+  1039: {
     "id": "XXX_002",
     "name": "Damage 5",
     "cost": 0,
@@ -9617,14 +9624,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1039: {
+  1040: {
     "id": "XXX_060",
     "name": "Damage All",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1040: {
+  1041: {
     "id": "XXX_020",
     "name": "Damage all but 1",
     "cost": 0,
@@ -9632,7 +9639,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1041: {
+  1042: {
     "id": "XXX_024",
     "name": "Damage Reflector",
     "cost": 0,
@@ -9642,7 +9649,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1042: {
+  1043: {
     "id": "XXX_005",
     "name": "Destroy",
     "cost": 0,
@@ -9650,7 +9657,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1043: {
+  1044: {
     "id": "XXX_050",
     "name": "Destroy a Mana Crystal",
     "cost": 0,
@@ -9658,7 +9665,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1044: {
+  1045: {
     "id": "XXX_023",
     "name": "Destroy All Heroes",
     "cost": 0,
@@ -9666,7 +9673,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1045: {
+  1046: {
     "id": "XXX_049",
     "name": "Destroy all Mana",
     "cost": 0,
@@ -9674,7 +9681,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1046: {
+  1047: {
     "id": "XXX_018",
     "name": "Destroy All Minions",
     "cost": 0,
@@ -9682,14 +9689,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1047: {
+  1048: {
     "id": "XXX_063",
     "name": "Destroy ALL Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1048: {
+  1049: {
     "id": "XXX_047",
     "name": "Destroy Deck",
     "cost": 0,
@@ -9697,7 +9704,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1049: {
+  1050: {
     "id": "XXX_041",
     "name": "Destroy Hero Power",
     "cost": 0,
@@ -9705,21 +9712,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1050: {
+  1051: {
     "id": "XXX_059",
     "name": "Destroy Hero's Stuff",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1051: {
+  1052: {
     "id": "XXX_057",
     "name": "Destroy Target Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1052: {
+  1053: {
     "id": "XXX_013",
     "name": "Discard",
     "cost": 0,
@@ -9727,7 +9734,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1053: {
+  1054: {
     "id": "XXX_025",
     "name": "Do Nothing",
     "cost": 0,
@@ -9735,7 +9742,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1054: {
+  1055: {
     "id": "XXX_017",
     "name": "Draw 3 Cards",
     "cost": 0,
@@ -9743,14 +9750,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1055: {
+  1056: {
     "id": "XXX_009e",
     "name": "Empty Enchant",
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1056: {
+  1057: {
     "id": "XXX_026",
     "name": "Enable Emotes",
     "cost": 0,
@@ -9758,7 +9765,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1057: {
+  1058: {
     "id": "XXX_007",
     "name": "Enable for Attack",
     "cost": 0,
@@ -9766,7 +9773,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1058: {
+  1059: {
     "id": "XXX_009",
     "name": "Enchant",
     "cost": 0,
@@ -9774,19 +9781,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1059: {
+  1060: {
     "id": "XXX_046",
     "name": "Force AI to Use Hero Power",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
-  },
-  1060: {
-    "id": "XXX_022e",
-    "name": "Free Cards",
-    "set": 7,
-    "type": 0
   },
   1061: {
     "id": "XXX_022",
@@ -9797,6 +9798,12 @@ hs_cards['jajp'] = {
     "quality": 1
   },
   1062: {
+    "id": "XXX_022e",
+    "name": "Free Cards",
+    "set": 7,
+    "type": 0
+  },
+  1063: {
     "id": "XXX_008",
     "name": "Freeze",
     "cost": 0,
@@ -9804,7 +9811,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1063: {
+  1064: {
     "id": "XXX_052",
     "name": "Grant Mega-Windfury",
     "cost": 0,
@@ -9812,7 +9819,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1064: {
+  1065: {
     "id": "XXX_044",
     "name": "Hand Swapper Minion",
     "cost": 0,
@@ -9822,7 +9829,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1065: {
+  1066: {
     "id": "XXX_042",
     "name": "Hand to Deck",
     "cost": 0,
@@ -9830,7 +9837,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1066: {
+  1067: {
     "id": "XXX_040",
     "name": "Hogger",
     "health": 10,
@@ -9838,7 +9845,7 @@ hs_cards['jajp'] = {
     "set": 7,
     "type": 0
   },
-  1067: {
+  1068: {
     "id": "XXX_051",
     "name": "Make Immune",
     "cost": 0,
@@ -9846,7 +9853,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1068: {
+  1069: {
     "id": "XXX_014",
     "name": "Mill 10",
     "cost": 0,
@@ -9854,7 +9861,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1069: {
+  1070: {
     "id": "XXX_043",
     "name": "Mill 30",
     "cost": 0,
@@ -9862,21 +9869,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1070: {
+  1071: {
     "id": "XXX_019",
     "name": "Molasses",
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1071: {
+  1072: {
     "id": "XXX_029",
     "name": "Opponent Concede",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1072: {
+  1073: {
     "id": "XXX_030",
     "name": "Opponent Disconnect",
     "cost": 0,
@@ -9884,7 +9891,15 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1073: {
+  1074: {
+    "id": "XXX_065",
+    "name": "Remove All Immune",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1075: {
     "id": "XXX_003",
     "name": "Restore 1",
     "cost": 0,
@@ -9892,7 +9907,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1074: {
+  1076: {
     "id": "XXX_004",
     "name": "Restore 5",
     "cost": 0,
@@ -9900,7 +9915,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1075: {
+  1077: {
     "id": "XXX_021",
     "name": "Restore All Health",
     "cost": 0,
@@ -9908,20 +9923,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1076: {
+  1078: {
     "id": "XXX_028",
     "name": "Reveal Hand",
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1077: {
+  1079: {
     "id": "XXX_027",
     "name": "Server Crash",
     "set": 7,
     "type": 0
   },
-  1078: {
+  1080: {
     "id": "XXX_010",
     "name": "Silence - debug",
     "cost": 0,
@@ -9929,21 +9944,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1079: {
+  1081: {
     "id": "XXX_056",
-    "name": "Silence Destroy",
+    "name": "Silence and Destroy All Minions",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1080: {
+  1082: {
     "id": "XXX_016",
     "name": "Snake Ball",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1081: {
+  1083: {
     "id": "XXX_045",
     "name": "Steal Card",
     "cost": 0,
@@ -9951,7 +9966,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1082: {
+  1084: {
     "id": "XXX_011",
     "name": "Summon a random Secret",
     "cost": 0,
@@ -9959,20 +9974,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1083: {
+  1085: {
     "id": "XXX_054",
     "name": "Weapon Buff",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1084: {
+  1086: {
     "id": "XXX_054e",
     "name": "Weapon Buff Enchant",
     "set": 7,
     "type": 0
   },
-  1085: {
+  1087: {
     "id": "XXX_058",
     "name": "Weapon Nerf",
     "cost": 0,
@@ -9980,13 +9995,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1086: {
+  1088: {
     "id": "XXX_058e",
     "name": "Weapon Nerf Enchant",
     "set": 7,
     "type": 0
   },
-  1087: {
+  1089: {
     "id": "GVG_111t",
     "name": "V-07-TR-0N",
     "cost": 8,
@@ -9997,7 +10012,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1088: {
+  1090: {
     "id": "GVG_091",
     "name": "アーケン・ヌリファイアーX-21",
     "cost": 4,
@@ -10009,7 +10024,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1089: {
+  1091: {
     "id": "GVG_118",
     "name": "アーシネイター・トログザー",
     "cost": 7,
@@ -10020,7 +10035,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1090: {
+  1092: {
     "id": "GVG_056",
     "name": "アイアン・ジャガーノート",
     "cost": 6,
@@ -10033,7 +10048,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1091: {
+  1093: {
     "id": "GVG_077",
     "name": "アニマ・ゴーレム",
     "cost": 6,
@@ -10046,7 +10061,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1092: {
+  1094: {
     "id": "GVG_030",
     "name": "アルマイト・ロボペット",
     "cost": 2,
@@ -10059,7 +10074,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1093: {
+  1095: {
     "id": "GVG_089",
     "name": "イルミネイター",
     "cost": 3,
@@ -10070,7 +10085,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1094: {
+  1096: {
     "id": "GVG_045t",
     "name": "インプ",
     "cost": 1,
@@ -10081,7 +10096,7 @@ hs_cards['jajp'] = {
     "set": 13,
     "type": 0
   },
-  1095: {
+  1097: {
     "id": "GVG_045",
     "name": "インプァクト",
     "cost": 4,
@@ -10091,7 +10106,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1096: {
+  1098: {
     "id": "GVG_122",
     "name": "ウィー・スペルストッパー",
     "cost": 4,
@@ -10103,7 +10118,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1097: {
+  1099: {
     "id": "GVG_010",
     "name": "ヴェレンに選ばれし者",
     "cost": 3,
@@ -10113,13 +10128,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1098: {
+  1100: {
     "id": "GVG_010b",
     "name": "ヴェレンに選ばれし者",
     "set": 13,
     "type": 0
   },
-  1099: {
+  1101: {
     "id": "GVG_014",
     "name": "ヴォルジン",
     "cost": 5,
@@ -10131,7 +10146,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1100: {
+  1102: {
     "id": "GVG_113",
     "name": "エネミーリーパー4000",
     "cost": 8,
@@ -10143,7 +10158,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1101: {
+  1103: {
     "id": "GVG_107",
     "name": "エンハンス・オ・メカーノ",
     "cost": 4,
@@ -10155,7 +10170,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1102: {
+  1104: {
     "id": "GVG_088",
     "name": "オーガ・ニンジャ",
     "cost": 5,
@@ -10167,7 +10182,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1103: {
+  1105: {
     "id": "GVG_054",
     "name": "オーガの巨槌",
     "cost": 3,
@@ -10179,7 +10194,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1104: {
+  1106: {
     "id": "GVG_065",
     "name": "オーガの暴れん坊",
     "cost": 3,
@@ -10190,14 +10205,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1105: {
+  1107: {
     "id": "GVG_123e",
     "name": "オーバークロック",
     "classs": 8,
     "set": 13,
     "type": 0
   },
-  1106: {
+  1108: {
     "id": "GVG_049",
     "name": "ガーズリラ",
     "cost": 7,
@@ -10210,14 +10225,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1107: {
+  1109: {
     "id": "GVG_032b",
     "name": "カードの贈り物",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1108: {
+  1110: {
     "id": "GVG_117",
     "name": "ガズロウ",
     "cost": 6,
@@ -10228,14 +10243,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1109: {
+  1111: {
     "id": "GVG_028t",
     "name": "ガリーウィックスのコイン",
     "cost": 0,
     "set": 13,
     "type": 0
   },
-  1110: {
+  1112: {
     "id": "GVG_081",
     "name": "ギルブリン・ストーカー",
     "cost": 2,
@@ -10246,7 +10261,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1111: {
+  1113: {
     "id": "GVG_044",
     "name": "クモ戦車",
     "cost": 3,
@@ -10258,7 +10273,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1112: {
+  1114: {
     "id": "GVG_052",
     "name": "クラッシュ",
     "cost": 7,
@@ -10268,7 +10283,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1113: {
+  1115: {
     "id": "GVG_043",
     "name": "グレイブズーカ",
     "cost": 2,
@@ -10280,14 +10295,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1114: {
+  1116: {
     "id": "GVG_043e",
     "name": "グレイブズーカ",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1115: {
+  1117: {
     "id": "GVG_074",
     "name": "ケザンのミスティック",
     "cost": 4,
@@ -10298,7 +10313,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1116: {
+  1118: {
     "id": "GVG_059",
     "name": "コグハンマー",
     "cost": 3,
@@ -10310,7 +10325,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1117: {
+  1119: {
     "id": "GVG_013",
     "name": "コグマスター",
     "cost": 1,
@@ -10321,7 +10336,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1118: {
+  1120: {
     "id": "GVG_024",
     "name": "コグマスターのレンチ",
     "cost": 3,
@@ -10333,7 +10348,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1119: {
+  1121: {
     "id": "GVG_062",
     "name": "コバルトの守護者",
     "cost": 5,
@@ -10346,7 +10361,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1120: {
+  1122: {
     "id": "GVG_073",
     "name": "コブラの一矢",
     "cost": 5,
@@ -10356,7 +10371,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1121: {
+  1123: {
     "id": "GVG_004",
     "name": "ゴブリンのブラストメイジ",
     "cost": 4,
@@ -10368,7 +10383,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1122: {
+  1124: {
     "id": "GVG_023",
     "name": "ゴブリン式全自動散髪機",
     "cost": 2,
@@ -10381,7 +10396,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1123: {
+  1125: {
     "id": "GVG_095",
     "name": "ゴブリン戦闘工兵",
     "cost": 3,
@@ -10392,7 +10407,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1124: {
+  1126: {
     "id": "GVG_047",
     "name": "サボタージュ",
     "cost": 4,
@@ -10402,7 +10417,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1125: {
+  1127: {
     "id": "GVG_094",
     "name": "ジーヴス",
     "cost": 4,
@@ -10414,7 +10429,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1126: {
+  1128: {
     "id": "GVG_058",
     "name": "シールド・ミニロボ",
     "cost": 2,
@@ -10427,7 +10442,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1127: {
+  1129: {
     "id": "GVG_053",
     "name": "シールドメイデン",
     "cost": 6,
@@ -10439,7 +10454,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1128: {
+  1130: {
     "id": "GVG_072",
     "name": "シャドウボクサー",
     "cost": 2,
@@ -10452,7 +10467,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1129: {
+  1131: {
     "id": "GVG_009",
     "name": "シャドウボンバー",
     "cost": 1,
@@ -10464,13 +10479,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1130: {
+  1132: {
     "id": "GVG_106e",
     "name": "ジャンクアップ",
     "set": 13,
     "type": 0
   },
-  1131: {
+  1133: {
     "id": "GVG_106",
     "name": "ジャンクロボ",
     "cost": 5,
@@ -10482,7 +10497,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1132: {
+  1134: {
     "id": "GVG_011",
     "name": "シュリンクマイスター",
     "cost": 2,
@@ -10494,7 +10509,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1133: {
+  1135: {
     "id": "GVG_040",
     "name": "シルトフィン・スピリットウォーカー",
     "cost": 4,
@@ -10507,7 +10522,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1134: {
+  1136: {
     "id": "GVG_101",
     "name": "スカーレット・ピュリファイアー",
     "cost": 3,
@@ -10519,14 +10534,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1135: {
+  1137: {
     "id": "GVG_055e",
     "name": "スクリュージャンク",
     "classs": 1,
     "set": 13,
     "type": 0
   },
-  1136: {
+  1138: {
     "id": "GVG_055",
     "name": "スクリュージャンク・クランカー",
     "cost": 4,
@@ -10539,7 +10554,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1137: {
+  1139: {
     "id": "GVG_123",
     "name": "ススゲーロ",
     "cost": 3,
@@ -10552,7 +10567,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1138: {
+  1140: {
     "id": "GVG_087",
     "name": "スチームウィードルの狙撃兵",
     "cost": 2,
@@ -10564,7 +10579,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1139: {
+  1141: {
     "id": "GVG_067",
     "name": "ストーンスプリンター・トログ",
     "cost": 2,
@@ -10575,7 +10590,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1140: {
+  1142: {
     "id": "GVG_114",
     "name": "スニードの旧型シュレッダー",
     "cost": 8,
@@ -10587,7 +10602,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1141: {
+  1143: {
     "id": "GVG_002",
     "name": "スノーチャガー",
     "cost": 2,
@@ -10600,14 +10615,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1142: {
+  1144: {
     "id": "GVG_049e",
     "name": "ズル・ファラックの力",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1143: {
+  1145: {
     "id": "GVG_082",
     "name": "ゼンマイ仕掛けのノーム",
     "cost": 1,
@@ -10619,7 +10634,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1144: {
+  1146: {
     "id": "GVG_121",
     "name": "ゼンマイ仕掛けの巨人",
     "cost": 12,
@@ -10631,28 +10646,28 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1145: {
+  1147: {
     "id": "GVG_041b",
     "name": "ダーク・ウィスパー",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1146: {
+  1148: {
     "id": "GVG_041c",
     "name": "ダーク・ウィスパー",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1147: {
+  1149: {
     "id": "GVG_041a",
     "name": "ダーク・ウィスパー",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1148: {
+  1150: {
     "id": "GVG_041",
     "name": "ダーク・ウィスパー",
     "cost": 6,
@@ -10662,7 +10677,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1149: {
+  1151: {
     "id": "GVG_093",
     "name": "ターゲット・ダミー",
     "cost": 0,
@@ -10674,7 +10689,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1150: {
+  1152: {
     "id": "GVG_102",
     "name": "ティンカータウンの技術者",
     "cost": 3,
@@ -10685,13 +10700,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1151: {
+  1153: {
     "id": "GVG_102e",
     "name": "ティンカータウン魂",
     "set": 13,
     "type": 0
   },
-  1152: {
+  1154: {
     "id": "GVG_022",
     "name": "ティンカーの刃研ぎ油",
     "cost": 4,
@@ -10701,19 +10716,19 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1153: {
+  1155: {
     "id": "GVG_022b",
     "name": "ティンカーの刃研ぎ油",
     "set": 13,
     "type": 0
   },
-  1154: {
+  1156: {
     "id": "GVG_022a",
     "name": "ティンカーの刃研ぎ油",
     "set": 13,
     "type": 0
   },
-  1155: {
+  1157: {
     "id": "GVG_066",
     "name": "デューンモールのシャーマン",
     "cost": 4,
@@ -10725,7 +10740,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1156: {
+  1158: {
     "id": "GVG_110",
     "name": "ドクター・ブーム",
     "cost": 7,
@@ -10736,7 +10751,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1157: {
+  1159: {
     "id": "GVG_115",
     "name": "トッシュリー",
     "cost": 6,
@@ -10747,7 +10762,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1158: {
+  1160: {
     "id": "GVG_012",
     "name": "ナールの光",
     "cost": 1,
@@ -10757,7 +10772,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1159: {
+  1161: {
     "id": "GVG_092t",
     "name": "ニワトリ",
     "cost": 1,
@@ -10767,7 +10782,7 @@ hs_cards['jajp'] = {
     "set": 13,
     "type": 0
   },
-  1160: {
+  1162: {
     "id": "GVG_042",
     "name": "ネプチュロン",
     "cost": 7,
@@ -10779,7 +10794,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1161: {
+  1163: {
     "id": "GVG_092",
     "name": "ノームの実験者",
     "cost": 3,
@@ -10790,7 +10805,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1162: {
+  1164: {
     "id": "GVG_098",
     "name": "ノームレガン歩兵",
     "cost": 3,
@@ -10801,7 +10816,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1163: {
+  1165: {
     "id": "GVG_068",
     "name": "バーリー・ロックジョー・トログ",
     "cost": 4,
@@ -10812,7 +10827,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1164: {
+  1166: {
     "id": "GVG_064",
     "name": "パドルストンパー",
     "cost": 2,
@@ -10824,7 +10839,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1165: {
+  1167: {
     "id": "GVG_038",
     "name": "バリバリ",
     "cost": 2,
@@ -10834,7 +10849,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1166: {
+  1168: {
     "id": "GVG_036",
     "name": "パワーメイス",
     "cost": 3,
@@ -10846,14 +10861,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1167: {
+  1169: {
     "id": "GVG_036e",
     "name": "パワー付与",
     "classs": 7,
     "set": 13,
     "type": 0
   },
-  1168: {
+  1170: {
     "id": "GVG_120",
     "name": "ヒーメット・ネッシングウェアリー",
     "cost": 5,
@@ -10864,13 +10879,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1169: {
+  1171: {
     "id": "GVG_076a",
     "name": "ピストン",
     "set": 13,
     "type": 0
   },
-  1170: {
+  1172: {
     "id": "GVG_110t",
     "name": "ブームロボ",
     "cost": 1,
@@ -10880,7 +10895,7 @@ hs_cards['jajp'] = {
     "set": 13,
     "type": 0
   },
-  1171: {
+  1173: {
     "id": "GVG_016",
     "name": "フェル・リーヴァー",
     "cost": 5,
@@ -10892,7 +10907,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1172: {
+  1174: {
     "id": "GVG_020",
     "name": "フェルキャノン",
     "cost": 4,
@@ -10905,7 +10920,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1173: {
+  1175: {
     "id": "GVG_079",
     "name": "フォース・タンクMAX",
     "cost": 8,
@@ -10917,7 +10932,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1174: {
+  1176: {
     "id": "GVG_119",
     "name": "ブリングトロン3000",
     "cost": 5,
@@ -10929,7 +10944,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1175: {
+  1177: {
     "id": "GVG_007",
     "name": "フレイム・リバイアサン",
     "cost": 7,
@@ -10942,7 +10957,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1176: {
+  1178: {
     "id": "GVG_001",
     "name": "フレイムキャノン",
     "cost": 2,
@@ -10952,7 +10967,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1177: {
+  1179: {
     "id": "GVG_017",
     "name": "ペット呼び寄せ",
     "cost": 2,
@@ -10962,7 +10977,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1178: {
+  1180: {
     "id": "GVG_104",
     "name": "ホブゴブリン",
     "cost": 3,
@@ -10973,7 +10988,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1179: {
+  1181: {
     "id": "GVG_099",
     "name": "ボム・ロバー",
     "cost": 5,
@@ -10984,13 +10999,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1180: {
+  1182: {
     "id": "GVG_104a",
     "name": "ほら、バフかけてやる。",
     "set": 13,
     "type": 0
   },
-  1181: {
+  1183: {
     "id": "GVG_063",
     "name": "ボルヴァー・フォードラゴン",
     "cost": 5,
@@ -11002,7 +11017,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1182: {
+  1184: {
     "id": "GVG_103",
     "name": "マイクロマシーン",
     "cost": 2,
@@ -11014,7 +11029,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1183: {
+  1185: {
     "id": "GVG_085",
     "name": "マジウザ・オ・トロン",
     "cost": 2,
@@ -11026,7 +11041,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1184: {
+  1186: {
     "id": "GVG_090",
     "name": "マッダーボンバー",
     "cost": 5,
@@ -11037,14 +11052,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1185: {
+  1187: {
     "id": "GVG_032a",
     "name": "マナの贈り物",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1186: {
+  1188: {
     "id": "GVG_021",
     "name": "マルガニス",
     "cost": 9,
@@ -11057,14 +11072,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1187: {
+  1189: {
     "id": "GVG_021e",
     "name": "マルガニスの手",
     "classs": 9,
     "set": 13,
     "type": 0
   },
-  1188: {
+  1190: {
     "id": "GVG_035",
     "name": "マローン",
     "cost": 7,
@@ -11077,7 +11092,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1189: {
+  1191: {
     "id": "GVG_109",
     "name": "ミニ・メイジ",
     "cost": 4,
@@ -11088,7 +11103,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1190: {
+  1192: {
     "id": "GVG_111",
     "name": "ミミロン・ヘッド",
     "cost": 5,
@@ -11100,7 +11115,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1191: {
+  1193: {
     "id": "GVG_078",
     "name": "メカ・イェティ",
     "cost": 4,
@@ -11112,7 +11127,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1192: {
+  1194: {
     "id": "GVG_034",
     "name": "メカ・ビントロング",
     "cost": 6,
@@ -11125,7 +11140,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1193: {
+  1195: {
     "id": "GVG_116",
     "name": "メカジニア・サーマプラッグ",
     "cost": 9,
@@ -11137,7 +11152,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1194: {
+  1196: {
     "id": "GVG_006",
     "name": "メカワーパー",
     "cost": 2,
@@ -11149,7 +11164,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1195: {
+  1197: {
     "id": "GVG_048",
     "name": "メタルトゥース・リーパー",
     "cost": 3,
@@ -11162,7 +11177,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1196: {
+  1198: {
     "id": "GVG_005",
     "name": "メディヴの残響",
     "cost": 4,
@@ -11172,7 +11187,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1197: {
+  1199: {
     "id": "GVG_112",
     "name": "モゴール・ジ・オーガ",
     "cost": 6,
@@ -11183,14 +11198,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1198: {
+  1200: {
     "id": "PART_003",
     "name": "ラスティ・ホーン",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1199: {
+  1201: {
     "id": "GVG_108",
     "name": "リコンボビュレイター",
     "cost": 2,
@@ -11201,7 +11216,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1200: {
+  1202: {
     "id": "GVG_031",
     "name": "リサイクル",
     "cost": 6,
@@ -11211,7 +11226,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1201: {
+  1203: {
     "id": "GVG_097",
     "name": "リトル・エクソシスト",
     "cost": 3,
@@ -11222,7 +11237,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1202: {
+  1204: {
     "id": "GVG_003",
     "name": "不安定なポータル",
     "cost": 2,
@@ -11232,14 +11247,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1203: {
+  1205: {
     "id": "GVG_069a",
     "name": "修理！",
     "classs": 5,
     "set": 13,
     "type": 0
   },
-  1204: {
+  1206: {
     "id": "GVG_057",
     "name": "光の紋章",
     "cost": 2,
@@ -11249,13 +11264,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1205: {
+  1207: {
     "id": "GVG_057a",
     "name": "光の紋章",
     "set": 13,
     "type": 0
   },
-  1206: {
+  1208: {
     "id": "GVG_008",
     "name": "光爆弾",
     "cost": 6,
@@ -11265,13 +11280,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1207: {
+  1209: {
     "id": "PART_006a",
     "name": "入れ替えられた",
     "set": 13,
     "type": 0
   },
-  1208: {
+  1210: {
     "id": "GVG_061",
     "name": "兵役招集",
     "cost": 3,
@@ -11281,7 +11296,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1209: {
+  1211: {
     "id": "GVG_060",
     "name": "兵站将校",
     "cost": 5,
@@ -11293,21 +11308,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1210: {
+  1212: {
     "id": "GVG_060e",
     "name": "十分な物資",
     "classs": 2,
     "set": 13,
     "type": 0
   },
-  1211: {
+  1213: {
     "id": "PART_006",
     "name": "反転スイッチ",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1212: {
+  1214: {
     "id": "GVG_028",
     "name": "商大公ガリーウィックス",
     "cost": 6,
@@ -11319,20 +11334,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1213: {
+  1215: {
     "id": "PART_007e",
     "name": "回転ブレード",
     "set": 13,
     "type": 0
   },
-  1214: {
+  1216: {
     "id": "PART_007",
     "name": "回転ブレード",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1215: {
+  1217: {
     "id": "GVG_037",
     "name": "回転式ザップ・オ・マティック",
     "cost": 2,
@@ -11345,7 +11360,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1216: {
+  1218: {
     "id": "GVG_056t",
     "name": "埋設地雷",
     "cost": 0,
@@ -11353,27 +11368,27 @@ hs_cards['jajp'] = {
     "set": 13,
     "type": 0
   },
-  1217: {
+  1219: {
     "id": "GVG_063a",
     "name": "報復",
     "set": 13,
     "type": 0
   },
-  1218: {
+  1220: {
     "id": "GVG_014a",
     "name": "影の呪詛",
     "classs": 5,
     "set": 13,
     "type": 0
   },
-  1219: {
+  1221: {
     "id": "GVG_019e",
     "name": "悪魔の心臓",
     "classs": 9,
     "set": 13,
     "type": 0
   },
-  1220: {
+  1222: {
     "id": "GVG_019",
     "name": "悪魔の心臓",
     "cost": 5,
@@ -11383,7 +11398,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1221: {
+  1223: {
     "id": "GVG_051",
     "name": "戦闘ロボ",
     "cost": 1,
@@ -11396,7 +11411,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1222: {
+  1224: {
     "id": "GVG_096",
     "name": "手動操縦のシュレッダー",
     "cost": 4,
@@ -11408,7 +11423,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1223: {
+  1225: {
     "id": "GVG_105",
     "name": "手動操縦のスカイ・ゴーレム",
     "cost": 6,
@@ -11420,7 +11435,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1224: {
+  1226: {
     "id": "GVG_083",
     "name": "改良型修理ロボ",
     "cost": 5,
@@ -11433,7 +11448,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1225: {
+  1227: {
     "id": "GVG_086",
     "name": "攻城兵器",
     "cost": 5,
@@ -11446,28 +11461,28 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1226: {
+  1228: {
     "id": "GVG_030ae",
     "name": "攻撃モード",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1227: {
+  1229: {
     "id": "GVG_030a",
     "name": "攻撃モード",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1228: {
+  1230: {
     "id": "PART_002",
     "name": "時間歪曲装置",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1229: {
+  1231: {
     "id": "GVG_032",
     "name": "木立の世話係",
     "cost": 3,
@@ -11479,7 +11494,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1230: {
+  1232: {
     "id": "GVG_026",
     "name": "死んだふり",
     "cost": 2,
@@ -11489,14 +11504,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1231: {
+  1233: {
     "id": "PART_004",
     "name": "気難しいクロークフィールド",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1232: {
+  1234: {
     "id": "GVG_100",
     "name": "浮遊する番人",
     "cost": 5,
@@ -11509,7 +11524,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1233: {
+  1235: {
     "id": "GVG_076",
     "name": "爆発ヒツジ",
     "cost": 2,
@@ -11521,7 +11536,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1234: {
+  1236: {
     "id": "GVG_080t",
     "name": "牙のドルイド",
     "cost": 5,
@@ -11532,7 +11547,7 @@ hs_cards['jajp'] = {
     "set": 13,
     "type": 0
   },
-  1235: {
+  1237: {
     "id": "GVG_080",
     "name": "牙のドルイド",
     "cost": 5,
@@ -11544,7 +11559,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1236: {
+  1238: {
     "id": "GVG_046",
     "name": "獣の王",
     "cost": 5,
@@ -11557,14 +11572,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1237: {
+  1239: {
     "id": "GVG_046e",
     "name": "王者",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1238: {
+  1240: {
     "id": "GVG_033",
     "name": "生命の樹",
     "cost": 9,
@@ -11574,7 +11589,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1239: {
+  1241: {
     "id": "GVG_039",
     "name": "生命力のトーテム",
     "cost": 2,
@@ -11587,14 +11602,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1240: {
+  1242: {
     "id": "GVG_100e",
     "name": "瞠目",
     "classs": 9,
     "set": 13,
     "type": 0
   },
-  1241: {
+  1243: {
     "id": "GVG_029",
     "name": "祖霊の声",
     "cost": 4,
@@ -11604,27 +11619,27 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1242: {
+  1244: {
     "id": "GVG_101e",
     "name": "純粋",
     "classs": 2,
     "set": 13,
     "type": 0
   },
-  1243: {
+  1245: {
     "id": "PART_005",
     "name": "緊急冷却剤",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1244: {
+  1246: {
     "id": "GVG_011a",
     "name": "縮小光線",
     "set": 13,
     "type": 0
   },
-  1245: {
+  1247: {
     "id": "GVG_070",
     "name": "老練船乗り",
     "cost": 5,
@@ -11636,7 +11651,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1246: {
+  1248: {
     "id": "GVG_075",
     "name": "艦載砲",
     "cost": 2,
@@ -11647,7 +11662,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1247: {
+  1249: {
     "id": "GVG_018",
     "name": "苦痛の貴婦人",
     "cost": 2,
@@ -11660,27 +11675,27 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1248: {
+  1250: {
     "id": "PART_001e",
     "name": "装甲強化",
     "set": 13,
     "type": 0
   },
-  1249: {
+  1251: {
     "id": "PART_001",
     "name": "装甲強化",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1250: {
+  1252: {
     "id": "GVG_086e",
     "name": "複合装甲",
     "classs": 1,
     "set": 13,
     "type": 0
   },
-  1251: {
+  1253: {
     "id": "GVG_050",
     "name": "跳ね回る刃",
     "cost": 3,
@@ -11690,7 +11705,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1252: {
+  1254: {
     "id": "GVG_071",
     "name": "迷子のトールストライダー",
     "cost": 4,
@@ -11702,7 +11717,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1253: {
+  1255: {
     "id": "GVG_027",
     "name": "鉄の師匠",
     "cost": 3,
@@ -11715,27 +11730,27 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1254: {
+  1256: {
     "id": "GVG_027e",
     "name": "鉄の教え",
     "classs": 4,
     "set": 13,
     "type": 0
   },
-  1255: {
+  1257: {
     "id": "GVG_023a",
     "name": "鋭い切れ味",
     "set": 13,
     "type": 0
   },
-  1256: {
+  1258: {
     "id": "GVG_048e",
     "name": "鋼の歯",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1257: {
+  1259: {
     "id": "GVG_015",
     "name": "闇爆弾",
     "cost": 2,
@@ -11745,27 +11760,27 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1258: {
+  1260: {
     "id": "GVG_030be",
     "name": "防御モード",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1259: {
+  1261: {
     "id": "GVG_030b",
     "name": "防御モード",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1260: {
+  1262: {
     "id": "PART_004e",
     "name": "隠蔽",
     "set": 13,
     "type": 0
   },
-  1261: {
+  1263: {
     "id": "GVG_025",
     "name": "隻眼のチート",
     "cost": 2,
@@ -11778,7 +11793,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1262: {
+  1264: {
     "id": "GVG_084",
     "name": "飛行マシーン",
     "cost": 3,
@@ -11790,7 +11805,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1263: {
+  1265: {
     "id": "GVG_069",
     "name": "骨董品のヒールロボ",
     "cost": 5,
@@ -11802,19 +11817,19 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1264: {
+  1266: {
     "id": "GVG_067a",
     "name": "魔力の代謝",
     "set": 13,
     "type": 0
   },
-  1265: {
+  1267: {
     "id": "GVG_068a",
     "name": "魔力の代謝",
     "set": 13,
     "type": 0
   },
-  1266: {
+  1268: {
     "id": "HERO_05a",
     "name": "アレリア・ウィンドランナー",
     "health": 30,
@@ -11824,7 +11839,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1267: {
+  1269: {
     "id": "CS2_034_H1",
     "name": "ファイアブラスト",
     "cost": 2,
@@ -11833,7 +11848,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 0
   },
-  1268: {
+  1270: {
     "id": "CS2_034_H1_AT_132",
     "name": "ファイアブラスト ランク2",
     "cost": 2,
@@ -11841,7 +11856,7 @@ hs_cards['jajp'] = {
     "set": 17,
     "type": 0
   },
-  1269: {
+  1271: {
     "id": "HERO_01a",
     "name": "マグニ・ブロンズビアード",
     "health": 30,
@@ -11851,7 +11866,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1270: {
+  1272: {
     "id": "HERO_08a",
     "name": "メディヴ",
     "health": 30,
@@ -11861,7 +11876,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1271: {
+  1273: {
     "id": "DS1h_292_H1",
     "name": "不抜の一矢",
     "cost": 2,
@@ -11870,7 +11885,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 0
   },
-  1272: {
+  1274: {
     "id": "CS2_101_H1",
     "name": "増援",
     "cost": 2,
@@ -11879,7 +11894,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 0
   },
-  1273: {
+  1275: {
     "id": "DS1h_292_H1_AT_132",
     "name": "弩弓の一矢",
     "cost": 2,
@@ -11887,7 +11902,7 @@ hs_cards['jajp'] = {
     "set": 17,
     "type": 0
   },
-  1274: {
+  1276: {
     "id": "CS2_102_H1",
     "name": "装甲強化！",
     "cost": 2,
@@ -11896,7 +11911,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 0
   },
-  1275: {
+  1277: {
     "id": "CS2_102_H1_AT_132",
     "name": "重装甲化！",
     "cost": 2,
@@ -11904,7 +11919,2111 @@ hs_cards['jajp'] = {
     "set": 17,
     "type": 0
   },
-  1276: {
+  1278: {
+    "id": "LOE_012e",
+    "name": "zz削除 墓探検家",
+    "classs": 4,
+    "set": 20,
+    "type": 0
+  },
+  1279: {
+    "id": "LOE_030",
+    "name": "zz削除？操られた鎧",
+    "cost": 4,
+    "attack": 1,
+    "health": 1,
+    "collectible": 0,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1280: {
+    "id": "LOEA08_01",
+    "name": "アーケイダス",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1281: {
+    "id": "LOEA16_22",
+    "name": "アーケイダス",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1282: {
+    "id": "LOEA16_22H",
+    "name": "アーケイダス",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1283: {
+    "id": "LOEA08_01h",
+    "name": "アーケイダス（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1284: {
+    "id": "LOEA06_02t",
+    "name": "アースンの像",
+    "cost": 1,
+    "attack": 0,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1285: {
+    "id": "LOEA06_02th",
+    "name": "アースンの像",
+    "cost": 1,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1286: {
+    "id": "LOEA07_12",
+    "name": "アースンの追跡者",
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1287: {
+    "id": "LOEA06_03",
+    "name": "アースン操作",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1288: {
+    "id": "LOEA06_03h",
+    "name": "アースン操作",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1289: {
+    "id": "LOE_061",
+    "name": "アヌビサス・センチネル",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1290: {
+    "id": "LOEA04_24h",
+    "name": "アヌビサス寺院の番人",
+    "cost": 8,
+    "attack": 6,
+    "health": 15,
+    "set": 20,
+    "type": 0
+  },
+  1291: {
+    "id": "LOEA04_24",
+    "name": "アヌビサス寺院の番人",
+    "cost": 8,
+    "attack": 5,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1292: {
+    "id": "LOEA16_15",
+    "name": "イセラの涙",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1293: {
+    "id": "LOE_003",
+    "name": "イセリアルの召術師",
+    "cost": 5,
+    "attack": 6,
+    "health": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1294: {
+    "id": "LOE_030e",
+    "name": "うつろ",
+    "set": 20,
+    "type": 0
+  },
+  1295: {
+    "id": "LOE_017",
+    "name": "ウルダマンの番人",
+    "cost": 4,
+    "attack": 3,
+    "health": 4,
+    "classs": 2,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1296: {
+    "id": "LOE_113",
+    "name": "エラばれし我らにヒレ伏せ",
+    "cost": 7,
+    "classs": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1297: {
+    "id": "LOE_079",
+    "name": "エリーズ・スターシーカー",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1298: {
+    "id": "LOE_009",
+    "name": "オブシディアン・デストロイヤー",
+    "cost": 7,
+    "attack": 7,
+    "health": 7,
+    "classs": 1,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1299: {
+    "id": "LOEA04_13bth",
+    "name": "オルシスの番人",
+    "cost": 4,
+    "attack": 8,
+    "health": 8,
+    "set": 20,
+    "type": 0
+  },
+  1300: {
+    "id": "LOEA04_13bt",
+    "name": "オルシスの番人",
+    "cost": 4,
+    "attack": 7,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1301: {
+    "id": "LOEA16_13",
+    "name": "オルシスの瞳",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1302: {
+    "id": "LOEA16_14",
+    "name": "カドガーのパイプ",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1303: {
+    "id": "LOEA07_14",
+    "name": "ぎこちないゴーレム",
+    "cost": 6,
+    "attack": 6,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1304: {
+    "id": "LOEA16_11",
+    "name": "ケルサスの王冠",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1305: {
+    "id": "LOEA04_28a",
+    "name": "ゴクリと飲み込む",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1306: {
+    "id": "LOE_039",
+    "name": "ゴリラロボA-3",
+    "cost": 4,
+    "attack": 3,
+    "health": 4,
+    "collectible": 1,
+    "race": 17,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1307: {
+    "id": "LOE_076",
+    "name": "サー・フィンレー・マルグルトン",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "collectible": 1,
+    "race": 14,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1308: {
+    "id": "LOEA16_6",
+    "name": "サルファラスのかけら",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1309: {
+    "id": "LOEA01_01",
+    "name": "サンレイダー・フェリックス",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1310: {
+    "id": "LOEA16_19",
+    "name": "サンレイダー・フェリックス",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1311: {
+    "id": "LOEA16_19H",
+    "name": "サンレイダー・フェリックス",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1312: {
+    "id": "LOEA16_18",
+    "name": "ジナール",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1313: {
+    "id": "LOEA02_01",
+    "name": "ジナール",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1314: {
+    "id": "LOEA16_18H",
+    "name": "ジナール",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1315: {
+    "id": "LOEA02_01h",
+    "name": "ジナール（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1316: {
+    "id": "LOEA16_24H",
+    "name": "ジャイアントフィン",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "race": 14,
+    "set": 20,
+    "type": 0
+  },
+  1317: {
+    "id": "LOEA10_1",
+    "name": "ジャイアントフィン",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1318: {
+    "id": "LOEA16_24",
+    "name": "ジャイアントフィン",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "race": 14,
+    "set": 20,
+    "type": 0
+  },
+  1319: {
+    "id": "LOEA10_1H",
+    "name": "ジャイアントフィン（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1320: {
+    "id": "LOE_051",
+    "name": "ジャングル・ムーンキン",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "classs": 11,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1321: {
+    "id": "LOEA05_01h",
+    "name": "スカーヴァッシュ（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1322: {
+    "id": "LOE_009t",
+    "name": "スカラベ",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "classs": 1,
+    "set": 20,
+    "type": 0
+  },
+  1323: {
+    "id": "LOEA16_26",
+    "name": "スケルサウルス・ヘックス",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1324: {
+    "id": "LOEA13_1",
+    "name": "スケルサウルス・ヘックス",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1325: {
+    "id": "LOEA16_26H",
+    "name": "スケルサウルス・ヘックス",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1326: {
+    "id": "LOEA13_1h",
+    "name": "スケルサウルス（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1327: {
+    "id": "LOEA16_27",
+    "name": "スティール・センチネル",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1328: {
+    "id": "LOEA16_27H",
+    "name": "スティール・センチネル",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1329: {
+    "id": "LOEA14_1",
+    "name": "スティール・センチネル",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1330: {
+    "id": "LOEA09_1H",
+    "name": "スリザースピア（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1331: {
+    "id": "LOEA14_1H",
+    "name": "センチネル（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1332: {
+    "id": "LOE_021",
+    "name": "ダーツの罠",
+    "cost": 2,
+    "classs": 3,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1333: {
+    "id": "LOE_061e",
+    "name": "タイタンの力",
+    "set": 20,
+    "type": 0
+  },
+  1334: {
+    "id": "LOEA07_18",
+    "name": "ダイナマイト",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1335: {
+    "id": "LOE_073",
+    "name": "デビルサウルスの化石",
+    "cost": 8,
+    "attack": 8,
+    "health": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1336: {
+    "id": "LOEA07_20",
+    "name": "ドカーン！",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1337: {
+    "id": "LOEA07_24",
+    "name": "トゲトゲのおとり",
+    "cost": 1,
+    "attack": 3,
+    "health": 6,
+    "race": 17,
+    "set": 20,
+    "type": 0
+  },
+  1338: {
+    "id": "LOEA01_12",
+    "name": "トルヴィア重装歩兵",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1339: {
+    "id": "LOEA01_12h",
+    "name": "トルヴィア重装歩兵",
+    "cost": 3,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1340: {
+    "id": "LOEA05_03h",
+    "name": "トログ、じゅもん、きらい！",
+    "set": 20,
+    "type": 0
+  },
+  1341: {
+    "id": "LOEA05_03",
+    "name": "トログ、じゅもん、きらい！",
+    "set": 20,
+    "type": 0
+  },
+  1342: {
+    "id": "LOE_018e",
+    "name": "トログ、バカ、ちがう",
+    "classs": 7,
+    "set": 20,
+    "type": 0
+  },
+  1343: {
+    "id": "LOEA05_02ha",
+    "name": "トログ、ミニオン、きらい！",
+    "set": 20,
+    "type": 0
+  },
+  1344: {
+    "id": "LOEA05_02h",
+    "name": "トログ、ミニオン、きらい！",
+    "set": 20,
+    "type": 0
+  },
+  1345: {
+    "id": "LOEA05_02a",
+    "name": "トログ、ミニオン、きらい！",
+    "set": 20,
+    "type": 0
+  },
+  1346: {
+    "id": "LOEA05_02",
+    "name": "トログ、ミニオン、きらい！",
+    "set": 20,
+    "type": 0
+  },
+  1347: {
+    "id": "LOEA07_01",
+    "name": "トロッコ",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1348: {
+    "id": "LOE_018",
+    "name": "トンネル・トログ",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "classs": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1349: {
+    "id": "LOEA09_9",
+    "name": "ナーガ・コナーズ",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1350: {
+    "id": "LOEA09_9H",
+    "name": "ナーガ・コナーズ",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1351: {
+    "id": "LOE_038",
+    "name": "ナーガの海の魔女",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 3
+  },
+  1352: {
+    "id": "LOEA12_1H",
+    "name": "ナズジャール（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1353: {
+    "id": "LOE_008H",
+    "name": "ハッカーの瞳",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1354: {
+    "id": "LOE_008",
+    "name": "ハッカーの瞳",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1355: {
+    "id": "LOEA16_10",
+    "name": "ハッカーの血のゴブレット",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1356: {
+    "id": "LOE_010",
+    "name": "ピットスネーク",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "classs": 4,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1357: {
+    "id": "LOEA01_11he",
+    "name": "ヒロイックモード",
+    "set": 20,
+    "type": 0
+  },
+  1358: {
+    "id": "LOEA01_01h",
+    "name": "フェリックス（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1359: {
+    "id": "LOEA16_8",
+    "name": "プトレスの小瓶",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1360: {
+    "id": "LOEA16_8a",
+    "name": "プトレスの秘薬",
+    "set": 20,
+    "type": 0
+  },
+  1361: {
+    "id": "LOE_089",
+    "name": "ふらつくこびと達",
+    "cost": 6,
+    "attack": 2,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1362: {
+    "id": "LOE_077",
+    "name": "ブラン・ブロンズビアード",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1363: {
+    "id": "LOEA07_26",
+    "name": "ブランの助言",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1364: {
+    "id": "LOEA14_2",
+    "name": "プレートメイルアーマー",
+    "set": 20,
+    "type": 0
+  },
+  1365: {
+    "id": "LOEA14_2H",
+    "name": "プレートメイルアーマー",
+    "set": 20,
+    "type": 0
+  },
+  1366: {
+    "id": "LOEA15_3H",
+    "name": "ボーンラプター",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1367: {
+    "id": "LOEA15_3",
+    "name": "ボーンラプター",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1368: {
+    "id": "LOEA10_3",
+    "name": "マーロック・タイニーフィン",
+    "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "collectible": 1,
+    "race": 14,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1369: {
+    "id": "LOEA02_10c",
+    "name": "ミーシャ",
+    "cost": 0,
+    "attack": 4,
+    "health": 4,
+    "classs": 3,
+    "race": 20,
+    "set": 20,
+    "type": 0
+  },
+  1370: {
+    "id": "LOEA16_5t",
+    "name": "ミイラゾンビ",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1371: {
+    "id": "LOE_089t2",
+    "name": "ムカつくこびと",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1372: {
+    "id": "LOEA10_5H",
+    "name": "ムラァグルムラァグルニャーニャー",
+    "cost": 3,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1373: {
+    "id": "LOEA10_5",
+    "name": "ムラァグルムラァグルニャーニャー",
+    "cost": 5,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1374: {
+    "id": "LOE_113e",
+    "name": "ムラァグルルルァァァグルァァ！",
+    "set": 20,
+    "type": 0
+  },
+  1375: {
+    "id": "LOEA10_2",
+    "name": "ムルァグルムルァグル、ムルァグル！",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1376: {
+    "id": "LOEA10_2H",
+    "name": "ムルァグルムルァグル、ムルァグル！",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1377: {
+    "id": "LOEA07_25",
+    "name": "メカ・オウム",
+    "cost": 1,
+    "attack": 3,
+    "health": 6,
+    "race": 17,
+    "set": 20,
+    "type": 0
+  },
+  1378: {
+    "id": "LOEA16_12",
+    "name": "メディヴのロケット",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1379: {
+    "id": "LOEA16_1",
+    "name": "ラファーム",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1380: {
+    "id": "LOEA15_1",
+    "name": "ラファーム",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1381: {
+    "id": "LOEA15_1H",
+    "name": "ラファーム（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1382: {
+    "id": "LOEA16_1H",
+    "name": "ラファーム（ヒロイック）",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1383: {
+    "id": "LOE_007",
+    "name": "ラファームの呪い",
+    "cost": 2,
+    "classs": 9,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1384: {
+    "id": "LOEA02_02h",
+    "name": "ランプの精のクセ",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1385: {
+    "id": "LOEA02_02",
+    "name": "ランプの精のクセ",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1386: {
+    "id": "LOEA04_29b",
+    "name": "ルーンを調査する",
+    "set": 20,
+    "type": 0
+  },
+  1387: {
+    "id": "LOEA09_4",
+    "name": "レア・スピア",
+    "cost": 1,
+    "attack": 1,
+    "durability": 2,
+    "set": 20,
+    "type": 0
+  },
+  1388: {
+    "id": "LOEA09_4H",
+    "name": "レア・スピア",
+    "cost": 1,
+    "attack": 1,
+    "durability": 2,
+    "set": 20,
+    "type": 0
+  },
+  1389: {
+    "id": "LOEA02_10a",
+    "name": "レオック",
+    "cost": 0,
+    "attack": 2,
+    "health": 4,
+    "classs": 3,
+    "race": 20,
+    "set": 20,
+    "type": 0
+  },
+  1390: {
+    "id": "LOEA12_1",
+    "name": "レディ・ナズジャール",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1391: {
+    "id": "LOEA16_25",
+    "name": "レディ・ナズジャール",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1392: {
+    "id": "LOEA16_25H",
+    "name": "レディ・ナズジャール",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1393: {
+    "id": "LOE_011",
+    "name": "レノ・ジャクソン",
+    "cost": 6,
+    "attack": 4,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1394: {
+    "id": "LOEA16_9",
+    "name": "ローサーの左すね当て",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1395: {
+    "id": "LOEA16_23",
+    "name": "ロード・スリザースピア",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1396: {
+    "id": "LOEA09_1",
+    "name": "ロード・スリザースピア",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1397: {
+    "id": "LOEA16_23H",
+    "name": "ロード・スリザースピア",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1398: {
+    "id": "LOE_115b",
+    "name": "ワタリガラスの偶像",
+    "classs": 11,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1399: {
+    "id": "LOE_115",
+    "name": "ワタリガラスの偶像",
+    "cost": 1,
+    "classs": 11,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1400: {
+    "id": "LOE_115a",
+    "name": "ワタリガラスの偶像",
+    "classs": 11,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1401: {
+    "id": "LOE_026",
+    "name": "七つの鯛罪",
+    "cost": 10,
+    "classs": 2,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1402: {
+    "id": "LOEA15_2",
+    "name": "不安定なポータル",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1403: {
+    "id": "LOEA15_2H",
+    "name": "不安定なポータル",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1404: {
+    "id": "LOE_107",
+    "name": "不気味な像",
+    "cost": 4,
+    "attack": 7,
+    "health": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1405: {
+    "id": "LOEA_01",
+    "name": "不穏な気配",
+    "cost": 3,
+    "set": 20,
+    "type": 0
+  },
+  1406: {
+    "id": "LOEA_01H",
+    "name": "不穏な気配",
+    "cost": 3,
+    "set": 20,
+    "type": 0
+  },
+  1407: {
+    "id": "LOEA04_06",
+    "name": "串刺しの奈落",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1408: {
+    "id": "LOEA07_28",
+    "name": "修理",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1409: {
+    "id": "LOEA04_28",
+    "name": "光る池",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1410: {
+    "id": "LOEA07_21",
+    "name": "全速力",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1411: {
+    "id": "LOE_009e",
+    "name": "凶悪なる力",
+    "classs": 9,
+    "set": 20,
+    "type": 0
+  },
+  1412: {
+    "id": "LOEA16_3",
+    "name": "力のランタン",
+    "cost": 10,
+    "set": 20,
+    "type": 0
+  },
+  1413: {
+    "id": "LOEA16_3e",
+    "name": "力のランタン",
+    "set": 20,
+    "type": 0
+  },
+  1414: {
+    "id": "LOEA02_03",
+    "name": "力の願い",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1415: {
+    "id": "LOE_073e",
+    "name": "化石",
+    "set": 20,
+    "type": 0
+  },
+  1416: {
+    "id": "LOE_006",
+    "name": "博物館のキュレーター",
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "classs": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1417: {
+    "id": "LOEA02_10",
+    "name": "友情の願い",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1418: {
+    "id": "LOE_110",
+    "name": "古代のシェード",
+    "cost": 4,
+    "attack": 7,
+    "health": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1419: {
+    "id": "LOEA13_2",
+    "name": "古代の力",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1420: {
+    "id": "LOEA13_2H",
+    "name": "古代の力",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1421: {
+    "id": "LOE_110t",
+    "name": "古代の呪い",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1422: {
+    "id": "LOE_086",
+    "name": "召喚石",
+    "cost": 5,
+    "attack": 0,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1423: {
+    "id": "LOE_007t",
+    "name": "呪われた！",
+    "cost": 2,
+    "classs": 9,
+    "set": 20,
+    "type": 0
+  },
+  1424: {
+    "id": "LOE_118e",
+    "name": "呪われた剣",
+    "classs": 1,
+    "set": 20,
+    "type": 0
+  },
+  1425: {
+    "id": "LOE_118",
+    "name": "呪われた剣",
+    "cost": 1,
+    "attack": 2,
+    "durability": 3,
+    "classs": 1,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1426: {
+    "id": "LOEA07_02",
+    "name": "坑道",
+    "health": 80,
+    "set": 20,
+    "type": 0
+  },
+  1427: {
+    "id": "LOEA07_02h",
+    "name": "坑道（ヒロイック）",
+    "health": 80,
+    "set": 20,
+    "type": 0
+  },
+  1428: {
+    "id": "LOE_104",
+    "name": "埋葬",
+    "cost": 6,
+    "classs": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1429: {
+    "id": "LOE_047",
+    "name": "墓守蜘蛛",
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1430: {
+    "id": "LOE_012",
+    "name": "墓荒らし",
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "classs": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1431: {
+    "id": "LOE_092",
+    "name": "大怪盗ラファーム",
+    "cost": 9,
+    "attack": 7,
+    "health": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1432: {
+    "id": "LOEA06_04",
+    "name": "大破砕",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1433: {
+    "id": "LOEA06_04h",
+    "name": "大破砕",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1434: {
+    "id": "LOEA09_7e",
+    "name": "大釜",
+    "set": 20,
+    "type": 0
+  },
+  1435: {
+    "id": "LOEA09_7H",
+    "name": "大釜",
+    "cost": 0,
+    "attack": 0,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1436: {
+    "id": "LOEA09_7",
+    "name": "大釜",
+    "cost": 0,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1437: {
+    "id": "LOEA01_11h",
+    "name": "太陽のロッド",
+    "cost": 0,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1438: {
+    "id": "LOEA01_11",
+    "name": "太陽のロッド",
+    "cost": 0,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1439: {
+    "id": "LOEA01_02",
+    "name": "太陽の祝福",
+    "set": 20,
+    "type": 0
+  },
+  1440: {
+    "id": "LOEA16_20H",
+    "name": "太陽の祝福",
+    "set": 20,
+    "type": 0
+  },
+  1441: {
+    "id": "LOEA16_20",
+    "name": "太陽の祝福",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1442: {
+    "id": "LOEA01_02h",
+    "name": "太陽の祝福",
+    "set": 20,
+    "type": 0
+  },
+  1443: {
+    "id": "LOE_029",
+    "name": "宝飾スカラベ",
+    "cost": 2,
+    "attack": 1,
+    "health": 1,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1444: {
+    "id": "LOEA04_01",
+    "name": "寺院からの脱出",
+    "health": 100,
+    "set": 20,
+    "type": 0
+  },
+  1445: {
+    "id": "LOEA04_01e",
+    "name": "寺院からの脱出ボーナス",
+    "set": 20,
+    "type": 0
+  },
+  1446: {
+    "id": "LOEA04_01eh",
+    "name": "寺院からの脱出ボーナス",
+    "set": 20,
+    "type": 0
+  },
+  1447: {
+    "id": "LOE_016t",
+    "name": "岩",
+    "cost": 1,
+    "attack": 0,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1448: {
+    "id": "LOEA07_29",
+    "name": "岩投げ",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1449: {
+    "id": "LOE_046",
+    "name": "巨大ガマ",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1450: {
+    "id": "LOEA04_23",
+    "name": "巨大昆虫",
+    "cost": 7,
+    "attack": 10,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1451: {
+    "id": "LOEA04_23h",
+    "name": "巨大昆虫",
+    "cost": 7,
+    "attack": 10,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1452: {
+    "id": "LOEA09_3H",
+    "name": "底なしの胃袋",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1453: {
+    "id": "LOE_002",
+    "name": "忘れられた松明",
+    "cost": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1454: {
+    "id": "LOEA04_31b",
+    "name": "急がば回れ！",
+    "set": 20,
+    "type": 0
+  },
+  1455: {
+    "id": "LOEA16_4",
+    "name": "恐怖時計",
+    "cost": 10,
+    "set": 20,
+    "type": 0
+  },
+  1456: {
+    "id": "LOEA04_06b",
+    "name": "慎重に歩いて渡る",
+    "set": 20,
+    "type": 0
+  },
+  1457: {
+    "id": "LOEA04_25h",
+    "name": "憤怒の像",
+    "cost": 8,
+    "attack": 5,
+    "health": 9,
+    "set": 20,
+    "type": 0
+  },
+  1458: {
+    "id": "LOEA04_25",
+    "name": "憤怒の像",
+    "cost": 8,
+    "attack": 0,
+    "health": 9,
+    "set": 20,
+    "type": 0
+  },
+  1459: {
+    "id": "LOE_111",
+    "name": "掘り出されし邪悪",
+    "cost": 5,
+    "classs": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1460: {
+    "id": "LOE_019",
+    "name": "掘り起こされたラプター",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "classs": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1461: {
+    "id": "LOE_019e",
+    "name": "掘り起こされたラプター",
+    "classs": 4,
+    "set": 20,
+    "type": 0
+  },
+  1462: {
+    "id": "LOEA16_16H",
+    "name": "探し物",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1463: {
+    "id": "LOEA16_16",
+    "name": "探し物",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1464: {
+    "id": "LOE_105",
+    "name": "探検家の帽子",
+    "cost": 2,
+    "classs": 3,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1465: {
+    "id": "LOE_105e",
+    "name": "探検家の帽子",
+    "classs": 3,
+    "set": 20,
+    "type": 0
+  },
+  1466: {
+    "id": "LOEA04_27",
+    "name": "操られた像",
+    "cost": 1,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1467: {
+    "id": "LOEA16_17",
+    "name": "操られた像",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1468: {
+    "id": "LOE_119",
+    "name": "操られた鎧",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "classs": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1469: {
+    "id": "LOEA06_03e",
+    "name": "操り",
+    "set": 20,
+    "type": 0
+  },
+  1470: {
+    "id": "LOEA06_03eh",
+    "name": "操り",
+    "set": 20,
+    "type": 0
+  },
+  1471: {
+    "id": "LOEA05_01",
+    "name": "族長・スカーヴァッシュ",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1472: {
+    "id": "LOEA16_21",
+    "name": "族長・スカーヴァッシュ",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1473: {
+    "id": "LOEA16_21H",
+    "name": "族長・スカーヴァッシュ",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1474: {
+    "id": "LOEA02_05",
+    "name": "栄光の願い",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1475: {
+    "id": "LOEA02_04",
+    "name": "武勇の願い",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1476: {
+    "id": "LOE_089t3",
+    "name": "毒づくこびと",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1477: {
+    "id": "LOEA12_2",
+    "name": "潮の真珠",
+    "set": 20,
+    "type": 0
+  },
+  1478: {
+    "id": "LOEA12_2H",
+    "name": "潮の真珠",
+    "set": 20,
+    "type": 0
+  },
+  1479: {
+    "id": "LOEA09_2e",
+    "name": "激怒",
+    "set": 20,
+    "type": 0
+  },
+  1480: {
+    "id": "LOEA09_2eH",
+    "name": "激怒",
+    "set": 20,
+    "type": 0
+  },
+  1481: {
+    "id": "LOEA09_2H",
+    "name": "激怒！",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1482: {
+    "id": "LOEA09_2",
+    "name": "激怒！",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1483: {
+    "id": "LOE_002t",
+    "name": "燃え盛る松明",
+    "cost": 3,
+    "classs": 8,
+    "set": 20,
+    "type": 0
+  },
+  1484: {
+    "id": "LOE_022",
+    "name": "獰猛なサル",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "classs": 1,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1485: {
+    "id": "LOEA07_11",
+    "name": "瓦礫",
+    "cost": 1,
+    "attack": 0,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1486: {
+    "id": "LOE_017e",
+    "name": "番人の監視",
+    "classs": 2,
+    "set": 20,
+    "type": 0
+  },
+  1487: {
+    "id": "LOE_089t",
+    "name": "盾突くこびと",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1488: {
+    "id": "LOEA06_02h",
+    "name": "石彫",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1489: {
+    "id": "LOEA06_02",
+    "name": "石彫",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1490: {
+    "id": "LOE_020",
+    "name": "砂漠ラクダ",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "classs": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1491: {
+    "id": "LOEA16_5",
+    "name": "破滅の鏡",
+    "cost": 10,
+    "set": 20,
+    "type": 0
+  },
+  1492: {
+    "id": "LOEA16_20e",
+    "name": "祝福",
+    "set": 20,
+    "type": 0
+  },
+  1493: {
+    "id": "LOEA09_3d",
+    "name": "空きっ腹",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1494: {
+    "id": "LOEA09_3c",
+    "name": "空きっ腹",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1495: {
+    "id": "LOEA09_3b",
+    "name": "空きっ腹",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1496: {
+    "id": "LOEA09_3",
+    "name": "空きっ腹",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1497: {
+    "id": "LOEA09_10",
+    "name": "空腹のナーガ",
+    "cost": 2,
+    "attack": 2,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1498: {
+    "id": "LOEA09_12",
+    "name": "空腹のナーガ",
+    "cost": 4,
+    "attack": 2,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1499: {
+    "id": "LOEA09_11",
+    "name": "空腹のナーガ",
+    "cost": 3,
+    "attack": 1,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1500: {
+    "id": "LOEA09_13",
+    "name": "空腹のナーガ",
+    "cost": 5,
+    "attack": 5,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1501: {
+    "id": "LOEA09_5H",
+    "name": "空腹のナーガ",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1502: {
+    "id": "LOEA09_5",
+    "name": "空腹のナーガ",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1503: {
+    "id": "LOEA04_28b",
+    "name": "突っ切る",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1504: {
+    "id": "LOE_027",
+    "name": "聖なる試練",
+    "cost": 1,
+    "classs": 2,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1505: {
+    "id": "LOEA16_7",
+    "name": "聖別の破片",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1506: {
+    "id": "LOE_116",
+    "name": "聖堂の探求者",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "classs": 9,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1507: {
+    "id": "LOEA04_02h",
+    "name": "脱出！",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1508: {
+    "id": "LOEA04_02",
+    "name": "脱出！",
+    "cost": 0,
+    "set": 20,
+    "type": 0,
+    "quality": 0
+  },
+  1509: {
+    "id": "LOEA04_01h",
+    "name": "脱出（ヒロイック）",
+    "health": 100,
+    "set": 20,
+    "type": 0
+  },
+  1510: {
+    "id": "LOEA09_3aH",
+    "name": "腹ペコ",
+    "set": 20,
+    "type": 0
+  },
+  1511: {
+    "id": "LOEA09_3a",
+    "name": "腹ペコ",
+    "set": 20,
+    "type": 0
+  },
+  1512: {
+    "id": "LOEA04_06a",
+    "name": "華麗にロープで飛び越える",
+    "set": 20,
+    "type": 0
+  },
+  1513: {
+    "id": "LOE_053",
+    "name": "西風の精",
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 3
+  },
+  1514: {
+    "id": "LOEA04_29a",
+    "name": "触る",
+    "set": 20,
+    "type": 0
+  },
+  1515: {
+    "id": "LOEA16_2",
+    "name": "起源の杖",
+    "set": 20,
+    "type": 0
+  },
+  1516: {
+    "id": "LOEA16_2H",
+    "name": "起源の杖",
+    "set": 20,
+    "type": 0
+  },
+  1517: {
+    "id": "LOE_024t",
+    "name": "転がる大岩",
+    "cost": 4,
+    "attack": 0,
+    "health": 4,
+    "set": 20,
+    "type": 0
+  },
+  1518: {
+    "id": "LOEA04_29",
+    "name": "輝く瞳",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1519: {
+    "id": "LOE_016",
+    "name": "轟きのエレメンタル",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "classs": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1520: {
+    "id": "LOEA04_30a",
+    "name": "近道する",
+    "set": 20,
+    "type": 0
+  },
+  1521: {
+    "id": "LOEA07_09",
+    "name": "追ってくるトログ",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1522: {
+    "id": "LOEA09_6H",
+    "name": "這いずる射手",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1523: {
+    "id": "LOEA09_6",
+    "name": "這いずる射手",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1524: {
+    "id": "LOEA09_8",
+    "name": "這いずる衛兵",
+    "cost": 5,
+    "attack": 3,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1525: {
+    "id": "LOEA09_8H",
+    "name": "這いずる衛兵",
+    "cost": 5,
+    "attack": 5,
+    "health": 7,
+    "set": 20,
+    "type": 0
+  },
+  1526: {
+    "id": "LOEA07_03",
+    "name": "鉱山から逃げ出せ！",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1527: {
+    "id": "LOEA07_03h",
+    "name": "鉱山から逃げ出せ！",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1528: {
+    "id": "LOEA04_30",
+    "name": "闇の中へ続く道",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1529: {
+    "id": "LOE_023",
+    "name": "闇の売人",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "classs": 9,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1530: {
+    "id": "LOEA02_06",
+    "name": "願いの数が増える願い",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1531: {
+    "id": "LOE_050",
+    "name": "騎乗のラプター",
+    "cost": 3,
+    "attack": 3,
+    "health": 2,
+    "classs": 11,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1532: {
+    "id": "LOE_019t2",
+    "name": "黄金のサル",
+    "cost": 4,
+    "attack": 6,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1533: {
+    "id": "LOE_019t",
+    "name": "黄金のサルへの地図",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1534: {
     "id": "TU4e_004",
     "name": "アズィノスのウォーグレイヴ",
     "cost": 2,
@@ -11914,14 +14033,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1277: {
+  1535: {
     "id": "TU4e_002",
     "name": "アズィノスの炎",
     "cost": 2,
     "set": 5,
     "type": 0
   },
-  1278: {
+  1536: {
     "id": "TU4e_002t",
     "name": "アズィノスの炎",
     "cost": 1,
@@ -11931,7 +14050,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1279: {
+  1537: {
     "id": "TU4f_007",
     "name": "イカレたサル",
     "cost": 1,
@@ -11941,7 +14060,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1280: {
+  1538: {
     "id": "TU4e_001",
     "name": "イリダン・ストームレイジ",
     "health": 30,
@@ -11949,7 +14068,7 @@ hs_cards['jajp'] = {
     "set": 5,
     "type": 0
   },
-  1281: {
+  1539: {
     "id": "TU4c_001",
     "name": "キング・ムクラ",
     "health": 26,
@@ -11957,7 +14076,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1282: {
+  1540: {
     "id": "TU4a_005",
     "name": "ごっついノール",
     "cost": 4,
@@ -11967,7 +14086,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1283: {
+  1541: {
     "id": "TU4a_006",
     "name": "ジェイナ・プラウドムーア",
     "health": 27,
@@ -11976,7 +14095,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1284: {
+  1542: {
     "id": "TU4f_003",
     "name": "シャドーパン武僧",
     "cost": 2,
@@ -11986,7 +14105,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1285: {
+  1543: {
     "id": "TU4d_003",
     "name": "ショットガン発射",
     "cost": 2,
@@ -11995,7 +14114,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1286: {
+  1544: {
     "id": "TU4c_003",
     "name": "タル",
     "cost": 0,
@@ -12004,7 +14123,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1287: {
+  1545: {
     "id": "TU4c_002",
     "name": "タル投げ",
     "cost": 1,
@@ -12012,7 +14131,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1288: {
+  1546: {
     "id": "TU4e_007",
     "name": "デュアル・ウォーグレイヴ",
     "cost": 6,
@@ -12022,7 +14141,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1289: {
+  1547: {
     "id": "TU4e_003",
     "name": "ナーガの戦士",
     "cost": 1,
@@ -12032,7 +14151,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1290: {
+  1548: {
     "id": "TU4a_003",
     "name": "ノール",
     "cost": 1,
@@ -12042,7 +14161,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1291: {
+  1549: {
     "id": "TU4d_002",
     "name": "ノリノリのハンター",
     "cost": 1,
@@ -12052,13 +14171,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1292: {
+  1550: {
     "id": "TU4c_006e",
     "name": "バナナ",
     "set": 5,
     "type": 0
   },
-  1293: {
+  1551: {
     "id": "TU4c_006",
     "name": "バナナ",
     "cost": 1,
@@ -12066,7 +14185,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1294: {
+  1552: {
     "id": "TU4f_002",
     "name": "パンダレンの斥候",
     "cost": 1,
@@ -12076,7 +14195,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1295: {
+  1553: {
     "id": "TU4d_001",
     "name": "ヒーメット・ネッシングウェアリー",
     "health": 20,
@@ -12085,7 +14204,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1296: {
+  1554: {
     "id": "TU4e_005",
     "name": "フレイムバースト",
     "cost": 3,
@@ -12093,7 +14212,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1297: {
+  1555: {
     "id": "TU4a_001",
     "name": "ホガー",
     "health": 10,
@@ -12101,7 +14220,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1298: {
+  1556: {
     "id": "TU4a_004",
     "name": "ホガー、殴る！",
     "cost": 3,
@@ -12109,7 +14228,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1299: {
+  1557: {
     "id": "TU4b_001",
     "name": "ミルハウス・マナストーム",
     "health": 20,
@@ -12118,7 +14237,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1300: {
+  1558: {
     "id": "TU4c_007",
     "name": "ムクラの兄",
     "cost": 6,
@@ -12128,13 +14247,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1301: {
+  1559: {
     "id": "TU4c_008e",
     "name": "ムクラの全力",
     "set": 5,
     "type": 0
   },
-  1302: {
+  1560: {
     "id": "TU4c_008",
     "name": "ムクラの根性",
     "cost": 3,
@@ -12142,7 +14261,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1303: {
+  1561: {
     "id": "TU4a_002",
     "name": "リバーポーのノール",
     "cost": 1,
@@ -12152,14 +14271,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1304: {
+  1562: {
     "id": "TU4f_001",
     "name": "探話士チョー",
     "health": 25,
     "set": 5,
     "type": 0
   },
-  1305: {
+  1563: {
     "id": "TU4f_004",
     "name": "皇帝の遺産",
     "cost": 3,
@@ -12167,13 +14286,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1306: {
+  1564: {
     "id": "TU4f_004o",
     "name": "皇帝の遺産",
     "set": 5,
     "type": 0
   },
-  1307: {
+  1565: {
     "id": "TU4f_006",
     "name": "超越",
     "cost": 1,
@@ -12181,13 +14300,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1308: {
+  1566: {
     "id": "TU4f_006o",
     "name": "超越",
     "set": 5,
     "type": 0
   },
-  1309: {
+  1567: {
     "id": "TU4c_004",
     "name": "踏みつけ",
     "cost": 2,
@@ -12195,7 +14314,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1310: {
+  1568: {
     "id": "TU4f_005",
     "name": "酒造大師",
     "cost": 4,
@@ -12205,7 +14324,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1311: {
+  1569: {
     "id": "TU4c_005",
     "name": "隠れノーム",
     "cost": 2,
@@ -12215,14 +14334,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1312: {
+  1570: {
     "id": "PRO_001a",
     "name": "アイ・アム・マーロック",
     "cost": 4,
     "set": 11,
     "type": 0
   },
-  1313: {
+  1571: {
     "id": "PRO_001",
     "name": "エリート・トーレン・チーフテン",
     "cost": 5,
@@ -12233,7 +14352,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1314: {
+  1572: {
     "id": "EX1_112",
     "name": "ゲルビン・メカトルク",
     "cost": 6,
@@ -12244,7 +14363,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1315: {
+  1573: {
     "id": "Mekka3",
     "name": "ダイターン3000",
     "cost": 1,
@@ -12255,7 +14374,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1316: {
+  1574: {
     "id": "Mekka4",
     "name": "ニワトライザー",
     "cost": 1,
@@ -12266,7 +14385,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1317: {
+  1575: {
     "id": "Mekka4t",
     "name": "ニワトリ",
     "cost": 0,
@@ -12276,14 +14395,14 @@ hs_cards['jajp'] = {
     "set": 11,
     "type": 0
   },
-  1318: {
+  1576: {
     "id": "PRO_001c",
     "name": "パワー・オブ・ザ・ホード",
     "cost": 4,
     "set": 11,
     "type": 0
   },
-  1319: {
+  1577: {
     "id": "Mekka1",
     "name": "ホーミング・チキン",
     "cost": 1,
@@ -12294,7 +14413,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1320: {
+  1578: {
     "id": "PRO_001at",
     "name": "マーロック",
     "cost": 0,
@@ -12304,14 +14423,14 @@ hs_cards['jajp'] = {
     "set": 11,
     "type": 0
   },
-  1321: {
+  1579: {
     "id": "PRO_001b",
     "name": "ローグス・ドゥ・イット…",
     "cost": 4,
     "set": 11,
     "type": 0
   },
-  1322: {
+  1580: {
     "id": "Mekka2",
     "name": "修理ロボ",
     "cost": 1,
@@ -12322,19 +14441,19 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1323: {
+  1581: {
     "id": "Mekka4e",
     "name": "変身",
     "set": 11,
     "type": 0
   },
-  1324: {
+  1582: {
     "id": "Mekka3e",
     "name": "大胆不敵！",
     "set": 11,
     "type": 0
   },
-  1325: {
+  1583: {
     "id": "EX1_062",
     "name": "大いなるマーク・アイ",
     "cost": 4,
@@ -12346,7 +14465,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1326: {
+  1584: {
     "id": "NEW1_016",
     "name": "船長のオウム",
     "cost": 2,
@@ -12358,7 +14477,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1327: {
+  1585: {
     "id": "PlaceholderCard",
     "name": "Placeholder Card",
     "cost": 9,
@@ -12369,70 +14488,82 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1328: {
+  1586: {
     "id": "TB_009",
     "name": "15の秘策",
     "set": 18,
     "type": 0
   },
-  1329: {
+  1587: {
     "id": "TB_010e",
     "name": "3枚のうち1枚を選んでくれ",
     "set": 18,
     "type": 0
   },
-  1330: {
+  1588: {
     "id": "TB_FactionWar_Boss_BoomBot",
     "name": "FactionWar_BoomBot",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1331: {
+  1589: {
     "id": "TB_GreatCurves_01",
     "name": "TB_ClockworkCardDealer",
     "set": 18,
     "type": 0
   },
-  1332: {
+  1590: {
+    "id": "TB_DecreasingCardCost",
+    "name": "TB_DecreasingCardCost",
+    "set": 18,
+    "type": 0
+  },
+  1591: {
     "id": "TB_RMC_001",
     "name": "TB_EnchRandomManaCost",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1333: {
+  1592: {
+    "id": "TB_DecreasingCardCostDebug",
+    "name": "TBDecreasingCardCostDebug",
+    "set": 18,
+    "type": 0
+  },
+  1593: {
     "id": "TB_FactionWar_BoomBot",
     "name": "TBFactionWarBoomBot",
     "set": 18,
     "type": 0
   },
-  1334: {
+  1594: {
     "id": "TB_FactionWar_BoomBot_Spell",
     "name": "TBFactionWarBoomBotSpell",
     "cost": 1,
     "set": 18,
     "type": 0
   },
-  1335: {
+  1595: {
     "id": "TB_MechWar_CommonCards",
     "name": "TBMechWarCommonCards",
     "set": 18,
     "type": 0
   },
-  1336: {
+  1596: {
     "id": "TB_RandCardCost",
     "name": "TBRandomCardCost",
     "set": 18,
     "type": 0
   },
-  1337: {
+  1597: {
     "id": "TBUD_1",
     "name": "TBUD 序盤ミニオン召喚",
     "set": 18,
     "type": 0
   },
-  1338: {
+  1598: {
     "id": "BRMC_86",
     "name": "アトラメデス",
     "cost": 4,
@@ -12443,7 +14574,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1339: {
+  1599: {
     "id": "TB_007",
     "name": "アベコベ・バナナ",
     "cost": 1,
@@ -12451,7 +14582,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1340: {
+  1600: {
     "id": "BRMC_97",
     "name": "ヴェーラストラーズ",
     "cost": 6,
@@ -12462,13 +14593,23 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1341: {
+  1601: {
     "id": "TB_CoOpBossSpell_4",
     "name": "オーバークロック",
     "set": 18,
     "type": 0
   },
-  1342: {
+  1602: {
+    "id": "TB_CoOp_Mechazod2",
+    "name": "オーバーロードしたメカゾッド",
+    "cost": 10,
+    "attack": 9,
+    "health": 80,
+    "set": 18,
+    "type": 0,
+    "quality": 4
+  },
+  1603: {
     "id": "TBST_005",
     "name": "オールドPvPローグ",
     "cost": 3,
@@ -12477,14 +14618,14 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1343: {
+  1604: {
     "id": "TBST_006",
     "name": "オールドTBST コモンカードプッシュ",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1344: {
+  1605: {
     "id": "TBST_004",
     "name": "オールド専業ヒーラー",
     "cost": 3,
@@ -12493,7 +14634,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1345: {
+  1606: {
     "id": "TBST_001",
     "name": "オールド新参タンク",
     "cost": 1,
@@ -12502,7 +14643,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1346: {
+  1607: {
     "id": "TBST_003",
     "name": "オールド新参ヒーラー",
     "cost": 1,
@@ -12511,7 +14652,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1347: {
+  1608: {
     "id": "TBST_002",
     "name": "オールド新参メイジ",
     "cost": 1,
@@ -12520,28 +14661,28 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1348: {
+  1609: {
     "id": "BRMC_93",
     "name": "オムノトロン防衛システム",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1349: {
+  1610: {
     "id": "BRMA07_2_2_TB",
     "name": "おれ、なぐる",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1350: {
+  1611: {
     "id": "BRMA07_2_2c_TB",
     "name": "おれ、なぐる",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1351: {
+  1612: {
     "id": "BRMC_99",
     "name": "ガァア",
     "cost": 5,
@@ -12551,14 +14692,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1352: {
+  1613: {
     "id": "HRW02_1e",
     "name": "ギア・アップ",
     "cost": 1,
     "set": 18,
     "type": 0
   },
-  1353: {
+  1614: {
     "id": "TB_CoOp_Mechazod",
     "name": "ギアマスター・メカゾッド",
     "cost": 10,
@@ -12568,21 +14709,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1354: {
+  1615: {
     "id": "TB_011",
     "name": "くすんだコイン",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1355: {
+  1616: {
     "id": "NAX3_02_TB",
     "name": "クモ糸縛り",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1356: {
+  1617: {
     "id": "BRMC_96",
     "name": "グリムストーン判事長",
     "cost": 3,
@@ -12592,7 +14733,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1357: {
+  1618: {
     "id": "BRMC_95he",
     "name": "コアハウンドの子犬",
     "cost": 3,
@@ -12602,14 +14743,14 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1358: {
+  1619: {
     "id": "BRMC_95h",
     "name": "コアハウンドの子犬たち",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1359: {
+  1620: {
     "id": "BRMC_95",
     "name": "ゴレマグ",
     "cost": 50,
@@ -12619,7 +14760,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1360: {
+  1621: {
     "id": "BRMC_92",
     "name": "コレン・ダイアブルー",
     "cost": 4,
@@ -12629,7 +14770,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1361: {
+  1622: {
     "id": "BRMC_94",
     "name": "サルファラス",
     "cost": 2,
@@ -12638,32 +14779,32 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1362: {
+  1623: {
     "id": "TB_007e",
     "name": "そんなバナナ",
     "set": 18,
     "type": 0
   },
-  1363: {
+  1624: {
     "id": "TB_CoOpBossSpell_5",
     "name": "ダブルザップ",
     "set": 18,
     "type": 0
   },
-  1364: {
+  1625: {
     "id": "TB_010",
     "name": "デッキ構築の魔力",
     "set": 18,
     "type": 0
   },
-  1365: {
+  1626: {
     "id": "BRMA01_2H_2_TB",
     "name": "てんこ盛り！！",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1366: {
+  1627: {
     "id": "BRMC_88",
     "name": "ドラコニッド・スレイヤー",
     "cost": 6,
@@ -12673,7 +14814,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1367: {
+  1628: {
     "id": "BRMC_84",
     "name": "ドラゴンキン・スペルキャスター",
     "cost": 5,
@@ -12683,27 +14824,33 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1368: {
+  1629: {
     "id": "BRMC_98e",
     "name": "ドラゴンの欲望",
     "set": 18,
     "type": 0
   },
-  1369: {
+  1630: {
     "id": "TBA01_4",
     "name": "ネファリアン",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1370: {
+  1631: {
     "id": "TB_MechWar_Boss1_HeroPower",
     "name": "ハロー！ハロー！ハロー！",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1371: {
+  1632: {
+    "id": "TB_006e",
+    "name": "ビッグ・バナナ",
+    "set": 18,
+    "type": 0
+  },
+  1633: {
     "id": "TB_006",
     "name": "ビッグ・バナナ",
     "cost": 1,
@@ -12711,13 +14858,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1372: {
-    "id": "TB_006e",
-    "name": "ビッグ・バナナ",
-    "set": 18,
-    "type": 0
-  },
-  1373: {
+  1634: {
     "id": "TB_MechWar_Boss2",
     "name": "ブームロボ",
     "health": 30,
@@ -12725,32 +14866,44 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 0
   },
-  1374: {
+  1635: {
     "id": "TB_MechWar_Boss2_HeroPower",
     "name": "ブームロボ・ジュニア",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1375: {
+  1636: {
     "id": "TB_013",
     "name": "プレイヤーの選択の魔力",
     "set": 18,
     "type": 0
   },
-  1376: {
+  1637: {
+    "id": "TB_013_PickOnCurve",
+    "name": "プレイヤーの選択の魔力 カーブ",
+    "set": 18,
+    "type": 0
+  },
+  1638: {
+    "id": "TB_013_PickOnCurve2",
+    "name": "プレイヤーの選択の魔力 カーブ2",
+    "set": 18,
+    "type": 0
+  },
+  1639: {
     "id": "TB_001",
     "name": "ボスHPスワッパー",
     "set": 18,
     "type": 0
   },
-  1377: {
+  1640: {
     "id": "TB_RandHero2_001",
     "name": "ボスHPスワッパー2",
     "set": 18,
     "type": 0
   },
-  1378: {
+  1641: {
     "id": "TB_MechWar_Boss1",
     "name": "マジウザ・オ・トロン",
     "health": 30,
@@ -12758,7 +14911,16 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 0
   },
-  1379: {
+  1642: {
+    "id": "TB_MechWar_Minion1",
+    "name": "メカのファン",
+    "cost": 2,
+    "attack": 1,
+    "health": 1,
+    "set": 18,
+    "type": 0
+  },
+  1643: {
     "id": "BRMC_87",
     "name": "モイラ・ブロンズビアード",
     "cost": 3,
@@ -12768,7 +14930,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1380: {
+  1644: {
     "id": "BRMC_85",
     "name": "ルシフロン",
     "cost": 4,
@@ -12778,7 +14940,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1381: {
+  1645: {
     "id": "BRMC_98",
     "name": "レイザーゴア",
     "cost": 6,
@@ -12789,7 +14951,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1382: {
+  1646: {
     "id": "BRMC_99e",
     "name": "ロック・エレメンタル",
     "cost": 2,
@@ -12798,93 +14960,114 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1383: {
+  1647: {
     "id": "TB_CoOpBossSpell_2",
     "name": "一斉爆撃",
     "set": 18,
     "type": 0
   },
-  1384: {
+  1648: {
     "id": "TB_CoOpBossSpell_1",
     "name": "優先目標",
     "set": 18,
     "type": 0
   },
-  1385: {
+  1649: {
+    "id": "TB_GiftExchange_Treasure",
+    "name": "冬至祭の贈り物",
+    "cost": 0,
+    "attack": 0,
+    "health": 4,
+    "set": 18,
+    "type": 0
+  },
+  1650: {
     "id": "TB_CoOpBossSpell_3",
     "name": "冷却剤噴射",
     "set": 18,
     "type": 0
   },
-  1386: {
+  1651: {
     "id": "NAX8_02H_TB",
     "name": "刈入れ",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1387: {
-    "id": "BRMA02_2_2_TB",
-    "name": "囃し立てる観客",
-    "cost": 2,
-    "set": 18,
-    "type": 0
-  },
-  1388: {
+  1652: {
     "id": "BRMA02_2_2c_TB",
     "name": "囃し立てる観客",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1389: {
-    "id": "BRMA13_4_2_TB",
-    "name": "始原の魔法",
+  1653: {
+    "id": "BRMA02_2_2_TB",
+    "name": "囃し立てる観客",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1390: {
+  1654: {
     "id": "TBA01_5",
     "name": "始原の魔法",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1391: {
+  1655: {
+    "id": "BRMA13_4_2_TB",
+    "name": "始原の魔法",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1656: {
+    "id": "TB_GiftExchange_Enchantment",
+    "name": "安い贈り物",
+    "set": 18,
+    "type": 0
+  },
+  1657: {
+    "id": "TB_AllMinionsTauntCharge",
+    "name": "挑発と突撃を付与",
+    "set": 18,
+    "type": 0
+  },
+  1658: {
     "id": "TB_CoOpBossSpell_6",
     "name": "探話士抹殺",
     "set": 18,
     "type": 0
   },
-  1392: {
-    "id": "TB_012",
-    "name": "新しいカードを1枚選んでくれ！",
-    "cost": 0,
-    "set": 18,
-    "type": 0
-  },
-  1393: {
+  1659: {
     "id": "TB_014",
     "name": "新しいカードを1枚選んでくれ！",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1394: {
+  1660: {
+    "id": "TB_012",
+    "name": "新しいカードを1枚選んでくれ！",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1661: {
     "id": "TB_EndlessMinions01",
     "name": "果て無き魔力付与",
     "set": 18,
     "type": 0
   },
-  1395: {
+  1662: {
     "id": "NAX11_02H_2_TB",
     "name": "毒の雲",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1396: {
+  1663: {
     "id": "TB_015",
     "name": "海賊",
     "cost": 2,
@@ -12894,7 +15077,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1397: {
+  1664: {
     "id": "BRMC_89",
     "name": "渦巻く灰燼",
     "cost": 2,
@@ -12903,7 +15086,7 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1398: {
+  1665: {
     "id": "BRMC_91",
     "name": "炎の仔",
     "cost": 3,
@@ -12912,27 +15095,27 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1399: {
+  1666: {
     "id": "TBA01_1",
     "name": "炎の王ラグナロス",
     "health": 60,
     "set": 18,
     "type": 0
   },
-  1400: {
+  1667: {
     "id": "BRMC_97e",
     "name": "炎熱アドレナリン",
     "set": 18,
     "type": 0
   },
-  1401: {
+  1668: {
     "id": "TBA01_6",
     "name": "煮えたぎる怒り",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1402: {
+  1669: {
     "id": "BRMC_90",
     "name": "生きている溶岩",
     "cost": 2,
@@ -12941,40 +15124,53 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1403: {
-    "id": "BRMC_100e",
-    "name": "生きている爆弾",
-    "set": 18,
-    "type": 0
-  },
-  1404: {
+  1670: {
     "id": "BRMC_100",
     "name": "生きている爆弾",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1405: {
+  1671: {
+    "id": "BRMC_100e",
+    "name": "生きている爆弾",
+    "set": 18,
+    "type": 0
+  },
+  1672: {
+    "id": "TB_PickYourFate_Windfury",
+    "name": "疾風",
+    "set": 18,
+    "type": 0
+  },
+  1673: {
     "id": "BRMA14_10H_TB",
     "name": "発動！",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1406: {
+  1674: {
+    "id": "TB_GiftExchange_Treasure_Spell",
+    "name": "盗まれた冬至祭の贈り物",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1675: {
     "id": "BRMA06_2H_TB",
     "name": "筆頭家老",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1407: {
+  1676: {
     "id": "BRMC_86e",
     "name": "聞こえたぞ…",
     "set": 18,
     "type": 0
   },
-  1408: {
+  1677: {
     "id": "TB_008",
     "name": "腐ったバナナ",
     "cost": 1,
@@ -12982,48 +15178,186 @@ hs_cards['jajp'] = {
     "set": 18,
     "type": 0
   },
-  1409: {
+  1678: {
     "id": "TB_Pilot1",
     "name": "謎の操縦士",
     "set": 18,
     "type": 0
   },
-  1410: {
+  1679: {
+    "id": "TB_PickYourFate_1",
+    "name": "運命1",
+    "set": 18,
+    "type": 0
+  },
+  1680: {
+    "id": "TB_PickYourFate_10",
+    "name": "運命10",
+    "set": 18,
+    "type": 0
+  },
+  1681: {
+    "id": "TB_PickYourFate_10_Ench",
+    "name": "運命10 雄叫びボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1682: {
+    "id": "TB_PickYourFate_11",
+    "name": "運命11",
+    "set": 18,
+    "type": 0
+  },
+  1683: {
+    "id": "TB_PickYourFate_11_Ench",
+    "name": "運命11 マーロックボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1684: {
+    "id": "TB_PickYourFate_2",
+    "name": "運命2",
+    "set": 18,
+    "type": 0
+  },
+  1685: {
+    "id": "TB_PickYourFate_3",
+    "name": "運命3",
+    "set": 18,
+    "type": 0
+  },
+  1686: {
+    "id": "TB_PickYourFate_4",
+    "name": "運命4",
+    "set": 18,
+    "type": 0
+  },
+  1687: {
+    "id": "TB_PickYourFate_5",
+    "name": "運命5",
+    "set": 18,
+    "type": 0
+  },
+  1688: {
+    "id": "TB_PickYourFate_6",
+    "name": "運命6",
+    "set": 18,
+    "type": 0
+  },
+  1689: {
+    "id": "TB_PickYourFate_7",
+    "name": "運命7",
+    "set": 18,
+    "type": 0
+  },
+  1690: {
+    "id": "TB_PickYourFate_7_Ench",
+    "name": "運命7 コインボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1691: {
+    "id": "TB_PickYourFate_8",
+    "name": "運命8",
+    "set": 18,
+    "type": 0
+  },
+  1692: {
+    "id": "TB_PickYourFate_8_Ench",
+    "name": "運命8 装甲ボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1693: {
+    "id": "TB_PickYourFate_9",
+    "name": "運命9",
+    "set": 18,
+    "type": 0
+  },
+  1694: {
+    "id": "TB_PickYourFate_9_Ench",
+    "name": "運命9 断末魔ボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1695: {
+    "id": "TB_PickYourFate_1_Ench",
+    "name": "選ばれし運命1ボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1696: {
+    "id": "TB_PickYourFate_2_Ench",
+    "name": "選ばれし運命2ボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1697: {
+    "id": "TB_PickYourFate_3_Ench",
+    "name": "選ばれし運命3ボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1698: {
+    "id": "TB_PickYourFate_4_Ench",
+    "name": "選ばれし運命4ボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1699: {
+    "id": "TB_PickYourFate_5_Ench",
+    "name": "選ばれし運命5ボーナス",
+    "set": 18,
+    "type": 0
+  },
+  1700: {
+    "id": "TB_PickYourFateRandom",
+    "name": "選ばれし運命のランダム",
+    "set": 18,
+    "type": 0
+  },
+  1701: {
+    "id": "TB_PickYourFate",
+    "name": "選ばれし運命の構築",
+    "set": 18,
+    "type": 0
+  },
+  1702: {
     "id": "BRMA09_2_TB",
     "name": "開門せよ",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1411: {
+  1703: {
     "id": "BRMC_83",
     "name": "開門せよ",
     "cost": 8,
     "set": 18,
     "type": 0
   },
-  1412: {
-    "id": "NAX12_02H_2_TB",
-    "name": "間引き",
-    "cost": 2,
-    "set": 18,
-    "type": 0
-  },
-  1413: {
+  1704: {
     "id": "NAX12_02H_2c_TB",
     "name": "間引き",
     "cost": 1,
     "set": 18,
     "type": 0
   },
-  1414: {
+  1705: {
+    "id": "NAX12_02H_2_TB",
+    "name": "間引き",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1706: {
     "id": "BRMA17_5_TB",
     "name": "骨のある奴等",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1415: {
+  1707: {
     "id": "AT_077",
     "name": "アージェント・ランス",
     "cost": 2,
@@ -13035,7 +15369,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1416: {
+  1708: {
     "id": "AT_109",
     "name": "アージェントの衛兵",
     "cost": 2,
@@ -13046,7 +15380,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1417: {
+  1709: {
     "id": "AT_087",
     "name": "アージェントの騎兵",
     "cost": 3,
@@ -13057,7 +15391,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1418: {
+  1710: {
     "id": "AT_092",
     "name": "アイス・レイジャー",
     "cost": 3,
@@ -13068,7 +15402,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1419: {
+  1711: {
     "id": "AT_125",
     "name": "アイスハウル",
     "cost": 9,
@@ -13079,7 +15413,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1420: {
+  1712: {
     "id": "AT_045",
     "name": "アヴィアナ",
     "cost": 9,
@@ -13091,7 +15425,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1421: {
+  1713: {
     "id": "AT_063",
     "name": "アシッドモー",
     "cost": 7,
@@ -13104,7 +15438,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1422: {
+  1714: {
     "id": "AT_036",
     "name": "アヌバラク",
     "cost": 9,
@@ -13116,7 +15450,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1423: {
+  1715: {
     "id": "AT_071",
     "name": "アレクストラーザの勇者",
     "cost": 2,
@@ -13128,14 +15462,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1424: {
+  1716: {
     "id": "AT_071e",
     "name": "アレクストラーザの恩恵",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1425: {
+  1717: {
     "id": "AT_030",
     "name": "アンダーシティの勇士",
     "cost": 2,
@@ -13147,7 +15481,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1426: {
+  1718: {
     "id": "AT_005t",
     "name": "イノシシ",
     "cost": 3,
@@ -13157,7 +15491,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1427: {
+  1719: {
     "id": "AT_072",
     "name": "ヴァリアン・リン",
     "cost": 10,
@@ -13169,7 +15503,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1428: {
+  1720: {
     "id": "AT_027",
     "name": "ウィルフレッド・フィズルバン",
     "cost": 6,
@@ -13181,7 +15515,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1429: {
+  1721: {
     "id": "AT_023",
     "name": "ヴォイド・クラッシャー",
     "cost": 6,
@@ -13194,13 +15528,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1430: {
+  1722: {
     "id": "AT_121e",
     "name": "うぬぼれ",
     "set": 15,
     "type": 0
   },
-  1431: {
+  1723: {
     "id": "AT_131",
     "name": "エイディス・ダークベイン",
     "cost": 3,
@@ -13211,7 +15545,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1432: {
+  1724: {
     "id": "AT_066",
     "name": "オーグリマーの志願兵",
     "cost": 3,
@@ -13223,21 +15557,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1433: {
+  1725: {
     "id": "AT_066e",
     "name": "オーグリマーの鍛冶場",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1434: {
+  1726: {
     "id": "AT_116e",
     "name": "かかって来い！",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1435: {
+  1727: {
     "id": "AT_133",
     "name": "ガジェッツァンの槍試合選手",
     "cost": 1,
@@ -13248,7 +15582,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1436: {
+  1728: {
     "id": "AT_119",
     "name": "クヴァルディルの襲撃兵",
     "cost": 5,
@@ -13259,7 +15593,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1437: {
+  1729: {
     "id": "AT_060",
     "name": "クマの罠",
     "cost": 2,
@@ -13269,7 +15603,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1438: {
+  1730: {
     "id": "AT_118",
     "name": "グランド・クルセイダー",
     "cost": 6,
@@ -13280,7 +15614,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1439: {
+  1731: {
     "id": "AT_008",
     "name": "コールダラ・ドレイク",
     "cost": 6,
@@ -13293,7 +15627,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1440: {
+  1732: {
     "id": "AT_099",
     "name": "コドー騎兵",
     "cost": 6,
@@ -13304,7 +15638,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1441: {
+  1733: {
     "id": "AT_110",
     "name": "コロシアムの支配人",
     "cost": 3,
@@ -13315,7 +15649,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1442: {
+  1734: {
     "id": "AT_132_PALADIN",
     "name": "ザ・シルバーハンド",
     "cost": 2,
@@ -13323,7 +15657,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1443: {
+  1735: {
     "id": "AT_042t2",
     "name": "サーベル・パンサー",
     "cost": 2,
@@ -13335,7 +15669,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1444: {
+  1736: {
     "id": "AT_042t",
     "name": "サーベル・ライオン",
     "cost": 2,
@@ -13347,7 +15681,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1445: {
+  1737: {
     "id": "AT_042",
     "name": "サーベルのドルイド",
     "cost": 2,
@@ -13359,7 +15693,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1446: {
+  1738: {
     "id": "AT_049",
     "name": "サンダー・ブラフの勇士",
     "cost": 5,
@@ -13371,7 +15705,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1447: {
+  1739: {
     "id": "AT_130",
     "name": "シー・リーヴァー",
     "cost": 6,
@@ -13383,7 +15717,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1448: {
+  1740: {
     "id": "AT_132",
     "name": "ジャスティサー・トゥルーハート",
     "cost": 6,
@@ -13394,7 +15728,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1449: {
+  1741: {
     "id": "AT_012",
     "name": "シャドースポーン",
     "cost": 4,
@@ -13406,7 +15740,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1450: {
+  1742: {
     "id": "AT_028",
     "name": "シャドーパン騎兵",
     "cost": 5,
@@ -13418,14 +15752,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1451: {
+  1743: {
     "id": "AT_014e",
     "name": "シャドーフィーンデッド",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1452: {
+  1744: {
     "id": "AT_014",
     "name": "シャドーフィーンド",
     "cost": 3,
@@ -13437,7 +15771,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1453: {
+  1745: {
     "id": "AT_022",
     "name": "ジャラクサスの鉄拳",
     "cost": 4,
@@ -13447,7 +15781,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1454: {
+  1746: {
     "id": "AT_100",
     "name": "シルバーハンドの執政",
     "cost": 3,
@@ -13458,7 +15792,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1455: {
+  1747: {
     "id": "AT_111",
     "name": "スナック売り",
     "cost": 4,
@@ -13469,7 +15803,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1456: {
+  1748: {
     "id": "AT_069",
     "name": "スパーリング・パートナー",
     "cost": 2,
@@ -13481,7 +15815,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1457: {
+  1749: {
     "id": "AT_007",
     "name": "スペルスリンガー",
     "cost": 3,
@@ -13493,7 +15827,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1458: {
+  1750: {
     "id": "AT_031",
     "name": "スリ",
     "cost": 2,
@@ -13505,13 +15839,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1459: {
+  1751: {
     "id": "AT_096e",
     "name": "ゼンマイを巻かれた",
     "set": 15,
     "type": 0
   },
-  1460: {
+  1752: {
     "id": "AT_096",
     "name": "ゼンマイ仕掛けの騎士",
     "cost": 5,
@@ -13523,7 +15857,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1461: {
+  1753: {
     "id": "AT_038",
     "name": "ダーナサスの志願兵",
     "cost": 2,
@@ -13535,7 +15869,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1462: {
+  1754: {
     "id": "AT_046",
     "name": "タスカーのトーテム師",
     "cost": 3,
@@ -13547,7 +15881,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1463: {
+  1755: {
     "id": "AT_104",
     "name": "タスカーの槍試合選手",
     "cost": 5,
@@ -13559,14 +15893,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1464: {
+  1756: {
     "id": "AT_006e",
     "name": "ダラランの力",
     "classs": 8,
     "set": 15,
     "type": 0
   },
-  1465: {
+  1757: {
     "id": "AT_006",
     "name": "ダラランの志願兵",
     "cost": 4,
@@ -13578,7 +15912,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1466: {
+  1758: {
     "id": "AT_123",
     "name": "チルモー",
     "cost": 7,
@@ -13590,7 +15924,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1467: {
+  1759: {
     "id": "AT_052",
     "name": "トーテム・ゴーレム",
     "cost": 2,
@@ -13603,7 +15937,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1468: {
+  1760: {
     "id": "AT_132_SHAMAN",
     "name": "トーテム召喚",
     "cost": 2,
@@ -13611,7 +15945,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1469: {
+  1761: {
     "id": "AT_097",
     "name": "トーナメント参加者",
     "cost": 1,
@@ -13622,7 +15956,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1470: {
+  1762: {
     "id": "AT_091",
     "name": "トーナメント衛生兵",
     "cost": 4,
@@ -13633,13 +15967,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1471: {
+  1763: {
     "id": "AT_083e",
     "name": "ドラゴンホークの匠",
     "set": 15,
     "type": 0
   },
-  1472: {
+  1764: {
     "id": "AT_083",
     "name": "ドラゴンホーク騎兵",
     "cost": 3,
@@ -13650,7 +15984,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1473: {
+  1765: {
     "id": "AT_047",
     "name": "ドラナイのトーテム彫師",
     "cost": 4,
@@ -13662,14 +15996,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1474: {
+  1766: {
     "id": "AT_069e",
     "name": "トレーニング完了",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1475: {
+  1767: {
     "id": "AT_063t",
     "name": "ドレッドスケイル",
     "cost": 3,
@@ -13682,7 +16016,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1476: {
+  1768: {
     "id": "AT_019",
     "name": "ドレッドスティード",
     "cost": 4,
@@ -13695,7 +16029,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1477: {
+  1769: {
     "id": "AT_017",
     "name": "トワイライトの守護者",
     "cost": 4,
@@ -13707,13 +16041,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1478: {
+  1770: {
     "id": "AT_017e",
     "name": "トワイライトの抱擁",
     "set": 15,
     "type": 0
   },
-  1479: {
+  1771: {
     "id": "AT_127",
     "name": "ネクサスの勇者サラード",
     "cost": 5,
@@ -13724,7 +16058,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1480: {
+  1772: {
     "id": "AT_036t",
     "name": "ネルビアン",
     "cost": 3,
@@ -13734,7 +16068,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1481: {
+  1773: {
     "id": "AT_029",
     "name": "バッカニーア",
     "cost": 1,
@@ -13747,14 +16081,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1482: {
+  1774: {
     "id": "AT_057o",
     "name": "ハレの装い",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1483: {
+  1775: {
     "id": "AT_132_MAGE",
     "name": "ファイアブラスト ランク2",
     "cost": 2,
@@ -13762,7 +16096,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1484: {
+  1776: {
     "id": "AT_129",
     "name": "フィヨラ・ライトベイン",
     "cost": 3,
@@ -13773,14 +16107,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1485: {
+  1777: {
     "id": "AT_021e",
     "name": "フェルレイジ",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1486: {
+  1778: {
     "id": "AT_115",
     "name": "フェンシングのコーチ",
     "cost": 3,
@@ -13791,20 +16125,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1487: {
+  1779: {
     "id": "AT_115e",
     "name": "フェンシングの練習",
     "set": 15,
     "type": 0
   },
-  1488: {
+  1780: {
     "id": "AT_049e",
     "name": "ブラフの力",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1489: {
+  1781: {
     "id": "AT_001",
     "name": "フレイムランス",
     "cost": 5,
@@ -13814,7 +16148,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1490: {
+  1782: {
     "id": "AT_089",
     "name": "ボーンガード将校",
     "cost": 2,
@@ -13825,13 +16159,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1491: {
+  1783: {
     "id": "AT_089e",
     "name": "ボーンをガード",
     "set": 15,
     "type": 0
   },
-  1492: {
+  1784: {
     "id": "AT_124",
     "name": "ボルフ・ラムシールド",
     "cost": 6,
@@ -13842,7 +16176,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1493: {
+  1785: {
     "id": "AT_076",
     "name": "マーロック騎士",
     "cost": 4,
@@ -13855,7 +16189,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1494: {
+  1786: {
     "id": "AT_067",
     "name": "マグナタウルスの長",
     "cost": 4,
@@ -13867,7 +16201,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1495: {
+  1787: {
     "id": "AT_044",
     "name": "マルチ",
     "cost": 3,
@@ -13877,7 +16211,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1496: {
+  1788: {
     "id": "AT_090",
     "name": "ムクラの勇者",
     "cost": 5,
@@ -13889,7 +16223,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1497: {
+  1789: {
     "id": "AT_088",
     "name": "モゴールの勇者",
     "cost": 6,
@@ -13900,13 +16234,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1498: {
+  1790: {
     "id": "AT_090e",
     "name": "モンキーマジック",
     "set": 15,
     "type": 0
   },
-  1499: {
+  1791: {
     "id": "AT_050t",
     "name": "ライトニング・ジョルト",
     "cost": 2,
@@ -13914,7 +16248,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1500: {
+  1792: {
     "id": "AT_026",
     "name": "ラスガード",
     "cost": 2,
@@ -13927,7 +16261,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1501: {
+  1793: {
     "id": "AT_009",
     "name": "ローニン",
     "cost": 8,
@@ -13939,7 +16273,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1502: {
+  1794: {
     "id": "AT_116",
     "name": "ワームレストのエージェント",
     "cost": 2,
@@ -13951,7 +16285,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1503: {
+  1795: {
     "id": "AT_082",
     "name": "下っ端従騎士",
     "cost": 1,
@@ -13962,7 +16296,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1504: {
+  1796: {
     "id": "AT_122",
     "name": "串刺しのゴーモック",
     "cost": 4,
@@ -13973,7 +16307,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1505: {
+  1797: {
     "id": "AT_105",
     "name": "傷を負ったクヴァルディル",
     "cost": 1,
@@ -13984,7 +16318,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1506: {
+  1798: {
     "id": "AT_106",
     "name": "光の勇者",
     "cost": 3,
@@ -13995,13 +16329,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1507: {
+  1799: {
     "id": "AT_011e",
     "name": "光の祝福",
     "set": 15,
     "type": 0
   },
-  1508: {
+  1800: {
     "id": "AT_056",
     "name": "剛力の一矢",
     "cost": 3,
@@ -14011,13 +16345,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1509: {
+  1801: {
     "id": "AT_045e",
     "name": "力の霧",
     "set": 15,
     "type": 0
   },
-  1510: {
+  1802: {
     "id": "AT_059",
     "name": "勇敢なる射手",
     "cost": 1,
@@ -14029,14 +16363,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1511: {
+  1803: {
     "id": "AT_074e2",
     "name": "勇者の紋章",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1512: {
+  1804: {
     "id": "AT_074",
     "name": "勇者の紋章",
     "cost": 3,
@@ -14046,7 +16380,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1513: {
+  1805: {
     "id": "AT_005",
     "name": "動物変身・イノシシ",
     "cost": 3,
@@ -14056,13 +16390,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1514: {
+  1806: {
     "id": "AT_133e",
     "name": "勝利！",
     "set": 15,
     "type": 0
   },
-  1515: {
+  1807: {
     "id": "AT_103",
     "name": "北海のクラーケン",
     "cost": 9,
@@ -14073,7 +16407,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1516: {
+  1808: {
     "id": "AT_057",
     "name": "厩舎長",
     "cost": 3,
@@ -14085,7 +16419,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1517: {
+  1809: {
     "id": "AT_117",
     "name": "司会者",
     "cost": 3,
@@ -14096,13 +16430,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1518: {
+  1810: {
     "id": "AT_117e",
     "name": "司会進行",
     "set": 15,
     "type": 0
   },
-  1519: {
+  1811: {
     "id": "AT_018",
     "name": "告解師ペイルトレス",
     "cost": 7,
@@ -14114,7 +16448,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1520: {
+  1812: {
     "id": "AT_132_PRIEST",
     "name": "回復",
     "cost": 2,
@@ -14122,7 +16456,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1521: {
+  1813: {
     "id": "AT_132_SHAMANa",
     "name": "回復のトーテム",
     "cost": 0,
@@ -14132,7 +16466,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1522: {
+  1814: {
     "id": "AT_035",
     "name": "土蜘蛛",
     "cost": 3,
@@ -14142,7 +16476,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1523: {
+  1815: {
     "id": "AT_003",
     "name": "堕ちた英雄",
     "cost": 2,
@@ -14154,7 +16488,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1524: {
+  1816: {
     "id": "AT_042b",
     "name": "変身・ヒョウ",
     "classs": 11,
@@ -14162,7 +16496,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1525: {
+  1817: {
     "id": "AT_042a",
     "name": "変身・ライオン",
     "classs": 11,
@@ -14170,14 +16504,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1526: {
+  1818: {
     "id": "AT_027e",
     "name": "大召喚師",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1527: {
+  1819: {
     "id": "AT_098",
     "name": "大道芸の呪文喰い",
     "cost": 6,
@@ -14188,7 +16522,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1528: {
+  1820: {
     "id": "AT_068",
     "name": "奮起",
     "cost": 2,
@@ -14198,20 +16532,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1529: {
+  1821: {
     "id": "AT_068e",
     "name": "奮起",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1530: {
+  1822: {
     "id": "AT_086e",
     "name": "妨害工作",
     "set": 15,
     "type": 0
   },
-  1531: {
+  1823: {
     "id": "AT_086",
     "name": "妨害工作員",
     "cost": 3,
@@ -14222,7 +16556,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1532: {
+  1824: {
     "id": "AT_080",
     "name": "守備隊司令官",
     "cost": 2,
@@ -14233,7 +16567,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1533: {
+  1825: {
     "id": "AT_021",
     "name": "小粒なる邪悪の騎士",
     "cost": 2,
@@ -14246,7 +16580,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1534: {
+  1826: {
     "id": "AT_132_HUNTER",
     "name": "弩弓の一矢",
     "cost": 2,
@@ -14254,7 +16588,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1535: {
+  1827: {
     "id": "AT_064",
     "name": "強打",
     "cost": 3,
@@ -14264,7 +16598,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1536: {
+  1828: {
     "id": "AT_033",
     "name": "強盗",
     "cost": 3,
@@ -14274,7 +16608,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1537: {
+  1829: {
     "id": "AT_035t",
     "name": "待ち伏せ！",
     "cost": 0,
@@ -14282,7 +16616,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1538: {
+  1830: {
     "id": "AT_113",
     "name": "徴兵官",
     "cost": 5,
@@ -14293,7 +16627,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1539: {
+  1831: {
     "id": "AT_132_SHAMANd",
     "name": "怒れる大気のトーテム",
     "cost": 0,
@@ -14303,7 +16637,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1540: {
+  1832: {
     "id": "AT_020",
     "name": "恐るべきドゥームガード",
     "cost": 7,
@@ -14316,7 +16650,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1541: {
+  1833: {
     "id": "AT_024",
     "name": "悪魔融合",
     "cost": 2,
@@ -14326,7 +16660,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1542: {
+  1834: {
     "id": "AT_099t",
     "name": "戦闘コドー",
     "cost": 5,
@@ -14336,7 +16670,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1543: {
+  1835: {
     "id": "AT_075",
     "name": "戦馬訓練士",
     "cost": 3,
@@ -14348,7 +16682,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1544: {
+  1836: {
     "id": "AT_102",
     "name": "捕獲されたヨルムンガー",
     "cost": 7,
@@ -14360,7 +16694,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1545: {
+  1837: {
     "id": "AT_043",
     "name": "星霊交信",
     "cost": 4,
@@ -14370,7 +16704,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1546: {
+  1838: {
     "id": "AT_093",
     "name": "極寒のスノボルト",
     "cost": 4,
@@ -14381,7 +16715,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1547: {
+  1839: {
     "id": "AT_084",
     "name": "槍持ち",
     "cost": 2,
@@ -14392,7 +16726,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1548: {
+  1840: {
     "id": "AT_112",
     "name": "槍試合の名手",
     "cost": 6,
@@ -14403,20 +16737,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1549: {
+  1841: {
     "id": "AT_084e",
     "name": "武装",
     "set": 15,
     "type": 0
   },
-  1550: {
+  1842: {
     "id": "AT_034e",
     "name": "毒仕込み",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1551: {
+  1843: {
     "id": "AT_132_ROGUE",
     "name": "毒仕込みのダガー",
     "cost": 2,
@@ -14424,7 +16758,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1552: {
+  1844: {
     "id": "AT_132_ROGUEt",
     "name": "毒仕込みのダガー",
     "cost": 1,
@@ -14434,7 +16768,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1553: {
+  1845: {
     "id": "AT_034",
     "name": "毒仕込みの刃",
     "cost": 4,
@@ -14446,13 +16780,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1554: {
+  1846: {
     "id": "AT_028e",
     "name": "気功の槍",
     "set": 15,
     "type": 0
   },
-  1555: {
+  1847: {
     "id": "AT_078",
     "name": "決闘の地",
     "cost": 6,
@@ -14462,7 +16796,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1556: {
+  1848: {
     "id": "AT_101",
     "name": "決闘士",
     "cost": 5,
@@ -14473,7 +16807,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1557: {
+  1849: {
     "id": "AT_016",
     "name": "混乱",
     "cost": 2,
@@ -14483,21 +16817,21 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1558: {
+  1850: {
     "id": "AT_016e",
     "name": "混乱中",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1559: {
+  1851: {
     "id": "AT_081e",
     "name": "清め",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1560: {
+  1852: {
     "id": "AT_085",
     "name": "湖の乙女",
     "cost": 4,
@@ -14508,7 +16842,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1561: {
+  1853: {
     "id": "AT_081",
     "name": "潔白のエアドリック",
     "cost": 7,
@@ -14520,19 +16854,19 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1562: {
+  1854: {
     "id": "AT_119e",
     "name": "激励を受けた",
     "set": 15,
     "type": 0
   },
-  1563: {
+  1855: {
     "id": "AT_109e",
     "name": "激励を受けた",
     "set": 15,
     "type": 0
   },
-  1564: {
+  1856: {
     "id": "AT_094",
     "name": "火炎ジャグラー",
     "cost": 2,
@@ -14543,7 +16877,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1565: {
+  1857: {
     "id": "AT_132_SHAMANb",
     "name": "焦熱のトーテム",
     "cost": 0,
@@ -14553,21 +16887,21 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1566: {
+  1858: {
     "id": "AT_047e",
     "name": "熟練",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1567: {
+  1859: {
     "id": "AT_132_DRUIDe",
     "name": "猛獣の爪",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1568: {
+  1860: {
     "id": "AT_132_DRUID",
     "name": "猛獣化",
     "cost": 2,
@@ -14575,7 +16909,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1569: {
+  1861: {
     "id": "AT_058",
     "name": "王のエレク",
     "cost": 2,
@@ -14588,13 +16922,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1570: {
+  1862: {
     "id": "AT_065e",
     "name": "王の護衛",
     "set": 15,
     "type": 0
   },
-  1571: {
+  1863: {
     "id": "AT_065",
     "name": "王の護衛",
     "cost": 3,
@@ -14606,13 +16940,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1572: {
+  1864: {
     "id": "AT_037b",
     "name": "生きている根",
     "set": 15,
     "type": 0
   },
-  1573: {
+  1865: {
     "id": "AT_037",
     "name": "生きている根",
     "cost": 1,
@@ -14622,13 +16956,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1574: {
+  1866: {
     "id": "AT_037a",
     "name": "生きている根",
     "set": 15,
     "type": 0
   },
-  1575: {
+  1867: {
     "id": "AT_048",
     "name": "癒しの波",
     "cost": 3,
@@ -14638,14 +16972,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1576: {
+  1868: {
     "id": "AT_061e",
     "name": "発射準備",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1577: {
+  1869: {
     "id": "AT_061",
     "name": "発射準備",
     "cost": 2,
@@ -14655,13 +16989,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1578: {
+  1870: {
     "id": "AT_013e",
     "name": "真言・栄光",
     "set": 15,
     "type": 0
   },
-  1579: {
+  1871: {
     "id": "AT_013",
     "name": "真言・栄光",
     "cost": 1,
@@ -14671,7 +17005,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1580: {
+  1872: {
     "id": "AT_055",
     "name": "瞬間回復",
     "cost": 1,
@@ -14681,7 +17015,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1581: {
+  1873: {
     "id": "AT_132_SHAMANc",
     "name": "石爪のトーテム",
     "cost": 0,
@@ -14691,7 +17025,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1582: {
+  1874: {
     "id": "AT_053",
     "name": "祖霊の知識",
     "cost": 2,
@@ -14701,7 +17035,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1583: {
+  1875: {
     "id": "AT_070",
     "name": "空賊船長クラッグ",
     "cost": 7,
@@ -14713,7 +17047,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1584: {
+  1876: {
     "id": "AT_073",
     "name": "競争心",
     "cost": 1,
@@ -14723,13 +17057,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1585: {
+  1877: {
     "id": "AT_073e",
     "name": "競争心",
     "set": 15,
     "type": 0
   },
-  1586: {
+  1878: {
     "id": "AT_051",
     "name": "精霊崩壊",
     "cost": 3,
@@ -14739,7 +17073,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1587: {
+  1879: {
     "id": "AT_010",
     "name": "羊飼育者",
     "cost": 5,
@@ -14751,7 +17085,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1588: {
+  1880: {
     "id": "AT_062",
     "name": "群がるクモ",
     "cost": 6,
@@ -14761,7 +17095,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1589: {
+  1881: {
     "id": "AT_011",
     "name": "聖なる勇者",
     "cost": 4,
@@ -14773,7 +17107,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1590: {
+  1882: {
     "id": "AT_121",
     "name": "花形選手",
     "cost": 4,
@@ -14784,7 +17118,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1591: {
+  1883: {
     "id": "AT_037t",
     "name": "若木",
     "cost": 1,
@@ -14794,13 +17128,13 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1592: {
+  1884: {
     "id": "AT_041e",
     "name": "荒野の呼び声",
     "set": 15,
     "type": 0
   },
-  1593: {
+  1885: {
     "id": "AT_040",
     "name": "荒野を歩む者",
     "cost": 4,
@@ -14812,19 +17146,19 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1594: {
+  1886: {
     "id": "AT_029e",
     "name": "血に飢えた海賊",
     "set": 15,
     "type": 0
   },
-  1595: {
+  1887: {
     "id": "AT_082e",
     "name": "訓練",
     "set": 15,
     "type": 0
   },
-  1596: {
+  1888: {
     "id": "AT_079",
     "name": "謎めいた挑戦者",
     "cost": 6,
@@ -14836,7 +17170,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1597: {
+  1889: {
     "id": "AT_002",
     "name": "身代わり人形",
     "cost": 3,
@@ -14846,7 +17180,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1598: {
+  1890: {
     "id": "AT_015",
     "name": "転向",
     "cost": 2,
@@ -14856,7 +17190,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1599: {
+  1891: {
     "id": "AT_114",
     "name": "邪悪なる野次馬",
     "cost": 4,
@@ -14867,7 +17201,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1600: {
+  1892: {
     "id": "AT_108",
     "name": "重装戦馬",
     "cost": 4,
@@ -14879,7 +17213,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1601: {
+  1893: {
     "id": "AT_132_WARRIOR",
     "name": "重装甲化！",
     "cost": 2,
@@ -14887,14 +17221,14 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1602: {
+  1894: {
     "id": "AT_040e",
     "name": "野生の絆",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1603: {
+  1895: {
     "id": "AT_041",
     "name": "野生の騎士",
     "cost": 7,
@@ -14906,14 +17240,14 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1604: {
+  1896: {
     "id": "AT_039e",
     "name": "野蛮",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1605: {
+  1897: {
     "id": "AT_039",
     "name": "野蛮の闘士",
     "cost": 4,
@@ -14926,7 +17260,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1606: {
+  1898: {
     "id": "AT_025",
     "name": "闇の約定",
     "cost": 6,
@@ -14936,20 +17270,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1607: {
+  1899: {
     "id": "AT_024e",
     "name": "闇の融合",
     "set": 15,
     "type": 0
   },
-  1608: {
+  1900: {
     "id": "AT_032e",
     "name": "闇取引",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1609: {
+  1901: {
     "id": "AT_032",
     "name": "闇商人",
     "cost": 3,
@@ -14961,7 +17295,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 2
   },
-  1610: {
+  1902: {
     "id": "AT_050",
     "name": "雷電の鎚",
     "cost": 4,
@@ -14973,7 +17307,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1611: {
+  1903: {
     "id": "AT_120",
     "name": "霜の巨人",
     "cost": 10,
@@ -14984,7 +17318,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-  1612: {
+  1904: {
     "id": "AT_054",
     "name": "霧招き",
     "cost": 6,
@@ -14996,13 +17330,13 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1613: {
+  1905: {
     "id": "AT_045ee",
     "name": "霧招きのデッキ強化",
     "set": 15,
     "type": 0
   },
-  1614: {
+  1906: {
     "id": "AT_095",
     "name": "静寂の騎士",
     "cost": 3,
@@ -15013,20 +17347,20 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 1
   },
-  1615: {
+  1907: {
     "id": "AT_075e",
     "name": "馬丁の働き",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1616: {
+  1908: {
     "id": "AT_077e",
     "name": "駄目押しの一突き",
     "set": 15,
     "type": 0
   },
-  1617: {
+  1909: {
     "id": "AT_128",
     "name": "骸骨騎士",
     "cost": 6,
@@ -15037,7 +17371,7 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 4
   },
-  1618: {
+  1910: {
     "id": "AT_132_WARLOCK",
     "name": "魂を魔力に",
     "cost": 2,
@@ -15045,7 +17379,7 @@ hs_cards['jajp'] = {
     "set": 15,
     "type": 0
   },
-  1619: {
+  1911: {
     "id": "AT_004",
     "name": "魔力の炸裂",
     "cost": 1,
@@ -15055,4 +17389,4 @@ hs_cards['jajp'] = {
     "type": 0,
     "quality": 3
   },
-}; // 1619 cards
+}; // 1911 cards

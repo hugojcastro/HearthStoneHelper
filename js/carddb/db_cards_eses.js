@@ -4373,14 +4373,14 @@ hs_cards['eses'] = {
     "quality": 1
   },
   479: {
-    "id": "EX1_363e",
+    "id": "EX1_363e2",
     "name": "Bendición de sabiduría",
     "classs": 2,
     "set": 3,
     "type": 0
   },
   480: {
-    "id": "EX1_363e2",
+    "id": "EX1_363e",
     "name": "Bendición de sabiduría",
     "classs": 2,
     "set": 3,
@@ -4410,6 +4410,13 @@ hs_cards['eses'] = {
     "type": 0
   },
   484: {
+    "id": "EX1_295o",
+    "name": "Bloque de hielo",
+    "classs": 8,
+    "set": 3,
+    "type": 0
+  },
+  485: {
     "id": "EX1_295",
     "name": "Bloque de hielo",
     "cost": 3,
@@ -4418,13 +4425,6 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0,
     "quality": 3
-  },
-  485: {
-    "id": "EX1_295o",
-    "name": "Bloque de hielo",
-    "classs": 8,
-    "set": 3,
-    "type": 0
   },
   486: {
     "id": "EX1_082",
@@ -4492,6 +4492,13 @@ hs_cards['eses'] = {
     "quality": 3
   },
   492: {
+    "id": "EX1_355e",
+    "name": "Campeón bendito",
+    "classs": 2,
+    "set": 3,
+    "type": 0
+  },
+  493: {
     "id": "EX1_355",
     "name": "Campeón bendito",
     "cost": 5,
@@ -4500,13 +4507,6 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0,
     "quality": 2
-  },
-  493: {
-    "id": "EX1_355e",
-    "name": "Campeón bendito",
-    "classs": 2,
-    "set": 3,
-    "type": 0
   },
   494: {
     "id": "NEW1_017",
@@ -4684,14 +4684,11 @@ hs_cards['eses'] = {
     "quality": 2
   },
   510: {
-    "id": "EX1_154",
+    "id": "EX1_154b",
     "name": "Cólera",
-    "cost": 2,
     "classs": 11,
-    "collectible": 1,
     "set": 3,
-    "type": 0,
-    "quality": 1
+    "type": 0
   },
   511: {
     "id": "EX1_154a",
@@ -4701,11 +4698,14 @@ hs_cards['eses'] = {
     "type": 0
   },
   512: {
-    "id": "EX1_154b",
+    "id": "EX1_154",
     "name": "Cólera",
+    "cost": 2,
     "classs": 11,
+    "collectible": 1,
     "set": 3,
-    "type": 0
+    "type": 0,
+    "quality": 1
   },
   513: {
     "id": "EX1_549",
@@ -4974,13 +4974,6 @@ hs_cards['eses'] = {
     "quality": 1
   },
   540: {
-    "id": "CS2_104e",
-    "name": "Desenfreno",
-    "classs": 1,
-    "set": 3,
-    "type": 0
-  },
-  541: {
     "id": "CS2_104",
     "name": "Desenfreno",
     "cost": 2,
@@ -4989,6 +4982,13 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0,
     "quality": 1
+  },
+  541: {
+    "id": "CS2_104e",
+    "name": "Desenfreno",
+    "classs": 1,
+    "set": 3,
+    "type": 0
   },
   542: {
     "id": "EX1_625t2",
@@ -5072,6 +5072,13 @@ hs_cards['eses'] = {
     "quality": 1
   },
   549: {
+    "id": "NEW1_014e",
+    "name": "Disfrazado",
+    "classs": 4,
+    "set": 3,
+    "type": 0
+  },
+  550: {
     "id": "EX1_626",
     "name": "Disipación en masa",
     "cost": 4,
@@ -5081,14 +5088,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  550: {
+  551: {
     "id": "EX1_166b",
     "name": "Disipar",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  551: {
+  552: {
     "id": "EX1_609",
     "name": "Disparo de francotirador",
     "cost": 2,
@@ -5098,7 +5105,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  552: {
+  553: {
     "id": "EX1_537",
     "name": "Disparo explosivo",
     "cost": 5,
@@ -5108,7 +5115,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  553: {
+  554: {
     "id": "EX1_617",
     "name": "Disparo mortal",
     "cost": 3,
@@ -5118,7 +5125,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  554: {
+  555: {
     "id": "EX1_284",
     "name": "Draco azur",
     "cost": 5,
@@ -5130,7 +5137,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  555: {
+  556: {
     "id": "EX1_043",
     "name": "Draco Crepuscular",
     "cost": 4,
@@ -5142,7 +5149,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  556: {
+  557: {
     "id": "DREAM_03",
     "name": "Draco esmeralda",
     "cost": 4,
@@ -5153,7 +5160,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  557: {
+  558: {
     "id": "CS2_169",
     "name": "Dracohalcón joven",
     "cost": 1,
@@ -5165,7 +5172,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  558: {
+  559: {
     "id": "NEW1_023",
     "name": "Dragón feérico",
     "cost": 2,
@@ -5177,31 +5184,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  559: {
-    "id": "EX1_165t1",
-    "name": "Druida de la Zarpa",
-    "cost": 5,
-    "attack": 4,
-    "health": 4,
-    "classs": 11,
-    "race": 20,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
   560: {
-    "id": "EX1_165",
-    "name": "Druida de la Zarpa",
-    "cost": 5,
-    "attack": 4,
-    "health": 4,
-    "classs": 11,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
-  },
-  561: {
     "id": "EX1_165t2",
     "name": "Druida de la Zarpa",
     "cost": 5,
@@ -5213,7 +5196,31 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
+  561: {
+    "id": "EX1_165t1",
+    "name": "Druida de la Zarpa",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "classs": 11,
+    "race": 20,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
   562: {
+    "id": "EX1_165",
+    "name": "Druida de la Zarpa",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "classs": 11,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  563: {
     "id": "EX1_613",
     "name": "Edwin VanCleef",
     "cost": 3,
@@ -5225,7 +5232,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  563: {
+  564: {
     "id": "EX1_002",
     "name": "El Caballero Negro",
     "cost": 6,
@@ -5236,7 +5243,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  564: {
+  565: {
     "id": "EX1_283",
     "name": "Elemental de Escarcha",
     "cost": 6,
@@ -5247,7 +5254,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  565: {
+  566: {
     "id": "EX1_250",
     "name": "Elemental de tierra",
     "cost": 5,
@@ -5259,7 +5266,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  566: {
+  567: {
     "id": "EX1_258",
     "name": "Elemental desatado",
     "cost": 3,
@@ -5271,7 +5278,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  567: {
+  568: {
     "id": "EX1_391",
     "name": "Embate",
     "cost": 2,
@@ -5281,7 +5288,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  568: {
+  569: {
     "id": "EX1_410",
     "name": "Embate con escudo",
     "cost": 1,
@@ -5291,14 +5298,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  569: {
+  570: {
     "id": "EX1_128e",
     "name": "Embozado",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  570: {
+  571: {
     "id": "EX1_128",
     "name": "Embozo",
     "cost": 1,
@@ -5308,14 +5315,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  571: {
+  572: {
     "id": "NEW1_012o",
     "name": "Empacho de maná",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  572: {
+  573: {
     "id": "EX1_046",
     "name": "Enano Hierro Negro",
     "cost": 4,
@@ -5326,7 +5333,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  573: {
+  574: {
     "id": "EX1_335",
     "name": "Engendro de luz",
     "cost": 4,
@@ -5338,13 +5345,6 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  574: {
-    "id": "EX1_178ae",
-    "name": "Enraizado",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
   575: {
     "id": "EX1_178a",
     "name": "Enraizado",
@@ -5353,26 +5353,33 @@ hs_cards['eses'] = {
     "type": 0
   },
   576: {
+    "id": "EX1_178ae",
+    "name": "Enraizado",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  577: {
     "id": "NEW1_008a",
     "name": "Enseñanzas antiguas",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  577: {
+  578: {
     "id": "EX1_584e",
     "name": "Enseñanzas del Kirin Tor",
     "set": 3,
     "type": 0
   },
-  578: {
+  579: {
     "id": "NEW1_037e",
     "name": "Equipado",
     "collectible": 0,
     "set": 3,
     "type": 0
   },
-  579: {
+  580: {
     "id": "EX1_100",
     "name": "Eremita Cho",
     "cost": 2,
@@ -5383,7 +5390,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  580: {
+  581: {
     "id": "EX1_008",
     "name": "Escudera Argenta",
     "cost": 1,
@@ -5394,7 +5401,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  581: {
+  582: {
     "id": "CS2_152",
     "name": "Escudero",
     "cost": 1,
@@ -5404,7 +5411,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  582: {
+  583: {
     "id": "EX1_366",
     "name": "Espada de Justicia",
     "cost": 3,
@@ -5415,13 +5422,6 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0,
     "quality": 3
-  },
-  583: {
-    "id": "CS2_038e",
-    "name": "Espíritu ancestral",
-    "classs": 7,
-    "set": 3,
-    "type": 0
   },
   584: {
     "id": "CS2_038",
@@ -5434,6 +5434,13 @@ hs_cards['eses'] = {
     "quality": 2
   },
   585: {
+    "id": "CS2_038e",
+    "name": "Espíritu ancestral",
+    "classs": 7,
+    "set": 3,
+    "type": 0
+  },
+  586: {
     "id": "EX1_tk11",
     "name": "Espíritu de lobo",
     "cost": 2,
@@ -5444,7 +5451,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  586: {
+  587: {
     "id": "EX1_248",
     "name": "Espíritu feral",
     "cost": 3,
@@ -5454,7 +5461,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  587: {
+  588: {
     "id": "EX1_124",
     "name": "Eviscerar",
     "cost": 2,
@@ -5464,21 +5471,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  588: {
+  589: {
     "id": "EX1_573a",
     "name": "Favor del semidiós",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  589: {
+  590: {
     "id": "EX1_573ae",
     "name": "Favor del semidiós",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  590: {
+  591: {
     "id": "EX1_349",
     "name": "Favor divino",
     "cost": 3,
@@ -5488,13 +5495,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  591: {
+  592: {
     "id": "EX1_001e",
     "name": "Fervor",
     "set": 3,
     "type": 0
   },
-  592: {
+  593: {
     "id": "EX1_finkle",
     "name": "Finkle Einhorn",
     "cost": 2,
@@ -5504,7 +5511,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  593: {
+  594: {
     "id": "EX1_402",
     "name": "Forjadora de armaduras",
     "cost": 2,
@@ -5516,7 +5523,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  594: {
+  595: {
     "id": "EX1_625",
     "name": "Forma de las Sombras",
     "cost": 3,
@@ -5526,7 +5533,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  595: {
+  596: {
     "id": "EX1_165b",
     "name": "Forma de oso",
     "classs": 11,
@@ -5534,7 +5541,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  596: {
+  597: {
     "id": "EX1_165a",
     "name": "Forma felina",
     "classs": 11,
@@ -5542,13 +5549,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  597: {
+  598: {
     "id": "EX1_561e",
     "name": "Fuego de Alexstrasza",
     "set": 3,
     "type": 0
   },
-  598: {
+  599: {
     "id": "EX1_596e",
     "name": "Fuego demoníaco",
     "cost": 0,
@@ -5557,7 +5564,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  599: {
+  600: {
     "id": "EX1_596",
     "name": "Fuego demoníaco",
     "cost": 2,
@@ -5567,7 +5574,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  600: {
+  601: {
     "id": "CS2_231",
     "name": "Fuego fatuo",
     "cost": 0,
@@ -5578,14 +5585,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  601: {
+  602: {
     "id": "CS1_129e",
     "name": "Fuego interno",
     "classs": 5,
     "set": 3,
     "type": 0
   },
-  602: {
+  603: {
     "id": "CS1_129",
     "name": "Fuego interno",
     "cost": 1,
@@ -5595,14 +5602,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  603: {
+  604: {
     "id": "EX1_166a",
     "name": "Fuego lunar",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  604: {
+  605: {
     "id": "EX1_624",
     "name": "Fuego Sagrado",
     "cost": 6,
@@ -5612,13 +5619,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  605: {
+  606: {
     "id": "CS2_181e",
     "name": "Fuerza completa",
     "set": 3,
     "type": 0
   },
-  606: {
+  607: {
     "id": "EX1_571",
     "name": "Fuerza de la Naturaleza",
     "cost": 6,
@@ -5628,7 +5635,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  607: {
+  608: {
     "id": "EX1_323w",
     "name": "Furia sangrienta",
     "cost": 3,
@@ -5638,7 +5645,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  608: {
+  609: {
     "id": "EX1_131",
     "name": "Gerifalte Defias",
     "cost": 2,
@@ -5650,7 +5657,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  609: {
+  610: {
     "id": "EX1_586",
     "name": "Gigante de mar",
     "cost": 10,
@@ -5661,7 +5668,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  610: {
+  611: {
     "id": "EX1_620",
     "name": "Gigante fundido",
     "cost": 20,
@@ -5672,7 +5679,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  611: {
+  612: {
     "id": "EX1_105",
     "name": "Gigante montés",
     "cost": 12,
@@ -5683,7 +5690,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  612: {
+  613: {
     "id": "NEW1_040t",
     "name": "Gnoll",
     "cost": 2,
@@ -5692,7 +5699,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  613: {
+  614: {
     "id": "EX1_029",
     "name": "Gnomo paria",
     "cost": 1,
@@ -5703,7 +5710,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  614: {
+  615: {
     "id": "EX1_089",
     "name": "Gólem Arcano",
     "cost": 3,
@@ -5714,7 +5721,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  615: {
+  616: {
     "id": "skele21",
     "name": "Gólem dañado",
     "cost": 1,
@@ -5725,7 +5732,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  616: {
+  617: {
     "id": "EX1_556",
     "name": "Gólem de la cosecha",
     "cost": 3,
@@ -5737,7 +5744,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  617: {
+  618: {
     "id": "EX1_408",
     "name": "Golpe mortal",
     "cost": 4,
@@ -5747,13 +5754,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  618: {
+  619: {
     "id": "EX1_004e",
     "name": "Gracia de Elune",
     "set": 3,
     "type": 0
   },
-  619: {
+  620: {
+    "id": "NEW1_036e",
+    "name": "Grito de orden",
+    "classs": 1,
+    "set": 3,
+    "type": 0
+  },
+  621: {
+    "id": "NEW1_036e2",
+    "name": "Grito de orden",
+    "classs": 1,
+    "set": 3,
+    "type": 0
+  },
+  622: {
     "id": "NEW1_036",
     "name": "Grito de orden",
     "cost": 2,
@@ -5763,21 +5784,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  620: {
-    "id": "NEW1_036e2",
-    "name": "Grito de orden",
-    "classs": 1,
-    "set": 3,
-    "type": 0
-  },
-  621: {
-    "id": "NEW1_036e",
-    "name": "Grito de orden",
-    "classs": 1,
-    "set": 3,
-    "type": 0
-  },
-  622: {
+  623: {
     "id": "EX1_414",
     "name": "Grommash Grito Infernal",
     "cost": 8,
@@ -5789,7 +5796,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  623: {
+  624: {
     "id": "NEW1_038",
     "name": "Gruul",
     "cost": 8,
@@ -5800,7 +5807,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  624: {
+  625: {
     "id": "EX1_310",
     "name": "Guardia apocalíptico",
     "cost": 5,
@@ -5813,7 +5820,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  625: {
+  626: {
     "id": "EX1_301",
     "name": "Guardia vil",
     "cost": 3,
@@ -5826,7 +5833,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  626: {
+  627: {
     "id": "EX1_166",
     "name": "Guardián de la arboleda",
     "cost": 4,
@@ -5838,7 +5845,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  627: {
+  628: {
     "id": "EX1_023",
     "name": "Guardián de Lunargenta",
     "cost": 4,
@@ -5849,7 +5856,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  628: {
+  629: {
     "id": "EX1_398t",
     "name": "Hacha de batalla",
     "cost": 1,
@@ -5859,7 +5866,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  629: {
+  630: {
     "id": "EX1_409t",
     "name": "Hacha pesada",
     "cost": 1,
@@ -5869,7 +5876,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  630: {
+  631: {
     "id": "EX1_247",
     "name": "Hacha Tronaforjado",
     "cost": 2,
@@ -5881,7 +5888,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  631: {
+  632: {
     "id": "EX1_558",
     "name": "Harrison Jones",
     "cost": 5,
@@ -5892,14 +5899,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  632: {
+  633: {
     "id": "EX1_411e2",
     "name": "Hay que afilarla",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  633: {
+  634: {
     "id": "DREAM_01",
     "name": "Hermana sonriente",
     "cost": 3,
@@ -5909,7 +5916,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  634: {
+  635: {
     "id": "CS2_221",
     "name": "Herrera maliciosa",
     "cost": 5,
@@ -5920,7 +5927,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  635: {
+  636: {
     "id": "EX1_534t",
     "name": "Hiena",
     "cost": 2,
@@ -5932,7 +5939,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  636: {
+  637: {
     "id": "EX1_531",
     "name": "Hiena carroñera",
     "cost": 2,
@@ -5945,7 +5952,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  637: {
+  638: {
     "id": "NEW1_040",
     "name": "Hogger",
     "cost": 6,
@@ -5956,7 +5963,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  638: {
+  639: {
     "id": "EX1_133",
     "name": "Hoja de Perdición",
     "cost": 3,
@@ -5968,13 +5975,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  639: {
+  640: {
     "id": "EX1_043e",
     "name": "Hora del Crepúsculo",
     "set": 3,
     "type": 0
   },
-  640: {
+  641: {
     "id": "EX1_412",
     "name": "Huargen enfurecido",
     "cost": 3,
@@ -5985,7 +5992,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  641: {
+  642: {
     "id": "EX1_619",
     "name": "Igualdad",
     "cost": 2,
@@ -5995,14 +6002,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  642: {
+  643: {
     "id": "EX1_619e",
     "name": "Igualdad",
     "classs": 2,
     "set": 3,
     "type": 0
   },
-  643: {
+  644: {
     "id": "EX1_614",
     "name": "Illidan Tempestira",
     "cost": 6,
@@ -6014,7 +6021,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  644: {
+  645: {
     "id": "EX1_354",
     "name": "Imposición de manos",
     "cost": 8,
@@ -6024,7 +6031,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  645: {
+  646: {
     "id": "EX1_tk34",
     "name": "Infernal",
     "cost": 6,
@@ -6036,7 +6043,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  646: {
+  647: {
     "id": "EX1_010",
     "name": "Infiltrado huargen",
     "cost": 1,
@@ -6047,27 +6054,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  647: {
+  648: {
     "id": "EX1_623e",
     "name": "Infusión",
     "classs": 5,
     "set": 3,
     "type": 0
   },
-  648: {
+  649: {
     "id": "CS2_188o",
     "name": "Inspiración",
     "set": 3,
     "type": 0
   },
-  649: {
+  650: {
     "id": "EX1_160a",
     "name": "Invoca una pantera",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  650: {
+  651: {
     "id": "EX1_076",
     "name": "Invocadora tamaño bolsillo",
     "cost": 2,
@@ -6078,7 +6085,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  651: {
+  652: {
     "id": "EX1_392",
     "name": "Ira de batalla",
     "cost": 2,
@@ -6087,13 +6094,6 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0,
     "quality": 1
-  },
-  652: {
-    "id": "EX1_607e",
-    "name": "Ira interna",
-    "classs": 1,
-    "set": 3,
-    "type": 0
   },
   653: {
     "id": "EX1_607",
@@ -6106,13 +6106,20 @@ hs_cards['eses'] = {
     "quality": 1
   },
   654: {
+    "id": "EX1_607e",
+    "name": "Ira interna",
+    "classs": 1,
+    "set": 3,
+    "type": 0
+  },
+  655: {
     "id": "EX1_411e",
     "name": "Ira sangrienta",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  655: {
+  656: {
     "id": "EX1_345",
     "name": "Juegos mentales",
     "cost": 4,
@@ -6122,14 +6129,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  656: {
+  657: {
     "id": "EX1_366e",
     "name": "Justicia impuesta",
     "classs": 2,
     "set": 3,
     "type": 0
   },
-  657: {
+  658: {
     "id": "NEW1_041",
     "name": "Kodo en estampida",
     "cost": 5,
@@ -6141,7 +6148,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  658: {
+  659: {
     "id": "EX1_577",
     "name": "La Bestia",
     "cost": 6,
@@ -6153,13 +6160,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  659: {
+  660: {
     "id": "EX1_162o",
     "name": "La fuerza de la manada",
     "set": 3,
     "type": 0
   },
-  660: {
+  661: {
     "id": "CS2_031",
     "name": "Lanza de hielo",
     "cost": 1,
@@ -6169,14 +6176,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  661: {
+  662: {
     "id": "EX1_573b",
     "name": "Lección del shan'do",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  662: {
+  663: {
     "id": "CS2_203",
     "name": "Lechuza Picoférreo",
     "cost": 2,
@@ -6188,7 +6195,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  663: {
+  664: {
     "id": "EX1_116",
     "name": "Leeroy Jenkins",
     "cost": 5,
@@ -6199,7 +6206,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  664: {
+  665: {
     "id": "EX1_507",
     "name": "Líder de guerra múrloc",
     "cost": 3,
@@ -6211,13 +6218,6 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  665: {
-    "id": "EX1_160b",
-    "name": "Líder de la manada",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
   666: {
     "id": "EX1_160be",
     "name": "Líder de la manada",
@@ -6226,6 +6226,13 @@ hs_cards['eses'] = {
     "type": 0
   },
   667: {
+    "id": "EX1_160b",
+    "name": "Líder de la manada",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  668: {
     "id": "EX1_614t",
     "name": "Llama de Azzinoth",
     "cost": 1,
@@ -6234,7 +6241,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  668: {
+  669: {
     "id": "EX1_303",
     "name": "Llama de las Sombras",
     "cost": 4,
@@ -6244,22 +6251,12 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  669: {
+  670: {
     "id": "NEW1_007b",
     "name": "Lluvia de estrellas",
     "classs": 11,
     "set": 3,
     "type": 0
-  },
-  670: {
-    "id": "NEW1_007",
-    "name": "Lluvia de estrellas",
-    "cost": 5,
-    "classs": 11,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 2
   },
   671: {
     "id": "NEW1_007a",
@@ -6269,6 +6266,16 @@ hs_cards['eses'] = {
     "type": 0
   },
   672: {
+    "id": "NEW1_007",
+    "name": "Lluvia de estrellas",
+    "cost": 5,
+    "classs": 11,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 2
+  },
+  673: {
     "id": "EX1_162",
     "name": "Lobo temible alfa",
     "cost": 2,
@@ -6280,13 +6287,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  673: {
+  674: {
     "id": "NEW1_018e",
     "name": "Loca por el tesoro",
     "set": 3,
     "type": 0
   },
-  674: {
+  675: {
     "id": "EX1_323h",
     "name": "Lord Jaraxxus",
     "cost": 0,
@@ -6298,7 +6305,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  675: {
+  676: {
     "id": "EX1_323",
     "name": "Lord Jaraxxus",
     "cost": 9,
@@ -6311,7 +6318,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  676: {
+  677: {
     "id": "EX1_597",
     "name": "Maestra de diablillos",
     "cost": 3,
@@ -6322,7 +6329,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  677: {
+  678: {
     "id": "EX1_595",
     "name": "Maestra de secta",
     "cost": 4,
@@ -6333,7 +6340,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  678: {
+  679: {
     "id": "NEW1_014",
     "name": "Maestra del disfraz",
     "cost": 4,
@@ -6345,7 +6352,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  679: {
+  680: {
     "id": "EX1_057",
     "name": "Maestro cervecero anciano",
     "cost": 4,
@@ -6356,7 +6363,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  680: {
+  681: {
     "id": "EX1_049",
     "name": "Maestro cervecero joven",
     "cost": 2,
@@ -6367,7 +6374,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  681: {
+  682: {
     "id": "CS2_181",
     "name": "Maestro del acero herido",
     "cost": 3,
@@ -6378,7 +6385,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  682: {
+  683: {
     "id": "NEW1_037",
     "name": "Maestro forjador de espadas",
     "cost": 2,
@@ -6389,7 +6396,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  683: {
+  684: {
     "id": "EX1_083",
     "name": "Maestro manitas Sobrechispa",
     "cost": 3,
@@ -6400,7 +6407,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  684: {
+  685: {
     "id": "EX1_612",
     "name": "Maga del Kirin Tor",
     "cost": 3,
@@ -6412,7 +6419,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  685: {
+  686: {
     "id": "EX1_584",
     "name": "Mago anciano",
     "cost": 4,
@@ -6423,7 +6430,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  686: {
+  687: {
     "id": "EX1_012",
     "name": "Mago sangriento Thalnos",
     "cost": 2,
@@ -6434,7 +6441,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  687: {
+  688: {
     "id": "NEW1_019",
     "name": "Malabarista de cuchillos",
     "cost": 2,
@@ -6445,7 +6452,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  688: {
+  689: {
     "id": "EX1_563",
     "name": "Malygos",
     "cost": 9,
@@ -6457,7 +6464,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  689: {
+  690: {
     "id": "EX1_564",
     "name": "Manipulador ignoto",
     "cost": 5,
@@ -6468,16 +6475,9 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  690: {
+  691: {
     "id": "EX1_093e",
     "name": "Mano de Argus",
-    "set": 3,
-    "type": 0
-  },
-  691: {
-    "id": "EX1_155be",
-    "name": "Marca de la Naturaleza",
-    "classs": 11,
     "set": 3,
     "type": 0
   },
@@ -6513,6 +6513,13 @@ hs_cards['eses'] = {
     "type": 0
   },
   696: {
+    "id": "EX1_155be",
+    "name": "Marca de la Naturaleza",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  697: {
     "id": "CS2_146",
     "name": "Marinero de Mares del Sur",
     "cost": 1,
@@ -6524,7 +6531,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  697: {
+  698: {
     "id": "EX1_567",
     "name": "Martillo maldito",
     "cost": 5,
@@ -6536,21 +6543,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  698: {
+  699: {
     "id": "EX1_409e",
     "name": "Mejorada",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  699: {
+  700: {
     "id": "EX1_536e",
     "name": "Mejorado",
     "classs": 3,
     "set": 3,
     "type": 0
   },
-  700: {
+  701: {
     "id": "CS2_227",
     "name": "Mercenario Ventura y Cía.",
     "cost": 5,
@@ -6561,7 +6568,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  701: {
+  702: {
     "id": "NEW1_029",
     "name": "Molino Tormenta de Maná",
     "cost": 2,
@@ -6572,7 +6579,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  702: {
+  703: {
     "id": "EX1_570",
     "name": "Mordedura",
     "cost": 4,
@@ -6582,26 +6589,26 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  703: {
+  704: {
     "id": "EX1_570e",
     "name": "Mordedura",
     "set": 3,
     "type": 0
   },
-  704: {
+  705: {
     "id": "EX1_603e",
     "name": "Motivación por la fuerza",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  705: {
+  706: {
     "id": "EX1_103e",
     "name": "Mrghlglhal",
     "set": 3,
     "type": 0
   },
-  706: {
+  707: {
     "id": "EX1_557",
     "name": "Nat Pagle",
     "cost": 2,
@@ -6612,7 +6619,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  707: {
+  708: {
     "id": "EX1_161",
     "name": "Naturalizar",
     "cost": 1,
@@ -6622,7 +6629,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  708: {
+  709: {
     "id": "tt_004",
     "name": "Necrófago carnívoro",
     "cost": 3,
@@ -6633,7 +6640,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  709: {
+  710: {
     "id": "EX1_130",
     "name": "Noble sacrificio",
     "cost": 1,
@@ -6643,7 +6650,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  710: {
+  711: {
     "id": "EX1_560",
     "name": "Nozdormu",
     "cost": 9,
@@ -6655,13 +6662,6 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  711: {
-    "id": "EX1_164b",
-    "name": "Nutrir",
-    "classs": 11,
-    "set": 3,
-    "type": 0
-  },
   712: {
     "id": "EX1_164a",
     "name": "Nutrir",
@@ -6670,6 +6670,13 @@ hs_cards['eses'] = {
     "type": 0
   },
   713: {
+    "id": "EX1_164b",
+    "name": "Nutrir",
+    "classs": 11,
+    "set": 3,
+    "type": 0
+  },
+  714: {
     "id": "EX1_164",
     "name": "Nutrir",
     "cost": 5,
@@ -6679,7 +6686,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  714: {
+  715: {
     "id": "EX1_132",
     "name": "Ojo por ojo",
     "cost": 1,
@@ -6689,7 +6696,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  715: {
+  716: {
     "id": "EX1_562",
     "name": "Onyxia",
     "cost": 9,
@@ -6701,7 +6708,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  716: {
+  717: {
     "id": "EX1_050",
     "name": "Oráculo Luz Fría",
     "cost": 3,
@@ -6713,7 +6720,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  717: {
+  718: {
     "id": "NEW1_021",
     "name": "Orador del Sino",
     "cost": 2,
@@ -6724,13 +6731,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  718: {
+  719: {
     "id": "NEW1_024o",
     "name": "Orden de Verdetez",
     "set": 3,
     "type": 0
   },
-  719: {
+  720: {
     "id": "EX1_382",
     "name": "Pacificador Aldor",
     "cost": 3,
@@ -6742,14 +6749,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  720: {
+  721: {
     "id": "CS2_059o",
     "name": "Pacto de sangre",
     "classs": 9,
     "set": 3,
     "type": 0
   },
-  721: {
+  722: {
     "id": "EX1_160t",
     "name": "Pantera",
     "cost": 2,
@@ -6761,7 +6768,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  722: {
+  723: {
     "id": "EX1_017",
     "name": "Pantera de la selva",
     "cost": 3,
@@ -6773,7 +6780,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  723: {
+  724: {
     "id": "EX1_144",
     "name": "Paso de las Sombras",
     "cost": 0,
@@ -6783,7 +6790,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  724: {
+  725: {
     "id": "EX1_538t",
     "name": "Perro",
     "cost": 1,
@@ -6794,13 +6801,13 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  725: {
+  726: {
     "id": "DREAM_05e",
     "name": "Pesadilla",
     "set": 3,
     "type": 0
   },
-  726: {
+  727: {
     "id": "DREAM_05",
     "name": "Pesadilla",
     "cost": 0,
@@ -6808,7 +6815,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  727: {
+  728: {
     "id": "EX1_279",
     "name": "Piroexplosión",
     "cost": 10,
@@ -6818,7 +6825,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  728: {
+  729: {
     "id": "NEW1_020",
     "name": "Piromántico salvaje",
     "cost": 2,
@@ -6829,13 +6836,6 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  729: {
-    "id": "EX1_014t",
-    "name": "Plátanos",
-    "cost": 1,
-    "set": 3,
-    "type": 0
-  },
   730: {
     "id": "EX1_014te",
     "name": "Plátanos",
@@ -6843,6 +6843,13 @@ hs_cards['eses'] = {
     "type": 0
   },
   731: {
+    "id": "EX1_014t",
+    "name": "Plátanos",
+    "cost": 1,
+    "set": 3,
+    "type": 0
+  },
+  732: {
     "id": "EX1_160",
     "name": "Poder de lo Salvaje",
     "cost": 2,
@@ -6852,24 +6859,17 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  732: {
+  733: {
     "id": "EX1_612o",
     "name": "Poder del Kirin Tor",
     "classs": 8,
     "set": 3,
     "type": 0
   },
-  733: {
+  734: {
     "id": "EX1_274e",
     "name": "Poder desatado",
     "classs": 8,
-    "set": 3,
-    "type": 0
-  },
-  734: {
-    "id": "EX1_316e",
-    "name": "Poder sobrecogedor",
-    "classs": 9,
     "set": 3,
     "type": 0
   },
@@ -6884,6 +6884,13 @@ hs_cards['eses'] = {
     "quality": 1
   },
   736: {
+    "id": "EX1_316e",
+    "name": "Poder sobrecogedor",
+    "classs": 9,
+    "set": 3,
+    "type": 0
+  },
+  737: {
     "id": "EX1_009",
     "name": "Pollo furioso",
     "cost": 1,
@@ -6895,7 +6902,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  737: {
+  738: {
     "id": "EX1_405",
     "name": "Portaescudos",
     "cost": 1,
@@ -6906,7 +6913,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  738: {
+  739: {
     "id": "EX1_315",
     "name": "Portal de invocación",
     "cost": 4,
@@ -6918,13 +6925,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  739: {
+  740: {
     "id": "EX1_055o",
     "name": "Potenciada",
     "set": 3,
     "type": 0
   },
-  740: {
+  741: {
     "id": "EX1_341",
     "name": "Pozo de Luz",
     "cost": 2,
@@ -6936,7 +6943,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  741: {
+  742: {
     "id": "EX1_145",
     "name": "Preparación",
     "cost": 0,
@@ -6946,14 +6953,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  742: {
+  743: {
     "id": "EX1_145o",
     "name": "Preparación",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  743: {
+  744: {
     "id": "NEW1_026",
     "name": "Profesora violeta",
     "cost": 4,
@@ -6964,7 +6971,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  744: {
+  745: {
     "id": "EX1_350",
     "name": "Profeta Velen",
     "cost": 7,
@@ -6976,7 +6983,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  745: {
+  746: {
     "id": "EX1_362",
     "name": "Protector Argenta",
     "cost": 2,
@@ -6988,7 +6995,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  746: {
+  747: {
     "id": "EX1_058",
     "name": "Protectora Furia del Sol",
     "cost": 2,
@@ -6999,7 +7006,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  747: {
+  748: {
     "id": "EX1_625t",
     "name": "Púa mental",
     "cost": 2,
@@ -7007,14 +7014,14 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  748: {
+  749: {
     "id": "EX1_604o",
     "name": "Rabia",
     "classs": 1,
     "set": 3,
     "type": 0
   },
-  749: {
+  750: {
     "id": "EX1_393",
     "name": "Rabioso Amani",
     "cost": 2,
@@ -7025,7 +7032,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  750: {
+  751: {
     "id": "EX1_604",
     "name": "Rabioso demente",
     "cost": 3,
@@ -7037,7 +7044,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  751: {
+  752: {
     "id": "EX1_241",
     "name": "Ráfaga de lava",
     "cost": 3,
@@ -7047,7 +7054,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  752: {
+  753: {
     "id": "EX1_298",
     "name": "Ragnaros, Señor del Fuego",
     "cost": 8,
@@ -7058,7 +7065,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  753: {
+  754: {
     "id": "EX1_136",
     "name": "Redención",
     "cost": 1,
@@ -7068,7 +7075,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  754: {
+  755: {
     "id": "EX1_533",
     "name": "Redirección",
     "cost": 2,
@@ -7078,7 +7085,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  755: {
+  756: {
     "id": "EX1_294",
     "name": "Reflejo viviente",
     "cost": 3,
@@ -7088,13 +7095,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  756: {
+  757: {
     "id": "NEW1_025e",
     "name": "Refuerzo",
     "set": 3,
     "type": 0
   },
-  757: {
+  758: {
     "id": "EX1_251",
     "name": "Relámpago bifurcado",
     "cost": 1,
@@ -7104,7 +7111,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  758: {
+  759: {
     "id": "EX1_543",
     "name": "Rey Krush",
     "cost": 9,
@@ -7117,7 +7124,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  759: {
+  760: {
     "id": "EX1_014",
     "name": "Rey Mukla",
     "cost": 3,
@@ -7129,7 +7136,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  760: {
+  761: {
     "id": "EX1_339",
     "name": "Robo de ideas",
     "cost": 3,
@@ -7139,7 +7146,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  761: {
+  762: {
     "id": "EX1_006",
     "name": "Roboalarma",
     "cost": 3,
@@ -7151,7 +7158,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  762: {
+  763: {
     "id": "EX1_137",
     "name": "Rompecabezas",
     "cost": 3,
@@ -7161,7 +7168,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  763: {
+  764: {
     "id": "EX1_048",
     "name": "Rompehechizos",
     "cost": 4,
@@ -7172,7 +7179,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  764: {
+  765: {
     "id": "EX1_591",
     "name": "Sacerdotisa Auchenai",
     "cost": 4,
@@ -7184,7 +7191,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  765: {
+  766: {
     "id": "EX1_583",
     "name": "Sacerdotisa de Elune",
     "cost": 6,
@@ -7195,7 +7202,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  766: {
+  767: {
     "id": "EX1_091",
     "name": "Sacerdotisa de la Cábala",
     "cost": 6,
@@ -7207,7 +7214,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  767: {
+  768: {
     "id": "EX1_004",
     "name": "Sacerdotisa joven",
     "cost": 1,
@@ -7218,7 +7225,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  768: {
+  769: {
     "id": "EX1_578",
     "name": "Salvajismo",
     "cost": 1,
@@ -7227,16 +7234,6 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0,
     "quality": 2
-  },
-  769: {
-    "id": "CS2_073",
-    "name": "Sangre fría",
-    "cost": 1,
-    "classs": 4,
-    "collectible": 1,
-    "set": 3,
-    "type": 0,
-    "quality": 1
   },
   770: {
     "id": "CS2_073e2",
@@ -7253,6 +7250,16 @@ hs_cards['eses'] = {
     "type": 0
   },
   772: {
+    "id": "CS2_073",
+    "name": "Sangre fría",
+    "cost": 1,
+    "classs": 4,
+    "collectible": 1,
+    "set": 3,
+    "type": 0,
+    "quality": 1
+  },
+  773: {
     "id": "CS2_188",
     "name": "Sargento abusón",
     "cost": 1,
@@ -7263,13 +7270,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  773: {
+  774: {
     "id": "EX1_080o",
     "name": "Secretismo",
     "set": 3,
     "type": 0
   },
-  774: {
+  775: {
     "id": "EX1_080",
     "name": "Secretista",
     "cost": 1,
@@ -7280,14 +7287,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  775: {
+  776: {
     "id": "NEW1_008b",
     "name": "Secretos antiguos",
     "classs": 11,
     "set": 3,
     "type": 0
   },
-  776: {
+  777: {
     "id": "NEW1_005",
     "name": "Secuestrador",
     "cost": 6,
@@ -7299,7 +7306,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  777: {
+  778: {
     "id": "EX1_313",
     "name": "Señor del foso",
     "cost": 4,
@@ -7312,7 +7319,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  778: {
+  779: {
     "id": "EX1_332",
     "name": "Silencio",
     "cost": 0,
@@ -7322,14 +7329,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  779: {
+  780: {
     "id": "EX1_258e",
     "name": "Sobrecargando",
     "classs": 7,
     "set": 3,
     "type": 0
   },
-  780: {
+  781: {
     "id": "EX1_538",
     "name": "Soltad a los perros",
     "cost": 3,
@@ -7339,7 +7346,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  781: {
+  782: {
     "id": "EX1_345t",
     "name": "Sombra de la nada",
     "cost": 0,
@@ -7350,14 +7357,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  782: {
+  783: {
     "id": "EX1_590e",
     "name": "Sombras de M'uru",
     "set": 3,
     "type": 0,
     "quality": 1
   },
-  783: {
+  784: {
     "id": "EX1_095",
     "name": "Subastador de Gadgetzan",
     "cost": 6,
@@ -7368,7 +7375,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  784: {
+  785: {
     "id": "EX1_309",
     "name": "Succionar alma",
     "cost": 6,
@@ -7378,7 +7385,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  785: {
+  786: {
     "id": "DREAM_04",
     "name": "Sueño",
     "cost": 0,
@@ -7386,7 +7393,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  786: {
+  787: {
     "id": "EX1_016",
     "name": "Sylvanas Brisaveloz",
     "cost": 6,
@@ -7397,7 +7404,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  787: {
+  788: {
     "id": "EX1_390",
     "name": "Tauren guerrero",
     "cost": 3,
@@ -7408,7 +7415,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  788: {
+  789: {
     "id": "EX1_085",
     "name": "Técnico de control mental",
     "cost": 3,
@@ -7419,13 +7426,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  789: {
+  790: {
     "id": "EX1_046e",
     "name": "Templado",
     "set": 3,
     "type": 0
   },
-  790: {
+  791: {
     "id": "EX1_320",
     "name": "Terror de fatalidad",
     "cost": 5,
@@ -7435,7 +7442,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  791: {
+  792: {
     "id": "EX1_304",
     "name": "Terror del vacío",
     "cost": 3,
@@ -7448,7 +7455,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  792: {
+  793: {
     "id": "EX1_028",
     "name": "Tigre de Tuercespina",
     "cost": 5,
@@ -7460,7 +7467,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  793: {
+  794: {
     "id": "EX1_383",
     "name": "Tirion Vadín",
     "cost": 8,
@@ -7472,7 +7479,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  794: {
+  795: {
     "id": "EX1_259",
     "name": "Tormenta de relámpagos",
     "cost": 3,
@@ -7482,7 +7489,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  795: {
+  796: {
     "id": "EX1_575",
     "name": "Tótem Marea de maná",
     "cost": 3,
@@ -7495,7 +7502,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  796: {
+  797: {
     "id": "EX1_126",
     "name": "Traición",
     "cost": 2,
@@ -7505,7 +7512,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  797: {
+  798: {
     "id": "EX1_554",
     "name": "Trampa con culebras",
     "cost": 2,
@@ -7515,7 +7522,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  798: {
+  799: {
     "id": "EX1_611",
     "name": "Trampa congelante",
     "cost": 2,
@@ -7525,7 +7532,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  799: {
+  800: {
     "id": "EX1_610",
     "name": "Trampa explosiva",
     "cost": 2,
@@ -7535,7 +7542,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  800: {
+  801: {
     "id": "CS1_069",
     "name": "Trepador del pantano",
     "cost": 5,
@@ -7546,13 +7553,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  801: {
+  802: {
     "id": "NEW1_017e",
     "name": "Tripa llena",
     "set": 3,
     "type": 0
   },
-  802: {
+  803: {
     "id": "tt_010a",
     "name": "Tuercehechizos",
     "cost": 0,
@@ -7563,7 +7570,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  803: {
+  804: {
     "id": "tt_010",
     "name": "Tuercehechizos",
     "cost": 3,
@@ -7573,7 +7580,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  804: {
+  805: {
     "id": "EX1_312",
     "name": "Vacío Abisal",
     "cost": 8,
@@ -7583,7 +7590,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  805: {
+  806: {
     "id": "EX1_594",
     "name": "Vaporizar",
     "cost": 3,
@@ -7593,14 +7600,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  806: {
+  807: {
     "id": "EX1_613e",
     "name": "Venganza de VanCleef",
     "classs": 4,
     "set": 3,
     "type": 0
   },
-  807: {
+  808: {
     "id": "CS2_028",
     "name": "Ventisca",
     "cost": 6,
@@ -7610,7 +7617,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  808: {
+  809: {
     "id": "NEW1_012",
     "name": "Vermis de maná",
     "cost": 1,
@@ -7622,7 +7629,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  809: {
+  810: {
     "id": "EX1_103",
     "name": "Vidente Luz Fría",
     "cost": 3,
@@ -7634,7 +7641,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  810: {
+  811: {
     "id": "EX1_045",
     "name": "Vigía ancestral",
     "cost": 2,
@@ -7645,7 +7652,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  811: {
+  812: {
     "id": "CS2_053",
     "name": "Visión lejana",
     "cost": 3,
@@ -7655,14 +7662,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  812: {
+  813: {
     "id": "CS2_053e",
     "name": "Visión lejana",
     "classs": 7,
     "set": 3,
     "type": 0
   },
-  813: {
+  814: {
     "id": "EX1_572",
     "name": "Ysera",
     "cost": 9,
@@ -7674,7 +7681,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  814: {
+  815: {
     "id": "DREAM_02",
     "name": "Ysera despierta",
     "cost": 2,
@@ -7682,7 +7689,7 @@ hs_cards['eses'] = {
     "set": 3,
     "type": 0
   },
-  815: {
+  816: {
     "id": "CRED_15",
     "name": "Andy Brock",
     "cost": 1,
@@ -7692,7 +7699,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  816: {
+  817: {
     "id": "CRED_18",
     "name": "Becca Abel",
     "cost": 2,
@@ -7702,7 +7709,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  817: {
+  818: {
     "id": "CRED_08",
     "name": "Ben Brode",
     "cost": 3,
@@ -7712,7 +7719,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  818: {
+  819: {
     "id": "CRED_09",
     "name": "Ben Thompson",
     "cost": 6,
@@ -7722,7 +7729,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  819: {
+  820: {
     "id": "CRED_19",
     "name": "Beomki Hong",
     "cost": 4,
@@ -7732,7 +7739,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  820: {
+  821: {
     "id": "CRED_03",
     "name": "Bob Fitch",
     "cost": 3,
@@ -7742,7 +7749,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  821: {
+  822: {
     "id": "CRED_20",
     "name": "Brian Birmingham",
     "cost": 3,
@@ -7752,7 +7759,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  822: {
+  823: {
     "id": "CRED_13",
     "name": "Brian Schwab",
     "cost": 10,
@@ -7762,7 +7769,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  823: {
+  824: {
     "id": "CRED_21",
     "name": "Bryan Chang",
     "cost": 1,
@@ -7772,7 +7779,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  824: {
+  825: {
     "id": "CRED_22",
     "name": "Cameron Chrisman",
     "cost": 3,
@@ -7782,7 +7789,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  825: {
+  826: {
     "id": "CRED_23",
     "name": "Christopher Yim",
     "cost": 4,
@@ -7792,7 +7799,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  826: {
+  827: {
     "id": "CRED_24",
     "name": "Dean Ayala",
     "cost": 7,
@@ -7802,7 +7809,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  827: {
+  828: {
     "id": "CRED_06",
     "name": "Derek Sakamoto",
     "cost": 1,
@@ -7812,7 +7819,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  828: {
+  829: {
     "id": "CRED_25",
     "name": "Elizabeth Cho",
     "cost": 4,
@@ -7822,7 +7829,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  829: {
+  830: {
     "id": "CRED_26",
     "name": "Eric Del Priore",
     "cost": 3,
@@ -7832,7 +7839,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  830: {
+  831: {
     "id": "CRED_02",
     "name": "Eric Dodds",
     "cost": 6,
@@ -7842,7 +7849,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  831: {
+  832: {
     "id": "CRED_16",
     "name": "Hamilton Chu",
     "cost": 7,
@@ -7852,7 +7859,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  832: {
+  833: {
     "id": "CRED_28",
     "name": "He-Rim Woo",
     "cost": 4,
@@ -7862,7 +7869,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  833: {
+  834: {
     "id": "CRED_27",
     "name": "Henry Ho",
     "cost": 3,
@@ -7872,7 +7879,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  834: {
+  835: {
     "id": "CRED_01",
     "name": "Jason Chayes",
     "cost": 6,
@@ -7882,7 +7889,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  835: {
+  836: {
     "id": "CRED_29",
     "name": "Jason MacAllister",
     "cost": 5,
@@ -7892,7 +7899,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  836: {
+  837: {
     "id": "CRED_11",
     "name": "Jay Baxter",
     "cost": 4,
@@ -7902,7 +7909,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  837: {
+  838: {
     "id": "CRED_30",
     "name": "JC Park",
     "cost": 7,
@@ -7912,7 +7919,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  838: {
+  839: {
     "id": "CRED_31",
     "name": "Jeremy Cranford",
     "cost": 4,
@@ -7922,7 +7929,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  839: {
+  840: {
     "id": "CRED_32",
     "name": "Jerry Mascho",
     "cost": 2,
@@ -7932,7 +7939,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  840: {
+  841: {
     "id": "CRED_33",
     "name": "Jomaro Kindred",
     "cost": 6,
@@ -7942,7 +7949,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  841: {
+  842: {
     "id": "CRED_43",
     "name": "Jon Bankard",
     "cost": 5,
@@ -7952,7 +7959,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  842: {
+  843: {
     "id": "CRED_45",
     "name": "Jonas Laster",
     "cost": 6,
@@ -7962,7 +7969,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  843: {
+  844: {
     "id": "CRED_46",
     "name": "Keith Landes",
     "cost": 2,
@@ -7972,7 +7979,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  844: {
+  845: {
     "id": "CRED_05",
     "name": "Kyle Harrison",
     "cost": 3,
@@ -7982,7 +7989,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  845: {
+  846: {
     "id": "CRED_34",
     "name": "Max Ma",
     "cost": 3,
@@ -7992,7 +7999,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  846: {
+  847: {
     "id": "CRED_35",
     "name": "Max McCall",
     "cost": 4,
@@ -8002,7 +8009,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  847: {
+  848: {
     "id": "CRED_10",
     "name": "Michael Schweitzer",
     "cost": 2,
@@ -8012,7 +8019,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  848: {
+  849: {
     "id": "CRED_36",
     "name": "Mike Donais",
     "cost": 6,
@@ -8022,7 +8029,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  849: {
+  850: {
     "id": "CRED_12",
     "name": "Rachelle Davis",
     "cost": 2,
@@ -8032,7 +8039,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  850: {
+  851: {
     "id": "CRED_37",
     "name": "Ricardo Robaina",
     "cost": 4,
@@ -8042,7 +8049,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  851: {
+  852: {
     "id": "CRED_17",
     "name": "Rob Pardo",
     "cost": 9,
@@ -8052,7 +8059,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  852: {
+  853: {
     "id": "CRED_38",
     "name": "Robin Fredericksen",
     "cost": 4,
@@ -8062,7 +8069,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  853: {
+  854: {
     "id": "CRED_39",
     "name": "Ryan Chew",
     "cost": 2,
@@ -8072,7 +8079,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  854: {
+  855: {
     "id": "CRED_40",
     "name": "Ryan Masterson",
     "cost": 4,
@@ -8083,7 +8090,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  855: {
+  856: {
     "id": "CRED_41",
     "name": "Seyil Yoon",
     "cost": 5,
@@ -8093,7 +8100,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  856: {
+  857: {
     "id": "CRED_04",
     "name": "Steven Gabriel",
     "cost": 1,
@@ -8103,7 +8110,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  857: {
+  858: {
     "id": "CRED_42",
     "name": "Tim Erskine",
     "cost": 4,
@@ -8113,7 +8120,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  858: {
+  859: {
     "id": "CRED_44",
     "name": "Walter Kong",
     "cost": 4,
@@ -8123,7 +8130,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  859: {
+  860: {
     "id": "CRED_14",
     "name": "Yong Woo",
     "cost": 5,
@@ -8133,7 +8140,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  860: {
+  861: {
     "id": "CRED_07",
     "name": "Zwick",
     "cost": 2,
@@ -8143,26 +8150,26 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  861: {
+  862: {
     "id": "NAX15_01e",
     "name": "¡Intrusos!",
     "set": 12,
     "type": 0
   },
-  862: {
+  863: {
     "id": "NAX15_01He",
     "name": "¡Intrusos!.",
     "set": 12,
     "type": 0
   },
-  863: {
+  864: {
     "id": "NAX14_02",
     "name": "Aliento de Escarcha",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  864: {
+  865: {
     "id": "FP1_016",
     "name": "Alma gemebunda",
     "cost": 4,
@@ -8173,7 +8180,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  865: {
+  866: {
     "id": "FP1_019t",
     "name": "Antárbol",
     "cost": 1,
@@ -8183,21 +8190,21 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  866: {
+  867: {
     "id": "NAX1_01",
     "name": "Anub'Rekhan",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  867: {
+  868: {
     "id": "NAX1h_01",
     "name": "Anub'Rekhan",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  868: {
+  869: {
     "id": "FP1_002t",
     "name": "Araña espectral",
     "cost": 1,
@@ -8206,27 +8213,27 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  869: {
+  870: {
     "id": "FP1_030e",
     "name": "Aura necrótica",
     "set": 12,
     "type": 0
   },
-  870: {
+  871: {
     "id": "NAX6_02",
     "name": "Aura necrótica",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  871: {
+  872: {
     "id": "NAX6_02H",
     "name": "Aura necrótica",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  872: {
+  873: {
     "id": "FP1_012t",
     "name": "Babosa",
     "cost": 1,
@@ -8235,7 +8242,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  873: {
+  874: {
     "id": "NAX11_03",
     "name": "Babosa radiactiva",
     "cost": 1,
@@ -8244,7 +8251,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  874: {
+  875: {
     "id": "NAX15_05",
     "name": "Baldomero",
     "cost": 0,
@@ -8255,7 +8262,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  875: {
+  876: {
     "id": "FP1_031",
     "name": "Barón Osahendido",
     "cost": 4,
@@ -8266,21 +8273,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  876: {
+  877: {
     "id": "NAX9_01H",
     "name": "Barón Osahendido",
     "health": 14,
     "set": 12,
     "type": 0
   },
-  877: {
+  878: {
     "id": "NAX9_01",
     "name": "Barón Osahendido",
     "health": 7,
     "set": 12,
     "type": 0
   },
-  878: {
+  879: {
     "id": "FP1_008",
     "name": "Caballero espectral",
     "cost": 5,
@@ -8291,28 +8298,28 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  879: {
+  880: {
     "id": "NAX15_04H",
     "name": "Cadenas",
     "cost": 8,
     "set": 12,
     "type": 0
   },
-  880: {
+  881: {
     "id": "NAX15_04",
     "name": "Cadenas",
     "cost": 8,
     "set": 12,
     "type": 0
   },
-  881: {
+  882: {
     "id": "NAX13_02",
     "name": "Cambio de polaridad",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  882: {
+  883: {
     "id": "NAX14_03",
     "name": "Campeón congelado",
     "cost": 5,
@@ -8321,7 +8328,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  883: {
+  884: {
     "id": "FP1_004",
     "name": "Científico loco",
     "cost": 2,
@@ -8332,7 +8339,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  884: {
+  885: {
     "id": "FP1_022",
     "name": "Clamavacío",
     "cost": 4,
@@ -8345,54 +8352,54 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  885: {
+  886: {
     "id": "FP1_005e",
     "name": "Consumir",
     "set": 12,
     "type": 0
   },
-  886: {
+  887: {
     "id": "NAX1h_04",
     "name": "Corretear",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  887: {
+  888: {
     "id": "NAX1_04",
     "name": "Corretear",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  888: {
+  889: {
     "id": "NAX8_02H",
     "name": "Cosechar",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  889: {
+  890: {
     "id": "NAX8_02",
     "name": "Cosechar",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  890: {
+  891: {
     "id": "NAX6_03te",
     "name": "Crecimiento fúngico",
     "set": 12,
     "type": 0
   },
-  891: {
+  892: {
     "id": "NAX7_05",
     "name": "Cristal de control mental",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  892: {
+  893: {
     "id": "FP1_023",
     "name": "Cultor oscuro",
     "cost": 3,
@@ -8404,7 +8411,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  893: {
+  894: {
     "id": "FP1_006",
     "name": "Destrero de la muerte",
     "cost": 1,
@@ -8413,33 +8420,33 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  894: {
+  895: {
     "id": "NAX12_03e",
     "name": "Dientes adicionales",
     "set": 12,
     "type": 0
   },
-  895: {
+  896: {
     "id": "NAX12_02H",
     "name": "Diezmar",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  896: {
+  897: {
     "id": "NAX12_02",
     "name": "Diezmar",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  897: {
+  898: {
     "id": "NAX12_02e",
     "name": "Diezmar",
     "set": 12,
     "type": 0
   },
-  898: {
+  899: {
     "id": "FP1_018",
     "name": "Duplicar",
     "cost": 3,
@@ -8449,7 +8456,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  899: {
+  900: {
     "id": "FP1_003",
     "name": "Eco de moco",
     "cost": 2,
@@ -8460,7 +8467,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  900: {
+  901: {
     "id": "FP1_026",
     "name": "Emboscador Anub'ar",
     "cost": 4,
@@ -8472,27 +8479,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  901: {
+  902: {
     "id": "NAX12_04e",
     "name": "Enfurecer",
     "set": 12,
     "type": 0
   },
-  902: {
+  903: {
     "id": "NAX12_04",
     "name": "Enfurecer",
     "cost": 3,
     "set": 12,
     "type": 0
   },
-  903: {
+  904: {
     "id": "NAX1_05",
     "name": "Enjambre de langostas",
     "cost": 7,
     "set": 12,
     "type": 0
   },
-  904: {
+  905: {
     "id": "FP1_028",
     "name": "Enterrador",
     "cost": 1,
@@ -8503,7 +8510,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  905: {
+  906: {
     "id": "FP1_012",
     "name": "Eructador de lodo",
     "cost": 5,
@@ -8514,27 +8521,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  906: {
+  907: {
     "id": "NAX5_02H",
     "name": "Erupción",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  907: {
+  908: {
     "id": "NAX5_02",
     "name": "Erupción",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  908: {
+  909: {
     "id": "NAX15_04a",
     "name": "Esclavo de Kel'Thuzad",
     "set": 12,
     "type": 0
   },
-  909: {
+  910: {
     "id": "FP1_029",
     "name": "Espadas danzantes",
     "cost": 3,
@@ -8545,7 +8552,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  910: {
+  911: {
     "id": "NAX6_03t",
     "name": "Espora",
     "cost": 0,
@@ -8554,7 +8561,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  911: {
+  912: {
     "id": "NAX4_03",
     "name": "Esqueleto",
     "cost": 1,
@@ -8563,7 +8570,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  912: {
+  913: {
     "id": "NAX4_03H",
     "name": "Esqueleto",
     "cost": 5,
@@ -8572,21 +8579,21 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  913: {
+  914: {
     "id": "NAX15_02",
     "name": "Explosión de Escarcha",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  914: {
+  915: {
     "id": "NAX15_02H",
     "name": "Explosión de Escarcha",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  915: {
+  916: {
     "id": "FP1_015",
     "name": "Feugen",
     "cost": 5,
@@ -8597,7 +8604,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  916: {
+  917: {
     "id": "NAX13_04H",
     "name": "Feugen",
     "cost": 5,
@@ -8607,21 +8614,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  917: {
+  918: {
     "id": "NAX6_03",
     "name": "Flor de muerte",
     "cost": 4,
     "set": 12,
     "type": 0
   },
-  918: {
+  919: {
     "id": "NAX14_04",
     "name": "Frío puro",
     "cost": 5,
     "set": 12,
     "type": 0
   },
-  919: {
+  920: {
     "id": "NAX10_02H",
     "name": "Gancho",
     "cost": 3,
@@ -8630,7 +8637,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  920: {
+  921: {
     "id": "NAX10_02",
     "name": "Gancho",
     "cost": 3,
@@ -8639,7 +8646,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  921: {
+  922: {
     "id": "FP1_027",
     "name": "Gárgola piel de piedra",
     "cost": 3,
@@ -8650,91 +8657,91 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  922: {
+  923: {
     "id": "NAX12_01H",
     "name": "Gluth",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  923: {
+  924: {
     "id": "NAX12_01",
     "name": "Gluth",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  924: {
+  925: {
     "id": "NAX10_03",
     "name": "Golpe de odio",
     "cost": 4,
     "set": 12,
     "type": 0
   },
-  925: {
+  926: {
     "id": "NAX10_03H",
     "name": "Golpe de odio",
     "cost": 4,
     "set": 12,
     "type": 0
   },
-  926: {
+  927: {
     "id": "NAX7_03H",
     "name": "Golpe desequilibrante",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  927: {
+  928: {
     "id": "NAX7_03",
     "name": "Golpe desequilibrante",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  928: {
+  929: {
     "id": "NAX8_01",
     "name": "Gothik el Cosechador",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  929: {
+  930: {
     "id": "NAX8_01H",
     "name": "Gothik el Cosechador",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  930: {
+  931: {
     "id": "NAX2_01H",
     "name": "Gran Viuda Faerlina",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  931: {
+  932: {
     "id": "NAX2_01",
     "name": "Gran Viuda Faerlina",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  932: {
+  933: {
     "id": "NAX11_01",
     "name": "Grobbulus",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  933: {
+  934: {
     "id": "NAX11_01H",
     "name": "Grobbulus",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  934: {
+  935: {
     "id": "NAX15_03t",
     "name": "Guardián de Corona de Hielo",
     "cost": 4,
@@ -8743,7 +8750,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  935: {
+  936: {
     "id": "NAX15_03n",
     "name": "Guardián de Corona de Hielo",
     "cost": 4,
@@ -8752,7 +8759,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  936: {
+  937: {
     "id": "NAX8_04t",
     "name": "Guerrero espectral",
     "cost": 3,
@@ -8761,7 +8768,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  937: {
+  938: {
     "id": "NAX8_04",
     "name": "Guerrero implacable",
     "cost": 3,
@@ -8770,7 +8777,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  938: {
+  939: {
     "id": "NAX5_01H",
     "name": "Heigan el Impuro",
     "health": 45,
@@ -8778,7 +8785,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  939: {
+  940: {
     "id": "NAX5_01",
     "name": "Heigan el Impuro",
     "health": 30,
@@ -8786,7 +8793,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  940: {
+  941: {
     "id": "NAXM_002",
     "name": "Herrero esquelético",
     "cost": 3,
@@ -8795,7 +8802,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  941: {
+  942: {
     "id": "NAX9_05",
     "name": "Hojarruna",
     "cost": 3,
@@ -8804,7 +8811,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  942: {
+  943: {
     "id": "NAX9_05H",
     "name": "Hojarruna",
     "cost": 3,
@@ -8813,7 +8820,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  943: {
+  944: {
     "id": "NAX7_04",
     "name": "Hojarruna enorme",
     "cost": 3,
@@ -8822,7 +8829,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  944: {
+  945: {
     "id": "NAX7_04H",
     "name": "Hojarruna enorme",
     "cost": 3,
@@ -8831,7 +8838,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  945: {
+  946: {
     "id": "FP1_007",
     "name": "Huevo nerubiano",
     "cost": 2,
@@ -8842,34 +8849,34 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  946: {
+  947: {
     "id": "NAX7_01",
     "name": "Instructor Razuvious",
     "health": 40,
     "set": 12,
     "type": 0
   },
-  947: {
+  948: {
     "id": "NAX7_01H",
     "name": "Instructor Razuvious",
     "health": 55,
     "set": 12,
     "type": 0
   },
-  948: {
+  949: {
     "id": "NAX11_04",
     "name": "Inyección mutante",
     "cost": 3,
     "set": 12,
     "type": 0
   },
-  949: {
+  950: {
     "id": "NAX11_04e",
     "name": "Inyección mutante",
     "set": 12,
     "type": 0
   },
-  950: {
+  951: {
     "id": "NAX8_05t",
     "name": "Jinete espectral",
     "cost": 5,
@@ -8878,7 +8885,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  951: {
+  952: {
     "id": "NAX8_05",
     "name": "Jinete inflexible",
     "cost": 6,
@@ -8887,7 +8894,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  952: {
+  953: {
     "id": "FP1_013",
     "name": "Kel'Thuzad",
     "cost": 8,
@@ -8898,27 +8905,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  953: {
+  954: {
     "id": "NAX15_01H",
     "name": "Kel'Thuzad",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  954: {
+  955: {
     "id": "NAX15_01",
     "name": "Kel'Thuzad",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  955: {
+  956: {
     "id": "FP1_028e",
     "name": "La oscuridad me llama",
     "set": 12,
     "type": 0
   },
-  956: {
+  957: {
     "id": "NAX9_02",
     "name": "Lady Blaumeux",
     "cost": 3,
@@ -8927,7 +8934,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  957: {
+  958: {
     "id": "NAX9_02H",
     "name": "Lady Blaumeux",
     "cost": 3,
@@ -8936,35 +8943,35 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  958: {
+  959: {
     "id": "NAX4_04H",
     "name": "Levantar a muerto",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  959: {
+  960: {
     "id": "NAX4_04",
     "name": "Levantar muerto",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  960: {
+  961: {
     "id": "NAX2_03",
     "name": "Lluvia de Fuego",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  961: {
+  962: {
     "id": "NAX2_03H",
     "name": "Lluvia de Fuego",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  962: {
+  963: {
     "id": "FP1_030",
     "name": "Loatheb",
     "cost": 5,
@@ -8975,28 +8982,28 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  963: {
+  964: {
     "id": "NAX6_01H",
     "name": "Loatheb",
     "health": 99,
     "set": 12,
     "type": 0
   },
-  964: {
+  965: {
     "id": "NAX6_01",
     "name": "Loatheb",
     "health": 75,
     "set": 12,
     "type": 0
   },
-  965: {
+  966: {
     "id": "NAX3_01H",
     "name": "Maexxna",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  966: {
+  967: {
     "id": "FP1_010",
     "name": "Maexxna",
     "cost": 6,
@@ -9008,14 +9015,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  967: {
+  968: {
     "id": "NAX3_01",
     "name": "Maexxna",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  968: {
+  969: {
     "id": "NAX12_03H",
     "name": "Mandíbulas",
     "cost": 1,
@@ -9024,7 +9031,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  969: {
+  970: {
     "id": "NAX12_03",
     "name": "Mandíbulas",
     "cost": 1,
@@ -9033,27 +9040,27 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  970: {
+  971: {
     "id": "NAX9_07",
     "name": "Marca de los jinetes",
     "cost": 5,
     "set": 12,
     "type": 0
   },
-  971: {
+  972: {
     "id": "NAX9_07e",
     "name": "Marca de los jinetes",
     "set": 12,
     "type": 0
   },
-  972: {
+  973: {
     "id": "NAX5_03",
     "name": "Mentapocalipsis",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  973: {
+  974: {
     "id": "NAXM_001",
     "name": "Necrocaballero",
     "cost": 4,
@@ -9062,7 +9069,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  974: {
+  975: {
     "id": "FP1_024",
     "name": "Necrófago inestable",
     "cost": 2,
@@ -9073,7 +9080,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  975: {
+  976: {
     "id": "NAX1_03",
     "name": "Nerubiano",
     "cost": 2,
@@ -9082,7 +9089,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  976: {
+  977: {
     "id": "FP1_007t",
     "name": "Nerubiano",
     "cost": 3,
@@ -9092,7 +9099,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  977: {
+  978: {
     "id": "NAX1h_03",
     "name": "Nerubiano",
     "cost": 2,
@@ -9101,7 +9108,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  978: {
+  979: {
     "id": "NAX4_01H",
     "name": "Noth el Pesteador",
     "health": 45,
@@ -9109,7 +9116,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  979: {
+  980: {
     "id": "NAX4_01",
     "name": "Noth el Pesteador",
     "health": 30,
@@ -9117,28 +9124,28 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  980: {
+  981: {
     "id": "NAX11_02",
     "name": "Nube de veneno",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  981: {
+  982: {
     "id": "NAX11_02H",
     "name": "Nube de veneno",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  982: {
+  983: {
     "id": "NAX4_05",
     "name": "Peste",
     "cost": 6,
     "set": 12,
     "type": 0
   },
-  983: {
+  984: {
     "id": "FP1_021",
     "name": "Picadura de la Muerte",
     "cost": 4,
@@ -9150,20 +9157,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  984: {
+  985: {
     "id": "FP1_023e",
     "name": "Poder del zigurat",
     "classs": 5,
     "set": 12,
     "type": 0
   },
-  985: {
+  986: {
     "id": "NAX13_02e",
     "name": "Polaridad",
     "set": 12,
     "type": 0
   },
-  986: {
+  987: {
     "id": "NAX8_03t",
     "name": "Practicante espectral",
     "cost": 1,
@@ -9172,7 +9179,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  987: {
+  988: {
     "id": "NAX8_03",
     "name": "Practicante inflexible",
     "cost": 1,
@@ -9181,14 +9188,14 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  988: {
+  989: {
     "id": "NAX6_04",
     "name": "Ráfaga de esporas",
     "cost": 1,
     "set": 12,
     "type": 0
   },
-  989: {
+  990: {
     "id": "FP1_025",
     "name": "Reencarnar",
     "cost": 2,
@@ -9198,35 +9205,35 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  990: {
+  991: {
     "id": "NAX10_01",
     "name": "Remendejo",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  991: {
+  992: {
     "id": "NAX10_01H",
     "name": "Remendejo",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  992: {
+  993: {
     "id": "NAX14_01",
     "name": "Sapphiron",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  993: {
+  994: {
     "id": "NAX14_01H",
     "name": "Sapphiron",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  994: {
+  995: {
     "id": "FP1_019",
     "name": "Semillas venenosas",
     "cost": 4,
@@ -9236,7 +9243,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  995: {
+  996: {
     "id": "FP1_009",
     "name": "Señor de la Muerte",
     "cost": 3,
@@ -9247,7 +9254,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  996: {
+  997: {
     "id": "NAX9_03",
     "name": "Señor feudal Korth'azz",
     "cost": 3,
@@ -9256,7 +9263,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  997: {
+  998: {
     "id": "NAX9_03H",
     "name": "Señor feudal Korth'azz",
     "cost": 3,
@@ -9265,7 +9272,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  998: {
+  999: {
     "id": "FP1_017",
     "name": "Señor telaraña Nerub'ar",
     "cost": 2,
@@ -9276,7 +9283,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  999: {
+  1000: {
     "id": "NAX9_04H",
     "name": "Sir Zeliek",
     "cost": 3,
@@ -9285,7 +9292,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  1000: {
+  1001: {
     "id": "NAX9_04",
     "name": "Sir Zeliek",
     "cost": 3,
@@ -9294,7 +9301,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  1001: {
+  1002: {
     "id": "FP1_005",
     "name": "Sombra de Naxxramas",
     "cost": 3,
@@ -9305,14 +9312,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1002: {
+  1003: {
     "id": "NAX9_06",
     "name": "Sombra impía",
     "cost": 5,
     "set": 12,
     "type": 0
   },
-  1003: {
+  1004: {
     "id": "NAX13_05H",
     "name": "Stalagg",
     "cost": 5,
@@ -9322,7 +9329,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1004: {
+  1005: {
     "id": "FP1_014",
     "name": "Stalagg",
     "cost": 5,
@@ -9333,20 +9340,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1005: {
+  1006: {
     "id": "NAX13_03",
     "name": "Supercarga",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  1006: {
+  1007: {
     "id": "NAX13_03e",
     "name": "Supercargado",
     "set": 12,
     "type": 0
   },
-  1007: {
+  1008: {
     "id": "NAX7_02",
     "name": "Suplente",
     "cost": 2,
@@ -9355,7 +9362,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  1008: {
+  1009: {
     "id": "FP1_011",
     "name": "Tejerred",
     "cost": 1,
@@ -9368,7 +9375,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1009: {
+  1010: {
     "id": "FP1_014t",
     "name": "Thaddius",
     "cost": 10,
@@ -9378,35 +9385,35 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1010: {
+  1011: {
     "id": "NAX13_01H",
     "name": "Thaddius",
     "health": 45,
     "set": 12,
     "type": 0
   },
-  1011: {
+  1012: {
     "id": "NAX13_01",
     "name": "Thaddius",
     "health": 30,
     "set": 12,
     "type": 0
   },
-  1012: {
+  1013: {
     "id": "NAX3_02",
     "name": "Trampa arácnida",
     "cost": 3,
     "set": 12,
     "type": 0
   },
-  1013: {
+  1014: {
     "id": "NAX3_02H",
     "name": "Trampa arácnida",
     "cost": 0,
     "set": 12,
     "type": 0
   },
-  1014: {
+  1015: {
     "id": "FP1_002",
     "name": "Trepadora embrujada",
     "cost": 2,
@@ -9418,14 +9425,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1015: {
+  1016: {
     "id": "NAX3_03",
     "name": "Veneno necrótico",
     "cost": 2,
     "set": 12,
     "type": 0
   },
-  1016: {
+  1017: {
     "id": "NAX2_05H",
     "name": "Venerador",
     "cost": 3,
@@ -9434,7 +9441,7 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  1017: {
+  1018: {
     "id": "NAX2_05",
     "name": "Venerador",
     "cost": 3,
@@ -9443,14 +9450,14 @@ hs_cards['eses'] = {
     "set": 12,
     "type": 0
   },
-  1018: {
+  1019: {
     "id": "FP1_020e",
     "name": "Venganza",
     "classs": 2,
     "set": 12,
     "type": 0
   },
-  1019: {
+  1020: {
     "id": "FP1_020",
     "name": "Vengar",
     "cost": 1,
@@ -9460,7 +9467,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1020: {
+  1021: {
     "id": "FP1_001",
     "name": "Zombi destripado",
     "cost": 1,
@@ -9471,7 +9478,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1021: {
+  1022: {
     "id": "XXX_048",
     "name": "-1 Durability",
     "cost": 0,
@@ -9479,20 +9486,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1022: {
+  1023: {
     "id": "XXX_055",
     "name": "1000 Stats",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1023: {
+  1024: {
     "id": "XXX_055e",
     "name": "1000 Stats Enchant",
     "set": 7,
     "type": 0
   },
-  1024: {
+  1025: {
     "id": "XXX_095",
     "name": "AI Buddy - All Charge!",
     "cost": 0,
@@ -9501,7 +9508,7 @@ hs_cards['eses'] = {
     "set": 7,
     "type": 0
   },
-  1025: {
+  1026: {
     "id": "XXX_094",
     "name": "AI Buddy - Blank Slate",
     "cost": 0,
@@ -9510,7 +9517,7 @@ hs_cards['eses'] = {
     "set": 7,
     "type": 0
   },
-  1026: {
+  1027: {
     "id": "XXX_096",
     "name": "AI Buddy - Damage Own Hero 5",
     "cost": 0,
@@ -9519,7 +9526,7 @@ hs_cards['eses'] = {
     "set": 7,
     "type": 0
   },
-  1027: {
+  1028: {
     "id": "XXX_097",
     "name": "AI Buddy - Destroy Minions",
     "cost": 0,
@@ -9529,7 +9536,7 @@ hs_cards['eses'] = {
     "set": 7,
     "type": 0
   },
-  1028: {
+  1029: {
     "id": "XXX_098",
     "name": "AI Buddy - No Deck/Hand",
     "cost": 0,
@@ -9539,7 +9546,7 @@ hs_cards['eses'] = {
     "set": 7,
     "type": 0
   },
-  1029: {
+  1030: {
     "id": "XXX_099",
     "name": "AI Helper Buddy",
     "cost": 0,
@@ -9549,35 +9556,35 @@ hs_cards['eses'] = {
     "set": 7,
     "type": 0
   },
-  1030: {
+  1031: {
     "id": "XXX_061",
     "name": "Armor 1",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1031: {
+  1032: {
     "id": "XXX_053",
     "name": "Armor 100",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1032: {
+  1033: {
     "id": "XXX_062",
     "name": "Armor 5",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1033: {
+  1034: {
     "id": "XXX_039",
     "name": "Become Hogger",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1034: {
+  1035: {
     "id": "XXX_012",
     "name": "Bounce",
     "cost": 0,
@@ -9585,7 +9592,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1035: {
+  1036: {
     "id": "XXX_006",
     "name": "Break Weapon",
     "cost": 0,
@@ -9593,7 +9600,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1036: {
+  1037: {
     "id": "XXX_015",
     "name": "Crash",
     "cost": 0,
@@ -9601,7 +9608,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1037: {
+  1038: {
     "id": "XXX_001",
     "name": "Damage 1",
     "cost": 0,
@@ -9609,7 +9616,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1038: {
+  1039: {
     "id": "XXX_002",
     "name": "Damage 5",
     "cost": 0,
@@ -9617,14 +9624,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1039: {
+  1040: {
     "id": "XXX_060",
     "name": "Damage All",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1040: {
+  1041: {
     "id": "XXX_020",
     "name": "Damage all but 1",
     "cost": 0,
@@ -9632,7 +9639,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1041: {
+  1042: {
     "id": "XXX_024",
     "name": "Damage Reflector",
     "cost": 0,
@@ -9642,7 +9649,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1042: {
+  1043: {
     "id": "XXX_005",
     "name": "Destroy",
     "cost": 0,
@@ -9650,7 +9657,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1043: {
+  1044: {
     "id": "XXX_050",
     "name": "Destroy a Mana Crystal",
     "cost": 0,
@@ -9658,7 +9665,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1044: {
+  1045: {
     "id": "XXX_023",
     "name": "Destroy All Heroes",
     "cost": 0,
@@ -9666,7 +9673,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1045: {
+  1046: {
     "id": "XXX_049",
     "name": "Destroy all Mana",
     "cost": 0,
@@ -9674,7 +9681,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1046: {
+  1047: {
     "id": "XXX_018",
     "name": "Destroy All Minions",
     "cost": 0,
@@ -9682,14 +9689,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1047: {
+  1048: {
     "id": "XXX_063",
     "name": "Destroy ALL Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1048: {
+  1049: {
     "id": "XXX_047",
     "name": "Destroy Deck",
     "cost": 0,
@@ -9697,7 +9704,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1049: {
+  1050: {
     "id": "XXX_041",
     "name": "Destroy Hero Power",
     "cost": 0,
@@ -9705,21 +9712,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1050: {
+  1051: {
     "id": "XXX_059",
     "name": "Destroy Hero's Stuff",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1051: {
+  1052: {
     "id": "XXX_057",
     "name": "Destroy Target Secrets",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1052: {
+  1053: {
     "id": "XXX_013",
     "name": "Discard",
     "cost": 0,
@@ -9727,7 +9734,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1053: {
+  1054: {
     "id": "XXX_025",
     "name": "Do Nothing",
     "cost": 0,
@@ -9735,7 +9742,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1054: {
+  1055: {
     "id": "XXX_017",
     "name": "Draw 3 Cards",
     "cost": 0,
@@ -9743,14 +9750,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1055: {
+  1056: {
     "id": "XXX_009e",
     "name": "Empty Enchant",
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1056: {
+  1057: {
     "id": "XXX_026",
     "name": "Enable Emotes",
     "cost": 0,
@@ -9758,7 +9765,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1057: {
+  1058: {
     "id": "XXX_007",
     "name": "Enable for Attack",
     "cost": 0,
@@ -9766,7 +9773,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1058: {
+  1059: {
     "id": "XXX_009",
     "name": "Enchant",
     "cost": 0,
@@ -9774,19 +9781,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1059: {
+  1060: {
     "id": "XXX_046",
     "name": "Force AI to Use Hero Power",
     "cost": 0,
     "set": 7,
     "type": 0,
     "quality": 1
-  },
-  1060: {
-    "id": "XXX_022e",
-    "name": "Free Cards",
-    "set": 7,
-    "type": 0
   },
   1061: {
     "id": "XXX_022",
@@ -9797,6 +9798,12 @@ hs_cards['eses'] = {
     "quality": 1
   },
   1062: {
+    "id": "XXX_022e",
+    "name": "Free Cards",
+    "set": 7,
+    "type": 0
+  },
+  1063: {
     "id": "XXX_008",
     "name": "Freeze",
     "cost": 0,
@@ -9804,7 +9811,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1063: {
+  1064: {
     "id": "XXX_052",
     "name": "Grant Mega-Windfury",
     "cost": 0,
@@ -9812,7 +9819,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1064: {
+  1065: {
     "id": "XXX_044",
     "name": "Hand Swapper Minion",
     "cost": 0,
@@ -9822,7 +9829,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1065: {
+  1066: {
     "id": "XXX_042",
     "name": "Hand to Deck",
     "cost": 0,
@@ -9830,7 +9837,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1066: {
+  1067: {
     "id": "XXX_040",
     "name": "Hogger",
     "health": 10,
@@ -9838,7 +9845,7 @@ hs_cards['eses'] = {
     "set": 7,
     "type": 0
   },
-  1067: {
+  1068: {
     "id": "XXX_051",
     "name": "Make Immune",
     "cost": 0,
@@ -9846,7 +9853,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1068: {
+  1069: {
     "id": "XXX_014",
     "name": "Mill 10",
     "cost": 0,
@@ -9854,7 +9861,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1069: {
+  1070: {
     "id": "XXX_043",
     "name": "Mill 30",
     "cost": 0,
@@ -9862,21 +9869,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1070: {
+  1071: {
     "id": "XXX_019",
     "name": "Molasses",
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1071: {
+  1072: {
     "id": "XXX_029",
     "name": "Opponent Concede",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1072: {
+  1073: {
     "id": "XXX_030",
     "name": "Opponent Disconnect",
     "cost": 0,
@@ -9884,7 +9891,15 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1073: {
+  1074: {
+    "id": "XXX_065",
+    "name": "Remove All Immune",
+    "cost": 0,
+    "set": 7,
+    "type": 0,
+    "quality": 1
+  },
+  1075: {
     "id": "XXX_003",
     "name": "Restore 1",
     "cost": 0,
@@ -9892,7 +9907,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1074: {
+  1076: {
     "id": "XXX_004",
     "name": "Restore 5",
     "cost": 0,
@@ -9900,7 +9915,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1075: {
+  1077: {
     "id": "XXX_021",
     "name": "Restore All Health",
     "cost": 0,
@@ -9908,20 +9923,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1076: {
+  1078: {
     "id": "XXX_028",
     "name": "Reveal Hand",
     "set": 7,
     "type": 0,
     "quality": 1
   },
-  1077: {
+  1079: {
     "id": "XXX_027",
     "name": "Server Crash",
     "set": 7,
     "type": 0
   },
-  1078: {
+  1080: {
     "id": "XXX_010",
     "name": "Silence - debug",
     "cost": 0,
@@ -9929,21 +9944,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1079: {
+  1081: {
     "id": "XXX_056",
-    "name": "Silence Destroy",
+    "name": "Silence and Destroy All Minions",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1080: {
+  1082: {
     "id": "XXX_016",
     "name": "Snake Ball",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1081: {
+  1083: {
     "id": "XXX_045",
     "name": "Steal Card",
     "cost": 0,
@@ -9951,7 +9966,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1082: {
+  1084: {
     "id": "XXX_011",
     "name": "Summon a random Secret",
     "cost": 0,
@@ -9959,20 +9974,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1083: {
+  1085: {
     "id": "XXX_054",
     "name": "Weapon Buff",
     "cost": 0,
     "set": 7,
     "type": 0
   },
-  1084: {
+  1086: {
     "id": "XXX_054e",
     "name": "Weapon Buff Enchant",
     "set": 7,
     "type": 0
   },
-  1085: {
+  1087: {
     "id": "XXX_058",
     "name": "Weapon Nerf",
     "cost": 0,
@@ -9980,20 +9995,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1086: {
+  1088: {
     "id": "XXX_058e",
     "name": "Weapon Nerf Enchant",
     "set": 7,
     "type": 0
   },
-  1087: {
+  1089: {
     "id": "GVG_069a",
     "name": "¡Reparaciones!",
     "classs": 5,
     "set": 13,
     "type": 0
   },
-  1088: {
+  1090: {
     "id": "GVG_081",
     "name": "Acechador Gilblin",
     "cost": 2,
@@ -10004,7 +10019,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1089: {
+  1091: {
     "id": "GVG_022",
     "name": "Aceite afilaespadas",
     "cost": 4,
@@ -10014,19 +10029,19 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1090: {
+  1092: {
     "id": "GVG_022a",
     "name": "Aceite afilaespadas",
     "set": 13,
     "type": 0
   },
-  1091: {
+  1093: {
     "id": "GVG_022b",
     "name": "Aceite afilaespadas",
     "set": 13,
     "type": 0
   },
-  1092: {
+  1094: {
     "id": "GVG_033",
     "name": "Árbol de vida",
     "cost": 9,
@@ -10036,7 +10051,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1093: {
+  1095: {
     "id": "GVG_016",
     "name": "Atracador vil",
     "cost": 5,
@@ -10048,7 +10063,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1094: {
+  1096: {
     "id": "GVG_023",
     "name": "Autobarbero goblin",
     "cost": 2,
@@ -10061,41 +10076,41 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1095: {
+  1097: {
     "id": "GVG_027e",
     "name": "Bien armado",
     "classs": 4,
     "set": 13,
     "type": 0
   },
-  1096: {
+  1098: {
     "id": "GVG_060e",
     "name": "Bien equipado",
     "classs": 2,
     "set": 13,
     "type": 0
   },
-  1097: {
+  1099: {
     "id": "GVG_086e",
     "name": "Blindado",
     "classs": 1,
     "set": 13,
     "type": 0
   },
-  1098: {
+  1100: {
     "id": "PART_001e",
     "name": "Blindaje de armadura",
     "set": 13,
     "type": 0
   },
-  1099: {
+  1101: {
     "id": "PART_001",
     "name": "Blindaje de armadura",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1100: {
+  1102: {
     "id": "GVG_063",
     "name": "Bolvar Fordragón",
     "cost": 5,
@@ -10107,7 +10122,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1101: {
+  1103: {
     "id": "GVG_008",
     "name": "Bomba de luz",
     "cost": 6,
@@ -10117,7 +10132,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1102: {
+  1104: {
     "id": "GVG_015",
     "name": "Bomba oscura",
     "cost": 2,
@@ -10127,7 +10142,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1103: {
+  1105: {
     "id": "GVG_009",
     "name": "Bombardera de Sombras",
     "cost": 1,
@@ -10139,7 +10154,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1104: {
+  1106: {
     "id": "GVG_090",
     "name": "Bombardero aún más loco",
     "cost": 5,
@@ -10150,7 +10165,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1105: {
+  1107: {
     "id": "GVG_072",
     "name": "Boxeador de las Sombras",
     "cost": 2,
@@ -10163,7 +10178,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1106: {
+  1108: {
     "id": "GVG_111",
     "name": "Cabeza de Mimiron",
     "cost": 5,
@@ -10175,7 +10190,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1107: {
+  1109: {
     "id": "GVG_030",
     "name": "Cachorro robot anodizado",
     "cost": 2,
@@ -10188,7 +10203,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1108: {
+  1110: {
     "id": "GVG_040",
     "name": "Caminaespíritus Cienaleta",
     "cost": 4,
@@ -10201,7 +10216,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1109: {
+  1111: {
     "id": "GVG_075",
     "name": "Cañón de barco",
     "cost": 2,
@@ -10212,7 +10227,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1110: {
+  1112: {
     "id": "GVG_001",
     "name": "Cañón de llamas",
     "cost": 2,
@@ -10222,7 +10237,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1111: {
+  1113: {
     "id": "GVG_020",
     "name": "Cañón vil",
     "cost": 4,
@@ -10235,14 +10250,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1112: {
+  1114: {
     "id": "GVG_100e",
     "name": "Ceño fruncido",
     "classs": 9,
     "set": 13,
     "type": 0
   },
-  1113: {
+  1115: {
     "id": "GVG_066",
     "name": "Chamán Machacaduna",
     "cost": 4,
@@ -10254,13 +10269,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1114: {
+  1116: {
     "id": "GVG_106e",
     "name": "Chatarra aprovechada",
     "set": 13,
     "type": 0
   },
-  1115: {
+  1117: {
     "id": "GVG_106",
     "name": "Chatarrobot",
     "cost": 5,
@@ -10272,7 +10287,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1116: {
+  1118: {
     "id": "GVG_038",
     "name": "Chisporroteo",
     "cost": 2,
@@ -10282,14 +10297,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1117: {
+  1119: {
     "id": "GVG_019e",
     "name": "Corazón demoníaco",
     "classs": 9,
     "set": 13,
     "type": 0
   },
-  1118: {
+  1120: {
     "id": "GVG_019",
     "name": "Corazón demoníaco",
     "cost": 5,
@@ -10299,14 +10314,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1119: {
+  1121: {
     "id": "PART_003",
     "name": "Cuerno oxidado",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1120: {
+  1122: {
     "id": "GVG_032",
     "name": "Cuidadora de arboleda",
     "cost": 3,
@@ -10318,7 +10333,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1121: {
+  1123: {
     "id": "GVG_045t",
     "name": "Diablillo",
     "cost": 1,
@@ -10329,14 +10344,14 @@ hs_cards['eses'] = {
     "set": 13,
     "type": 0
   },
-  1122: {
+  1124: {
     "id": "GVG_048e",
     "name": "Dientes de hierro",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1123: {
+  1125: {
     "id": "GVG_073",
     "name": "Disparo de cobra",
     "cost": 5,
@@ -10346,7 +10361,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1124: {
+  1126: {
     "id": "GVG_037",
     "name": "Disparomática giratoria",
     "cost": 2,
@@ -10359,14 +10374,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1125: {
+  1127: {
     "id": "GVG_021e",
     "name": "Dominio de Mal'Ganis",
     "classs": 9,
     "set": 13,
     "type": 0
   },
-  1126: {
+  1128: {
     "id": "GVG_053",
     "name": "Doncella escudera",
     "cost": 6,
@@ -10378,7 +10393,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1127: {
+  1129: {
     "id": "GVG_110",
     "name": "Dr. Bum",
     "cost": 7,
@@ -10389,7 +10404,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1128: {
+  1130: {
     "id": "GVG_080t",
     "name": "Druida del Colmillo",
     "cost": 5,
@@ -10400,7 +10415,7 @@ hs_cards['eses'] = {
     "set": 13,
     "type": 0
   },
-  1129: {
+  1131: {
     "id": "GVG_080",
     "name": "Druida del Colmillo",
     "cost": 5,
@@ -10412,7 +10427,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1130: {
+  1132: {
     "id": "GVG_005",
     "name": "Eco de Medivh",
     "cost": 4,
@@ -10422,7 +10437,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1131: {
+  1133: {
     "id": "GVG_010",
     "name": "El elegido de Velen",
     "cost": 3,
@@ -10432,27 +10447,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1132: {
+  1134: {
     "id": "GVG_010b",
     "name": "El elegido de Velen",
     "set": 13,
     "type": 0
   },
-  1133: {
+  1135: {
     "id": "GVG_046e",
     "name": "El Rey",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1134: {
+  1136: {
     "id": "GVG_014a",
     "name": "En las sombras",
     "classs": 5,
     "set": 13,
     "type": 0
   },
-  1135: {
+  1137: {
     "id": "GVG_092",
     "name": "Experimentador gnomo",
     "cost": 3,
@@ -10463,7 +10478,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1136: {
+  1138: {
     "id": "GVG_045",
     "name": "Explosión de diablillos",
     "cost": 4,
@@ -10473,13 +10488,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1137: {
+  1139: {
     "id": "GVG_023a",
     "name": "Extraafilada",
     "set": 13,
     "type": 0
   },
-  1138: {
+  1140: {
     "id": "GVG_026",
     "name": "Fingir muerte",
     "cost": 2,
@@ -10489,7 +10504,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1139: {
+  1141: {
     "id": "GVG_087",
     "name": "Francotirador Bonvapor",
     "cost": 2,
@@ -10501,7 +10516,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1140: {
+  1142: {
     "id": "GVG_049",
     "name": "Gahz'rilla",
     "cost": 7,
@@ -10514,7 +10529,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1141: {
+  1143: {
     "id": "GVG_028",
     "name": "Gallywix",
     "cost": 6,
@@ -10526,7 +10541,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1142: {
+  1144: {
     "id": "GVG_117",
     "name": "Gazlowe",
     "cost": 6,
@@ -10537,7 +10552,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1143: {
+  1145: {
     "id": "GVG_121",
     "name": "Gigante de relojería",
     "cost": 12,
@@ -10549,7 +10564,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1144: {
+  1146: {
     "id": "GVG_056",
     "name": "Gigante férreo",
     "cost": 6,
@@ -10562,7 +10577,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1145: {
+  1147: {
     "id": "GVG_082",
     "name": "Gnomo de relojería",
     "cost": 1,
@@ -10574,7 +10589,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1146: {
+  1148: {
     "id": "GVG_105",
     "name": "Gólem aéreo pilotado",
     "cost": 6,
@@ -10586,7 +10601,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1147: {
+  1149: {
     "id": "GVG_077",
     "name": "Gólem de ánima",
     "cost": 6,
@@ -10599,7 +10614,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1148: {
+  1150: {
     "id": "GVG_062",
     "name": "Guardián de cobalto",
     "cost": 5,
@@ -10612,7 +10627,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1149: {
+  1151: {
     "id": "GVG_051",
     "name": "Guerra-bot",
     "cost": 1,
@@ -10625,7 +10640,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1150: {
+  1152: {
     "id": "GVG_120",
     "name": "Hemet Nesingwary",
     "cost": 5,
@@ -10636,7 +10651,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1151: {
+  1153: {
     "id": "GVG_104",
     "name": "Hobgoblin",
     "cost": 3,
@@ -10647,7 +10662,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1152: {
+  1154: {
     "id": "GVG_050",
     "name": "Hoja rebotadora",
     "cost": 3,
@@ -10657,20 +10672,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1153: {
+  1155: {
     "id": "PART_007",
     "name": "Hojas giratorias",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1154: {
+  1156: {
     "id": "PART_007e",
     "name": "Hojas giratorias",
     "set": 13,
     "type": 0
   },
-  1155: {
+  1157: {
     "id": "GVG_089",
     "name": "Iluminadora",
     "cost": 3,
@@ -10681,7 +10696,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1156: {
+  1158: {
     "id": "GVG_098",
     "name": "Infantería de Gnomeregan",
     "cost": 3,
@@ -10692,7 +10707,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1157: {
+  1159: {
     "id": "GVG_060",
     "name": "Intendente",
     "cost": 5,
@@ -10704,33 +10719,33 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1158: {
+  1160: {
     "id": "PART_006a",
     "name": "Intercambio",
     "set": 13,
     "type": 0
   },
-  1159: {
+  1161: {
     "id": "PART_006",
     "name": "Interruptor de inversión",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1160: {
+  1162: {
     "id": "PART_004",
     "name": "Invisibilidad tiquismiquis",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1161: {
+  1163: {
     "id": "PART_004e",
     "name": "Invisible",
     "set": 13,
     "type": 0
   },
-  1162: {
+  1164: {
     "id": "GVG_094",
     "name": "Jeeves",
     "cost": 4,
@@ -10742,7 +10757,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1163: {
+  1165: {
     "id": "GVG_119",
     "name": "Joyatrón 3000",
     "cost": 5,
@@ -10754,7 +10769,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1164: {
+  1166: {
     "id": "GVG_099",
     "name": "Lanzabombas",
     "cost": 5,
@@ -10765,14 +10780,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1165: {
+  1167: {
     "id": "GVG_043e",
     "name": "Lanzagujas",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1166: {
+  1168: {
     "id": "GVG_043",
     "name": "Lanzagujas",
     "cost": 2,
@@ -10784,7 +10799,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1167: {
+  1169: {
     "id": "GVG_007",
     "name": "Leviatán de llamas",
     "cost": 7,
@@ -10797,7 +10812,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1168: {
+  1170: {
     "id": "GVG_029",
     "name": "Llamada ancestral",
     "cost": 4,
@@ -10807,7 +10822,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1169: {
+  1171: {
     "id": "GVG_017",
     "name": "Llamar a mascota",
     "cost": 2,
@@ -10817,7 +10832,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1170: {
+  1172: {
     "id": "GVG_024",
     "name": "Llave del maestro de tuercas",
     "cost": 3,
@@ -10829,7 +10844,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1171: {
+  1173: {
     "id": "GVG_059",
     "name": "Llave martillo",
     "cost": 3,
@@ -10841,7 +10856,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1172: {
+  1174: {
     "id": "GVG_012",
     "name": "Luz de los naaru",
     "cost": 1,
@@ -10851,7 +10866,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1173: {
+  1175: {
     "id": "GVG_052",
     "name": "Machaque",
     "cost": 7,
@@ -10861,7 +10876,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1174: {
+  1176: {
     "id": "GVG_018",
     "name": "Maestra de dolor",
     "cost": 2,
@@ -10874,7 +10889,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1175: {
+  1177: {
     "id": "GVG_013",
     "name": "Maestro de tuercas",
     "cost": 1,
@@ -10885,7 +10900,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1176: {
+  1178: {
     "id": "GVG_011",
     "name": "Maestro encogedor",
     "cost": 2,
@@ -10897,19 +10912,19 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1177: {
+  1179: {
     "id": "GVG_068a",
     "name": "Magia metabolizada",
     "set": 13,
     "type": 0
   },
-  1178: {
+  1180: {
     "id": "GVG_067a",
     "name": "Magia metabolizada",
     "set": 13,
     "type": 0
   },
-  1179: {
+  1181: {
     "id": "GVG_004",
     "name": "Mago bomba goblin",
     "cost": 4,
@@ -10921,7 +10936,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1180: {
+  1182: {
     "id": "GVG_021",
     "name": "Mal'Ganis",
     "cost": 9,
@@ -10934,7 +10949,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1181: {
+  1183: {
     "id": "GVG_035",
     "name": "Malorne",
     "cost": 7,
@@ -10947,7 +10962,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1182: {
+  1184: {
     "id": "GVG_086",
     "name": "Máquina de asedio",
     "cost": 5,
@@ -10960,7 +10975,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1183: {
+  1185: {
     "id": "GVG_084",
     "name": "Máquina voladora",
     "cost": 3,
@@ -10972,7 +10987,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1184: {
+  1186: {
     "id": "GVG_036",
     "name": "Maza de poder",
     "cost": 3,
@@ -10984,7 +10999,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1185: {
+  1187: {
     "id": "GVG_054",
     "name": "Mazo de guerra ogro",
     "cost": 3,
@@ -10996,7 +11011,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1186: {
+  1188: {
     "id": "GVG_034",
     "name": "Meca-oso-felino",
     "cost": 6,
@@ -11009,7 +11024,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1187: {
+  1189: {
     "id": "GVG_006",
     "name": "Mecadistorsionador",
     "cost": 2,
@@ -11021,7 +11036,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1188: {
+  1190: {
     "id": "GVG_116",
     "name": "Mekigeniero Termochufe",
     "cost": 9,
@@ -11033,7 +11048,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1189: {
+  1191: {
     "id": "GVG_103",
     "name": "Micromáquina",
     "cost": 2,
@@ -11045,7 +11060,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1190: {
+  1192: {
     "id": "GVG_056t",
     "name": "Mina enterrada",
     "cost": 0,
@@ -11053,7 +11068,7 @@ hs_cards['eses'] = {
     "set": 13,
     "type": 0
   },
-  1191: {
+  1193: {
     "id": "GVG_058",
     "name": "Minibot escudado",
     "cost": 2,
@@ -11066,7 +11081,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1192: {
+  1194: {
     "id": "GVG_109",
     "name": "Minimago",
     "cost": 4,
@@ -11077,7 +11092,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1193: {
+  1195: {
     "id": "GVG_074",
     "name": "Mística de Kezan",
     "cost": 4,
@@ -11088,35 +11103,35 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1194: {
+  1196: {
     "id": "GVG_030a",
     "name": "Modo ataque",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1195: {
+  1197: {
     "id": "GVG_030ae",
     "name": "Modo ataque",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1196: {
+  1198: {
     "id": "GVG_030b",
     "name": "Modo tanque",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1197: {
+  1199: {
     "id": "GVG_030be",
     "name": "Modo tanque",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1198: {
+  1200: {
     "id": "GVG_112",
     "name": "Mogor el Ogro",
     "cost": 6,
@@ -11127,21 +11142,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1199: {
+  1201: {
     "id": "GVG_028t",
     "name": "Moneda de Gallywix",
     "cost": 0,
     "set": 13,
     "type": 0
   },
-  1200: {
+  1202: {
     "id": "GVG_055e",
     "name": "Morralla",
     "classs": 1,
     "set": 13,
     "type": 0
   },
-  1201: {
+  1203: {
     "id": "GVG_093",
     "name": "Muñeco-diana",
     "cost": 0,
@@ -11153,7 +11168,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1202: {
+  1204: {
     "id": "GVG_042",
     "name": "Neptulon",
     "cost": 7,
@@ -11165,7 +11180,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1203: {
+  1205: {
     "id": "GVG_091",
     "name": "Nulificador Arcano X-21",
     "cost": 4,
@@ -11177,21 +11192,21 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1204: {
+  1206: {
     "id": "GVG_032b",
     "name": "Ofrenda de cartas",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1205: {
+  1207: {
     "id": "GVG_032a",
     "name": "Ofrenda de maná",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1206: {
+  1208: {
     "id": "GVG_088",
     "name": "Ogro ninja",
     "cost": 5,
@@ -11203,7 +11218,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1207: {
+  1209: {
     "id": "GVG_065",
     "name": "Ogro tosco",
     "cost": 3,
@@ -11214,7 +11229,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1208: {
+  1210: {
     "id": "GVG_076",
     "name": "Oveja explosiva",
     "cost": 2,
@@ -11226,7 +11241,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1209: {
+  1211: {
     "id": "GVG_122",
     "name": "Parahechizos talla S",
     "cost": 4,
@@ -11238,7 +11253,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1210: {
+  1212: {
     "id": "GVG_097",
     "name": "Pequeña exorcista",
     "cost": 3,
@@ -11249,7 +11264,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1211: {
+  1213: {
     "id": "GVG_064",
     "name": "Pisacharcos",
     "cost": 2,
@@ -11261,13 +11276,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1212: {
+  1214: {
     "id": "GVG_076a",
     "name": "Pistones",
     "set": 13,
     "type": 0
   },
-  1213: {
+  1215: {
     "id": "GVG_085",
     "name": "Plastatrón",
     "cost": 2,
@@ -11279,20 +11294,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1214: {
+  1216: {
     "id": "GVG_102e",
     "name": "Poderío de Ciudad Manitas",
     "set": 13,
     "type": 0
   },
-  1215: {
+  1217: {
     "id": "GVG_049e",
     "name": "Poderío de Zul'Farrak",
     "classs": 3,
     "set": 13,
     "type": 0
   },
-  1216: {
+  1218: {
     "id": "GVG_092t",
     "name": "Pollo",
     "cost": 1,
@@ -11302,7 +11317,7 @@ hs_cards['eses'] = {
     "set": 13,
     "type": 0
   },
-  1217: {
+  1219: {
     "id": "GVG_003",
     "name": "Portal inestable",
     "cost": 2,
@@ -11312,14 +11327,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1218: {
+  1220: {
     "id": "GVG_036e",
     "name": "Potenciado",
     "classs": 7,
     "set": 13,
     "type": 0
   },
-  1219: {
+  1221: {
     "id": "GVG_061",
     "name": "Preparación para la batalla",
     "cost": 3,
@@ -11329,14 +11344,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1220: {
+  1222: {
     "id": "GVG_101e",
     "name": "Pureza",
     "classs": 2,
     "set": 13,
     "type": 0
   },
-  1221: {
+  1223: {
     "id": "GVG_101",
     "name": "Purificador Escarlata",
     "cost": 3,
@@ -11348,20 +11363,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1222: {
+  1224: {
     "id": "GVG_011a",
     "name": "Rayo reductor",
     "set": 13,
     "type": 0
   },
-  1223: {
+  1225: {
     "id": "PART_002",
     "name": "Rebobinador temporal",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1224: {
+  1226: {
     "id": "GVG_031",
     "name": "Reciclar",
     "cost": 6,
@@ -11371,7 +11386,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1225: {
+  1227: {
     "id": "GVG_108",
     "name": "Recombobulador",
     "cost": 2,
@@ -11382,27 +11397,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1226: {
+  1228: {
     "id": "PART_005",
     "name": "Refrigerante de emergencia",
     "cost": 1,
     "set": 13,
     "type": 0
   },
-  1227: {
+  1229: {
     "id": "GVG_063a",
     "name": "Reprensión",
     "set": 13,
     "type": 0
   },
-  1228: {
+  1230: {
     "id": "GVG_123e",
     "name": "Revolucionado",
     "classs": 8,
     "set": 13,
     "type": 0
   },
-  1229: {
+  1231: {
     "id": "GVG_046",
     "name": "Rey de las bestias",
     "cost": 5,
@@ -11415,7 +11430,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1230: {
+  1232: {
     "id": "GVG_107",
     "name": "Robomejorador",
     "cost": 4,
@@ -11427,7 +11442,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1231: {
+  1233: {
     "id": "GVG_110t",
     "name": "Robot bum",
     "cost": 1,
@@ -11437,7 +11452,7 @@ hs_cards['eses'] = {
     "set": 13,
     "type": 0
   },
-  1232: {
+  1234: {
     "id": "GVG_083",
     "name": "Robot de reparación",
     "cost": 5,
@@ -11450,7 +11465,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1233: {
+  1235: {
     "id": "GVG_123",
     "name": "Rociador de hollín",
     "cost": 3,
@@ -11463,7 +11478,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1234: {
+  1236: {
     "id": "GVG_047",
     "name": "Sabotaje",
     "cost": 4,
@@ -11473,7 +11488,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1235: {
+  1237: {
     "id": "GVG_048",
     "name": "Saltador Dientehierro",
     "cost": 3,
@@ -11486,7 +11501,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1236: {
+  1238: {
     "id": "GVG_069",
     "name": "Sanabot antiguo",
     "cost": 5,
@@ -11498,13 +11513,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1237: {
+  1239: {
     "id": "GVG_057a",
     "name": "Sello de Luz",
     "set": 13,
     "type": 0
   },
-  1238: {
+  1240: {
     "id": "GVG_057",
     "name": "Sello de Luz",
     "cost": 2,
@@ -11514,7 +11529,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1239: {
+  1241: {
     "id": "GVG_027",
     "name": "Sensei férreo",
     "cost": 3,
@@ -11527,7 +11542,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1240: {
+  1242: {
     "id": "GVG_113",
     "name": "Siegaenemigos 4000",
     "cost": 8,
@@ -11539,7 +11554,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1241: {
+  1243: {
     "id": "GVG_041",
     "name": "Susurros oscuros",
     "cost": 6,
@@ -11549,28 +11564,28 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1242: {
+  1244: {
     "id": "GVG_041b",
     "name": "Susurros oscuros",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1243: {
+  1245: {
     "id": "GVG_041a",
     "name": "Susurros oscuros",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1244: {
+  1246: {
     "id": "GVG_041c",
     "name": "Susurros oscuros",
     "classs": 11,
     "set": 13,
     "type": 0
   },
-  1245: {
+  1247: {
     "id": "GVG_044",
     "name": "Tanque araña",
     "cost": 3,
@@ -11582,7 +11597,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1246: {
+  1248: {
     "id": "GVG_079",
     "name": "Tanque Fuerza MAX",
     "cost": 8,
@@ -11594,7 +11609,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1247: {
+  1249: {
     "id": "GVG_102",
     "name": "Técnico de Ciudad Manitas",
     "cost": 3,
@@ -11605,13 +11620,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1248: {
+  1250: {
     "id": "GVG_104a",
     "name": "TOMA BENEFICIO.",
     "set": 13,
     "type": 0
   },
-  1249: {
+  1251: {
     "id": "GVG_115",
     "name": "Toshley",
     "cost": 6,
@@ -11622,7 +11637,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1250: {
+  1252: {
     "id": "GVG_039",
     "name": "Tótem de vitalidad",
     "cost": 2,
@@ -11635,7 +11650,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1251: {
+  1253: {
     "id": "GVG_002",
     "name": "Traganieve",
     "cost": 2,
@@ -11648,7 +11663,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1252: {
+  1254: {
     "id": "GVG_025",
     "name": "Tramposo tuerto",
     "cost": 2,
@@ -11661,7 +11676,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1253: {
+  1255: {
     "id": "GVG_055",
     "name": "Trasto Llavetorno",
     "cost": 4,
@@ -11674,7 +11689,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1254: {
+  1256: {
     "id": "GVG_114",
     "name": "Trituradora antigua de Sneed",
     "cost": 8,
@@ -11686,7 +11701,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1255: {
+  1257: {
     "id": "GVG_096",
     "name": "Trituradora pilotada",
     "cost": 4,
@@ -11698,7 +11713,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1256: {
+  1258: {
     "id": "GVG_068",
     "name": "Trogg Comepiedras",
     "cost": 4,
@@ -11709,7 +11724,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1257: {
+  1259: {
     "id": "GVG_067",
     "name": "Trogg Rompecantos",
     "cost": 2,
@@ -11720,7 +11735,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1258: {
+  1260: {
     "id": "GVG_118",
     "name": "Troggzor el Terrinator",
     "cost": 7,
@@ -11731,7 +11746,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1259: {
+  1261: {
     "id": "GVG_111t",
     "name": "V-07-TR-0N",
     "cost": 8,
@@ -11742,7 +11757,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1260: {
+  1262: {
     "id": "GVG_070",
     "name": "Viejo lobo de mar",
     "cost": 5,
@@ -11754,7 +11769,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1261: {
+  1263: {
     "id": "GVG_100",
     "name": "Vigía flotante",
     "cost": 5,
@@ -11767,7 +11782,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1262: {
+  1264: {
     "id": "GVG_014",
     "name": "Vol'jin",
     "cost": 5,
@@ -11779,7 +11794,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1263: {
+  1265: {
     "id": "GVG_078",
     "name": "Yeti mecánico",
     "cost": 4,
@@ -11791,7 +11806,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1264: {
+  1266: {
     "id": "GVG_071",
     "name": "Zancaalta perdido",
     "cost": 4,
@@ -11803,7 +11818,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1265: {
+  1267: {
     "id": "GVG_095",
     "name": "Zapador goblin",
     "cost": 3,
@@ -11814,7 +11829,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1266: {
+  1268: {
     "id": "CS2_102_H1_AT_132",
     "name": "¡Resistencia!",
     "cost": 2,
@@ -11822,7 +11837,7 @@ hs_cards['eses'] = {
     "set": 17,
     "type": 0
   },
-  1267: {
+  1269: {
     "id": "HERO_05a",
     "name": "Alleria Brisaveloz",
     "health": 30,
@@ -11832,7 +11847,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1268: {
+  1270: {
     "id": "CS2_102_H1",
     "name": "Blindaje",
     "cost": 2,
@@ -11841,7 +11856,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 0
   },
-  1269: {
+  1271: {
     "id": "DS1h_292_H1_AT_132",
     "name": "Disparo de balista",
     "cost": 2,
@@ -11849,7 +11864,7 @@ hs_cards['eses'] = {
     "set": 17,
     "type": 0
   },
-  1270: {
+  1272: {
     "id": "DS1h_292_H1",
     "name": "Disparo firme",
     "cost": 2,
@@ -11858,7 +11873,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 0
   },
-  1271: {
+  1273: {
     "id": "CS2_034_H1",
     "name": "Explosión de Fuego",
     "cost": 2,
@@ -11867,7 +11882,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 0
   },
-  1272: {
+  1274: {
     "id": "CS2_034_H1_AT_132",
     "name": "Explosión de Fuego II",
     "cost": 2,
@@ -11875,7 +11890,7 @@ hs_cards['eses'] = {
     "set": 17,
     "type": 0
   },
-  1273: {
+  1275: {
     "id": "HERO_01a",
     "name": "Magni Barbabronce",
     "health": 30,
@@ -11885,7 +11900,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1274: {
+  1276: {
     "id": "HERO_08a",
     "name": "Medivh",
     "health": 30,
@@ -11895,7 +11910,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1275: {
+  1277: {
     "id": "CS2_101_H1",
     "name": "Refuerzo",
     "cost": 2,
@@ -11904,7 +11919,2111 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 0
   },
-  1276: {
+  1278: {
+    "id": "LOEA07_20",
+    "name": "¡Bum!",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1279: {
+    "id": "LOEA09_2",
+    "name": "¡Enfurecido!",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1280: {
+    "id": "LOEA09_2H",
+    "name": "¡Enfurecido!",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1281: {
+    "id": "LOEA04_02",
+    "name": "¡Huida!",
+    "cost": 0,
+    "set": 20,
+    "type": 0,
+    "quality": 0
+  },
+  1282: {
+    "id": "LOEA04_02h",
+    "name": "¡Huida!",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1283: {
+    "id": "LOE_007t",
+    "name": "¡Maldito!",
+    "cost": 2,
+    "classs": 9,
+    "set": 20,
+    "type": 0
+  },
+  1284: {
+    "id": "LOE_113e",
+    "name": "¡Mrglllraawrrrglrur!",
+    "set": 20,
+    "type": 0
+  },
+  1285: {
+    "id": "LOEA10_2H",
+    "name": "¡Mrglmrgl ¡MRGL!",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1286: {
+    "id": "LOEA10_2",
+    "name": "¡Mrglmrgl! ¡MRGL!",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1287: {
+    "id": "LOEA04_31b",
+    "name": "¡Ni hablar!",
+    "set": 20,
+    "type": 0
+  },
+  1288: {
+    "id": "LOEA07_03",
+    "name": "¡Sal de la mina!",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1289: {
+    "id": "LOEA07_03h",
+    "name": "¡Sal de la mina!",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1290: {
+    "id": "LOEA05_02",
+    "name": "¡Trogg odiar esbirros!",
+    "set": 20,
+    "type": 0
+  },
+  1291: {
+    "id": "LOEA05_02a",
+    "name": "¡Trogg odiar esbirros!",
+    "set": 20,
+    "type": 0
+  },
+  1292: {
+    "id": "LOEA05_02h",
+    "name": "¡Trogg odiar esbirros!",
+    "set": 20,
+    "type": 0
+  },
+  1293: {
+    "id": "LOEA05_02ha",
+    "name": "¡Trogg odiar esbirros!",
+    "set": 20,
+    "type": 0
+  },
+  1294: {
+    "id": "LOEA05_03",
+    "name": "¡Trogg odiar hechizos!",
+    "set": 20,
+    "type": 0
+  },
+  1295: {
+    "id": "LOEA05_03h",
+    "name": "¡Trogg odiar hechizos!",
+    "set": 20,
+    "type": 0
+  },
+  1296: {
+    "id": "LOEA07_21",
+    "name": "A todo trapo",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1297: {
+    "id": "LOEA09_3c",
+    "name": "Abriendo el apetito",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1298: {
+    "id": "LOEA09_3d",
+    "name": "Abriendo el apetito",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1299: {
+    "id": "LOEA09_3b",
+    "name": "Abriendo el apetito",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1300: {
+    "id": "LOEA09_3",
+    "name": "Abriendo el apetito",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1301: {
+    "id": "LOEA16_24",
+    "name": "Aletaza",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "race": 14,
+    "set": 20,
+    "type": 0
+  },
+  1302: {
+    "id": "LOEA10_1",
+    "name": "Aletaza",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1303: {
+    "id": "LOEA16_24H",
+    "name": "Aletaza",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "race": 14,
+    "set": 20,
+    "type": 0
+  },
+  1304: {
+    "id": "LOEA10_1H",
+    "name": "Aletaza heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1305: {
+    "id": "LOEA06_03e",
+    "name": "Animado",
+    "set": 20,
+    "type": 0
+  },
+  1306: {
+    "id": "LOEA06_03eh",
+    "name": "Animado",
+    "set": 20,
+    "type": 0
+  },
+  1307: {
+    "id": "LOEA06_03h",
+    "name": "Animar terráneo",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1308: {
+    "id": "LOEA06_03",
+    "name": "Animar terráneo",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1309: {
+    "id": "LOE_002t",
+    "name": "Antorcha crepitante",
+    "cost": 3,
+    "classs": 8,
+    "set": 20,
+    "type": 0
+  },
+  1310: {
+    "id": "LOE_002",
+    "name": "Antorcha olvidada",
+    "cost": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1311: {
+    "id": "LOE_047",
+    "name": "Araña de la tumba",
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1312: {
+    "id": "LOEA16_22H",
+    "name": "Archaedas",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1313: {
+    "id": "LOEA16_22",
+    "name": "Archaedas",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1314: {
+    "id": "LOEA08_01",
+    "name": "Archaedas",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1315: {
+    "id": "LOEA08_01h",
+    "name": "Archaedas heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1316: {
+    "id": "LOE_092",
+    "name": "Archiladrón Rafaam",
+    "cost": 9,
+    "attack": 7,
+    "health": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1317: {
+    "id": "LOE_119",
+    "name": "Armadura animada",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "classs": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1318: {
+    "id": "LOEA14_2H",
+    "name": "Armadura de placas",
+    "set": 20,
+    "type": 0
+  },
+  1319: {
+    "id": "LOEA14_2",
+    "name": "Armadura de placas",
+    "set": 20,
+    "type": 0
+  },
+  1320: {
+    "id": "LOEA09_6",
+    "name": "Arquero reptante",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1321: {
+    "id": "LOEA09_6H",
+    "name": "Arquero reptante",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1322: {
+    "id": "LOEA16_19H",
+    "name": "Asaltante del sol Phaerix",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1323: {
+    "id": "LOEA16_19",
+    "name": "Asaltante del sol Phaerix",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1324: {
+    "id": "LOEA01_01",
+    "name": "Asaltante del sol Phaerix",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1325: {
+    "id": "LOEA16_2",
+    "name": "Bastón de los Orígenes",
+    "set": 20,
+    "type": 0
+  },
+  1326: {
+    "id": "LOEA16_2H",
+    "name": "Bastón de los Orígenes",
+    "set": 20,
+    "type": 0
+  },
+  1327: {
+    "id": "LOEA04_28a",
+    "name": "Bebes a grandes tragos",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1328: {
+    "id": "LOEA01_02",
+    "name": "Bendición del sol",
+    "set": 20,
+    "type": 0
+  },
+  1329: {
+    "id": "LOEA01_02h",
+    "name": "Bendición del sol",
+    "set": 20,
+    "type": 0
+  },
+  1330: {
+    "id": "LOEA16_20",
+    "name": "Bendición del sol",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1331: {
+    "id": "LOEA16_20H",
+    "name": "Bendición del sol",
+    "set": 20,
+    "type": 0
+  },
+  1332: {
+    "id": "LOEA16_20e",
+    "name": "Bendito",
+    "set": 20,
+    "type": 0
+  },
+  1333: {
+    "id": "LOE_077",
+    "name": "Brann Barbabronce",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1334: {
+    "id": "LOE_038",
+    "name": "Bruja de mar naga",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 3
+  },
+  1335: {
+    "id": "LOE_116",
+    "name": "Buscadora de reliquias",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "classs": 9,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1336: {
+    "id": "LOEA16_21H",
+    "name": "Cabecilla Scarvash",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1337: {
+    "id": "LOEA05_01",
+    "name": "Cabecilla Scarvash",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1338: {
+    "id": "LOEA16_21",
+    "name": "Cabecilla Scarvash",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1339: {
+    "id": "LOEA09_7e",
+    "name": "Caldero",
+    "set": 20,
+    "type": 0
+  },
+  1340: {
+    "id": "LOEA09_7H",
+    "name": "Caldero",
+    "cost": 0,
+    "attack": 0,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1341: {
+    "id": "LOEA09_7",
+    "name": "Caldero",
+    "cost": 0,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1342: {
+    "id": "LOEA16_10",
+    "name": "Cáliz de sangre Hakkari",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1343: {
+    "id": "LOE_020",
+    "name": "Camello del desierto",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "classs": 3,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1344: {
+    "id": "LOE_061",
+    "name": "Centinela Anubisath",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1345: {
+    "id": "LOEA14_1H",
+    "name": "Centinela heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1346: {
+    "id": "LOEA04_30a",
+    "name": "Coges el atajo",
+    "set": 20,
+    "type": 0
+  },
+  1347: {
+    "id": "LOE_003",
+    "name": "Conjurador etéreo",
+    "cost": 5,
+    "attack": 6,
+    "health": 3,
+    "classs": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1348: {
+    "id": "LOE_006",
+    "name": "Conservador del museo",
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "classs": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1349: {
+    "id": "LOEA07_26",
+    "name": "Consultar a Brann",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1350: {
+    "id": "LOEA16_11",
+    "name": "Corona de Kael'thas",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1351: {
+    "id": "LOE_073",
+    "name": "Demosaurio fosilizado",
+    "cost": 8,
+    "attack": 8,
+    "health": 8,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1352: {
+    "id": "LOEA02_10",
+    "name": "Deseo de compañía",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1353: {
+    "id": "LOEA02_05",
+    "name": "Deseo de gloria",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1354: {
+    "id": "LOEA02_06",
+    "name": "Deseo de más deseos",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1355: {
+    "id": "LOEA02_03",
+    "name": "Deseo de poder",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1356: {
+    "id": "LOEA02_04",
+    "name": "Deseo de valor",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1357: {
+    "id": "LOE_009",
+    "name": "Destructor obsidiano",
+    "cost": 7,
+    "attack": 7,
+    "health": 7,
+    "classs": 1,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1358: {
+    "id": "LOEA07_18",
+    "name": "Dinamita",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1359: {
+    "id": "LOE_053",
+    "name": "Djinn de los Céfiros",
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 3
+  },
+  1360: {
+    "id": "LOEA16_27H",
+    "name": "El centinela férreo",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1361: {
+    "id": "LOEA14_1",
+    "name": "El centinela férreo",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1362: {
+    "id": "LOEA16_27",
+    "name": "El centinela férreo",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1363: {
+    "id": "LOE_026",
+    "name": "El día de los múrlocs",
+    "cost": 10,
+    "classs": 2,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1364: {
+    "id": "LOEA04_29",
+    "name": "El Ojo",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1365: {
+    "id": "LOE_016",
+    "name": "Elemental resonador",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "classs": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1366: {
+    "id": "LOE_079",
+    "name": "Elise Buscaestelar",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1367: {
+    "id": "LOEA09_2e",
+    "name": "Enfurecido",
+    "set": 20,
+    "type": 0
+  },
+  1368: {
+    "id": "LOEA09_2eH",
+    "name": "Enfurecido",
+    "set": 20,
+    "type": 0
+  },
+  1369: {
+    "id": "LOEA07_02",
+    "name": "Entrada de la mina",
+    "health": 80,
+    "set": 20,
+    "type": 0
+  },
+  1370: {
+    "id": "LOEA07_02h",
+    "name": "Entrada de la mina heroica",
+    "health": 80,
+    "set": 20,
+    "type": 0
+  },
+  1371: {
+    "id": "LOE_009t",
+    "name": "Escarabajo",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "classs": 1,
+    "set": 20,
+    "type": 0
+  },
+  1372: {
+    "id": "LOE_029",
+    "name": "Escarabajo con joyas",
+    "cost": 2,
+    "attack": 1,
+    "health": 1,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1373: {
+    "id": "LOEA07_11",
+    "name": "Escombros",
+    "cost": 1,
+    "attack": 0,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1374: {
+    "id": "LOEA06_02",
+    "name": "Escultura",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1375: {
+    "id": "LOEA06_02h",
+    "name": "Escultura",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1376: {
+    "id": "LOE_118",
+    "name": "Espada maldita",
+    "cost": 1,
+    "attack": 2,
+    "durability": 3,
+    "classs": 1,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1377: {
+    "id": "LOE_118e",
+    "name": "Espada maldita",
+    "classs": 1,
+    "set": 20,
+    "type": 0
+  },
+  1378: {
+    "id": "LOEA16_5",
+    "name": "Espejo de fatalidad",
+    "cost": 10,
+    "set": 20,
+    "type": 0
+  },
+  1379: {
+    "id": "LOEA13_1h",
+    "name": "Esquelesaurus heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1380: {
+    "id": "LOEA16_26",
+    "name": "Esquelesaurus rex",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1381: {
+    "id": "LOEA16_26H",
+    "name": "Esquelesaurus rex",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1382: {
+    "id": "LOEA13_1",
+    "name": "Esquelesaurus rex",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1383: {
+    "id": "LOEA04_27",
+    "name": "Estatua animada",
+    "cost": 1,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1384: {
+    "id": "LOEA16_17",
+    "name": "Estatua animada",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1385: {
+    "id": "LOEA04_25",
+    "name": "Estatua calcinante",
+    "cost": 8,
+    "attack": 0,
+    "health": 9,
+    "set": 20,
+    "type": 0
+  },
+  1386: {
+    "id": "LOEA04_25h",
+    "name": "Estatua calcinante",
+    "cost": 8,
+    "attack": 5,
+    "health": 9,
+    "set": 20,
+    "type": 0
+  },
+  1387: {
+    "id": "LOE_107",
+    "name": "Estatua siniestra",
+    "cost": 4,
+    "attack": 7,
+    "health": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1388: {
+    "id": "LOEA06_02th",
+    "name": "Estatua terránea",
+    "cost": 1,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1389: {
+    "id": "LOEA06_02t",
+    "name": "Estatua terránea",
+    "cost": 1,
+    "attack": 0,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1390: {
+    "id": "LOEA16_16H",
+    "name": "Exploración",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1391: {
+    "id": "LOEA16_16",
+    "name": "Exploración",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1392: {
+    "id": "LOEA09_3aH",
+    "name": "Famélico",
+    "set": 20,
+    "type": 0
+  },
+  1393: {
+    "id": "LOEA09_3a",
+    "name": "Famélico",
+    "set": 20,
+    "type": 0
+  },
+  1394: {
+    "id": "LOEA16_3",
+    "name": "Farol de poder",
+    "cost": 10,
+    "set": 20,
+    "type": 0
+  },
+  1395: {
+    "id": "LOEA16_3e",
+    "name": "Farol de poder",
+    "set": 20,
+    "type": 0
+  },
+  1396: {
+    "id": "LOEA04_06",
+    "name": "Fosa de pinchos",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1397: {
+    "id": "LOE_073e",
+    "name": "Fosilizado",
+    "set": 20,
+    "type": 0
+  },
+  1398: {
+    "id": "LOEA16_6",
+    "name": "Fragmento de Sulfuras",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1399: {
+    "id": "LOEA07_14",
+    "name": "Gólem torpe",
+    "cost": 6,
+    "attack": 6,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1400: {
+    "id": "LOE_039",
+    "name": "Gorilabot A-3",
+    "cost": 4,
+    "attack": 3,
+    "health": 4,
+    "collectible": 1,
+    "race": 17,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1401: {
+    "id": "LOEA16_9",
+    "name": "Greba izquierda de Lothar",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1402: {
+    "id": "LOEA16_12",
+    "name": "Guardapelo de Medivh",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1403: {
+    "id": "LOEA04_13bth",
+    "name": "Guardia de Orsis",
+    "cost": 4,
+    "attack": 8,
+    "health": 8,
+    "set": 20,
+    "type": 0
+  },
+  1404: {
+    "id": "LOEA04_13bt",
+    "name": "Guardia de Orsis",
+    "cost": 4,
+    "attack": 7,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1405: {
+    "id": "LOEA04_24",
+    "name": "Guardia del templo Anubisath",
+    "cost": 8,
+    "attack": 5,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1406: {
+    "id": "LOEA04_24h",
+    "name": "Guardia del templo Anubisath",
+    "cost": 8,
+    "attack": 6,
+    "health": 15,
+    "set": 20,
+    "type": 0
+  },
+  1407: {
+    "id": "LOEA09_8H",
+    "name": "Guardia reptante",
+    "cost": 5,
+    "attack": 5,
+    "health": 7,
+    "set": 20,
+    "type": 0
+  },
+  1408: {
+    "id": "LOEA09_8",
+    "name": "Guardia reptante",
+    "cost": 5,
+    "attack": 3,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1409: {
+    "id": "LOE_017",
+    "name": "Guardiana de Uldaman",
+    "cost": 4,
+    "attack": 3,
+    "health": 4,
+    "classs": 2,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1410: {
+    "id": "LOEA09_3H",
+    "name": "Hambre insaciable",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1411: {
+    "id": "LOEA01_12h",
+    "name": "Hoplita Tol'vir",
+    "cost": 3,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1412: {
+    "id": "LOEA01_12",
+    "name": "Hoplita Tol'vir",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1413: {
+    "id": "LOE_030e",
+    "name": "Hueca",
+    "set": 20,
+    "type": 0
+  },
+  1414: {
+    "id": "LOEA04_01",
+    "name": "Huida del templo",
+    "health": 100,
+    "set": 20,
+    "type": 0
+  },
+  1415: {
+    "id": "LOEA04_01h",
+    "name": "Huida heroica",
+    "health": 100,
+    "set": 20,
+    "type": 0
+  },
+  1416: {
+    "id": "LOE_115a",
+    "name": "Ídolo del cuervo",
+    "classs": 11,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1417: {
+    "id": "LOE_115",
+    "name": "Ídolo del cuervo",
+    "cost": 1,
+    "classs": 11,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1418: {
+    "id": "LOE_115b",
+    "name": "Ídolo del cuervo",
+    "classs": 11,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1419: {
+    "id": "LOEA04_23",
+    "name": "Insecto gigante",
+    "cost": 7,
+    "attack": 10,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1420: {
+    "id": "LOEA04_23h",
+    "name": "Insecto gigante",
+    "cost": 7,
+    "attack": 10,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1421: {
+    "id": "LOEA02_02",
+    "name": "Intuición de djinn",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1422: {
+    "id": "LOEA02_02h",
+    "name": "Intuición de djinn",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1423: {
+    "id": "LOEA04_29b",
+    "name": "Investigas las runas",
+    "set": 20,
+    "type": 0
+  },
+  1424: {
+    "id": "LOEA04_06b",
+    "name": "La atraviesas con cuidado",
+    "set": 20,
+    "type": 0
+  },
+  1425: {
+    "id": "LOEA04_30",
+    "name": "La oscuridad",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1426: {
+    "id": "LOEA04_28b",
+    "name": "La vadeas",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1427: {
+    "id": "LOEA16_25",
+    "name": "Lady Naz'jar",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1428: {
+    "id": "LOEA12_1",
+    "name": "Lady Naz'jar",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1429: {
+    "id": "LOEA16_25H",
+    "name": "Lady Naz'jar",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1430: {
+    "id": "LOEA16_15",
+    "name": "Lágrima de Ysera",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1431: {
+    "id": "LOEA09_4H",
+    "name": "Lanza poco común",
+    "cost": 1,
+    "attack": 1,
+    "durability": 2,
+    "set": 20,
+    "type": 0
+  },
+  1432: {
+    "id": "LOEA09_4",
+    "name": "Lanza poco común",
+    "cost": 1,
+    "attack": 1,
+    "durability": 2,
+    "set": 20,
+    "type": 0
+  },
+  1433: {
+    "id": "LOEA07_29",
+    "name": "Lanzar rocas",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1434: {
+    "id": "LOE_051",
+    "name": "Lechúcico de la selva",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "classs": 11,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1435: {
+    "id": "LOEA02_10a",
+    "name": "Leokk",
+    "cost": 0,
+    "attack": 2,
+    "health": 4,
+    "classs": 3,
+    "race": 20,
+    "set": 20,
+    "type": 0
+  },
+  1436: {
+    "id": "LOEA04_29a",
+    "name": "Lo tocas",
+    "set": 20,
+    "type": 0
+  },
+  1437: {
+    "id": "LOEA09_1",
+    "name": "Lord Reptalanza",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1438: {
+    "id": "LOEA16_23",
+    "name": "Lord Reptalanza",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1439: {
+    "id": "LOEA16_23H",
+    "name": "Lord Reptalanza",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1440: {
+    "id": "LOEA07_25",
+    "name": "Loro mecánico",
+    "cost": 1,
+    "attack": 3,
+    "health": 6,
+    "race": 17,
+    "set": 20,
+    "type": 0
+  },
+  1441: {
+    "id": "LOE_111",
+    "name": "Mal desenterrado",
+    "cost": 5,
+    "classs": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1442: {
+    "id": "LOE_110t",
+    "name": "Maldición ancestral",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1443: {
+    "id": "LOE_007",
+    "name": "Maldición de Rafaam",
+    "cost": 2,
+    "classs": 9,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1444: {
+    "id": "LOE_019t",
+    "name": "Mapa del mono dorado",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1445: {
+    "id": "LOEA02_10c",
+    "name": "Misha",
+    "cost": 0,
+    "attack": 4,
+    "health": 4,
+    "classs": 3,
+    "race": 20,
+    "set": 20,
+    "type": 0
+  },
+  1446: {
+    "id": "LOEA01_11he",
+    "name": "Modo heroico",
+    "set": 20,
+    "type": 0
+  },
+  1447: {
+    "id": "LOEA16_5t",
+    "name": "Momia zombi",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1448: {
+    "id": "LOE_019t2",
+    "name": "Mono dorado",
+    "cost": 4,
+    "attack": 6,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1449: {
+    "id": "LOE_022",
+    "name": "Mono feroz",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "classs": 1,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1450: {
+    "id": "LOEA10_5H",
+    "name": "Mrgl Mrgl Ña Ña",
+    "cost": 3,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1451: {
+    "id": "LOEA10_5",
+    "name": "Mrgl Mrgl Ña Ña",
+    "cost": 5,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1452: {
+    "id": "LOEA10_3",
+    "name": "Múrloc Aletín",
+    "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "collectible": 1,
+    "race": 14,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1453: {
+    "id": "LOEA09_10",
+    "name": "Naga hambriento",
+    "cost": 2,
+    "attack": 2,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1454: {
+    "id": "LOEA09_5",
+    "name": "Naga hambriento",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1455: {
+    "id": "LOEA09_5H",
+    "name": "Naga hambriento",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "set": 20,
+    "type": 0
+  },
+  1456: {
+    "id": "LOEA09_11",
+    "name": "Naga hambriento",
+    "cost": 3,
+    "attack": 1,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1457: {
+    "id": "LOEA09_13",
+    "name": "Naga hambriento",
+    "cost": 5,
+    "attack": 5,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1458: {
+    "id": "LOEA09_12",
+    "name": "Naga hambriento",
+    "cost": 4,
+    "attack": 2,
+    "health": 1,
+    "set": 20,
+    "type": 0
+  },
+  1459: {
+    "id": "LOEA12_1H",
+    "name": "Naz'jar heroica",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1460: {
+    "id": "LOE_008",
+    "name": "Ojo de Hakkar",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1461: {
+    "id": "LOE_008H",
+    "name": "Ojo de Hakkar",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1462: {
+    "id": "LOEA16_13",
+    "name": "Ojo de Orsis",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1463: {
+    "id": "LOEA06_04",
+    "name": "Ola de destrucción",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1464: {
+    "id": "LOEA06_04h",
+    "name": "Ola de destrucción",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1465: {
+    "id": "LOEA12_2H",
+    "name": "Perla de las mareas",
+    "set": 20,
+    "type": 0
+  },
+  1466: {
+    "id": "LOEA12_2",
+    "name": "Perla de las mareas",
+    "set": 20,
+    "type": 0
+  },
+  1467: {
+    "id": "LOEA07_12",
+    "name": "Persecutor terráneo",
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1468: {
+    "id": "LOEA01_01h",
+    "name": "Phaerix heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1469: {
+    "id": "LOEA16_14",
+    "name": "Pipa de Khadgar",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1470: {
+    "id": "LOEA13_2",
+    "name": "Poder antiguo",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1471: {
+    "id": "LOEA13_2H",
+    "name": "Poder antiguo",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1472: {
+    "id": "LOE_061e",
+    "name": "Poder de los titanes",
+    "set": 20,
+    "type": 0
+  },
+  1473: {
+    "id": "LOE_009e",
+    "name": "Poder siniestro",
+    "classs": 9,
+    "set": 20,
+    "type": 0
+  },
+  1474: {
+    "id": "LOEA15_2H",
+    "name": "Portal inestable",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1475: {
+    "id": "LOEA15_2",
+    "name": "Portal inestable",
+    "cost": 2,
+    "set": 20,
+    "type": 0
+  },
+  1476: {
+    "id": "LOEA04_28",
+    "name": "Poza brillante",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1477: {
+    "id": "LOEA_01",
+    "name": "Presencia amenazante",
+    "cost": 3,
+    "set": 20,
+    "type": 0
+  },
+  1478: {
+    "id": "LOEA_01H",
+    "name": "Presencia amenazante",
+    "cost": 3,
+    "set": 20,
+    "type": 0
+  },
+  1479: {
+    "id": "LOE_027",
+    "name": "Prueba sagrada",
+    "cost": 1,
+    "classs": 2,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1480: {
+    "id": "LOEA15_1",
+    "name": "Rafaam",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1481: {
+    "id": "LOEA16_1",
+    "name": "Rafaam",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1482: {
+    "id": "LOEA15_1H",
+    "name": "Rafaam heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1483: {
+    "id": "LOEA16_1H",
+    "name": "Rafaam heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1484: {
+    "id": "LOE_019e",
+    "name": "Raptor desenterrado",
+    "classs": 4,
+    "set": 20,
+    "type": 0
+  },
+  1485: {
+    "id": "LOE_019",
+    "name": "Raptor desenterrado",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "classs": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1486: {
+    "id": "LOE_050",
+    "name": "Raptor montado",
+    "cost": 3,
+    "attack": 3,
+    "health": 2,
+    "classs": 11,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1487: {
+    "id": "LOEA15_3H",
+    "name": "Raptor óseo",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1488: {
+    "id": "LOEA15_3",
+    "name": "Raptor óseo",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1489: {
+    "id": "LOEA16_4",
+    "name": "Reloj de terror",
+    "cost": 10,
+    "set": 20,
+    "type": 0
+  },
+  1490: {
+    "id": "LOE_011",
+    "name": "Reno Jackson",
+    "cost": 6,
+    "attack": 4,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1491: {
+    "id": "LOEA07_28",
+    "name": "Reparaciones",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1492: {
+    "id": "LOEA09_9",
+    "name": "Repelente de nagas",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1493: {
+    "id": "LOEA09_9H",
+    "name": "Repelente de nagas",
+    "cost": 1,
+    "set": 20,
+    "type": 0
+  },
+  1494: {
+    "id": "LOEA09_1H",
+    "name": "Reptalanza heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1495: {
+    "id": "LOE_089t",
+    "name": "Retaco granuja",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1496: {
+    "id": "LOE_089t3",
+    "name": "Retaco quejica",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1497: {
+    "id": "LOE_089t2",
+    "name": "Retaco taimado",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "set": 20,
+    "type": 0
+  },
+  1498: {
+    "id": "LOE_089",
+    "name": "Retacos tambaleantes",
+    "cost": 6,
+    "attack": 2,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1499: {
+    "id": "LOE_016t",
+    "name": "Roca",
+    "cost": 1,
+    "attack": 0,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1500: {
+    "id": "LOE_086",
+    "name": "Roca de invocación",
+    "cost": 5,
+    "attack": 0,
+    "health": 6,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1501: {
+    "id": "LOE_024t",
+    "name": "Roca rodante",
+    "cost": 4,
+    "attack": 0,
+    "health": 4,
+    "set": 20,
+    "type": 0
+  },
+  1502: {
+    "id": "LOEA04_06a",
+    "name": "Saltas por encima",
+    "set": 20,
+    "type": 0
+  },
+  1503: {
+    "id": "LOE_046",
+    "name": "Sapo gigante",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1504: {
+    "id": "LOE_012",
+    "name": "Saqueador de tumbas",
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "classs": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1505: {
+    "id": "LOEA05_01h",
+    "name": "Scarvash heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1506: {
+    "id": "LOEA07_24",
+    "name": "Señuelo con pinchos",
+    "cost": 1,
+    "attack": 3,
+    "health": 6,
+    "race": 17,
+    "set": 20,
+    "type": 0
+  },
+  1507: {
+    "id": "LOE_104",
+    "name": "Sepultar",
+    "cost": 6,
+    "classs": 5,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1508: {
+    "id": "LOE_010",
+    "name": "Serpiente del foso",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "classs": 4,
+    "collectible": 1,
+    "race": 20,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1509: {
+    "id": "LOE_076",
+    "name": "Sir Finley Mrrgglton",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "collectible": 1,
+    "race": 14,
+    "set": 20,
+    "type": 0,
+    "quality": 4
+  },
+  1510: {
+    "id": "LOE_110",
+    "name": "Sombra ancestral",
+    "cost": 4,
+    "attack": 7,
+    "health": 4,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1511: {
+    "id": "LOE_105e",
+    "name": "Sombrero de expedicionario",
+    "classs": 3,
+    "set": 20,
+    "type": 0
+  },
+  1512: {
+    "id": "LOE_105",
+    "name": "Sombrero de expedicionario",
+    "cost": 2,
+    "classs": 3,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1513: {
+    "id": "LOEA04_01e",
+    "name": "Temple Escape Enchant",
+    "set": 20,
+    "type": 0
+  },
+  1514: {
+    "id": "LOEA04_01eh",
+    "name": "Temple Escape Enchant",
+    "set": 20,
+    "type": 0
+  },
+  1515: {
+    "id": "LOE_113",
+    "name": "Todo es fabumrgloso",
+    "cost": 7,
+    "classs": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 2
+  },
+  1516: {
+    "id": "LOE_021",
+    "name": "Trampa de dardos",
+    "cost": 2,
+    "classs": 3,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1517: {
+    "id": "LOE_018",
+    "name": "Trogg de túnel",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "classs": 7,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1518: {
+    "id": "LOE_018e",
+    "name": "Trogg no tonto",
+    "classs": 7,
+    "set": 20,
+    "type": 0
+  },
+  1519: {
+    "id": "LOEA07_09",
+    "name": "Trogg persecutor",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "set": 20,
+    "type": 0
+  },
+  1520: {
+    "id": "LOEA16_7",
+    "name": "Trozo de oración",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1521: {
+    "id": "LOEA07_01",
+    "name": "Vagoneta",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1522: {
+    "id": "LOEA01_11",
+    "name": "Vara del Sol",
+    "cost": 0,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1523: {
+    "id": "LOEA01_11h",
+    "name": "Vara del Sol",
+    "cost": 0,
+    "attack": 0,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1524: {
+    "id": "LOE_023",
+    "name": "Vendedor oscuro",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "classs": 9,
+    "collectible": 1,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1525: {
+    "id": "LOEA16_8",
+    "name": "Vial de Putress",
+    "cost": 0,
+    "set": 20,
+    "type": 0
+  },
+  1526: {
+    "id": "LOEA16_8a",
+    "name": "Víctima de Putress",
+    "set": 20,
+    "type": 0
+  },
+  1527: {
+    "id": "LOE_017e",
+    "name": "Vigilado",
+    "classs": 2,
+    "set": 20,
+    "type": 0
+  },
+  1528: {
+    "id": "LOEA16_18",
+    "name": "Zinaar",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "set": 20,
+    "type": 0
+  },
+  1529: {
+    "id": "LOEA02_01",
+    "name": "Zinaar",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1530: {
+    "id": "LOEA16_18H",
+    "name": "Zinaar",
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "set": 20,
+    "type": 0
+  },
+  1531: {
+    "id": "LOEA02_01h",
+    "name": "Zinaar heroico",
+    "health": 30,
+    "set": 20,
+    "type": 0
+  },
+  1532: {
+    "id": "LOE_012e",
+    "name": "zzDELETE Tomb Explorer",
+    "classs": 4,
+    "set": 20,
+    "type": 0
+  },
+  1533: {
+    "id": "LOE_030",
+    "name": "zzDELETE? Animated Armor",
+    "cost": 4,
+    "attack": 1,
+    "health": 1,
+    "collectible": 0,
+    "set": 20,
+    "type": 0,
+    "quality": 1
+  },
+  1534: {
     "id": "TU4a_004",
     "name": "¡Hogger MACHACA!",
     "cost": 3,
@@ -11912,7 +14031,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1277: {
+  1535: {
     "id": "TU4c_003",
     "name": "Barril",
     "cost": 0,
@@ -11921,7 +14040,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1278: {
+  1536: {
     "id": "TU4d_002",
     "name": "Cazador demenciado",
     "cost": 1,
@@ -11931,7 +14050,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1279: {
+  1537: {
     "id": "TU4d_003",
     "name": "Disparo de escopeta",
     "cost": 2,
@@ -11940,14 +14059,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1280: {
+  1538: {
     "id": "TU4f_001",
     "name": "Eremita Cho",
     "health": 25,
     "set": 5,
     "type": 0
   },
-  1281: {
+  1539: {
     "id": "TU4f_002",
     "name": "Explorador pandaren",
     "cost": 1,
@@ -11957,7 +14076,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1282: {
+  1540: {
     "id": "TU4a_003",
     "name": "Gnoll",
     "cost": 1,
@@ -11967,7 +14086,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1283: {
+  1541: {
     "id": "TU4a_005",
     "name": "Gnoll enorme",
     "cost": 4,
@@ -11977,7 +14096,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1284: {
+  1542: {
     "id": "TU4a_002",
     "name": "Gnoll Zarparrío",
     "cost": 1,
@@ -11987,7 +14106,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1285: {
+  1543: {
     "id": "TU4c_005",
     "name": "Gnomo escondido",
     "cost": 2,
@@ -11997,7 +14116,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1286: {
+  1544: {
     "id": "TU4e_004",
     "name": "Guja de guerra de Azzinoth",
     "cost": 2,
@@ -12007,7 +14126,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1287: {
+  1545: {
     "id": "TU4e_007",
     "name": "Gujas de guerra dobles",
     "cost": 6,
@@ -12017,7 +14136,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1288: {
+  1546: {
     "id": "TU4d_001",
     "name": "Hemet Nesingwary",
     "health": 20,
@@ -12026,7 +14145,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1289: {
+  1547: {
     "id": "TU4c_007",
     "name": "Hermano mayor de Mukla",
     "cost": 6,
@@ -12036,7 +14155,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1290: {
+  1548: {
     "id": "TU4a_001",
     "name": "Hogger",
     "health": 10,
@@ -12044,7 +14163,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1291: {
+  1549: {
     "id": "TU4e_001",
     "name": "Illidan Tempestira",
     "health": 30,
@@ -12052,7 +14171,7 @@ hs_cards['eses'] = {
     "set": 5,
     "type": 0
   },
-  1292: {
+  1550: {
     "id": "TU4a_006",
     "name": "Jaina Valiente",
     "health": 27,
@@ -12061,7 +14180,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1293: {
+  1551: {
     "id": "TU4c_002",
     "name": "Lanzar barril",
     "cost": 1,
@@ -12069,13 +14188,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1294: {
+  1552: {
     "id": "TU4f_004o",
     "name": "Legado del Emperador",
     "set": 5,
     "type": 0
   },
-  1295: {
+  1553: {
     "id": "TU4f_004",
     "name": "Legado del Emperador",
     "cost": 3,
@@ -12083,7 +14202,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1296: {
+  1554: {
     "id": "TU4e_002t",
     "name": "Llama de Azzinoth",
     "cost": 1,
@@ -12093,14 +14212,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1297: {
+  1555: {
     "id": "TU4e_002",
     "name": "Llamas de Azzinoth",
     "cost": 2,
     "set": 5,
     "type": 0
   },
-  1298: {
+  1556: {
     "id": "TU4f_005",
     "name": "Maestro cervecero",
     "cost": 4,
@@ -12110,7 +14229,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1299: {
+  1557: {
     "id": "TU4e_003",
     "name": "Mirmidón naga",
     "cost": 1,
@@ -12120,7 +14239,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1300: {
+  1558: {
     "id": "TU4b_001",
     "name": "Molino Tormenta de Maná",
     "health": 20,
@@ -12129,7 +14248,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1301: {
+  1559: {
     "id": "TU4f_003",
     "name": "Monje del Shadopan",
     "cost": 2,
@@ -12139,7 +14258,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1302: {
+  1560: {
     "id": "TU4f_007",
     "name": "Mono loco",
     "cost": 1,
@@ -12149,7 +14268,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1303: {
+  1561: {
     "id": "TU4c_004",
     "name": "Pisotón",
     "cost": 2,
@@ -12157,13 +14276,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1304: {
+  1562: {
     "id": "TU4c_006e",
     "name": "Plátanos",
     "set": 5,
     "type": 0
   },
-  1305: {
+  1563: {
     "id": "TU4c_006",
     "name": "Plátanos",
     "cost": 1,
@@ -12171,13 +14290,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1306: {
+  1564: {
     "id": "TU4c_008e",
     "name": "Poderío de Mukla",
     "set": 5,
     "type": 0
   },
-  1307: {
+  1565: {
     "id": "TU4e_005",
     "name": "Ráfaga de llamas",
     "cost": 3,
@@ -12185,7 +14304,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1308: {
+  1566: {
     "id": "TU4c_001",
     "name": "Rey Mukla",
     "health": 26,
@@ -12193,7 +14312,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1309: {
+  1567: {
     "id": "TU4f_006",
     "name": "Transcendencia",
     "cost": 1,
@@ -12201,13 +14320,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1310: {
+  1568: {
     "id": "TU4f_006o",
     "name": "Transcendencia",
     "set": 5,
     "type": 0
   },
-  1311: {
+  1569: {
     "id": "TU4c_008",
     "name": "Voluntad de Mukla",
     "cost": 3,
@@ -12215,13 +14334,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1312: {
+  1570: {
     "id": "Mekka3e",
     "name": "¡Corajizado!",
     "set": 11,
     "type": 0
   },
-  1313: {
+  1571: {
     "id": "Mekka3",
     "name": "Corajizador 3000",
     "cost": 1,
@@ -12232,7 +14351,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1314: {
+  1572: {
     "id": "PRO_001",
     "name": "Elite Tauren Chieftain",
     "cost": 5,
@@ -12243,7 +14362,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1315: {
+  1573: {
     "id": "EX1_112",
     "name": "Gelbin Mekkatorque",
     "cost": 6,
@@ -12254,14 +14373,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1316: {
+  1574: {
     "id": "PRO_001a",
     "name": "I Am Murloc",
     "cost": 4,
     "set": 11,
     "type": 0
   },
-  1317: {
+  1575: {
     "id": "PRO_001at",
     "name": "Múrloc",
     "cost": 0,
@@ -12271,7 +14390,7 @@ hs_cards['eses'] = {
     "set": 11,
     "type": 0
   },
-  1318: {
+  1576: {
     "id": "Mekka4",
     "name": "Pollificador",
     "cost": 1,
@@ -12282,7 +14401,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1319: {
+  1577: {
     "id": "Mekka4t",
     "name": "Pollo",
     "cost": 0,
@@ -12292,7 +14411,7 @@ hs_cards['eses'] = {
     "set": 11,
     "type": 0
   },
-  1320: {
+  1578: {
     "id": "Mekka1",
     "name": "Pollo buscador",
     "cost": 1,
@@ -12303,14 +14422,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1321: {
+  1579: {
     "id": "PRO_001c",
     "name": "Power of the Horde",
     "cost": 4,
     "set": 11,
     "type": 0
   },
-  1322: {
+  1580: {
     "id": "Mekka2",
     "name": "Robot de reparación",
     "cost": 1,
@@ -12321,20 +14440,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1323: {
+  1581: {
     "id": "PRO_001b",
     "name": "Rogues Do It...",
     "cost": 4,
     "set": 11,
     "type": 0
   },
-  1324: {
+  1582: {
     "id": "Mekka4e",
     "name": "Transformado",
     "set": 11,
     "type": 0
   },
-  1325: {
+  1583: {
     "id": "NEW1_016",
     "name": "Loro del capitán",
     "cost": 2,
@@ -12346,7 +14465,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1326: {
+  1584: {
     "id": "EX1_062",
     "name": "Viejo Ojosombrío",
     "cost": 4,
@@ -12358,7 +14477,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1327: {
+  1585: {
     "id": "PlaceholderCard",
     "name": "Placeholder Card",
     "cost": 9,
@@ -12369,83 +14488,83 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1328: {
+  1586: {
     "id": "BRMA01_2H_2_TB",
     "name": "¡¡¡Cuantos más, mejor!!!",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1329: {
+  1587: {
     "id": "BRMA14_10H_TB",
     "name": "¡Activar!",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1330: {
-    "id": "TB_012",
-    "name": "¡Elige una carta nueva!",
-    "cost": 0,
-    "set": 18,
-    "type": 0
-  },
-  1331: {
+  1588: {
     "id": "TB_014",
     "name": "¡Elige una carta nueva!",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1332: {
+  1589: {
+    "id": "TB_012",
+    "name": "¡Elige una carta nueva!",
+    "cost": 0,
+    "set": 18,
+    "type": 0
+  },
+  1590: {
     "id": "TB_MechWar_Boss1_HeroPower",
     "name": "¡Hola! ¡Hola! ¡Hola!",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1333: {
+  1591: {
     "id": "HRW02_1e",
     "name": "¡Hora de equiparse!",
     "cost": 1,
     "set": 18,
     "type": 0
   },
-  1334: {
-    "id": "BRMA09_2_TB",
-    "name": "Abrid las puertas",
-    "cost": 2,
-    "set": 18,
-    "type": 0
-  },
-  1335: {
+  1592: {
     "id": "BRMC_83",
     "name": "Abrid las puertas",
     "cost": 8,
     "set": 18,
     "type": 0
   },
-  1336: {
+  1593: {
+    "id": "BRMA09_2_TB",
+    "name": "Abrid las puertas",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1594: {
     "id": "BRMA02_2_2_TB",
     "name": "Abucheos del público",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1337: {
+  1595: {
     "id": "BRMA02_2_2c_TB",
     "name": "Abucheos del público",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1338: {
+  1596: {
     "id": "BRMC_97e",
     "name": "Adrenalina ardiente",
     "set": 18,
     "type": 0
   },
-  1339: {
+  1597: {
     "id": "BRMC_96",
     "name": "Alto justiciero Pedrasiniestra",
     "cost": 3,
@@ -12455,7 +14574,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1340: {
+  1598: {
     "id": "BRMC_86",
     "name": "Atramedes",
     "cost": 4,
@@ -12466,32 +14585,32 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1341: {
+  1599: {
     "id": "BRMC_98e",
     "name": "Avaricia de dragón",
     "set": 18,
     "type": 0
   },
-  1342: {
+  1600: {
+    "id": "BRMC_100e",
+    "name": "Bomba viva",
+    "set": 18,
+    "type": 0
+  },
+  1601: {
     "id": "BRMC_100",
     "name": "Bomba viva",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1343: {
-    "id": "BRMC_100e",
-    "name": "Bomba viva",
-    "set": 18,
-    "type": 0
-  },
-  1344: {
+  1602: {
     "id": "TB_CoOpBossSpell_2",
     "name": "Bombardeo",
     "set": 18,
     "type": 0
   },
-  1345: {
+  1603: {
     "id": "BRMC_95he",
     "name": "Cachorro de can del Núcleo",
     "cost": 3,
@@ -12501,14 +14620,14 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1346: {
+  1604: {
     "id": "BRMC_95h",
     "name": "Cachorros de can del Núcleo",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1347: {
+  1605: {
     "id": "BRMC_89",
     "name": "Ceniza arremolinada",
     "cost": 2,
@@ -12517,7 +14636,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1348: {
+  1606: {
     "id": "BRMC_92",
     "name": "Coren Cerveza Temible",
     "cost": 4,
@@ -12527,20 +14646,38 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1349: {
+  1607: {
     "id": "NAX8_02H_TB",
     "name": "Cosechar",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1350: {
+  1608: {
     "id": "TB_009",
     "name": "Crea 15 secretos",
     "set": 18,
     "type": 0
   },
-  1351: {
+  1609: {
+    "id": "TB_PickYourFate_10",
+    "name": "Destino 10",
+    "set": 18,
+    "type": 0
+  },
+  1610: {
+    "id": "TB_PickYourFate_11",
+    "name": "Destino 11",
+    "set": 18,
+    "type": 0
+  },
+  1611: {
+    "id": "TB_PickYourFate_9",
+    "name": "Destino 9",
+    "set": 18,
+    "type": 0
+  },
+  1612: {
     "id": "BRMC_88",
     "name": "Destripador dracónido",
     "cost": 6,
@@ -12550,34 +14687,34 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1352: {
-    "id": "NAX12_02H_2c_TB",
-    "name": "Diezmar",
-    "cost": 1,
-    "set": 18,
-    "type": 0
-  },
-  1353: {
+  1613: {
     "id": "NAX12_02H_2_TB",
     "name": "Diezmar",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1354: {
+  1614: {
+    "id": "NAX12_02H_2c_TB",
+    "name": "Diezmar",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1615: {
     "id": "TB_CoOpBossSpell_5",
     "name": "Disparo doble",
     "set": 18,
     "type": 0
   },
-  1355: {
+  1616: {
     "id": "BRMA06_2H_TB",
     "name": "El mayordomo",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1356: {
+  1617: {
     "id": "BRMC_99e",
     "name": "Elemental de roca",
     "cost": 2,
@@ -12586,51 +14723,150 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1357: {
+  1618: {
     "id": "TB_010e",
     "name": "Elige 1 de 3",
     "set": 18,
     "type": 0
   },
-  1358: {
+  1619: {
+    "id": "TB_PickYourFate",
+    "name": "Elige tu destino",
+    "set": 18,
+    "type": 0
+  },
+  1620: {
+    "id": "TB_PickYourFateRandom",
+    "name": "Elige tu destino aleatorio",
+    "set": 18,
+    "type": 0
+  },
+  1621: {
     "id": "TB_CoOpBossSpell_3",
     "name": "Emplear refrigerante",
     "set": 18,
     "type": 0
   },
-  1359: {
+  1622: {
+    "id": "TB_PickYourFate_10_Ench",
+    "name": "Encant. de destino 10: bonus de Grito de batalla",
+    "set": 18,
+    "type": 0
+  },
+  1623: {
+    "id": "TB_PickYourFate_11_Ench",
+    "name": "Encant. de nivel 11: múrloc",
+    "set": 18,
+    "type": 0
+  },
+  1624: {
+    "id": "TB_PickYourFate_9_Ench",
+    "name": "Encant. de nivel 9: bonus de Último aliento",
+    "set": 18,
+    "type": 0
+  },
+  1625: {
     "id": "TB_010",
     "name": "Encantamiento de diseño de mazos",
     "set": 18,
     "type": 0
   },
-  1360: {
+  1626: {
     "id": "TB_013",
     "name": "Encantamiento de elección del jugador",
     "set": 18,
     "type": 0
   },
-  1361: {
+  1627: {
     "id": "TB_EndlessMinions01",
     "name": "Encantamiento eterno",
     "set": 18,
     "type": 0
   },
-  1362: {
+  1628: {
     "id": "BRMA17_5_TB",
     "name": "Esbirros osarios",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1363: {
+  1629: {
     "id": "TB_FactionWar_Boss_BoomBot",
     "name": "FactionWar_BoomBot",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1364: {
+  1630: {
+    "id": "TB_MechWar_Minion1",
+    "name": "Fan de los robots",
+    "cost": 2,
+    "attack": 1,
+    "health": 1,
+    "set": 18,
+    "type": 0
+  },
+  1631: {
+    "id": "TB_PickYourFate_1",
+    "name": "Fate 1",
+    "set": 18,
+    "type": 0
+  },
+  1632: {
+    "id": "TB_PickYourFate_2",
+    "name": "Fate 2",
+    "set": 18,
+    "type": 0
+  },
+  1633: {
+    "id": "TB_PickYourFate_3",
+    "name": "Fate 3",
+    "set": 18,
+    "type": 0
+  },
+  1634: {
+    "id": "TB_PickYourFate_4",
+    "name": "Fate 4",
+    "set": 18,
+    "type": 0
+  },
+  1635: {
+    "id": "TB_PickYourFate_5",
+    "name": "Fate 5",
+    "set": 18,
+    "type": 0
+  },
+  1636: {
+    "id": "TB_PickYourFate_6",
+    "name": "Fate 6",
+    "set": 18,
+    "type": 0
+  },
+  1637: {
+    "id": "TB_PickYourFate_7",
+    "name": "Fate 7",
+    "set": 18,
+    "type": 0
+  },
+  1638: {
+    "id": "TB_PickYourFate_7_Ench",
+    "name": "Fate 7 Ench Get a Coin",
+    "set": 18,
+    "type": 0
+  },
+  1639: {
+    "id": "TB_PickYourFate_8",
+    "name": "Fate 8",
+    "set": 18,
+    "type": 0
+  },
+  1640: {
+    "id": "TB_PickYourFate_8_Ench",
+    "name": "Fate 8 Get Armor",
+    "set": 18,
+    "type": 0
+  },
+  1641: {
     "id": "BRMC_99",
     "name": "Garr",
     "cost": 5,
@@ -12640,7 +14876,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1365: {
+  1642: {
     "id": "BRMC_95",
     "name": "Golemagg",
     "cost": 50,
@@ -12650,7 +14886,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1366: {
+  1643: {
+    "id": "TB_006e",
+    "name": "Gran plátano",
+    "set": 18,
+    "type": 0
+  },
+  1644: {
     "id": "TB_006",
     "name": "Gran plátano",
     "cost": 1,
@@ -12658,13 +14900,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1367: {
-    "id": "TB_006e",
-    "name": "Gran plátano",
-    "set": 18,
-    "type": 0
-  },
-  1368: {
+  1645: {
     "id": "BRMC_91",
     "name": "Hijo del fuego",
     "cost": 3,
@@ -12673,26 +14909,26 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1369: {
+  1646: {
     "id": "TB_001",
     "name": "Intercambio de salud de jefe",
     "set": 18,
     "type": 0
   },
-  1370: {
+  1647: {
     "id": "TB_007e",
     "name": "Interruptor divergente",
     "set": 18,
     "type": 0
   },
-  1371: {
+  1648: {
     "id": "TBA01_6",
     "name": "Ira ardiente",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1372: {
+  1649: {
     "id": "BRMC_90",
     "name": "Lava viviente",
     "cost": 2,
@@ -12701,7 +14937,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1373: {
+  1650: {
     "id": "BRMC_85",
     "name": "Lucifron",
     "cost": 4,
@@ -12711,7 +14947,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1374: {
+  1651: {
     "id": "TB_CoOp_Mechazod",
     "name": "Maestro de palancas Mecazod",
     "cost": 10,
@@ -12721,21 +14957,31 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1375: {
+  1652: {
     "id": "BRMA13_4_2_TB",
     "name": "Magia salvaje",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1376: {
+  1653: {
     "id": "TBA01_5",
     "name": "Magia salvaje",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1377: {
+  1654: {
+    "id": "TB_CoOp_Mechazod2",
+    "name": "Mecazod sobrecargado",
+    "cost": 10,
+    "attack": 9,
+    "health": 80,
+    "set": 18,
+    "type": 0,
+    "quality": 4
+  },
+  1655: {
     "id": "BRMC_87",
     "name": "Moira Barbabronce",
     "cost": 3,
@@ -12745,20 +14991,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1378: {
+  1656: {
     "id": "TB_011",
     "name": "Moneda deslustrada",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1379: {
+  1657: {
     "id": "TB_CoOpBossSpell_6",
     "name": "Muerte al eremita",
     "set": 18,
     "type": 0
   },
-  1380: {
+  1658: {
     "id": "TBST_003",
     "name": "N3wb Healer",
     "cost": 1,
@@ -12767,7 +15013,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1381: {
+  1659: {
     "id": "TBST_002",
     "name": "N3wb Mage",
     "cost": 1,
@@ -12776,7 +15022,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1382: {
+  1660: {
     "id": "TBST_001",
     "name": "N3wb Tank",
     "cost": 1,
@@ -12785,21 +15031,49 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1383: {
+  1661: {
     "id": "TBA01_4",
     "name": "Nefarian",
     "health": 30,
     "set": 18,
     "type": 0
   },
-  1384: {
+  1662: {
     "id": "NAX11_02H_2_TB",
     "name": "Nube de veneno",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1385: {
+  1663: {
+    "id": "TB_GiftExchange_Enchantment",
+    "name": "Obsequio barato",
+    "set": 18,
+    "type": 0
+  },
+  1664: {
+    "id": "TB_GiftExchange_Treasure",
+    "name": "Obsequio de Invierno",
+    "cost": 0,
+    "attack": 0,
+    "health": 4,
+    "set": 18,
+    "type": 0
+  },
+  1665: {
+    "id": "TB_GiftExchange_Treasure_Spell",
+    "name": "Obsequio de Invierno robado",
+    "cost": 1,
+    "set": 18,
+    "type": 0
+  },
+  1666: {
+    "id": "TB_AllMinionsTauntCharge",
+    "name": "Otorgar Provocar y Cargar",
+    "set": 18,
+    "type": 0
+  },
+  1667: {
     "id": "TBST_005",
     "name": "Pícaro JcJ",
     "cost": 3,
@@ -12808,13 +15082,43 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1386: {
+  1668: {
+    "id": "TB_PickYourFate_5_Ench",
+    "name": "Pick You rFate 5 Ench",
+    "set": 18,
+    "type": 0
+  },
+  1669: {
+    "id": "TB_PickYourFate_1_Ench",
+    "name": "Pick Your Fate 1 Ench",
+    "set": 18,
+    "type": 0
+  },
+  1670: {
+    "id": "TB_PickYourFate_2_Ench",
+    "name": "Pick Your Fate 2 Ench",
+    "set": 18,
+    "type": 0
+  },
+  1671: {
+    "id": "TB_PickYourFate_3_Ench",
+    "name": "Pick Your Fate 3 Ench",
+    "set": 18,
+    "type": 0
+  },
+  1672: {
+    "id": "TB_PickYourFate_4_Ench",
+    "name": "Pick Your Fate 4 Ench",
+    "set": 18,
+    "type": 0
+  },
+  1673: {
     "id": "TB_Pilot1",
     "name": "Piloto misterioso",
     "set": 18,
     "type": 0
   },
-  1387: {
+  1674: {
     "id": "TB_015",
     "name": "Pirata",
     "cost": 2,
@@ -12824,7 +15128,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1388: {
+  1675: {
     "id": "TB_MechWar_Boss1",
     "name": "Plastatrón",
     "health": 30,
@@ -12832,7 +15136,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 0
   },
-  1389: {
+  1676: {
     "id": "TB_007",
     "name": "Plátano divergente",
     "cost": 1,
@@ -12840,7 +15144,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1390: {
+  1677: {
     "id": "TB_008",
     "name": "Plátano podrido",
     "cost": 1,
@@ -12848,26 +15152,38 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1391: {
+  1678: {
+    "id": "TB_013_PickOnCurve",
+    "name": "Player Choice Enchant On Curve",
+    "set": 18,
+    "type": 0
+  },
+  1679: {
+    "id": "TB_013_PickOnCurve2",
+    "name": "Player Choice Enchant On Curve2",
+    "set": 18,
+    "type": 0
+  },
+  1680: {
     "id": "TB_CoOpBossSpell_1",
     "name": "Priorizar",
     "set": 18,
     "type": 0
   },
-  1392: {
+  1681: {
     "id": "TBA01_1",
     "name": "Ragnaros, Señor del Fuego",
     "health": 60,
     "set": 18,
     "type": 0
   },
-  1393: {
+  1682: {
     "id": "TB_CoOpBossSpell_4",
     "name": "Revolucionar",
     "set": 18,
     "type": 0
   },
-  1394: {
+  1683: {
     "id": "TB_MechWar_Boss2",
     "name": "Robot bum",
     "health": 30,
@@ -12875,14 +15191,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 0
   },
-  1395: {
+  1684: {
     "id": "TB_MechWar_Boss2_HeroPower",
     "name": "Robot bum Jr.",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1396: {
+  1685: {
     "id": "TBST_004",
     "name": "Sanador fiable",
     "cost": 3,
@@ -12891,7 +15207,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1397: {
+  1686: {
     "id": "BRMC_98",
     "name": "Sangrevaja",
     "cost": 6,
@@ -12902,14 +15218,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1398: {
+  1687: {
     "id": "BRMC_93",
     "name": "Sistema de Defensa de Omnitron",
     "cost": 3,
     "set": 18,
     "type": 0
   },
-  1399: {
+  1688: {
     "id": "BRMC_94",
     "name": "Sulfuras",
     "cost": 2,
@@ -12918,7 +15234,7 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1400: {
+  1689: {
     "id": "BRMC_84",
     "name": "Taumaturgo dragonante",
     "cost": 5,
@@ -12928,77 +15244,89 @@ hs_cards['eses'] = {
     "set": 18,
     "type": 0
   },
-  1401: {
+  1690: {
     "id": "TB_GreatCurves_01",
     "name": "TB_ClockworkCardDealer",
     "set": 18,
     "type": 0
   },
-  1402: {
+  1691: {
+    "id": "TB_DecreasingCardCost",
+    "name": "TB_DecreasingCardCost",
+    "set": 18,
+    "type": 0
+  },
+  1692: {
     "id": "TB_RMC_001",
     "name": "TB_EnchRandomManaCost",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1403: {
+  1693: {
     "id": "TB_RandHero2_001",
     "name": "TB_EnchWhosTheBossNow",
     "set": 18,
     "type": 0
   },
-  1404: {
+  1694: {
+    "id": "TB_DecreasingCardCostDebug",
+    "name": "TBDecreasingCardCostDebug",
+    "set": 18,
+    "type": 0
+  },
+  1695: {
     "id": "TB_FactionWar_BoomBot",
     "name": "TBFactionWarBoomBot",
     "set": 18,
     "type": 0
   },
-  1405: {
+  1696: {
     "id": "TB_FactionWar_BoomBot_Spell",
     "name": "TBFactionWarBoomBotSpell",
     "cost": 1,
     "set": 18,
     "type": 0
   },
-  1406: {
+  1697: {
     "id": "TB_MechWar_CommonCards",
     "name": "TBMechWarCommonCards",
     "set": 18,
     "type": 0
   },
-  1407: {
+  1698: {
     "id": "TB_RandCardCost",
     "name": "TBRandomCardCost",
     "set": 18,
     "type": 0
   },
-  1408: {
+  1699: {
     "id": "TBST_006",
     "name": "TBST Push Common Card",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1409: {
+  1700: {
     "id": "TBUD_1",
     "name": "TBUD Summon Early Minion",
     "set": 18,
     "type": 0
   },
-  1410: {
+  1701: {
     "id": "BRMC_86e",
     "name": "Te oigo...",
     "set": 18,
     "type": 0
   },
-  1411: {
+  1702: {
     "id": "NAX3_02_TB",
     "name": "Trampa arácnida",
     "cost": 2,
     "set": 18,
     "type": 0
   },
-  1412: {
+  1703: {
     "id": "BRMC_97",
     "name": "Vaelastrasz",
     "cost": 6,
@@ -13009,21 +15337,27 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1413: {
-    "id": "BRMA07_2_2_TB",
-    "name": "YO MACHACAR",
-    "cost": 2,
+  1704: {
+    "id": "TB_PickYourFate_Windfury",
+    "name": "Viento Furioso",
     "set": 18,
     "type": 0
   },
-  1414: {
+  1705: {
     "id": "BRMA07_2_2c_TB",
     "name": "YO MACHACAR",
     "cost": 0,
     "set": 18,
     "type": 0
   },
-  1415: {
+  1706: {
+    "id": "BRMA07_2_2_TB",
+    "name": "YO MACHACAR",
+    "cost": 2,
+    "set": 18,
+    "type": 0
+  },
+  1707: {
     "id": "AT_078",
     "name": "¡Bienvenidos al coliseo!",
     "cost": 6,
@@ -13033,7 +15367,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1416: {
+  1708: {
     "id": "AT_035t",
     "name": "¡Emboscada!",
     "cost": 0,
@@ -13041,7 +15375,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1417: {
+  1709: {
     "id": "AT_132_WARRIOR",
     "name": "¡Resistencia!",
     "cost": 2,
@@ -13049,26 +15383,26 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1418: {
+  1710: {
     "id": "AT_116e",
     "name": "¡Vamos allá!",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1419: {
+  1711: {
     "id": "AT_133e",
     "name": "¡Victoria!",
     "set": 15,
     "type": 0
   },
-  1420: {
+  1712: {
     "id": "AT_017e",
     "name": "Abrazo crepuscular",
     "set": 15,
     "type": 0
   },
-  1421: {
+  1713: {
     "id": "AT_116",
     "name": "Agente del Reposo del Dragón",
     "cost": 2,
@@ -13080,7 +15414,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1422: {
+  1714: {
     "id": "AT_036",
     "name": "Anub'arak",
     "cost": 9,
@@ -13092,7 +15426,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1423: {
+  1715: {
     "id": "AT_059",
     "name": "Arquera indomable",
     "cost": 1,
@@ -13104,7 +15438,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1424: {
+  1716: {
     "id": "AT_119",
     "name": "Asaltante Kvaldir",
     "cost": 5,
@@ -13115,7 +15449,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1425: {
+  1717: {
     "id": "AT_097",
     "name": "Asistente al torneo",
     "cost": 1,
@@ -13126,7 +15460,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1426: {
+  1718: {
     "id": "AT_006",
     "name": "Aspirante de Dalaran",
     "cost": 4,
@@ -13138,7 +15472,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1427: {
+  1719: {
     "id": "AT_038",
     "name": "Aspirante de Darnassus",
     "cost": 2,
@@ -13150,7 +15484,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1428: {
+  1720: {
     "id": "AT_066",
     "name": "Aspirante de Orgrimmar",
     "cost": 3,
@@ -13162,7 +15496,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1429: {
+  1721: {
     "id": "AT_063t",
     "name": "Aterraescama",
     "cost": 3,
@@ -13175,7 +15509,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1430: {
+  1722: {
     "id": "AT_130",
     "name": "Atracamar",
     "cost": 6,
@@ -13187,7 +15521,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1431: {
+  1723: {
     "id": "AT_125",
     "name": "Aullahielo",
     "cost": 9,
@@ -13198,7 +15532,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1432: {
+  1724: {
     "id": "AT_045",
     "name": "Aviana",
     "cost": 9,
@@ -13210,7 +15544,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1433: {
+  1725: {
     "id": "AT_064",
     "name": "Azote",
     "cost": 3,
@@ -13220,7 +15554,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1434: {
+  1726: {
     "id": "AT_035",
     "name": "Bajo tierra",
     "cost": 3,
@@ -13230,20 +15564,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1435: {
+  1727: {
     "id": "AT_011e",
     "name": "Bendición de la Luz",
     "set": 15,
     "type": 0
   },
-  1436: {
+  1728: {
     "id": "AT_061e",
     "name": "Bloquear y cargar",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1437: {
+  1729: {
     "id": "AT_061",
     "name": "Bloquear y cargar",
     "cost": 2,
@@ -13253,7 +15587,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1438: {
+  1730: {
     "id": "AT_062",
     "name": "Bola de arañas",
     "cost": 6,
@@ -13263,7 +15597,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1439: {
+  1731: {
     "id": "AT_124",
     "name": "Bolf Escudo de Carnero",
     "cost": 6,
@@ -13274,7 +15608,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1440: {
+  1732: {
     "id": "AT_029",
     "name": "Bucanero",
     "cost": 1,
@@ -13287,7 +15621,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1441: {
+  1733: {
     "id": "AT_041",
     "name": "Caballero de lo Salvaje",
     "cost": 7,
@@ -13299,7 +15633,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1442: {
+  1734: {
     "id": "AT_096",
     "name": "Caballero de relojería",
     "cost": 5,
@@ -13311,7 +15645,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1443: {
+  1735: {
     "id": "AT_021",
     "name": "Caballero del mal diminuto",
     "cost": 2,
@@ -13324,7 +15658,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1444: {
+  1736: {
     "id": "AT_076",
     "name": "Caballero múrloc",
     "cost": 4,
@@ -13337,7 +15671,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1445: {
+  1737: {
     "id": "AT_095",
     "name": "Caballero silencioso",
     "cost": 3,
@@ -13348,7 +15682,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1446: {
+  1738: {
     "id": "AT_108",
     "name": "Caballo de guerra acorazado",
     "cost": 4,
@@ -13360,7 +15694,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1447: {
+  1739: {
     "id": "AT_132_DRUID",
     "name": "Cambio de forma temible",
     "cost": 2,
@@ -13368,7 +15702,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1448: {
+  1740: {
     "id": "AT_040",
     "name": "Caminante silvana",
     "cost": 4,
@@ -13380,7 +15714,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1449: {
+  1741: {
     "id": "AT_106",
     "name": "Campeón de la Luz",
     "cost": 3,
@@ -13391,7 +15725,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1450: {
+  1742: {
     "id": "AT_088",
     "name": "Campeón de Mogor",
     "cost": 6,
@@ -13402,7 +15736,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1451: {
+  1743: {
     "id": "AT_090",
     "name": "Campeón de Mukla",
     "cost": 5,
@@ -13414,7 +15748,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1452: {
+  1744: {
     "id": "AT_127",
     "name": "Campeón del nexo Saraad",
     "cost": 5,
@@ -13425,7 +15759,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1453: {
+  1745: {
     "id": "AT_071",
     "name": "Campeona de Alexstrasza",
     "cost": 2,
@@ -13437,7 +15771,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1454: {
+  1746: {
     "id": "AT_011",
     "name": "Campeona Sagrada",
     "cost": 4,
@@ -13449,7 +15783,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1455: {
+  1747: {
     "id": "AT_070",
     "name": "Capitán de los cielos Kragg",
     "cost": 7,
@@ -13461,20 +15795,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1456: {
+  1748: {
     "id": "AT_057o",
     "name": "Cepillado",
     "classs": 3,
     "set": 15,
     "type": 0
   },
-  1457: {
+  1749: {
     "id": "AT_117e",
     "name": "Ceremonia",
     "set": 15,
     "type": 0
   },
-  1458: {
+  1750: {
     "id": "AT_046",
     "name": "Colmillarr totémico",
     "cost": 3,
@@ -13486,7 +15820,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1459: {
+  1751: {
     "id": "AT_080",
     "name": "Comandante de la ciudadela",
     "cost": 2,
@@ -13497,7 +15831,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1460: {
+  1752: {
     "id": "AT_039",
     "name": "Combatiente salvaje",
     "cost": 4,
@@ -13510,7 +15844,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1461: {
+  1753: {
     "id": "AT_069",
     "name": "Compañero de entrenamiento",
     "cost": 2,
@@ -13522,7 +15856,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1462: {
+  1754: {
     "id": "AT_043",
     "name": "Comunión astral",
     "cost": 4,
@@ -13532,7 +15866,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1463: {
+  1755: {
     "id": "AT_018",
     "name": "Confesora Cabelloclaro",
     "cost": 7,
@@ -13544,14 +15878,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1464: {
+  1756: {
     "id": "AT_016e",
     "name": "Confundido",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1465: {
+  1757: {
     "id": "AT_016",
     "name": "Confundir",
     "cost": 2,
@@ -13561,7 +15895,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1466: {
+  1758: {
     "id": "AT_053",
     "name": "Conocimiento ancestral",
     "cost": 2,
@@ -13571,7 +15905,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1467: {
+  1759: {
     "id": "AT_104",
     "name": "Contendiente colmillarr",
     "cost": 5,
@@ -13583,7 +15917,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1468: {
+  1760: {
     "id": "AT_133",
     "name": "Contendiente de Gadgetzan",
     "cost": 1,
@@ -13594,7 +15928,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1469: {
+  1761: {
     "id": "AT_079",
     "name": "Contrincante misterioso",
     "cost": 6,
@@ -13606,7 +15940,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1470: {
+  1762: {
     "id": "AT_015",
     "name": "Convertir",
     "cost": 2,
@@ -13616,7 +15950,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1471: {
+  1763: {
     "id": "AT_019",
     "name": "Corcel nefasto",
     "cost": 4,
@@ -13629,7 +15963,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1472: {
+  1764: {
     "id": "AT_010",
     "name": "Criador de carneros",
     "cost": 5,
@@ -13641,7 +15975,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1473: {
+  1765: {
     "id": "AT_132_ROGUEt",
     "name": "Daga envenenada",
     "cost": 1,
@@ -13651,7 +15985,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1474: {
+  1766: {
     "id": "AT_132_ROGUE",
     "name": "Dagas envenenadas",
     "cost": 2,
@@ -13659,13 +15993,13 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1475: {
+  1767: {
     "id": "AT_065e",
     "name": "Defensor del rey",
     "set": 15,
     "type": 0
   },
-  1476: {
+  1768: {
     "id": "AT_065",
     "name": "Defensor del rey",
     "cost": 3,
@@ -13677,7 +16011,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1477: {
+  1769: {
     "id": "AT_051",
     "name": "Destrucción elemental",
     "cost": 3,
@@ -13687,7 +16021,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1478: {
+  1770: {
     "id": "AT_132_HUNTER",
     "name": "Disparo de balista",
     "cost": 2,
@@ -13695,7 +16029,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1479: {
+  1771: {
     "id": "AT_056",
     "name": "Disparo potente",
     "cost": 3,
@@ -13705,7 +16039,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1480: {
+  1772: {
     "id": "AT_008",
     "name": "Draco de Gelidar",
     "cost": 6,
@@ -13718,13 +16052,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1481: {
+  1773: {
     "id": "AT_083e",
     "name": "Dracocetrería",
     "set": 15,
     "type": 0
   },
-  1482: {
+  1774: {
     "id": "AT_042",
     "name": "Druida de los sables",
     "cost": 2,
@@ -13736,7 +16070,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1483: {
+  1775: {
     "id": "AT_081",
     "name": "Eadric el Puro",
     "cost": 7,
@@ -13748,7 +16082,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1484: {
+  1776: {
     "id": "AT_002",
     "name": "Efigie",
     "cost": 3,
@@ -13758,13 +16092,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1485: {
+  1777: {
     "id": "AT_121e",
     "name": "Ego enorme",
     "set": 15,
     "type": 0
   },
-  1486: {
+  1778: {
     "id": "AT_128",
     "name": "El caballero esqueleto",
     "cost": 6,
@@ -13775,7 +16109,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1487: {
+  1779: {
     "id": "AT_054",
     "name": "El clamaneblina",
     "cost": 6,
@@ -13787,7 +16121,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1488: {
+  1780: {
     "id": "AT_121",
     "name": "El preferido del público",
     "cost": 4,
@@ -13798,7 +16132,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1489: {
+  1781: {
     "id": "AT_058",
     "name": "Elekk del rey",
     "cost": 2,
@@ -13811,7 +16145,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1490: {
+  1782: {
     "id": "AT_132_SHAMAN",
     "name": "Embate totémico",
     "cost": 2,
@@ -13819,13 +16153,13 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1491: {
+  1783: {
     "id": "AT_045ee",
     "name": "Encantamiento de mazo de clamaneblina",
     "set": 15,
     "type": 0
   },
-  1492: {
+  1784: {
     "id": "AT_012",
     "name": "Engendro de las Sombras",
     "cost": 4,
@@ -13837,7 +16171,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1493: {
+  1785: {
     "id": "AT_115",
     "name": "Entrenador de esgrima",
     "cost": 3,
@@ -13848,33 +16182,33 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1494: {
+  1786: {
     "id": "AT_082e",
     "name": "Entrenamiento",
     "set": 15,
     "type": 0
   },
-  1495: {
+  1787: {
     "id": "AT_069e",
     "name": "Entrenamiento completado",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1496: {
+  1788: {
     "id": "AT_034e",
     "name": "Envenenada",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1497: {
+  1789: {
     "id": "AT_084e",
     "name": "Equipado",
     "set": 15,
     "type": 0
   },
-  1498: {
+  1790: {
     "id": "AT_082",
     "name": "Escudero de poca monta",
     "cost": 1,
@@ -13885,20 +16219,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1499: {
+  1791: {
     "id": "AT_040e",
     "name": "Espíritu afín",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1500: {
+  1792: {
     "id": "AT_073e",
     "name": "Espíritu competitivo",
     "set": 15,
     "type": 0
   },
-  1501: {
+  1793: {
     "id": "AT_073",
     "name": "Espíritu competitivo",
     "cost": 1,
@@ -13908,14 +16242,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1502: {
+  1794: {
     "id": "AT_047e",
     "name": "Experta",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1503: {
+  1795: {
     "id": "AT_004",
     "name": "Explosión Arcana",
     "cost": 1,
@@ -13925,7 +16259,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1504: {
+  1796: {
     "id": "AT_132_MAGE",
     "name": "Explosión de Fuego II",
     "cost": 2,
@@ -13933,13 +16267,13 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1505: {
+  1797: {
     "id": "AT_029e",
     "name": "Extra de puñaladas",
     "set": 15,
     "type": 0
   },
-  1506: {
+  1798: {
     "id": "AT_131",
     "name": "Eydis Penaumbra",
     "cost": 3,
@@ -13950,7 +16284,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1507: {
+  1799: {
     "id": "AT_063",
     "name": "Fauceácida",
     "cost": 7,
@@ -13963,14 +16297,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1508: {
+  1800: {
     "id": "AT_071e",
     "name": "Favor de Alexstrasza",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1509: {
+  1801: {
     "id": "AT_129",
     "name": "Fjola Penívea",
     "cost": 3,
@@ -13981,14 +16315,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1510: {
+  1802: {
     "id": "AT_066e",
     "name": "Forjas de Orgrimmar",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1511: {
+  1803: {
     "id": "AT_042a",
     "name": "Forma de león",
     "classs": 11,
@@ -13996,7 +16330,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1512: {
+  1804: {
     "id": "AT_042b",
     "name": "Forma de pantera",
     "classs": 11,
@@ -14004,7 +16338,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1513: {
+  1805: {
     "id": "AT_092",
     "name": "Furibundo de hielo",
     "cost": 3,
@@ -14015,13 +16349,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1514: {
+  1806: {
     "id": "AT_096e",
     "name": "Furioso",
     "set": 15,
     "type": 0
   },
-  1515: {
+  1807: {
     "id": "AT_024",
     "name": "Fusión demoníaca",
     "cost": 2,
@@ -14031,20 +16365,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1516: {
+  1808: {
     "id": "AT_024e",
     "name": "Fusión oscura",
     "set": 15,
     "type": 0
   },
-  1517: {
+  1809: {
     "id": "AT_132_DRUIDe",
     "name": "Garras temibles",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1518: {
+  1810: {
     "id": "AT_110",
     "name": "Gerente del coliseo",
     "cost": 3,
@@ -14055,7 +16389,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1519: {
+  1811: {
     "id": "AT_120",
     "name": "Gigante de escarcha",
     "cost": 10,
@@ -14066,7 +16400,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1520: {
+  1812: {
     "id": "AT_052",
     "name": "Gólem totémico",
     "cost": 2,
@@ -14079,7 +16413,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1521: {
+  1813: {
     "id": "AT_050t",
     "name": "Golpe relampagueante",
     "cost": 2,
@@ -14087,7 +16421,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1522: {
+  1814: {
     "id": "AT_122",
     "name": "Gormok el Empalador",
     "cost": 4,
@@ -14098,7 +16432,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1523: {
+  1815: {
     "id": "AT_118",
     "name": "Gran cruzada",
     "cost": 6,
@@ -14109,7 +16443,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1524: {
+  1816: {
     "id": "AT_020",
     "name": "Guardia apocalíptico aterrador",
     "cost": 7,
@@ -14122,7 +16456,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1525: {
+  1817: {
     "id": "AT_026",
     "name": "Guardia de cólera",
     "cost": 2,
@@ -14135,7 +16469,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1526: {
+  1818: {
     "id": "AT_017",
     "name": "Guardián Crepuscular",
     "cost": 4,
@@ -14147,7 +16481,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1527: {
+  1819: {
     "id": "AT_003",
     "name": "Héroe caído",
     "cost": 2,
@@ -14159,7 +16493,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1528: {
+  1820: {
     "id": "AT_034",
     "name": "Hoja envenenada",
     "cost": 4,
@@ -14171,7 +16505,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1529: {
+  1821: {
     "id": "AT_114",
     "name": "Impertinente malvado",
     "cost": 4,
@@ -14182,19 +16516,19 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1530: {
+  1822: {
     "id": "AT_119e",
     "name": "Inspirado",
     "set": 15,
     "type": 0
   },
-  1531: {
+  1823: {
     "id": "AT_109e",
     "name": "Inspirado",
     "set": 15,
     "type": 0
   },
-  1532: {
+  1824: {
     "id": "AT_075",
     "name": "Instructor de caballos de guerra",
     "cost": 3,
@@ -14206,14 +16540,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1533: {
+  1825: {
     "id": "AT_021e",
     "name": "Ira vil",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1534: {
+  1826: {
     "id": "AT_005t",
     "name": "Jabalí",
     "cost": 3,
@@ -14223,7 +16557,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1535: {
+  1827: {
     "id": "AT_087",
     "name": "Jinete Argenta",
     "cost": 3,
@@ -14234,7 +16568,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1536: {
+  1828: {
     "id": "AT_083",
     "name": "Jinete de dracohalcón",
     "cost": 3,
@@ -14245,7 +16579,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1537: {
+  1829: {
     "id": "AT_099",
     "name": "Jinete de kodos",
     "cost": 6,
@@ -14256,7 +16590,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1538: {
+  1830: {
     "id": "AT_028",
     "name": "Jinete del Shadopan",
     "cost": 5,
@@ -14268,7 +16602,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1539: {
+  1831: {
     "id": "AT_102",
     "name": "Jormungar capturado",
     "cost": 7,
@@ -14280,7 +16614,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1540: {
+  1832: {
     "id": "AT_132",
     "name": "Justicar Corazón Veraz",
     "cost": 6,
@@ -14291,7 +16625,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1541: {
+  1833: {
     "id": "AT_099t",
     "name": "Kodo de guerra",
     "cost": 5,
@@ -14301,7 +16635,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1542: {
+  1834: {
     "id": "AT_103",
     "name": "Kraken de El Mar del Norte",
     "cost": 9,
@@ -14312,7 +16646,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1543: {
+  1835: {
     "id": "AT_105",
     "name": "Kvaldir herido",
     "cost": 1,
@@ -14323,7 +16657,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1544: {
+  1836: {
     "id": "AT_085",
     "name": "La dama del lago",
     "cost": 4,
@@ -14334,7 +16668,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1545: {
+  1837: {
     "id": "AT_132_PALADIN",
     "name": "La Mano de Plata",
     "cost": 2,
@@ -14342,7 +16676,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1546: {
+  1838: {
     "id": "AT_077",
     "name": "Lanza Argenta",
     "cost": 2,
@@ -14354,13 +16688,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1547: {
+  1839: {
     "id": "AT_028e",
     "name": "Lanza de chi",
     "set": 15,
     "type": 0
   },
-  1548: {
+  1840: {
     "id": "AT_001",
     "name": "Lanza de llamas",
     "cost": 5,
@@ -14370,7 +16704,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1549: {
+  1841: {
     "id": "AT_007",
     "name": "Lanzahechizos",
     "cost": 3,
@@ -14382,7 +16716,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1550: {
+  1842: {
     "id": "AT_042t",
     "name": "León dientes de sable",
     "cost": 2,
@@ -14394,13 +16728,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1551: {
+  1843: {
     "id": "AT_041e",
     "name": "Llamada de lo Salvaje",
     "set": 15,
     "type": 0
   },
-  1552: {
+  1844: {
     "id": "AT_101",
     "name": "Luchadora de fosa",
     "cost": 5,
@@ -14411,7 +16745,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1553: {
+  1845: {
     "id": "AT_117",
     "name": "Maestra de ceremonias",
     "cost": 3,
@@ -14422,7 +16756,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1554: {
+  1846: {
     "id": "AT_057",
     "name": "Maestra de establos",
     "cost": 3,
@@ -14434,7 +16768,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1555: {
+  1847: {
     "id": "AT_112",
     "name": "Maestro de justas",
     "cost": 6,
@@ -14445,14 +16779,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1556: {
+  1848: {
     "id": "AT_027e",
     "name": "Maestro invocador",
     "classs": 9,
     "set": 15,
     "type": 0
   },
-  1557: {
+  1849: {
     "id": "AT_067",
     "name": "Magnatauro alfa",
     "cost": 4,
@@ -14464,7 +16798,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1558: {
+  1850: {
     "id": "AT_094",
     "name": "Malabarista de llamas",
     "cost": 2,
@@ -14475,14 +16809,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1559: {
+  1851: {
     "id": "AT_014e",
     "name": "Maligno de las Sombras",
     "classs": 5,
     "set": 15,
     "type": 0
   },
-  1560: {
+  1852: {
     "id": "AT_014",
     "name": "Maligno de las Sombras",
     "cost": 3,
@@ -14494,7 +16828,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1561: {
+  1853: {
     "id": "AT_050",
     "name": "Martillo cargado",
     "cost": 4,
@@ -14506,7 +16840,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1562: {
+  1854: {
     "id": "AT_091",
     "name": "Médico del torneo",
     "cost": 4,
@@ -14517,7 +16851,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1563: {
+  1855: {
     "id": "AT_036t",
     "name": "Nerubiano",
     "cost": 3,
@@ -14527,13 +16861,13 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1564: {
+  1856: {
     "id": "AT_045e",
     "name": "Niebla potenciadora",
     "set": 15,
     "type": 0
   },
-  1565: {
+  1857: {
     "id": "AT_048",
     "name": "Ola de sanación",
     "cost": 3,
@@ -14543,13 +16877,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1566: {
+  1858: {
     "id": "AT_013e",
     "name": "Palabra de poder: gloria",
     "set": 15,
     "type": 0
   },
-  1567: {
+  1859: {
     "id": "AT_013",
     "name": "Palabra de poder: gloria",
     "cost": 1,
@@ -14559,7 +16893,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1568: {
+  1860: {
     "id": "AT_042t2",
     "name": "Pantera dientes de sable",
     "cost": 2,
@@ -14571,7 +16905,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1569: {
+  1861: {
     "id": "AT_033",
     "name": "Pillaje",
     "cost": 3,
@@ -14581,7 +16915,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1570: {
+  1862: {
     "id": "AT_037t",
     "name": "Pimpollo",
     "cost": 1,
@@ -14591,34 +16925,34 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1571: {
+  1863: {
     "id": "AT_006e",
     "name": "Poder de Dalaran",
     "classs": 8,
     "set": 15,
     "type": 0
   },
-  1572: {
+  1864: {
     "id": "AT_049e",
     "name": "Poder de la cima",
     "classs": 7,
     "set": 15,
     "type": 0
   },
-  1573: {
+  1865: {
     "id": "AT_090e",
     "name": "Poderío del mono",
     "set": 15,
     "type": 0
   },
-  1574: {
+  1866: {
     "id": "AT_075e",
     "name": "Poderío del mozo de cuadra",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1575: {
+  1867: {
     "id": "AT_005",
     "name": "Polimorfia: jabalí",
     "cost": 3,
@@ -14628,7 +16962,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1576: {
+  1868: {
     "id": "AT_084",
     "name": "Portador de lanzas",
     "cost": 2,
@@ -14639,19 +16973,19 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1577: {
+  1869: {
     "id": "AT_115e",
     "name": "Práctica de esgrima",
     "set": 15,
     "type": 0
   },
-  1578: {
+  1870: {
     "id": "AT_089e",
     "name": "Protegido por los huesos",
     "set": 15,
     "type": 0
   },
-  1579: {
+  1871: {
     "id": "AT_022",
     "name": "Puño de Jaraxxus",
     "cost": 4,
@@ -14661,20 +16995,20 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1580: {
+  1872: {
     "id": "AT_081e",
     "name": "Purificado",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1581: {
+  1873: {
     "id": "AT_037a",
     "name": "Raíces vivas",
     "set": 15,
     "type": 0
   },
-  1582: {
+  1874: {
     "id": "AT_037",
     "name": "Raíces vivas",
     "cost": 1,
@@ -14684,13 +17018,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1583: {
+  1875: {
     "id": "AT_037b",
     "name": "Raíces vivas",
     "set": 15,
     "type": 0
   },
-  1584: {
+  1876: {
     "id": "AT_031",
     "name": "Ratero",
     "cost": 2,
@@ -14702,7 +17036,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1585: {
+  1877: {
     "id": "AT_113",
     "name": "Reclutador",
     "cost": 5,
@@ -14713,7 +17047,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1586: {
+  1878: {
     "id": "AT_068",
     "name": "Reforzar",
     "cost": 2,
@@ -14723,14 +17057,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1587: {
+  1879: {
     "id": "AT_068e",
     "name": "Refuerzo",
     "classs": 1,
     "set": 15,
     "type": 0
   },
-  1588: {
+  1880: {
     "id": "AT_100",
     "name": "Regente Mano de Plata",
     "cost": 3,
@@ -14741,7 +17075,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1589: {
+  1881: {
     "id": "AT_009",
     "name": "Rhonin",
     "cost": 8,
@@ -14753,7 +17087,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1590: {
+  1882: {
     "id": "AT_086",
     "name": "Saboteador",
     "cost": 3,
@@ -14764,14 +17098,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1591: {
+  1883: {
     "id": "AT_039e",
     "name": "Salvaje",
     "classs": 11,
     "set": 15,
     "type": 0
   },
-  1592: {
+  1884: {
     "id": "AT_132_PRIEST",
     "name": "Sanación",
     "cost": 2,
@@ -14779,7 +17113,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1593: {
+  1885: {
     "id": "AT_055",
     "name": "Sanación relámpago",
     "cost": 1,
@@ -14789,14 +17123,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1594: {
+  1886: {
     "id": "AT_074e2",
     "name": "Sello de campeones",
     "classs": 2,
     "set": 15,
     "type": 0
   },
-  1595: {
+  1887: {
     "id": "AT_074",
     "name": "Sello de campeones",
     "cost": 3,
@@ -14806,7 +17140,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1596: {
+  1888: {
     "id": "AT_093",
     "name": "Snóbold gélido",
     "cost": 4,
@@ -14817,7 +17151,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1597: {
+  1889: {
     "id": "AT_044",
     "name": "Sucesión",
     "cost": 3,
@@ -14827,7 +17161,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1598: {
+  1890: {
     "id": "AT_047",
     "name": "Talladora de tótems draenei",
     "cost": 4,
@@ -14839,7 +17173,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1599: {
+  1891: {
     "id": "AT_089",
     "name": "Teniente Guardahuesos",
     "cost": 2,
@@ -14850,13 +17184,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1600: {
+  1892: {
     "id": "AT_077e",
     "name": "Toque adicional",
     "set": 15,
     "type": 0
   },
-  1601: {
+  1893: {
     "id": "AT_132_SHAMANb",
     "name": "Tótem abrasador",
     "cost": 0,
@@ -14866,7 +17200,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1602: {
+  1894: {
     "id": "AT_132_SHAMANd",
     "name": "Tótem Cólera de aire",
     "cost": 0,
@@ -14876,7 +17210,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1603: {
+  1895: {
     "id": "AT_132_SHAMANc",
     "name": "Tótem Garra de piedra",
     "cost": 0,
@@ -14886,7 +17220,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1604: {
+  1896: {
     "id": "AT_132_SHAMANa",
     "name": "Tótem sanador",
     "cost": 0,
@@ -14896,7 +17230,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1605: {
+  1897: {
     "id": "AT_060",
     "name": "Trampa para osos",
     "cost": 2,
@@ -14906,7 +17240,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1606: {
+  1898: {
     "id": "AT_132_WARLOCK",
     "name": "Transfusión de alma",
     "cost": 2,
@@ -14914,7 +17248,7 @@ hs_cards['eses'] = {
     "set": 15,
     "type": 0
   },
-  1607: {
+  1899: {
     "id": "AT_025",
     "name": "Trato oscuro",
     "cost": 6,
@@ -14924,14 +17258,14 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-  1608: {
+  1900: {
     "id": "AT_032e",
     "name": "Tratos sospechosos",
     "classs": 4,
     "set": 15,
     "type": 0
   },
-  1609: {
+  1901: {
     "id": "AT_023",
     "name": "Triturador del vacío",
     "cost": 6,
@@ -14944,7 +17278,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1610: {
+  1902: {
     "id": "AT_049",
     "name": "Valeroso de Cima del Trueno",
     "cost": 5,
@@ -14956,7 +17290,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1611: {
+  1903: {
     "id": "AT_030",
     "name": "Valeroso de Entrañas",
     "cost": 2,
@@ -14968,7 +17302,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1612: {
+  1904: {
     "id": "AT_072",
     "name": "Varian Wrynn",
     "cost": 10,
@@ -14980,7 +17314,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1613: {
+  1905: {
     "id": "AT_109",
     "name": "Velador Argenta",
     "cost": 2,
@@ -14991,7 +17325,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1614: {
+  1906: {
     "id": "AT_111",
     "name": "Vendedor de refrigerios",
     "cost": 4,
@@ -15002,7 +17336,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 1
   },
-  1615: {
+  1907: {
     "id": "AT_032",
     "name": "Vendedor sospechoso",
     "cost": 3,
@@ -15014,13 +17348,13 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 2
   },
-  1616: {
+  1908: {
     "id": "AT_086e",
     "name": "Villanía",
     "set": 15,
     "type": 0
   },
-  1617: {
+  1909: {
     "id": "AT_027",
     "name": "Wilfred Chispobang",
     "cost": 6,
@@ -15032,7 +17366,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1618: {
+  1910: {
     "id": "AT_123",
     "name": "Yertafauce",
     "cost": 7,
@@ -15044,7 +17378,7 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 4
   },
-  1619: {
+  1911: {
     "id": "AT_098",
     "name": "Zampaconjuros de feria",
     "cost": 6,
@@ -15055,4 +17389,4 @@ hs_cards['eses'] = {
     "type": 0,
     "quality": 3
   },
-}; // 1619 cards
+}; // 1911 cards
