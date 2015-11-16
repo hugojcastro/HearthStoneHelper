@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with HearthStoneHelper.  If not, see <http://www.gnu.org/licenses/>.
  */
-factions["plpl"] = [ 'neutral', 'warrior', 'paladin', 'hunter', 'rogue', 'priest', 'deathknight', 'shaman', 'mage', 'warlock', 'monk', 'druid' ];
+factions["plpl"] = [ 'neutralne', 'wojownik', 'paladyn', 'Łowca', 'Łotr', 'kapłan', 'deathknight', 'szaman', 'mag', 'czarnoksiężnik', 'monk', 'druid' ];
 races["plpl"] = { 14: 'murloc', 15: 'demon', 17: 'mech', 20: 'beast', 21: 'totem', 23: 'pirate', 24: 'dragon' };
 texts["plpl"] = {
 	"test" : "test",

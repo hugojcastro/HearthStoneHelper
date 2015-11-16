@@ -893,3 +893,123 @@ ul
 		-webkit-transform:rotate(360deg);
 	}
 }
+
+/* To show/hide decklist lines */
+.herofolder
+{
+	display: inline-block;
+	clear: right;
+	width: 100% !important;
+	height: 28px !important;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 300px 32px !important;
+	cursor: url("../images/cpointer.png"), pointer;
+	margin: 0px;
+	padding: 0px;
+	float:left;
+	color: #fff;
+	font-weight: bold;
+	font-family: belwe;
+	font-size: 12px !important;
+	text-decoration: none;
+	vertical-align:middle;
+	line-height: 24px;
+	padding: 2px !important;
+}
+.foldericon
+{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.hero0, .hero1, .hero2, .hero3, .hero4, .hero5, .hero7, .hero8, .hero9, .hero11
+{
+	display: none;
+}
+#folder_0.up,
+#folder_6.up,
+#folder_10.up
+{
+	background-image:url("../images/folders/folderup0.png");
+}
+#folder_1.up
+{
+	background-image:url("../images/folders/folderup1.png");
+}
+#folder_2.up
+{
+	background-image:url("../images/folders/folderup2.png");
+}
+#folder_3.up
+{
+	background-image:url("../images/folders/folderup3.png");
+}
+#folder_4.up
+{
+	background-image:url("../images/folders/folderup4.png");
+}
+#folder_5.up
+{
+	background-image:url("../images/folders/folderup5.png");
+}
+#folder_7.up
+{
+	background-image:url("../images/folders/folderup7.png");
+}
+#folder_8.up
+{
+	background-image:url("../images/folders/folderup8.png");
+}
+#folder_9.up
+{
+	background-image:url("../images/folders/folderup9.png");
+}
+#folder_11.up
+{
+	background-image:url("../images/folders/folderup11.png");
+}
+#folder_0.down,
+#folder_6.down,
+#folder_10.down
+{
+	background-image:url("../images/folders/folderdown0.png");
+}
+#folder_1.down
+{
+	background-image:url("../images/folders/folderdown1.png");
+}
+#folder_2.down
+{
+	background-image:url("../images/folders/folderdown2.png");
+}
+#folder_3.down
+{
+	background-image:url("../images/folders/folderdown3.png");
+}
+#folder_4.down
+{
+	background-image:url("../images/folders/folderdown4.png");
+}
+#folder_5.down
+{
+	background-image:url("../images/folders/folderdown5.png");
+}
+#folder_7.down
+{
+	background-image:url("../images/folders/folderdown7.png");
+}
+#folder_8.down
+{
+	background-image:url("../images/folders/folderdown8.png");
+}
+#folder_9.down
+{
+	background-image:url("../images/folders/folderdown9.png");
+}
+#folder_11.down
+{
+	background-image:url("../images/folders/folderdown11.png");
+}

@@ -19,8 +19,8 @@ var locale          = 'eses';
 var storageDecks    = 'HSHelperDecks';   // name for deck storage (cookie or localStorage)
 var storageLocale   = 'HSHelperLocale';  // name for locale storage (cookie or localStorage)
 var storageVersion  = 'HSHelperVersion'; // version for actual data
-var preurl			= 'images/cards/';
 var card_extension	= '.png';
+var preurl			= 'images/cards/';
 var helpUrl         = 'images/help/';
 var cardSetUrl		= 'images/sets/';
 var heroesUrl		= 'images/heroes/';
@@ -760,9 +760,10 @@ function createDeckLine( deck, idx, candelete )
 	var heroname = factions['enus'][deck[idx].hero];
 
 	// Create line holder
+	var classtxt = 'deckline ' + heroname + ((candelete) ? ' hero' + deck[idx].hero : '');
 	var elem = document.createElement('li');
 	$(elem).attr('id', 'deck_' + midId + idx);
-	$(elem).attr('class', 'deckline ' + heroname);
+	$(elem).attr('class', classtxt);
 	// Get Deck max. expansion for line background
 	var deckMaxSet = getDeckSet( deck[idx].cards );
 	$(elem).css('backgroundImage', 'url("' + cardSetUrl + 'bg_' + deckMaxSet + card_extension + '")');
@@ -854,6 +855,58 @@ function createDeckLine( deck, idx, candelete )
 	return elem;
 }
 // ///////////////
+function createRollerLine( heroclass )
+{
+	var heroname = factions['enus'][heroclass];
+
+	// Create line holder
+	var elem = document.createElement('li');
+	$(elem).attr('id', 'folder_' + heroclass);
+	$(elem).attr('class', 'herofolder down');
+
+	$(elem).bind('mousemove', function() { $(this).removeClass('lineoff').addClass('lineon'); });
+	$(elem).bind('mouseout', function() { $(this).removeClass('lineon').addClass('lineoff'); });
+
+	$(elem).bind('click', function() 
+	{
+		// Hide all
+		for (var i = 0; i < 12; i++)
+			if (i != heroclass)
+			{
+				$('.hero' + i).hide();
+				$('#folder_' + i).removeClass('up');
+				$('#folder_' + i).addClass('down');
+			}
+		// Showing decks?
+		if ($('#folder_' + heroclass).hasClass('up'))
+		{
+			// Hide them
+			$('.hero' + heroclass).hide();
+			$('#folder_' + heroclass).removeClass('up');
+			$('#folder_' + heroclass).addClass('down');
+		}
+		else
+		{
+			// Show them
+			$('.hero' + heroclass).show();
+			$('#folder_' + heroclass).removeClass('down');
+			$('#folder_' + heroclass).addClass('up');
+		}
+	});
+
+	// Hero name text
+	var aSpan = document.createElement('span');
+	$(aSpan).attr('class', heroname);
+	$(aSpan).css('margin-left', '32px');
+	$(aSpan).html(factions[locale][heroclass]);
+	$(aSpan).fitname();
+	$(elem).append(aSpan);
+
+	// return new line
+	return elem;
+}
+
+// ///////////////
 function updateDeckList( deck )
 {
 	// Take custom decks by default
@@ -864,7 +917,7 @@ function updateDeckList( deck )
 
 	if ( deck == jBasicDecks ) {
 		dList     = $( '#importbasiccontent > li' );
-		container = $('#importbasiccontent');
+		container = $( '#importbasiccontent' );
 		deckCount = jBasicDecks.length;
 		candelete = false;
 	} else if ( deck != jDecks ) {
@@ -879,9 +932,30 @@ function updateDeckList( deck )
 	if ( deckCount > 0 )
 		sortDecks( deck );
 
-	// For each one, add to deck list container
-	for (var idx = 0; idx < deckCount; idx++ )
-		$( container ).append( createDeckLine( deck, idx, candelete ) );
+	// If no basic decks, create "folders" to organize decks by class
+	if (deck != jBasicDecks)
+	{
+		var lastclass = -1;
+		// For each one, add to deck list container
+		for (var idx = 0; idx < deckCount; idx++ )
+		{
+			// If new class, put roller line
+			if (deck[idx].hero != lastclass)
+			{
+				// keep track where we are
+				lastclass = deck[idx].hero;
+				// Put roller line for hero
+				$( container ).append( createRollerLine( lastclass ) );
+			}
+			$( container ).append( createDeckLine( deck, idx, candelete ) );
+		}
+	}
+	else
+	{
+		// For each one, add to deck list container
+		for (var idx = 0; idx < deckCount; idx++ )
+			$( container ).append( createDeckLine( deck, idx, candelete ) );
+	}
 
 	// Basic decks? finish
 	if ( deck == jBasicDecks )
@@ -1193,6 +1267,13 @@ function refreshLocale(loc)
 
 	// Labels for pie charts
 	ajHSChart.updatePieLabels(texts[locale]['minion'], texts[locale]['spell'], texts[locale]['weapon']);
+
+	// Update folder names
+	for (var i = 0; i < 12; i++)
+	{
+		$('#folder_' + i + ' > span').html(factions[locale][i]);
+		$('#folder_' + i + ' > span').fitname();
+	}
 
 	// store new locale
 	storeOnStorage(locale, storageLocale);
@@ -1586,7 +1667,8 @@ $(document).ready(function(e)
 	visibleControls(false);
 
 	// Localize all content
-	$('[data-localized]').each(function(index, element) {
+	$('[data-localized]').each(function(index, element) 
+	{
         // localize each one
 		var loc;
 		for (var idx in allLocales)
@@ -1596,18 +1678,21 @@ $(document).ready(function(e)
 		}
     });
 
-    $('.icon, .flag, .import, .store, .folder, .hscounter, .intern').mouseover( function ( e ) {
+    $('.icon, .flag, .import, .store, .folder, .hscounter, .intern').mouseover( function ( e ) 
+	{
         $this = $( this );
         $this.data( 'title', $this.attr( 'title' ) );
         // Using null here wouldn't work in IE, but empty string will work just fine.
         $this.attr( 'title', '' );
-    }).mouseout(function ( e ) {
+    }).mouseout(function ( e ) 
+	{
         $this = $( this );
         $this.attr( 'title', $this.data( 'title' ) );
     });
 
 	// Start tooltips for present elements
-	$('.icon, .flag, .import, .store, .folder, .hscounter, .intern').bind('mouseenter', function(e) {
+	$('.icon, .flag, .import, .store, .folder, .hscounter, .intern').bind('mouseenter', function(e) 
+	{
 		if (typeof($(this).attr('title_' + locale)) != "undefined")
 		{
 			// Delete previous one(s)
@@ -1624,13 +1709,15 @@ $(document).ready(function(e)
 			$('body').append(tooltip);
 		}
 	});
-	$('.icon, .flag, .import, .store, .folder, .hscounter, .intern').bind('mouseleave', function(){
+	$('.icon, .flag, .import, .store, .folder, .hscounter, .intern').bind('mouseleave', function()
+	{
 		while ($('#tooltip').length > 0)
     		$('#tooltip').remove();
 	});
 
 	// For touchscreens, this will rotate buttons on click
-	$('.icon, .flag, .import, .store, .folder, .hscounter, .intern').bind('touchstart', function(){
+	$('.icon, .flag, .import, .store, .folder, .hscounter, .intern').bind('touchstart', function()
+	{
 		this.classList.toggle('hover');
 	});
 	
@@ -1648,7 +1735,7 @@ $(document).ready(function(e)
 	if ((version == []) || (version == null) || (version == '') || (version < HSVersion))
 	{
 		// Update version and store it
-		version = HSVersion
+		version = HSVersion;
 		storeOnStorage(version, storageVersion);
 
 		// Fix outdated values and data
@@ -1693,21 +1780,24 @@ $(document).ready(function(e)
 	// Import
     var pos    = $('.fimport').position();
     var height = $('.fimport').outerHeight();
-    $("#importfolder").css({
+    $("#importfolder").css(
+	{
         top: (pos.top + height) + "px",
         left: pos.left + "px"
     });
 	// Storage
     pos    = $('.fstore').position();
     height = $('.fstore').outerHeight();
-    $("#storefolder").css({
+    $("#storefolder").css(
+	{
         top: (pos.top + height) + "px",
         left: pos.left + "px"
     });
 
 	// Flags
     pos    = $('#flagbutton').position();
-    $("#flagsfolder").css({
+    $("#flagsfolder").css(
+	{
         right: pos.right + "px"
     });
 
