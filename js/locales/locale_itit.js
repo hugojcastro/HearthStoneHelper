@@ -79,6 +79,7 @@ texts["itit"] = {
 	"localezhcn" : "普通話",
 	"localezhtw" : "国语",
 	"localejajp" : "日本語",
+	"localethth" : "ภาษาไทย",
 	"minion"     : "Servitore",
 	"spell"      : "Magia",
 	"weapon"     : "Arma",

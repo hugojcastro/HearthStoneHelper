@@ -79,6 +79,7 @@ texts["frfr"] = {
 	"localezhcn" : "普通話",
 	"localezhtw" : "国语",
 	"localejajp" : "日本語",
+	"localethth" : "ภาษาไทย",
 	"minion"     : "Serviteur",
 	"spell"      : "Sort",
 	"weapon"     : "Arme",

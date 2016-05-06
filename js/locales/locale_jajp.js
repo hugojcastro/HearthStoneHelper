@@ -79,6 +79,7 @@ texts["jajp"] = {
 	"localezhcn" : "普通話",
 	"localezhtw" : "国语",
 	"localejajp" : "日本語",
+	"localethth" : "ภาษาไทย",
 	"minion"     : "手先",
 	"spell"      : "綴る",
 	"weapon"     : "武器",

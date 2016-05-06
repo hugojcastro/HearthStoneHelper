@@ -79,6 +79,7 @@ texts["kokr"] = {
 	"localezhcn" : "普通話",
 	"localezhtw" : "国语",
 	"localejajp" : "日本語",
+	"localethth" : "ภาษาไทย",
 	"minion"     : "하수인",
 	"spell"      : "주문",
 	"weapon"     : "무기",

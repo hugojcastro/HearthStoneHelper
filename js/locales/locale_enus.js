@@ -79,6 +79,7 @@ texts["enus"] = {
 	"localezhcn" : "普通話",
 	"localezhtw" : "国语",
 	"localejajp" : "日本語",
+	"localethth" : "ภาษาไทย",
 	"minion"     : "Minion",
 	"spell"      : "Spell",
 	"weapon"     : "Weapon",

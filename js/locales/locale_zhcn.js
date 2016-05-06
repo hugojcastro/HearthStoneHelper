@@ -76,9 +76,10 @@ texts["zhcn"] = {
 	"localeruru" : "русский",
 	"localeplpl" : "Polski",
 	"localekokr" : "한국의",
-	"localezhcn" : "普通話", // traditional
-	"localezhtw" : "国语", // simplifyed
+	"localezhcn" : "普通話",
+	"localezhtw" : "国语",
 	"localejajp" : "日本語",
+	"localethth" : "ภาษาไทย",
 	"minion"     : "随从",
 	"spell"      : "法术",
 	"weapon"     : "武器",

@@ -35,7 +35,7 @@ var races    = {};
 var texts    = {};
 </script>
 <script language="javascript" src="js/jquery/json2.js"></script>
-<script language="javascript" src="js/jquery/jquery-1.11.0.min.js"></script>
+<script language="javascript" src="js/jquery/jquery-1.12.3.min.js"></script>
 <script language="javascript" src="js/jquery/jquery.cookie.js"></script>
 <script language="javascript" src="js/jquery/jquery.touchSwipe.min.js"></script>
 <script language="javascript" src="js/jquery/jquery.flippy.js"></script>
@@ -50,7 +50,9 @@ var texts    = {};
 <script language="javascript" src="js/locales/locale_plpl.js"></script>
 <script language="javascript" src="js/locales/locale_ptbr.js"></script>
 <script language="javascript" src="js/locales/locale_ruru.js"></script>
+<script language="javascript" src="js/locales/locale_thth.js"></script>
 <script language="javascript" src="js/locales/locale_zhcn.js"></script>
+<script language="javascript" src="js/locales/locale_thth.js"></script>
 <script language="javascript" src="js/carddb/db_cards_dede.js"></script>
 <script language="javascript" src="js/carddb/db_cards_engb.js"></script>
 <script language="javascript" src="js/carddb/db_cards_enus.js"></script>
@@ -58,6 +60,7 @@ var texts    = {};
 <script language="javascript" src="js/carddb/db_cards_esla.js"></script>
 <script language="javascript" src="js/carddb/db_cards_frfr.js"></script>
 <script language="javascript" src="js/carddb/db_cards_itit.js"></script>
+<script language="javascript" src="js/carddb/db_cards_jajp.js"></script>
 <script language="javascript" src="js/carddb/db_cards_kokr.js"></script>
 <script language="javascript" src="js/carddb/db_cards_plpl.js"></script>
 <script language="javascript" src="js/carddb/db_cards_ptbr.js"></script>
@@ -87,7 +90,7 @@ $WH.calc.deckbuilder.init();
 // document.ontouchmove = function(event) { event.preventDefault(); }
 </script>
 </head>
-<body class="content eye">
+<body class="content">
 <div id="maincontainer">
 	<div id="wrapper">
 		<div class="toolbox">
@@ -132,11 +135,12 @@ $WH.calc.deckbuilder.init();
 				<div class="flag esla inlined" onclick="refreshLocale('esla');" data-localized="localeesla" title="Español (LA)"></div>
 				<div class="flag frfr inlined" onclick="refreshLocale('frfr');" data-localized="localefrfr" title="Français"></div>
 				<div class="flag itit inlined" onclick="refreshLocale('itit');" data-localized="localeitit" title="Italiano"></div>
-				<div class="flag jajp inlined" onclick="refreshLocale('jajp');" data-localized="localejajp" title="日本語" style="clear:left !important;"></div>
-				<div class="flag kokr inlined" onclick="refreshLocale('kokr');" data-localized="localekokr" title="한국의"></div>
+				<div class="flag jajp inlined" onclick="refreshLocale('jajp');" data-localized="localejajp" title="日本語"></div>
+				<div class="flag kokr inlined" onclick="refreshLocale('kokr');" data-localized="localekokr" title="한국의" style="clear:left !important;"></div>
 				<div class="flag plpl inlined" onclick="refreshLocale('plpl');" data-localized="localeplpl" title="Polski"></div>
 				<div class="flag ptbr inlined" onclick="refreshLocale('ptbr');" data-localized="localeptbr" title="Português (BR)"></div>
 				<div class="flag ruru inlined" onclick="refreshLocale('ruru');" data-localized="localeruru" title="русский"></div>
+				<div class="flag thth inlined" onclick="refreshLocale('thth');" data-localized="localethth" title="ภาษาไทย"></div>
 				<div class="flag zhcn inlined" onclick="refreshLocale('zhcn');" data-localized="localezhcn" title="普通話"></div>
 				<div class="flag zhtw inlined" onclick="refreshLocale('zhtw');" data-localized="localezhtw" title="国语"></div>
 			</div>

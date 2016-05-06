@@ -32,14 +32,6 @@ body
 	margin: 6px;
 	padding: 0px;
 }
-.open
-{
-	cursor: url("../images/ceopen.png"), auto;
-}
-.closed
-{
-	cursor: url("../images/ceclosed.png"), auto;
-}
 #controlscontainer
 {
 	margin-left:250px;
@@ -240,6 +232,10 @@ ul
 	background-repeat: no-repeat;
 	background-size: 14px 14px;
 	background-position: 0px 4px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width: 170px !important;
 }
 .bg /* Card Background: Common properties and position (url is defined as tag on the element) */
 {
@@ -484,6 +480,10 @@ ul
 {
 	background-position: 0 -448px;
 }
+.thth /* thai flag */
+{
+	background-position: 0 -480px;
+}
 
 /* IMPORT */
 .import /* For buttons or controls used to import */
@@ -675,7 +675,7 @@ ul
 #importbasic
 {
 	width:230px !important;
-	height:220px !important;
+	height:254px !important;
 }
 .inputbox, .input
 {
@@ -727,7 +727,7 @@ ul
 }
 .decklinename
 {
-	min-width:200px;
+	/* min-width:200px; */
 	position: relative;
 	top: 4px;
 	text-shadow: 1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000;
@@ -736,19 +736,29 @@ ul
 	-o-text-shadow: 1px 1px 0 black,1px 0 0 black,1px -1px 0 black,0 -1px 0 black,0 1px 0 black,-1px 1px 0 black,-1px 0 0 black,-1px -1px 0 #000;
 }
 
-.classicon
+.classicon, .seasonicon
 {
 	background-repeat: no-repeat;
-	background-size: 18px 18px;
+	background-size: 24px 24px;
 	background-position: 0px 0px;
-	width: 20px;
-	height: 20px;
+	width: 24px;
+	height: 24px;
 	margin: 0px;
 	padding: 0px;
 	display: inline;
 	float: left;
 	position: relative;
-	top: 6px;
+}
+.seasonicon
+{
+	padding-left: 4px !important;
+	top: 2px;
+}
+.classicon
+{
+	margin-left:32px !important;
+	padding-left: 8px !important;
+	top: 1px;
 }
 
 .lineoff { background-color:transparent; }

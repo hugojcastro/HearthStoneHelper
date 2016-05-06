@@ -83,66 +83,116 @@ function processContent(url, content)
 	{
 		var html = $.parseHTML(content);
 
-		if ((url.indexOf("hearthstats.") != -1) || (url.indexOf("hss.io") != -1))
+		if ((url.indexOf("hearthstats.") !== -1) || (url.indexOf("hss.io") !== -1))
+		{
 			result = importFromHearthStats(html);
-		else if (url.indexOf("hearthpwn.") != -1) 
+		}
+		else if (url.indexOf("hearthpwn.") !== -1) 
+		{
 			result = importFromHearthPwn(html);
-		else if (url.indexOf("hearthhead.") != -1)
+		}
+		else if (url.indexOf("hearthhead.") !== -1)
+		{
 			result = importFromHearthHead(html);
-		else if (url.indexOf("heartharena") != -1)
+		}
+		else if (url.indexOf("heartharena") !== -1)
+		{
 			result = importFromHearthArena(html);
-		else if (url.indexOf("hearthstoneplayers.") != -1)
+		}
+		else if (url.indexOf("hearthstoneplayers.") !== -1)
+		{
 			result = importFromHearthStonePlayers(html);
-		else if (url.indexOf("hearthstonetopdecks.") != -1)
+		}
+		else if (url.indexOf("hearthstonetopdecks.") !== -1)
+		{
 			result = importFromHearthStoneTopDecks(html);
-		else if (url.indexOf("hearthstonetopdeck.") != -1)
+		}
+		else if (url.indexOf("hearthstonetopdeck.") !== -1)
+		{
 			result = importFromHearthStoneTopDeck(html);
-		else if (url.indexOf("hearthnews.fr") != -1) 
+		}
+		else if (url.indexOf("hearthnews.fr") !== -1) 
+		{
 			result = importFromHearthNews(html);
-		else if (url.indexOf("hearthstone-decks.") != -1)
+		}
+		else if (url.indexOf("hearthstone-decks.") !== -1)
+		{
 			result = importFromHearthStoneDecks(html);
-		else if (url.indexOf("gameofhearthstone.") != -1)
+		}
+		else if (url.indexOf("gameofhearthstone.") !== -1)
+		{
 			result = importFromGameOfHearthStone(html);
-		else if (url.indexOf("hearthstone.buffed.") != -1)
+		}
+		else if (url.indexOf("hearthstone.buffed.") !== -1)
+		{
 			result = importFromBuffed(html);
-		else if (url.indexOf("gosugamers.") != -1)
+		}
+		else if (url.indexOf("gosugamers.") !== -1)
+		{
 			result = importFromGosugamers(html);
-		else if (url.indexOf("millenium.") != -1)
+		}
+		else if (url.indexOf("millenium.") !== -1)
+		{
 			result = importFromMillenium(html);
-		else if (url.indexOf("pro.eslgaming.") != -1)
+		}
+		else if (url.indexOf("pro.eslgaming.") !== -1)
+		{
 			result = importFromProESLGaming(html);
-		else if (url.indexOf("playhs.es") != -1)
+		}
+		else if (url.indexOf("playhs.es") !== -1)
+		{
 			result = importFromPlayHS(html);
-		else if (url.indexOf("hearthstonebuilder.com") != -1)
+		}
+		else if (url.indexOf("hearthstonebuilder.com") !== -1)
+		{
 			result = importFromHeartstoneBuilder(content);
-		else if (url.indexOf("elitedecks.net") != -1)
+		}
+		else if (url.indexOf("elitedecks.net") !== -1)
+		{
 			result = importFromEliteDecks(html);
-		else if (url.indexOf(".inven.co.kr") != -1)
+		}
+		else if (url.indexOf(".inven.co.kr") !== -1)
+		{
 			result = importFromInvenCoKr(html, content);
-		else if (url.indexOf("hearthbuilder.") != -1)
+		}
+		else if (url.indexOf("hearthbuilder.") !== -1)
+		{
 			result = importFromHearthBuilder(html);
-		else if (url.indexOf("blizzpro.") != -1)
+		}
+		else if (url.indexOf("blizzpro.") !== -1)
+		{
 			result = importFromBlizzpro(html);
-		else if (url.indexOf(".hsdeck.") != -1)
+		}
+		else if (url.indexOf(".hsdeck.") !== -1)
+		{
 			result = importFromHSDeck(html);
-		else if (url.indexOf("playhscards.ru") != -1)
+		}
+		else if (url.indexOf("playhscards.ru") !== -1)
+		{
 			result = importFromPlayHSCards(html);
-		else if (url.indexOf("icy-veins.com") != -1)
+		}
+		else if (url.indexOf("icy-veins.com") !== -1)
+		{
 			result = importFromIcyVeins(html);
-/* TODO
-		else if (url.indexOf("arenavalue") != -1)
-			result = importFromArenaValue(html);
-*/
-		else if (url.indexOf("tempostorm") != -1)
+		}
+		else if (url.indexOf("tempostorm") !== -1)
+		{
 			result = importFromTempoStorm(content); // Note: TempoStorm uses JSON data, not HTML data
+		}
+		// else if (url.indexOf("arenavalue") !== -1) // Still looking for workaround for this one :/
+		// {
+			// result = importFromArenaValue(html);
+		// }
 	}
 	catch(err)
 	{
 		result = { name: "", hero: 0, cards: [], errcode: texts[locale].exceptionthrown + err.message, errvalue: 1 };
 	}
 
-	if (result == null)
+	if (result === null)
+	{
 		result = { name: "", hero: 0, cards: [], errcode: texts[locale].unknownurl, errvalue: 1 };
+	}
 
 	return result;
 }
@@ -154,17 +204,25 @@ function processHTML(html, callback)
 
 	if (html.length > 0)
 	{
-		if (html.indexOf("hearthpwn") != -1)
+		if (html.indexOf("hearthpwn") !== -1)
+		{
 			result = importFromHearthPwnHTML(html);
-		else if (html.indexOf("hearthhead") != -1)
+		}
+		else if (html.indexOf("hearthhead") !== -1)
+		{
 			result = importFromHearthHeadHTML(html);
-		else if (html.indexOf("hearthstone.buffed.") != -1)
+		}
+		else if (html.indexOf("hearthstone.buffed.") !== -1)
+		{
 			result = importFromHearthStoneBuffedHTML(html);
+		}
 	}
 
 	// Finally, check if there's deck and send it back
-	if (result == null)
+	if (result === null)
+	{
 		result =  { name: "", hero: 0, cards: [], errcode: texts[locale].emptyorinvalidhtml, errvalue: 1 };
+	}
 
 	callback(result);
 }
@@ -174,18 +232,28 @@ function processBuilder(url, callback)
 {
 	var result = null;
 
-	if (url.indexOf("hearthpwn") != -1)
+	if (url.indexOf("hearthpwn") !== -1)
+	{
 		result = importFromHearthPwnBuilder(url);
-	else if (url.indexOf("hearthhead") != -1)
+	}
+	else if (url.indexOf("hearthhead") !== -1)
+	{
 		result = importFromHearthHeadBuilder(url);
-	else if (url.indexOf("hearthstone.buffed.") != -1)
+	}
+	else if (url.indexOf("hearthstone.buffed.") !== -1)
+	{
 		result = importFromHearthStoneBuffedBuilder(url);
-	else if (url.indexOf("gosugamers.") != -1)
+	}
+	else if (url.indexOf("gosugamers.") !== -1)
+	{
 		result = importFromGosugamersBuilder(url);
+	}
 
 	// Finally, check if there's deck and send it back
-	if (result == null)
+	if (result === null)
+	{
 		result =  { name: "", hero: 0, cards: [], errcode: texts[locale].unknownurl, errvalue: 1 };
+	}
 
 	callback(result);
 }
@@ -198,17 +266,25 @@ function processUrl(theurl, callback)
 	// Check if good url
 	var errcode   = "";
 
-	if (theurl.length == 0)
+	if (theurl.length === 0)
+	{
 		errcode = texts[locale].nourl;
+	}
 	else if (theurl.indexOf('#...') >= 0)
+	{
 		errcode = texts[locale].wrongurl;
+	}
 
 	// Wrong url?
-	if (errcode != "")
+	if (errcode !== "")
+	{
 		callback( { name: "", hero: 0, cards: [], errcode: errcode, errvalue: 1 } );
+	}
 	// If it's a builder url, deck cames in there (no deck name, tho)
-	else if ((theurl.indexOf("deckbuilder") != -1) || (theurl.indexOf("builder/") != -1))
+	else if ((theurl.indexOf("deckbuilder") !== -1) || (theurl.indexOf("builder/") !== -1))
+	{
 		processBuilder(theurl, callback);
+	}
 	else
 	{
 		// Let's show a waiting animation
@@ -226,9 +302,24 @@ function processUrl(theurl, callback)
 		// Tempostorm? get JSON data using POST method and custom params
 		if (aurl.indexOf('tempostorm.com') > -1)
 		{
-			aparams = '{"slug":"' + aurl.substr(aurl.indexOf('decks/') + 6) + '"}'
-			aurl    = 'https://tempostorm.com/deck';
+			var name = aurl.substr(aurl.indexOf('decks/') + 6);
+			// aparams = '{"slug":"' + aurl.substr(aurl.indexOf('decks/') + 6) + '"}'
+			// aurl    = 'https://tempostorm.com/deck';
+			// amethod = "post";
+			// new format for tempostorm...
+			aurl= 'https://tempostorm.com/api/decks/findOne?filter=%7B%22where%22:%7B%22slug%22:%22' + name + '%22%7D,%22fields%22:%5B%22id%22,%22createdDate%22,%22name%22,%22description%22,%22playerClass%22,%22premium%22,%22dust%22,%22heroName%22,%22authorId%22,%22deckType%22,%22isPublic%22,%22chapters%22,%22youtubeId%22,%22gameModeType%22,%22isActive%22,%22isCommentable%22%5D,%22include%22:%5B%7B%22relation%22:%22cards%22,%22scope%22:%7B%22include%22:%22card%22,%22scope%22:%7B%22fields%22:%5B%22id%22,%22name%22,%22cardType%22,%22cost%22,%22dust%22,%22photoNames%22%5D%7D%7D%7D,%7B%22relation%22:%22comments%22,%22scope%22:%7B%22fields%22:%5B%22id%22,%22votes%22,%22authorId%22,%22createdDate%22,%22text%22%5D,%22include%22:%7B%22relation%22:%22author%22,%22scope%22:%7B%22fields%22:%5B%22id%22,%22username%22%5D%7D%7D%7D%7D,%7B%22relation%22:%22author%22,%22scope%22:%7B%22fields%22:%5B%22id%22,%22username%22%5D%7D%7D,%7B%22relation%22:%22matchups%22,%22scope%22:%7B%22fields%22:%5B%22forChance%22,%22deckName%22,%22className%22%5D%7D%7D,%7B%22relation%22:%22votes%22,%22fields%22:%5B%22id%22,%22direction%22,%22authorId%22%5D%7D%5D%7D';
+		}
+		// Arenavalue? get JSON data using GET method and custom params
+		else if (aurl.indexOf('arenavalue') > -1)
+		{
+			aparams = 'deck=' + aurl.substr(aurl.indexOf('/s/') + 3);
+			if (aparams.indexOf('#') > -1)
+			{
+				aparams = aparams.substr(0, aparams.indexOf('#'));
+			}
+			aurl    = 'http://www.arenavalue.com/helper/getdata.php';
 			amethod = "post";
+			ajson   = '1';
 		}
 		// Inven.co.kr? Use corean language for retrieved content
 		else if (aurl.indexOf('inven.co.kr') > -1)
@@ -245,12 +336,14 @@ function processUrl(theurl, callback)
 		else if (aurl.indexOf('hearthstonebuilder') > -1)
 		{
 			var deckId = aurl;
-			while (deckId.indexOf('/') != -1)
+			while (deckId.indexOf('/') !== -1)
+			{
 				deckId = deckId.substr(deckId.indexOf('/') + 1);
+			}
 			aurl = 'http://hearthstonebuilder.com/api/deck/' + deckId;
 		}
 		// Buffed.de? always use english locale to get data :D
-		else if (aurl.indexOf('hearthstone.buffed.') != -1) 
+		else if (aurl.indexOf('hearthstone.buffed.') !== -1) 
 		{
 			// Use english version for buffed.de, to get right card ID's from name :)
 			// not english? do it english
@@ -261,19 +354,44 @@ function processUrl(theurl, callback)
 			}
 		}
 		// Gameofhearthstone? Force display mode to 1 (text descriptions)
-		else if ((aurl.indexOf('gameofhearthstone') != -1) && (aurl.indexOf('?display') == -1))
+		else if ((aurl.indexOf('gameofhearthstone') !== -1) && (aurl.indexOf('?display') === -1))
 		{
 			// fix page mode for gameofhearthstone
 			aurl = aurl + '?display=1';
 		} 
 		// Hearthstats/hss.io? Force the use of english locale (easy way: just remove locale value ^^)
-		else if ((aurl.indexOf('hearthstats') != -1) || (aurl.indexOf('hss.io') != -1))
+		else if ((aurl.indexOf('hearthstats') !== -1) || (aurl.indexOf('hss.io') !== -1))
 		{
 			// Fix locales for hearthstats
-			if (aurl.indexOf('?locale') != -1)
+			if (aurl.indexOf('?locale') !== -1)
 				aurl = aurl.substr(0, aurl.indexOf('?locale'));
 		}
-
+/*
+		// HearthPwn banned once my proxy script, so I can't get data from them with it. I used this as a workaround
+		else if ((aurl.indexOf('hearthpwn') !== -1) || (aurl.indexOf('arenavalue') !== -1))
+		{
+			// I'll use cors.io while it's still up :/
+			$.get(
+  				"http://cors.io/?u=" + aurl
+			).done(
+				function(data)
+				{
+					var result = processContent(theurl, data);
+					// Hide waiting animation
+					hideSpinner();
+					// Call original callback
+					callback(result);
+				}
+			).fail(
+				function(xhr, textStatus, errorThrown)
+				{
+					hideSpinner();
+					callback({ name: "", hero: 0, cards: [], errcode: xhr.responseText + "' (" + errorThrown + " - " + textStatus + ")", errvalue: 1 } );
+				}
+			);
+			return;
+		}
+*/
 		// Custom POST request to our proxy
 		$.post(
   			'http://hugojcastro.esy.es/hs_helper/import_deck.php',
@@ -291,12 +409,14 @@ function processUrl(theurl, callback)
 			{
 				var result = processContent(theurl, data);
 				// Fixes for complex websites
-				if (aurl.indexOf('playhscards.ru/arena/') != -1)
+				if (aurl.indexOf('playhscards.ru/arena/') !== -1)
+				{
 					result.isarena = true;
-				// Call original callback
-				callback(result);
+				}
 				// Hide waiting animation
 				hideSpinner();
+				// Call original callback
+				callback(result);
 			}
 		).fail(
 			function(xhr, textStatus, errorThrown)
@@ -334,14 +454,16 @@ function updateDeckData(decks)
 	for (var i = 0; i < decks.length; i++)
 	{
 		// fix old versions for invalid arena flag
-		if (typeof(decks[i].isarena) == "undefined")
+		if (typeof(decks[i].isarena) === "undefined")
 		{
 			decks[i].isarena = false;
 			result = true;
 		}
 		// Check if uses old notation of Integers instead of strings as IDs
 		if (checkDeckIDs(decks[i].cards))
+		{
 			result = true;
+		}
 	}
 	return result;
 }

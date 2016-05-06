@@ -79,6 +79,7 @@ texts["ptbr"] = {
 	"localezhcn" : "普通話",
 	"localezhtw" : "国语",
 	"localejajp" : "日本語",
+	"localethth" : "ภาษาไทย",
 	"minion"     : "Lacaio",
 	"spell"      : "Feitiço",
 	"weapon"     : "Arma",

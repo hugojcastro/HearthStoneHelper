@@ -24,15 +24,18 @@ var preurl			= 'images/cards/';
 var helpUrl         = 'images/help/';
 var cardSetUrl		= 'images/sets/';
 var heroesUrl		= 'images/heroes/';
+var seasonsUrl      = 'images/seasons/season_';
 var hs_quality      = [ 'soulbound', 'common', 'rare', 'epic', 'legendary', '?' ]; // Only used for css text colors, so no translation needed
-var cardSet         = { 3: 'classic', 12: 'naxx', 13: 'gvg', 14: 'brm', 15: 'tgt', 20: 'loe' }; // Array of expansion names
+var cardSet         = { 3: 'classic', 12: 'naxx', 13: 'gvg', 14: 'brm', 15: 'tgt', 20: 'loe', 21: 'wog' }; // Array of expansion names
+var cardSetBanned   = [ 12, 13 ];
+var seasonLive      = "kraken";
 var jDecks          = []; // Array of custom decks
 var HSVersion       = 1;
 var my_deck_cards	= [];
 var my_deck_hero	    = 0;
 var my_deck_name	    = texts[locale].unnamed;
 var my_deck_isarena = false;
-var allLocales      = [ 'dede', 'engb', 'enus', 'eses', 'esla', 'frfr', 'itit', 'kokr', 'plpl', 'ptbr', 'ptpt', 'ruru', 'zhcn', 'zhtw', 'jajp' ];
+var allLocales      = [ 'dede', 'engb', 'enus', 'eses', 'esla', 'frfr', 'itit', 'kokr', 'plpl', 'ptbr', 'ptpt', 'ruru', 'zhcn', 'zhtw', 'jajp', 'thth' ];
 // I'll use this trick to save resources for translations.
 var similarLocale  = { 'esla': 'eses', 'ptpt': 'ptbr', 'zhtw': 'zhcn', 'engb':'enus' };
 // ///////////////// ///////////////// ///////////////// ///////////////
@@ -40,7 +43,7 @@ var similarLocale  = { 'esla': 'eses', 'ptpt': 'ptbr', 'zhtw': 'zhcn', 'engb':'e
 function getCardUrl(locale, card_image)
 {
 	// It's weird but portuguese from Portugal is not included in client... wtf...
-	var loc = (locale == 'ptpt') ? 'ptbr' : locale;
+	var loc = (locale === 'ptpt') ? 'ptbr' : locale;
 	return ( preurl + loc + '/' + card_image + card_extension);
 }
 // /////////////// -
@@ -49,8 +52,12 @@ function getQualityFromCard( cardid )
 {
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
-			return (( typeof( cards[idx].quality != 'undefined' ) ) ? cards[idx].quality : 0);
+	{
+		if ( cards[idx].id === cardid )
+		{
+			return (( typeof( cards[idx].quality !== 'undefined' ) ) ? cards[idx].quality : 0);
+		}
+	}
 	return 0;
 }
 // /////////////// -
@@ -59,8 +66,12 @@ function getClassFromCard( cardid )
 {
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
-			return (( typeof( cards[idx].classs != 'undefined' ) ) ? cards[idx].classs : 0);
+	{
+		if ( cards[idx].id === cardid )
+		{
+			return (( typeof( cards[idx].classs !== 'undefined' ) ) ? cards[idx].classs : 0);
+		}
+	}
 	return 0;
 }
 // /////////////// -
@@ -69,8 +80,12 @@ function getCostFromCard( cardid )
 {
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
-			return (( typeof( cards[idx].cost != 'undefined' ) ) ? cards[idx].cost : -1);
+	{
+		if ( cards[idx].id === cardid )
+		{
+			return (( typeof( cards[idx].cost !== 'undefined' ) ) ? cards[idx].cost : -1);
+		}
+	}
 	return -1;
 }
 // /////////////// -
@@ -79,8 +94,12 @@ function getAttackFromCard( cardid )
 {
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
-			return (( typeof( cards[idx].attack != 'undefined' ) ) ? cards[idx].attack : -1);
+	{
+		if ( cards[idx].id === cardid )
+		{
+			return (( typeof( cards[idx].attack !== 'undefined' ) ) ? cards[idx].attack : -1);
+		}
+	}
 	return -1;
 }
 // /////////////// -
@@ -89,8 +108,12 @@ function getNameFromCard( locale, cardid )
 {
 	var cards = hs_cards[locale];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
+	{
+		if ( cards[idx].id === cardid )
+		{
 			return cards[idx].name;
+		}
+	}
 	return "???";
 }
 // /////////////// -
@@ -99,8 +122,12 @@ function getHealthFromCard( cardid )
 {
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
-			return (( typeof( cards[idx].health != 'undefined' ) ) ? cards[idx].health : -1);
+	{
+		if ( cards[idx].id === cardid )
+		{
+			return (( typeof( cards[idx].health !== 'undefined' ) ) ? cards[idx].health : -1);
+		}
+	}
 	return -1;
 }
 // /////////////// -
@@ -110,9 +137,9 @@ function getTypeFromCard( cardid )
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
 	{
-		if ( cards[idx].id == cardid )
+		if ( cards[idx].id === cardid )
 		{
-			if ( typeof( cards[idx].type != 'undefined' ) )
+			if ( typeof( cards[idx].type !== 'undefined' ) )
 				switch (cards[idx].type)
 				{
 					case 4 : return 'minion'; break;
@@ -129,8 +156,12 @@ function getSetFromCard( cardid )
 {
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
+	{
+		if ( cards[idx].id === cardid )
+		{
 			return cards[idx].set;
+		}
+	}
 	return -1;
 }
 // /////////////// -
@@ -140,8 +171,12 @@ function getHeroFromCard( cardid )
 {
 	var cards = hs_cards['enus'];
 	for (var idx in cards)
-		if ( cards[idx].id == cardid )
-			return (( typeof( cards[idx].classs ) != 'undefined' ) ? cards[idx].classs : 0);
+	{
+		if ( cards[idx].id === cardid )
+		{
+			return (( typeof( cards[idx].classs ) !== 'undefined' ) ? cards[idx].classs : 0);
+		}
+	}
 	return 0;
 }
 // /////////////// -
@@ -151,26 +186,36 @@ function getCardIdFromName(locale, name)
 	// Get rid of types and foreigner chars
 	var lname = name.toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/[\u2013\u2014]/g, '-');
 	var ghc   = hs_cards[locale];
+	var letter;
+	var idx;
 
-	for (var idx in ghc)
-		if (ghc[idx].name.toLowerCase() == lname)
+	for (idx in ghc)
+	{
+		if (ghc[idx].name.toLowerCase() === lname)
 		{
 			// Avoid 'choose one' cards
-			var letter = ghc[idx].id.substr(ghc[idx].id.length - 1);
-			if ((letter != 'a') && (letter != 'b') && (letter != 'H'))
+			letter = ghc[idx].id.substr(ghc[idx].id.length - 1);
+			if ((letter !== 'a') && (letter !== 'b') && (letter !== 'H'))
+			{
 				return ghc[idx].id;
+			}
 		}
+	}
 	// For some reason, non utf-8 cards will give bad search results; so, let's use decodeURI over their foreighn chars to avoid it
 	try {
 		lname = decodeURI(escape(name)).toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/[\u2013\u2014]/g, '-');
-		for (var idx in ghc)
-			if (ghc[idx].name.toLowerCase() == lname)
+		for (idx in ghc)
+		{
+			if (ghc[idx].name.toLowerCase() === lname)
 			{
 				// Avoid 'choose one' cards
-				var letter = ghc[idx].id.substr(ghc[idx].id.length - 1);
-				if ((letter != 'a') && (letter != 'b') && (letter != 'H'))
+				letter = ghc[idx].id.substr(ghc[idx].id.length - 1);
+				if ((letter !== 'a') && (letter !== 'b') && (letter !== 'H'))
+				{
 					return ghc[idx].id;
+				}
 			}
+		}
 	} catch(err) {}
 
 	return -1;
@@ -182,16 +227,25 @@ function getCardIdFromNameCost(locale, name, cost)
 	// Get rid of types and foreigner chars
 	var nam = name.toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/[\u2013\u2014]/g, '-');
 	var ost = parseInt(cost);
+	var idx;
 
-	for (var idx in hs_cards[locale])
-		if ((hs_cards[locale][idx].name.toLowerCase() == nam) && (hs_cards[locale][idx].cost == ost))
+	for (idx in hs_cards[locale])
+	{
+		if ((hs_cards[locale][idx].name.toLowerCase() === nam) && (hs_cards[locale][idx].cost === ost))
+		{
 			return hs_cards[locale][idx].id;
+		}
+	}
 	// For some reason, non utf-8 cards will give bad search results; so, let's use decodeURI over their foreighn chars to avoid it
 	try {
 		nam = decodeURI(escape(name)).toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/[\u2013\u2014]/g, '-');
-	for (var idx in hs_cards[locale])
-		if ((hs_cards[locale][idx].name.toLowerCase() == nam) && (hs_cards[locale][idx].cost == ost))
-			return hs_cards[locale][idx].id;
+		for (idx in hs_cards[locale])
+		{
+			if ((hs_cards[locale][idx].name.toLowerCase() === nam) && (hs_cards[locale][idx].cost === ost))
+			{
+				return hs_cards[locale][idx].id;
+			}
+		}
 	} catch (err) {}
 
 	return -1;
@@ -202,8 +256,9 @@ function getHeroClassFromName(localeorname, name)
 {
 	var locale;
 	var nam = '';
+	var idx;
 
-	if (typeof(name) == "undefined")
+	if (typeof(name) === "undefined")
 	{
 		locale = 'enus';
 		nam = localeorname.toLowerCase();
@@ -212,11 +267,15 @@ function getHeroClassFromName(localeorname, name)
 		nam = name.toLowerCase();
 	}
 
-	for (var idx in factions[locale])
-		if (factions[locale][idx] == nam)
+	for (idx in factions[locale])
+	{
+		if (factions[locale][idx] === nam)
+		{
 			return idx;
+		}
+	}
 	// For some reason, non utf-8 cards will give bad search results; so, let's use decodeURI over their foreighn chars to avoid it
-	if (typeof(name) == "undefined")
+	if (typeof(name) === "undefined")
 	{
 		locale = 'enus';
 		nam = localeorname;
@@ -225,9 +284,13 @@ function getHeroClassFromName(localeorname, name)
 		nam = name;
 	}
 
-	for (var idx in factions[locale])
-		if (factions[locale][idx] == nam)
+	for (idx in factions[locale])
+	{
+		if (factions[locale][idx] === nam)
+		{
 			return idx;
+		}
+	}
 
 	return 0;
 }
@@ -237,16 +300,18 @@ function getHeroClassFromName(localeorname, name)
 function sortDecks( aDeck )
 {
 	if ( aDeck )
+	{
 		aDeck.sort(
 			function( elem1, elem2 )
 			{
 				var hero1 = parseInt( elem1.hero );
 				var hero2 = parseInt( elem2.hero );
-				if ( hero1 > hero2 ) return 1;
-				if ( hero1 < hero2 ) return -1;
+				if ( hero1 > hero2 ) { return 1; }
+				if ( hero1 < hero2 ) { return -1; }
 				return elem1.name.localeCompare( elem2.name );
 			}
 		);
+	}
 }
 // ///////////////// ///////////////// ///////////////// /////////////// -
 // Aux to get max. set card from a deck (i.e. classic, naxx, GvG...)
@@ -261,13 +326,36 @@ function getDeckSet( cards )
 	{
 		set = getSetFromCard(cards[aCard].card); 
 		if ( set > maxExpFound )
+		{
 			maxExpFound = set;
+		}
 	}
 
-	if (( typeof( cardSet[maxExpFound] ) != "undefined" ) && ( cardSet[maxExpFound] != "" ))
+	if (( typeof( cardSet[maxExpFound] ) !== "undefined" ) && ( cardSet[maxExpFound] !== "" ))
+	{
 		result = cardSet[maxExpFound];
-
+	}
 	return result;
+}
+// ///////////////// ///////////////// ///////////////// /////////////// -
+// Aux to get deck type based on set of cards on it (i.e. wild, season)
+function getDeckSeason( cards )
+{
+	var set;
+
+	// check each card on deck for max value
+	for ( var aCard in cards )
+	{
+		set = getSetFromCard(cards[aCard].card); 
+		if ( set === -1 ) { alert( "WTF!" ); return; }
+		// Card banned? wild mode deck
+		if ( cardSetBanned.indexOf( set ) !== -1 )
+		{
+			return 'wild';
+		}
+	}
+	// No cards banned? actual season
+	return seasonLive;
 }
 // ///////////////// ///////////////// ///////////////// /////////////// -
 // Delete a deck from the arrays
@@ -286,7 +374,7 @@ function deleteADeck( decks, idx )
 // Add a deck to array
 function addADeck( decks, name, hero, cards, isarena )
 {
-	var idx = ( decks == null ) ? 0 : decks.length;
+	var idx = ( decks === null ) ? 0 : decks.length;
 	decks[idx] = { name: name, hero: hero, cards: fullCopy( cards ), isarena: isarena };
 	storeOnStorage( decks, storageDecks );
 }
@@ -308,7 +396,8 @@ function hideSpinner()
 // Aux stuff to copy arrays and objects
 function fullCopy(stuff)
 {
-    var result = stuff, thing;
+    var result = stuff;
+	var thing;
 
     if ((stuff) && (typeof(stuff) === 'object'))
 	{
@@ -338,11 +427,11 @@ function fullCopy(stuff)
 
 		change = function(elem)
 		{
-			var $elem = $(elem);
+			var $elem     = $(elem);
 			var elemWidth = $elem.width();
-			var width = elemWidth > settings.maxWidth ? settings.maxWidth : elemWidth < settings.minWidth ? settings.minWidth : elemWidth;
-			var fontBase = width / settings.fontRatio;
-			var fontSize = fontBase > settings.maxFont ? settings.maxFont : fontBase < settings.minFont ? settings.minFont : fontBase;
+			var width     = elemWidth > settings.maxWidth ? settings.maxWidth : elemWidth < settings.minWidth ? settings.minWidth : elemWidth;
+			var fontBase  = width / settings.fontRatio;
+			var fontSize  = fontBase > settings.maxFont ? settings.maxFont : fontBase < settings.minFont ? settings.minFont : fontBase;
 
 			$elem.css('font-size', fontSize + 'px');
 		};
@@ -362,9 +451,9 @@ function fullCopy(stuff)
 function anItem()
 {
 	var sub_elem = document.createElement(arguments[0]);
-	if ((typeof(arguments[1]) != "undefined") && (arguments[1] != '')) $(sub_elem).attr('class', arguments[1]);
-	if ((typeof(arguments[2]) != "undefined") && ((arguments[2] != '') || (arguments[2] == 0))) $(sub_elem).html(arguments[2]);
-	if ((typeof(arguments[3]) != "undefined") && (arguments[3] != '')) $(sub_elem).css('backgroundImage', arguments[3]);
+	if ((typeof(arguments[1]) !== "undefined") && (arguments[1] !== '')) { $(sub_elem).attr('class', arguments[1]); }
+	if ((typeof(arguments[2]) !== "undefined") && ((arguments[2] !== '') || (arguments[2] === 0))) { $(sub_elem).html(arguments[2]); }
+	if ((typeof(arguments[3]) !== "undefined") && (arguments[3] !== '')) { $(sub_elem).css('backgroundImage', arguments[3]); }
 
 	return sub_elem;
 }
@@ -378,9 +467,11 @@ function createCard( card )
 	var card_url = getCardUrl('eses', card_image);
 	// Get card set
 	var cardset = cardSet[card.set];
-	if (typeof(cardset) == "undefined") cardset = "";
-	if (cardset != "")
+	if (typeof(cardset) === "undefined") { cardset = ""; }
+	if (cardset !== "")
+	{
 		cardset = 'url("' + cardSetUrl + cardset + card_extension + '")';
+	}
 	// Create card holder
 	var elem = document.createElement('li');
 	$(elem).attr('id', 'card_' + card.id);
@@ -393,17 +484,20 @@ function createCard( card )
 	$(elem).attr('class', 'card');
 	// Bind mousemove to show card as tooltip
 	$(elem).bind('mouseleave', function(e) {
-		if (typeof($('#tooltip_card')) != "undefined")
+		if (typeof($('#tooltip_card')) !== "undefined")
+		{
 			$('#tooltip_card').remove();
+		}
 	});
 	// Bind mousemove to show card as tooltip
 	$(elem).bind('mouseenter', function(e) {
 		var tooltipX = $(this).width() + $(this).position().left + 4; // = e.pageX + 10; // <-- to move next to the pointer
 		var tooltipY = e.pageY - 75;
 
-		if (typeof($('#tooltip_card')) != "undefined")
+		if (typeof($('#tooltip_card')) !== "undefined")
+		{
 			$('#tooltip_card').remove();
-
+		}
 		var tooltip = document.createElement('img');
 		$(tooltip).attr('id', 'tooltip_card');
 		var cardpicture = getCardUrl(locale, card_image);
@@ -463,7 +557,7 @@ function addCard(card_id)
 	for (var i in hs_cards[locale])
 	{
 		// If found, take it
-		if (hs_cards[locale][i].id == card_id)
+		if (hs_cards[locale][i].id === card_id)
 		{
 			found = true;
 			card  = hs_cards[locale][i];
@@ -485,14 +579,14 @@ function addCard(card_id)
 		var theItem = $('#card_' + card.id);
 		var count = parseInt(theItem.attr('card_count'));
 		// Does it is 2? Error and exit
-		if ((!my_deck_isarena) && (count == 2))
+		if ((!my_deck_isarena) && (count === 2))
 		{
 			$.simplyToast(texts[locale].onlytwo + theItem.attr('card_name') + "'!", 'danger');
 			return;
 		}
 		// Does it is 1 and legendary? Error and exit
 		var kind = parseInt(theItem.attr('card_quality'));
-		if ((!my_deck_isarena) && ((count == 1) && (kind == 5)))
+		if ((!my_deck_isarena) && ((count === 1) && (kind === 5)))
 		{
 			$.simplyToast(texts[locale].onlyone + theItem.attr('card_name') + "'!", 'danger');
 			return;
@@ -505,7 +599,7 @@ function addCard(card_id)
 	}
 	// No card found? Add it! (speed up things taking now some re-used values)
 	var newCard = createCard(card);
-	var newCost = parseInt($(newCard).attr('card_cost'))
+	var newCost = parseInt($(newCard).attr('card_cost'));
 	var newName = $(newCard).attr('card_name');
 	// Look for the right position ordered by cost and then name
 	var inserted = false;
@@ -514,7 +608,7 @@ function addCard(card_id)
 	{
 		var actualValue = parseInt($(cards[ctr]).attr('card_cost'));
 		var actualName = $(cards[ctr]).attr('card_name');
-		if ((newCost < actualValue) || ((newCost == actualValue) && (newName.localeCompare(actualName) < 0)))
+		if ((newCost < actualValue) || ((newCost === actualValue) && (newName.localeCompare(actualName) < 0)))
 		{
 			cards[ctr].parentNode.insertBefore(newCard, cards[ctr]);
 			inserted = true;
@@ -522,15 +616,19 @@ function addCard(card_id)
 		}
 	}
 	// If an order is not found, insert at the end
-	if (inserted == false)
+	if (inserted === false)
+	{
 		$(deck).append(newCard);
+	}
 }
 // ///////////////
 function removeCard(card_id)
 {
 	var idText = '#card_' + card_id;
 	if ($(idText).length > 0)
+	{
 		$(idText).remove();
+	}
 }
 // ///////////////
 function pickCard(event, card)
@@ -554,11 +652,11 @@ function pickRightCard(card)
 	var card_cost	 = parseInt($(card).attr('card_cost'));
 	var card_name	 = $(card).attr('card_name');
 
-	if (card_count == 0) return;
+	if (card_count === 0) { return; }
 	card_count--;
 	cardCounterDraw();
 	$(card).attr('card_count', card_count);
-	if (card_count == 0)
+	if (card_count === 0)
 	{
 		$(card).find('span.count').html('');
 		$(card).find('span.cover').css('background-color', 'rgba(0, 0, 0, 0.75)');
@@ -567,9 +665,13 @@ function pickRightCard(card)
 	} else {
 		$(card).find('span.count').html(card_count);
 		if (!$(card).find('span.bg').hasClass('withcounter'))
+		{
 			$(card).find('span.bg').addClass('withcounter');
+		}
 		if (!$(card).find('span.shadow.overlay').hasClass('withcounter'))
+		{
 			$(card).find('span.shadow.overlay').addClass('withcounter');
+		}
 	}
 }
 // ///////////////
@@ -581,23 +683,27 @@ function pickWrongCard(card)
 	var card_cost	 = parseInt($(card).attr('card_cost'));
 	var card_name	 = $(card).attr('card_name');
 
-	if ((!my_deck_isarena) && ((card_count == 2) || ((card_count == 1) && (card_quality == 5)))) return;
+	if ((!my_deck_isarena) && ((card_count === 2) || ((card_count === 1) && (card_quality === 5)))) { return; }
 
-	card_count++;
-	cardCounterRestore();
 	for (var idx = 0; idx < my_deck_cards.length; idx++)
 	{
-		if (my_deck_cards[idx].card == card_id)
+		if (my_deck_cards[idx].card === card_id)
 		{
-			if (card_count <= my_deck_cards[idx].count)
+			if (card_count + 1 <= my_deck_cards[idx].count)
 			{
+				card_count++;
+				cardCounterRestore();
 				$(card).find('span.cover').css('background-color', 'rgba(0, 0, 0, 0)');
 				$(card).attr('card_count', card_count);
 				$(card).find('span.count').html(card_count);
 				if (!$(card).find('span.bg').hasClass('withcounter'))
+				{
 					$(card).find('span.bg').addClass('withcounter');
+				}
 				if (!$(card).find('span.shadow.overlay').hasClass('withcounter'))
+				{
 					$(card).find('span.shadow.overlay').addClass('withcounter');
+				}
 			}
 			break;
 		}
@@ -612,11 +718,11 @@ function restoreCard(card_id)
 	var card_cost	 = parseInt($(card).attr('card_cost'));
 	var card_name	 = getNameFromCard(locale, card_id);
 
-	if ((!my_deck_isarena) && ((card_count == 2) || ((card_count == 1) && (card_quality == 5)))) return;
+	if ((!my_deck_isarena) && ((card_count === 2) || ((card_count === 1) && (card_quality === 5)))) { return; }
 
 	for (var idx = 0; idx < my_deck_cards.length; idx++)
 	{
-		if (my_deck_cards[idx].card == card_id)
+		if (my_deck_cards[idx].card === card_id)
 		{
 			$(card).find('span.cover').css('background-color', 'rgba(0, 0, 0, 0)');
 			$(card).attr('card_count', my_deck_cards[idx].count);
@@ -640,9 +746,9 @@ function cardCounterRemain(cards)
 	// Assign color according to quantity
 	var theClass = "zero";
 	var total = parseInt($('#cards_total').text());
-	if (cards > 0) theClass = "few";
-	if (cards > 0.3333*total) theClass = "middle";
-	if (cards > 0.6666*total) theClass = "many";
+	if (cards > 0) { theClass = "few"; }
+	if (cards > 0.3333*total) { theClass = "middle"; }
+	if (cards > 0.6666*total) { theClass = "many"; }
 	$('#cards_remain').removeClass().addClass(theClass);
 	// Set card number
 	$('#cards_remain').text(cards);
@@ -651,19 +757,25 @@ function cardCounterReset()
 {
 	var total = 0;
 	var remain = 0;
-	if (my_deck_cards.length != 0)
+	if (my_deck_cards.length !== 0)
 	{
 		for (var idx in my_deck_cards)
+		{
 			total = total + parseInt(my_deck_cards[idx].count);
+		}
 		remain = total;
 	}
 	cardCounterSet(total);
 	cardCounterRemain(remain);
 
-	if (my_deck_cards.length != 0)
+	if (my_deck_cards.length !== 0)
+	{
 		cardCounterShow();
+	}
 	else
+	{
 		cardCounterHide();
+	}
 
 	// Hide subwindows
 	subviewStatus(0);
@@ -672,14 +784,18 @@ function cardCounterDraw()
 {
 	var remain = parseInt($('#cards_remain').text());
 	if (remain > 0)
+	{
 		cardCounterRemain(remain - 1);
+	}
 }
 function cardCounterRestore()
 {
 	var remain = parseInt($('#cards_remain').text());
 	var total = parseInt($('#cards_total').text());
 	if (remain < total)
+	{
 		cardCounterRemain(remain + 1);
+	}
 }
 
 // ///////////////// ///////////////// ///////////////// ///////////////
@@ -690,7 +806,7 @@ function cardCounterRestore()
 function showDeckCore()
 {
 	// If no deck, finish here
-	if (my_deck_cards.length == 0) return;
+	if (my_deck_cards.length === 0) return;
 	// Delete previous deck
 	visibleControls(false);
 	$("#deck > li").remove();
@@ -708,7 +824,9 @@ function showDeckCore()
 	{
 		count = my_deck_cards[idx].count;
 		while (count--)
+		{
 			addCard(my_deck_cards[idx].card);
+		}
 	}
 	// Show controls
 	visibleControls(true);
@@ -733,7 +851,9 @@ function deleteDeck()
 
 	// Remove internal data
 	if (my_deck_cards.length > 0)
+	{
 		my_deck_cards.splice(0, my_deck_cards.length);
+	}
 	my_deck_hero	= 0;
 	my_deck_name	= texts[locale].unnamed;
 	my_deck_isarena = false;
@@ -747,13 +867,15 @@ function createDeckLine( deck, idx, candelete )
 {
 	// Check if valid value
 	if ( idx >= deck.length )
+	{
 		return;
+	}
 
 	// Do unique IDs
-	var midId = ( deck == jDecks ) ? 'custom_' : 'basic_';
+	var midId = ( deck === jDecks ) ? 'custom_' : 'basic_';
 
 	// check if deck can be deleted
-	var allowdel = ( typeof( candelete ) == 'undefined' ) ? true : candelete;
+	var allowdel = ( typeof( candelete ) === 'undefined' ) ? true : candelete;
 
 	// Take deck name
 	var name = deck[idx].name;
@@ -766,6 +888,7 @@ function createDeckLine( deck, idx, candelete )
 	$(elem).attr('class', classtxt);
 	// Get Deck max. expansion for line background
 	var deckMaxSet = getDeckSet( deck[idx].cards );
+	var deckSeason = getDeckSeason( deck[idx].cards );
 	$(elem).css('backgroundImage', 'url("' + cardSetUrl + 'bg_' + deckMaxSet + card_extension + '")');
 
 	$(elem).bind('mousemove', function() { $(this).removeClass('lineoff').addClass('lineon'); });
@@ -781,10 +904,10 @@ function createDeckLine( deck, idx, candelete )
 		}
 	});
 
-	// Deck class icon
+	// Deck season icon
 	var aSpan = document.createElement('span');
-	$(aSpan).attr('class', 'classicon');
-	$(aSpan).css('backgroundImage', 'url("' + heroesUrl + heroname + card_extension + '")');
+	$(aSpan).attr('class', 'seasonicon');
+	$(aSpan).css('backgroundImage', 'url("' + seasonsUrl + deckSeason + card_extension + '")');
 	$(elem).append( aSpan );
 
 	// Deck name text
@@ -810,7 +933,7 @@ function createDeckLine( deck, idx, candelete )
 			if ( deleteDeckFromList( deck, idx ) )
 			{
 				// Show store button if necessary
-				if ( name == my_deck_name )
+				if ( name === my_deck_name )
 					$('.save.store').show( 400, 'swing' );
 				// Finally, update list: Hide window, update and show it again
 				subviewStatus( 0 );
@@ -832,7 +955,7 @@ function createDeckLine( deck, idx, candelete )
 	}
 
 	$(aSpan).mouseenter(function(e){
-		if (typeof($(this).attr('title_' + locale)) != "undefined")
+		if (typeof($(this).attr('title_' + locale)) !== "undefined")
 		{
 			var tooltip = document.createElement('DIV');
 			tooltip.id = 'tooltip';
@@ -871,7 +994,7 @@ function createRollerLine( heroclass )
 	{
 		// Hide all
 		for (var i = 0; i < 12; i++)
-			if (i != heroclass)
+			if (i !== heroclass)
 			{
 				$('.hero' + i).hide();
 				$('#folder_' + i).removeClass('up');
@@ -894,10 +1017,15 @@ function createRollerLine( heroclass )
 		}
 	});
 
+	// Hero class icon
+	var aSpan = document.createElement('div');
+	$(aSpan).attr('class', 'classicon');
+	$(aSpan).css('backgroundImage', 'url("' + heroesUrl + heroname + card_extension + '")');
+	$(elem).append( aSpan );
+
 	// Hero name text
-	var aSpan = document.createElement('span');
+	aSpan = document.createElement('span');
 	$(aSpan).attr('class', heroname);
-	$(aSpan).css('margin-left', '32px');
 	$(aSpan).html(factions[locale][heroclass]);
 	$(aSpan).fitname();
 	$(elem).append(aSpan);
@@ -912,15 +1040,15 @@ function updateDeckList( deck )
 	// Take custom decks by default
 	var dList     = $( '#importinterncontent > li' );
 	var container = $( '#importinterncontent' );
-	var deckCount = ( jDecks == null ) ? 0 : jDecks.length;
+	var deckCount = ( jDecks === null ) ? 0 : jDecks.length;
 	var candelete = true;
 
-	if ( deck == jBasicDecks ) {
+	if ( deck === jBasicDecks ) {
 		dList     = $( '#importbasiccontent > li' );
 		container = $( '#importbasiccontent' );
 		deckCount = jBasicDecks.length;
 		candelete = false;
-	} else if ( deck != jDecks ) {
+	} else if ( deck !== jDecks ) {
 		$.simplyToast( 'uh oh!', 'danger' );
 		return;
 	}
@@ -933,14 +1061,14 @@ function updateDeckList( deck )
 		sortDecks( deck );
 
 	// If no basic decks, create "folders" to organize decks by class
-	if (deck != jBasicDecks)
+	if (deck !== jBasicDecks)
 	{
 		var lastclass = -1;
 		// For each one, add to deck list container
 		for (var idx = 0; idx < deckCount; idx++ )
 		{
 			// If new class, put roller line
-			if (deck[idx].hero != lastclass)
+			if (deck[idx].hero !== lastclass)
 			{
 				// keep track where we are
 				lastclass = deck[idx].hero;
@@ -958,11 +1086,11 @@ function updateDeckList( deck )
 	}
 
 	// Basic decks? finish
-	if ( deck == jBasicDecks )
+	if ( deck === jBasicDecks )
 		return;
 
 	// Finally, show status message
-	if ( deckCount == 0 )
+	if ( deckCount === 0 )
 	{
 		$( '#deckliststatus' ).attr('title', 'emptydecklist');
 		$( '#deckliststatus' ).html(texts[locale].emptydecklist);
@@ -1000,13 +1128,13 @@ function loadDeckFromList( deck, idx )
 	{
 		$.simplyToast( texts[locale].errornodeck, 'danger' );
 		result = false;
-	} else if ( typeof(deck[idx].name ) == "undefined" ) {
+	} else if ( typeof(deck[idx].name ) === "undefined" ) {
 		$.simplyToast( texts[locale].errornoname, 'danger' );
 		result = false;
-	} else if ( typeof( deck[idx].hero ) == "undefined" ) {
+	} else if ( typeof( deck[idx].hero ) === "undefined" ) {
 		$.simplyToast( texts[locale].errornohero, 'danger' );
 		result = false;
-	} else if ( typeof(deck[idx].cards) == "undefined" ) {
+	} else if ( typeof(deck[idx].cards) === "undefined" ) {
 		$.simplyToast( texts[locale].errornocards, 'danger' );
 		result = false;
 	}
@@ -1020,7 +1148,7 @@ function loadDeckFromList( deck, idx )
 		my_deck_cards = fullCopy( deck[idx].cards );
 		my_deck_hero = parseInt( deck[idx].hero );
 		my_deck_name = deck[idx].name;
-		my_deck_isarena = ( typeof( deck[idx].isarena ) == "undefined" ) ? false : deck[idx].isarena;
+		my_deck_isarena = ( typeof( deck[idx].isarena ) === "undefined" ) ? false : deck[idx].isarena;
 		// Update charts with card list
 		updateChart(my_deck_cards);
 	}
@@ -1045,29 +1173,29 @@ function updateChart(cards)
 		card = cards[idx];
 		// Update mana chart
 		value = Math.max(Math.min(getCostFromCard(card.card), 7), -1);
-		if (value != -1)
+		if (value !== -1)
 		{
 			mana[value] += card.count;
 		}
 		// Update attack chart
 		value = Math.max(Math.min(getAttackFromCard(card.card), 7), -1);
-		if (value != -1)
+		if (value !== -1)
 		{
 			attack[value] += card.count;
 		}
 		// Update health chart
 		value = Math.max(Math.min(getHealthFromCard(card.card), 7), -1);
-		if (value != -1)
+		if (value !== -1)
 		{
 			health[value] += card.count;
 		}
 		// Update pie chart
 		value = getTypeFromCard(card.card);
-		if (value == 'minion')
+		if (value === 'minion')
 			pie[0].value += card.count;
-		else if (value == 'spell')
+		else if (value === 'spell')
 			pie[1].value += card.count;
-		else if (value == 'weapon')
+		else if (value === 'weapon')
 			pie[2].value += card.count;
 	}
 	// Assign new chart values
@@ -1102,7 +1230,7 @@ function localSaveDeck()
 function getDecks()
 {
 	// Toggle?
-	var toggle = ($('#importdecks').css('display') != 'none') ? 7 : 5;
+	var toggle = ($('#importdecks').css('display') !== 'none') ? 7 : 5;
 	subviewStatus(toggle);
 }
 // ///////////////
@@ -1111,18 +1239,18 @@ function exportAllDecks()
 {
 	// Get file name
 	var filename = $('#jsonfilename').val();
-	if ((filename == '') || (filename == texts[locale].jsonfilename))
+	if ((filename === '') || (filename === texts[locale].jsonfilename))
 	{
 		$.simplyToast(texts[locale].jsonerror, 'danger');
 		return;
 	}
 	// Check for extension
-	if (filename.indexOf('.') == -1)
+	if (filename.indexOf('.') === -1)
 		filename += '.deck.json';
 
 	// Get text
 	var text = JSON.stringify(jDecks);
-	if (text == '')
+	if (text === '')
 	{
 		$.simplyToast(texts[locale].noexporterror, 'danger');
 		return;
@@ -1170,13 +1298,13 @@ function importAllDecks(e)
 				// so we can check each one with the actual list, avoiding the new ones added at the end 
 				for (var j = 0; j < nDecks; j++)
 					if (
-						(dName == jDecks[j].name.toLowerCase()) && 
-						(newDecks[i].cards.length == jDecks[j].cards.length) && 
-						(newDecks[i].hero == jDecks[j].hero)
+						(dName === jDecks[j].name.toLowerCase()) && 
+						(newDecks[i].cards.length === jDecks[j].cards.length) && 
+						(newDecks[i].hero === jDecks[j].hero)
 					) deckDupped = true;
 
 				// Found a valid one... copy it
-				isarena = (typeof(newDecks[i].isarena) == "undefined") ? false : newDecks[i].isarena;
+				isarena = (typeof(newDecks[i].isarena) === "undefined") ? false : newDecks[i].isarena;
 				if (!deckDupped)
 				{
 					var result = checkDeckIDs(newDecks[i].cards);
@@ -1186,7 +1314,7 @@ function importAllDecks(e)
 
 			// Show buttons if needed
 			// No saved decks? Don't show the load button
-			if ((jDecks == null) || (jDecks.length == 0))
+			if ((jDecks === null) || (jDecks.length === 0))
 			{
 				$('.load.store').hide();
 				$('.put.store').hide();
@@ -1215,7 +1343,7 @@ function importAllDecks(e)
 // ///////////////
 function toggleFlags()
 {
-	var toggle = ($('#flagsfolder').css('display') != 'none') ? 0 : 8;
+	var toggle = ($('#flagsfolder').css('display') !== 'none') ? 0 : 8;
 	subviewStatus(toggle);
 }
 // ///////////////
@@ -1236,7 +1364,7 @@ function refreshLocale(loc)
 	$('#flagbutton').attr('title', $('.' + loc + '.flag').attr('title_' + loc));
 
 	// Reset name (just in case)
-	if (my_deck_name == texts[locale].unnamed)
+	if (my_deck_name === texts[locale].unnamed)
 		my_deck_name = texts[loc].unnamed;
 
 	// Store new locale
@@ -1282,27 +1410,27 @@ function refreshLocale(loc)
 // Show / Toggle import folder
 function toggleImportFolder()
 {
-	var toggle = ($('#importfolder').css('display') != 'none') ? 0 : 6;
+	var toggle = ($('#importfolder').css('display') !== 'none') ? 0 : 6;
 	subviewStatus(toggle);
 }
 // Show / Toggle storage folder
 function toggleStoreFolder()
 {
-	var toggle = ($('#storefolder').css('display') != 'none') ? 0 : 7;
+	var toggle = ($('#storefolder').css('display') !== 'none') ? 0 : 7;
 	subviewStatus(toggle);
 }
 // Show / Toggle Import from Internal Data controls
 function loadDeck()
 {
 	// Toggle?
-	var toggle = ($('#importintern').css('display') != 'none') ? 0 : 3;
+	var toggle = ($('#importintern').css('display') !== 'none') ? 0 : 3;
 	subviewStatus(toggle);
 }
 // Show / Toggle Import from Basic Decks
 function loadBasicDeck()
 {
 	// Toggle?
-	var toggle = ($('#importbasic').css('display') != 'none') ? 0 : 9;
+	var toggle = ($('#importbasic').css('display') !== 'none') ? 0 : 9;
 	subviewStatus(toggle);
 }
 // ///////////////
@@ -1310,7 +1438,7 @@ function loadBasicDeck()
 function importFromHtml()
 {
 	// Toggle?
-	var toggle = ($('#importhtml').css('display') != 'none') ? 6 : 2;
+	var toggle = ($('#importhtml').css('display') !== 'none') ? 6 : 2;
 	subviewStatus(toggle);
 }
 // ///////////////
@@ -1318,7 +1446,7 @@ function importFromHtml()
 function importFromUrl()
 {
 	// Toggle?
-	var toggle = ($('#importurl').css('display') != 'none') ? 6 : 1;
+	var toggle = ($('#importurl').css('display') !== 'none') ? 6 : 1;
 	subviewStatus(toggle);
 }
 // ///////////////
@@ -1326,7 +1454,7 @@ function importFromUrl()
 function putDecks()
 {
 	// Toggle?
-	var toggle = ($('#exportdecks').css('display') != 'none') ? 7 : 4;
+	var toggle = ($('#exportdecks').css('display') !== 'none') ? 7 : 4;
 	subviewStatus(toggle);
 }
 // ///////////////
@@ -1492,30 +1620,30 @@ function loadFromUrl()
 // ///////////////
 function importSuccessful(result)
 {
-	if (result == null)
+	if (result === null)
 	{
 		$.simplyToast(texts[locale].urlimporterror, 'danger');
 		return;
 	}
 
-	var toast = (result.errvalue == 1) ? 'danger' : 'warning';
+	var toast = (result.errvalue === 1) ? 'danger' : 'warning';
 
-	if (result.errcode != "")
+	if (result.errcode !== "")
 	{
 		$.simplyToast(result.errcode, toast);
-		if (result.errvalue == 1)
+		if (result.errvalue === 1)
 			return;
 	}
 
 	// Empty cards? warning
-	if (result.cards.length == 0)
+	if (result.cards.length === 0)
 	{
 		$.simplyToast(texts[locale].errornocards, 'danger');
 		return;
 	}
 
 	// No name? use default
-	if (result.name == '')
+	if (result.name === '')
 	{
 		// search for default name in deck list
 		var tmpname = texts[locale].unnamed;
@@ -1526,14 +1654,14 @@ function importSuccessful(result)
 		{
 			// If default name is used, we will number the next one
 			for (var idx = 0; idx < jDecks.length; idx++)
-				if (tmpname == jDecks[idx].name)
+				if (tmpname === jDecks[idx].name)
 				{
 					count++;
 					// So, now, let's try default name + count to see if its used
 					tmpname = texts[locale].unnamed + ' (' + count + ')';
 					break;
 				}
-			allright = (idx == jDecks.length);
+			allright = (idx === jDecks.length);
 		}
 		// found valid name: assign it (default one, or default + count)
 		result.name = tmpname;
@@ -1549,7 +1677,7 @@ function importSuccessful(result)
 	// And deck data (hero and cards) from url
 	my_deck_hero    = result.hero;
 	my_deck_cards   = fullCopy(result.cards);
-	my_deck_isarena = (typeof(result.isarena) == "undefined") ? false : result.isarena;
+	my_deck_isarena = (typeof(result.isarena) === "undefined") ? false : result.isarena;
 
 	// Update charts with card list
 	updateChart(my_deck_cards);
@@ -1588,14 +1716,14 @@ function changeName()
 	var oldname = my_deck_name;
 
 	// If name on textbox is same as 
-	if (newname == my_deck_name)
+	if (newname === my_deck_name)
 		return;
 
 	// Assign new name to active deck
 	my_deck_name = newname;
 
 	// Check if active deck is saved;
-	if ($('.save.store').css('display') != 'none')
+	if ($('.save.store').css('display') !== 'none')
 		// No? End
 		return;
 
@@ -1603,7 +1731,7 @@ function changeName()
 	for (var i = 0; i < jDecks.length; i++)
 	{
 		// If deck in position has same name and same hero and same arena kind ...
-		if ((jDecks[i].name == oldname) && (jDecks[i].hero == my_deck_hero) && (jDecks[i].isarena == my_deck_isarena))
+		if ((jDecks[i].name === oldname) && (jDecks[i].hero === my_deck_hero) && (jDecks[i].isarena === my_deck_isarena))
 		{
 			jDecks[i].name = newname;
 			// Store deck array
@@ -1614,6 +1742,17 @@ function changeName()
 
 	// Update list
 	updateDeckList( jDecks );
+}
+// ///////////////
+
+
+// ///////////////
+// Wait to continue the given milliseconds
+// ///////////////
+function setDelay( ms )
+{
+	ms += new Date().getTime();
+	while ( new Date() < ms ) {}
 }
 // ///////////////
 
@@ -1635,7 +1774,7 @@ $(document).ready(function(e)
 	// for all textarea and input type text controls
 	$('input[type=text]').on('keydown', function (e)
 	{
-		if (e.which == 13)
+		if (e.which === 13)
 		{
 			//  data-bindcontrol='mainButton'
 			var mainButton = $(this).attr('data-bindedto');
@@ -1645,8 +1784,8 @@ $(document).ready(function(e)
 				$(this).blur();
 
 			return false;
-		} else if (e.which == 27) {
-			if ($(this).attr('id') == 'deck_name')
+		} else if (e.which === 27) {
+			if ($(this).attr('id') === 'deck_name')
 				$(this).val(my_deck_name);
 			$(this).blur();
 
@@ -1693,7 +1832,7 @@ $(document).ready(function(e)
 	// Start tooltips for present elements
 	$('.icon, .flag, .import, .store, .folder, .hscounter, .intern').bind('mouseenter', function(e) 
 	{
-		if (typeof($(this).attr('title_' + locale)) != "undefined")
+		if (typeof($(this).attr('title_' + locale)) !== "undefined")
 		{
 			// Delete previous one(s)
 			while ($('#tooltip').length > 0)
@@ -1732,7 +1871,7 @@ $(document).ready(function(e)
 	// Get data version from storage
 	var version = retrieveFromStorage(storageVersion);
 	// If no version or it's older, check and update stuff
-	if ((version == []) || (version == null) || (version == '') || (version < HSVersion))
+	if ((version === []) || (version === null) || (version === '') || (version < HSVersion))
 	{
 		// Update version and store it
 		version = HSVersion;
@@ -1747,7 +1886,7 @@ $(document).ready(function(e)
 	}
 
 	// No saved decks? Don't show the load button
-	if ((jDecks == null) || (jDecks.length == 0))
+	if ((jDecks === null) || (jDecks.length === 0))
 	{
 		$('.load.store').hide();
 		$('.put.store').hide();
@@ -1763,7 +1902,7 @@ $(document).ready(function(e)
 
 	// Get locale from storage (spanish as default ^^)
 	locale = retrieveFromStorage(storageLocale);
-	if (allLocales.indexOf(locale) == -1)
+	if (allLocales.indexOf(locale) === -1)
 		locale = 'eses';
 
 	// Assign retrieved locale
@@ -1808,7 +1947,7 @@ $(document).ready(function(e)
 	$('#deck_class').bind('click', function(e)
 	{
 		// Show chart if not clicking on name
-		if (e.target.id != "deck_name")
+		if (e.target.id !== "deck_name")
 			ajHSChart.Show();
 	});
 
