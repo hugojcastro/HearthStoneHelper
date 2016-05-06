@@ -994,12 +994,14 @@ function createRollerLine( heroclass )
 	{
 		// Hide all
 		for (var i = 0; i < 12; i++)
-			if (i !== heroclass)
+		{
+			if (i !== parseInt(heroclass))
 			{
 				$('.hero' + i).hide();
 				$('#folder_' + i).removeClass('up');
 				$('#folder_' + i).addClass('down');
 			}
+		}
 		// Showing decks?
 		if ($('#folder_' + heroclass).hasClass('up'))
 		{
